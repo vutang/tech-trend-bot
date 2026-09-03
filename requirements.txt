@@ -2,3 +2,4 @@ feedparser>=6.0,<7
 PyYAML>=6.0,<7
 anthropic>=1.0,<2
 requests>=2.32,<3
+google-generativeai>=0.8,<1

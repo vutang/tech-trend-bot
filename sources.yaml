@@ -1,27 +1,52 @@
 sources:
-  - name: Hacker News (100+ điểm)
-    url: https://hnrss.org/frontpage?points=100
-    category: general
+  # - name: Hacker News (100+ điểm)
+  #   url: https://hnrss.org/frontpage?points=100
+  #   category: general
 
-  - name: TechCrunch
-    url: https://techcrunch.com/feed/
-    category: general
+  # - name: TechCrunch
+  #   url: https://techcrunch.com/feed/
+  #   category: general
 
-  - name: The Verge
-    url: https://www.theverge.com/rss/index.xml
-    category: general
+  # - name: The Verge
+  #   url: https://www.theverge.com/rss/index.xml
+  #   category: general
 
-  - name: Hackaday
-    url: https://hackaday.com/feed/
+  # - name: Hackaday
+  #   url: https://hackaday.com/feed/
+  #   category: embedded
+
+  # - name: arXiv cs.AI
+  #   url: https://rss.arxiv.org/rss/cs.AI
+  #   category: ai-ml
+
+  # - name: arXiv cs.NI (Networking)
+  #   url: https://rss.arxiv.org/rss/cs.NI
+  #   category: embedded
+
+  # Linux Foundation blog: phủ rộng open source (Linux kernel, embedded, AI,
+  # telecom, cloud). Bài không liên quan sẽ bị lọc bởi relevance score.
+  - name: Linux Foundation Blog
+    url: https://www.linuxfoundation.org/blog/rss.xml
     category: embedded
 
-  - name: arXiv cs.AI
-    url: https://rss.arxiv.org/rss/cs.AI
-    category: ai-ml
-
-  - name: arXiv cs.NI (Networking)
-    url: https://rss.arxiv.org/rss/cs.NI
+  # kernel.org release feed: theo dõi các bản phát hành kernel mới
+  # (mainline, stable, longterm). Rất hữu ích cho kỹ sư embedded/firmware.
+  - name: Linux Kernel Releases
+    url: https://kernel.org/feeds/kdist.xml
     category: embedded
+
+    # eLinux.org Recent Changes: Theo dõi các cập nhật mới nhất trên wiki của cộng đồng
+  # Embedded Linux. Feed này chứa các thay đổi/vá lỗi kỹ thuật rất sâu.
+  - name: eLinux Recent Changes
+    url: https://elinux.org/index.php?title=Special:RecentChanges&feed=rss
+    category: embedded
+
+  # LWN.net Front Page: Nguồn tin số 1 về Linux kernel & cộng đồng.
+  # Phủ rộng các thay đổi kernel mới nhất, phân tích kỹ thuật sâu.
+  - name: LWN.net Front Page
+    url: https://lwn.net/headlines/rss
+    category: embedded
+
 
   # Gợi ý mở rộng cho mảng 5G/RAN/telecom chuyên sâu hơn: RCR Wireless,
   # Light Reading. Hai trang này không có RSS chính thức được xác nhận lúc

@@ -47,9 +47,11 @@ def build_digest(entries: list[dict]) -> str:
         label = CATEGORY_LABEL.get(category, category)
         lines.append(f"\n== {label} ==")
         for e in grouped[category]:
-            lines.append(f"• {e['title']}")
+            # Relevance badge: chỉ hiển thị khi điểm cao (để nổi bật tin quan trọng)
+            badge = " 🔥" if e.get("relevance", 3) >= 5 else ""
+            lines.append(f"• {e['title']}{badge}")
             lines.append(f"  {e['summary_vi']}")
-            lines.append(f"  {e['link']}")
+            lines.append(f"  🔗 {e['link']}")  # icon để link dễ nhận ra trong plain text
 
     return "\n".join(lines)
 
@@ -82,13 +84,16 @@ def send_digest(entries: list[dict]) -> None:
     token = os.environ["TELEGRAM_BOT_TOKEN"]
     chat_id = os.environ["TELEGRAM_CHAT_ID"]
 
-    for chunk in chunk_text(text):
+    chunks = chunk_text(text)
+    for i, chunk in enumerate(chunks):
         resp = requests.post(
             TELEGRAM_API.format(token=token),
             data={
                 "chat_id": chat_id,
                 "text": chunk,
-                "disable_web_page_preview": True,
+                # Chỉ bật preview cho chunk đầu tiên (bài quan trọng nhất)
+                # Các chunk sau tắt preview để tránh spam ảnh preview
+                "disable_web_page_preview": i > 0,
             },
             timeout=15,
         )
