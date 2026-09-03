@@ -12,6 +12,7 @@ import requests
 
 TELEGRAM_API = "https://api.telegram.org/bot{token}/sendMessage"
 MIN_RELEVANCE = 2  # bỏ bớt tin bị chấm điểm liên quan quá thấp
+MAX_DAILY_ITEMS = 5  # chỉ gửi tối đa N tin liên quan nhất mỗi ngày
 TELEGRAM_MAX_LEN = 3900  # để dư so với giới hạn cứng 4096 ký tự của Telegram
 
 CATEGORY_LABEL = {
@@ -27,11 +28,16 @@ def build_digest(entries: list[dict]) -> str:
     if not filtered:
         return "Hôm nay không có tin mới đáng chú ý."
 
+    # Sắp xếp TOÀN BỘ bài (không phân biệt category) theo điểm liên quan,
+    # rồi chỉ giữ lại top N — đây là bước giới hạn số lượng tin mỗi ngày.
+    filtered.sort(key=lambda e: e.get("relevance", 3), reverse=True)
+    top = filtered[:MAX_DAILY_ITEMS]
+
+    # Group để hiển thị theo category; vì `top` đã sort theo relevance,
+    # thứ tự trong từng group cũng tự động đúng, không cần sort lại.
     grouped: dict[str, list[dict]] = {}
-    for e in filtered:
+    for e in top:
         grouped.setdefault(e["category"], []).append(e)
-    for items in grouped.values():
-        items.sort(key=lambda e: e.get("relevance", 3), reverse=True)
 
     lines = ["Tech trend digest hôm nay"]
     ordered_categories = [c for c in CATEGORY_ORDER if c in grouped]
