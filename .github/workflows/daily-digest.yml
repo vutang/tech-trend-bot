@@ -1,3 +1,33 @@
+name: Daily tech trend digest
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 00:00 UTC = 07:00 giờ Hà Nội
+  workflow_dispatch:        # cho phép bấm chạy tay để test
+
+permissions:
+  contents: write            # cần để commit lại seen.json
+
+jobs:
+  run-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install -r requirements.txt
+
+      - name: Fetch, summarize & send
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python main.py
+
       - name: Commit updated state
         run: |
           git config user.name "tech-trend-bot"
