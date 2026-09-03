@@ -29,17 +29,16 @@ sources:
     url: https://www.linuxfoundation.org/blog/rss.xml
     category: embedded
 
-  # kernel.org release feed: theo dõi các bản phát hành kernel mới
-  # (mainline, stable, longterm). Rất hữu ích cho kỹ sư embedded/firmware.
-  - name: Linux Kernel Releases
-    url: https://kernel.org/feeds/kdist.xml
-    category: embedded
-
-    # eLinux.org Recent Changes: Theo dõi các cập nhật mới nhất trên wiki của cộng đồng
-  # Embedded Linux. Feed này chứa các thay đổi/vá lỗi kỹ thuật rất sâu.
-  - name: eLinux Recent Changes
-    url: https://elinux.org/index.php?title=Special:RecentChanges&feed=rss
-    category: embedded
+  # ĐÃ TẮT (2026-09-03): 2 nguồn dưới đây không phải bài viết thật, mỗi entry
+  # chỉ là metadata/diff, ra tin rất đều đặn nên chiếm hết slot top-5 mà
+  # không có nội dung — xem lại nếu muốn bật lại, cần thêm logic khác để
+  # không cạnh tranh trực tiếp với các nguồn có bài viết thật.
+  # - name: Linux Kernel Releases
+  #   url: https://kernel.org/feeds/kdist.xml
+  #   category: embedded
+  # - name: eLinux Recent Changes
+  #   url: https://elinux.org/index.php?title=Special:RecentChanges&feed=rss
+  #   category: embedded
 
   # LWN.net Front Page: Nguồn tin số 1 về Linux kernel & cộng đồng.
   # Phủ rộng các thay đổi kernel mới nhất, phân tích kỹ thuật sâu.
