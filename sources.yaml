@@ -1,0 +1,32 @@
+sources:
+  - name: Hacker News (100+ điểm)
+    url: https://hnrss.org/frontpage?points=100
+    category: general
+
+  - name: TechCrunch
+    url: https://techcrunch.com/feed/
+    category: general
+
+  - name: The Verge
+    url: https://www.theverge.com/rss/index.xml
+    category: general
+
+  - name: Hackaday
+    url: https://hackaday.com/feed/
+    category: embedded
+
+  - name: arXiv cs.AI
+    url: https://rss.arxiv.org/rss/cs.AI
+    category: ai-ml
+
+  - name: arXiv cs.NI (Networking)
+    url: https://rss.arxiv.org/rss/cs.NI
+    category: embedded
+
+  # Gợi ý mở rộng cho mảng 5G/RAN/telecom chuyên sâu hơn: RCR Wireless,
+  # Light Reading. Hai trang này không có RSS chính thức được xác nhận lúc
+  # viết code — hãy tự kiểm tra <domain>/feed hoặc <domain>/rss trước khi
+  # thêm vào, hoặc tạo feed qua rss.app/tương tự nếu trang không hỗ trợ.
+
+  # Khi mở sang phạm vi "đa lĩnh vực" (giai đoạn 4), chỉ cần thêm nguồn mới
+  # vào đây — không cần đổi code ở fetch.py/summarize.py.
