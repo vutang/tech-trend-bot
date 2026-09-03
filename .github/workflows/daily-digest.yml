@@ -33,10 +33,17 @@ jobs:
           git config user.name "tech-trend-bot"
           git config user.email "actions@github.com"
           
+          # Reset seen.json về trạng thái sạch trước khi pull
+          # để tránh lỗi "cannot pull with rebase: You have unstaged changes"
+          git checkout -- seen.json
+
           # Lấy các thay đổi mới nhất từ server về
           git pull --rebase origin master
+
+          # Ghi lại seen.json sau khi đã pull xong
           echo "[]" > seen.json
           git add seen.json
+
           # Kiểm tra xem có thay đổi thực sự không
           if ! git diff --cached --quiet; then
             git commit -m "update seen state"
