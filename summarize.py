@@ -15,13 +15,14 @@ Bước 3 — Claude Haiku (chỉ khi thực sự cần):
 import json
 import os
 import re
+import traceback
 
 import anthropic
 import google.generativeai as genai
 
 # ── Models ────────────────────────────────────────────────────────────────────
-GEMINI_FILTER_MODEL    = "gemini-2.5-flash-lite"    # bước 1: lọc — rẻ nhất
-GEMINI_SUMMARIZE_MODEL = "gemini-2.5-flash"         # bước 2: tóm tắt — cân bằng
+GEMINI_FILTER_MODEL    = "gemini-3.5-flash-lite"    # bước 1: lọc — rẻ nhất
+GEMINI_SUMMARIZE_MODEL = "gemini-3.5-flash"         # bước 2: tóm tắt — cân bằng
 CLAUDE_MODEL           = "claude-haiku-4-5-20251001" # bước 3: kỹ thuật sâu — chỉ khi cần
 
 # Bài có relevance >= ngưỡng này mới qua bước 2 (Gemini tóm tắt)
@@ -60,31 +61,32 @@ GEMINI_FILTER_PROMPT = (
     + _JSON_RULE
 )
 
-# Bước 2: Gemini Flash — tóm tắt tiếng Việt cho phần lớn bài
+# Bước 2: Gemini Flash — tóm tắt (giữ nguyên tiếng Anh) cho phần lớn bài
 GEMINI_SUMMARIZE_PROMPT = (
     "Bạn là trợ lý tổng hợp tin tức công nghệ cho kỹ sư embedded/firmware mảng 5G RAN.\n\n"
     "Với danh sách bài viết JSON (mỗi bài có title/link/summary), với MỖI bài trả về:\n"
     "- title: giữ nguyên tiêu đề gốc\n"
-    "- summary_vi: tóm tắt 1-2 câu tiếng Việt, nêu đúng thông tin chính, không nhận định chủ quan\n\n"
+    "- summary_vi: tóm tắt 1-2 câu BẰNG TIẾNG ANH (không dịch sang tiếng Việt), "
+    "nêu đúng thông tin chính, không nhận định chủ quan\n\n"
     'Dạng trả về: {"items": [{"title": "...", "summary_vi": "..."}, ...]}\n'
     + _JSON_RULE
 )
 
-# Bước 3: Claude Haiku — phân tích sâu cho bài kỹ thuật cao (relevance = 5)
+# Bước 3: Claude Haiku — phân tích sâu (giữ nguyên tiếng Anh) cho bài kỹ thuật cao (relevance = 5)
 CLAUDE_DEEP_PROMPT = (
     "Bạn là chuyên gia phân tích kỹ thuật cho kỹ sư embedded/firmware mảng 5G RAN.\n\n"
     "Các bài viết dưới đây được đánh giá là RẤT QUAN TRỌNG (relevance = 5).\n"
     "Với MỖI bài, hãy trả về:\n"
     "- title: giữ nguyên tiêu đề gốc\n"
-    "- summary_vi: tóm tắt 2-3 câu tiếng Việt, nêu rõ: công nghệ cụ thể, "
-    "tác động thực tế với kỹ sư embedded/5G, điểm đáng chú ý nhất\n\n"
+    "- summary_vi: tóm tắt 2-3 câu BẰNG TIẾNG ANH (không dịch sang tiếng Việt), nêu rõ: "
+    "công nghệ cụ thể, tác động thực tế với kỹ sư embedded/5G, điểm đáng chú ý nhất\n\n"
     'Dạng trả về: {"items": [{"title": "...", "summary_vi": "..."}, ...]}\n'
     + _JSON_RULE
 )
 
 
-def _parse_json_safe(raw_text: str) -> dict | None:
-    """Thử nhiều cách parse JSON từ text trả về của Claude.
+def _parse_json_safe(raw_text: str, source: str = "AI") -> dict | None:
+    """Thử nhiều cách parse JSON từ text trả về của model.
 
     Trả về dict nếu thành công, None nếu thất bại hoàn toàn.
     """
@@ -112,7 +114,7 @@ def _parse_json_safe(raw_text: str) -> dict | None:
 
     # Tất cả đều thất bại — log chi tiết để debug
     preview = raw_text[:200].replace("\n", "\\n")
-    print(f"[cảnh báo] Claude không trả JSON hợp lệ, dùng tóm tắt gốc thay thế")
+    print(f"[cảnh báo] {source} không trả JSON hợp lệ, dùng tóm tắt gốc thay thế")
     print(f"[debug]    raw_text preview: {preview!r}")
     return None
 
@@ -124,10 +126,29 @@ def _gemini_call(model_name: str, prompt: str, payload: list[dict]) -> dict | No
         response = model.generate_content(
             prompt + "\n\n" + json.dumps(payload, ensure_ascii=False)
         )
-        return _parse_json_safe(response.text.strip())
     except Exception as exc:
-        print(f"[Gemini:{model_name}] Lỗi API: {exc}")
+        # In loại lỗi + repr đầy đủ (str(exc) đôi khi rút gọn, thiếu status
+        # code/lý do thật của lỗi API), cộng traceback để debug sâu nếu cần.
+        print(f"[Gemini:{model_name}] Lỗi API — loại: {type(exc).__name__}")
+        print(f"[Gemini:{model_name}] Chi tiết: {exc!r}")
+        traceback.print_exc()
         return None
+
+    # Gọi API thành công nhưng response có thể rỗng (bị safety filter chặn,
+    # hoặc model không sinh ra text) — response.text sẽ raise ValueError
+    # trong trường hợp này, cần bắt riêng để biết chính xác lý do.
+    try:
+        raw_text = response.text.strip()
+    except ValueError as exc:
+        print(f"[Gemini:{model_name}] Response không có text hợp lệ: {exc}")
+        try:
+            print(f"[Gemini:{model_name}] finish_reason: {response.candidates[0].finish_reason}")
+            print(f"[Gemini:{model_name}] safety_ratings: {response.candidates[0].safety_ratings}")
+        except Exception:
+            print(f"[Gemini:{model_name}] Không đọc được thêm chi tiết candidates")
+        return None
+
+    return _parse_json_safe(raw_text, source=f"Gemini:{model_name}")
 
 
 def _step1_filter(entries: list[dict]) -> list[dict]:
@@ -212,7 +233,7 @@ def _step3_claude_deep(entries: list[dict]) -> list[dict]:
             print(f"[Bước 3] Claude bị cắt token ở batch {i//CLAUDE_BATCH_SIZE+1}, giữ summary Gemini")
             continue
 
-        parsed = _parse_json_safe(response.content[0].text.strip())
+        parsed = _parse_json_safe(response.content[0].text.strip(), source="Claude")
         if parsed:
             for item in parsed.get("items", []):
                 if item.get("title") and item.get("summary_vi"):
