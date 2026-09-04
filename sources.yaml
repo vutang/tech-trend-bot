@@ -70,6 +70,21 @@ sources:
     url: https://github.com/Xilinx/Vitis_Embedded_Platform_Source/releases.atom
     category: embedded
 
+  # NVIDIA Technical Blog — tag Jetson: JetPack, Jetson Orin/Thor, edge AI.
+  # Dùng feed theo tag (không phải blog chung) để tránh lẫn tin AI/gaming/
+  # data-center không liên quan embedded.
+  - name: NVIDIA Technical Blog (Jetson)
+    url: https://developer.nvidia.com/blog/tag/jetson/feed
+    category: embedded
+
+  # Altera (tách độc lập khỏi Intel 2025) — SoCFPGA Linux kernel fork
+  # chính thức. Blog/community của Altera có nội dung rất khớp (5G-A/6G,
+  # Open RAN trên FPGA) nhưng không có RSS xác nhận được; dùng GitHub
+  # Releases Atom của repo kernel BSP thay thế.
+  - name: Altera SoCFPGA Linux Kernel (GitHub Releases)
+    url: https://github.com/altera-fpga/linux-socfpga/releases.atom
+    category: embedded
+
   - name: RCR Wireless News
     url: https://feeds.feedburner.com/rcrwireless/sLmV
     category: ran
@@ -100,3 +115,26 @@ sources:
 
   # Khi mở sang phạm vi "đa lĩnh vực" (giai đoạn 4), chỉ cần thêm nguồn mới
   # vào đây — không cần đổi code ở fetch.py/summarize.py.
+  
+  # NVIDIA Technical Blog — tag Jetson: JetPack, Jetson Orin/Thor, edge AI.
+  # Dùng feed theo tag (không phải blog chung) để tránh lẫn tin AI/gaming/
+  # data-center không liên quan embedded.
+  - name: NVIDIA Technical Blog (Jetson)
+    url: https://developer.nvidia.com/blog/tag/jetson/feed
+    category: embedded
+  
+    # Altera (tách độc lập khỏi Intel 2025) — SoCFPGA Linux kernel fork
+  # chính thức. Blog/community của Altera có nội dung rất khớp (5G-A/6G,
+  # Open RAN trên FPGA) nhưng không có RSS xác nhận được; dùng GitHub
+  # Releases Atom của repo kernel BSP thay thế.
+  - name: Altera SoCFPGA Linux Kernel (GitHub Releases)
+    url: https://github.com/altera-fpga/linux-socfpga/releases.atom
+    category: embedded
+
+  # Qualcomm meta-qcom: BSP layer Yocto/OpenEmbedded chính thức cho nền
+  # tảng Qualcomm (Snapdragon). Release quản lý theo milestone (git tag),
+  # không phải mỗi commit — tần suất hợp lý, không lấn át top-5.
+  - name: Qualcomm meta-qcom (GitHub Releases)
+    url: https://github.com/qualcomm-linux/meta-qcom/releases.atom
+    category: embedded
+  
