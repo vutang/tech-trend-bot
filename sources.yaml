@@ -120,5 +120,30 @@ sources:
     url: https://rss.arxiv.org/rss/cs.OS
     category: research
 
+  # Red Hat Blog: nhiều telco dùng Red Hat OpenShift/KubeVirt làm nền tảng
+  # cloud-native RAN — rất liên quan vRAN. Feed chung (không tách riêng
+  # được mục Virtualization), dựa vào bước lọc relevance để loại phần
+  # không liên quan (RHEL, Ansible, AI...).
+  - name: Red Hat Blog
+    url: https://www.redhat.com/en/rss/blog
+    category: virt
+
+  # Firecracker (GitHub Releases): microVM dùng cho serverless (AWS Lambda/
+  # Fargate), đại diện xu hướng virtualization nhẹ/nhanh.
+  - name: Firecracker (GitHub Releases)
+    url: https://github.com/firecracker-microvm/firecracker/releases.atom
+    category: virt
+
+  # Cloud Hypervisor (GitHub Releases): VMM hiệu năng cao viết bằng Rust,
+  # ban đầu từ Intel, nay do Microsoft/Crusoe/Rivos duy trì.
+  - name: Cloud Hypervisor (GitHub Releases)
+    url: https://github.com/cloud-hypervisor/cloud-hypervisor/releases.atom
+    category: virt
+
+  # QEMU.org, Xen Project, KubeVirt: có blog chính thức nhưng KHÔNG tìm ra
+  # RSS xác nhận được (không có RSS auto-discovery trên trang). Cân nhắc
+  # thêm sau nếu tìm được feed, hoặc theo dõi qua GitLab/GitHub releases
+  # nếu xác minh được URL chính xác.
+
   # Khi mở sang phạm vi "đa lĩnh vực" (giai đoạn 4), chỉ cần thêm nguồn mới
   # vào đây — không cần đổi code ở fetch.py/summarize.py.

@@ -23,6 +23,7 @@ TELEGRAM_MAX_LEN = 3900  # để dư so với giới hạn cứng 4096 ký tự 
 MIN_PER_CATEGORY = {
     "ran": 2,
     "research": 2,
+    "virt": 2,
 }
 
 CATEGORY_LABEL = {
@@ -31,8 +32,9 @@ CATEGORY_LABEL = {
     "embedded": "Embedded/Linux Kernel",
     "ran": "5G/5G-A/6G RAN",
     "research": "Kiến trúc/Mạng máy tính (paper)",
+    "virt": "Ảo hóa (vRAN)",
 }
-CATEGORY_ORDER = ["ran", "embedded", "research", "ai-ml", "general"]
+CATEGORY_ORDER = ["ran", "virt", "embedded", "research", "ai-ml", "general"]
 
 
 def _select_top_entries(filtered: list[dict]) -> list[dict]:
