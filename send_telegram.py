@@ -27,12 +27,12 @@ MIN_PER_CATEGORY = {
 }
 
 CATEGORY_LABEL = {
-    "general": "Tech tổng quát",
+    "general": "General Tech",
     "ai-ml": "AI/ML",
     "embedded": "Embedded/Linux Kernel",
     "ran": "5G/5G-A/6G RAN",
-    "research": "Kiến trúc/Mạng máy tính (paper)",
-    "virt": "Ảo hóa (vRAN)",
+    "research": "Computer Architecture/Networking (papers)",
+    "virt": "Virtualization (vRAN)",
 }
 CATEGORY_ORDER = ["ran", "virt", "embedded", "research", "ai-ml", "general"]
 
@@ -69,53 +69,67 @@ def _select_top_entries(filtered: list[dict]) -> list[dict]:
     return selected[:MAX_DAILY_ITEMS]
 
 
-def build_digest(entries: list[dict]) -> str:
+def _build_blocks(entries: list[dict]) -> list[str]:
+    """Xây digest dưới dạng list các KHỐI KHÔNG ĐƯỢC TÁCH RỜI khi chia tin
+    nhắn Telegram. Mỗi khối là: tiêu đề chung (đứng riêng), hoặc category
+    header gộp chung với entry đầu tiên của nó (để header không bao giờ
+    đứng bơ vơ cuối 1 tin nhắn), hoặc từng entry còn lại (title+summary+link
+    luôn đi cùng nhau, không bao giờ bị cắt giữa chừng).
+    """
     filtered = [e for e in entries if e.get("relevance", 3) >= MIN_RELEVANCE]
     if not filtered:
-        return "Hôm nay không có tin mới đáng chú ý."
+        return ["No noteworthy news today."]
 
     top = _select_top_entries(filtered)
 
-    # Group để hiển thị theo category; vì `top` đã sort theo relevance,
-    # thứ tự trong từng group cũng tự động đúng, không cần sort lại.
     grouped: dict[str, list[dict]] = {}
     for e in top:
         grouped.setdefault(e["category"], []).append(e)
 
-    lines = ["Tech trend digest hôm nay"]
     ordered_categories = [c for c in CATEGORY_ORDER if c in grouped]
     ordered_categories += [c for c in grouped if c not in CATEGORY_ORDER]
 
+    blocks = ["Tech trend digest today"]
     for category in ordered_categories:
         label = CATEGORY_LABEL.get(category, category)
-        lines.append(f"\n== {label} ==")
-        for e in grouped[category]:
-            # Relevance badge: chỉ hiển thị khi điểm cao (để nổi bật tin quan trọng)
+        for i, e in enumerate(grouped[category]):
             badge = " 🔥" if e.get("relevance", 3) >= 5 else ""
-            lines.append(f"• {e['title']}{badge}")
-            lines.append(f"  {e['summary_vi']}")
-            lines.append(f"  🔗 {e['link']}")  # icon để link dễ nhận ra trong plain text
+            entry_text = f"• {e['title']}{badge}\n  {e['summary_vi']}\n  🔗 {e['link']}"
+            if i == 0:
+                blocks.append(f"\n== {label} ==\n{entry_text}")
+            else:
+                blocks.append(entry_text)
+    return blocks
 
-    return "\n".join(lines)
+
+def build_digest(entries: list[dict]) -> str:
+    """Ghép toàn bộ digest thành 1 chuỗi — dùng để xem trước/test, không
+    quan tâm giới hạn độ dài Telegram (xem chunk_digest cho việc đó).
+    """
+    return "\n".join(_build_blocks(entries))
 
 
-def chunk_text(text: str, limit: int = TELEGRAM_MAX_LEN) -> list[str]:
-    """Chia text thành nhiều đoạn theo ranh giới dòng, mỗi đoạn <= limit ký tự."""
-    if len(text) <= limit:
-        return [text]
+def chunk_digest(entries: list[dict], limit: int = TELEGRAM_MAX_LEN) -> list[str]:
+    """Chia digest thành nhiều tin nhắn Telegram theo RANH GIỚI KHỐI — không
+    bao giờ cắt rời 1 khối (category header + entry đầu, hoặc từng entry
+    riêng) ra làm hai tin nhắn khác nhau như cách chia theo dòng cũ.
+    """
+    blocks = _build_blocks(entries)
+    if len(blocks) == 1:
+        return blocks  # trường hợp "No noteworthy news today."
 
     chunks: list[str] = []
     current: list[str] = []
     current_len = 0
 
-    for line in text.split("\n"):
-        added_len = len(line) + 1  # +1 cho ký tự xuống dòng
-        if current and current_len + added_len > limit:
+    for block in blocks:
+        block_len = len(block) + 1  # +1 cho "\n" nối giữa các khối
+        if current and current_len + block_len > limit:
             chunks.append("\n".join(current))
             current = []
             current_len = 0
-        current.append(line)
-        current_len += added_len
+        current.append(block)
+        current_len += block_len
 
     if current:
         chunks.append("\n".join(current))
@@ -123,11 +137,10 @@ def chunk_text(text: str, limit: int = TELEGRAM_MAX_LEN) -> list[str]:
 
 
 def send_digest(entries: list[dict]) -> None:
-    text = build_digest(entries)
+    chunks = chunk_digest(entries)
     token = os.environ["TELEGRAM_BOT_TOKEN"]
     chat_id = os.environ["TELEGRAM_CHAT_ID"]
 
-    chunks = chunk_text(text)
     for i, chunk in enumerate(chunks):
         resp = requests.post(
             TELEGRAM_API.format(token=token),
