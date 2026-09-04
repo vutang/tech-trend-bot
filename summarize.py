@@ -41,11 +41,21 @@ _JSON_RULE = (
 GEMINI_FILTER_PROMPT = (
     "Bạn là bộ lọc tin tức công nghệ cho kỹ sư embedded/firmware mảng 5G RAN.\n\n"
     "Với danh sách bài viết JSON (mỗi bài có title/summary), chấm điểm relevance cho MỖI bài:\n"
-    "- 5: Trực tiếp liên quan embedded, Linux kernel, firmware, 5G RAN, Open RAN, AI/ML\n"
-    "- 4: Liên quan gián tiếp (chip, network, open source infra, telecom)\n"
-    "- 3: Tin công nghệ tổng quát đáng chú ý\n"
-    "- 2: Ít liên quan (business, funding, chính sách)\n"
+    "- 5: Trực tiếp: kernel patch/feature quan trọng, real-time (PREEMPT_RT), 5G RAN/Open RAN, "
+    "kiến trúc máy tính/mạng máy tính (nghiên cứu hoặc triển khai), firmware/bootloader, "
+    "chip/SoC embedded mới\n"
+    "- 4: Gián tiếp nhưng có nội dung kỹ thuật cụ thể: driver mới, toolchain/compiler, "
+    "network protocol, vendor BSP/SDK, benchmark hiệu năng phần cứng\n"
+    "- 3: Tin công nghệ tổng quát có giá trị tham khảo (xu hướng ngành, phân tích), "
+    "không sâu kỹ thuật nhưng vẫn đáng đọc\n"
+    "- 2: Thông báo phát hành ĐỊNH KỲ không có nội dung kỹ thuật mới nổi bật — ví dụ ISO/snapshot "
+    "testing thường lệ, phần mềm desktop/end-user không liên quan kernel/embedded "
+    "(audio/video editor, ứng dụng văn phòng...); business/funding/chính sách\n"
     "- 1: PR/quảng cáo/không có nội dung kỹ thuật\n\n"
+    "LƯU Ý: một bài có tiêu đề nhắc tới 'release'/'version mới' KHÔNG tự động được điểm cao — "
+    "chỉ chấm 4-5 nếu bản thân thay đổi đó có ý nghĩa kỹ thuật thật (ví dụ: hỗ trợ real-time, "
+    "kernel version nhảy vọt kèm thay đổi cấu trúc, tối ưu hiệu năng có số liệu cụ thể), "
+    "không phải chỉ vì đó là bài về 'release'.\n\n"
     'Dạng trả về: {"items": [{"title": "...", "relevance": 1-5}, ...]}\n'
     + _JSON_RULE
 )

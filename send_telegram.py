@@ -12,8 +12,18 @@ import requests
 
 TELEGRAM_API = "https://api.telegram.org/bot{token}/sendMessage"
 MIN_RELEVANCE = 2  # bỏ bớt tin bị chấm điểm liên quan quá thấp
-MAX_DAILY_ITEMS = 5  # chỉ gửi tối đa N tin liên quan nhất mỗi ngày
+MAX_DAILY_ITEMS = 10  # tổng số tin tối đa mỗi ngày
 TELEGRAM_MAX_LEN = 3900  # để dư so với giới hạn cứng 4096 ký tự của Telegram
+
+# Quota TỐI THIỂU cho từng category, đảm bảo không bị category nhiều nguồn
+# hơn (hiện tại "embedded" có 10/15 nguồn) lấn át hoàn toàn trong top N.
+# Category không có trong dict này (vd "embedded") không bị giới hạn — vẫn
+# cạnh tranh bình thường ở phần "lấp đầy" bên dưới, thường sẽ chiếm phần lớn
+# slot còn lại đúng theo tỷ lệ nguồn tự nhiên.
+MIN_PER_CATEGORY = {
+    "ran": 2,
+    "research": 2,
+}
 
 CATEGORY_LABEL = {
     "general": "Tech tổng quát",
@@ -25,15 +35,44 @@ CATEGORY_LABEL = {
 CATEGORY_ORDER = ["ran", "embedded", "research", "ai-ml", "general"]
 
 
+def _select_top_entries(filtered: list[dict]) -> list[dict]:
+    """Chọn tối đa MAX_DAILY_ITEMS bài, đảm bảo quota tối thiểu mỗi category.
+
+    Bước 1: với mỗi category có quota trong MIN_PER_CATEGORY, lấy tối đa
+    `min_count` bài điểm cao nhất của riêng category đó — đây là các slot
+    "được bảo đảm", không bị category khác giành mất.
+    Bước 2: lấp đầy các slot còn lại bằng bài điểm cao nhất TOÀN CỤC
+    (không phân biệt category) trong số bài chưa được chọn.
+    """
+    filtered.sort(key=lambda e: e.get("relevance", 3), reverse=True)
+
+    selected: list[dict] = []
+    selected_links: set[str] = set()
+
+    for category, min_count in MIN_PER_CATEGORY.items():
+        cat_entries = [e for e in filtered if e["category"] == category]
+        for e in cat_entries[:min_count]:
+            if e["link"] not in selected_links:
+                selected.append(e)
+                selected_links.add(e["link"])
+
+    for e in filtered:
+        if len(selected) >= MAX_DAILY_ITEMS:
+            break
+        if e["link"] not in selected_links:
+            selected.append(e)
+            selected_links.add(e["link"])
+
+    selected.sort(key=lambda e: e.get("relevance", 3), reverse=True)
+    return selected[:MAX_DAILY_ITEMS]
+
+
 def build_digest(entries: list[dict]) -> str:
     filtered = [e for e in entries if e.get("relevance", 3) >= MIN_RELEVANCE]
     if not filtered:
         return "Hôm nay không có tin mới đáng chú ý."
 
-    # Sắp xếp TOÀN BỘ bài (không phân biệt category) theo điểm liên quan,
-    # rồi chỉ giữ lại top N — đây là bước giới hạn số lượng tin mỗi ngày.
-    filtered.sort(key=lambda e: e.get("relevance", 3), reverse=True)
-    top = filtered[:MAX_DAILY_ITEMS]
+    top = _select_top_entries(filtered)
 
     # Group để hiển thị theo category; vì `top` đã sort theo relevance,
     # thứ tự trong từng group cũng tự động đúng, không cần sort lại.
