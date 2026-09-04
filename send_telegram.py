@@ -18,9 +18,11 @@ TELEGRAM_MAX_LEN = 3900  # để dư so với giới hạn cứng 4096 ký tự 
 CATEGORY_LABEL = {
     "general": "Tech tổng quát",
     "ai-ml": "AI/ML",
-    "embedded": "Embedded/5G/RAN",
+    "embedded": "Embedded/Linux Kernel",
+    "ran": "5G/5G-A/6G RAN",
+    "research": "Kiến trúc/Mạng máy tính (paper)",
 }
-CATEGORY_ORDER = ["embedded", "ai-ml", "general"]
+CATEGORY_ORDER = ["ran", "embedded", "research", "ai-ml", "general"]
 
 
 def build_digest(entries: list[dict]) -> str:

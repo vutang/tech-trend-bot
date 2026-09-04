@@ -58,14 +58,45 @@ sources:
     url: https://www.cnx-software.com/feed/
     category: embedded
 
-  - name: RCR Wireless News
-    url: https://feeds.feedburner.com/rcrwireless/sLmV
+  # LinuxGizmos.com: chuyên board/thiết bị nhúng chạy Linux — góc nhìn
+  # thiên về device/board, bổ sung cho CNX Software (thiên SoC/silicon).
+  - name: LinuxGizmos.com
+    url: https://linuxgizmos.com/feed/
     category: embedded
 
-  # Gợi ý mở rộng cho mảng 5G/RAN/telecom chuyên sâu hơn: RCR Wireless,
-  # Light Reading. Hai trang này không có RSS chính thức được xác nhận lúc
-  # viết code — hãy tự kiểm tra <domain>/feed hoặc <domain>/rss trước khi
-  # thêm vào, hoặc tạo feed qua rss.app/tương tự nếu trang không hỗ trợ.
+  # AMD/Xilinx Vitis Embedded Platform releases (Atom feed chuẩn của
+  # GitHub): bắt đúng version bump Vitis/PetaLinux/EDF thay vì chờ blog.
+  - name: Xilinx Vitis Embedded Platform (GitHub Releases)
+    url: https://github.com/Xilinx/Vitis_Embedded_Platform_Source/releases.atom
+    category: embedded
+
+  - name: RCR Wireless News
+    url: https://feeds.feedburner.com/rcrwireless/sLmV
+    category: ran
+
+  # IEEE Spectrum — mục Telecommunications: tạp chí kỹ thuật chính thức
+  # của IEEE, bài viết có thẩm định biên tập, không phải blog/PR.
+  - name: IEEE Spectrum Telecom
+    url: https://spectrum.ieee.org/feeds/topic/telecommunications.rss
+    category: ran
+
+  # arXiv cs.AR (Hardware Architecture): paper về kiến trúc máy tính,
+  # accelerator, hiệu năng phần cứng — sát với hướng bạn quan tâm.
+  - name: arXiv cs.AR (Computer Architecture)
+    url: https://rss.arxiv.org/rss/cs.AR
+    category: research
+
+  # arXiv cs.NI (Networking and Internet Architecture): paper về mạng máy
+  # tính, giao thức, network systems.
+  - name: arXiv cs.NI (Computer Networking)
+    url: https://rss.arxiv.org/rss/cs.NI
+    category: research
+
+  # arXiv cs.OS (Operating Systems): paper về hệ điều hành, real-time
+  # scheduler, PREEMPT_RT — mảng "realtime" bạn quan tâm.
+  - name: arXiv cs.OS (Operating Systems)
+    url: https://rss.arxiv.org/rss/cs.OS
+    category: research
 
   # Khi mở sang phạm vi "đa lĩnh vực" (giai đoạn 4), chỉ cần thêm nguồn mới
   # vào đây — không cần đổi code ở fetch.py/summarize.py.
