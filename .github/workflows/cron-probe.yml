@@ -1,0 +1,9 @@
+name: Cron probe
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: date -u
