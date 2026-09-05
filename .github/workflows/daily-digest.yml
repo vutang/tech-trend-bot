@@ -2,7 +2,7 @@ name: Daily tech trend digest
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # 00:00 UTC = 07:00 giờ Hà Nội
+    - cron: '47 22 * * *'   # 22:47 UTC = 05:47 giờ Hà Nội (phút lẻ tránh nghẽn giờ tròn, chạy sớm để bù độ trễ, đích đến ~06:30)
   workflow_dispatch:        # cho phép bấm chạy tay để test
 
 permissions:
