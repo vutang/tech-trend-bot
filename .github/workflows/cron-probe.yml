@@ -2,6 +2,7 @@ name: Cron probe
 on:
   schedule:
     - cron: '*/15 * * * *'
+  workflow_dispatch:
 jobs:
   probe:
     runs-on: ubuntu-latest
