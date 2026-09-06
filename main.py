@@ -36,7 +36,20 @@ def main() -> None:
         save_state(state)  # vẫn ghi để dọn bản ghi hết hạn
         return
 
-    delivered = send_digest(candidates)
+    try:
+        delivered = send_digest(candidates)
+    except Exception:
+        # Gửi fail giữa chừng (vd chunk 2/3 lỗi mạng) — CỐ TÌNH không gọi
+        # update_state/save_state. State giữ nguyên như lúc load_state(),
+        # nên lần chạy sau sẽ coi các bài này như chưa xử lý và thử lại.
+        # Đánh đổi: nếu user đã thực sự nhận được vài chunk trước khi lỗi,
+        # lần sau có thể nhận lại đúng các bài đó — nhưng còn tốt hơn nhiều
+        # so với việc state ghi sai (nghĩ đã gửi trong khi chưa, hoặc
+        # ngược lại) một cách âm thầm không ai biết.
+        print("[lỗi] Gửi Telegram thất bại giữa chừng — không cập nhật state, "
+              "các bài này sẽ được thử lại ở lần chạy tiếp theo.")
+        raise  # vẫn để job báo đỏ trên Actions, không nuốt lỗi âm thầm
+
     print(f"Đã gửi {len(delivered)}/{len(candidates)} bài.")
 
     update_state(state, candidates, delivered, MIN_RELEVANCE)

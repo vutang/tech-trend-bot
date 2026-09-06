@@ -38,37 +38,44 @@ def _parse_ts(raw: str) -> datetime:
     return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
 
 
+def known_ids(state: dict) -> set:
+    """Tất cả id bot đã biết — dùng để fetch.py bỏ qua, không xử lý lại."""
+    return set(state["delivered"]) | set(state["pending"]) | set(state["rejected"])
+
+
 def load_state() -> dict:
-    """Đọc state.json. Tự migrate từ seen.json cũ nếu chưa có state.json."""
+    """Đọc state.json (nếu có), rồi UNION thêm mọi id từ seen.json cũ mà
+    chưa xuất hiện ở đâu trong state hiện tại.
+
+    Idempotent — gọi bao nhiêu lần cũng an toàn: sau lần đầu, seen.json
+    không còn id nào mới để union nữa nên các lần sau chỉ là no-op. Khác
+    với bản trước chỉ migrate khi CHƯA có state.json — cách đó làm mất dữ
+    liệu nếu state.json được tạo ra (ví dụ lúc test) trước khi seen.json
+    thật được đưa vào.
+    """
     if STATE_FILE.exists():
         with open(STATE_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-        return {
+        state = {
             "delivered": data.get("delivered", {}),
             "pending": data.get("pending", {}),
             "rejected": data.get("rejected", {}),
         }
+    else:
+        state = {"delivered": {}, "pending": {}, "rejected": {}}
 
-    # Migration một lần: seen.json cũ là list id phẳng, không phân biệt được
-    # đã gửi hay chỉ mới thấy — coi tất cả là đã gửi để chắc chắn không
-    # gửi trùng lại loạt bài cũ.
     if LEGACY_SEEN_FILE.exists():
         with open(LEGACY_SEEN_FILE, "r", encoding="utf-8") as f:
             old_ids = json.load(f)
-        ts = _now().isoformat()
-        print(f"[state] Migrate {len(old_ids)} id từ seen.json cũ -> delivered")
-        return {
-            "delivered": {i: ts for i in old_ids},
-            "pending": {},
-            "rejected": {},
-        }
+        already_known = known_ids(state)
+        new_from_legacy = [i for i in old_ids if i not in already_known]
+        if new_from_legacy:
+            ts = _now().isoformat()
+            for i in new_from_legacy:
+                state["delivered"][i] = ts
+            print(f"[state] Union thêm {len(new_from_legacy)} id từ seen.json -> delivered")
 
-    return {"delivered": {}, "pending": {}, "rejected": {}}
-
-
-def known_ids(state: dict) -> set:
-    """Tất cả id bot đã biết — dùng để fetch.py bỏ qua, không xử lý lại."""
-    return set(state["delivered"]) | set(state["pending"]) | set(state["rejected"])
+    return state
 
 
 def pending_entries(state: dict) -> list[dict]:
