@@ -6,6 +6,7 @@
 from fetch import fetch_new_entries
 from summarize import summarize_entries
 from send_telegram import send_digest, MIN_RELEVANCE
+from digest_log import log_run
 from state import (
     load_state,
     known_ids,
@@ -51,6 +52,10 @@ def main() -> None:
         raise  # vẫn để job báo đỏ trên Actions, không nuốt lỗi âm thầm
 
     print(f"Đã gửi {len(delivered)}/{len(candidates)} bài.")
+
+    # Ghi log observability. Hàm này tự nuốt mọi lỗi nên không thể làm
+    # hỏng digest; xem docstring digest_log.py.
+    log_run(candidates, delivered, MIN_RELEVANCE)
 
     update_state(state, candidates, delivered, MIN_RELEVANCE)
     save_state(state)
