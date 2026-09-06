@@ -13,7 +13,9 @@ import requests
 from state import AGE_PENALTY_PER_DAY
 
 TELEGRAM_API = "https://api.telegram.org/bot{token}/sendMessage"
-MIN_RELEVANCE = 2  # bỏ bớt tin bị chấm điểm liên quan quá thấp
+MIN_RELEVANCE = 3  # PHẢI khớp MIN_RELEVANCE_PREFILTER bên summarize.py — bài
+                    # dưới ngưỡng đó không có summary_vi (bị Bước 1 loại sớm,
+                    # xem summarize.py), để lọt qua đây sẽ crash khi hiển thị
 MAX_DAILY_ITEMS = 10  # tổng số tin tối đa mỗi ngày
 TELEGRAM_MAX_LEN = 3900  # để dư so với giới hạn cứng 4096 ký tự của Telegram
 

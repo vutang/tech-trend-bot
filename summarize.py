@@ -151,10 +151,16 @@ def _gemini_call(model_name: str, prompt: str, payload: list[dict]) -> dict | No
     return _parse_json_safe(raw_text, source=f"Gemini:{model_name}")
 
 
-def _step1_filter(entries: list[dict]) -> list[dict]:
-    """Bước 1 — Gemini Flash-Lite: chấm relevance, loại bài dưới ngưỡng.
+def _step1_filter(entries: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Bước 1 — Gemini Flash-Lite: chấm relevance.
 
-    Fail-open: nếu Gemini lỗi → giữ toàn bộ để bước 2 xử lý.
+    Trả về (passed, dropped) — CẢ HAI, không chỉ passed. Bài bị loại
+    (dropped) vẫn cần đi tới update_state() để được đánh dấu "rejected",
+    nếu không chúng biến mất khỏi mọi tracking và bị fetch + chấm điểm
+    lại ở lần chạy sau (tốn Gemini token lặp lại vô ích).
+
+    Fail-open: nếu Gemini lỗi → coi tất cả đạt ngưỡng (an toàn hơn loại
+    nhầm khi không chắc), trả về (entries, []).
     """
     payload = [
         {"title": e["title"], "summary": e["summary"][:300]}
@@ -164,7 +170,7 @@ def _step1_filter(entries: list[dict]) -> list[dict]:
 
     if parsed is None:
         print("[Bước 1] Gemini Filter lỗi — giữ toàn bộ bài, gán relevance mặc định")
-        return [{**e, "relevance": MIN_RELEVANCE_PREFILTER} for e in entries]
+        return [{**e, "relevance": MIN_RELEVANCE_PREFILTER} for e in entries], []
 
     by_title = {item.get("title"): item for item in parsed.get("items", [])}
     scored = []
@@ -173,8 +179,9 @@ def _step1_filter(entries: list[dict]) -> list[dict]:
         scored.append({**e, "relevance": relevance})
 
     passed = [e for e in scored if e["relevance"] >= MIN_RELEVANCE_PREFILTER]
-    print(f"[Bước 1] {len(entries)} bài → lọc bỏ {len(entries)-len(passed)} → còn {len(passed)} bài")
-    return passed
+    dropped = [e for e in scored if e["relevance"] < MIN_RELEVANCE_PREFILTER]
+    print(f"[Bước 1] {len(entries)} bài → lọc bỏ {len(dropped)} → còn {len(passed)} bài")
+    return passed, dropped
 
 
 def _step2_summarize(entries: list[dict]) -> list[dict]:
@@ -250,20 +257,28 @@ def _step3_claude_deep(entries: list[dict]) -> list[dict]:
 
 
 def summarize_entries(entries: list[dict]) -> list[dict]:
-    """Pipeline 3 bước: Gemini lọc → Gemini tóm tắt → Claude chỉ bài khó."""
+    """Pipeline 3 bước: Gemini lọc → Gemini tóm tắt → Claude chỉ bài khó.
+
+    TRẢ VỀ CẢ bài bị loại ở Bước 1 (kèm relevance thấp, KHÔNG có summary
+    vì không cần — chúng sẽ bị send_telegram loại lần nữa, không bao giờ
+    hiển thị). Mục đích duy nhất của việc trả về chúng là để
+    main.py -> update_state() đánh dấu đúng "rejected", tránh bị fetch
+    và chấm điểm lại ở lần chạy sau.
+    """
     if not entries:
         return []
 
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
     # Bước 1: Gemini Flash-Lite — lọc relevance (rẻ nhất)
-    filtered = _step1_filter(entries)
-    if not filtered:
+    passed, dropped = _step1_filter(entries)
+    if not passed:
         print("[pipeline] Không có bài nào qua lọc.")
-        return []
+        return dropped
 
     # Bước 2: Gemini Flash — tóm tắt tiếng Việt (phần lớn công việc)
-    summarized = _step2_summarize(filtered)
+    summarized = _step2_summarize(passed)
 
     # Bước 3: Claude Haiku — chỉ override bài relevance=5 (kỹ thuật sâu)
-    return _step3_claude_deep(summarized)
+    result = _step3_claude_deep(summarized)
+    return result + dropped
