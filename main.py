@@ -6,7 +6,7 @@
 from fetch import fetch_new_entries
 from summarize import summarize_entries
 from send_telegram import send_digest, MIN_RELEVANCE
-from digest_log import log_run
+from digest_log import log_run, log_expired
 from state import (
     load_state,
     known_ids,
@@ -34,7 +34,9 @@ def main() -> None:
 
     if not candidates:
         print("Không có bài nào để gửi.")
-        save_state(state)  # vẫn ghi để dọn bản ghi hết hạn
+        expired = save_state(state)  # vẫn dọn bản ghi hết hạn
+        if expired:
+            log_expired(expired)
         return
 
     try:
@@ -58,7 +60,9 @@ def main() -> None:
     log_run(candidates, delivered, MIN_RELEVANCE)
 
     update_state(state, candidates, delivered, MIN_RELEVANCE)
-    save_state(state)
+    expired = save_state(state)
+    if expired:
+        log_expired(expired)
 
 
 if __name__ == "__main__":

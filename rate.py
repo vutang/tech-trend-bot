@@ -32,9 +32,17 @@ digest, không phải ở nguồn tin nào cả.
 
 HAI QUYẾT ĐỊNH VỀ PHƯƠNG PHÁP:
 
-1) Chấm MÙ — không hiển thị điểm relevance AI đã chấm, không hiển thị
-   summary. Nếu thấy điểm AI trước, bạn sẽ bị neo theo nó và dữ liệu mất
-   giá trị đối chứng.
+1) Hiện title + một đoạn mô tả (summary AI nếu có, hoặc trích RSS gốc)
+   — ẨN điểm relevance và trạng thái (delivered/rejected). Ẩn con số
+   relevance vì thấy nó trước sẽ neo phán đoán, mất giá trị đối chứng.
+   Hiện mô tả vì đó chính là thứ mức "?" cần đánh giá độ rõ ràng — nếu
+   ẩn cả mô tả thì "?" chỉ còn đo độ rõ của tiêu đề, thứ Phase 2 không
+   hề đụng tới.
+
+   Mọi bài LUÔN có gì đó để hiện (summary AI hoặc raw_snippet RSS gốc)
+   — cố tình không bao giờ hiện "(không có summary)": sự vắng mặt đó sẽ
+   tự tiết lộ đây là bài bị AI loại (chỉ bài rejected mới thiếu summary
+   AI), phá hỏng mục đích trộn ngẫu nhiên ở mục (2).
 
 2) Có chèn ngẫu nhiên vài tin bị AI LOẠI (status=rejected). Đây là điểm
    quan trọng: nếu chỉ chấm tin đã gửi, dữ liệu về nguyên tắc không bao
@@ -120,6 +128,11 @@ def rate(batch: int = DEFAULT_BATCH) -> None:
         print("=" * 70)
         print(f"[{i}/{len(items)}] {item['title']}")
         print(f"  {item.get('source', '?')} | {item.get('category', '?')}")
+        # summary (AI) nếu có, không thì raw_snippet (RSS gốc) — CỐ TÌNH
+        # không bao giờ hiện "(không có summary)": sự vắng mặt đó sẽ tự
+        # tiết lộ đây là bài bị AI loại, phá hỏng việc trộn ngẫu nhiên.
+        text = item.get("summary") or item.get("raw_snippet") or "(không có mô tả)"
+        print(f"  {text}")
         print(f"  {item.get('url', '')}")
         while True:
             ans = input("  Điểm (2/1/0/?/s/q): ").strip().lower()

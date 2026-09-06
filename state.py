@@ -130,21 +130,35 @@ def update_state(state: dict, candidates: list[dict], delivered: list[dict],
         state["pending"][entry_id] = {"first_seen": ts, "entry": clean}
 
 
-def save_state(state: dict) -> None:
-    """Dọn các bản ghi hết hạn rồi ghi file."""
+def save_state(state: dict) -> list[dict]:
+    """Dọn các bản ghi hết hạn rồi ghi file.
+
+    Trả về danh sách entry vừa hết hạn (đầy đủ dict, không chỉ id) để
+    main.py ghi log riêng với status="expired" — KHÔNG được gộp vào
+    "rejected" trong log, vì đó là hai lý do khác nhau (nội dung kém vs
+    hết hạn vì thời gian). Gộp chung sẽ làm sai chỉ số noise trong
+    analyze.py.
+    """
     now = _now()
     pending_cutoff = now - timedelta(days=PENDING_TTL_DAYS)
     history_cutoff = now - timedelta(days=HISTORY_TTL_DAYS)
 
-    # Pending hết hạn -> chuyển sang rejected (giữ id để không fetch lại)
-    expired = [
+    # Pending hết hạn -> chuyển sang rejected trong STATE (chỉ để không
+    # fetch lại — known_ids() không cần phân biệt lý do). Riêng phần data
+    # đầy đủ được giữ lại để trả về cho việc ghi log.
+    expired_ids = [
         i for i, rec in state["pending"].items()
         if _parse_ts(rec.get("first_seen", "")) < pending_cutoff
     ]
-    for i in expired:
-        state["rejected"][i] = state["pending"].pop(i).get("first_seen", now.isoformat())
-    if expired:
-        print(f"[state] {len(expired)} bài hết hạn pending -> rejected")
+    expired_entries = []
+    for i in expired_ids:
+        rec = state["pending"].pop(i)
+        state["rejected"][i] = rec.get("first_seen", now.isoformat())
+        entry = dict(rec.get("entry", {}))
+        entry.setdefault("id", i)
+        expired_entries.append(entry)
+    if expired_ids:
+        print(f"[state] {len(expired_ids)} bài hết hạn pending -> rejected")
 
     # Lịch sử quá cũ -> xoá hẳn để file không phình vô hạn
     for bucket in ("delivered", "rejected"):
@@ -159,3 +173,4 @@ def save_state(state: dict) -> None:
         f"[state] delivered={len(state['delivered'])} "
         f"pending={len(state['pending'])} rejected={len(state['rejected'])}"
     )
+    return expired_entries

@@ -11,9 +11,14 @@ Phân tích log digest — CHẠY THỦ CÔNG, không nằm trong workflow hằn
 1) Chỉ số KHÔNG bị nhiễu loạn (tính trên tổng số bài fetch được từ nguồn,
    độc lập với quota và giới hạn top-N):
 
-     yield      = (delivered + pending) / fetched   -- tỷ lệ qua được prefilter
-     noise      = rejected / fetched                -- tỷ lệ bị loại thẳng
+     yield      = (delivered + pending) / fetched   -- tỷ lệ còn "sống"
+     noise      = rejected / fetched                -- tỷ lệ bị loại VÌ NỘI DUNG
+     expired    = expired / fetched                 -- tỷ lệ hết hạn VÌ THỜI GIAN
      high_value = (relevance >= 4) / fetched         -- tỷ lệ bài điểm cao
+
+   `noise` và `expired` CỐ TÌNH tách riêng: một bài hết hạn vì quota
+   category chật (không đủ chỗ trong PENDING_TTL_DAYS) không phải do
+   nguồn kém — gộp chung sẽ đổ oan cho nguồn.
 
    Đây là nhóm dùng được để so sánh nguồn.
 
@@ -102,6 +107,7 @@ def _source_stats(rs: list[dict]) -> dict:
     delivered = sum(1 for r in rs if r["status"] == "delivered")
     pending = sum(1 for r in rs if r["status"] == "pending")
     rejected = sum(1 for r in rs if r["status"] == "rejected")
+    expired = sum(1 for r in rs if r["status"] == "expired")
     high = sum(1 for r in rs
                if isinstance(r.get("relevance"), (int, float))
                and r["relevance"] >= HIGH_VALUE_THRESHOLD)
@@ -109,7 +115,8 @@ def _source_stats(rs: list[dict]) -> dict:
     eligible = delivered + pending
     return {
         "fetched": fetched, "delivered": delivered, "pending": pending,
-        "rejected": rejected, "high": high, "eligible": eligible,
+        "rejected": rejected, "expired": expired, "high": high,
+        "eligible": eligible,
         "avg_rel": sum(rels) / len(rels) if rels else 0,
     }
 
@@ -146,14 +153,15 @@ def report(records: list[dict]) -> None:
 
     for cat in sorted(by_cat_source):
         print(f"\n### {cat}")
-        print(f"{'Nguồn':<34} {'Bài':>4} {'yield':>6} {'noise':>6} "
-              f"{'high':>6} {'Rel.TB':>7} {'(deliv)':>8}")
-        print("-" * 74)
+        print(f"{'Nguồn':<32} {'Bài':>4} {'yield':>6} {'noise':>6} "
+              f"{'exp':>5} {'high':>6} {'Rel.TB':>7} {'(deliv)':>8}")
+        print("-" * 78)
         rows = [(src, _source_stats(rs)) for src, rs in by_cat_source[cat].items()]
         for src, s in sorted(rows, key=lambda x: -x[1]["high"] / max(x[1]["fetched"], 1)):
-            print(f"{src[:34]:<34} {s['fetched']:>4} "
+            print(f"{src[:32]:<32} {s['fetched']:>4} "
                   f"{_pct(s['eligible'], s['fetched']):>6} "
                   f"{_pct(s['rejected'], s['fetched']):>6} "
+                  f"{_pct(s['expired'], s['fetched']):>5} "
                   f"{_pct(s['high'], s['fetched']):>6} "
                   f"{s['avg_rel']:>7.1f} "
                   f"{_pct(s['delivered'], s['eligible']):>8}")
