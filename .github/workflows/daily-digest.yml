@@ -38,7 +38,7 @@ jobs:
           # đúng để tránh lỗi "cannot pull with rebase: unstaged changes",
           # không phải xoá state về rỗng như bản cũ (bản cũ vô tình huỷ
           # luôn cơ chế chống trùng, vì seen.json commit lên luôn là [])..
-          git add seen.json
+          git add state.json seen.json
           if ! git diff --cached --quiet; then
             git commit -m "update seen state"
             git pull --rebase origin master

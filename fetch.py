@@ -12,9 +12,7 @@ import feedparser
 import yaml
 
 SOURCES_FILE = Path(__file__).parent / "sources.yaml"
-SEEN_FILE = Path(__file__).parent / "seen.json"
 MAX_AGE_HOURS = 26  # rộng hơn 24h một chút để tránh lọt bài do lệch giờ cron
-MAX_SEEN_IDS = 2000  # giữ tối đa từng này id để seen.json không phình to
 MAX_PER_SOURCE = 3   # giới hạn số bài mỗi nguồn, tránh 1 nguồn chiếm hết slot
 
 
@@ -46,22 +44,14 @@ def load_sources() -> list[dict]:
         return yaml.safe_load(f)["sources"]
 
 
-def load_seen() -> set:
-    if not SEEN_FILE.exists():
-        return set()
-    with open(SEEN_FILE, "r", encoding="utf-8") as f:
-        return set(json.load(f))
+def fetch_new_entries(known: set | None = None) -> list[dict]:
+    """Thu thập bài mới, bỏ qua các id đã có trong `known`.
 
-
-def save_seen(seen: set) -> None:
-    trimmed = list(seen)[-MAX_SEEN_IDS:]
-    with open(SEEN_FILE, "w", encoding="utf-8") as f:
-        json.dump(trimmed, f, ensure_ascii=False, indent=2)
-
-
-def fetch_new_entries() -> list[dict]:
+    KHÔNG còn tự ghi state — việc đó do state.py/main.py đảm nhiệm sau khi
+    đã biết bài nào thực sự được gửi (xem docstring state.py).
+    """
     sources = load_sources()
-    seen = load_seen()
+    seen = set(known or ())
     cutoff = time.time() - MAX_AGE_HOURS * 3600
 
     new_entries = []
@@ -112,10 +102,9 @@ def fetch_new_entries() -> list[dict]:
                     "category": source.get("category", "general"),
                 }
             )
-            seen.add(entry_id)
+            seen.add(entry_id)  # tránh trùng trong cùng lần chạy
             count += 1
 
-    save_seen(seen)
     return new_entries
 
 

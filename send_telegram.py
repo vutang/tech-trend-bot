@@ -10,6 +10,8 @@ import os
 
 import requests
 
+from state import AGE_PENALTY_PER_DAY
+
 TELEGRAM_API = "https://api.telegram.org/bot{token}/sendMessage"
 MIN_RELEVANCE = 2  # bỏ bớt tin bị chấm điểm liên quan quá thấp
 MAX_DAILY_ITEMS = 10  # tổng số tin tối đa mỗi ngày
@@ -37,6 +39,14 @@ CATEGORY_LABEL = {
 CATEGORY_ORDER = ["ran", "virt", "embedded", "research", "ai-ml", "general"]
 
 
+def _rank_score(e: dict) -> float:
+    """Điểm dùng để XẾP HẠNG — bằng relevance gốc trừ đi phạt theo số ngày
+    bài nằm trong pending. Giữ `relevance` nguyên vẹn cho phần hiển thị,
+    để bài tồn kho không bị mất badge 🔥 chỉ vì cũ.
+    """
+    return e.get("relevance", 3) - AGE_PENALTY_PER_DAY * e.get("carry_days", 0)
+
+
 def _select_top_entries(filtered: list[dict]) -> list[dict]:
     """Chọn tối đa MAX_DAILY_ITEMS bài, đảm bảo quota tối thiểu mỗi category.
 
@@ -46,7 +56,7 @@ def _select_top_entries(filtered: list[dict]) -> list[dict]:
     Bước 2: lấp đầy các slot còn lại bằng bài điểm cao nhất TOÀN CỤC
     (không phân biệt category) trong số bài chưa được chọn.
     """
-    filtered.sort(key=lambda e: e.get("relevance", 3), reverse=True)
+    filtered.sort(key=_rank_score, reverse=True)
 
     selected: list[dict] = []
     selected_links: set[str] = set()
@@ -65,8 +75,20 @@ def _select_top_entries(filtered: list[dict]) -> list[dict]:
             selected.append(e)
             selected_links.add(e["link"])
 
-    selected.sort(key=lambda e: e.get("relevance", 3), reverse=True)
+    selected.sort(key=_rank_score, reverse=True)
     return selected[:MAX_DAILY_ITEMS]
+
+
+def select_entries(entries: list[dict]) -> list[dict]:
+    """Lọc theo MIN_RELEVANCE rồi chọn ra danh sách bài sẽ gửi.
+
+    Tách riêng để main.py biết CHÍNH XÁC bài nào được gửi, phục vụ việc
+    cập nhật state (delivered vs pending).
+    """
+    filtered = [e for e in entries if e.get("relevance", 3) >= MIN_RELEVANCE]
+    if not filtered:
+        return []
+    return _select_top_entries(filtered)
 
 
 def _build_blocks(entries: list[dict]) -> list[str]:
@@ -76,11 +98,9 @@ def _build_blocks(entries: list[dict]) -> list[str]:
     đứng bơ vơ cuối 1 tin nhắn), hoặc từng entry còn lại (title+summary+link
     luôn đi cùng nhau, không bao giờ bị cắt giữa chừng).
     """
-    filtered = [e for e in entries if e.get("relevance", 3) >= MIN_RELEVANCE]
-    if not filtered:
+    top = entries
+    if not top:
         return ["No noteworthy news today."]
-
-    top = _select_top_entries(filtered)
 
     grouped: dict[str, list[dict]] = {}
     for e in top:
@@ -103,10 +123,10 @@ def _build_blocks(entries: list[dict]) -> list[str]:
 
 
 def build_digest(entries: list[dict]) -> str:
-    """Ghép toàn bộ digest thành 1 chuỗi — dùng để xem trước/test, không
-    quan tâm giới hạn độ dài Telegram (xem chunk_digest cho việc đó).
+    """Xem trước digest dạng 1 chuỗi từ danh sách bài THÔ (tự chọn bên trong),
+    bỏ qua giới hạn độ dài Telegram. Dùng để test/preview.
     """
-    return "\n".join(_build_blocks(entries))
+    return "\n".join(_build_blocks(select_entries(entries)))
 
 
 def chunk_digest(entries: list[dict], limit: int = TELEGRAM_MAX_LEN) -> list[str]:
@@ -136,8 +156,10 @@ def chunk_digest(entries: list[dict], limit: int = TELEGRAM_MAX_LEN) -> list[str
     return chunks
 
 
-def send_digest(entries: list[dict]) -> None:
-    chunks = chunk_digest(entries)
+def send_digest(entries: list[dict]) -> list[dict]:
+    """Chọn bài, gửi Telegram, TRẢ VỀ danh sách bài đã thực sự gửi."""
+    selected = select_entries(entries)
+    chunks = chunk_digest(selected)
     token = os.environ["TELEGRAM_BOT_TOKEN"]
     chat_id = os.environ["TELEGRAM_CHAT_ID"]
 
@@ -158,3 +180,5 @@ def send_digest(entries: list[dict]) -> None:
             # "message is too long"...) thay vì chỉ có mã lỗi HTTP chung chung.
             print(f"[lỗi Telegram] {resp.status_code}: {resp.text}")
         resp.raise_for_status()
+
+    return selected
