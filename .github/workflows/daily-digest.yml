@@ -41,7 +41,7 @@ jobs:
           git add state.json seen.json
           if ! git diff --cached --quiet; then
             git commit -m "update seen state"
-            git pull --rebase origin master
+            git pull --rebase
             git push
           else
             echo "No changes to commit"
