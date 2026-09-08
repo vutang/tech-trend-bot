@@ -61,6 +61,23 @@ def fetch_new_entries(known: set | None = None) -> list[dict]:
             print(f"[cảnh báo] không đọc được feed: {source['name']} ({source['url']})")
             continue
 
+    new_entries = []
+    for source in sources:
+        parsed = feedparser.parse(source["url"])
+        if parsed.bozo and not parsed.entries:
+            print(f"[cảnh báo] không đọc được feed: {source['name']} ({source['url']})")
+            continue
+
+        # Chẩn đoán: feed có bài thật không, mới nhất là khi nào — để phân
+        # biệt "feed chết/stale" với "có bài nhưng bị AI chấm điểm thấp".
+        # Không đổi hành vi gì, chỉ thêm 1 dòng log.
+        newest = None
+        if parsed.entries:
+            pub = parsed.entries[0].get("published_parsed") or parsed.entries[0].get("updated_parsed")
+            if pub:
+                newest = time.strftime("%Y-%m-%d %H:%M UTC", pub)
+        print(f"[fetch] {source['name']}: {len(parsed.entries)} bài thô, mới nhất: {newest or 'không rõ'}")
+
         count = 0  # đếm số bài đã lấy từ nguồn này
         for entry in parsed.entries:
             if count >= MAX_PER_SOURCE:
