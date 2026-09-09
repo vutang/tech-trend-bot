@@ -1,10 +1,12 @@
 {
   "delivered": {
+    "https://bootlin.com/?p=18028": "2026-09-09T09:15:49.126747+00:00",
     "https://bootlin.com/?p=22138": "2026-09-06T12:01:14.796223+00:00",
     "https://bootlin.com/?p=22277": "2026-09-06T23:09:25.403583+00:00",
     "https://developer.nvidia.com/blog/?p=122184": "2026-09-06T12:01:14.796223+00:00",
     "https://linuxgizmos.com/?p=98965": "2026-09-06T12:01:14.796223+00:00",
     "https://linuxgizmos.com/?p=98983": "2026-09-06T12:01:14.796223+00:00",
+    "https://linuxgizmos.com/?p=99011": "2026-09-09T09:15:49.126747+00:00",
     "https://lwn.net/Articles/1090568/": "2026-09-06T12:01:14.796223+00:00",
     "https://lwn.net/Articles/1090579/": "2026-09-06T12:01:14.796223+00:00",
     "https://lwn.net/Articles/1090824/": "2026-09-06T12:01:14.796223+00:00",
@@ -19,6 +21,7 @@
     "https://lwn.net/Articles/1092659/": "2026-09-06T12:01:14.796223+00:00",
     "https://lwn.net/Articles/1092660/": "2026-09-06T12:01:14.796223+00:00",
     "https://lwn.net/Articles/1092984/": "2026-09-08T10:29:03.704688+00:00",
+    "https://rcrwireless.com/?p=434424": "2026-09-09T09:15:49.126747+00:00",
     "https://www.cnx-software.com/?p=175484": "2026-09-06T12:01:14.796223+00:00",
     "https://www.cnx-software.com/?p=176672": "2026-09-06T12:01:14.796223+00:00",
     "https://www.cnx-software.com/?p=176691": "2026-09-06T12:01:14.796223+00:00",
@@ -30,6 +33,8 @@
     "https://www.cnx-software.com/?p=176819": "2026-09-06T12:01:38.804236+00:00",
     "https://www.cnx-software.com/?p=176898": "2026-09-08T10:29:03.704688+00:00",
     "https://www.cnx-software.com/?p=176923": "2026-09-08T10:29:03.704688+00:00",
+    "https://www.cnx-software.com/?p=176941": "2026-09-09T09:15:49.126747+00:00",
+    "https://www.cnx-software.com/?p=176959": "2026-09-09T09:15:49.126747+00:00",
     "https://www.phoronix.com/news/AMD-Rust-Deep-Into-GPU-Stack": "2026-09-06T05:46:32.580587+00:00",
     "https://www.phoronix.com/news/Amazon-Linux-2027-Preview": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/Apple-A18-Pro-MacBook-Neo-Patch": "2026-09-06T05:43:45.721234+00:00",
@@ -118,11 +123,149 @@
     "oai:arXiv.org:2609.03849v1": "2026-09-06T12:01:14.796223+00:00",
     "oai:arXiv.org:2609.04040v1": "2026-09-06T12:01:14.796223+00:00",
     "oai:arXiv.org:2609.04058v1": "2026-09-06T12:01:14.796223+00:00",
+    "oai:arXiv.org:2609.05635v1": "2026-09-09T09:15:49.126747+00:00",
+    "oai:arXiv.org:2609.05725v1": "2026-09-09T09:15:49.126747+00:00",
+    "oai:arXiv.org:2609.05729v1": "2026-09-09T09:15:49.126747+00:00",
+    "oai:arXiv.org:2609.05791v1": "2026-09-09T09:15:49.126747+00:00",
+    "oai:arXiv.org:2609.05982v1": "2026-09-09T09:15:49.126747+00:00",
     "tag:github.com,2008:Repository/107505869/v1.16.2": "2026-09-06T12:01:14.796223+00:00",
     "tag:github.com,2008:Repository/107505869/v1.17.0": "2026-09-06T12:01:14.796223+00:00"
   },
-  "pending": {},
+  "pending": {
+    "https://linuxgizmos.com/?p=98999": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://linuxgizmos.com/?p=98999",
+        "link": "https://linuxgizmos.com/odroid-m1s-goes-lite-with-2gb-ram-nvme-and-4k-video/",
+        "relevance": 4,
+        "source": "LinuxGizmos.com",
+        "summary": "Hardkernel has spun its ODROID-M1S into a Lite version, offering a lower-cost configuration of the RK3566-based single-board computer. The board includes 2GB of LPDDR4 memory, soldered eMMC storage, Gigabit Ethernet, HDMI 2.0, MIPI-DSI, USB 3.0, an M.2 NVMe slot, and Ubuntu support. The ODROID-M1S Lite is based on Rockchip’s RK3566 processor, which integrates four Arm […]",
+        "summary_vi": "Hardkernel has launched a budget-friendly \"Lite\" version of its ODROID-M1S single-board computer, powered by the Rockchip RK3566 processor with 2GB RAM.",
+        "title": "ODROID-M1S goes Lite with 2GB RAM, NVMe and 4K video"
+      },
+      "first_seen": "2026-09-09T09:15:49.126747+00:00"
+    },
+    "https://lwn.net/Articles/1091015/": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://lwn.net/Articles/1091015/",
+        "link": "https://lwn.net/Articles/1091015/",
+        "relevance": 4,
+        "source": "LWN.net Front Page",
+        "summary": "A function's return type is supposed to indicate the kind of data that it\nproduces. \nRust's \"never\" type, which is\n \ndenoted by an exclamation mark (\" ! \"), is the type the language uses to mark\na function that never returns and other places where a value can never occur. For\na long time, the never type was used internally by the compiler, but was\nconsidered an unstable feature. On\n \nAugust 24 , after more than two years of work,\nRust-compiler-contributor \"waffle\" finally managed to stabilize the type. It\ntook so long, in part, because it involved a small breaking\nchange to previous Rust editions, which the compiler maintainers needed to\nensure did not impact much real code.",
+        "summary_vi": "Rust has stabilized its \"never\" type (denoted by \"!\"), which marks functions that never return, after more than two years of development.",
+        "title": "[$] Stabilizing Rust's never type"
+      },
+      "first_seen": "2026-09-09T09:15:49.126747+00:00"
+    },
+    "https://lwn.net/Articles/1093144/": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://lwn.net/Articles/1093144/",
+        "link": "https://lwn.net/Articles/1093144/",
+        "relevance": 3,
+        "source": "LWN.net Front Page",
+        "summary": "Security updates have been issued by AlmaLinux (expat, git-lfs, grafana-pcp, kernel-rt, python3.14-cryptography, redis:6, skopeo, and xmlrpc-c), Debian (jbig2dec and strongswan), Fedora (baresip, chirp, chromium, corosync, emacs, GitPython, libre, libsoup3, nsd, perl-Net-OAuth, and perl-XML-Bare), Mageia (apache-mod_auth_openidc, exiv2, freerdp, python-pyasn1, and tor), Red Hat (buildah, cockpit-image-builder, container-tools:rhel8, containernetworking-plugins, delve, linux-sgx, osbuild-composer, pcs, and runc), SUSE (amazon-cloudwatch-agent, aws-nitro-enclaves-cli, bzip2, c-ares, curl, dracut, emacs, fuse-overlayfs, gegl, GraphicsMagick, httpcomponents-client, java-1_8_0-openjdk, java-25-openjdk, lcms2, libidn, libusb-1_0, LibVNCServer, microcode_ctl, multipath-tools, NetworkManager, nghttp2, openexr, openssl-1_1, openssl-3, perl-URI, php-composer2, postgresql15, postgresql17, postgresql18, python-GitPython, python-tornado6, python313-pip, redis, redis7, ucode-intel, wget, and wireshark), and Ubuntu (gzip and php7.0).",
+        "summary_vi": "Multiple security updates have been issued for various Linux distributions, including AlmaLinux, Debian, Fedora, Mageia, and Red Hat.",
+        "title": "Security updates for Tuesday"
+      },
+      "first_seen": "2026-09-09T09:15:49.126747+00:00"
+    },
+    "https://www.phoronix.com/news/AI-To-Faster-Linux-Kernel-Comp": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/AI-To-Faster-Linux-Kernel-Comp",
+        "link": "https://www.phoronix.com/news/AI-To-Faster-Linux-Kernel-Comp",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "An ARM Linux engineer leveraged AI/LLMs to help uncover some improvements to \"significant speed up\" the Linux kernel build times. In the process the LLM used generated \"a lot of code, much of it hideous\" but in the end was used to find some very significant time savings for faster kernel builds via more task parallelization in different areas of the kernel build process...",
+        "summary_vi": "An ARM Linux engineer used LLMs to identify parallelization bottlenecks in the Linux kernel build process, significantly speeding up compilation times despite the AI-generated code being messy.",
+        "title": "AI Made A Lot Of \"Hideous\" Code But Found Major Bottlenecks For Faster Linux Compilation"
+      },
+      "first_seen": "2026-09-09T09:15:49.126747+00:00"
+    },
+    "https://www.phoronix.com/news/DLSS5VKLayer": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/DLSS5VKLayer",
+        "link": "https://www.phoronix.com/news/DLSS5VKLayer",
+        "relevance": 3,
+        "source": "Phoronix",
+        "summary": "An interesting new open-source project for those looking to make use of NVIDIA DLSS 5 on Linux is DLSS5VKLayer. The DLSS5VKLayer is a Linux Vulkan layer that works for both native Linux games as well as Steam Play (Proton) Windows games for experimental DLSS 5 support...",
+        "summary_vi": "The DLSS5VKLayer is a new open-source Vulkan layer that enables experimental NVIDIA DLSS 5 support for native Linux and Steam Play games.",
+        "title": "DLSS5VKLayer Wires Up NVIDIA DLSS 5 For Native Linux Games & Steam Play"
+      },
+      "first_seen": "2026-09-09T09:15:49.126747+00:00"
+    },
+    "https://www.phoronix.com/news/systemd-262-rc2": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/systemd-262-rc2",
+        "link": "https://www.phoronix.com/news/systemd-262-rc2",
+        "relevance": 3,
+        "source": "Phoronix",
+        "summary": "One week after releasing systemd 262-rc1, systemd 262-rc2 is now available with further fixes and refinements for this init system and service manager. Systemd is also the latest open-source project introducing an AI canary for aiming to detect AI/LLM-based code contributors that weren't reviewed by an actual person in advance of the pull request...",
+        "summary_vi": "The systemd 262-rc2 release introduces an \"AI canary\" to help detect unreviewed code contributions generated by AI/LLM tools in pull requests.",
+        "title": "systemd 262-rc2 Adds An AI Canary For Detecting Unreviewed AI/LLM Code Contributions"
+      },
+      "first_seen": "2026-09-09T09:15:49.126747+00:00"
+    },
+    "oai:arXiv.org:2609.05764v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.05764v1",
+        "link": "https://arxiv.org/abs/2609.05764",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.05764v1 Announce Type: new \nAbstract: The key-value (KV) cache is the dominant memory bottleneck in long-context large language model (LLM) decoding: every step reads it entirely, so decoding is memory-bandwidth bound. Holding a quantized KV cache in dense on-chip non-volatile memory (NVM) removes the off-chip transfer. Existing KV quantization methods, however, were designed for GPU-style memory systems: KIVI attaches per-group metadata, adding about 25% to the stored KV cache; KVQuant keeps sparse full-precision outliers that a dense array cannot hold in place. This paper examines what these structures cost when the KV cache resides in NVM behind fixed-range converters, and designs a quantization scheme matched to that interface. The architecture stores the quantized KV cache in dense on-chip NVM, uses a small static analog crossbar only for the fixed rotation, and keeps attention in on-chip digital logic. A randomized rotation and per-vector normalization give every coordinate the same range, so one fixed codebook for keys and one for values, each shared across all tokens of the corresponding tensor type, serve the entire KV cache. The codebook thresholds are programmed once as the read converter's reference levels, enabling fixed-range digitization with no per-token converter reconfiguration. Dequantization is a sixteen-entry lookup and one norm multiply; the only per-vector metadata is one scalar, about 3%. Across models from 3B to 14B and contexts to 32k tokens, the four-bit KV cache maintains accuracy under storage and crossbar noise simulated at realistic device levels. KIVI and KVQuant remain more accurate in software; the advantage of our format lies at the memory interface: 3.1-3.6x lower KV read energy than both mapped to the same NVM, and 8x lower metadata overhead than KIVI. The contribution is a KV quantization co-designed with the NVM memory interface rather than a new accuracy record.",
+        "summary_vi": "This paper proposes interface-aware KV cache quantization designed to store KV caches in dense on-chip non-volatile memory, removing off-chip bandwidth bottlenecks during long-context LLM decoding.",
+        "title": "Interface-Aware KV Cache Quantization for Dense On-Chip NVM in Long-Context LLM Decoding"
+      },
+      "first_seen": "2026-09-09T09:15:49.126747+00:00"
+    },
+    "oai:arXiv.org:2609.05814v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.05814v1",
+        "link": "https://arxiv.org/abs/2609.05814",
+        "relevance": 4,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2609.05814v1 Announce Type: cross \nAbstract: Quantum applications increasingly execute as multi-stage quantum-classical pipelines, interleaving QPU computation with classical stages like circuit generation, transpilation, layout mapping, quantum error mitigation (QEM), and post-processing. These stages have diverse resource requirements and exhibit stochastic behavior under drifting hardware noises, yet existing workflow frameworks treat them as static, isolated components. We present LLQM (Low-Level Quantum Machine), a profiling-driven meta-framework for quantum-classical pipelines. LLQM decomposes pipelines into fine-grained tasks and continuously profiles their CPU/GPU, memory, QPU, and queue dependencies alongside real-time hardware states. This unified runtime abstraction captures cross-stage resource dependencies and reveals how classical and quantum decisions interact, enabling characterization of their impact on fidelity and resource consumption. We evaluate LLQM using QEM as a representative pipeline stage, on IBM 156-qubit Heron r2 processors with circuits up to 100 qubits and 1e7 transpiled gates. Our results show that continuous profiling exposes runtime bottlenecks and enables hardware-, fidelity-, and workload-aware optimizations.",
+        "summary_vi": "The paper introduces LLQM, a framework designed for continuous profiling and dynamic optimization of multi-stage, heterogeneous quantum-classical execution pipelines.",
+        "title": "Towards Continuous Profiling and Optimization of Quantum-Classical Pipelines"
+      },
+      "first_seen": "2026-09-09T09:15:49.126747+00:00"
+    },
+    "oai:arXiv.org:2609.05960v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.05960v1",
+        "link": "https://arxiv.org/abs/2609.05960",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.05960v1 Announce Type: new \nAbstract: Power analysis is crucial in modern chip design flow. Particularly, time-based power analysis can provide fine-grained power consumption information to facilitate the diagnosis of power issues and guide power optimization accordingly. However, it may take tens of hours to conduct time-based power analysis on modern large-scale circuits, which greatly slows down the power optimization flow. In this paper, we present the first GPU-accelerated gate-level time-based power analysis framework. We propose a novel data structure to enable efficient state-dependent power retrieval. To accommodate the imbalanced event distribution across gates, we propose an event-density-aware partitioning strategy that allocates GPU threads based on gate event density. Finally, we fuse the power computation into a single kernel invocation to reduce redundant work in separate kernels. Experimental results show that our proposed framework achieves high accuracy while delivering up to 37.63x end-to-end speedup compared to multi-threaded Synopsys PrimeTime PX.",
+        "summary_vi": "Researchers present a GPU-accelerated framework for gate-level time-based power analysis, utilizing event-density-aware partitioning and kernel fusion to accelerate chip design power optimization.",
+        "title": "GPU-Accelerated Gate-Level Time-Based Power Analysis via Event-Density-Aware Partitioning and Kernel Fusion"
+      },
+      "first_seen": "2026-09-09T09:15:49.126747+00:00"
+    },
+    "oai:arXiv.org:2609.06172v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.06172v1",
+        "link": "https://arxiv.org/abs/2609.06172",
+        "relevance": 4,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2609.06172v1 Announce Type: new \nAbstract: Large language models (LLMs) increasingly exceed the memory capacity of commodity GPUs, making memory oversubscription common in practical deployments. NVIDIA Unified Virtual Memory (UVM) provides transparent access to host memory, but its page-fault-driven migrations introduce severe performance overhead. While UVM exposes primitives (e.g., prefetching and placement hints) to mitigate these costs, they require low-level CUDA modifications, limiting their applicability for most LLM users. Meanwhile, existing UVM optimizations operate at coarse managed-object granularity and fail to capture deep learning frameworks' internal tensor-level memory behavior, leading to excessive data movement and CPU-GPU interconnect bottlenecks.\n We propose AutoUVM, an automated, framework-aware UVM prefetching system for efficient LLM execution under memory oversubscription. AutoUVM bridges the semantic gap between deep learning frameworks and UVM by exposing tensor-level access information and enabling policy-driven prefetching at fine granularity. Implemented as a transparent extension, AutoUVM requires no changes to model code and dynamically adapts to runtime memory pressure. We instantiate AutoUVM with a roofline-inspired policy to identify performance-critical data transfers. Across ten LLMs, AutoUVM achieves an average 3.1x speedup over baseline UVM and consistently surpasses the best-performing prior UVM prefetcher by 1.9x, with improvements of up to 4.7x over object-level prefetchers, while significantly reducing page faults.",
+        "summary_vi": "AutoUVM is an automated prefetching framework designed to reduce page-fault latency during LLM execution under GPU Unified Virtual Memory oversubscription without requiring manual CUDA modifications.",
+        "title": "AutoUVM: Automated Prefetching Framework for LLMs under UVM Oversubscription"
+      },
+      "first_seen": "2026-09-09T09:15:49.126747+00:00"
+    }
+  },
   "rejected": {
+    "https://lwn.net/Articles/1093145/": "2026-09-09T09:15:49.126747+00:00",
+    "https://rcrwireless.com/?p=434426": "2026-09-09T09:15:49.126747+00:00",
     "https://www.cnx-software.com/?p=176234": "2026-09-08T10:29:03.704688+00:00",
     "https://www.phoronix.com/news/NetBSD-9.5-Released": "2026-09-06T23:09:25.403583+00:00",
     "https://www.phoronix.com/news/Shotcut-26.9-Beta": "2026-09-06T23:09:25.403583+00:00",
