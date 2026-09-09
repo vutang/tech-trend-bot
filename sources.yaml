@@ -94,11 +94,17 @@ sources:
     url: https://github.com/altera-fpga/linux-socfpga/releases.atom
     category: embedded
 
-  # Qualcomm pkg-linux-qcom: repo đóng gói Debian package cho chính Linux
-  # kernel của Qualcomm — thay cho meta-qcom (đã 2 tháng không release),
-  # commit activity gần nhất chỉ vài ngày trước, đúng chủ đề kernel/embedded.
-  - name: Qualcomm pkg-linux-qcom (GitHub Releases)
-    url: https://github.com/qualcomm-linux/pkg-linux-qcom/releases.atom
+  # Qualcomm meta-qcom: BSP layer Yocto/OpenEmbedded chính thức cho nền
+  # tảng Qualcomm (Snapdragon). Release quản lý theo milestone (git tag),
+  # không phải mỗi commit — tần suất hợp lý, không lấn át top-5.
+  #
+  # ĐÃ THỬ THAY BẰNG pkg-linux-qcom (09/09/2026): commit activity gần đây
+  # hơn qua search, nhưng xác nhận bằng bot thật ra 0 bài thô — repo đó
+  # không dùng GitHub Releases (chỉ commit/tag thuần), đúng lỗi từng gặp
+  # với linux-xlnx/meta-xilinx. Quay lại meta-qcom, dù 2 tháng im lặng vẫn
+  # tốt hơn 0 bài vĩnh viễn.
+  - name: Qualcomm meta-qcom (GitHub Releases)
+    url: https://github.com/qualcomm-linux/meta-qcom/releases.atom
     category: embedded
 
   # RCR Wireless News: đổi sang feed gốc của site — feed FeedBurner cũ
