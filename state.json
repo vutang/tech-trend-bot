@@ -6,6 +6,7 @@
     "https://developer.nvidia.com/blog/?p=122184": "2026-09-06T12:01:14.796223+00:00",
     "https://linuxgizmos.com/?p=98965": "2026-09-06T12:01:14.796223+00:00",
     "https://linuxgizmos.com/?p=98983": "2026-09-06T12:01:14.796223+00:00",
+    "https://linuxgizmos.com/?p=99011": "2026-09-09T09:28:28.702623+00:00",
     "https://lwn.net/Articles/1090568/": "2026-09-06T12:01:14.796223+00:00",
     "https://lwn.net/Articles/1090579/": "2026-09-06T12:01:14.796223+00:00",
     "https://lwn.net/Articles/1090824/": "2026-09-06T12:01:14.796223+00:00",
@@ -21,6 +22,8 @@
     "https://lwn.net/Articles/1092660/": "2026-09-06T12:01:14.796223+00:00",
     "https://lwn.net/Articles/1092984/": "2026-09-08T00:43:47.238508+00:00",
     "https://lwn.net/Articles/1093144/": "2026-09-09T00:41:13.818850+00:00",
+    "https://rcrwireless.com/?p=434424": "2026-09-09T09:28:28.702623+00:00",
+    "https://rcrwireless.com/?p=434426": "2026-09-09T09:28:28.702623+00:00",
     "https://www.cnx-software.com/?p=175484": "2026-09-06T12:01:14.796223+00:00",
     "https://www.cnx-software.com/?p=176412": "2026-09-08T00:43:47.238508+00:00",
     "https://www.cnx-software.com/?p=176672": "2026-09-06T12:01:14.796223+00:00",
@@ -34,6 +37,8 @@
     "https://www.cnx-software.com/?p=176898": "2026-09-08T00:43:47.238508+00:00",
     "https://www.cnx-software.com/?p=176923": "2026-09-09T00:41:13.818850+00:00",
     "https://www.cnx-software.com/?p=176941": "2026-09-09T00:41:13.818850+00:00",
+    "https://www.cnx-software.com/?p=176959": "2026-09-09T09:28:28.702623+00:00",
+    "https://www.phoronix.com/news/AI-To-Faster-Linux-Kernel-Comp": "2026-09-09T09:28:28.702623+00:00",
     "https://www.phoronix.com/news/AMD-Rust-Deep-Into-GPU-Stack": "2026-09-06T05:46:32.580587+00:00",
     "https://www.phoronix.com/news/Amazon-Linux-2027-Preview": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/Apple-A18-Pro-MacBook-Neo-Patch": "2026-09-06T05:43:45.721234+00:00",
@@ -56,6 +61,7 @@
     "https://www.phoronix.com/news/Linux-7.3-rc2-Scheduler-Fixes": "2026-09-07T00:22:46.020009+00:00",
     "https://www.phoronix.com/news/Linux-7.3-rc2-kmalloc-obj": "2026-09-06T12:01:38.804236+00:00",
     "https://www.phoronix.com/news/Linux-Apple-Audio-Shared-GPIO": "2026-09-06T12:01:14.796223+00:00",
+    "https://www.phoronix.com/news/Linux-Dropping-Old-ARM-Ahead": "2026-09-09T09:28:28.702623+00:00",
     "https://www.phoronix.com/news/Linux-Shutdown-Async-21": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/Mir-2.29-Released": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/NVIDIA-Hugging-Face": "2026-09-06T12:01:14.796223+00:00",
@@ -131,10 +137,27 @@
     "oai:arXiv.org:2609.04406v1": "2026-09-08T00:43:47.238508+00:00",
     "oai:arXiv.org:2609.04417v1": "2026-09-09T00:41:13.818850+00:00",
     "oai:arXiv.org:2609.04429v1": "2026-09-08T00:43:47.238508+00:00",
+    "oai:arXiv.org:2609.05635v1": "2026-09-09T09:28:28.702623+00:00",
+    "oai:arXiv.org:2609.05725v1": "2026-09-09T09:28:28.702623+00:00",
+    "oai:arXiv.org:2609.05729v1": "2026-09-09T09:28:28.702623+00:00",
+    "oai:arXiv.org:2609.05791v1": "2026-09-09T09:28:28.702623+00:00",
     "tag:github.com,2008:Repository/107505869/v1.16.2": "2026-09-06T12:01:14.796223+00:00",
     "tag:github.com,2008:Repository/107505869/v1.17.0": "2026-09-06T12:01:14.796223+00:00"
   },
   "pending": {
+    "https://linuxgizmos.com/?p=98999": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://linuxgizmos.com/?p=98999",
+        "link": "https://linuxgizmos.com/odroid-m1s-goes-lite-with-2gb-ram-nvme-and-4k-video/",
+        "relevance": 4,
+        "source": "LinuxGizmos.com",
+        "summary": "Hardkernel has spun its ODROID-M1S into a Lite version, offering a lower-cost configuration of the RK3566-based single-board computer. The board includes 2GB of LPDDR4 memory, soldered eMMC storage, Gigabit Ethernet, HDMI 2.0, MIPI-DSI, USB 3.0, an M.2 NVMe slot, and Ubuntu support. The ODROID-M1S Lite is based on Rockchip’s RK3566 processor, which integrates four Arm […]",
+        "summary_vi": "Hardkernel has introduced a budget-friendly Lite version of its RK3566-based ODROID-M1S single-board computer. The board includes 2GB LPDDR4 memory, eMMC storage, Gigabit Ethernet, and an M.2 NVMe slot with Ubuntu support.",
+        "title": "ODROID-M1S goes Lite with 2GB RAM, NVMe and 4K video"
+      },
+      "first_seen": "2026-09-09T09:28:28.702623+00:00"
+    },
     "https://lwn.net/Articles/1092512/": {
       "entry": {
         "category": "embedded",
@@ -173,6 +196,71 @@
         "title": "Adaptive Context Parallelism for Production LLM Serving"
       },
       "first_seen": "2026-09-08T00:43:47.238508+00:00"
+    },
+    "oai:arXiv.org:2609.05764v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.05764v1",
+        "link": "https://arxiv.org/abs/2609.05764",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.05764v1 Announce Type: new \nAbstract: The key-value (KV) cache is the dominant memory bottleneck in long-context large language model (LLM) decoding: every step reads it entirely, so decoding is memory-bandwidth bound. Holding a quantized KV cache in dense on-chip non-volatile memory (NVM) removes the off-chip transfer. Existing KV quantization methods, however, were designed for GPU-style memory systems: KIVI attaches per-group metadata, adding about 25% to the stored KV cache; KVQuant keeps sparse full-precision outliers that a dense array cannot hold in place. This paper examines what these structures cost when the KV cache resides in NVM behind fixed-range converters, and designs a quantization scheme matched to that interface. The architecture stores the quantized KV cache in dense on-chip NVM, uses a small static analog crossbar only for the fixed rotation, and keeps attention in on-chip digital logic. A randomized rotation and per-vector normalization give every coordinate the same range, so one fixed codebook for keys and one for values, each shared across all tokens of the corresponding tensor type, serve the entire KV cache. The codebook thresholds are programmed once as the read converter's reference levels, enabling fixed-range digitization with no per-token converter reconfiguration. Dequantization is a sixteen-entry lookup and one norm multiply; the only per-vector metadata is one scalar, about 3%. Across models from 3B to 14B and contexts to 32k tokens, the four-bit KV cache maintains accuracy under storage and crossbar noise simulated at realistic device levels. KIVI and KVQuant remain more accurate in software; the advantage of our format lies at the memory interface: 3.1-3.6x lower KV read energy than both mapped to the same NVM, and 8x lower metadata overhead than KIVI. The contribution is a KV quantization co-designed with the NVM memory interface rather than a new accuracy record.",
+        "summary_vi": "This paper proposes storing a quantized key-value (KV) cache in dense on-chip non-volatile memory (NVM) to eliminate off-chip memory transfer bottlenecks during long-context LLM decoding. The interface-aware quantization method targets hardware-level performance improvements on memory-bandwidth-bound systems.",
+        "title": "Interface-Aware KV Cache Quantization for Dense On-Chip NVM in Long-Context LLM Decoding"
+      },
+      "first_seen": "2026-09-09T09:28:28.702623+00:00"
+    },
+    "oai:arXiv.org:2609.05814v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.05814v1",
+        "link": "https://arxiv.org/abs/2609.05814",
+        "relevance": 3,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2609.05814v1 Announce Type: cross \nAbstract: Quantum applications increasingly execute as multi-stage quantum-classical pipelines, interleaving QPU computation with classical stages like circuit generation, transpilation, layout mapping, quantum error mitigation (QEM), and post-processing. These stages have diverse resource requirements and exhibit stochastic behavior under drifting hardware noises, yet existing workflow frameworks treat them as static, isolated components. We present LLQM (Low-Level Quantum Machine), a profiling-driven meta-framework for quantum-classical pipelines. LLQM decomposes pipelines into fine-grained tasks and continuously profiles their CPU/GPU, memory, QPU, and queue dependencies alongside real-time hardware states. This unified runtime abstraction captures cross-stage resource dependencies and reveals how classical and quantum decisions interact, enabling characterization of their impact on fidelity and resource consumption. We evaluate LLQM using QEM as a representative pipeline stage, on IBM 156-qubit Heron r2 processors with circuits up to 100 qubits and 1e7 transpiled gates. Our results show that continuous profiling exposes runtime bottlenecks and enables hardware-, fidelity-, and workload-aware optimizations.",
+        "summary_vi": "The paper introduces LLQM, a workflow framework designed for continuous profiling and optimization of multi-stage quantum-classical pipelines. It addresses the dynamic resource demands and hardware noise fluctuations inherent in integrated quantum processing workflows.",
+        "title": "Towards Continuous Profiling and Optimization of Quantum-Classical Pipelines"
+      },
+      "first_seen": "2026-09-09T09:28:28.702623+00:00"
+    },
+    "oai:arXiv.org:2609.05960v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.05960v1",
+        "link": "https://arxiv.org/abs/2609.05960",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.05960v1 Announce Type: new \nAbstract: Power analysis is crucial in modern chip design flow. Particularly, time-based power analysis can provide fine-grained power consumption information to facilitate the diagnosis of power issues and guide power optimization accordingly. However, it may take tens of hours to conduct time-based power analysis on modern large-scale circuits, which greatly slows down the power optimization flow. In this paper, we present the first GPU-accelerated gate-level time-based power analysis framework. We propose a novel data structure to enable efficient state-dependent power retrieval. To accommodate the imbalanced event distribution across gates, we propose an event-density-aware partitioning strategy that allocates GPU threads based on gate event density. Finally, we fuse the power computation into a single kernel invocation to reduce redundant work in separate kernels. Experimental results show that our proposed framework achieves high accuracy while delivering up to 37.63x end-to-end speedup compared to multi-threaded Synopsys PrimeTime PX.",
+        "summary_vi": "The paper introduces a GPU-accelerated framework for gate-level, time-based power analysis to accelerate chip design optimization. It utilizes event-density-aware partitioning and kernel fusion to dramatically reduce the runtime of large-scale circuit power analysis.",
+        "title": "GPU-Accelerated Gate-Level Time-Based Power Analysis via Event-Density-Aware Partitioning and Kernel Fusion"
+      },
+      "first_seen": "2026-09-09T09:28:28.702623+00:00"
+    },
+    "oai:arXiv.org:2609.05982v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.05982v1",
+        "link": "https://arxiv.org/abs/2609.05982",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.05982v1 Announce Type: new \nAbstract: Coarse-Grained Reconfigurable Arrays (CGRAs) are a promising solution for achieving high energy efficiency and reconfigurability across various application domains, but their performance is often crippled by rigid memory architectures that limit the number and location of tiles that can access data memory. This creates a significant bottleneck for kernels with intensive memory accesses. To address this, we propose CMD, an integrated CGRA framework featuring cluster-based distributed memory design with a co-designed compilation toolchain. The compiler includes a novel memory-aware mapper and a design space exploration (DSE) mechanism that identifies the optimal memory architecture design for specific kernels. Experimental results show that our post-DSE CMD CGRAs achieve an average speedup of $1.39\\times$ over a conventional CGRA while simultaneously reducing the total area to an average of $0.912\\times$ of the conventional CGRA.",
+        "summary_vi": "Researchers propose CMD, an integrated Coarse-Grained Reconfigurable Array (CGRA) framework utilizing a cluster-based distributed memory design. This architecture addresses memory access bottlenecks in memory-intensive workloads, enhancing overall performance and flexibility.",
+        "title": "CMD: An Integrated CGRA Framework with Cluster-Based Distributed Memory Design"
+      },
+      "first_seen": "2026-09-09T09:28:28.702623+00:00"
+    },
+    "oai:arXiv.org:2609.06172v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.06172v1",
+        "link": "https://arxiv.org/abs/2609.06172",
+        "relevance": 4,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2609.06172v1 Announce Type: new \nAbstract: Large language models (LLMs) increasingly exceed the memory capacity of commodity GPUs, making memory oversubscription common in practical deployments. NVIDIA Unified Virtual Memory (UVM) provides transparent access to host memory, but its page-fault-driven migrations introduce severe performance overhead. While UVM exposes primitives (e.g., prefetching and placement hints) to mitigate these costs, they require low-level CUDA modifications, limiting their applicability for most LLM users. Meanwhile, existing UVM optimizations operate at coarse managed-object granularity and fail to capture deep learning frameworks' internal tensor-level memory behavior, leading to excessive data movement and CPU-GPU interconnect bottlenecks.\n We propose AutoUVM, an automated, framework-aware UVM prefetching system for efficient LLM execution under memory oversubscription. AutoUVM bridges the semantic gap between deep learning frameworks and UVM by exposing tensor-level access information and enabling policy-driven prefetching at fine granularity. Implemented as a transparent extension, AutoUVM requires no changes to model code and dynamically adapts to runtime memory pressure. We instantiate AutoUVM with a roofline-inspired policy to identify performance-critical data transfers. Across ten LLMs, AutoUVM achieves an average 3.1x speedup over baseline UVM and consistently surpasses the best-performing prior UVM prefetcher by 1.9x, with improvements of up to 4.7x over object-level prefetchers, while significantly reducing page faults.",
+        "summary_vi": "AutoUVM is an automated prefetching framework designed to mitigate the performance overhead of Unified Virtual Memory (UVM) page faults during LLM execution on GPUs. It provides optimization hints and prefetching without requiring manual low-level CUDA modifications.",
+        "title": "AutoUVM: Automated Prefetching Framework for LLMs under UVM Oversubscription"
+      },
+      "first_seen": "2026-09-09T09:28:28.702623+00:00"
     }
   },
   "rejected": {
@@ -184,6 +272,7 @@
     "https://www.phoronix.com/news/Shotcut-26.9-Beta": "2026-09-06T23:09:25.403583+00:00",
     "https://www.phoronix.com/news/Slackware-16-Alpha": "2026-09-06T12:13:08.951233+00:00",
     "https://www.phoronix.com/news/Ubuntu-26.10-amd64v3-Daily": "2026-09-08T00:43:47.238508+00:00",
+    "https://www.phoronix.com/review/chuwi-unibook-wildcat-lake": "2026-09-09T09:28:28.702623+00:00",
     "https://www.redhat.com/en/blog/introducing-external-secrets-management-console-plugin": "2026-09-08T00:43:47.238508+00:00",
     "https://www.redhat.com/en/blog/red-hat-named-leader-2026-gartnerr-magic-quadranttm-container-management-fourth-consecutive-year": "2026-09-09T00:41:13.818850+00:00"
   }
