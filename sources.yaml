@@ -64,10 +64,19 @@ sources:
     url: https://linuxgizmos.com/feed/
     category: embedded
 
-  # AMD/Xilinx Vitis Embedded Platform releases (Atom feed chuẩn của
-  # GitHub): bắt đúng version bump Vitis/PetaLinux/EDF thay vì chờ blog.
-  - name: Xilinx Vitis Embedded Platform (GitHub Releases)
-    url: https://github.com/Xilinx/Vitis_Embedded_Platform_Source/releases.atom
+  # AMD/Xilinx XRT (Xilinx Runtime) — driver stack chạy accelerator FPGA.
+  # Thay cho Vitis_Embedded_Platform_Source (đã xác nhận chết từ 2020,
+  # feed chỉ có đúng 1 release cũ) — XRT dùng GitHub Releases thật, hoạt
+  # động liên tục qua 2026, đúng phần mềm sát nhất với việc dùng FPGA Xilinx.
+  - name: Xilinx XRT (GitHub Releases)
+    url: https://github.com/Xilinx/XRT/releases.atom
+    category: embedded
+
+  # AMD ROCm Blog: blog kỹ thuật thật (tối ưu GPU kernel, occupancy math,
+  # memory scheduling...), không phải PR — đã verify nội dung sâu, ra bài
+  # đều đặn suốt 2026.
+  - name: AMD ROCm Blog
+    url: https://rocm.blogs.amd.com/blog/atom.xml
     category: embedded
 
   # NVIDIA Technical Blog — tag Jetson: JetPack, Jetson Orin/Thor, edge AI.
@@ -88,12 +97,21 @@ sources:
   # Qualcomm meta-qcom: BSP layer Yocto/OpenEmbedded chính thức cho nền
   # tảng Qualcomm (Snapdragon). Release quản lý theo milestone (git tag),
   # không phải mỗi commit — tần suất hợp lý, không lấn át top-5.
+  #
+  # ĐÃ THỬ THAY BẰNG pkg-linux-qcom (09/09/2026): commit activity gần đây
+  # hơn qua search, nhưng xác nhận bằng bot thật ra 0 bài thô — repo đó
+  # không dùng GitHub Releases (chỉ commit/tag thuần), đúng lỗi từng gặp
+  # với linux-xlnx/meta-xilinx. Quay lại meta-qcom, dù 2 tháng im lặng vẫn
+  # tốt hơn 0 bài vĩnh viễn.
   - name: Qualcomm meta-qcom (GitHub Releases)
     url: https://github.com/qualcomm-linux/meta-qcom/releases.atom
     category: embedded
 
+  # RCR Wireless News: đổi sang feed gốc của site — feed FeedBurner cũ
+  # (feeds.feedburner.com/rcrwireless/sLmV) đã xác nhận CHẾT từ 14/08/2026
+  # bằng chính bot thật (không phải suy đoán), dù trang chủ vẫn ra bài đều.
   - name: RCR Wireless News
-    url: https://feeds.feedburner.com/rcrwireless/sLmV
+    url: https://rcrwireless.com/feed
     category: ran
 
   # IEEE Spectrum — mục Telecommunications: tạp chí kỹ thuật chính thức
