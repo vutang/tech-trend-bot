@@ -24,6 +24,9 @@
     "https://lwn.net/Articles/1093144/": "2026-09-09T00:41:13.818850+00:00",
     "https://rcrwireless.com/?p=434424": "2026-09-09T09:28:28.702623+00:00",
     "https://rcrwireless.com/?p=434426": "2026-09-09T09:28:28.702623+00:00",
+    "https://rcrwireless.com/?p=434456": "2026-09-10T00:38:49.074531+00:00",
+    "https://rcrwireless.com/?p=434460": "2026-09-10T00:38:49.074531+00:00",
+    "https://rocm.blogs.amd.com/software-tools-optimization/iteratively-tuning-hipblaslt/README.html": "2026-09-10T00:38:49.074531+00:00",
     "https://www.cnx-software.com/?p=175484": "2026-09-06T12:01:14.796223+00:00",
     "https://www.cnx-software.com/?p=176412": "2026-09-08T00:43:47.238508+00:00",
     "https://www.cnx-software.com/?p=176672": "2026-09-06T12:01:14.796223+00:00",
@@ -38,6 +41,7 @@
     "https://www.cnx-software.com/?p=176923": "2026-09-09T00:41:13.818850+00:00",
     "https://www.cnx-software.com/?p=176941": "2026-09-09T00:41:13.818850+00:00",
     "https://www.cnx-software.com/?p=176959": "2026-09-09T09:28:28.702623+00:00",
+    "https://www.cnx-software.com/?p=176968": "2026-09-10T00:38:49.074531+00:00",
     "https://www.phoronix.com/news/AI-To-Faster-Linux-Kernel-Comp": "2026-09-09T09:28:28.702623+00:00",
     "https://www.phoronix.com/news/AMD-Rust-Deep-Into-GPU-Stack": "2026-09-06T05:46:32.580587+00:00",
     "https://www.phoronix.com/news/Amazon-Linux-2027-Preview": "2026-09-06T12:01:14.796223+00:00",
@@ -69,6 +73,7 @@
     "https://www.phoronix.com/news/NetworkManager-AI-Canary": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/Nouveau-Blackwell-Display-Fixes": "2026-09-06T05:43:45.721234+00:00",
     "https://www.phoronix.com/news/PoCL-7.2-Released": "2026-09-06T12:01:14.796223+00:00",
+    "https://www.phoronix.com/news/ReactOS-FEX-ARM64-Stacking": "2026-09-10T00:38:49.074531+00:00",
     "https://www.phoronix.com/news/Ubuntu-26.10-Snapshot-3": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/Vulkan-1.4.362": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/Wine-11.17-Released": "2026-09-06T12:01:14.796223+00:00",
@@ -77,6 +82,7 @@
     "https://www.phoronix.com/news/systemd-262-rc2": "2026-09-09T00:41:13.818850+00:00",
     "https://www.phoronix.com/news/x86-CPU-With-APX-x86S": "2026-09-08T00:43:47.238508+00:00",
     "https://www.phoronix.com/review/amazon-linux-2027-benchmarks": "2026-09-06T12:01:14.796223+00:00",
+    "https://www.phoronix.com/review/msi-b850p-coreboot-opensil": "2026-09-10T00:38:49.074531+00:00",
     "https://www.redhat.com/en/blog/context-wall-what-happens-when-your-ai-agent-hits-gpu-memory-ceiling": "2026-09-09T00:41:13.818850+00:00",
     "https://www.redhat.com/en/blog/friday-five-september-4-2026-red-hat": "2026-09-06T12:01:14.796223+00:00",
     "https://www.redhat.com/en/blog/modernizing-virtualization-higher-education-how-automated-node-recovery-protects-data-integrity": "2026-09-06T12:01:14.796223+00:00",
@@ -141,6 +147,10 @@
     "oai:arXiv.org:2609.05725v1": "2026-09-09T09:28:28.702623+00:00",
     "oai:arXiv.org:2609.05729v1": "2026-09-09T09:28:28.702623+00:00",
     "oai:arXiv.org:2609.05791v1": "2026-09-09T09:28:28.702623+00:00",
+    "oai:arXiv.org:2609.05844v1": "2026-09-10T00:38:49.074531+00:00",
+    "oai:arXiv.org:2609.06125v1": "2026-09-10T00:38:49.074531+00:00",
+    "oai:arXiv.org:2609.06157v1": "2026-09-10T00:38:49.074531+00:00",
+    "oai:arXiv.org:2609.06270v1": "2026-09-10T00:38:49.074531+00:00",
     "tag:github.com,2008:Repository/107505869/v1.16.2": "2026-09-06T12:01:14.796223+00:00",
     "tag:github.com,2008:Repository/107505869/v1.17.0": "2026-09-06T12:01:14.796223+00:00"
   },
@@ -170,6 +180,45 @@
         "title": "[$] CERN's migration path from CentOS Linux to Debian"
       },
       "first_seen": "2026-09-08T00:43:47.238508+00:00"
+    },
+    "https://lwn.net/Articles/1093391/": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://lwn.net/Articles/1093391/",
+        "link": "https://lwn.net/Articles/1093391/",
+        "relevance": 3,
+        "source": "LWN.net Front Page",
+        "summary": "Joe Birr-Pixton has written a blog post \nreflecting on a decade of the Rustls TLS-library project and looking ahead to\nthe upcoming 0.24 release and an eventual 1.0 release. \n\n \n Rustls began with a\nfirst commit on May 2, 2016. Progress was quick: a month later, on June 5,\nit could interoperate with most sites on the web. The first release, 0.1.0,\nfollowed on August 27, 2016 – less than four months after the first commit. \n\n [...] From the 0.1.0 release, the project moved through a long series of\nreleases over the following eight years, building out functionality, hardening\nand refining the API. That sequence of release lines culminated in 0.23,\nreleased on February 29, 2024. \n\n The 0.23 release line has been a stable one: in the time since, it has\nseen 43 non-breaking releases. That stability didn't come with\nstagnation. The 0.23 line delivered a wide range of important features,\nincluding a FIPS-certified cryptography option, certificate compression,\nEncrypted ClientHello, post-quantum cryptography, and performance\nimprovements.",
+        "summary_vi": "This article reflects on the ten-year history of the Rustls TLS library since its first commit in 2016. It highlights the project's rapid initial progress and looks forward to the upcoming 0.24 and 1.0 releases.",
+        "title": "A decade of Rustls"
+      },
+      "first_seen": "2026-09-10T00:38:49.074531+00:00"
+    },
+    "https://rcrwireless.com/?p=434453": {
+      "entry": {
+        "category": "ran",
+        "id": "https://rcrwireless.com/?p=434453",
+        "link": "https://pages.rcrtech.com/6g-report-2026",
+        "relevance": 3,
+        "source": "RCR Wireless News",
+        "summary": "The move toward 6G marks a shift from faster networks to intelligent, purpose-driven infrastructure. This webinar will explore how emerging capabilities like AI-native architectures, sub-THz spectrum, integrated sensing, and multilayer security…",
+        "summary_vi": "This report examines the transition toward 6G networks, focusing on AI-native architectures, sub-THz spectrum, and integrated sensing. It highlights the structural shift from basic high-speed connectivity to intelligent, purpose-driven infrastructure.",
+        "title": "Report: Building 6G — Aligning technology, policy and purpose"
+      },
+      "first_seen": "2026-09-10T00:38:49.074531+00:00"
+    },
+    "oai:arXiv.org:2607.13604v2": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2607.13604v2",
+        "link": "https://arxiv.org/abs/2607.13604",
+        "relevance": 4,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2607.13604v2 Announce Type: replace \nAbstract: Large-buffer reads increasingly connect data-intensive applications to high-speed storage. They amortize system-call overhead and create a larger in-kernel window for organizing page-cache work and submitting I/O. However, Linux buffered read primarily exploits only the former benefit. Within a large read, its conventional interleaved path repeatedly switches among fine-grained page-cache operations, amplifying metadata and serial orchestration overheads and failing to consistently expose enough in-flight requests to modern parallel SSDs.\n We present MARS, a multi-stage accelerated read stack for synchronous large-buffer buffered reads. MARS treats each large-range read as one unit of work and stages page-cache operations by data structure and dependency. During I/O waits, it handles user-buffer page faults and performs reorderable data copies early. Opportunistic kernel workers then copy remaining data in parallel and, when the backend provides sufficient parallelism, optionally submit I/O in parallel. We implement MARS in Linux 6.6.58. For MiB-scale fio reads, MARS improves bandwidth by up to 6.56 times over Linux. On five NVMe SSDs in RAID0, it reaches 36.87 GiB/s for 128 MiB random reads, 4.44 times Linux. MARS also accelerates DuckDB/Parquet queries by 1.80--2.15 times and ExecuTorch model loading by 3.17--3.61 times.",
+        "summary_vi": "The paper introduces MARS, a multi-stage accelerated read stack designed to optimize large-buffer buffered reads in Linux. It mitigates performance overheads in the traditional page-cache path by streamlining metadata operations and in-kernel orchestration.",
+        "title": "MARS: Multi-stage Accelerated Read Stack for Large-buffer Buffered Reads"
+      },
+      "first_seen": "2026-09-10T00:38:49.074531+00:00"
     },
     "oai:arXiv.org:2609.04238v1": {
       "entry": {
@@ -209,6 +258,32 @@
         "title": "Interface-Aware KV Cache Quantization for Dense On-Chip NVM in Long-Context LLM Decoding"
       },
       "first_seen": "2026-09-09T09:28:28.702623+00:00"
+    },
+    "oai:arXiv.org:2609.05793v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.05793v1",
+        "link": "https://arxiv.org/abs/2609.05793",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2609.05793v1 Announce Type: new \nAbstract: Wireless digital twins can support site-specific analysis, planning, and experimentation for future wireless networks. However, constructing them at city scale remains challenging when accurate 3D city models are unavailable. This paper presents HalifaxDT, a wireless digital twin of the Halifax Peninsula in Nova Scotia, Canada, constructed from heterogeneous open geospatial and spectrum data. HalifaxDT combines building footprints, LiDAR elevation products, building metadata, and spectrum licensing records through a workflow that reconciles multiple sources of building-height information while preserving the provenance of geometry decisions. The resulting terrain, buildings, and gateway metadata are integrated into Sionna RT for wireless simulation. We evaluate HalifaxDT through two use cases. The first compares its coverage predictions with a reference derived from field measurements and with an analytical baseline. The second uses the digital twin to predict the received signal under normal operating conditions and detect interference. The coverage results show that HalifaxDT better preserves the spatial structure of the measured radio map than the analytical baseline. The interference study shows that deviations from the predicted reference can reveal interference that is difficult to detect from received power alone. We also identify current fidelity limitations, including simplified material representation, missing vegetation, and the need for broader RF calibration and synchronization with live measurements.",
+        "summary_vi": "Researchers have developed HalifaxDT, a wireless digital twin of the Halifax Peninsula in Canada, using heterogeneous open geospatial and LiDAR data. The platform supports site-specific simulations, planning, and testing for future wireless networks.",
+        "title": "HalifaxDT: A Wireless Digital Twin from Open Geospatial Data"
+      },
+      "first_seen": "2026-09-10T00:38:49.074531+00:00"
+    },
+    "oai:arXiv.org:2609.05803v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.05803v1",
+        "link": "https://arxiv.org/abs/2609.05803",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2609.05803v1 Announce Type: new \nAbstract: This work compares a hemispherical graphene-based transmitarray antenna with its planar reflector counterpart for wide-angle beam steering in the THz regime. The theoretical framework of the planar reflector is formulated and numerically evaluated, yielding an elevation beam-steering range of \\pm60{\\deg}. In contrast, the transmitarray extends the elevation steering range to \\pm78{\\deg} while maintaining full 360{\\deg} azimuthal coverage. The planar reflector exhibits a larger HPBW variation of 26.48{\\deg}, compared with 13.1{\\deg} for the transmitarray, resulting in a broader reflected-beam distribution and reduced directional power density, directivity, and gain. Meanwhile, the transmitarray maintains a more stable and controllable beamwidth response with greater directional power concentration over a wide steering range. The performance advantages of the transmitarray are demonstrated through comparisons with experimental results reported in the literature for planar reflectors and antennas. We further provide a comprehensive assessment of the performance advantages of the transmitarray over planar configurations across the remaining metrics.",
+        "summary_vi": "This work compares a hemispherical graphene-based transmitarray antenna with a planar reflector for Terahertz beam steering. The transmitarray demonstrated an extended elevation steering range of up to +/-78 degrees alongside full 360-degree azimuthal coverage.",
+        "title": "Comparative Performance of Graphene-Enabled Transmitarray Antenna and Reflectors for Wide-Angle Terahertz Beam Steering"
+      },
+      "first_seen": "2026-09-10T00:38:49.074531+00:00"
     },
     "oai:arXiv.org:2609.05814v1": {
       "entry": {
@@ -264,16 +339,24 @@
     }
   },
   "rejected": {
+    "https://bootlin.com/?p=22302": "2026-09-10T00:38:49.074531+00:00",
+    "https://lwn.net/Articles/1092993/": "2026-09-10T00:38:49.074531+00:00",
     "https://lwn.net/Articles/1093145/": "2026-09-09T00:41:13.818850+00:00",
+    "https://lwn.net/Articles/1093388/": "2026-09-10T00:38:49.074531+00:00",
     "https://www.cnx-software.com/?p=176234": "2026-09-08T00:43:47.238508+00:00",
+    "https://www.linuxfoundation.org/blog/how-ospos-are-preparing-organizations-for-the-eu-cyber-resilience-act": "2026-09-10T00:38:49.074531+00:00",
     "https://www.phoronix.com/news/DLSS5VKLayer": "2026-09-09T00:41:13.818850+00:00",
     "https://www.phoronix.com/news/KDE-KWin-Wayland-Commit-Timing": "2026-09-09T00:41:13.818850+00:00",
     "https://www.phoronix.com/news/NetBSD-9.5-Released": "2026-09-06T23:09:25.403583+00:00",
     "https://www.phoronix.com/news/Shotcut-26.9-Beta": "2026-09-06T23:09:25.403583+00:00",
     "https://www.phoronix.com/news/Slackware-16-Alpha": "2026-09-06T12:13:08.951233+00:00",
+    "https://www.phoronix.com/news/Steam-Beta-9-September-2026": "2026-09-10T00:38:49.074531+00:00",
     "https://www.phoronix.com/news/Ubuntu-26.10-amd64v3-Daily": "2026-09-08T00:43:47.238508+00:00",
     "https://www.phoronix.com/review/chuwi-unibook-wildcat-lake": "2026-09-09T09:28:28.702623+00:00",
     "https://www.redhat.com/en/blog/introducing-external-secrets-management-console-plugin": "2026-09-08T00:43:47.238508+00:00",
-    "https://www.redhat.com/en/blog/red-hat-named-leader-2026-gartnerr-magic-quadranttm-container-management-fourth-consecutive-year": "2026-09-09T00:41:13.818850+00:00"
+    "https://www.redhat.com/en/blog/lightwell-reality-check": "2026-09-10T00:38:49.074531+00:00",
+    "https://www.redhat.com/en/blog/red-hat-ai-35-scaling-and-governing-ai-agents-production": "2026-09-10T00:38:49.074531+00:00",
+    "https://www.redhat.com/en/blog/red-hat-named-leader-2026-gartnerr-magic-quadranttm-container-management-fourth-consecutive-year": "2026-09-09T00:41:13.818850+00:00",
+    "https://www.redhat.com/en/blog/red-hat-sponsors-openclaw-foundation-advance-open-future-production-ai-agents": "2026-09-10T00:38:49.074531+00:00"
   }
 }
