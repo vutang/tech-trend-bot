@@ -8,6 +8,8 @@
     "https://linuxgizmos.com/?p=98983": "2026-09-06T12:01:14.796223+00:00",
     "https://linuxgizmos.com/?p=99011": "2026-09-09T09:28:28.702623+00:00",
     "https://linuxgizmos.com/?p=99031": "2026-09-11T00:35:59.502530+00:00",
+    "https://linuxgizmos.com/?p=99049": "2026-09-12T17:58:12.510566+00:00",
+    "https://linuxgizmos.com/?p=99074": "2026-09-12T17:58:12.510566+00:00",
     "https://lwn.net/Articles/1090568/": "2026-09-06T12:01:14.796223+00:00",
     "https://lwn.net/Articles/1090579/": "2026-09-06T12:01:14.796223+00:00",
     "https://lwn.net/Articles/1090824/": "2026-09-06T12:01:14.796223+00:00",
@@ -26,6 +28,7 @@
     "https://lwn.net/Articles/1093398/": "2026-09-12T00:42:36.175668+00:00",
     "https://rcrwireless.com/?p=434424": "2026-09-09T09:28:28.702623+00:00",
     "https://rcrwireless.com/?p=434426": "2026-09-09T09:28:28.702623+00:00",
+    "https://rcrwireless.com/?p=434453": "2026-09-12T17:58:12.510566+00:00",
     "https://rcrwireless.com/?p=434456": "2026-09-10T00:38:49.074531+00:00",
     "https://rcrwireless.com/?p=434460": "2026-09-10T00:38:49.074531+00:00",
     "https://rcrwireless.com/?p=434465": "2026-09-11T00:35:59.502530+00:00",
@@ -50,6 +53,7 @@
     "https://www.cnx-software.com/?p=176968": "2026-09-10T00:38:49.074531+00:00",
     "https://www.cnx-software.com/?p=176989": "2026-09-11T00:35:59.502530+00:00",
     "https://www.cnx-software.com/?p=177019": "2026-09-12T00:42:36.175668+00:00",
+    "https://www.cnx-software.com/?p=177026": "2026-09-12T17:58:12.510566+00:00",
     "https://www.cnx-software.com/?p=177042": "2026-09-12T00:42:36.175668+00:00",
     "https://www.phoronix.com/news/AI-To-Faster-Linux-Kernel-Comp": "2026-09-09T09:28:28.702623+00:00",
     "https://www.phoronix.com/news/AMD-Rust-Deep-Into-GPU-Stack": "2026-09-06T05:46:32.580587+00:00",
@@ -66,6 +70,7 @@
     "https://www.phoronix.com/news/Ikey-Doherty-Plans-Linux-Build": "2026-09-06T05:23:31.174617+00:00",
     "https://www.phoronix.com/news/InputPlumber-0.79": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/Intel-Graphics-CMRR-Linux-7.4": "2026-09-06T12:01:14.796223+00:00",
+    "https://www.phoronix.com/news/Intel-Linux-NPU-Driver-1.38": "2026-09-12T17:58:12.510566+00:00",
     "https://www.phoronix.com/news/Intel-Nova-Lake-P-64-bit-Mode": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/KDE-Plasma-6.8-Autoscroll": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/LLVM-Debates-AGENTS-MD": "2026-09-06T12:01:14.796223+00:00",
@@ -165,29 +170,21 @@
     "oai:arXiv.org:2609.06125v1": "2026-09-10T00:38:49.074531+00:00",
     "oai:arXiv.org:2609.06157v1": "2026-09-10T00:38:49.074531+00:00",
     "oai:arXiv.org:2609.06270v1": "2026-09-10T00:38:49.074531+00:00",
+    "oai:arXiv.org:2609.09208v1": "2026-09-12T17:58:12.510566+00:00",
     "oai:arXiv.org:2609.09324v1": "2026-09-11T00:35:59.502530+00:00",
     "oai:arXiv.org:2609.09387v1": "2026-09-11T00:35:59.502530+00:00",
+    "oai:arXiv.org:2609.09400v1": "2026-09-12T17:58:12.510566+00:00",
+    "oai:arXiv.org:2609.09519v1": "2026-09-12T17:58:12.510566+00:00",
     "oai:arXiv.org:2609.09833v1": "2026-09-11T00:35:59.502530+00:00",
     "oai:arXiv.org:2609.10861v1": "2026-09-12T00:42:36.175668+00:00",
     "oai:arXiv.org:2609.10940v1": "2026-09-12T00:42:36.175668+00:00",
+    "oai:arXiv.org:2609.10944v1": "2026-09-12T17:58:12.510566+00:00",
     "oai:arXiv.org:2609.10970v1": "2026-09-12T00:42:36.175668+00:00",
+    "oai:arXiv.org:2609.11044v1": "2026-09-12T17:58:12.510566+00:00",
     "tag:github.com,2008:Repository/107505869/v1.16.2": "2026-09-06T12:01:14.796223+00:00",
     "tag:github.com,2008:Repository/107505869/v1.17.0": "2026-09-06T12:01:14.796223+00:00"
   },
   "pending": {
-    "https://linuxgizmos.com/?p=98999": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://linuxgizmos.com/?p=98999",
-        "link": "https://linuxgizmos.com/odroid-m1s-goes-lite-with-2gb-ram-nvme-and-4k-video/",
-        "relevance": 4,
-        "source": "LinuxGizmos.com",
-        "summary": "Hardkernel has spun its ODROID-M1S into a Lite version, offering a lower-cost configuration of the RK3566-based single-board computer. The board includes 2GB of LPDDR4 memory, soldered eMMC storage, Gigabit Ethernet, HDMI 2.0, MIPI-DSI, USB 3.0, an M.2 NVMe slot, and Ubuntu support. The ODROID-M1S Lite is based on Rockchip’s RK3566 processor, which integrates four Arm […]",
-        "summary_vi": "Hardkernel has introduced a budget-friendly Lite version of its RK3566-based ODROID-M1S single-board computer. The board includes 2GB LPDDR4 memory, eMMC storage, Gigabit Ethernet, and an M.2 NVMe slot with Ubuntu support.",
-        "title": "ODROID-M1S goes Lite with 2GB RAM, NVMe and 4K video"
-      },
-      "first_seen": "2026-09-09T09:28:28.702623+00:00"
-    },
     "https://lwn.net/Articles/1092003/": {
       "entry": {
         "category": "embedded",
@@ -227,18 +224,18 @@
       },
       "first_seen": "2026-09-12T00:42:36.175668+00:00"
     },
-    "https://rcrwireless.com/?p=434453": {
+    "https://www.phoronix.com/news/Void-Linux-AI-Policy-Orphan": {
       "entry": {
-        "category": "ran",
-        "id": "https://rcrwireless.com/?p=434453",
-        "link": "https://pages.rcrtech.com/6g-report-2026",
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Void-Linux-AI-Policy-Orphan",
+        "link": "https://www.phoronix.com/news/Void-Linux-AI-Policy-Orphan",
         "relevance": 3,
-        "source": "RCR Wireless News",
-        "summary": "The move toward 6G marks a shift from faster networks to intelligent, purpose-driven infrastructure. This webinar will explore how emerging capabilities like AI-native architectures, sub-THz spectrum, integrated sensing, and multilayer security…",
-        "summary_vi": "This report examines the transition toward 6G networks, focusing on AI-native architectures, sub-THz spectrum, and integrated sensing. It highlights the structural shift from basic high-speed connectivity to intelligent, purpose-driven infrastructure.",
-        "title": "Report: Building 6G — Aligning technology, policy and purpose"
+        "source": "Phoronix",
+        "summary": "A Void Linux maintainer has orphaned more than 100 packages he maintained over a dispute of the project's AI policy for LLM-generated text...",
+        "summary_vi": "A Void Linux maintainer has abandoned over 100 packages due to a dispute regarding the project's policy on LLM-generated AI text.",
+        "title": "Void Linux Maintainer Orphans 100+ Packages Over AI Policy Dispute"
       },
-      "first_seen": "2026-09-10T00:38:49.074531+00:00"
+      "first_seen": "2026-09-12T17:58:12.510566+00:00"
     },
     "oai:arXiv.org:2607.13604v2": {
       "entry": {
@@ -252,19 +249,6 @@
         "title": "MARS: Multi-stage Accelerated Read Stack for Large-buffer Buffered Reads"
       },
       "first_seen": "2026-09-10T00:38:49.074531+00:00"
-    },
-    "oai:arXiv.org:2609.05764v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.05764v1",
-        "link": "https://arxiv.org/abs/2609.05764",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.05764v1 Announce Type: new \nAbstract: The key-value (KV) cache is the dominant memory bottleneck in long-context large language model (LLM) decoding: every step reads it entirely, so decoding is memory-bandwidth bound. Holding a quantized KV cache in dense on-chip non-volatile memory (NVM) removes the off-chip transfer. Existing KV quantization methods, however, were designed for GPU-style memory systems: KIVI attaches per-group metadata, adding about 25% to the stored KV cache; KVQuant keeps sparse full-precision outliers that a dense array cannot hold in place. This paper examines what these structures cost when the KV cache resides in NVM behind fixed-range converters, and designs a quantization scheme matched to that interface. The architecture stores the quantized KV cache in dense on-chip NVM, uses a small static analog crossbar only for the fixed rotation, and keeps attention in on-chip digital logic. A randomized rotation and per-vector normalization give every coordinate the same range, so one fixed codebook for keys and one for values, each shared across all tokens of the corresponding tensor type, serve the entire KV cache. The codebook thresholds are programmed once as the read converter's reference levels, enabling fixed-range digitization with no per-token converter reconfiguration. Dequantization is a sixteen-entry lookup and one norm multiply; the only per-vector metadata is one scalar, about 3%. Across models from 3B to 14B and contexts to 32k tokens, the four-bit KV cache maintains accuracy under storage and crossbar noise simulated at realistic device levels. KIVI and KVQuant remain more accurate in software; the advantage of our format lies at the memory interface: 3.1-3.6x lower KV read energy than both mapped to the same NVM, and 8x lower metadata overhead than KIVI. The contribution is a KV quantization co-designed with the NVM memory interface rather than a new accuracy record.",
-        "summary_vi": "This paper proposes storing a quantized key-value (KV) cache in dense on-chip non-volatile memory (NVM) to eliminate off-chip memory transfer bottlenecks during long-context LLM decoding. The interface-aware quantization method targets hardware-level performance improvements on memory-bandwidth-bound systems.",
-        "title": "Interface-Aware KV Cache Quantization for Dense On-Chip NVM in Long-Context LLM Decoding"
-      },
-      "first_seen": "2026-09-09T09:28:28.702623+00:00"
     },
     "oai:arXiv.org:2609.05793v1": {
       "entry": {
@@ -292,19 +276,6 @@
       },
       "first_seen": "2026-09-10T00:38:49.074531+00:00"
     },
-    "oai:arXiv.org:2609.05814v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.05814v1",
-        "link": "https://arxiv.org/abs/2609.05814",
-        "relevance": 3,
-        "source": "arXiv cs.OS (Operating Systems)",
-        "summary": "arXiv:2609.05814v1 Announce Type: cross \nAbstract: Quantum applications increasingly execute as multi-stage quantum-classical pipelines, interleaving QPU computation with classical stages like circuit generation, transpilation, layout mapping, quantum error mitigation (QEM), and post-processing. These stages have diverse resource requirements and exhibit stochastic behavior under drifting hardware noises, yet existing workflow frameworks treat them as static, isolated components. We present LLQM (Low-Level Quantum Machine), a profiling-driven meta-framework for quantum-classical pipelines. LLQM decomposes pipelines into fine-grained tasks and continuously profiles their CPU/GPU, memory, QPU, and queue dependencies alongside real-time hardware states. This unified runtime abstraction captures cross-stage resource dependencies and reveals how classical and quantum decisions interact, enabling characterization of their impact on fidelity and resource consumption. We evaluate LLQM using QEM as a representative pipeline stage, on IBM 156-qubit Heron r2 processors with circuits up to 100 qubits and 1e7 transpiled gates. Our results show that continuous profiling exposes runtime bottlenecks and enables hardware-, fidelity-, and workload-aware optimizations.",
-        "summary_vi": "The paper introduces LLQM, a workflow framework designed for continuous profiling and optimization of multi-stage quantum-classical pipelines. It addresses the dynamic resource demands and hardware noise fluctuations inherent in integrated quantum processing workflows.",
-        "title": "Towards Continuous Profiling and Optimization of Quantum-Classical Pipelines"
-      },
-      "first_seen": "2026-09-09T09:28:28.702623+00:00"
-    },
     "oai:arXiv.org:2609.05814v2": {
       "entry": {
         "category": "research",
@@ -318,58 +289,6 @@
       },
       "first_seen": "2026-09-12T00:42:36.175668+00:00"
     },
-    "oai:arXiv.org:2609.05960v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.05960v1",
-        "link": "https://arxiv.org/abs/2609.05960",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.05960v1 Announce Type: new \nAbstract: Power analysis is crucial in modern chip design flow. Particularly, time-based power analysis can provide fine-grained power consumption information to facilitate the diagnosis of power issues and guide power optimization accordingly. However, it may take tens of hours to conduct time-based power analysis on modern large-scale circuits, which greatly slows down the power optimization flow. In this paper, we present the first GPU-accelerated gate-level time-based power analysis framework. We propose a novel data structure to enable efficient state-dependent power retrieval. To accommodate the imbalanced event distribution across gates, we propose an event-density-aware partitioning strategy that allocates GPU threads based on gate event density. Finally, we fuse the power computation into a single kernel invocation to reduce redundant work in separate kernels. Experimental results show that our proposed framework achieves high accuracy while delivering up to 37.63x end-to-end speedup compared to multi-threaded Synopsys PrimeTime PX.",
-        "summary_vi": "The paper introduces a GPU-accelerated framework for gate-level, time-based power analysis to accelerate chip design optimization. It utilizes event-density-aware partitioning and kernel fusion to dramatically reduce the runtime of large-scale circuit power analysis.",
-        "title": "GPU-Accelerated Gate-Level Time-Based Power Analysis via Event-Density-Aware Partitioning and Kernel Fusion"
-      },
-      "first_seen": "2026-09-09T09:28:28.702623+00:00"
-    },
-    "oai:arXiv.org:2609.05982v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.05982v1",
-        "link": "https://arxiv.org/abs/2609.05982",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.05982v1 Announce Type: new \nAbstract: Coarse-Grained Reconfigurable Arrays (CGRAs) are a promising solution for achieving high energy efficiency and reconfigurability across various application domains, but their performance is often crippled by rigid memory architectures that limit the number and location of tiles that can access data memory. This creates a significant bottleneck for kernels with intensive memory accesses. To address this, we propose CMD, an integrated CGRA framework featuring cluster-based distributed memory design with a co-designed compilation toolchain. The compiler includes a novel memory-aware mapper and a design space exploration (DSE) mechanism that identifies the optimal memory architecture design for specific kernels. Experimental results show that our post-DSE CMD CGRAs achieve an average speedup of $1.39\\times$ over a conventional CGRA while simultaneously reducing the total area to an average of $0.912\\times$ of the conventional CGRA.",
-        "summary_vi": "Researchers propose CMD, an integrated Coarse-Grained Reconfigurable Array (CGRA) framework utilizing a cluster-based distributed memory design. This architecture addresses memory access bottlenecks in memory-intensive workloads, enhancing overall performance and flexibility.",
-        "title": "CMD: An Integrated CGRA Framework with Cluster-Based Distributed Memory Design"
-      },
-      "first_seen": "2026-09-09T09:28:28.702623+00:00"
-    },
-    "oai:arXiv.org:2609.06172v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.06172v1",
-        "link": "https://arxiv.org/abs/2609.06172",
-        "relevance": 4,
-        "source": "arXiv cs.OS (Operating Systems)",
-        "summary": "arXiv:2609.06172v1 Announce Type: new \nAbstract: Large language models (LLMs) increasingly exceed the memory capacity of commodity GPUs, making memory oversubscription common in practical deployments. NVIDIA Unified Virtual Memory (UVM) provides transparent access to host memory, but its page-fault-driven migrations introduce severe performance overhead. While UVM exposes primitives (e.g., prefetching and placement hints) to mitigate these costs, they require low-level CUDA modifications, limiting their applicability for most LLM users. Meanwhile, existing UVM optimizations operate at coarse managed-object granularity and fail to capture deep learning frameworks' internal tensor-level memory behavior, leading to excessive data movement and CPU-GPU interconnect bottlenecks.\n We propose AutoUVM, an automated, framework-aware UVM prefetching system for efficient LLM execution under memory oversubscription. AutoUVM bridges the semantic gap between deep learning frameworks and UVM by exposing tensor-level access information and enabling policy-driven prefetching at fine granularity. Implemented as a transparent extension, AutoUVM requires no changes to model code and dynamically adapts to runtime memory pressure. We instantiate AutoUVM with a roofline-inspired policy to identify performance-critical data transfers. Across ten LLMs, AutoUVM achieves an average 3.1x speedup over baseline UVM and consistently surpasses the best-performing prior UVM prefetcher by 1.9x, with improvements of up to 4.7x over object-level prefetchers, while significantly reducing page faults.",
-        "summary_vi": "AutoUVM is an automated prefetching framework designed to mitigate the performance overhead of Unified Virtual Memory (UVM) page faults during LLM execution on GPUs. It provides optimization hints and prefetching without requiring manual low-level CUDA modifications.",
-        "title": "AutoUVM: Automated Prefetching Framework for LLMs under UVM Oversubscription"
-      },
-      "first_seen": "2026-09-09T09:28:28.702623+00:00"
-    },
-    "oai:arXiv.org:2609.09208v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.09208v1",
-        "link": "https://arxiv.org/abs/2609.09208",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.09208v1 Announce Type: new \nAbstract: Power-of-two (PoT) quantisation turns a multiplication into a bit shift, so far only for the post-softmax attention--value product. The earlier and larger product, S=QK^T, has not been reformulated the same way. We quantise the key cache to a signed power-of-two fixed-point code, so that every scalar multiplication in QK^T becomes a sign flip, a bit shift and an integer accumulation. A fixed-point head-room F>= e_max turns every shift index r=F-e into a non-negative left shift, making the accumulation exact in integer arithmetic. We add a sub-power mantissa extension that halves the score error for one extra shift-add, a shift-exact online softmax whose running maximum lives in an integer log2 domain so that every rescaling is itself an exact shift, and a log-quantised AV product.\n Fused CUDA kernels in a 1.1B Llama decoder on an RTX 4090: at B=8, T=32k the 4-bit kernel is 4.60x faster than FP16 scaled dot-product attention with a 2.5x smaller KV cache, and batched decoding crosses over at B=64 to 1.22x FP16 throughput at 11.02 against 13.77 GB peak memory. A matched INT8 multiply--accumulate kernel on the same tiling reaches 5.29x: on a GPU with a hardware 4-way INT8 dot product, shift-accumulate is not faster than the MAC it replaces. An iso-storage control--an 8-bit shift code of exactly one byte per key, run through the identical kernel--prices the arithmetic substitution alone at 2.02x at comparable accuracy. The advantage of the PoT representation is therefore its density and the removal of the multiplier, not raw GPU throughput. A sweep over exponent width, mantissa levels, granularity and rounding gives the design lesson: nearest-PoT relative error is scale-free, so extra exponent bits buy nothing (eps_S=0.1302 at 3, 4 and 5 bits) and accuracy must come from mantissa terms.",
-        "summary_vi": "This paper proposes quantizing the key cache to a signed power-of-two code, replacing costly scalar multiplications in the QK^T product with efficient bit shifts and accumulations.",
-        "title": "Shift-Accumulate Attention: Multiplier-Free Query--Key Products for Transformer Decoding"
-      },
-      "first_seen": "2026-09-11T00:35:59.502530+00:00"
-    },
     "oai:arXiv.org:2609.09344v1": {
       "entry": {
         "category": "research",
@@ -380,32 +299,6 @@
         "summary": "arXiv:2609.09344v1 Announce Type: new \nAbstract: Agentic AI is set to become one of the most transformational technologies in generations and materially change how we approach silicon design and engineering. The impact is being felt in real time amid a rapidly changing landscape, which can make it overwhelming for both silicon practitioners and academics to adapt to the AI native silicon design era. To add structure to how we navigate this transition, we provide a joint view from academia and industry silicon practitioners of the challenges, opportunities, and considerations we expect will catalyze how the community transitions into an AI native silicon future. In particular, we reemphasize the importance of core silicon design fundamentals in academic training and why they have renewed importance in research and industry practice for AI native silicon design. It is our hope that the views provided here will offer valuable and complementary perspectives to those in academia and industry to interpret, inform, and catalyze the transition to the AI native era. We expect that many similar and overlapping views will emerge, but the precise technical details will differ across stakeholders, so it is valuable for the community to amass a diversity of viewpoints.",
         "summary_vi": "This joint publication from academic and industry researchers outlines how the rise of agentic AI is transforming silicon design methodologies and engineering workflows.",
         "title": "Academia x Industry: The Role of Fundamentals for Silicon in an AI Native Era"
-      },
-      "first_seen": "2026-09-11T00:35:59.502530+00:00"
-    },
-    "oai:arXiv.org:2609.09400v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.09400v1",
-        "link": "https://arxiv.org/abs/2609.09400",
-        "relevance": 4,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2609.09400v1 Announce Type: new \nAbstract: Reconfigurable optical data center networks (RODCNs) have emerged as a promising solution for scaling DCN capacity, yet their scheduling mechanisms remain a performance bottleneck: traffic-oblivious schemes inherently limit throughput, while the state-of-the-art traffic-aware scheme, NegotiaToR, uses single-iteration iSLIP as its scheduling engine, which limits throughput to around 60% and treats all source-destination pairs with equal priority regardless of queue length. We propose QPS-ToR, which replaces NegotiaToR's scheduling logic with SW-QPS, a sliding-window algorithm originally proposed for crossbar scheduling that achieves around 90% throughput with a single low-complexity iteration. QPS-ToR operates within NegotiaToR's existing workflow, requiring only a revision of the scheduling cycle from three-step Request-Grant-Accept (RGA) to two-step Request-Grant (RG) with a sliding window mechanism. In flow-level simulations with 128 ToRs under realistic datacenter workloads, QPS-ToR achieves up to 36% higher throughput and 82% lower flow completion time (FCT) compared to NegotiaToR, and consistently outperforms RotorNet, a representative traffic-oblivious scheme, on the parallel network topology.",
-        "summary_vi": "QPS-ToR is introduced as a parallel iterative scheduling algorithm aimed at improving throughput and resolving scheduling bottlenecks in reconfigurable optical data center networks.",
-        "title": "QPS-ToR: A Parallel Iterative Switching Algorithm for Reconfigurable Optical Datacenter Switching"
-      },
-      "first_seen": "2026-09-11T00:35:59.502530+00:00"
-    },
-    "oai:arXiv.org:2609.09519v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.09519v1",
-        "link": "https://arxiv.org/abs/2609.09519",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.09519v1 Announce Type: new \nAbstract: Building large, diverse datasets of high-level synthesis (HLS) designs beyond common community benchmarks remains an open challenge. This challenge is made urgent by the rise of deep learning and LLMs for hardware design, which demand such datasets to train QoR models and benchmark LLMs on HLS tasks. Despite ongoing efforts to broaden sources, dataset curation still depends on manual work: locating HLS designs across academic publications and open source, then extracting standalone designs from larger codebases. The process is error-prone and demands expert knowledge, iterative testing, and substantial per-repository engineering.\n To address this, we present HLSFactory-Agent, an LLM agent that automates large-scale HLS dataset curation by extracting standalone designs from larger codebases. HLSFactory-Agent runs the open-source Pi agent framework inside Docker containers to build and evaluate each extracted design. This turnkey automation allows users to pass a GitHub link or code directory to HLSFactory-Agent and receive a folder of extracted HLS designs ready to be integrated into the HLSFactory dataset framework. Additionally, we provide open-source scripts to scrape and index papers from computer architecture, EDA, and FPGA conferences that possibly implement or use HLS designs, allowing for faster human discovery and curation of HLS designs for HLSFactory-Agent.\n We report initial results from running HLSFactory-Agent across a small subset of our indexed repositories, demonstrating successful extraction of synthesizable designs from structured codebases.\n We open source HLSFactory-Agent and indexing scripts at https://github.com/sharc-lab/hlsfactory-agent.",
-        "summary_vi": "Researchers have developed HLSFactory-Agent, an automated framework that utilizes LLM agents to build large and diverse High-Level Synthesis (HLS) datasets from open-source repositories.",
-        "title": "HLSFactory-Agent: Large-Scale Agentic HLS Dataset Construction from Academic and Open-Source Projects"
       },
       "first_seen": "2026-09-11T00:35:59.502530+00:00"
     },
@@ -421,32 +314,6 @@
         "title": "PELM: Power Efficient On-Device LLM Inference with Speculative Decoding and Dynamic Voltage Frequency Scaling"
       },
       "first_seen": "2026-09-11T00:35:59.502530+00:00"
-    },
-    "oai:arXiv.org:2609.10944v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.10944v1",
-        "link": "https://arxiv.org/abs/2609.10944",
-        "relevance": 4,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2609.10944v1 Announce Type: new \nAbstract: Hurricane Helene produced the largest absolute cell-site outage in the public FCC record, peaking at 4562 sites. The conventional model is physical: towers destroyed. Helene did destroy over 1700 miles of fibre, but almost none of it was cell sites. We present the first cause-decomposed study of the FCC's Disaster Information Reporting System, reconstructing 80 state-days and 580 county-days from 24 daily filings by two reconciled independent extractions. Damage to cell sites is negligible: 1.1% of attributed cell-site-days across six states, at most 3.8% anywhere. The sites were standing. What took them out divides by terrain: pooled, power dominates at 63.2%, but in mountainous North Carolina severed transport (backhaul) reaches 52.2% against 47.3%, and in Tennessee 69.9%. North Carolina's transport share rises from 7.0% to 85.0% across the event (\\r{ho} = 0.92). Seventeen days after landfall, on 15 October, 47 sites lost transport across six contiguous North Carolina counties with no rainfall, no power loss, no damage, and recovery by the next report. Independent active-probe measurement corroborates it: responsive /24s fall 1.02% for twelve hours while Tennessee stays flat. We release the dataset. Backup power is the standard resilience investment; here it addresses the smaller half of the problem.",
-        "summary_vi": "A comprehensive analysis of cell site failures during Hurricane Helene reveals that extensive fiber backhaul destruction, rather than direct tower damage, was the primary cause of network outages.",
-        "title": "The Towers Were Standing: A Cause Decomposition of Cellular Outages During Hurricane Helene"
-      },
-      "first_seen": "2026-09-12T00:42:36.175668+00:00"
-    },
-    "oai:arXiv.org:2609.11044v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.11044v1",
-        "link": "https://arxiv.org/abs/2609.11044",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.11044v1 Announce Type: new \nAbstract: While accelerators for AI have seen great commercial success, it is challenging to replicate that success for other specialized domains due to a number of factors. We make the case that barriers for new accelerators can be lowered by starting with a baseline AI accelerator, and adding minimal logic to support new operators demanded by new specialized domains. This leads to a versatile chip that can be manufactured at high volume and deployed for a range of popular applications. We refer to this as the AI+X approach. This paper explores its potential for the emerging domain of Computational Pathology, which involves analysis of large whole-slide tissue images with a multi-stage pipeline. The pipeline requires support for a number of different kernels and operators - early stages perform segmentation and feature extraction, followed by graph creation with k nearest neighbor (kNN) algorithms, and finally inference with an iterative graph convolutional network (GCN) that alternates between Aggregation and Combination. We show that these stages execute inefficiently on a range of baseline CPU, GPU, AI, and GCN accelerators. That inefficiency is addressed with a combination of software re-structuring and small modifications to a baseline systolic AI accelerator. Many of the above kernels can be mapped to a systolic accelerator by offering a flexible datapath between processing elements and register access mechanisms. We add support for feature aggregation, load balanced execution, Euclidean distance calculation, binning, and counter aggregation. This additional flexibility and logic grows the area of a baseline AI chiplet by 1.1x, but by avoiding the memory wall and offering high parallelism, the proposed accelerator BEACON yields over an order of magnitude higher throughput for Computational Pathology than baseline CPU and GPU platforms.",
-        "summary_vi": "This paper proposes BEACON, an agile hardware accelerator design that integrates minimal specialized logic into a baseline AI accelerator to support computational pathology workloads.",
-        "title": "BEACON: A Versatile Accelerator for Computational Pathology Applications"
-      },
-      "first_seen": "2026-09-12T00:42:36.175668+00:00"
     },
     "oai:arXiv.org:2609.11294v1": {
       "entry": {
@@ -464,18 +331,23 @@
   },
   "rejected": {
     "https://bootlin.com/?p=22302": "2026-09-10T00:38:49.074531+00:00",
+    "https://linuxgizmos.com/?p=98999": "2026-09-09T09:28:28.702623+00:00",
     "https://lwn.net/Articles/1092512/": "2026-09-08T00:43:47.238508+00:00",
     "https://lwn.net/Articles/1092993/": "2026-09-10T00:38:49.074531+00:00",
     "https://lwn.net/Articles/1093145/": "2026-09-09T00:41:13.818850+00:00",
     "https://lwn.net/Articles/1093388/": "2026-09-10T00:38:49.074531+00:00",
     "https://lwn.net/Articles/1093567/": "2026-09-11T00:35:59.502530+00:00",
     "https://lwn.net/Articles/1093671/": "2026-09-11T00:35:59.502530+00:00",
+    "https://lwn.net/Articles/1093765/": "2026-09-12T17:58:12.510566+00:00",
     "https://lwn.net/Articles/1093825/": "2026-09-12T00:42:36.175668+00:00",
     "https://www.cnx-software.com/?p=176234": "2026-09-08T00:43:47.238508+00:00",
     "https://www.linuxfoundation.org/blog/how-ospos-are-preparing-organizations-for-the-eu-cyber-resilience-act": "2026-09-10T00:38:49.074531+00:00",
     "https://www.phoronix.com/news/DLSS5VKLayer": "2026-09-09T00:41:13.818850+00:00",
+    "https://www.phoronix.com/news/Debian-13.7-Released": "2026-09-12T17:58:12.510566+00:00",
     "https://www.phoronix.com/news/GIMP-3.2.6-Released": "2026-09-11T00:35:59.502530+00:00",
+    "https://www.phoronix.com/news/GTK-4.24-Released": "2026-09-12T17:58:12.510566+00:00",
     "https://www.phoronix.com/news/Gitte-0.10-Released": "2026-09-12T00:42:36.175668+00:00",
+    "https://www.phoronix.com/news/Intel-One-Mono-Saved": "2026-09-12T17:58:12.510566+00:00",
     "https://www.phoronix.com/news/KDE-KWin-Wayland-Commit-Timing": "2026-09-09T00:41:13.818850+00:00",
     "https://www.phoronix.com/news/NetBSD-9.5-Released": "2026-09-06T23:09:25.403583+00:00",
     "https://www.phoronix.com/news/Shotcut-26.9-Beta": "2026-09-06T23:09:25.403583+00:00",
@@ -495,6 +367,11 @@
     "https://www.redhat.com/en/blog/red-hat-sponsors-openclaw-foundation-advance-open-future-production-ai-agents": "2026-09-10T00:38:49.074531+00:00",
     "oai:arXiv.org:2609.04238v1": "2026-09-08T00:43:47.238508+00:00",
     "oai:arXiv.org:2609.04774v1": "2026-09-08T00:43:47.238508+00:00",
+    "oai:arXiv.org:2609.05764v1": "2026-09-09T09:28:28.702623+00:00",
+    "oai:arXiv.org:2609.05814v1": "2026-09-09T09:28:28.702623+00:00",
+    "oai:arXiv.org:2609.05960v1": "2026-09-09T09:28:28.702623+00:00",
+    "oai:arXiv.org:2609.05982v1": "2026-09-09T09:28:28.702623+00:00",
+    "oai:arXiv.org:2609.06172v1": "2026-09-09T09:28:28.702623+00:00",
     "oai:arXiv.org:2609.11152v1": "2026-09-12T00:42:36.175668+00:00"
   }
 }
