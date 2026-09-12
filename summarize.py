@@ -6,11 +6,11 @@ Bước 1 — Gemini Flash-Lite (rẻ nhất):
   Loại bài dưới ngưỡng MIN_RELEVANCE_PREFILTER.
 
 Bước 2 — Gemini Flash (chất lượng, vẫn rẻ hơn Claude):
-  Tóm tắt tiếng Việt cho tất cả bài đã qua lọc.
+  Tạo tóm tắt tiếng Anh cho tất cả bài đã qua lọc.
 
 Bước 3 — Claude Haiku (chỉ khi thực sự cần):
-  Chỉ xử lý bài có relevance = CLAUDE_RELEVANCE_THRESHOLD (tin kỹ thuật sâu).
-  Override summary_vi của Gemini bằng phân tích chất lượng cao hơn.
+  Chỉ xử lý bài có relevance >= CLAUDE_RELEVANCE_THRESHOLD (tin kỹ thuật sâu).
+  Ghi đè summary_vi của Gemini bằng phân tích chất lượng cao hơn.
 """
 import json
 import os
@@ -87,9 +87,10 @@ CLAUDE_DEEP_PROMPT = (
 
 
 def _parse_json_safe(raw_text: str, source: str = "AI") -> dict | None:
-    """Thử nhiều cách parse JSON từ text trả về của model.
+    """Parse JSON từ model, kể cả khi response bị bọc trong code fence/text.
 
-    Trả về dict nếu thành công, None nếu thất bại hoàn toàn.
+    Trả về dict khi parse được; nếu thất bại hoàn toàn, in preview kèm tên
+    `source` để chẩn đoán rồi trả về None.
     """
     # Cách 1: Parse thẳng — trường hợp lý tưởng
     try:
@@ -121,7 +122,11 @@ def _parse_json_safe(raw_text: str, source: str = "AI") -> dict | None:
 
 
 def _gemini_call(client: genai.Client, model_name: str, prompt: str, payload: list[dict]) -> dict | None:
-    """Helper gọi Gemini và parse JSON an toàn. Trả về dict hoặc None nếu lỗi."""
+    """Gọi một Gemini model với prompt/payload rồi parse response thành dict.
+
+    Lỗi API hoặc response không có text được log và chuyển thành None để các
+    pipeline step phía trên áp dụng fallback thay vì propagate exception.
+    """
     try:
         response = client.models.generate_content(
             model=model_name,
@@ -159,13 +164,12 @@ def _gemini_call(client: genai.Client, model_name: str, prompt: str, payload: li
 def _step1_filter(entries: list[dict], client: genai.Client) -> tuple[list[dict], list[dict]]:
     """Bước 1 — Gemini Flash-Lite: chấm relevance.
 
-    Trả về (passed, dropped) — CẢ HAI, không chỉ passed. Bài bị loại
-    (dropped) vẫn cần đi tới update_state() để được đánh dấu "rejected",
-    nếu không chúng biến mất khỏi mọi tracking và bị fetch + chấm điểm
-    lại ở lần chạy sau (tốn Gemini token lặp lại vô ích).
+    Trả về `(passed, dropped)`; mỗi entry là bản sao có thêm relevance. Bài
+    `dropped` vẫn cần đi tới update_state() để được đánh dấu `rejected`, tránh
+    bị fetch và chấm điểm lại ở lần chạy sau.
 
     Fail-open: nếu Gemini lỗi → coi tất cả đạt ngưỡng (an toàn hơn loại
-    nhầm khi không chắc), trả về (entries, []).
+    nhầm khi không chắc) và không trả bài nào trong `dropped`.
     """
     payload = [
         {"title": e["title"], "summary": e["summary"][:300]}
@@ -190,9 +194,11 @@ def _step1_filter(entries: list[dict], client: genai.Client) -> tuple[list[dict]
 
 
 def _step2_summarize(entries: list[dict], client: genai.Client) -> list[dict]:
-    """Bước 2 — Gemini Flash: tóm tắt tiếng Việt cho toàn bộ bài đã lọc.
+    """Bước 2 — Gemini Flash: tạo summary tiếng Anh cho các bài đã qua lọc.
 
-    Fail-open: nếu lỗi → giữ summary gốc tiếng Anh [:200].
+    Trả bản sao entry có thêm `summary_vi` (tên field hiện tại, nội dung tiếng
+    Anh). Fail-open: nếu Gemini lỗi hoặc thiếu item, dùng 200 ký tự đầu của
+    summary RSS gốc.
     """
     payload = [
         {"title": e["title"], "summary": e["summary"][:500]}
@@ -215,9 +221,10 @@ def _step2_summarize(entries: list[dict], client: genai.Client) -> list[dict]:
 
 
 def _step3_claude_deep(entries: list[dict]) -> list[dict]:
-    """Bước 3 — Claude Haiku: phân tích sâu, chỉ override bài relevance = 5.
+    """Bước 3 — dùng Claude ghi đè summary của bài đạt ngưỡng kỹ thuật sâu.
 
-    Các bài còn lại giữ nguyên summary_vi từ Gemini.
+    Các bài được gọi theo batch; response bị cắt hoặc không parse được sẽ giữ
+    summary Gemini. Lỗi API Claude không bị nuốt và sẽ propagate cho caller.
     """
     hard = [e for e in entries if e.get("relevance", 0) >= CLAUDE_RELEVANCE_THRESHOLD]
     if not hard:
@@ -262,13 +269,11 @@ def _step3_claude_deep(entries: list[dict]) -> list[dict]:
 
 
 def summarize_entries(entries: list[dict]) -> list[dict]:
-    """Pipeline 3 bước: Gemini lọc → Gemini tóm tắt → Claude chỉ bài khó.
+    """Chạy pipeline AI cho danh sách entry mới do fetch.py trả về.
 
-    TRẢ VỀ CẢ bài bị loại ở Bước 1 (kèm relevance thấp, KHÔNG có summary
-    vì không cần — chúng sẽ bị send_telegram loại lần nữa, không bao giờ
-    hiển thị). Mục đích duy nhất của việc trả về chúng là để
-    main.py -> update_state() đánh dấu đúng "rejected", tránh bị fetch
-    và chấm điểm lại ở lần chạy sau.
+    Hàm gọi Gemini và có thể gọi Claude, rồi trả cả bài đạt ngưỡng đã có
+    summary lẫn bài bị loại ở Bước 1. Bài bị loại chỉ có relevance để main.py
+    ghi state `rejected`; send_telegram.py sẽ không hiển thị chúng.
     """
     if not entries:
         return []
@@ -281,7 +286,7 @@ def summarize_entries(entries: list[dict]) -> list[dict]:
         print("[pipeline] Không có bài nào qua lọc.")
         return dropped
 
-    # Bước 2: Gemini Flash — tóm tắt tiếng Việt (phần lớn công việc)
+    # Bước 2: Gemini Flash — tóm tắt tiếng Anh (phần lớn công việc)
     summarized = _step2_summarize(passed, client)
 
     # Bước 3: Claude Haiku — chỉ override bài relevance=5 (kỹ thuật sâu)

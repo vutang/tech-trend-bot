@@ -1,6 +1,6 @@
 """
-Thu thập bài viết mới từ các nguồn RSS khai báo trong sources.yaml,
-loại bỏ bài đã gửi trước đó dựa trên seen.json.
+Thu thập bài viết mới từ các nguồn RSS/Atom trong sources.yaml và loại các ID
+đã có trong operational state do caller cung cấp.
 """
 import json
 import re
@@ -21,20 +21,23 @@ MAX_PER_SOURCE = 5   # giới hạn số bài mỗi nguồn, tránh 1 nguồn ch
 
 class _HTMLStripper(HTMLParser):
     """HTMLParser đơn giản: loại bỏ thẻ HTML, giữ lại text thuần."""
+
     def __init__(self) -> None:
+        """Khởi tạo vùng đệm chứa các đoạn text được parser đọc tuần tự."""
         super().__init__()
         self._parts: list[str] = []
 
     def handle_data(self, data: str) -> None:
+        """Gom text giữa các HTML tag vào vùng đệm, giữ nguyên thứ tự."""
         self._parts.append(data)
 
     def get_text(self) -> str:
-        # Ghép các đoạn text, chuẩn hoá khoảng trắng thừa
+        """Trả text đã gom và chuẩn hóa khoảng trắng ngang dư thừa."""
         return re.sub(r"[ \t]+", " ", " ".join(self._parts)).strip()
 
 
 def _strip_html(raw: str) -> str:
-    """Loại bỏ thẻ HTML khỏi chuỗi, trả về plain text."""
+    """Loại thẻ HTML khỏi `raw`; chuỗi rỗng được giữ thành chuỗi rỗng."""
     if not raw:
         return ""
     stripper = _HTMLStripper()
@@ -43,15 +46,18 @@ def _strip_html(raw: str) -> str:
 
 
 def load_sources() -> list[dict]:
+    """Đọc `sources.yaml` và trả danh sách source đang được cấu hình."""
     with open(SOURCES_FILE, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)["sources"]
 
 
 def fetch_new_entries(known: set | None = None) -> list[dict]:
-    """Thu thập bài mới, bỏ qua các id đã có trong `known`.
+    """Thu thập và chuẩn hóa bài mới, bỏ qua các ID đã có trong `known`.
 
-    KHÔNG còn tự ghi state — việc đó do state.py/main.py đảm nhiệm sau khi
-    đã biết bài nào thực sự được gửi (xem docstring state.py).
+    Chỉ nhận tối đa `MAX_PER_SOURCE` entry đủ điều kiện trong mỗi feed và trả
+    về list dict dùng cho pipeline phía sau. Hàm có network I/O, in log chẩn
+    đoán feed/cap nhưng không tự ghi state; state.py/main.py xử lý persistence
+    sau khi biết bài nào thực sự được gửi.
     """
     sources = load_sources()
     seen = set(known or ())
