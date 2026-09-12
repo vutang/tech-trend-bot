@@ -18,7 +18,8 @@ import re
 import traceback
 
 import anthropic
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 
 # ── Models ────────────────────────────────────────────────────────────────────
 GEMINI_FILTER_MODEL    = "gemini-3.5-flash-lite"    # bước 1: lọc — rẻ nhất
@@ -119,12 +120,13 @@ def _parse_json_safe(raw_text: str, source: str = "AI") -> dict | None:
     return None
 
 
-def _gemini_call(model_name: str, prompt: str, payload: list[dict]) -> dict | None:
+def _gemini_call(client: genai.Client, model_name: str, prompt: str, payload: list[dict]) -> dict | None:
     """Helper gọi Gemini và parse JSON an toàn. Trả về dict hoặc None nếu lỗi."""
-    model = genai.GenerativeModel(model_name)
     try:
-        response = model.generate_content(
-            prompt + "\n\n" + json.dumps(payload, ensure_ascii=False)
+        response = client.models.generate_content(
+            model=model_name,
+            contents=prompt + "\n\n" + json.dumps(payload, ensure_ascii=False),
+            config=types.GenerateContentConfig(),
         )
     except Exception as exc:
         # In loại lỗi + repr đầy đủ (str(exc) đôi khi rút gọn, thiếu status
@@ -135,10 +137,13 @@ def _gemini_call(model_name: str, prompt: str, payload: list[dict]) -> dict | No
         return None
 
     # Gọi API thành công nhưng response có thể rỗng (bị safety filter chặn,
-    # hoặc model không sinh ra text) — response.text sẽ raise ValueError
-    # trong trường hợp này, cần bắt riêng để biết chính xác lý do.
+    # hoặc model không sinh ra text) — SDK mới có thể trả response.text = None.
+    # Giữ nhánh diagnostic/fallback cho trường hợp không có text.
     try:
-        raw_text = response.text.strip()
+        raw_text = response.text
+        if raw_text is None:
+            raise ValueError("response.text is None")
+        raw_text = raw_text.strip()
     except ValueError as exc:
         print(f"[Gemini:{model_name}] Response không có text hợp lệ: {exc}")
         try:
@@ -151,7 +156,7 @@ def _gemini_call(model_name: str, prompt: str, payload: list[dict]) -> dict | No
     return _parse_json_safe(raw_text, source=f"Gemini:{model_name}")
 
 
-def _step1_filter(entries: list[dict]) -> tuple[list[dict], list[dict]]:
+def _step1_filter(entries: list[dict], client: genai.Client) -> tuple[list[dict], list[dict]]:
     """Bước 1 — Gemini Flash-Lite: chấm relevance.
 
     Trả về (passed, dropped) — CẢ HAI, không chỉ passed. Bài bị loại
@@ -166,7 +171,7 @@ def _step1_filter(entries: list[dict]) -> tuple[list[dict], list[dict]]:
         {"title": e["title"], "summary": e["summary"][:300]}
         for e in entries
     ]
-    parsed = _gemini_call(GEMINI_FILTER_MODEL, GEMINI_FILTER_PROMPT, payload)
+    parsed = _gemini_call(client, GEMINI_FILTER_MODEL, GEMINI_FILTER_PROMPT, payload)
 
     if parsed is None:
         print("[Bước 1] Gemini Filter lỗi — giữ toàn bộ bài, gán relevance mặc định")
@@ -184,7 +189,7 @@ def _step1_filter(entries: list[dict]) -> tuple[list[dict], list[dict]]:
     return passed, dropped
 
 
-def _step2_summarize(entries: list[dict]) -> list[dict]:
+def _step2_summarize(entries: list[dict], client: genai.Client) -> list[dict]:
     """Bước 2 — Gemini Flash: tóm tắt tiếng Việt cho toàn bộ bài đã lọc.
 
     Fail-open: nếu lỗi → giữ summary gốc tiếng Anh [:200].
@@ -193,7 +198,7 @@ def _step2_summarize(entries: list[dict]) -> list[dict]:
         {"title": e["title"], "summary": e["summary"][:500]}
         for e in entries
     ]
-    parsed = _gemini_call(GEMINI_SUMMARIZE_MODEL, GEMINI_SUMMARIZE_PROMPT, payload)
+    parsed = _gemini_call(client, GEMINI_SUMMARIZE_MODEL, GEMINI_SUMMARIZE_PROMPT, payload)
 
     if parsed is None:
         print("[Bước 2] Gemini Summarize lỗi — dùng summary gốc")
@@ -268,16 +273,16 @@ def summarize_entries(entries: list[dict]) -> list[dict]:
     if not entries:
         return []
 
-    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
     # Bước 1: Gemini Flash-Lite — lọc relevance (rẻ nhất)
-    passed, dropped = _step1_filter(entries)
+    passed, dropped = _step1_filter(entries, client)
     if not passed:
         print("[pipeline] Không có bài nào qua lọc.")
         return dropped
 
     # Bước 2: Gemini Flash — tóm tắt tiếng Việt (phần lớn công việc)
-    summarized = _step2_summarize(passed)
+    summarized = _step2_summarize(passed, client)
 
     # Bước 3: Claude Haiku — chỉ override bài relevance=5 (kỹ thuật sâu)
     result = _step3_claude_deep(summarized)
