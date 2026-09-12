@@ -13,7 +13,10 @@ import yaml
 
 SOURCES_FILE = Path(__file__).parent / "sources.yaml"
 MAX_AGE_HOURS = 26  # rộng hơn 24h một chút để tránh lọt bài do lệch giờ cron
-MAX_PER_SOURCE = 3   # giới hạn số bài mỗi nguồn, tránh 1 nguồn chiếm hết slot
+MAX_PER_SOURCE = 5   # giới hạn số bài mỗi nguồn, tránh 1 nguồn chiếm hết slot
+                      # (tăng từ 3 lên 5 sau khi log thật cho thấy Phoronix
+                      # chạm đúng ngưỡng 3 lặp lại ở 5 ngày riêng biệt — dấu
+                      # hiệu bị cắt bớt, không phải trùng hợp tự nhiên)
 
 
 class _HTMLStripper(HTMLParser):
@@ -71,17 +74,24 @@ def fetch_new_entries(known: set | None = None) -> list[dict]:
                 newest = time.strftime("%Y-%m-%d %H:%M UTC", pub)
         print(f"[fetch] {source['name']}: {len(parsed.entries)} bài thô, mới nhất: {newest or 'không rõ'}")
 
-        count = 0  # đếm số bài đã lấy từ nguồn này
+        count = 0    # đếm số bài đã lấy từ nguồn này
+        capped = 0   # đếm số bài ĐỦ ĐIỀU KIỆN (mới + tươi) nhưng bị cap
+                      # chặn không lấy — trước đây các bài này biến mất
+                      # hoàn toàn không dấu vết, giờ ít nhất biết số lượng
         for entry in parsed.entries:
-            if count >= MAX_PER_SOURCE:
-                break
-
             entry_id = entry.get("id") or entry.get("link")
             if not entry_id or entry_id in seen:
                 continue
 
             published = entry.get("published_parsed") or entry.get("updated_parsed")
             if published and time.mktime(published) < cutoff:
+                continue
+
+            # Entry đủ điều kiện (mới + tươi) — nhưng nếu đã đủ quota thì
+            # chỉ đếm lại, KHÔNG break, để tiếp tục quét hết feed và biết
+            # chính xác tổng số bài bị bỏ lỡ hôm đó.
+            if count >= MAX_PER_SOURCE:
+                capped += 1
                 continue
 
             # kernel.org kdist.xml: link luôn trỏ về trang chủ, cần tự build URL changelog
@@ -114,6 +124,10 @@ def fetch_new_entries(known: set | None = None) -> list[dict]:
             )
             seen.add(entry_id)  # tránh trùng trong cùng lần chạy
             count += 1
+
+        if capped:
+            print(f"[fetch] {source['name']}: BỊ CẮT {capped} bài đủ điều kiện "
+                  f"do MAX_PER_SOURCE={MAX_PER_SOURCE} — cân nhắc tăng cap nếu lặp lại thường xuyên")
 
     return new_entries
 
