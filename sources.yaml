@@ -120,6 +120,27 @@ sources:
     url: https://spectrum.ieee.org/feeds/topic/telecommunications.rss
     category: ran
 
+  # Các nguồn RAN bổ sung đã kiểm tra bằng feedparser ngày 2026-09-12;
+  # chi tiết và các feed chưa chọn: docs/source-research-2026-09-12.md.
+
+  # 3G4G: blog phân tích kỹ thuật độc lập về 3GPP, 5G/5G-Advanced,
+  # antenna/beamforming và tiết kiệm năng lượng; có cả core/NTN/Wi-Fi.
+  - name: 3G4G Blog
+    url: https://blog.3g4g.co.uk/feeds/posts/default?alt=rss
+    category: ran
+
+  # NVIDIA Aerial: AI-RAN, vRAN và mô phỏng mạng vô tuyến. Feed theo tag;
+  # excerpt ngắn, có cả tin sản phẩm/sự kiện nên vẫn cần lọc relevance.
+  - name: NVIDIA Technical Blog (Aerial)
+    url: https://developer.nvidia.com/blog/tag/aerial/feed/
+    category: ran
+
+  # Sionna: thư viện nghiên cứu/mô phỏng PHY và hệ thống vô tuyến;
+  # release notes có thay đổi kỹ thuật về channel models, OFDM, 5G LDPC.
+  - name: NVIDIA Sionna (GitHub Releases)
+    url: https://github.com/NVlabs/sionna/releases.atom
+    category: ran
+
   # arXiv cs.AR (Hardware Architecture): paper về kiến trúc máy tính,
   # accelerator, hiệu năng phần cứng — sát với hướng bạn quan tâm.
   - name: arXiv cs.AR (Computer Architecture)
@@ -158,10 +179,50 @@ sources:
     url: https://github.com/cloud-hypervisor/cloud-hypervisor/releases.atom
     category: virt
 
-  # QEMU.org, Xen Project, KubeVirt: có blog chính thức nhưng KHÔNG tìm ra
-  # RSS xác nhận được (không có RSS auto-discovery trên trang). Cân nhắc
-  # thêm sau nếu tìm được feed, hoặc theo dõi qua GitLab/GitHub releases
-  # nếu xác minh được URL chính xác.
+  # Các feed dưới đã kiểm tra HTTP 200 + feedparser ngày 2026-09-12:
+  # có entry, timestamp và summary. QEMU/Xen/KubeVirt ra bài thưa;
+  # không có bài trong cửa sổ fetch không đồng nghĩa feed chết.
+
+  # QEMU: release và bài kỹ thuật về emulation/virtualization.
+  - name: QEMU Blog
+    url: https://www.qemu.org/feed.xml
+    category: virt
+
+  # Xen: hypervisor cho cloud, embedded và automotive; có cả tin cộng đồng.
+  - name: Xen Project Blog
+    url: https://xenproject.org/feed/
+    category: virt
+
+  # KubeVirt: VM trên Kubernetes, release và thay đổi tính năng — nguồn
+  # trực tiếp, tập trung hơn feed Red Hat chung ở trên.
+  - name: KubeVirt Blog
+    url: https://kubevirt.io/feed.xml
+    category: virt
+
+  # XCP-ng: nền tảng dựa trên Xen; cập nhật bảo mật, phát triển hypervisor
+  # và hỗ trợ phần cứng (ví dụ Xen trên RISC-V). Ra bài đều hơn 3 blog trên.
+  - name: XCP-ng Blog
+    url: https://xcp-ng.org/blog/rss/
+    category: virt
+
+  # Harvester KB: bài kỹ thuật về KVM/KubeVirt, VM memory, migration,
+  # network offload và bảo mật. Summary ngắn; nội dung đầy đủ ở trang bài.
+  - name: Harvester Knowledge Base
+    url: https://harvesterhci.io/kb/rss.xml
+    category: virt
+
+  # Xen Orchestra: quản lý VM, snapshot/backup, migration và API.
+  # Bổ sung lớp quản lý cho XCP-ng; có thể trùng chủ đề, khác article ID.
+  - name: Xen Orchestra Blog
+    url: https://xen-orchestra.com/blog/rss/
+    category: virt
+
+  # Gerd Hoffmann: bài chuyên sâu về QEMU, OVMF/edk2, virtual firmware.
+  # Ra bài thưa, đôi khi ngoài chủ đề. Kiểm tra 2026-09-12: HTTP 200,
+  # 10 entry; feedparser có cảnh báo charset nhưng vẫn đọc được nội dung.
+  - name: Gerd Hoffmann (QEMU and Firmware)
+    url: https://www.kraxel.org/blog/feed/index.xml
+    category: virt
 
   # Khi mở sang phạm vi "đa lĩnh vực" (giai đoạn 4), chỉ cần thêm nguồn mới
   # vào đây — không cần đổi code ở fetch.py/summarize.py.
