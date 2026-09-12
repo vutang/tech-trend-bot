@@ -12,7 +12,7 @@ import feedparser
 import yaml
 
 SOURCES_FILE = Path(__file__).parent / "sources.yaml"
-MAX_AGE_HOURS = 26  # rộng hơn 24h một chút để tránh lọt bài do lệch giờ cron
+MAX_AGE_HOURS = 48  # nhìn lại 2 ngày để bù các lần chạy trễ/thất bại
 MAX_PER_SOURCE = 5   # giới hạn số bài mỗi nguồn, tránh 1 nguồn chiếm hết slot
                       # (tăng từ 3 lên 5 sau khi log thật cho thấy Phoronix
                       # chạm đúng ngưỡng 3 lặp lại ở 5 ngày riêng biệt — dấu

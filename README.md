@@ -130,7 +130,7 @@ RSS/Atom. Mỗi nguồn có:
 ```
 
 Các category đang được cấu hình là `embedded`, `ran`, `research` và `virt`.
-Với entry có timestamp, fetcher bỏ qua bài cũ hơn 26 giờ; mỗi nguồn được lấy
+Với entry có timestamp, fetcher bỏ qua bài cũ hơn 48 giờ; mỗi nguồn được lấy
 tối đa 5 bài hợp lệ trong một lần chạy.
 
 ## Observability và đánh giá
