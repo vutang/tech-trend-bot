@@ -7,6 +7,7 @@ chứa ký tự đặc biệt (_, *, [, ]...) khiến Telegram trả lỗi 400 "
 entities". Gửi plain text vẫn được Telegram tự nhận diện link để bấm được.
 """
 import os
+from datetime import datetime, timedelta, timezone
 
 import requests
 
@@ -111,7 +112,8 @@ def _build_blocks(entries: list[dict]) -> list[str]:
     ordered_categories = [c for c in CATEGORY_ORDER if c in grouped]
     ordered_categories += [c for c in grouped if c not in CATEGORY_ORDER]
 
-    blocks = ["Tech trend digest today"]
+    timestamp = datetime.now(timezone(timedelta(hours=7))).strftime("%Y-%m-%d %H:%M GMT+7")
+    blocks = [f"Tech trend digest today — {timestamp}"]
     for category in ordered_categories:
         label = CATEGORY_LABEL.get(category, category)
         for i, e in enumerate(grouped[category]):
