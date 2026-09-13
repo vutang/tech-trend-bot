@@ -54,6 +54,17 @@ sources:
     url: https://bootlin.com/feed/
     category: embedded
 
+  # Nguồn chính thức DPDK: packet processing, memory và networking.
+  # Feed tổng hợp có cả tin cộng đồng/sự kiện, cần lọc relevance.
+  - name: DPDK Blog
+    url: https://www.dpdk.org/feed/
+    category: embedded
+
+  # Bài kỹ thuật embedded: debugging, firmware, Linux, RTOS.
+  - name: Interrupt by Memfault
+    url: https://interrupt.memfault.com/feed.xml
+    category: embedded
+
   - name: CNX Software
     url: https://www.cnx-software.com/feed/
     category: embedded
