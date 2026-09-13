@@ -235,5 +235,39 @@ sources:
     url: https://www.kraxel.org/blog/feed/index.xml
     category: virt
 
+    # Samsung Newsroom filtered theo tag Radio Access Network — tin 3GPP/chuẩn
+  # hoá RAN thật, không chỉ press release sản phẩm. Verified 12/09/2026.
+  - name: Samsung Newsroom (RAN)
+    url: https://news.samsung.com/global/tag/radio-access-network/feed
+    category: ran
+
+  # Huawei press release chính thức. URL verify đúng định dạng 12/09/2026,
+  # chưa audit nội dung — nhiều khả năng PR-heavy giống Red Hat Blog, cần
+  # rate.py/analyze.py theo dõi ngay sau vài ngày chạy.
+  - name: Huawei Press Release
+    url: https://www.huawei.com/en/rss-feeds/huawei-updates/rss
+    category: ran
+
+  # Reddit qua RSS gốc (.rss suffix) — nhiễu khác kiểu Red Hat: meme/thảo
+  # luận phiếm thay vì PR, prompt Bước 1 chưa được thiết kế để nhận diện
+  # loại này. Rủi ro riêng: Reddit hay chặn request không có User-Agent
+  # trình duyệt hợp lệ — nếu feedparser trả 403/429 trên GitHub Actions,
+  # đây là nguyên nhân, không phải feed chết.
+  - name: Reddit r/embedded
+    url: https://www.reddit.com/r/embedded/.rss
+    category: embedded
+
+  - name: Reddit r/homelab
+    url: https://www.reddit.com/r/homelab/.rss
+    category: virt
+
+  - name: Reddit r/kubernetes
+    url: https://www.reddit.com/r/kubernetes/.rss
+    category: virt
+
+  - name: Reddit r/networking
+    url: https://www.reddit.com/r/networking/.rss
+    category: ran
+
   # Khi mở sang phạm vi "đa lĩnh vực" (giai đoạn 4), chỉ cần thêm nguồn mới
   # vào đây — không cần đổi code ở fetch.py/summarize.py.
