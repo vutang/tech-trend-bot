@@ -184,6 +184,20 @@ sources:
     url: https://rss.arxiv.org/rss/cs.OS
     category: research
 
+  # SIGARCH — Computer Architecture Today: branch prediction, accelerator,
+  # memory và phương pháp nghiên cứu; có cả opinion/báo cáo hội nghị.
+  # RSS đã kiểm tra 2026-09-14: HTTP 200, 10 entry; mới nhất 2026-09-09.
+  - name: SIGARCH Blog
+    url: https://www.sigarch.org/feed/
+    category: research
+
+  # CHỜ ĐÁNH GIÁ: Stefan Hajnoczi — QEMU, virtio, I/O và FPGA firmware.
+  # Lưu để xem xét kỹ hơn trước khi bật. Atom đã kiểm tra 2026-09-14:
+  # HTTP 200, 25 entry; bài mới nhất 2026-01-10, cần theo dõi hoạt động.
+  # - name: Stefan Hajnoczi
+  #   url: https://blog.vmsplice.net/feeds/posts/default
+  #   category: virt
+
   # Red Hat Blog: nhiều telco dùng Red Hat OpenShift/KubeVirt làm nền tảng
   # cloud-native RAN — rất liên quan vRAN. Feed chung (không tách riêng
   # được mục Virtualization), dựa vào bước lọc relevance để loại phần
