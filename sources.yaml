@@ -152,6 +152,20 @@ sources:
     url: https://github.com/NVlabs/sionna/releases.atom
     category: ran
 
+  # Wireless Future: Massive MIMO, antenna, ISAC và 6G; ra bài thưa,
+  # nhiều bài giới thiệu podcast/video. Bot chỉ đọc phần mô tả văn bản.
+  # RSS đã kiểm tra ngày 2026-09-14: HTTP 200, 100 entry có timestamp.
+  - name: Wireless Future Blog
+    url: https://ma-mimo.ellintech.se/feed/
+    category: ran
+
+  # OCUDU: CU/DU, acceleration và triển khai telco cloud; có cả sự kiện.
+  # RSS đã kiểm tra ngày 2026-09-14: HTTP 200, 7 entry có timestamp.
+  # Summary ngắn; feed có content:encoded nhưng fetch.py chưa dùng trường này.
+  - name: OCUDU Blog
+    url: https://ocudu.org/category/blog/feed/
+    category: ran
+
   # arXiv cs.AR (Hardware Architecture): paper về kiến trúc máy tính,
   # accelerator, hiệu năng phần cứng — sát với hướng bạn quan tâm.
   - name: arXiv cs.AR (Computer Architecture)
