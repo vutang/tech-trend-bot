@@ -2,17 +2,60 @@ name: Daily tech trend digest
 
 on:
   schedule:
-    - cron: '47 22 * * *'   # 22:47 UTC = 05:47 giờ Hà Nội (phút lẻ tránh nghẽn giờ tròn, chạy sớm để bù độ trễ, đích đến ~06:30)
-  workflow_dispatch:        # cho phép bấm chạy tay để test
+    - cron: '47 22 * * *'   # morning: 05:47 Vietnam, next calendar day
+    - cron: '47 10 * * *'   # afternoon: 17:47 Vietnam
+  workflow_dispatch:
+    inputs:
+      session:
+        description: Digest session (sends to configured Telegram chat)
+        type: choice
+        options:
+          - morning
+          - afternoon
+        default: morning
+        required: true
 
 permissions:
-  contents: write            # cần để commit lại seen.json
+  contents: write
+
+concurrency:
+  group: tech-trend-bot-production
+  cancel-in-progress: false
 
 jobs:
   run-digest:
+    if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && startsWith(github.ref, 'refs/heads/'))
     runs-on: ubuntu-latest
     steps:
+      # Checkout happens after acquiring workflow concurrency, so it reads
+      # the latest branch state even when the event waited in the queue.
+      # Scheduled runs use master; manual runs use the selected branch.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'schedule' && 'master' || github.ref_name }}
+
+      - name: Resolve session and actual code revision
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          MANUAL_SESSION: ${{ inputs.session }}
+        run: |
+          set -euo pipefail
+          if [[ "$EVENT_NAME" == "schedule" ]]; then
+            case "$EVENT_SCHEDULE" in
+              '47 22 * * *') session=morning ;;
+              '47 10 * * *') session=afternoon ;;
+              *) echo "Unknown schedule: $EVENT_SCHEDULE" >&2; exit 1 ;;
+            esac
+          else
+            session="$MANUAL_SESSION"
+          fi
+          case "$session" in
+            morning|afternoon) ;;
+            *) echo "Invalid session: $session" >&2; exit 1 ;;
+          esac
+          echo "DIGEST_SESSION=$session" >> "$GITHUB_ENV"
+          echo "BOT_CODE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
 
       - uses: actions/setup-python@v5
         with:
@@ -20,29 +63,43 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Unit tests (offline, no API secrets)
+        run: python -m unittest discover -s tests -v
+
       - name: Fetch, summarize & send
+        id: pipeline
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python main.py
+        run: python main.py --session "$DIGEST_SESSION"
 
-      - name: Commit updated state
+      - name: Commit updated state and logs
+        env:
+          STATE_BRANCH: ${{ github.event_name == 'schedule' && 'master' || github.ref_name }}
         run: |
+          set -euo pipefail
           git config user.name "tech-trend-bot"
           git config user.email "actions@github.com"
-
-          # Commit thay đổi THẬT của seen.json (do fetch.py vừa ghi) TRƯỚC.
-          # Làm sạch working tree trước khi pull --rebase — đây mới là cách
-          # đúng để tránh lỗi "cannot pull with rebase: unstaged changes",
-          # không phải xoá state về rỗng như bản cũ (bản cũ vô tình huỷ
-          # luôn cơ chế chống trùng, vì seen.json commit lên luôn là [])..
           git add state.json seen.json logs/
           if ! git diff --cached --quiet; then
-            git commit -m "update seen state"
-            git pull --rebase
-            git push
+            git commit -m "update digest state ($DIGEST_SESSION)"
+            # Preserve local state/log commits. A conflict or rejected push
+            # fails the job; never reset state or silently report success.
+            git pull --rebase origin "$STATE_BRANCH"
+            git push origin "HEAD:$STATE_BRANCH"
           else
             echo "No changes to commit"
           fi
+
+      - name: Preserve state and logs for recovery on failure
+        if: failure() && steps.pipeline.outcome != 'skipped'
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            state.json
+            seen.json
+            logs/
+          retention-days: 7
