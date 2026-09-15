@@ -3,7 +3,7 @@ name: Daily tech trend digest
 on:
   schedule:
     - cron: '47 22 * * *'   # morning: 05:47 Vietnam, next calendar day
-    - cron: '47 10 * * *'   # afternoon: 17:47 Vietnam
+    - cron: '47 08 * * *'   # afternoon: 15:47 Vietnam
   workflow_dispatch:
     inputs:
       session:
