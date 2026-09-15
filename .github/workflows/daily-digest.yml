@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       session:
-        description: Digest session (production send)
+        description: Digest session (sends to configured Telegram chat)
         type: choice
         options:
           - morning
@@ -24,14 +24,15 @@ concurrency:
 
 jobs:
   run-digest:
-    if: github.ref == 'refs/heads/master'
+    if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && startsWith(github.ref, 'refs/heads/'))
     runs-on: ubuntu-latest
     steps:
       # Checkout happens after acquiring workflow concurrency, so it reads
-      # the latest production state even when the event waited in the queue.
+      # the latest branch state even when the event waited in the queue.
+      # Scheduled runs use master; manual runs use the selected branch.
       - uses: actions/checkout@v4
         with:
-          ref: master
+          ref: ${{ github.event_name == 'schedule' && 'master' || github.ref_name }}
 
       - name: Resolve session and actual code revision
         env:
@@ -75,6 +76,8 @@ jobs:
         run: python main.py --session "$DIGEST_SESSION"
 
       - name: Commit updated state and logs
+        env:
+          STATE_BRANCH: ${{ github.event_name == 'schedule' && 'master' || github.ref_name }}
         run: |
           set -euo pipefail
           git config user.name "tech-trend-bot"
@@ -84,8 +87,8 @@ jobs:
             git commit -m "update digest state ($DIGEST_SESSION)"
             # Preserve local state/log commits. A conflict or rejected push
             # fails the job; never reset state or silently report success.
-            git pull --rebase origin master
-            git push origin HEAD:master
+            git pull --rebase origin "$STATE_BRANCH"
+            git push origin "HEAD:$STATE_BRANCH"
           else
             echo "No changes to commit"
           fi

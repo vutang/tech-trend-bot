@@ -87,17 +87,22 @@ Workflow `Daily tech trend digest` trong
 - Scheduled run lấy phiên từ `github.event.schedule`, nên cron trễ vẫn chạy
   đúng phiên. Mốc 22:47 UTC là 05:47 ngày hôm sau tại Việt Nam.
 - `workflow_dispatch` có input choice `session`, mặc định `morning`.
-  Đây là gửi production thật trên `master`, không dùng để test nhánh tính năng.
+  Có thể chọn nhánh tính năng trong **Run workflow → Use workflow from** để
+  test trước khi merge. Workflow checkout nhánh đã chọn và commit/push
+  state/log trở lại đúng nhánh đó; scheduled run vẫn dùng `master`.
+  Manual run gọi AI và gửi Telegram thật bằng secrets đang cấu hình. State
+  giữa các nhánh độc lập, nên test có thể gửi lại bài đã được master gửi.
 - Một concurrency group cố định `tech-trend-bot-production` dùng chung cho
-  scheduled/manual run, `cancel-in-progress: false`. Job checkout rõ `master`
-  sau khi được chạy, để lấy state mới nhất khi đã chờ run trước.
+  scheduled/manual run trên mọi nhánh, `cancel-in-progress: false`. Job
+  checkout sau khi được chạy để lấy state mới nhất của nhánh đã chọn khi
+  đã chờ run trước; scheduled run checkout rõ `master`.
   Concurrency mặc định chỉ giữ một run pending; run chờ có thể bị thay thế
   nếu dispatch dồn dập ([GitHub Docs](https://docs.github.com/en/actions/concepts/workflows-and-actions/concurrency)).
 - Sau checkout, workflow lưu `git rev-parse HEAD` vào `BOT_CODE_SHA`, giữ nguyên
   `GITHUB_SHA`. Chạy unit test offline trước pipeline; bốn API secret chỉ được
   truyền vào bước gửi thật, không truyền vào test.
 - Sau gửi thành công (hoặc không chọn được bài), commit state/log rồi
-  `git pull --rebase origin master` và `git push origin HEAD:master`.
+  pull/rebase rồi push vào cùng nhánh vừa checkout (`master` cho scheduled run).
   Conflict/rejected push làm job thất bại; không reset hoặc bỏ state để ép push.
   Khi pipeline/persist/push lỗi, workflow cố lưu state/log thành recovery
   artifact trong 7 ngày để điều tra, không tự động khôi phục dữ liệu.
@@ -172,8 +177,12 @@ bằng git giả. Chúng không chạy GitHub Actions hoặc pipeline production
 Review diff nhánh tính năng với `master`, chạy các lệnh trên; chú ý các ca
 sáng → chiều, gửi lỗi, log lỗi và state lỗi. Sau khi được duyệt, merge vào
 `master` với state/log production mới nhất và để hai cron chạy theo lịch.
-Nếu cần manual run sau triển khai, chọn `master` và `session` trong Actions;
-run đó gửi thật và có thể tăng tổng ngày vượt 15. Theo dõi job, commit state,
+Để test nhánh trước khi merge, commit/push thay đổi workflow và test lên nhánh,
+vào **Actions → Daily tech trend digest → Run workflow**, chọn nhánh trong
+**Use workflow from** và chọn `session`. File workflow cần tồn tại trên nhánh
+mặc định để GitHub cho phép dispatch; bản workflow trên nhánh đã chọn sẽ chạy.
+Nếu cần manual run production, chọn `master`. Mọi manual run gửi thật và có
+thể tăng tổng ngày vượt 15. Theo dõi job, commit state,
 telemetry và xử lý recovery artifact thủ công khi persist/push thất bại.
 
 ## Nguồn tin

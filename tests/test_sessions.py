@@ -180,8 +180,11 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(choice["options"], ["morning", "afternoon"])
         self.assertEqual(choice["default"], "morning")
         self.assertEqual(w["concurrency"], {"group": "tech-trend-bot-production", "cancel-in-progress": "false"})
-        self.assertEqual(w["jobs"]["run-digest"]["if"], "github.ref == 'refs/heads/master'")
-        self.assertEqual(self.steps[0]["with"]["ref"], "master")
+        self.assertEqual(w["jobs"]["run-digest"]["if"],
+                         "github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && startsWith(github.ref, 'refs/heads/'))")
+        branch = "${{ github.event_name == 'schedule' && 'master' || github.ref_name }}"
+        self.assertEqual(self.steps[0]["with"]["ref"], branch)
+        self.assertEqual(self.step("Commit updated state and logs")["env"]["STATE_BRANCH"], branch)
 
     def test_tests_precede_pipeline_and_do_not_receive_secrets(self):
         test_step = self.step("Unit tests (offline, no API secrets)")
@@ -251,24 +254,30 @@ esac
 exit 0
 ''')
             fake_git.chmod(0o755)
-            for fail_at, code in (("none", 0), ("pull", 42), ("push", 43)):
-                with self.subTest(fail_at=fail_at):
+            for branch, fail_at, code in (
+                    (branch, fail_at, code)
+                    for branch in ("master", "feat/twice-daily-digest")
+                    for fail_at, code in (("none", 0), ("pull", 42), ("push", 43))):
+                with self.subTest(branch=branch, fail_at=fail_at):
                     calls = root / "calls"
                     calls.write_text("")
                     env = {"PATH": f"{root}:/usr/bin:/bin", "DIGEST_SESSION": "afternoon",
-                           "FAIL_AT": fail_at, "GIT_CALLS": str(calls)}
+                           "FAIL_AT": fail_at, "GIT_CALLS": str(calls), "STATE_BRANCH": branch}
                     result = subprocess.run(["bash", "-c", script], env=env, cwd=root,
                                             text=True, capture_output=True)
                     self.assertEqual(result.returncode, code, result.stderr)
                     commands = calls.read_text().splitlines()
+                    if branch != "master":
+                        self.assertNotIn("push origin HEAD:master", commands)
+                        self.assertNotIn("pull --rebase origin master", commands)
                     self.assertIn("add state.json seen.json logs/", commands)
                     self.assertIn("commit -m update digest state (afternoon)", commands)
-                    self.assertIn("pull --rebase origin master", commands)
+                    self.assertIn(f"pull --rebase origin {branch}", commands)
                     self.assertFalse(any("reset" in c or "--force" in c for c in commands))
                     if fail_at == "pull":
-                        self.assertNotIn("push origin HEAD:master", commands)
+                        self.assertNotIn(f"push origin HEAD:{branch}", commands)
                     else:
-                        self.assertIn("push origin HEAD:master", commands)
+                        self.assertIn(f"push origin HEAD:{branch}", commands)
         artifact = self.step("Preserve state and logs for recovery on failure")
         self.assertIn("failure()", artifact["if"])
         self.assertIn("state.json", artifact["with"]["path"])
