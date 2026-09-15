@@ -27,6 +27,7 @@
     "https://lwn.net/Articles/1093144/": "2026-09-09T00:41:13.818850+00:00",
     "https://lwn.net/Articles/1093398/": "2026-09-12T00:42:36.175668+00:00",
     "https://lwn.net/Articles/1093962/": "2026-09-14T00:29:25.403418+00:00",
+    "https://lwn.net/Articles/1093985/": "2026-09-15T00:58:03.779863+00:00",
     "https://rcrwireless.com/?p=434424": "2026-09-09T09:28:28.702623+00:00",
     "https://rcrwireless.com/?p=434426": "2026-09-09T09:28:28.702623+00:00",
     "https://rcrwireless.com/?p=434453": "2026-09-13T00:26:06.323761+00:00",
@@ -36,6 +37,8 @@
     "https://rcrwireless.com/?p=434482": "2026-09-12T00:42:36.175668+00:00",
     "https://rcrwireless.com/?p=434488": "2026-09-11T00:35:59.502530+00:00",
     "https://rcrwireless.com/?p=434494": "2026-09-12T00:42:36.175668+00:00",
+    "https://rcrwireless.com/?p=434520": "2026-09-15T00:58:03.779863+00:00",
+    "https://rcrwireless.com/?p=434522": "2026-09-15T00:58:03.779863+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/iteratively-tuning-hipblaslt/README.html": "2026-09-10T00:38:49.074531+00:00",
     "https://spectrum.ieee.org/v2x-highway-vehicle-communication": "2026-09-14T00:29:25.403418+00:00",
     "https://www.cnx-software.com/?p=175484": "2026-09-06T12:01:14.796223+00:00",
@@ -58,7 +61,9 @@
     "https://www.cnx-software.com/?p=177026": "2026-09-13T00:26:06.323761+00:00",
     "https://www.cnx-software.com/?p=177042": "2026-09-12T00:42:36.175668+00:00",
     "https://www.cnx-software.com/?p=177077": "2026-09-14T00:29:25.403418+00:00",
+    "https://www.cnx-software.com/?p=177103": "2026-09-15T00:58:03.779863+00:00",
     "https://www.phoronix.com/news/AI-To-Faster-Linux-Kernel-Comp": "2026-09-09T09:28:28.702623+00:00",
+    "https://www.phoronix.com/news/AMD-Enhanced-SMT-Protection": "2026-09-15T00:58:03.779863+00:00",
     "https://www.phoronix.com/news/AMD-Rust-Deep-Into-GPU-Stack": "2026-09-06T05:46:32.580587+00:00",
     "https://www.phoronix.com/news/ARCTIC-Fan-Controller-BSD": "2026-09-14T00:29:25.403418+00:00",
     "https://www.phoronix.com/news/Amazon-Linux-2027-Preview": "2026-09-06T12:01:14.796223+00:00",
@@ -109,8 +114,10 @@
     "https://www.phoronix.com/review/amazon-linux-2027-benchmarks": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/review/msi-b850p-coreboot-opensil": "2026-09-10T00:38:49.074531+00:00",
     "https://www.reddit.com/r/embedded/t3_1wfhryh": "2026-09-14T00:29:25.403418+00:00",
+    "https://www.redhat.com/en/blog/bare-metal-diverse-ai-revenue-streams-navigating-gpu-cloud-platform-challenge": "2026-09-15T00:58:03.779863+00:00",
     "https://www.redhat.com/en/blog/closing-loop-network-policy-intent-verified-reality": "2026-09-11T00:35:59.502530+00:00",
     "https://www.redhat.com/en/blog/context-wall-what-happens-when-your-ai-agent-hits-gpu-memory-ceiling": "2026-09-09T00:41:13.818850+00:00",
+    "https://www.redhat.com/en/blog/fine-tuned-model-cheaper-and-faster-inference-speculator-training-red-hat-openshift-ai-kubeflow": "2026-09-15T00:58:03.779863+00:00",
     "https://www.redhat.com/en/blog/friday-five-september-4-2026-red-hat": "2026-09-06T12:01:14.796223+00:00",
     "https://www.redhat.com/en/blog/modernizing-virtualization-higher-education-how-automated-node-recovery-protects-data-integrity": "2026-09-06T12:01:14.796223+00:00",
     "https://www.redhat.com/en/blog/nvidia-bluefield-security-and-acceleration-arrive-red-hat-ai-factory-nvidia-and-red-hat-openshift": "2026-09-09T00:41:13.818850+00:00",
@@ -191,6 +198,9 @@
     "oai:arXiv.org:2609.10944v1": "2026-09-13T00:26:06.323761+00:00",
     "oai:arXiv.org:2609.10970v1": "2026-09-12T00:42:36.175668+00:00",
     "oai:arXiv.org:2609.11044v1": "2026-09-13T00:26:06.323761+00:00",
+    "oai:arXiv.org:2609.11996v1": "2026-09-15T00:58:03.779863+00:00",
+    "oai:arXiv.org:2609.12144v1": "2026-09-15T00:58:03.779863+00:00",
+    "oai:arXiv.org:2609.12147v1": "2026-09-15T00:58:03.779863+00:00",
     "tag:github.com,2008:Repository/107505869/v1.16.2": "2026-09-06T12:01:14.796223+00:00",
     "tag:github.com,2008:Repository/107505869/v1.17.0": "2026-09-06T12:01:14.796223+00:00"
   },
@@ -208,31 +218,109 @@
       },
       "first_seen": "2026-09-13T00:26:06.323761+00:00"
     },
-    "https://lwn.net/Articles/1092003/": {
+    "https://lwn.net/Articles/1093381/": {
       "entry": {
         "category": "embedded",
-        "id": "https://lwn.net/Articles/1092003/",
-        "link": "https://lwn.net/Articles/1092003/",
+        "id": "https://lwn.net/Articles/1093381/",
+        "link": "https://lwn.net/Articles/1093381/",
         "relevance": 3,
         "source": "LWN.net Front Page",
-        "summary": "PostgreSQL 19 was \nexpected to be released in September, in keeping with the database\nproject's longstanding tradition of a major release every year. However,\nsome late-breaking concerns about several of the features slated for inclusion\nhas some developers worried about the quality of the release. On August 25, PostgreSQL\ncontributor Robert Haas sent\nan email with the subject \" scary patch contest \" about several patches\nthat have required an unusually large number of bug fixes leading up to the\nrelease, which has raised questions about their readiness for a stable\nrelease. One of the patches has been reverted, but several are still under heavy\nrevision, and an extra beta release has been slotted in to allow for additional\ntesting.",
-        "summary_vi": "PostgreSQL developers are expressing concerns about the quality of the upcoming release due to several last-minute patches requiring an unusually high number of bug fixes.",
-        "title": "[$] PostgreSQL 19's \"scary patch contest\""
+        "summary": "What is it like to be a Debian Project Leader (DPL), or a former one?\nAccording to Andreas Tille, who stepped down this year after two consecutive\nterms as DPL, you'd have to be one to know. At the recent MiniDebConf in Winterthur,\nSwitzerland , Tille spoke about what he learned while serving as DPL, some of\nthe initiatives he led, mistakes that he made, and his thoughts on the general resolution (GR) on large\nlanguage model (LLM) usage in Debian .",
+        "summary_vi": "Former Debian Project Leader Andreas Tille shared key insights from his consecutive terms, highlighting initiatives, mistakes, and ongoing discussions surrounding Large Language Model usage within Debian.",
+        "title": "[$] Lessons learned as the Debian Project Leader"
       },
-      "first_seen": "2026-09-11T00:35:59.502530+00:00"
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
     },
-    "https://lwn.net/Articles/1093766/": {
+    "https://lwn.net/Articles/1094211/": {
       "entry": {
         "category": "embedded",
-        "id": "https://lwn.net/Articles/1093766/",
-        "link": "https://lwn.net/Articles/1093766/",
+        "id": "https://lwn.net/Articles/1094211/",
+        "link": "https://lwn.net/Articles/1094211/",
         "relevance": 3,
         "source": "LWN.net Front Page",
-        "summary": "Greg Kroah-Hartman has announced the release of the 7.2.5 and 6.18.51 \nstable kernels. There are more than 550 patches in each with fixes throughout\nthe tree; users are advised to upgrade.",
-        "summary_vi": "Stable Linux kernels 7.2.5 and 6.18.51 have been released with more than 550 bug fixes each, and users are recommended to upgrade.",
-        "title": "Two stable kernel updates for Friday"
+        "summary": "Security updates have been issued by AlmaLinux (389-ds-base, apr-util, coreutils, freerdp, git-lfs, glib2, gstreamer1-plugins-base, kernel, libkcapi, nginx, nodejs:22, nodejs:24, osbuild-composer, perl-YAML-Syck, postgresql16-postgis, ruby, ruby4.0, ruby:3.3, and vim), Debian (jbig2dec, kamailio, nginx, spip, and xorg-server), Fedora (baresip, bind, bluez, bubblewrap, chirp, chromium, cockpit, composer, corosync, darktable, dokuwiki, elixir, exiv2, expat, firefox, freerdp, freerdp2, gdk-pixbuf2, gegl04, golang-x-perf, grpcurl, kernel, kernel-headers, libevent, libmongocrypt, libpcap, libre, libsoup3, memcached, mingw-expat, mingw-openexr, mongo-c-driver, mrtg, nagios-plugins, nsd, nss, openssl, openvpn, PackageKit, pdns-recursor, perl-Net-OAuth, perl-XML-Bare, php-pecl-mongodb2, python-asteval, python-pip, rclone, rest, rust-hickory-net, rust-hickory-proto, rust-hickory-resolver, rust-ppmd-rust, rust-webbrowser, srt, syncthing, tar, tkimg, and valkey), Gentoo (Chromium, Google Chrome, Microsoft Edge, Opera, Vivaldi and Ruby), Mageia (bind, ffmpeg, glibc, java-17-openjdk, java-21-openjdk, librabbitmq, perl-Catalyst-Plugin-Static-Simple, perl-Imager, tor, and xz), Oracle (389-ds:1.4, ansible-core, apr-util, coreutils, freerdp, git-lfs, glib2, gstreamer1-plugins-base, gzip, httpd:2.4, image-builder, java-21-openjdk, kernel, mrtg, nginx, osbuild-composer, perl-DBI, postgresql16-postgis, python-lxml, python3.12-lxml, redis:6, and vim), SUSE (389-ds, ansible-core, ansible-creator, azure-storage-azcopy, cargo-audit, chromedriver, chromium, clamav, containerized-data-importer1.65, containerized-data-importer1.66, curl, dracut, ffmpeg-4, google-guest-agent, google-osconfig-agent, helm, java-1_8_0-ibm, jupyter-nbconvert, kernel, libpng16, libusb-1_0, libvirt, multipath-tools, NetworkManager, opensc, openssl-3, perl-Authen-SASL, perl-HTML-FormHandler, perl-Mojolicious, perl-Protocol-HTTP2, python-jwcrypto, python-sqlparse, python-tornado6, python313-geopy, python313-modelscope, python313-modelscope-hub, python313-pypdf, python315, rpcbind, sshamble, strongswan, tomcat, ucode-intel, and wget), and Ubuntu (civetweb, ffmpeg, and urwid).",
+        "summary_vi": "A broad set of security updates has been issued for AlmaLinux, Debian, and Fedora. These updates patch critical packages including the Linux kernel, nginx, glib2, freerdp, and xorg-server.",
+        "title": "Security updates for Monday"
       },
-      "first_seen": "2026-09-12T00:42:36.175668+00:00"
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "https://rcrwireless.com/?p=434514": {
+      "entry": {
+        "category": "ran",
+        "id": "https://rcrwireless.com/?p=434514",
+        "link": "https://rcrwireless.com/20260914/network-infrastructure/telecoms-its-just-not-cricket-telco-diary",
+        "relevance": 3,
+        "source": "RCR Wireless News",
+        "summary": "From the newsletter (September 9; sign-up or follow if you want it sooner): Telecoms is moving deeper into AI infrastructure as networks become programmable, distributed and intelligent – but the…",
+        "summary_vi": "The telecom sector is shifting deeper into AI infrastructure as networks evolve to be programmable and distributed. This transition positions service providers as active components of regional AI compute fabrics.",
+        "title": "Telecoms – it’s just not cricket (telco diary)"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "https://rcrwireless.com/?p=434517": {
+      "entry": {
+        "category": "ran",
+        "id": "https://rcrwireless.com/?p=434517",
+        "link": "https://rcrwireless.com/20260914/network-infrastructure/nokia-campus-strategy-from-private-5g-to-private-ai-telco-diary",
+        "relevance": 3,
+        "source": "RCR Wireless News",
+        "summary": "From the newsletter (September 10; sign-up or follow if you want it sooner): Nokia’s new Cognitive Operations and Cognitive Edge Node look strikingly familiar as the company exits campus private…",
+        "summary_vi": "Nokia is expanding its private 5G campus strategy to focus on private AI infrastructure. The transition features new Cognitive Operations and Cognitive Edge Node solutions to optimize intelligent localized processing.",
+        "title": "Nokia campus strategy – from private 5G to private AI? (Telco Diary)"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "https://rocm.blogs.amd.com/software-tools-optimization/hipkittens-gemm-ladder/README.html": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://rocm.blogs.amd.com/software-tools-optimization/hipkittens-gemm-ladder/README.html",
+        "link": "https://rocm.blogs.amd.com/software-tools-optimization/hipkittens-gemm-ladder/README.html",
+        "relevance": 4,
+        "source": "AMD ROCm Blog",
+        "summary": "AMD Helios will be an important platform for AI. Helios offers 432 GB of HBM4,\n23 TB/s of HBM bandwidth per GPU, and 40 PFLOPs of FP4 compute\nAMD Instinct™ MI455X GPU.\nThese capabilities will be especially valuable for large frontier models and long-context\nagentic workloads.",
+        "summary_vi": "The AMD Helios platform, featuring the MI455X GPU, offers 432 GB of HBM4 memory and 23 TB/s bandwidth. These specifications are optimized to accelerate deep learning and long-context agentic workloads.",
+        "title": "An Educational GEMM Ladder for Helios GPUs"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "https://www.cnx-software.com/?p=177099": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.cnx-software.com/?p=177099",
+        "link": "https://www.cnx-software.com/2026/09/14/morse-micro-wi-fi-halow-usb-adapters-add-802-11ah-connectivity-to-pcs-and-routers/",
+        "relevance": 4,
+        "source": "CNX Software",
+        "summary": "Last year, we saw Morse Micro introduce the MM8108 Wi-Fi HaLow (802.11ah) SoC with up to 43.33 Mbps throughput, along with an MM8108-RD09 USB dongle reference design, for which we had virtually no details at the time. Morse Micro has now released USB-A and USB-C Wi-Fi HaLow adapters based on that reference design. The adapters let PCs and routers connect to 802.11ah networks through USB without a dedicated expansion card and feature an external SMA antenna delivering up to 26 dBm transmit power. Wi-Fi HaLow USB network adapter specifications: SoC – Morse Micro MM8108 32-bit RISC-V Host Applications Processor (HAP) Standard – IEEE802.11ah Wi-Fi HaLow Frequency band – 850-950 MHz (Worldwide sub-1 GHz license-exempt range) Operating Modes – Access Point (AP) and Station (STA). Channel Width – 1/2/4/8 MHz Modulation – BPSK, QPSK, 16QAM, 64QAM, 256QAM. Data rate – Up to 43.3 Mbps using 256-QAM modulation at an 8 MHz bandwidth [...] \n The post Morse Micro Wi-Fi HaLow USB adapters add 802.11ah connectivity to PCs and routers appeared first on CNX Software - Embedded Systems News .",
+        "summary_vi": "Morse Micro has launched USB-A and USB-C Wi-Fi HaLow adapters based on the MM8108 SoC. These adapters allow PCs and routers to easily connect to 802.11ah sub-GHz long-range wireless networks without internal expansion cards.",
+        "title": "Morse Micro Wi-Fi HaLow USB adapters add 802.11ah connectivity to PCs and routers"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "https://www.linuxfoundation.org/blog/open-secure-ai-alliance-joins-the-linux-foundation-to-build-a-shared-open-defense-stack-for-the-ai-era": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.linuxfoundation.org/blog/open-secure-ai-alliance-joins-the-linux-foundation-to-build-a-shared-open-defense-stack-for-the-ai-era",
+        "link": "https://www.linuxfoundation.org/blog/open-secure-ai-alliance-joins-the-linux-foundation-to-build-a-shared-open-defense-stack-for-the-ai-era",
+        "relevance": 3,
+        "source": "Linux Foundation Blog",
+        "summary": "Originally founded by dozens of enterprise leaders and NVIDIA, the Alliance moves to neutral governance to expand industry collaboration on open AI security tools, research and shared defenses",
+        "summary_vi": "The Open Secure AI Alliance, originally founded by NVIDIA and others, has moved to neutral governance under the Linux Foundation. This shift aims to accelerate industry-wide collaboration on open-source AI security tools, research, and shared defenses.",
+        "title": "Open Secure AI Alliance Joins the Linux Foundation to Build a Shared, Open Defense Stack for the AI Era"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "https://www.phoronix.com/news/Rustls-0.23.45-Released": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Rustls-0.23.45-Released",
+        "link": "https://www.phoronix.com/news/Rustls-0.23.45-Released",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "While the Rustls modern TLS library is written in the Rust programming language with a focus on memory safety, as we've seen out of other Rust project re-implementations in the past, the new implementations can lead to other security bugs of their own. Out today is Rustls 0.23.45 to fix a security issue introduced back in 2024 with Rustls while the likes of OpenSSL, BoringSSL, and others are unaffected...",
+        "summary_vi": "Rustls version 0.23.45 has been released to patch a two-year-old security vulnerability. The bug highlights how logic flaws can still manifest in modern, memory-safe Rust implementations, while OpenSSL remains unaffected.",
+        "title": "Rustls 0.23.45 Released To Fix Two Year Old Security Issue"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
     },
     "https://www.reddit.com/r/embedded/t3_1weycrx": {
       "entry": {
@@ -273,36 +361,193 @@
       },
       "first_seen": "2026-09-14T00:29:25.403418+00:00"
     },
-    "oai:arXiv.org:2609.09344v1": {
+    "https://www.reddit.com/r/embedded/t3_1wfyv7n": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wfyv7n",
+        "link": "https://www.reddit.com/r/embedded/comments/1wfyv7n/108_hours_later_micduck_v01_100_alive_60_walking/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "After 108 hours of building, debugging, rebuilding, and questioning my life choices… MicDuck v0.1 is finally alive. Current status: Alive: 100% Walking: 60% Balance: trying its best Quacking: absolutely not normal It doesn’t really walk yet — more like hop, wobble, recover, repeat. And the sound somehow makes it even funnier. Still tuning the gait and balance, but honestly, watching this little guy struggle across the table has been worth the 108 hours. Any ideas on what I should fix first? 🐤 submitted by /u/Simple-Ad3267 [link] [comments]",
+        "summary_vi": "An independent maker shares their journey of building and debugging MicDuck v0.1, a custom walking robotic duck. The author describes ongoing hardware challenges in tuning physical gait, balance control, and audio output.",
+        "title": "108 hours later: MicDuck v0.1 — 100% alive, 60% walking, 0% normal quacking 🐤"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wgexw4": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wgexw4",
+        "link": "https://www.reddit.com/r/embedded/comments/1wgexw4/how_to_debounce_push_buttons_by_software/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I know my question maybe really trivial and a lot of people have already discussed it, I tried looking for an answer, but it wasn't satisfying for me and my application. What I'm trying to do is make a game hub using stm32F10x I don't really remember, also called (blue pill), I'm just in the phase of making the UI on a TFT (128*160) pixels, switching the on the options on the display for instance, I tied some External ISRs (EXTI), when I press the button it may not update correctly My logic Set the background of the last element black, and rewrite the string (to remove highlight that indicates selection), then change the background of the next element, and rewrite the string with inverting the colors of both. Trying to press the button many times will not update the screen well, surely not a good thing for game console, because you may lose the game for that delay. What I tried Is using the STK (SYSTICK to add delay of 40 ms at the beginning of the ISR), you can see the TFT updating slowly relative to expected results. EDIT I also tried varying the delay from 5 to 100ms I tried connecting a 100nF capacitor in parallel with the buttons, increased the capacitance up to 10uF, yet (obviously) it just made it slower And the solution of using RC filter with a schmitt trigger sounds too much for something like that, how do manufacturers solve this problem? I'm still newbie in embedded systems, and I first deal with this problem, previously the 100nF cap was more than enough, I just would love to hear from real practitioners rather than AI bots. submitted by /u/Yehia_Medhat [link] [comments]",
+        "summary_vi": "An embedded developer seeks optimal software debouncing solutions for external interrupts on an STM32F103 microcontroller. The objective is to stabilize user interface inputs displayed on a SPI-based TFT screen.",
+        "title": "How to debounce push buttons by software?"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wgfsbf": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wgfsbf",
+        "link": "https://www.reddit.com/r/embedded/comments/1wgfsbf/who_among_you_has_gone_back_to_8bit_avr_or_has/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "Since I only work with controllers occasionally and at longer intervals, I’ve just decided—after having worked with ATM32 for a long time (years) and even developed products (BMS) that I’ve sold using it—to switch back to 8-bit AVR... Ever since I switched to ARM, I’ve clearly lost my enthusiasm for tinkering and programming. Because all the parameters on the ARM are ridiculously long and complicated, I have to look up the syntax every time, and after hours of debugging, I realize I forgot to configure something… I often just don’t feel like starting anything new at all. With the Atmega, everything is so wonderfully straightforward—the parameters are very short, I don’t need notes on how to reconfigure the port direction, PWM works simply, and everything just works right away without having to spend ages flipping through documentation. I have 5V, and if I need 3V, I just run it at 3V; it uses less power in battery-powered applications, etc. And the speed is more than enough for most cases; the only downside is the 10-bit ADC—you just have to use an external ADC in those situations... Does anyone else feel this way? Do others feel the same as I do—that they’ve lost the fun of working with ARM controllers because of their high complexity? submitted by /u/corado12345 [link] [comments]",
+        "summary_vi": "Developers discuss the benefits of reverting from complex 32-bit ARM microcontrollers to simpler 8-bit AVR chips for personal projects. The discussion highlights how complex register structures on modern microcontrollers can slow down debugging for non-daily users.",
+        "title": "Who among you has gone back to 8-bit AVR, or has always stuck with it?"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wggl0y": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wggl0y",
+        "link": "https://www.reddit.com/r/embedded/comments/1wggl0y/simulator_modbus_free/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I have been developing a Modbus simulator for some time now. I would like some feedback (positive or negative) on the software. The software's name is ScanBus-BR. submitted by /u/ScanBus [link] [comments]",
+        "summary_vi": "A developer has introduced ScanBus-BR, a free Modbus simulator tool, and is actively seeking feedback from the industrial communications community to refine its features.",
+        "title": "Simulator Modbus Free"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "oai:arXiv.org:2609.11938v1": {
       "entry": {
         "category": "research",
-        "id": "oai:arXiv.org:2609.09344v1",
-        "link": "https://arxiv.org/abs/2609.09344",
+        "id": "oai:arXiv.org:2609.11938v1",
+        "link": "https://arxiv.org/abs/2609.11938",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.11938v1 Announce Type: new \nAbstract: Framework profilers expose operator timing without hardware counters; GPU profilers expose hardware counters without operator attribution. Bridging this gap manually is error-prone and does not scale. We present Operator Profiler, a hardware attribution pipeline that automatically links hardware metrics to PyTorch operators via three complementary attribution paths: torch.profiler CUPTI correlation, NVTX temporal enclosure with per-stream interval trees, and Inductor fusion- map enrichment from debug artifacts. NVIDIA Nsight Compute (ncu) hardware counters are matched to NVIDIA Nsight Systems (nsys) kernel records via invocation-order matching, avoiding timestamp joins across incompatible clock domains. A curated 20-counter metric set with duration-weighted aggregation covers all hardware bottleneck axes, layer deduplication reduces ncu replay time by a factor of N/K for models with N layers across K unique structural classes, and GPU clock locking controls the kernel-duration aggregates used for operator-level comparison. On an NVIDIA RTX PRO 6000 Blackwell, Operator Profiler attributes 95-100% of kernel runtime for compiled workloads (GPT-2, SDPA Attention); black-box library backends such as cuDNN RNN are correctly surfaced as greater than 85% unattributed rather than silently dropped. Applied to profile-guided FX graph optimization, attributed profiles yield 1.76x-2.24x profiled-kernel-time speedups on the two compiled optimization case studies; a third LSTM diagnostic case identifies cuDNN re-dispatch as a structural fix rather than an FX graph rewrite.",
+        "summary_vi": "Researchers introduce Operator Profiler, a pipeline that bridges the gap between high-level PyTorch operator timing and low-level GPU hardware metrics. It automates correlation via CUPTI and NVTX temporal profiling to help developers find precise bottlenecks.",
+        "title": "Hardware-Attributed Operator Profiling for PyTorch"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "oai:arXiv.org:2609.11939v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.11939v1",
+        "link": "https://arxiv.org/abs/2609.11939",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.11939v1 Announce Type: new \nAbstract: Traditional TinyML systems for edge devices achieve high accuracy by relying on fixed-depth models that require a constant number of multiply-accumulate (MAC) operations regardless of the input complexity. This approach wastes critical resources in battery-powered Internet-of-Things (IoT) devices and limits the real-time performance of edge cyber-physical systems. Multi-exit execution schemes mitigate these issues and are widely used on high-end devices such as GPUs, but are rarely exploited on edge IoT devices because they require substantial rethinking given their strict memory and computational constraints. We address these aspects by designing and deploying, on an ultra-low-power GWT GAP9 System-on-Chip (SoC), a novel multi-exit computational scheme, demonstrating it on a MobileNetV2 convolutional neural network (CNN) for the ImageNet-100 classification task. Our approach introduces multiple exits at different CNN depths, each with a confidence-based gating mechanism that dynamically and autonomously decides whether to continue or stop inference. Comparing our multi-exit strategy to the standard MobileNetV2 on a GAP9 SoC, we show a 41% reduction in the average computational cost (from 313 MMAC to 185 MMAC), a 29% lower inference time (from 49 to 35 ms), and an energy saving of 24% (from 2.1 to 1.6 mJ per frame). All these improvements come with a ~1% loss in accuracy compared to the full-depth MobileNetV2, which achieves 80.5%. Finally, comparing our adaptable multi-exit scheme with a third-party state-of-the-art adaptive CNN, also deployed on the GAP9, we achieve more than 2x its computational efficiency, increasing it from 8.1 to 17.2 MAC/cycle.",
+        "summary_vi": "To overcome high energy consumption in battery-powered IoT devices, this paper introduces a multi-exit execution scheme for TinyML. This architecture dynamically adjusts model depth based on input complexity, boosting real-time performance and efficiency.",
+        "title": "Adaptive AI: Energy Efficient Multi-exit TinyML on Intelligent Vision Systems at the Edge"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "oai:arXiv.org:2609.12075v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.12075v1",
+        "link": "https://arxiv.org/abs/2609.12075",
         "relevance": 3,
         "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.09344v1 Announce Type: new \nAbstract: Agentic AI is set to become one of the most transformational technologies in generations and materially change how we approach silicon design and engineering. The impact is being felt in real time amid a rapidly changing landscape, which can make it overwhelming for both silicon practitioners and academics to adapt to the AI native silicon design era. To add structure to how we navigate this transition, we provide a joint view from academia and industry silicon practitioners of the challenges, opportunities, and considerations we expect will catalyze how the community transitions into an AI native silicon future. In particular, we reemphasize the importance of core silicon design fundamentals in academic training and why they have renewed importance in research and industry practice for AI native silicon design. It is our hope that the views provided here will offer valuable and complementary perspectives to those in academia and industry to interpret, inform, and catalyze the transition to the AI native era. We expect that many similar and overlapping views will emerge, but the precise technical details will differ across stakeholders, so it is valuable for the community to amass a diversity of viewpoints.",
-        "summary_vi": "This joint publication from academic and industry researchers outlines how the rise of agentic AI is transforming silicon design methodologies and engineering workflows.",
-        "title": "Academia x Industry: The Role of Fundamentals for Silicon in an AI Native Era"
+        "summary": "arXiv:2609.12075v1 Announce Type: cross \nAbstract: Vision-Language-Action (VLA) models show high robotic manipulation capabilities via a two-stage design: a Vision-Language Model (VLM) stage followed by an Action Diffusion Transformer (ADiT) stage. Since robots must meet strict Service-Level Objectives (SLOs) for safety, VLA inference is inherently latency-critical. Meeting these SLOs requires high-end GPUs, yet weight, cost, and power constraints preclude integrating such GPUs on-robot. Prior works offload VLA inference to edge servers that serve many robots on VLA models. However, current VLA systems lack support for multi-request, multi-model execution on a multi-GPU server under SLOs, while existing serving systems for multi-stage models are optimized for throughput and stage disaggregation across separate GPUs, which are ill-suited for the millisecond-scale stages of VLA models. We design Robion, the first VLA serving and management system for multi-robot, multi-model requests on multi-GPU edge servers that meets SLOs. Our serving engine disaggregates the VLM and ADiT stages within a GPU via two streams, dynamically restricting the SMs on VLM stream so ADiT always finds SMs to run alongside it, and co-locates multiple models by sharing these streams across them, prioritizing requests by least remaining SLO time. Our management engine enables flexible model placements on multi-GPU servers, and integrates an intelligent traffic controller that maximizes per-model batching under the chosen placement while bounding each GPU's load to meet SLOs. For individual models, Robion serves on average 6.7$\\times$ and 1.5$\\times$ higher robot load within 98% SLO attainment over vLLM-Omni, the most widely used multi-stage serving system, and Monolithic, which runs VLM and ADiT as a single pipeline, respectively. In a large-scale experiment of serving 8 different models on a 4-GPU server, Robion can serve up to 64 robots within 98% SLO attainment.",
+        "summary_vi": "This study addresses the high latency and compute constraints of robotic Vision-Language-Action (VLA) inference. By offloading workloads from robots to edge servers, it meets strict safety-critical Service-Level Objectives (SLOs).",
+        "title": "Efficient Vision-Language-Action Management and Serving for Robot Factories"
       },
-      "first_seen": "2026-09-11T00:35:59.502530+00:00"
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
     },
-    "oai:arXiv.org:2609.11294v1": {
+    "oai:arXiv.org:2609.12170v1": {
       "entry": {
         "category": "research",
-        "id": "oai:arXiv.org:2609.11294v1",
-        "link": "https://arxiv.org/abs/2609.11294",
-        "relevance": 3,
-        "source": "arXiv cs.OS (Operating Systems)",
-        "summary": "arXiv:2609.11294v1 Announce Type: cross \nAbstract: High-fanout agent workloads create a growing memory bottleneck because a single task may spawn many concurrent sandbox sessions. Yet these sandboxes are far from independent: they originate from a shared template and execute related trajectories, exposing substantial template-relative and cross-sandbox memory redundancy. Conventional memory compression is poorly matched to this setting in three fundamental dimensions: how to compress, because they fail to exploit similarity across non-identical sandbox pages; what to compress, because they control page-fault overhead through conservative page selection; and when to compress, because compression is either triggered by memory pressure or performed without awareness of agent execution phases.\n We present AgentZip, the first memory compression system designed specifically for AI-agent sandboxes. AgentZip introduces compression mechanisms that exploit both the template-relative and cross-sandbox redundancy. It broadens the compression scope to any page with a profitable representation and shifts overhead control from compression-time page selection to restore-time prefetching. It further aligns expensive compression with LLM waiting periods to avoid interfering with foreground tool execution. Across LLM training and inference workloads, AgentZip reduces sandbox-owned memory by up to 8.7x, compared with 2.1x for the Linux configuration. Restore prefetching and agent-execution-aware scheduling reduce the slowdown of aggressive compression from as high as 3.1x to 1.40x while retaining nearly all of its memory-saving benefit.",
-        "summary_vi": "This paper presents a specialized memory compression technique designed to mitigate physical memory bottlenecks by exploiting redundancies across high-fanout concurrent agent sandboxes.",
-        "title": "Memory Compression for High-Fanout Agent Sandboxes"
+        "id": "oai:arXiv.org:2609.12170v1",
+        "link": "https://arxiv.org/abs/2609.12170",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2609.12170v1 Announce Type: new \nAbstract: Autonomous network management requires systems that can evaluate Network Service Intents (NSIs) under varying conditions without manual implementation of analysis logic, as envisioned in TM Forum Level~4 (L4) autonomy. Behavioral Network Digital Twins (NDTs) enable such evaluation, but existing NDTs rely on pre-defined analytical logic, limiting adaptability for evolving closed-loop control. This paper introduces the NDT factory, a multi-agent software system that synthesizes executable behavioral NDTs on demand from semantic models using Large Language Model (LLM). We validate the system using a Call Admission Control (CAC) case study, where deterministic what-if analysis serves as the admission decision process. The NDT factory generates a complete CAC NDT through parallel synthesis and orchestration, achieving 100% compilation and test pass rates across multiple runs. Simulation over 300 NSIs shows 99.3% decision agreement with a reference implementation, 90% admission rate, and correct attribution of all rejections, demonstrating reliable synthesis with deterministic, verifiable execution.",
+        "summary_vi": "The NDT Factory is a multi-agent framework designed to automatically synthesize behavioral Network Digital Twins from semantic models. This automation supports highly adaptive, closed-loop control in autonomous network management.",
+        "title": "NDT Factory: Synthesizing Verified Network Digital Twins from Semantic Models via Multi-Agent LLM"
       },
-      "first_seen": "2026-09-12T00:42:36.175668+00:00"
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "oai:arXiv.org:2609.12208v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.12208v1",
+        "link": "https://arxiv.org/abs/2609.12208",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.12208v1 Announce Type: new \nAbstract: Extreme compression techniques, including vector quantization (VQ) and input-dependent sparsity, can significantly reduce the memory footprint of large language models (LLMs). However, a key challenge remains in translating such compression into practical efficiency. On conventional systolic-array-based accelerators, VQ incurs high dequantization overhead, while the irregular patterns of input-dependent sparsity are difficult to exploit. In this study, we address these challenges with Vortex, an architecture compatible with systolic-array-based accelerators with minimal hardware overhead, bridging the gap between extreme compression and efficient inference. Vortex adopts a bi-flow execution strategy that efficiently supports vector-quantized models across both prefill and decoding workloads, and we further optimize it through systematic design space exploration. On the algorithm side, we propose codebook-wise contextual sparsity to align with VQ execution. Across end-to-end workloads, Vortex achieves $8.03\\times$--$23.7\\times$ speedup and $5.68\\times$--$12.5\\times$ energy reduction over state-of-the-art accelerators.",
+        "summary_vi": "The Vortex framework addresses the hardware acceleration challenges of extreme LLM compression techniques like vector quantization and input-dependent sparsity. It minimizes dequantization overhead to enable practical memory and speed gains on systolic-array architectures.",
+        "title": "Vortex: Bridging Extreme Compression and Efficient LLM Inference"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "oai:arXiv.org:2609.12276v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.12276v1",
+        "link": "https://arxiv.org/abs/2609.12276",
+        "relevance": 5,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2609.12276v1 Announce Type: new \nAbstract: GPU-backed LLM servers often multiplex interactive requests with background batch work on the same CPUs. During a request burst, the scheduler should protect time-to-first-token; between bursts, it should let background work make progress. A fixed kernel policy leaves one of these objectives on the table, so agentic OS control needs a way to switch scheduler behavior as the workload changes. The hard part is not deciding that a switch is useful, but applying it safely and fast enough for the kernel. Scheduler events occur every 1-10 $\\mu$s, and any code that runs there must satisfy the eBPF verifier. Scalar knobs are fast but expose only limited policy behavior, while generating new eBPF policy code is expressive but puts compilation, verification, loading, and possible verifier rejection on the runtime path. We present AKTS, which verifies a policy library once, at load time, and reduces the agent's runtime action to writing an integer index into an in-kernel array of preverified policies. An in-kernel tail call resolves that index. Because the agent emits an index rather than code, verifier failure is not a runtime outcome. On Linux 6.14, AKTS applies a policy switch in 920 ns (p50), matching scalar writes while switching whole policies; makes an invalid index inert across 60,217 invocations on an attached scheduler; and switches policies in a vLLM workload to capture 97% of a throughput policy's batch work while matching a latency policy's burst response.",
+        "summary_vi": "While focused on LLM scheduling, AKTS demonstrates sub-microsecond kernel policy switching mechanisms relevant to RAN firmware development where dynamic scheduler behavior adaptation is essential for managing latency-critical control plane operations alongside background processing tasks in 5G systems.",
+        "title": "AKTS: Sub-Microsecond Kernel Policy Switching for Language-Model Agents"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "oai:arXiv.org:2609.12597v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.12597v1",
+        "link": "https://arxiv.org/abs/2609.12597",
+        "relevance": 4,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2609.12597v1 Announce Type: cross \nAbstract: Most databases, including PostgreSQL, RocksDB, and recent AI KV-cache middleware, rely on buffered I/O, delegating write-back to the Linux kernel. On the distributed block storage standard in the cloud, this delegation inherits a hidden bottleneck: each device is drained by a single kernel flusher thread over a high-latency, shallow-queue path. When the drain falls behind, dirty throttling pauses write() system calls, and even reads that must evict dirty pages stall. These stalls are invisible to iostat and every standard counter. This poster observes the stall from inside the kernel, using the multi-volume data placement proposed in SteelDB as the experimental lever. eBPF probes on writeback and block tracepoints separate write-back by issuing context and count every throttle pause. Across three configurations with identical provisioned IOPS and bandwidth but 1, 2, and 4 devices, we show that adding drains, not bandwidth, cuts throttle pauses by 70%, reduces maximum transaction latency by 59%, and raises throughput by 23%.",
+        "summary_vi": "This research exposes a kernel I/O bottleneck in cloud databases where high-latency distributed storage is drained by a single kernel flusher thread. The resulting dirty throttling can significantly stall system write operations.",
+        "title": "Invisible Yet Dominant: Big Stalls of Kernel I/O Mechanisms in Cloud OLTP Databases"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "oai:arXiv.org:2609.12649v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.12649v1",
+        "link": "https://arxiv.org/abs/2609.12649",
+        "relevance": 5,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2609.12649v1 Announce Type: new \nAbstract: This paper presents the design implementation and evaluation of NetMon a hybrid network monitoring system designed for Kubernetes-based 5G packet core deployments specifically evaluated on Ericssons Access and Mobility Management Function AMF clusters NetMon combines eBPF-based passive kernel-level traffic observation with active TCP probing and centralized correlation to detect and localize network degradation within seconds The evaluation results demonstrate that the system detects faults as subtle as 10ms of added latency or 5 packet loss correctly attributes them to the affected infrastructure component and maintains this capability under application loads up to 50 simulated UE load The total resource overhead of 34 millicores CPU and 45 MiB memory per pod suggests that the approach is promising for further validation without impacting the monitored workload The hybrid approach addresses a gap in existing monitoring tools standard health checks cannot detect partial degradation scrape-based systems introduce detection delays measured in tens of seconds and purely passive tools cannot verify idle network paths By combining these complementary techniques and centralizing the analysis the system provides the early detection and fault localization capabilities required for maintaining service quality in cloud-native 5G infrastructure.",
+        "summary_vi": "NetMon presents an eBPF-based hybrid monitoring architecture for Kubernetes-deployed 5G packet core (AMF), enabling sub-second detection of network degradation through passive kernel-level observation combined with active TCP probing. This directly impacts embedded/firmware engineers developing RAN monitoring solutions, demonstrating how kernel-level instrumentation can enable real-time fault localization critical for maintaining 5G service reliability.",
+        "title": "Hybrid Monitoring for Early Fault Detection in Cloud-Native 5G Systems"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "oai:arXiv.org:2609.12923v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.12923v1",
+        "link": "https://arxiv.org/abs/2609.12923",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.12923v1 Announce Type: cross \nAbstract: A single SM utilization percentage can make an LLM inference workload look compute-saturated while hiding how much useful work is being done. The problem is not that the counter is wrong, but that it collapses several different mechanisms into one number. This is most severe during decode, where each request contributes only one new token and dense projection GEMMs become small-row matrix multiplications. On Hopper, the bfloat16 GMMA path executes these operations in fixed 64-row matrix fragments, so small-batch decode can fill only a small fraction of each fragment with real token rows.\n In this paper, we profile vLLM with FlashAttention-3 and cuBLASLt on an H100 NVL across cold prefill, warm prefill, and decode, sweeping sequence length and batch size. We replace the usual single utilization number with eight counter-validated views derived from raw Nsight Compute reports, each pinned to an NCU counter or explicit formula. Together, these views map utilization gaps to concrete mechanisms - fragment fill, occupancy limits, stall signatures, wave quantization, and kernel selection - across four production models and six per-layer kernel roles.",
+        "summary_vi": "This paper analyzes how standard GPU streaming multiprocessor (SM) utilization metrics can hide real efficiency during LLM decode phases. It evaluates how small-row matrix multiplications interact with Nvidia Hopper's execution paths.",
+        "title": "Dissecting GPU Utilization for LLM Inference on Nvidia Hopper"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "oai:arXiv.org:2609.12978v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.12978v1",
+        "link": "https://arxiv.org/abs/2609.12978",
+        "relevance": 4,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2609.12978v1 Announce Type: new \nAbstract: Mixture-of-Experts (MoE) creates a structural advantage for offloading: only a small fraction of activated experts need to reside in device memory, and if they can be loaded in time for computation, offloading can in principle approach full-load performance, where all model weights reside in device memory. Yet translating MoE's structural advantage into practical offloading gains remains challenging. We propose SeqMoE to bridge this gap. To maximize expert hits, we build predictive memory management: (i) Sequence-to-sequence prediction. We are the first to recast expert activation prediction as sequence modeling, enabling accurate multi-step, multi-layer forecasts that provide a long and reliable window for downstream decisions. (ii) Joint prefetch scheduling. We formulate prefetch scheduling as Job Sequencing with Deadlines to maximize expected expert hits and improve bandwidth efficiency. (iii) Forecast-driven caching. Leveraging the recursive nature of sequence modeling, we introduce a probabilistic Belady policy for future-aware eviction. To eliminate execution bottleneck, we develop (iv) Graph-compatible offloading runtime. We derive general runtime principles encompassing compute-transparent expert placement and synchronization-free orchestration disciplines for end-to-end graph capture. With 45% expert residency, SeqMoE averages a 96.97% hit rate and 80.22% of full-load performance, advancing the state of the art in MoE offloading.",
+        "summary_vi": "SeqMoE addresses memory bottlenecks in Mixture-of-Experts (MoE) offloading by predicting active experts. It matches memory transfers with active computation times to achieve near full-load performance.",
+        "title": "SeqMoE: Toward Full-Load Performance via Predictive and Graph-Compatible MoE Offloading"
+      },
+      "first_seen": "2026-09-15T00:58:03.779863+00:00"
     }
   },
   "rejected": {
     "https://bootlin.com/?p=22302": "2026-09-10T00:38:49.074531+00:00",
     "https://linuxgizmos.com/?p=98999": "2026-09-09T09:28:28.702623+00:00",
+    "https://lwn.net/Articles/1092003/": "2026-09-11T00:35:59.502530+00:00",
     "https://lwn.net/Articles/1092512/": "2026-09-08T00:43:47.238508+00:00",
     "https://lwn.net/Articles/1092993/": "2026-09-10T00:38:49.074531+00:00",
     "https://lwn.net/Articles/1093145/": "2026-09-09T00:41:13.818850+00:00",
@@ -311,14 +556,20 @@
     "https://lwn.net/Articles/1093567/": "2026-09-11T00:35:59.502530+00:00",
     "https://lwn.net/Articles/1093671/": "2026-09-11T00:35:59.502530+00:00",
     "https://lwn.net/Articles/1093765/": "2026-09-13T00:26:06.323761+00:00",
+    "https://lwn.net/Articles/1093766/": "2026-09-12T00:42:36.175668+00:00",
     "https://lwn.net/Articles/1093825/": "2026-09-12T00:42:36.175668+00:00",
     "https://lwn.net/Articles/1093929/": "2026-09-14T00:29:25.403418+00:00",
+    "https://lwn.net/Articles/1094224/": "2026-09-15T00:58:03.779863+00:00",
+    "https://lwn.net/Articles/1094312/": "2026-09-15T00:58:03.779863+00:00",
+    "https://rcrwireless.com/?p=434526": "2026-09-15T00:58:03.779863+00:00",
     "https://www.cnx-software.com/?p=176234": "2026-09-08T00:43:47.238508+00:00",
     "https://www.linuxfoundation.org/blog/how-ospos-are-preparing-organizations-for-the-eu-cyber-resilience-act": "2026-09-10T00:38:49.074531+00:00",
     "https://www.phoronix.com/news/DLSS5VKLayer": "2026-09-09T00:41:13.818850+00:00",
     "https://www.phoronix.com/news/Debian-13.7-Released": "2026-09-13T00:26:06.323761+00:00",
+    "https://www.phoronix.com/news/Firefox-156": "2026-09-15T00:58:03.779863+00:00",
     "https://www.phoronix.com/news/GIMP-3.2.6-Released": "2026-09-11T00:35:59.502530+00:00",
     "https://www.phoronix.com/news/GNOME-Shotwell-33": "2026-09-14T00:29:25.403418+00:00",
+    "https://www.phoronix.com/news/GNU-Coreutils-9.12": "2026-09-15T00:58:03.779863+00:00",
     "https://www.phoronix.com/news/GTK-4.24-Released": "2026-09-13T00:26:06.323761+00:00",
     "https://www.phoronix.com/news/Gitte-0.10-Released": "2026-09-12T00:42:36.175668+00:00",
     "https://www.phoronix.com/news/Intel-One-Mono-Saved": "2026-09-13T00:26:06.323761+00:00",
@@ -328,18 +579,23 @@
     "https://www.phoronix.com/news/Slackware-16-Alpha": "2026-09-06T12:13:08.951233+00:00",
     "https://www.phoronix.com/news/Steam-Beta-9-September-2026": "2026-09-10T00:38:49.074531+00:00",
     "https://www.phoronix.com/news/Ubuntu-26.10-amd64v3-Daily": "2026-09-08T00:43:47.238508+00:00",
+    "https://www.phoronix.com/news/Valve-Steam-Frame-1059": "2026-09-15T00:58:03.779863+00:00",
     "https://www.phoronix.com/news/Void-Linux-AI-Policy-Orphan": "2026-09-13T00:26:06.323761+00:00",
     "https://www.phoronix.com/review/chuwi-unibook-wildcat-lake": "2026-09-09T09:28:28.702623+00:00",
     "https://www.reddit.com/r/embedded/t3_1wfbok7": "2026-09-14T00:29:25.403418+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wgh1sr": "2026-09-15T00:58:03.779863+00:00",
     "https://www.redhat.com/en/blog/5-reasons-why-your-lightwell-strategy-needs-more-just-patches": "2026-09-12T00:42:36.175668+00:00",
+    "https://www.redhat.com/en/blog/autorag-advances-red-hat-openshift-ai-35": "2026-09-15T00:58:03.779863+00:00",
     "https://www.redhat.com/en/blog/build-compliance-assistant-autorag-and-red-hat-openshift-ai": "2026-09-11T00:35:59.502530+00:00",
     "https://www.redhat.com/en/blog/closing-aiops-loop-splunk-observability-cloud-and-red-hat-ansible-automation-platform": "2026-09-12T00:42:36.175668+00:00",
     "https://www.redhat.com/en/blog/friday-five-september-11-2026-red-hat": "2026-09-12T00:42:36.175668+00:00",
     "https://www.redhat.com/en/blog/insights-client-updates-rhel-package-management": "2026-09-11T00:35:59.502530+00:00",
     "https://www.redhat.com/en/blog/introducing-external-secrets-management-console-plugin": "2026-09-08T00:43:47.238508+00:00",
     "https://www.redhat.com/en/blog/lightwell-reality-check": "2026-09-10T00:38:49.074531+00:00",
+    "https://www.redhat.com/en/blog/modernizing-microsoft-sql-server-choosing-right-path-red-hat": "2026-09-15T00:58:03.779863+00:00",
     "https://www.redhat.com/en/blog/red-hat-ai-35-scaling-and-governing-ai-agents-production": "2026-09-10T00:38:49.074531+00:00",
     "https://www.redhat.com/en/blog/red-hat-named-leader-2026-gartnerr-magic-quadranttm-container-management-fourth-consecutive-year": "2026-09-09T00:41:13.818850+00:00",
+    "https://www.redhat.com/en/blog/red-hat-named-leader-idc-marketscape-worldwide-private-and-hybrid-cloud-management-automation": "2026-09-15T00:58:03.779863+00:00",
     "https://www.redhat.com/en/blog/red-hat-sponsors-openclaw-foundation-advance-open-future-production-ai-agents": "2026-09-10T00:38:49.074531+00:00",
     "oai:arXiv.org:2607.13604v2": "2026-09-10T00:38:49.074531+00:00",
     "oai:arXiv.org:2609.04238v1": "2026-09-08T00:43:47.238508+00:00",
@@ -351,6 +607,8 @@
     "oai:arXiv.org:2609.05960v1": "2026-09-09T09:28:28.702623+00:00",
     "oai:arXiv.org:2609.05982v1": "2026-09-09T09:28:28.702623+00:00",
     "oai:arXiv.org:2609.06172v1": "2026-09-09T09:28:28.702623+00:00",
-    "oai:arXiv.org:2609.11152v1": "2026-09-12T00:42:36.175668+00:00"
+    "oai:arXiv.org:2609.09344v1": "2026-09-11T00:35:59.502530+00:00",
+    "oai:arXiv.org:2609.11152v1": "2026-09-12T00:42:36.175668+00:00",
+    "oai:arXiv.org:2609.11294v1": "2026-09-12T00:42:36.175668+00:00"
   }
 }
