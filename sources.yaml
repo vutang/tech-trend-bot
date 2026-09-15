@@ -166,6 +166,37 @@ sources:
     url: https://ocudu.org/category/blog/feed/
     category: ran
 
+  # Bổ sung RAN — kiểm tra trực tiếp bằng feedparser ngày 2026-09-15:
+  # HTTP 200, có ID/timestamp/summary, không lỗi parse.
+
+  # Telecoms Infrastructure: small cells, DAS, antenna và triển khai mạng.
+  # Cùng hệ 3G4G nhưng blog riêng; có thể trùng chủ đề với nguồn đang có.
+  # Atom cung cấp đầy đủ text; snapshot có 25 entry, mới nhất 2026-09-15.
+  - name: Telecoms Infrastructure Blog
+    url: https://www.telecomsinfrastructure.com/feeds/posts/default
+    category: ran
+
+  # Ettus Research: SDR/USRP và triển khai hệ thống vô tuyến.
+  # Ra bài thưa, có cả giới thiệu sản phẩm và radar ngoài cellular;
+  # excerpt ~300–450 ký tự. Snapshot: 10 entry, mới nhất 2026-09-08.
+  - name: Ettus Research Blog
+    url: https://www.ettus.com/feed/
+    category: ran
+
+  # Nick vs Networking — chỉ mục Mobile Networks: lab small cells,
+  # RNC và giao thức di động. Có cả core (PFCP/GTP/Diameter), mạng cũ
+  # và opinion; không chỉ 5G RAN. Snapshot: 10 entry, mới nhất 2026-08-09.
+  - name: Nick vs Networking (Mobile Networks)
+    url: https://nickvsnetworking.com/category/plmn/feed/
+    category: ran
+
+  # Osmocom: stack cellular nguồn mở, OsmoTRX/BTS/PCU/BSC và release notes.
+  # Chủ yếu mạng thế hệ cũ, có tin bảo trì; Atom có đầy đủ text dù trang
+  # HTML đôi khi có challenge. Snapshot: 10 entry, mới nhất 2026-09-07.
+  - name: Osmocom News
+    url: https://osmocom.org/news.atom
+    category: ran
+
   # arXiv cs.AR (Hardware Architecture): paper về kiến trúc máy tính,
   # accelerator, hiệu năng phần cứng — sát với hướng bạn quan tâm.
   - name: arXiv cs.AR (Computer Architecture)
@@ -189,6 +220,35 @@ sources:
   # RSS đã kiểm tra 2026-09-14: HTTP 200, 10 entry; mới nhất 2026-09-09.
   - name: SIGARCH Blog
     url: https://www.sigarch.org/feed/
+    category: research
+
+  # Bổ sung research — kiểm tra trực tiếp bằng feedparser ngày 2026-09-15:
+  # HTTP 200, có ID/timestamp/summary. Các feed arXiv có nhiều bài mỗi đợt;
+  # MAX_PER_SOURCE=5 chỉ lấy một phần, bài đăng chéo cùng ID được loại trùng.
+
+  # arXiv cs.DC: distributed/parallel/cluster computing, GPU và HPC.
+  # Phạm vi rộng, có cả blockchain/federated learning nên cần lọc relevance.
+  - name: arXiv cs.DC (Distributed and Parallel Computing)
+    url: https://rss.arxiv.org/rss/cs.DC
+    category: research
+
+  # arXiv cs.PF: đo/đánh giá hiệu năng, scheduling, queueing và mô phỏng.
+  # Bổ sung cho cs.AR/cs.OS, gồm benchmark trên thiết bị và hệ thống mạng.
+  - name: arXiv cs.PF (Performance)
+    url: https://rss.arxiv.org/rss/cs.PF
+    category: research
+
+  # arXiv eess.SP: signal processing, channel estimation, MIMO/beamforming.
+  # Có cả xử lý tín hiệu ngoài viễn thông; paper giữ ở research dù liên quan RAN.
+  - name: arXiv eess.SP (Signal Processing)
+    url: https://rss.arxiv.org/rss/eess.SP
+    category: research
+
+  # ACM SIGOPS: nghiên cứu OS/distributed systems và phương pháp đánh giá.
+  # Feed theo category blog; có opinion và AI-for-systems, ra bài thưa.
+  # Snapshot 2026-09-15: 4 entry, mới nhất 2026-08-04; excerpt ~400 ký tự.
+  - name: ACM SIGOPS Blog
+    url: https://www.sigops.org/category/blog/feed/
     category: research
 
   # CHỜ ĐÁNH GIÁ: Stefan Hajnoczi — QEMU, virtio, I/O và FPGA firmware.
