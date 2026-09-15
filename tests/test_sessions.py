@@ -174,7 +174,7 @@ class WorkflowTests(unittest.TestCase):
 
     def test_schedule_dispatch_concurrency_and_checkout(self):
         w = self.workflow
-        self.assertEqual([s["cron"] for s in w["on"]["schedule"]], ["47 22 * * *", "47 10 * * *"])
+        self.assertEqual([s["cron"] for s in w["on"]["schedule"]], ["47 22 * * *", "47 08 * * *"])
         choice = w["on"]["workflow_dispatch"]["inputs"]["session"]
         self.assertEqual(choice["type"], "choice")
         self.assertEqual(choice["options"], ["morning", "afternoon"])
@@ -212,7 +212,7 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(step["env"]["EVENT_SCHEDULE"], "${{ github.event.schedule }}")
         self.assertNotIn("date ", step["run"])
         cases = [("schedule", "47 22 * * *", "afternoon", "morning"),
-                 ("schedule", "47 10 * * *", "morning", "afternoon"),
+                 ("schedule", "47 08 * * *", "morning", "afternoon"),
                  ("workflow_dispatch", "", "morning", "morning"),
                  ("workflow_dispatch", "", "afternoon", "afternoon"),
                  ("schedule", "unknown", "morning", None),

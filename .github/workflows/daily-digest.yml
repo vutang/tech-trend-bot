@@ -44,7 +44,7 @@ jobs:
           if [[ "$EVENT_NAME" == "schedule" ]]; then
             case "$EVENT_SCHEDULE" in
               '47 22 * * *') session=morning ;;
-              '47 10 * * *') session=afternoon ;;
+              '47 08 * * *') session=afternoon ;;
               *) echo "Unknown schedule: $EVENT_SCHEDULE" >&2; exit 1 ;;
             esac
           else
