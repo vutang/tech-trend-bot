@@ -26,6 +26,8 @@ Thiết kế:
 import hashlib
 import json
 import os
+import re
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -37,7 +39,7 @@ SUMMARY_MAX_LEN = 500
 # tăng khi chỉ đổi giá trị (model mới, prompt mới) vì đã có `versions` lo
 # việc đó. analyze.py dùng trường này để biết cách đọc bản ghi cũ an toàn
 # khi schema thay đổi về sau (ví dụ thêm "extraction" ở Phase 2).
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 
 
 def _hash8(text: str) -> str:
@@ -50,6 +52,38 @@ def _hash8(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()[:8]
 
 
+def code_version() -> dict:
+    """Verify checkout SHA; a dirty local tree has a base, not an exact SHA.
+
+    Ignore operational state/log changes when checking code cleanliness.
+    GITHUB_SHA is event metadata, never evidence of the checked-out code.
+    """
+    result = {"git_sha": None, "git_sha_source": "unknown"}
+    try:
+        root = Path(__file__).parent
+        head = subprocess.check_output(
+            ["git", "rev-parse", "HEAD"], cwd=root, text=True,
+            stderr=subprocess.DEVNULL, timeout=5).strip()
+        if not re.fullmatch(r"[0-9a-f]{40,64}", head):
+            return result
+        dirty = bool(subprocess.check_output(
+            ["git", "status", "--porcelain", "--untracked-files=normal", "--",
+             "*.py", "requirements.txt", "sources.yaml", ".github/workflows/daily-digest.yml"],
+            cwd=root, text=True, stderr=subprocess.DEVNULL, timeout=5).strip())
+        result.update(git_head=head, git_dirty=dirty)
+        configured = os.environ.get("BOT_CODE_SHA")
+        if dirty:
+            result["git_sha_source"] = "dirty_checkout"
+        elif configured and configured != head:
+            result["git_sha_source"] = "BOT_CODE_SHA_mismatch"
+        else:
+            result.update(git_sha=head,
+                          git_sha_source="BOT_CODE_SHA" if configured else "local_HEAD")
+    except (OSError, subprocess.SubprocessError):
+        pass
+    return result
+
+
 def pipeline_versions() -> dict:
     """Thu thập định danh phiên bản của mọi thành phần ảnh hưởng tới kết quả.
 
@@ -57,7 +91,7 @@ def pipeline_versions() -> dict:
     thay đổi cũng không biết do đổi prompt, đổi model, thêm nguồn hay
     đổi quota.
     """
-    versions = {"git_sha": os.environ.get("GITHUB_SHA", "")[:8]}
+    versions = code_version()
     try:
         import summarize as s
         versions.update({
@@ -74,13 +108,14 @@ def pipeline_versions() -> dict:
 
 
 def log_run(candidates: list[dict], delivered: list[dict],
-            min_relevance: int) -> None:
+            min_relevance: int, *, run_id: str, session: str,
+            cap: int, quotas) -> None:
     """Ghi một dòng cho mỗi candidate của lần chạy này.
 
     status:
       delivered — đã gửi, kèm digest_rank = vị trí trong digest (1 = đầu)
       rejected  — điểm dưới ngưỡng, loại hẳn
-      pending   — đủ điểm nhưng chưa lọt top, sẽ xét lại ngày sau
+      pending   — đủ điểm nhưng chưa lọt top, sẽ xét lại phiên sau
 
     LƯU Ý cho bên phân tích: một bài ở trạng thái pending sẽ được ghi LẠI
     ở mỗi lần chạy cho tới khi được gửi hoặc hết hạn. Ngoài ra nếu gửi
@@ -91,7 +126,6 @@ def log_run(candidates: list[dict], delivered: list[dict],
     try:
         LOG_DIR.mkdir(exist_ok=True)
         now = datetime.now(timezone.utc)
-        run_id = now.isoformat()
         log_file = LOG_DIR / f"{now:%Y-%m}.jsonl"
         versions = pipeline_versions()
 
@@ -113,6 +147,10 @@ def log_run(candidates: list[dict], delivered: list[dict],
             record = {
                 "schema_version": SCHEMA_VERSION,
                 "run_id": run_id,
+                "logged_at": now.isoformat(),
+                "session": session,
+                "cap": cap,
+                "quotas": dict(quotas),
                 "article_id": article_id,
                 "title": (e.get("title") or "")[:TITLE_MAX_LEN],
                 "url": e.get("link", ""),
@@ -148,7 +186,8 @@ def log_run(candidates: list[dict], delivered: list[dict],
         print(f"[log] Không ghi được log (bỏ qua, không ảnh hưởng digest): {exc!r}")
 
 
-def log_expired(entries: list[dict]) -> None:
+def log_expired(entries: list[dict], *, run_id: str, session: str,
+                cap: int, quotas) -> None:
     """Ghi log riêng cho bài pending vừa hết hạn (status="expired").
 
     TÁCH RIÊNG khỏi log_run()/status="rejected" có chủ đích: hết hạn vì
@@ -162,7 +201,6 @@ def log_expired(entries: list[dict]) -> None:
     try:
         LOG_DIR.mkdir(exist_ok=True)
         now = datetime.now(timezone.utc)
-        run_id = now.isoformat()
         log_file = LOG_DIR / f"{now:%Y-%m}.jsonl"
         versions = pipeline_versions()
 
@@ -174,6 +212,10 @@ def log_expired(entries: list[dict]) -> None:
             record = {
                 "schema_version": SCHEMA_VERSION,
                 "run_id": run_id,
+                "logged_at": now.isoformat(),
+                "session": session,
+                "cap": cap,
+                "quotas": dict(quotas),
                 "article_id": article_id,
                 "title": (e.get("title") or "")[:TITLE_MAX_LEN],
                 "url": e.get("link", ""),

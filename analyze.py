@@ -26,7 +26,7 @@ Phân tích log digest — CHẠY THỦ CÔNG, không nằm trong workflow hằn
 
      delivery = delivered / eligible
 
-   Bị bóp méo bởi MIN_PER_CATEGORY và MAX_DAILY_ITEMS. Ví dụ category `ran`
+   Bị bóp méo bởi quota và cap của phiên. Ví dụ category `ran`
    chỉ có quota tối thiểu 2 slot: dù RCR Wireless ra 10 bài tốt, phần lớn
    vẫn không được gửi — thấp không có nghĩa là nguồn kém. Dùng chỉ số này
    để gán "quality" rồi cho ảnh hưởng ngược lên ranking sẽ tạo vòng lặp
@@ -41,6 +41,7 @@ Phân tích log digest — CHẠY THỦ CÔNG, không nằm trong workflow hằn
 =============================================================================
 """
 import json
+import re
 import sys
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -60,7 +61,11 @@ def load_records(month: str | None = None) -> list[dict]:
         print(f"Chưa có {LOG_DIR}/ — bot chưa chạy lần nào kể từ khi bật log.")
         return []
 
-    files = sorted(LOG_DIR.glob(f"{month}.jsonl" if month else "*.jsonl"))
+    if month is not None and not re.fullmatch(r"\d{4}-(0[1-9]|1[0-2])", month):
+        raise ValueError("Month must be YYYY-MM")
+    files = sorted(f for f in LOG_DIR.glob("*.jsonl")
+                   if re.fullmatch(r"\d{4}-(0[1-9]|1[0-2])\.jsonl", f.name)
+                   and (month is None or f.stem == month))
     if not files:
         print(f"Không tìm thấy file log nào khớp.")
         return []
@@ -79,6 +84,44 @@ def load_records(month: str | None = None) -> list[dict]:
     return records
 
 
+def record_time(record: dict) -> str:
+    # Schema 1/2 used an ISO timestamp as run_id; schema 3 adds a UUID suffix and a separate timestamp.
+    return record.get("logged_at") or record.get("run_id", "")
+
+
+def session_label(record: dict) -> str:
+    session = record.get("session")
+    return session if session in ("morning", "afternoon") else "legacy/unknown"
+
+
+def session_stats(records: list[dict]) -> dict:
+    """Run counts use raw events; article outcomes use the latest event.
+
+    Discovery is the first observation in the input window, which may not
+    include the actual first fetch when reporting only one month.
+    """
+    stats = {s: {"runs": set(), "discovered": 0, "delivered": 0,
+                 "pending": 0, "rejected": 0, "expired": 0}
+             for s in ("morning", "afternoon", "legacy/unknown")}
+    first, latest = {}, {}
+    for r in sorted(records, key=record_time):
+        session = session_label(r)
+        if r.get("run_id"):
+            stats[session]["runs"].add(r["run_id"])
+        aid = r.get("article_id")
+        if aid:
+            first.setdefault(aid, r)
+            latest[aid] = r
+    for r in first.values():
+        stats[session_label(r)]["discovered"] += 1
+    for r in latest.values():
+        if r.get("status") in ("delivered", "pending", "rejected", "expired"):
+            stats[session_label(r)][r["status"]] += 1
+    for values in stats.values():
+        values["runs"] = len(values["runs"])
+    return stats
+
+
 def dedupe(records: list[dict]) -> list[dict]:
     """Giữ bản ghi CUỐI CÙNG của mỗi article_id.
 
@@ -87,7 +130,7 @@ def dedupe(records: list[dict]) -> list[dict]:
     Giữ bản cuối vì đó là kết cục thật của bài đó.
     """
     latest: dict[str, dict] = {}
-    for r in sorted(records, key=lambda x: x.get("run_id", "")):
+    for r in sorted(records, key=record_time):
         aid = r.get("article_id")
         if aid:
             latest[aid] = r
@@ -124,10 +167,10 @@ def _source_stats(rs: list[dict]) -> dict:
 def report(records: list[dict]) -> None:
     if not records:
         return
+    sessions = session_stats(records)
+    runs = {r["run_id"] for r in records if r.get("run_id")}
+    days = sorted({record_time(r)[:10] for r in records if record_time(r)})
     records = dedupe(records)
-
-    runs = {r.get("run_id") for r in records}
-    days = sorted({r["run_id"][:10] for r in records if r.get("run_id")})
     status_count = defaultdict(int)
     for r in records:
         status_count[r["status"]] += 1
@@ -138,7 +181,19 @@ def report(records: list[dict]) -> None:
     print(f"Bài (đã khử trùng lặp): {len(records)}"
           f" | đã gửi {status_count['delivered']}"
           f" | tồn kho {status_count['pending']}"
-          f" | loại {status_count['rejected']}")
+          f" | loại {status_count['rejected']}"
+          f" | hết hạn {status_count['expired']}")
+
+    print("\nTHEO PHIÊN — run từ log gốc; kết cục mỗi bài chỉ tính một lần")
+    for session, counts in sessions.items():
+        print(f"  {session}: runs={counts['runs']} "
+              f"first_observed={counts['discovered']} delivered={counts['delivered']} "
+              f"pending={counts['pending']} rejected={counts['rejected']} "
+              f"expired={counts['expired']}")
+    print("Số run chỉ gồm run có log bài viết; chưa có run-level record nên không")
+    print("đếm được run rỗng, run gửi lỗi hoặc mất log. Log cũ: legacy/unknown.")
+    print("Schema cũ có thể dùng ID riêng cho expired; không thể gộp chắc chắn các run đó.")
+    print("first_observed là phiên ghi nhận đầu tiên trong kỳ; delivered là phiên gửi.")
 
     # ---- Theo nguồn, NHÓM THEO CATEGORY ----
     by_cat_source = defaultdict(lambda: defaultdict(list))
@@ -180,7 +235,7 @@ def report(records: list[dict]) -> None:
             warnings.append(
                 f"{src}: {s['rejected']}/{s['fetched']} bài bị loại thẳng "
                 f"({s['rejected']/s['fetched']*100:.0f}%) — nhiễu cao")
-        last = max(r["run_id"] for r in rs if r.get("run_id"))
+        last = max(record_time(r) for r in rs if record_time(r))
         age = (now - datetime.fromisoformat(last)).days
         if age >= DEAD_SOURCE_DAYS:
             warnings.append(f"{src}: không có bài nào {age} ngày — kiểm tra feed")

@@ -12,24 +12,13 @@ from datetime import datetime, timedelta, timezone
 import requests
 
 from state import AGE_PENALTY_PER_DAY
+from digest_config import get_config
 
 TELEGRAM_API = "https://api.telegram.org/bot{token}/sendMessage"
 MIN_RELEVANCE = 3  # PHẢI khớp MIN_RELEVANCE_PREFILTER bên summarize.py — bài
                     # dưới ngưỡng đó không có summary_vi (bị Bước 1 loại sớm,
                     # xem summarize.py), để lọt qua đây sẽ crash khi hiển thị
-MAX_DAILY_ITEMS = 10  # tổng số tin tối đa mỗi ngày
-TELEGRAM_MAX_LEN = 3900  # để dư so với giới hạn cứng 4096 ký tự của Telegram
-
-# Quota TỐI THIỂU cho từng category, đảm bảo không bị category nhiều nguồn
-# hơn (hiện tại "embedded" có 10/15 nguồn) lấn át hoàn toàn trong top N.
-# Category không có trong dict này (vd "embedded") không bị giới hạn — vẫn
-# cạnh tranh bình thường ở phần "lấp đầy" bên dưới, thường sẽ chiếm phần lớn
-# slot còn lại đúng theo tỷ lệ nguồn tự nhiên.
-MIN_PER_CATEGORY = {
-    "ran": 2,
-    "research": 2,
-    "virt": 2,
-}
+TELEGRAM_MAX_LEN = 3900  # leave room below Telegram's 4096 limit
 
 CATEGORY_LABEL = {
     "general": "General Tech",
@@ -50,57 +39,51 @@ def _rank_score(e: dict) -> float:
     return e.get("relevance", 3) - AGE_PENALTY_PER_DAY * e.get("carry_days", 0)
 
 
-def _select_top_entries(filtered: list[dict]) -> list[dict]:
-    """Chọn tối đa MAX_DAILY_ITEMS bài, đảm bảo quota tối thiểu mỗi category.
-
-    Bước 1: với mỗi category có quota trong MIN_PER_CATEGORY, lấy tối đa
-    `min_count` bài điểm cao nhất của riêng category đó — đây là các slot
-    "được bảo đảm", không bị category khác giành mất.
-    Bước 2: lấp đầy các slot còn lại bằng bài điểm cao nhất TOÀN CỤC
-    (không phân biệt category) trong số bài chưa được chọn.
-    """
-    filtered.sort(key=_rank_score, reverse=True)
-
+def _select_top_entries(filtered: list[dict], *, session: str = "morning",
+                        cap: int | None = None, quotas=None) -> list[dict]:
+    """Reserve category minima, then fill remaining slots by global ranking."""
+    config = get_config(session, cap=cap, quotas=quotas)
+    ranked = sorted(filtered, key=_rank_score, reverse=True)
     selected: list[dict] = []
     selected_links: set[str] = set()
 
-    for category, min_count in MIN_PER_CATEGORY.items():
-        cat_entries = [e for e in filtered if e["category"] == category]
-        for e in cat_entries[:min_count]:
-            if e["link"] not in selected_links:
+    for category, min_count in config.quotas.items():
+        count = 0
+        for e in ranked:
+            if count >= min_count:
+                break
+            if e["category"] == category and e["link"] not in selected_links:
                 selected.append(e)
                 selected_links.add(e["link"])
+                count += 1
 
-    for e in filtered:
-        if len(selected) >= MAX_DAILY_ITEMS:
+    for e in ranked:
+        if len(selected) >= config.cap:
             break
         if e["link"] not in selected_links:
             selected.append(e)
             selected_links.add(e["link"])
 
-    selected.sort(key=_rank_score, reverse=True)
-    return selected[:MAX_DAILY_ITEMS]
+    return sorted(selected, key=_rank_score, reverse=True)
 
 
-def select_entries(entries: list[dict]) -> list[dict]:
-    """Lọc theo MIN_RELEVANCE rồi chọn ra danh sách bài sẽ gửi.
-
-    Tách riêng để main.py biết CHÍNH XÁC bài nào được gửi, phục vụ việc
-    cập nhật state (delivered vs pending).
-    """
+def select_entries(entries: list[dict], *, session: str = "morning",
+                   cap: int | None = None, quotas=None) -> list[dict]:
+    """Only relevance-qualified articles compete, including cached pending."""
+    config = get_config(session, cap=cap, quotas=quotas)
     filtered = [e for e in entries if e.get("relevance", 3) >= MIN_RELEVANCE]
-    if not filtered:
-        return []
-    return _select_top_entries(filtered)
+    return _select_top_entries(filtered, session=config.session,
+                               cap=config.cap, quotas=config.quotas)
 
 
-def _build_blocks(entries: list[dict]) -> list[str]:
+def _build_blocks(entries: list[dict], session: str = "morning") -> list[str]:
     """Xây digest dưới dạng list các KHỐI KHÔNG ĐƯỢC TÁCH RỜI khi chia tin
     nhắn Telegram. Mỗi khối là: tiêu đề chung (đứng riêng), hoặc category
     header gộp chung với entry đầu tiên của nó (để header không bao giờ
     đứng bơ vơ cuối 1 tin nhắn), hoặc từng entry còn lại (title+summary+link
     luôn đi cùng nhau, không bao giờ bị cắt giữa chừng).
     """
+    get_config(session)
     top = entries
     if not top:
         return ["No noteworthy news today."]
@@ -113,7 +96,7 @@ def _build_blocks(entries: list[dict]) -> list[str]:
     ordered_categories += [c for c in grouped if c not in CATEGORY_ORDER]
 
     timestamp = datetime.now(timezone(timedelta(hours=7))).strftime("%Y-%m-%d %H:%M GMT+7")
-    blocks = [f"Tech trend digest today — {timestamp}"]
+    blocks = [f"Tech trend digest — {session.title()} — {timestamp}"]
     for category in ordered_categories:
         label = CATEGORY_LABEL.get(category, category)
         for i, e in enumerate(grouped[category]):
@@ -126,19 +109,22 @@ def _build_blocks(entries: list[dict]) -> list[str]:
     return blocks
 
 
-def build_digest(entries: list[dict]) -> str:
+def build_digest(entries: list[dict], *, session: str = "morning",
+                 cap: int | None = None, quotas=None) -> str:
     """Xem trước digest dạng 1 chuỗi từ danh sách bài THÔ (tự chọn bên trong),
     bỏ qua giới hạn độ dài Telegram. Dùng để test/preview.
     """
-    return "\n".join(_build_blocks(select_entries(entries)))
+    return "\n".join(_build_blocks(
+        select_entries(entries, session=session, cap=cap, quotas=quotas), session))
 
 
-def chunk_digest(entries: list[dict], limit: int = TELEGRAM_MAX_LEN) -> list[str]:
+def chunk_digest(entries: list[dict], limit: int = TELEGRAM_MAX_LEN, *,
+                 session: str = "morning") -> list[str]:
     """Chia digest thành nhiều tin nhắn Telegram theo RANH GIỚI KHỐI — không
     bao giờ cắt rời 1 khối (category header + entry đầu, hoặc từng entry
     riêng) ra làm hai tin nhắn khác nhau như cách chia theo dòng cũ.
     """
-    blocks = _build_blocks(entries)
+    blocks = _build_blocks(entries, session)
     if len(blocks) == 1:
         return blocks  # trường hợp "No noteworthy news today."
 
@@ -160,10 +146,13 @@ def chunk_digest(entries: list[dict], limit: int = TELEGRAM_MAX_LEN) -> list[str
     return chunks
 
 
-def send_digest(entries: list[dict]) -> list[dict]:
+def send_digest(entries: list[dict], *, session: str = "morning",
+                cap: int | None = None, quotas=None) -> list[dict]:
     """Chọn bài, gửi Telegram, TRẢ VỀ danh sách bài đã thực sự gửi."""
-    selected = select_entries(entries)
-    chunks = chunk_digest(selected)
+    selected = select_entries(entries, session=session, cap=cap, quotas=quotas)
+    if not selected:
+        return []
+    chunks = chunk_digest(selected, session=session)
     token = os.environ["TELEGRAM_BOT_TOKEN"]
     chat_id = os.environ["TELEGRAM_CHAT_ID"]
 

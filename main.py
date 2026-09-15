@@ -1,8 +1,13 @@
 """
 Điểm chạy chính: đọc state -> thu thập -> tóm tắt -> gộp bài tồn kho
 -> gửi Telegram -> ghi lại state.
-Được GitHub Actions gọi mỗi ngày, xem .github/workflows/daily-digest.yml.
+Được GitHub Actions gọi hai phiên mỗi ngày, xem .github/workflows/daily-digest.yml.
 """
+import argparse
+from datetime import datetime, timezone
+from uuid import uuid4
+
+from digest_config import SESSION_CONFIGS, get_config
 from fetch import fetch_new_entries
 from summarize import summarize_entries
 from send_telegram import send_digest, MIN_RELEVANCE
@@ -16,7 +21,19 @@ from state import (
 )
 
 
-def main() -> None:
+def parse_args(argv=None):
+    parser = argparse.ArgumentParser(description="Send a technology digest session")
+    parser.add_argument("--session", choices=tuple(SESSION_CONFIGS), default="morning")
+    return parser.parse_args(argv)
+
+
+def main(argv=None) -> None:
+    config = get_config(parse_args(argv).session)  # before fetch or AI
+    context = {"run_id": f"{datetime.now(timezone.utc).isoformat()}-{uuid4().hex}",
+               "session": config.session, "cap": config.cap,
+               "quotas": config.quotas}
+    print(f"[run] {context['run_id']} session={config.session} cap={config.cap} "
+          f"quotas={dict(config.quotas)}")
     state = load_state()
 
     # Bài mới: bỏ qua mọi id bot đã biết (đã gửi / đang tồn kho / đã loại)
@@ -32,15 +49,9 @@ def main() -> None:
     summarized = summarize_entries(new_entries) if new_entries else []
     candidates = summarized + carried
 
-    if not candidates:
-        print("Không có bài nào để gửi.")
-        expired = save_state(state)  # vẫn dọn bản ghi hết hạn
-        if expired:
-            log_expired(expired)
-        return
-
     try:
-        delivered = send_digest(candidates)
+        delivered = send_digest(candidates, session=config.session,
+                                cap=config.cap, quotas=config.quotas)
     except Exception:
         # Gửi fail giữa chừng (vd chunk 2/3 lỗi mạng) — CỐ TÌNH không gọi
         # update_state/save_state. State giữ nguyên như lúc load_state(),
@@ -57,12 +68,12 @@ def main() -> None:
 
     # Ghi log observability. Hàm này tự nuốt mọi lỗi nên không thể làm
     # hỏng digest; xem docstring digest_log.py.
-    log_run(candidates, delivered, MIN_RELEVANCE)
+    log_run(candidates, delivered, MIN_RELEVANCE, **context)
 
     update_state(state, candidates, delivered, MIN_RELEVANCE)
     expired = save_state(state)
     if expired:
-        log_expired(expired)
+        log_expired(expired, **context)
 
 
 if __name__ == "__main__":
