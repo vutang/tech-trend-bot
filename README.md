@@ -81,11 +81,11 @@ Workflow `Daily tech trend digest` trong
 
 | Phiên | Giờ Việt Nam (UTC+7) | Cron UTC | Cap | Quota ran / research / virt |
 |---|---|---|---:|---|
-| morning | 05:47 | `47 22 * * *` | 10 | 2 / 2 / 2 |
-| afternoon | 15:47 | `47 08 * * *` | 5 | 1 / 1 / 1 |
+| morning | 04:47 | `47 21 * * *` | 10 | 2 / 2 / 2 |
+| afternoon | 14:47 | `47 07 * * *` | 5 | 1 / 1 / 1 |
 
 - Scheduled run lấy phiên từ `github.event.schedule`, nên cron trễ vẫn chạy
-  đúng phiên. Mốc 22:47 UTC là 05:47 ngày hôm sau tại Việt Nam.
+  đúng phiên. Mốc 21:47 UTC là 04:47 ngày hôm sau tại Việt Nam.
 - `workflow_dispatch` có input choice `session`, mặc định `morning`.
   Có thể chọn nhánh tính năng trong **Run workflow → Use workflow from** để
   test trước khi merge. Workflow checkout nhánh đã chọn và commit/push

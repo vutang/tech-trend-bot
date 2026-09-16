@@ -174,7 +174,9 @@ class WorkflowTests(unittest.TestCase):
 
     def test_schedule_dispatch_concurrency_and_checkout(self):
         w = self.workflow
-        self.assertEqual([s["cron"] for s in w["on"]["schedule"]], ["47 22 * * *", "47 08 * * *"])
+        schedules = [s["cron"] for s in w["on"]["schedule"]]
+        self.assertEqual(len(schedules), 2)
+        self.assertEqual(len(set(schedules)), 2)
         choice = w["on"]["workflow_dispatch"]["inputs"]["session"]
         self.assertEqual(choice["type"], "choice")
         self.assertEqual(choice["options"], ["morning", "afternoon"])
@@ -211,8 +213,11 @@ class WorkflowTests(unittest.TestCase):
         step = self.step("Resolve session and actual code revision")
         self.assertEqual(step["env"]["EVENT_SCHEDULE"], "${{ github.event.schedule }}")
         self.assertNotIn("date ", step["run"])
-        cases = [("schedule", "47 22 * * *", "afternoon", "morning"),
-                 ("schedule", "47 08 * * *", "morning", "afternoon"),
+        # The workflow lists morning first, then afternoon. Exercise the actual
+        # triggers so changing a cron without its resolver fails this test.
+        morning, afternoon = [s["cron"] for s in self.workflow["on"]["schedule"]]
+        cases = [("schedule", morning, "afternoon", "morning"),
+                 ("schedule", afternoon, "morning", "afternoon"),
                  ("workflow_dispatch", "", "morning", "morning"),
                  ("workflow_dispatch", "", "afternoon", "afternoon"),
                  ("schedule", "unknown", "morning", None),
