@@ -70,6 +70,7 @@
     "https://www.cnx-software.com/?p=177077": "2026-09-14T00:29:25.403418+00:00",
     "https://www.cnx-software.com/?p=177103": "2026-09-15T00:58:03.779863+00:00",
     "https://www.cnx-software.com/?p=177116": "2026-09-15T13:53:30.223364+00:00",
+    "https://www.cnx-software.com/?p=177225": "2026-09-17T12:48:54.388673+00:00",
     "https://www.ettus.com/?p=11532": "2026-09-16T02:41:57.982686+00:00",
     "https://www.phoronix.com/news/AI-To-Faster-Linux-Kernel-Comp": "2026-09-09T09:28:28.702623+00:00",
     "https://www.phoronix.com/news/AMD-Enhanced-SMT-Protection": "2026-09-15T00:58:03.779863+00:00",
@@ -230,6 +231,10 @@
     "oai:arXiv.org:2609.16742v1": "2026-09-16T23:52:22.553694+00:00",
     "oai:arXiv.org:2609.16839v1": "2026-09-16T12:52:31.242072+00:00",
     "oai:arXiv.org:2609.17110v1": "2026-09-16T23:52:22.553694+00:00",
+    "oai:arXiv.org:2609.17949v1": "2026-09-17T12:48:54.388673+00:00",
+    "oai:arXiv.org:2609.18301v1": "2026-09-17T12:48:54.388673+00:00",
+    "oai:arXiv.org:2609.18499v1": "2026-09-17T12:48:54.388673+00:00",
+    "tag:blogger.com,1999:blog-1834236085756782640.post-4353150683630815925": "2026-09-17T12:48:54.388673+00:00",
     "tag:blogger.com,1999:blog-7068042310767317158.post-3664437809683684494": "2026-09-15T13:53:30.223364+00:00",
     "tag:github.com,2008:Repository/107505869/v1.16.2": "2026-09-06T12:01:14.796223+00:00",
     "tag:github.com,2008:Repository/107505869/v1.17.0": "2026-09-06T12:01:14.796223+00:00"
@@ -312,6 +317,19 @@
         "title": "[$] Lessons learned as the Debian Project Leader"
       },
       "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "https://lwn.net/Articles/1093434/": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://lwn.net/Articles/1093434/",
+        "link": "https://lwn.net/Articles/1093434/",
+        "relevance": 3,
+        "source": "LWN.net Front Page",
+        "summary": "Inside this week's LWN.net Weekly Edition:\n \n \n Front : Server-data encryption; PostgreSQL scary patches; Faster kernel builds; BPF for blk-iocost; Lessons learned as DPL.\n Briefs : Brief news items from throughout the community. \n Announcements : Newsletters, conferences, security updates, patches, and more.",
+        "summary_vi": "This weekly edition of LWN.net covers topics such as server-data encryption, PostgreSQL security patches, and techniques for faster kernel builds. It also discusses BPF for blk-iocost and leadership lessons from the Debian Project Leader.",
+        "title": "[$] LWN.net Weekly Edition for September 17, 2026"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
     },
     "https://lwn.net/Articles/1093661/": {
       "entry": {
@@ -469,6 +487,32 @@
       },
       "first_seen": "2026-09-16T23:52:22.553694+00:00"
     },
+    "https://rcrwireless.com/?p=434570": {
+      "entry": {
+        "category": "ran",
+        "id": "https://rcrwireless.com/?p=434570",
+        "link": "https://rcrwireless.com/20260917/network-infrastructure/deep-sea-to-low-orbit-telcos-cant-build-fast-enough-telco-diary",
+        "relevance": 3,
+        "source": "RCR Wireless News",
+        "summary": "From the newsletter (September 16; sign-up or follow if you want it sooner): A new traffic cycle is driving a major physical network build. The AI infrastructure story is becoming…",
+        "summary_vi": "The surge in artificial intelligence infrastructure is driving a major physical network buildout spanning subsea cables to low Earth orbit satellites. Telecom operators are racing to keep pace with the massive traffic demand.",
+        "title": "Deep sea to low orbit – telcos can’t build fast enough (Telco Diary)"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "https://rcrwireless.com/?p=434573": {
+      "entry": {
+        "category": "ran",
+        "id": "https://rcrwireless.com/?p=434573",
+        "link": "https://rcrwireless.com/20260917/analyst-angle/when-the-vendor-disappears-what-cambium-collapse-means-for-mdus-analyst-angle",
+        "relevance": 3,
+        "source": "RCR Wireless News",
+        "summary": "Cambium’s collapse shows what vendor risk looks like when it becomes reality: uncertain cloud management, stranded equipment and difficult migration decisions for MDU operators, while forcing MSPs and property owners…",
+        "summary_vi": "The operational collapse of Cambium Networks highlights vendor risk for multi-dwelling unit operators. It presents challenges including uncertain cloud management, stranded hardware, and complex migration decisions.",
+        "title": "When the vendor disappears – what the Cambium collapse means for MDUs (Analyst Angle)"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
     "https://rocm.blogs.amd.com/artificial-intelligence/dflash-on-MI355x/README.html": {
       "entry": {
         "category": "embedded",
@@ -534,6 +578,19 @@
       },
       "first_seen": "2026-09-16T12:52:31.242072+00:00"
     },
+    "https://www.cnx-software.com/?p=177168": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.cnx-software.com/?p=177168",
+        "link": "https://www.cnx-software.com/2026/09/17/enilinx-tickey-esp32-s3-color-e-paper-badge-with-open-firmware/",
+        "relevance": 4,
+        "source": "CNX Software",
+        "summary": "ENIAC (operating as ENILINX) has launched the TICKEY, a 3.7-inch color e-Paper smart badge and desk display built around an ESP32-S3 MCU. The device features Wi-Fi, Bluetooth, and NFC connectivity, allowing users to update the screen from a smartphone without requiring continuous power to hold a static image. The display uses Modos’ color e-paper technology to deliver 48+ native colors, with refresh times as fast as 3 seconds and sunlight readability. Measuring just 3.8mm thick and weighing 45 grams, TICKEY features an aluminum-alloy body and interchangeable faceplates, and supports NFC and QR code-based web profile sharing. The standard version includes 8MB of storage, whereas the Developer Edition offers 128MB for more advanced applications. These features make it suitable for desk reminders, event identification, digital business cards, and interactive maker projects. TICKEY specifications: Wireless MCU –  ESP32-S3 Dual-core Tensilica LX7 microcontroller @ up to 240 MHz Wireless – 2.4 GHz 802.11n [...] \n The post ENILINX TICKEY – An ESP32-S3-based color e-Paper badge with open firmware (Crowdfunding) appeared first on CNX Software - Embedded Systems News .",
+        "summary_vi": "ENIAC has launched a crowdfunding campaign for TICKEY, an ESP32-S3-based color e-Paper smart badge with open firmware. The device features Wi-Fi, Bluetooth, and NFC connectivity to update the display without continuous power.",
+        "title": "ENILINX TICKEY – An ESP32-S3-based color e-Paper badge with open firmware (Crowdfunding)"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
     "https://www.huawei.com/en/news/2026/9/hc-intelligent-world-2035": {
       "entry": {
         "category": "ran",
@@ -559,6 +616,32 @@
         "title": "Open Secure AI Alliance Joins the Linux Foundation to Build a Shared, Open Defense Stack for the AI Era"
       },
       "first_seen": "2026-09-15T00:58:03.779863+00:00"
+    },
+    "https://www.phoronix.com/news/ASUS-Zenbook-Snapdragon-X2-EC": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/ASUS-Zenbook-Snapdragon-X2-EC",
+        "link": "https://www.phoronix.com/news/ASUS-Zenbook-Snapdragon-X2-EC",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "For those hopeful of running Linux well on the ASUS Zenbook A14 or A16 laptops powered by the latest Qualcomm Snapdragon X2 SoC, a new ASUS EC driver has been developed for enhancing the support...",
+        "summary_vi": "A new ASUS EC driver is being developed to enhance Linux kernel support for the ASUS Zenbook A14 and A16 laptops. These devices are powered by Qualcomm's latest Snapdragon X2 SoC.",
+        "title": "New Linux Driver Coming To Improve ASUS Zenbook Snapdragon X2 Support"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "https://www.phoronix.com/news/Intel-NPU-Linux-7.4-CQ-Priority": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Intel-NPU-Linux-7.4-CQ-Priority",
+        "link": "https://www.phoronix.com/news/Intel-NPU-Linux-7.4-CQ-Priority",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "Sent out today was the latest weekly drm-misc-next pull request of new Direct Rendering Manager (DRM) material ready for the upcoming Linux 7.4 merge window...",
+        "summary_vi": "The latest Direct Rendering Manager updates for the upcoming Linux 7.4 merge window introduce a command-queue priority ioctl for the Intel NPU driver. This allows priority control of workloads submitted to the accelerator.",
+        "title": "Intel NPU Linux Driver Adding Command-Queue Priority ioctl For Linux 7.4"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
     },
     "https://www.phoronix.com/news/Linux-7.4-AMD-P-State-Zen-6": {
       "entry": {
@@ -715,45 +798,6 @@
         "title": "Ubuntu 26.10 Set To Deliver Better Performance For Intel Core 3 Wildcat Lake"
       },
       "first_seen": "2026-09-16T02:41:57.982686+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1weycrx": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1weycrx",
-        "link": "https://www.reddit.com/r/embedded/comments/1weycrx/can_i_make_a_sleep_mode_using_only_analog/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "I’m building a small ambient picture frame with a touch sensor and an MP3 player. The idea is simple: when nobody touches it, I want the MP3 player and other parts to be basically OFF to save power. When someone touches the frame, it should wake up, play the audio / activate for a certain amount of time, and then automatically go back to sleep. I don’t really want to use a microcontroller for this. Can this be done with simple analog electronics, like a touch detector + transistor/MOSFET + 555 timer or RC circuit? Basically, I’m trying to replicate: No touch → sleep → touch detected → wake → active for 30–60 sec → sleep again. What would be the simplest way to build this? submitted by /u/Relevant_Pumpkin9190 [link] [comments]",
-        "summary_vi": "A hardware hobbyist explores options for implementing an ultra-low-power sleep state using analog components like MOSFETs, transistors, and 555 timers instead of a dedicated microcontroller. The community offers solutions for sensor-triggered power gating to minimize standby current draw.",
-        "title": "Can I make a “sleep mode” using only analog electronics to save battery life, do microcontroller is a must?"
-      },
-      "first_seen": "2026-09-14T00:29:25.403418+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wf14i3": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wf14i3",
-        "link": "https://www.reddit.com/r/embedded/comments/1wf14i3/i_work_with_stm32_and_currently_use_cubeide/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "Hello mates, I'm currently in my 5th sem of my 4 year engineering degree and i am working with smt32 since the last 6 months. I am using CubeIDE since the beginning but now i am thinking about using VSCode. The reason is that I think I am more comfortable in VSCode as except STM32 i do most of my work there, and it has its own advantages. So what do you think, should i move to VSCode of stay at CubeIDE for stm32 or i should shift to VSCode. submitted by /u/Adept-Print9184 [link] [comments]",
-        "summary_vi": "An engineering student seeks advice on transitioning their STM32 firmware development environment from STM32CubeIDE to VS Code. The discussion covers the configuration of open-source toolchains, debugging extensions, and the productivity benefits of each IDE.",
-        "title": "I work with stm32 and currently use CubeIDE should I shift to VSCode"
-      },
-      "first_seen": "2026-09-14T00:29:25.403418+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wfmcy9": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wfmcy9",
-        "link": "https://www.reddit.com/r/embedded/comments/1wfmcy9/when_making_a_pcb_with_a_microcontroller_is_it/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "when i say make it modular, i mean having on the pcb only the used pins, and then having a microncontroller mount that exposes those pins only submitted by /u/no_Im_perfectly_sane [link] [comments]",
-        "summary_vi": "An online discussion explores the architectural trade-offs between designing a dedicated, application-specific PCB and utilizing a modular pin-exposure design for microcontrollers. Community members analyze aspects like signal integrity, space constraints, and ease of hardware prototyping.",
-        "title": "When making a pcb with a microcontroller, is it better to have the pcb match it, or make it modular?"
-      },
-      "first_seen": "2026-09-14T00:29:25.403418+00:00"
     },
     "https://www.reddit.com/r/embedded/t3_1wfyv7n": {
       "entry": {
@@ -988,6 +1032,45 @@
         "title": "Custom firmware for Oscilloscope"
       },
       "first_seen": "2026-09-16T23:52:22.553694+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wilf1d": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wilf1d",
+        "link": "https://www.reddit.com/r/embedded/comments/1wilf1d/keil_uvision_4_cannot_read_project_file/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "so i have been using keil uVision V4.74.0.22 for the past 3 weeks on my laptop and i get a cannot read project file error everytime i try to open a project (it was working the previous day ) its kinda frustrating to setup my project all over again , does anyone know why this might be happening ? my project flashes code to an STM32 board if that matters submitted by /u/CommercialMind1359 [link] [comments]",
+        "summary_vi": "A user seeks troubleshooting advice for a persistent project file reading error in Keil uVision 4. The issue affects their workflow when flashing code onto an STM32 microcontroller board.",
+        "title": "keil uVIsion 4 cannot read project file"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wioqfz": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wioqfz",
+        "link": "https://www.reddit.com/r/embedded/comments/1wioqfz/why_is_it_so_hard_to_find_a_remote_job_nowadays/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "For the last month I have reached out to hundreds of companies through email, linkedin DMs and job applications to try to land remote job/contract as a embedded software engineer. I have diverse experience, have my own home lab setup and think of myself as a good employee, some of my skills include: C/ C++/ Python, nRF52/ ESP32/ STM32/ , Wi-Fi/ LTE/ GPS/ BLE , FreeRTOS/ Zephyr/ embedded Linux etc. Neverthless, nothing yet landed, so I am wondering, am I doing something wrong or is it normal and other people are experiencing the same thing? submitted by /u/CountCold494 [link] [comments]",
+        "summary_vi": "An experienced embedded software engineer shares challenges in finding remote or contract employment despite having a diverse skill set including C/C++, FreeRTOS, Zephyr, and wireless technologies.",
+        "title": "Why is it so hard to find a remote job nowadays as embedded software engineer?"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wirvpg": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wirvpg",
+        "link": "https://www.reddit.com/r/embedded/comments/1wirvpg/connect_usb_with_stm32cubeprog/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "Hello everyone, I have a black pill chip stm32f411ceu6 board and connected to my computer via stm32cubeprog software. I used 2 ways to connect: stlink and usb. When using stlink, the connection was successful, but when connecting to usb using DFU mode, there was an error of not being able to connect. I tried finding and installing drivers to fix this error but it didn't work. I want to ask if anyone who has encountered or fixed this error can help me. submitted by /u/SouthernSea204 [link] [comments]",
+        "summary_vi": "A community forum post seeks assistance regarding a USB connection failure when attempting to interface an STM32F411CEU6 board with STM32CubeProgrammer in DFU mode.",
+        "title": "Connect USB with STM32CubeProg"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
     },
     "oai:arXiv.org:2510.27485v3": {
       "entry": {
@@ -2080,6 +2163,201 @@
         "title": "Agentic Societies Need a Social Harness"
       },
       "first_seen": "2026-09-16T23:52:22.553694+00:00"
+    },
+    "oai:arXiv.org:2609.17555v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.17555v1",
+        "link": "https://arxiv.org/abs/2609.17555",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.17555v1 Announce Type: new \nAbstract: Efficient deployment of Deep Neural Networks (DNNs) on edge accelerators requires aggressive model compression while maintaining reliability in fault-prone hardware environments. This paper presents a reliability-aware quantized weight packing methodology for systolic-array-based DNN accelerators. A sensitivity-driven mixed-precision quantization framework assigns layer-wise bit-widths according to accuracy impact while enforcing symmetric precision between weights and activations. A deterministic register-level packing strategy consolidates multiple heterogeneous operand pairs into fixed-width register words, enabling SIMD-within-a-register (SWAR) style parallel execution that reduces both memory footprint and execution cycles. To improve resilience against hardware faults, selective bit-level protection replicates the most significant bits (MSBs) of critical layers into unused register space, achieving TMR-style protection with minimal overhead. A systolic-array simulation framework is developed to evaluate the proposed packing and fault-tolerance mechanisms under realistic execution conditions. Simulations in AlexNet, VGG-11, and ResNet-18 demonstrate up to 62% memory reduction and up to 56% reduction in Multiply-Accumulate (MAC) operations, while significantly improving accuracy resilience under fault injection compared to baseline and fully protected models.",
+        "summary_vi": "This paper proposes REQAP, a reliability-aware quantized weight packing methodology designed for systolic-array-based deep neural network accelerators. It aims to maintain model accuracy and hardware reliability in fault-prone edge environments.",
+        "title": "REQAP: Resilient Weight Packing and Quantization for Edge DNN Acceleration"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "oai:arXiv.org:2609.17556v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.17556v1",
+        "link": "https://arxiv.org/abs/2609.17556",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.17556v1 Announce Type: new \nAbstract: Edge-deployed AI operate under dynamically changing power budgets, reliability requirements, and input distributions, requiring continuous adaptation. Such conditions arise in long-running edge AI applications, including autonomous systems, industrial monitoring, and satellite onboard intelligence. Existing fault-tolerant methods assume static operating conditions, whereas continual learning techniques neglect concurrent hardware faults during online adaptation. Moreover, the practical deployment of runtime-adaptive reliability frameworks on programmable AI accelerators remains largely unexplored.\n This paper presents WARD, a runtime-adaptive Vision Transformer framework that combines channel-wise subnetwork partitioning, reliability-aware continual learning, and dynamic operating-mode scheduling to jointly optimize performance, fault tolerance, and adaptation according to runtime conditions. Two physically isolated subnetworks execute under four operating modes (i.e. Full-Precision Mode, Low-Power Mode, High-Reliability Mode, and Adaptive Mode) that dynamically adjust computational cost and reliability while ensuring uninterrupted inference for real-time requirements. To validate the practical deployability of the proposed framework, WARD is implemented on a lightweight FPGA-based accelerator extended with runtime hardware support for mode scheduling and resource management. Experimental results demonstrate that the proposed split architecture achieves a network-level failure rate of only 1.79% under high Bit Error Rates. The hardware implementation incurs less than 5% area overhead and supports runtime mode transitions within few clock cycles, demonstrating that adaptive reliability management can be integrated into programmable edge AI accelerators with negligible implementation overhead.",
+        "summary_vi": "The authors introduce WARD, a runtime workload-adaptive framework designed for Vision Transformers in dependable edge AI applications. The solution dynamically adapts to changing power budgets and concurrent hardware faults during online execution.",
+        "title": "WARD: Runtime Workload-Adaptive Vision TRansformer Framework for Dependable Edge AI"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "oai:arXiv.org:2609.17569v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.17569v1",
+        "link": "https://arxiv.org/abs/2609.17569",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.17569v1 Announce Type: new \nAbstract: Functional stability has been proposed as a per-function reliability concept for edge computing, in which the unit of analysis is the individual service rather than the whole system and the binary working/failed evaluation is replaced by a continuous quality function with per-function thresholds. Verifying these properties for a concrete edge orchestrator, migration policy, or distributed inference service requires a constructive method. This article connects functional stability to the direct Lyapunov method. The strong form is characterized through positive invariance of the admissible region; the weak form is connected to uniform ultimate boundedness and input-to-state stability with analytical recovery-time bounds. Switched dynamics from service migration and node failover are treated via common Lyapunov functions. Finite-horizon variants address mission-bounded edge workloads.",
+        "summary_vi": "This research presents a Lyapunov-based constructive method to analyze and verify the functional stability of individual services in edge computing environments. The approach focuses on continuous service quality rather than binary system-wide failures.",
+        "title": "Lyapunov-based analysis of functional stability for edge computing systems"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "oai:arXiv.org:2609.17718v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.17718v1",
+        "link": "https://arxiv.org/abs/2609.17718",
+        "relevance": 4,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2609.17718v1 Announce Type: new \nAbstract: Dynamic Image Graph Construction (DIGC) is the primary performance bottleneck in FPGA acceleration of Vision Graph Neural Networks (ViGs), reconstructing graph connectivity at every layer through irregular, memory-intensive computation. Existing FPGA accelerators optimize DIGC but still execute it unconditionally, making repeated graph reconstruction a persistent source of latency and energy consumption. We propose the SpecReuse algorithm, which computes compact spectral descriptors of intermediate features and reuses previously constructed graphs when descriptor drift remains below a calibrated threshold. We further present the SpecReuse accelerator, an FPGA architecture that realizes graph reuse through lightweight hardware for spectral descriptor extraction and reuse control while remaining compatible with existing graph-construction accelerators. Experimental results demonstrate up to a $2.69\\times$ speedup in end-to-end inference and approximately 58--65\\% lower energy per inference with negligible FPGA resource overhead and minimal loss in classification accuracy.",
+        "summary_vi": "The paper proposes SpecReuse, an algorithm designed to accelerate Vision Graph Neural Networks on FPGAs by reusing graph connectivity across layers. This approach eliminates the redundant computational overhead of dynamic graph reconstruction.",
+        "title": "SpecReuse: Spectral Graph Reuse for Efficient Vision GNN Inference on FPGAs"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "oai:arXiv.org:2609.17730v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.17730v1",
+        "link": "https://arxiv.org/abs/2609.17730",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.17730v1 Announce Type: new \nAbstract: Approximate multipliers can reduce hardware area and energy consumption in Deep Neural Network (DNN) inference; however, they introduce computational errors. Assessing the accuracy of numerous approximate multiplier designs across diverse DNN models and large-scale datasets remains challenging due to prohibitive evaluation times. This overhead primarily stems from the slow emulation of approximate multiplier behavior using look-up tables (LUTs) on CPU and GPU platforms. Moreover, the resulting accuracy degradation must be carefully quantified and, if necessary, mitigated (e.g., through retraining), further increasing the overall evaluation cost. To address these challenges, we propose FAME, an FPGA-based platform for evaluating approximate multipliers. The platform exploits the reconfigurable logic of Field-Programmable Gate Arrays (FPGAs) to implement approximate multipliers directly in hardware, eliminating the need for LUT-based emulation on CPU/GPU platforms and thereby enabling efficient DNN inference while significantly reducing evaluation time on large datasets. Furthermore, we introduce a pattern-guided DNN retraining technique to mitigate accuracy degradation induced by approximate multipliers. Specifically, retraining is guided by multiplier-specific patterns to effectively recover potential accuracy losses. We evaluate FAME using two DNN models, ResNet-18 and MobileNetV2, on the ImageNet dataset across 27 approximate multipliers. During inference, our approach achieves up to a 3.47x speedup in approximate multiplier evaluation compared to prior LUT-based emulation methods. Furthermore, the proposed retraining technique improves accuracy by up to 65.5% over existing retraining approaches for the evaluated multipliers. The code is publicly available at: https://github.com/gicLAB/FAME",
+        "summary_vi": "FAME is an FPGA-based platform designed to accelerate the evaluation of approximate multipliers in DNN inference. It addresses the high latency of software emulation by implementing pattern-guided retraining directly on hardware.",
+        "title": "FAME: An FPGA-Based Platform for Approximate Multipliers Evaluation with Pattern-Guided DNN Retraining"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "oai:arXiv.org:2609.17735v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.17735v1",
+        "link": "https://arxiv.org/abs/2609.17735",
+        "relevance": 3,
+        "source": "arXiv cs.PF (Performance)",
+        "summary": "arXiv:2609.17735v1 Announce Type: new \nAbstract: The generalized switch is a highly flexible queueing model, covering multiclass, multiserver, and multiresource queueing systems as well as a wide variety of stochastic networks. Although many scheduling policies have been developed for this model, they almost entirely address unknown job duration settings. How to optimally use known job durations in the generalized switch has remained open. Moreover, optimizing mean response time remains open in both settings. We introduce the first policy to guarantee heavy-traffic optimal mean response time in the generalized switch, our Smallest Equalizing Bucket (SEB) policy. The key challenge in designing an optimal scheduling policy is that we must simultaneously prioritize small jobs and also minimize resource waste, all while fitting within the generalized switch's service options. SEB overcomes this challenge by grouping jobs into duration-based buckets and enforcing an \"equalizing\" service structure that keeps each bucket balanced while still prioritizing the smallest jobs. We prove SEB's heavy-traffic optimality. Simulations further confirm the effectiveness of SEB-inspired heuristics.",
+        "summary_vi": "This paper addresses optimal scheduling policies for generalized switch queueing models under heavy traffic conditions. It provides solutions for utilizing known job durations to optimize mean response times.",
+        "title": "Optimal Scheduling in Generalized Switch in Heavy Traffic"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "oai:arXiv.org:2609.17797v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.17797v1",
+        "link": "https://arxiv.org/abs/2609.17797",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2609.17797v1 Announce Type: new \nAbstract: This paper proposes a set-membership approach (SMA) to localize radio frequency (RF) sources observed by a collaborating fleet of Unmanned Aerial Vehicles (UAVs). Considering frequency-separable RF transmitters with intermittent and periodic emission patterns, %and unknown but bounded periods the SMA evaluates set estimates of the source locations and a set free of sources. Simulation results show that SMA outperforms a Bayesian baseline approach in terms of localization accuracy and convergence speed.",
+        "summary_vi": "The authors propose a set-membership approach for localizing intermittent RF transmitters using a collaborative fleet of UAVs. Simulation results show this method outperforms traditional Bayesian baselines.",
+        "title": "Set-membership localization of intermittent RF sources using a fleet of collaborating UAVs"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "oai:arXiv.org:2609.17922v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.17922v1",
+        "link": "https://arxiv.org/abs/2609.17922",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.17922v1 Announce Type: new \nAbstract: Hardware Trojans are malicious modifications that compromise functionality or leak sensitive data. They pose a severe threat, particularly when inserted at the Register Transfer Level (RTL). After synthesis, these Trojans are often concealed by optimizations in gate-level netlists. Recent efforts, including the ICCAD 2025 contest, emphasize golden-chip-free detection using machine learning (ML) on labeled netlists. In this work, we show that RTL Trojans exhibit stable structural and signal-flow patterns post-synthesis, enabling effective detection through targeted heuristics rather than generic ML feature learning. We propose LoRD, a lightweight heuristic-based approach that exploits these distinctive subgraph signatures, achieving near-perfect detection and localization on the contest testcases. Com- pared to a transformer-based ML baseline and top five teams, LoRD achieves on-average a score of 2.957 (out of 3) for Trojan- implanted designs without the data and tuning overhead.",
+        "summary_vi": "This paper analyzes the challenges of locating hardware Trojans at the gate-level netlist after RTL synthesis optimizations. It evaluates machine learning methods for golden-chip-free Trojan detection.",
+        "title": "Demystifying Gate-Level Localization of RTL Trojans"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "oai:arXiv.org:2609.17961v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.17961v1",
+        "link": "https://arxiv.org/abs/2609.17961",
+        "relevance": 3,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2609.17961v1 Announce Type: new \nAbstract: It is crucial to monitor the levels of Non-Ionizing Radiation (NIR) to which the general population may be exposed and compare them to the limits defined in the current standards, in view of the rapid rise of communication services and the prospects of a connected society. A high number of people visits shopping malls and since these locations usually have several indoor antennas close to the public, it is therefore a kind of place that must be evaluated. Thus, this work presents measurements of the electric field in a shopping mall located in Natal, Brazil. We proposed a set of six measurement points, following two criteria: places with great the flow of people and the presence of one or more Distributed Antenna System (DAS), co-sited or not with WiFi access points. Results are presented and discussed in terms of the distance to DAS (conditions: near and far) and flow density of people in the mall (scenarios: low and high number of people). The highest peaks of electric field measured were 1.96 and 3.26 V/m, respectively corresponding to 5% and 8% of the limits defined by the International Commission on Non-Ionizing Radiation Protection (ICNIRP) and the Brazilian National Telecommunication Agency (ANATEL).",
+        "summary_vi": "This study analyzes non-ionizing radiation levels emitted by indoor distributed antenna systems in shopping malls. The measurements are evaluated against international safety standards to ensure public health safety.",
+        "title": "Human Exposure to Non-Ionizing Radiation from Indoor Distributed Antenna System: Shopping Mall Measurement Analysis"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "oai:arXiv.org:2609.17992v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.17992v1",
+        "link": "https://arxiv.org/abs/2609.17992",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2609.17992v1 Announce Type: new \nAbstract: A UAV mobile edge computing (MEC) fleet trades energy against delay, and its schedules form a Pareto front; we call a scheduler operable when the fleet can be asked for any point on that front at run time. We propose PrefDT, to the best of our knowledge the first preference-conditioned Decision Transformer for the problem of joint trajectory, association and offloading scheduling. Its idea comes from language modeling: we hand the model the desired trade-off as an input, such that a single model only needs to be trained once offline to return any desired point on the curve in one rollout. The fleet's state is summarized by attention pooling with a per-user bypass, so the scheduler keeps working when user reports are lost. The energy target is a running budget decremented by what the fleet actually spends. As a result, when wind or load pushes consumption off the plan, the policy can track the difference and hold its budget. Because no corpus of preference-labeled flights exists, we design a distillation pipeline and build the corpus by ourselves. In simulation against 26 method variants, PrefDT produces the best trade-off curve of any learned method and holds its energy budget to within 0.6% when propulsion cost rises by half in mid-flight.",
+        "summary_vi": "The paper proposes PrefDT, a preference-conditioned Decision Transformer designed to schedule trajectory, association, and offloading for UAV edge-computing fleets. The model optimizes the trade-off between energy consumption and operational delay at run time.",
+        "title": "The Operable Pareto Front: Distilling Offline Search into Run-Time Control for Multi-Objective UAV Edge-Computing Scheduling"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "oai:arXiv.org:2609.18003v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.18003v1",
+        "link": "https://arxiv.org/abs/2609.18003",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2609.18003v1 Announce Type: new \nAbstract: The emergence of movable antenna technology enables flexible antenna placement, allowing transceiver antennas to more effectively exploit spatial degrees of freedom. In this paper, we investigate a monostatic near-field sensing system, aiming to minimize the worst-case squared position error bound (SPEB) over the entire near-field region by jointly optimizing the transmit and receive antenna placements, along with the transmit power allocation. Toward this end, we first derive the closed-form expression of SPEB by calculating the Cram\\'er-Rao bound (CRB) for estimating the target's angle and distance. It is shown that the derived SPEB is governed by the power-weighted moments of the transmit antenna locations and the moments of the receive antenna locations, motivating the development of a moment-based optimization algorithm. Functional analysis of the SPEB's moment structure proves that the optimal antenna distributions can be realized by a centro-symmetric structure, and shows that the worst-case target is located at the array broadside on the Rayleigh boundary. Moreover, by leveraging moment-based analysis and the Richter-Tchakaloff theorem, we derive closed-form antenna distributions with three points supported at the aperture center and two edges. Specifically, the optimal transmit antenna distribution can be exactly realized by activating only three transmit antennas while the optimal receive antenna distribution consists of three clusters. Numerical results show that the proposed closed-form design significantly outperforms conventional antenna placements and power allocation benchmark schemes.",
+        "summary_vi": "This paper studies a monostatic near-field sensing system to optimize antenna placement and power allocation. The objective is to minimize the worst-case squared position error bound across the near-field region.",
+        "title": "Antenna Placement for Monostatic Near-Field Wireless Sensing"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "oai:arXiv.org:2609.18021v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.18021v1",
+        "link": "https://arxiv.org/abs/2609.18021",
+        "relevance": 3,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2609.18021v1 Announce Type: new \nAbstract: We consider composite optimization with a smooth, possibly nonconvex function and a separable convex polyhedral term. Such problems have a simple nonsmooth structure but arise widely in applications. Existing Newton-type methods may fail to identify nonsmooth coordinates during direction computation, move coordinates away from those reached by the full step during line search, or rely on separate first-order steps for identification. In this work, we propose a unified inexact proximal Newton method that couples structure identification with second-order acceleration through a proximal line search designed to retain the nonsmooth structure revealed at the local model. In particular, on a predicted working set, we solve a quadratic model inexactly but enforce its constraints exactly, allowing coordinates to reach new kinks without leaving the selected affine intervals. This set also includes small-margin kink coordinates to exploit the Hessian coupling effect. To globalize the direction, we construct a proximal line search using an isotropic proximal model whose linear term is chosen so that the initial trial exactly recovers the full step. Backtracking increases the proximal curvature until sufficient decrease holds, allowing coordinates to remain at kinks reached by the full step while damping other components. Generating each trial point requires only proximal operator evaluations. We prove finite backtracking and finite active-set identification under strict complementarity and a non-singular reduced Hessian, together with local Q-superlinear convergence under a directional Dennis-More condition and vanishing relative inexactness. Numerical results verify the effectiveness of the proposed method.",
+        "summary_vi": "This work introduces a proximal line search method that combines structure identification and Newton acceleration for nonconvex composite optimization. The approach aims to efficiently resolve nonsmooth coordinates during execution.",
+        "title": "Joint Structure Identification and Newton Acceleration via Proximal Line Search for Nonconvex Optimization"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "oai:arXiv.org:2609.18066v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.18066v1",
+        "link": "https://arxiv.org/abs/2609.18066",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2609.18066v1 Announce Type: new \nAbstract: Private large language model (LLM) fine-tuning is increasingly important for organizations that need to adapt models using sensitive data, but it often exceeds the memory capacity of commodity datacenter accelerators. Apple Silicon offers a different design point through large unified memory and lower complete-system cost, while recent Apple software support enables distributed execution over RDMA-over-Thunderbolt (TB). This paper studies whether Apple Silicon can serve as a practical platform for private LLM fine-tuning. We characterize RDMA-over-TB communication on Mac Studio nodes, showing that the measured bandwidth is far below nominal TB specifications. Next, we extend Apple's implementation with multi-trunk communication, persistent worker threads, and CPU-side gradient overlap to better exploit multiple direct TB links for LLM fine-tuning workloads. Finally, on a four-node Mac Studio cluster that fine-tunes a Qwen3-9B, our optimizations improve weak-scaling throughput by up to 1.6X over the single-trunk, non-overlapped baseline and reach 936 tokens/s for sequence length 17408. We further compare Apple Silicon with an NVIDIA H100 platform to quantify the trade-off between memory capacity, throughput, and acquisition cost, showing that Apple Silicon can provide a cost-effective solution for private LLM fine-tuning.",
+        "summary_vi": "This research investigates the feasibility of fine-tuning large language models on Apple Silicon using RDMA-over-Thunderbolt for distributed execution. The approach leverages unified memory to handle models that exceed traditional GPU capacities.",
+        "title": "Towards Training Private LLMs: Exploring Fine-Tuning Language Models on Apple Silicon with RDMA over Thunderbolt"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "oai:arXiv.org:2609.18173v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.18173v1",
+        "link": "https://arxiv.org/abs/2609.18173",
+        "relevance": 3,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2609.18173v1 Announce Type: new \nAbstract: Vehicle tracking is fundamental to applications ranging from urban mobility and public safety to security and defense. Conventional tracking relies on direct access to sensors that provide strong observations such as vehicle identity and location. In practice, however, factors such as ownership, privacy, cost, and operational constraints may limit directly accessible sensors, leaving sparse observations and long tracking gaps. Meanwhile, many additional third-party sensing assets may be present across the environment but remain inaccessible at the raw-data level, preventing their direct integration into the tracking system. In this work, we investigate whether weak, indirect observations with uncertain spatial and temporal cues can complement sparse direct sensing for vehicle tracking. Specifically, we propose GrayTrack, which fuses weak anonymous events with sparse direct observations using a road-constrained particle filter. We build a CARLA-Mininet-WiFi pipeline to evaluate the system under controlled conditions, generating direct observations from accessible cameras and indirect observations from third-party cameras. Our learning-based detector achieves an F1 score of 0.989 for anonymous vehicle passages. Further, incorporating indirect third-party observations reduces trajectory RMSE by 60.1% and catastrophic track loss from 35.8% to 0.3%. These results demonstrate that GrayTrack can effectively exploit weak indirect observations to extend tracking capabilities.",
+        "summary_vi": "This study proposes a vehicle tracking methodology that utilizes sparse, indirect observations from third-party sensors. It addresses tracking gaps caused by physical, operational, or privacy-related limitations on primary sensors.",
+        "title": "Beyond Direct Sensing: Harnessing Indirect Observations from Third-Party Sensors in Vehicle Tracking"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "oai:arXiv.org:2609.18633v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.18633v1",
+        "link": "https://arxiv.org/abs/2609.18633",
+        "relevance": 4,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2609.18633v1 Announce Type: new \nAbstract: Cloud-native microservices architectures rely on network namespaces for isolation, with the overhead of container communications remaining a critical performance bottleneck. While colocating containers on the same host mitigates some of this overhead, it cannot match the performance of communication within a single network namespace. Existing solutions either require application rewrites or fail to support the full Linux network stack expected by containerized applications.\n In this paper, we present netkit, an eBPF-based datapath that specializes the Linux networking stack to eliminate redundant backlog queue traversals during network namespace transitions. netkit leverages eBPF to transparently redirect packets between namespaces, bypassing unnecessary buffering while preserving compatibility with existing container applications. Our implementation in the Linux kernel, integrated with minimal changes to the Cilium network plugin for Kubernetes, improves throughput by up to 37\\% and achieves parity between container-to-container and process-to-process communications, effectively closing the performance gap introduced by namespace isolation.",
+        "summary_vi": "Netkit is introduced as a specialized Linux packet delivery mechanism designed to reduce communication overhead in containerized microservices. It aims to optimize local networking performance while retaining full Linux network stack compatibility.",
+        "title": "Netkit: Specializing Linux Packet Delivery for Container Networks"
+      },
+      "first_seen": "2026-09-17T12:48:54.388673+00:00"
     }
   },
   "rejected": {
@@ -2111,6 +2389,7 @@
     "https://www.phoronix.com/news/AMD-GAIA-0.24-Local-AI": "2026-09-16T12:52:31.242072+00:00",
     "https://www.phoronix.com/news/DLSS5VKLayer": "2026-09-09T00:41:13.818850+00:00",
     "https://www.phoronix.com/news/Debian-13.7-Released": "2026-09-13T00:26:06.323761+00:00",
+    "https://www.phoronix.com/news/Dragonfly-2.0-Released": "2026-09-17T12:48:54.388673+00:00",
     "https://www.phoronix.com/news/Fedora-45-Beta": "2026-09-16T02:41:57.982686+00:00",
     "https://www.phoronix.com/news/Firefox-156": "2026-09-15T00:58:03.779863+00:00",
     "https://www.phoronix.com/news/Firefox-157-Beta": "2026-09-15T13:53:30.223364+00:00",
@@ -2126,19 +2405,26 @@
     "https://www.phoronix.com/news/NetBSD-9.5-Released": "2026-09-06T23:09:25.403583+00:00",
     "https://www.phoronix.com/news/OpenJDK-27-Java-27": "2026-09-15T13:53:30.223364+00:00",
     "https://www.phoronix.com/news/Raspberry-Pi-Desktop-2026": "2026-09-15T13:53:30.223364+00:00",
+    "https://www.phoronix.com/news/Rust-Coreutils-0.12-Released": "2026-09-17T12:48:54.388673+00:00",
     "https://www.phoronix.com/news/Shotcut-26.9-Beta": "2026-09-06T23:09:25.403583+00:00",
     "https://www.phoronix.com/news/Slackware-16-Alpha": "2026-09-06T12:13:08.951233+00:00",
     "https://www.phoronix.com/news/Steam-Beta-9-September-2026": "2026-09-10T00:38:49.074531+00:00",
     "https://www.phoronix.com/news/Ubuntu-26.10-amd64v3-Daily": "2026-09-08T00:43:47.238508+00:00",
     "https://www.phoronix.com/news/Valve-Steam-Frame-1059": "2026-09-15T00:58:03.779863+00:00",
     "https://www.phoronix.com/news/Void-Linux-AI-Policy-Orphan": "2026-09-13T00:26:06.323761+00:00",
+    "https://www.phoronix.com/news/libinput-1.32-Released": "2026-09-17T12:48:54.388673+00:00",
     "https://www.phoronix.com/review/chuwi-unibook-wildcat-lake": "2026-09-09T09:28:28.702623+00:00",
+    "https://www.reddit.com/r/embedded/t3_1weycrx": "2026-09-14T00:29:25.403418+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wf14i3": "2026-09-14T00:29:25.403418+00:00",
     "https://www.reddit.com/r/embedded/t3_1wfbok7": "2026-09-14T00:29:25.403418+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wfmcy9": "2026-09-14T00:29:25.403418+00:00",
     "https://www.reddit.com/r/embedded/t3_1wgh1sr": "2026-09-15T00:58:03.779863+00:00",
     "https://www.reddit.com/r/embedded/t3_1wgvo5c": "2026-09-15T13:53:30.223364+00:00",
     "https://www.reddit.com/r/embedded/t3_1whvvnn": "2026-09-16T12:52:31.242072+00:00",
     "https://www.reddit.com/r/embedded/t3_1whzd1n": "2026-09-16T23:52:22.553694+00:00",
     "https://www.reddit.com/r/embedded/t3_1wiakqg": "2026-09-16T23:52:22.553694+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wihz18": "2026-09-17T12:48:54.388673+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wir4sb": "2026-09-17T12:48:54.388673+00:00",
     "https://www.redhat.com/en/blog/5-reasons-why-your-lightwell-strategy-needs-more-just-patches": "2026-09-12T00:42:36.175668+00:00",
     "https://www.redhat.com/en/blog/autorag-advances-red-hat-openshift-ai-35": "2026-09-15T00:58:03.779863+00:00",
     "https://www.redhat.com/en/blog/build-compliance-assistant-autorag-and-red-hat-openshift-ai": "2026-09-11T00:35:59.502530+00:00",
@@ -2160,6 +2446,7 @@
     "https://www.redhat.com/en/blog/red-hat-sponsors-openclaw-foundation-advance-open-future-production-ai-agents": "2026-09-10T00:38:49.074531+00:00",
     "https://www.redhat.com/en/blog/sovereign-ai-and-data-services-with-duality-and-red-hat": "2026-09-16T23:52:22.553694+00:00",
     "https://www.redhat.com/en/blog/stop-rewriting-stable-code-how-lightwell-protects-your-bottom-line-and-developer-velocity": "2026-09-16T23:52:22.553694+00:00",
+    "oai:arXiv.org:2604.13536v5": "2026-09-17T12:48:54.388673+00:00",
     "oai:arXiv.org:2604.19657v2": "2026-09-15T13:53:30.223364+00:00",
     "oai:arXiv.org:2607.13604v2": "2026-09-10T00:38:49.074531+00:00",
     "oai:arXiv.org:2609.04238v1": "2026-09-08T00:43:47.238508+00:00",
@@ -2190,6 +2477,12 @@
     "oai:arXiv.org:2609.16313v1": "2026-09-16T12:52:31.242072+00:00",
     "oai:arXiv.org:2609.16358v1": "2026-09-16T12:52:31.242072+00:00",
     "oai:arXiv.org:2609.16385v1": "2026-09-16T12:52:31.242072+00:00",
-    "oai:arXiv.org:2609.16861v1": "2026-09-16T12:52:31.242072+00:00"
+    "oai:arXiv.org:2609.16861v1": "2026-09-16T12:52:31.242072+00:00",
+    "oai:arXiv.org:2609.17573v1": "2026-09-17T12:48:54.388673+00:00",
+    "oai:arXiv.org:2609.17934v1": "2026-09-17T12:48:54.388673+00:00",
+    "oai:arXiv.org:2609.17954v1": "2026-09-17T12:48:54.388673+00:00",
+    "oai:arXiv.org:2609.18110v1": "2026-09-17T12:48:54.388673+00:00",
+    "oai:arXiv.org:2609.18112v1": "2026-09-17T12:48:54.388673+00:00",
+    "oai:arXiv.org:2609.18849v1": "2026-09-17T12:48:54.388673+00:00"
   }
 }
