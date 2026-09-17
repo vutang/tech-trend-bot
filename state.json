@@ -72,6 +72,8 @@
     "https://www.cnx-software.com/?p=177116": "2026-09-15T13:53:30.223364+00:00",
     "https://www.cnx-software.com/?p=177225": "2026-09-17T12:48:54.388673+00:00",
     "https://www.ettus.com/?p=11532": "2026-09-16T02:41:57.982686+00:00",
+    "https://www.huawei.com/en/news/2026/9/hc-f5ga-iftto-fiber-sensing": "2026-09-17T23:42:02.289072+00:00",
+    "https://www.huawei.com/en/news/2026/9/new-computing-architecture-peerium": "2026-09-17T23:42:02.289072+00:00",
     "https://www.phoronix.com/news/AI-To-Faster-Linux-Kernel-Comp": "2026-09-09T09:28:28.702623+00:00",
     "https://www.phoronix.com/news/AMD-Enhanced-SMT-Protection": "2026-09-15T00:58:03.779863+00:00",
     "https://www.phoronix.com/news/AMD-Rust-Deep-Into-GPU-Stack": "2026-09-06T05:46:32.580587+00:00",
@@ -232,8 +234,16 @@
     "oai:arXiv.org:2609.16839v1": "2026-09-16T12:52:31.242072+00:00",
     "oai:arXiv.org:2609.17110v1": "2026-09-16T23:52:22.553694+00:00",
     "oai:arXiv.org:2609.17949v1": "2026-09-17T12:48:54.388673+00:00",
+    "oai:arXiv.org:2609.18022v1": "2026-09-17T23:42:02.289072+00:00",
     "oai:arXiv.org:2609.18301v1": "2026-09-17T12:48:54.388673+00:00",
+    "oai:arXiv.org:2609.18305v1": "2026-09-17T23:42:02.289072+00:00",
     "oai:arXiv.org:2609.18499v1": "2026-09-17T12:48:54.388673+00:00",
+    "oai:arXiv.org:2609.18662v1": "2026-09-17T23:42:02.289072+00:00",
+    "oai:arXiv.org:2609.18675v1": "2026-09-17T23:42:02.289072+00:00",
+    "oai:arXiv.org:2609.18704v1": "2026-09-17T23:42:02.289072+00:00",
+    "oai:arXiv.org:2609.18792v1": "2026-09-17T23:42:02.289072+00:00",
+    "oai:arXiv.org:2609.18846v1": "2026-09-17T23:42:02.289072+00:00",
+    "oai:arXiv.org:2609.18857v1": "2026-09-17T23:42:02.289072+00:00",
     "tag:blogger.com,1999:blog-1834236085756782640.post-4353150683630815925": "2026-09-17T12:48:54.388673+00:00",
     "tag:blogger.com,1999:blog-7068042310767317158.post-3664437809683684494": "2026-09-15T13:53:30.223364+00:00",
     "tag:github.com,2008:Repository/107505869/v1.16.2": "2026-09-06T12:01:14.796223+00:00",
@@ -357,6 +367,19 @@
       },
       "first_seen": "2026-09-15T00:58:03.779863+00:00"
     },
+    "https://lwn.net/Articles/1094303/": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://lwn.net/Articles/1094303/",
+        "link": "https://lwn.net/Articles/1094303/",
+        "relevance": 4,
+        "source": "LWN.net Front Page",
+        "summary": "The io_uring\nsubsystem is all about asynchronous execution; applications count on it\nto not block — unless explicitly requested to. Within io_uring, maintaining\nthe \"never blocks\" guarantee has sometimes been a challenge, given that\nmany paths in the kernel were never designed for asynchronous execution.\nThis problem has been worked around, but at a significant cost to\nperformance. Now, io_uring maintainer Jens Axboe has posted an RFC patch set \nwith a somewhat radical (and potentially scary) solution to the problem.",
+        "summary_vi": "Jens Axboe has proposed an RFC patch set for io_uring introducing a thread-identity switch to maintain its asynchronous execution guarantees without incurring high performance costs.",
+        "title": "[$] Thread-identity switcheroo for io_uring"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
     "https://lwn.net/Articles/1094720/": {
       "entry": {
         "category": "embedded",
@@ -382,6 +405,19 @@
         "title": "Fedora 45 beta drags the Linux console into the 21st century (Register)"
       },
       "first_seen": "2026-09-16T23:52:22.553694+00:00"
+    },
+    "https://lwn.net/Articles/1094962/": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://lwn.net/Articles/1094962/",
+        "link": "https://lwn.net/Articles/1094962/",
+        "relevance": 4,
+        "source": "LWN.net Front Page",
+        "summary": "Security updates have been issued by AlmaLinux (.NET 10.0, .NET 8.0, .NET 9.0, corosync, firewalld, kernel, kernel-rt, libevent, libsoup, microcode_ctl, nginx:1.26, python-lxml, rsyslog, tesseract, and unbound), Debian (firefox-esr, mkvtoolnix, thunderbird, and tor), Fedora (open62541, php-pecl-mongodb2, python-django6, python-jwcrypto, and roundcubemail), Mageia (aom, cockpit, libgd, packagekit, and python-h2), Red Hat (corosync, delve, git-lfs, grafana-pcp, gstreamer1-plugins-base, libvirt, opentelemetry-collector, and rhc-worker-playbook), Slackware (mozilla-firefox and mozilla-thunderbird), SUSE (acl, attr, alloy, ansible-core, clamav, containerized-data-importer, corosync, cups, distribution, glibc, google-cloud-sap-agent, govulncheck-vulndb, gvfs, helm, jq, kbd, kubernetes1.34-apiserver, kubernetes1.35-apiserver, lcms2, libcupsfilters, liblzmasdk26, libzypp, zypper, mistral-vibe, opensc, openvpn, pcre2, python-jwcrypto, tomcat, tomcat10, and tomcat11), and Ubuntu (guix, libheif, perl, python-cryptography, sqlite3, and valkey).",
+        "summary_vi": "Multiple Linux distributions, including AlmaLinux, Debian, Fedora, Mageia, and Red Hat, have issued security updates addressing various kernel and library packages.",
+        "title": "Security updates for Thursday"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
     },
     "https://rcrwireless.com/?p=434490": {
       "entry": {
@@ -526,6 +562,45 @@
       },
       "first_seen": "2026-09-16T23:52:22.553694+00:00"
     },
+    "https://rocm.blogs.amd.com/artificial-intelligence/mlperf-inf-v6.1/README.html": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://rocm.blogs.amd.com/artificial-intelligence/mlperf-inf-v6.1/README.html",
+        "link": "https://rocm.blogs.amd.com/artificial-intelligence/mlperf-inf-v6.1/README.html",
+        "relevance": 4,
+        "source": "AMD ROCm Blog",
+        "summary": "MLPerf Inference v6.1 results were released on September 16, 2026. For AMD, this was a highly successful round in which we achieved several leadership scores, expanded benchmark coverage, introduced a new GPU with validated performance, and enabled record-setting results from our partners. In this round, AMD and its partners provided validated results across a diverse set of workloads, including dlrm-v3 (Deep Learning Recommendation Model v3), llama2-70b (Meta’s 70-billion-parameter language model), gpt-oss-120b (an open-weight 120-billion-parameter Mixture-of-Experts model), deepseek-r1 (DeepseekAI’s 671-billion-parameter Mixture-of-Experts model), and Wan 2.2-t2v (a 14-billion-parameter text-to-video generation model). Single-node results used 8 GPUs per node; gpt-oss-120b was additionally submitted at multi-node scale across 72 AMD Instinct ™ MI355X GPUs. All results were validated through MLPerf peer review.",
+        "summary_vi": "AMD discusses its MLPerf Inference v6.1 submission, highlighting top performance scores across diverse workloads like DLRM-v3 and LLaMA2-70B on its latest GPUs.",
+        "title": "Technical Dive into AMD MLPerf Inference v6.1 Submission"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
+    "https://rocm.blogs.amd.com/artificial-intelligence/mlperf-inf_v6.1-repro/README.html": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://rocm.blogs.amd.com/artificial-intelligence/mlperf-inf_v6.1-repro/README.html",
+        "link": "https://rocm.blogs.amd.com/artificial-intelligence/mlperf-inf_v6.1-repro/README.html",
+        "relevance": 4,
+        "source": "AMD ROCm Blog",
+        "summary": "This blog shows you how to reproduce AMD submission results for MLPerf Inference v6.1 on AMD Instinct MI355X, MI350X, and MI350P GPUs using self-contained Docker images, publicly available quantized model weights, and a step-by-step benchmark recipe.",
+        "summary_vi": "This technical guide provides a step-by-step recipe to reproduce AMD's MLPerf Inference v6.1 benchmark results using Docker images and quantized model weights.",
+        "title": "Reproducing AMD MLPerf Inference v6.1 Submission Results"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
+    "https://rocm.blogs.amd.com/software-tools-optimization/flydsl-customized-attention/README.html": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://rocm.blogs.amd.com/software-tools-optimization/flydsl-customized-attention/README.html",
+        "link": "https://rocm.blogs.amd.com/software-tools-optimization/flydsl-customized-attention/README.html",
+        "relevance": 4,
+        "source": "AMD ROCm Blog",
+        "summary": "Readers may be familiar with traditional Transformer models and their attention mechanisms. The traditional autoregressive transformers generate tokens iteratively. Since this feature significantly limits the inference throughput, researchers have begun exploring approaches such as diffusion models that can generate multiple tokens in each iteration.",
+        "summary_vi": "The article details the implementation of a custom attention kernel for diffusion models using FlyDSL to improve inference throughput over traditional transformers.",
+        "title": "Implementing a High-Performance Custom Diffusion Attention Kernel with FlyDSL"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
     "https://rocm.blogs.amd.com/software-tools-optimization/hipkittens-gemm-ladder/README.html": {
       "entry": {
         "category": "embedded",
@@ -591,6 +666,19 @@
       },
       "first_seen": "2026-09-17T12:48:54.388673+00:00"
     },
+    "https://www.huawei.com/en/news/2026/9/hc-context-memory-storage": {
+      "entry": {
+        "category": "ran",
+        "id": "https://www.huawei.com/en/news/2026/9/hc-context-memory-storage",
+        "link": "https://www.huawei.com/en/news/2026/9/hc-context-memory-storage",
+        "relevance": 4,
+        "source": "Huawei Press Release",
+        "summary": "    Huawei has introduced OceanStor M900 Context Memory Storage, designed for AI inference in hyperscale data centers.",
+        "summary_vi": "Huawei launched the OceanStor M900 Context Memory Storage solution, specifically optimized to accelerate AI inference tasks in hyperscale data centers.",
+        "title": "Huawei Introduces OceanStor M900 Context Memory Storage to Accelerate AI Inference in Hyperscale Data Centers"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
     "https://www.huawei.com/en/news/2026/9/hc-intelligent-world-2035": {
       "entry": {
         "category": "ran",
@@ -603,6 +691,19 @@
         "title": "Huawei's latest report proposes 10 key directions to Intelligent World 2035"
       },
       "first_seen": "2026-09-16T23:52:22.553694+00:00"
+    },
+    "https://www.huawei.com/en/news/2026/9/hc-wang-keynote": {
+      "entry": {
+        "category": "ran",
+        "id": "https://www.huawei.com/en/news/2026/9/hc-wang-keynote",
+        "link": "https://www.huawei.com/en/news/2026/9/hc-wang-keynote",
+        "relevance": 3,
+        "source": "Huawei Press Release",
+        "summary": "HUAWEI CONNECT 2026 kicked off today in Shanghai. The first keynote of the date was by David Wang, the Deputy Chairman of the Board and Rotating Chairman at Huawei.",
+        "summary_vi": "Huawei's David Wang delivered a keynote at Huawei Connect 2026 focusing on hardware and silicon foundations required to support advancing agentic AI technologies.",
+        "title": "Advancing the Agentic World, Building a Solid Silicon Foundation"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
     },
     "https://www.linuxfoundation.org/blog/open-secure-ai-alliance-joins-the-linux-foundation-to-build-a-shared-open-defense-stack-for-the-ai-era": {
       "entry": {
@@ -642,6 +743,19 @@
         "title": "Intel NPU Linux Driver Adding Command-Queue Priority ioctl For Linux 7.4"
       },
       "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "https://www.phoronix.com/news/Jemalloc-5.4": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Jemalloc-5.4",
+        "link": "https://www.phoronix.com/news/Jemalloc-5.4",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "Earlier this year Meta announced a renewed investment into the jemalloc memory allocator that's been popular for server and HPC use among various desktop use-cases too. After stagnating a bit in recent years, Jemalloc has been off to seeing new developments since Meta's announcement and out today is Jemalloc 5.4 as the latest step forward...",
+        "summary_vi": "Following Meta's renewed investment in the project, Jemalloc 5.4 has been released with portability improvements and code cleanups.",
+        "title": "Jemalloc 5.4 Released With Portability Improvements, Code Cleanups"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
     },
     "https://www.phoronix.com/news/Linux-7.4-AMD-P-State-Zen-6": {
       "entry": {
@@ -708,6 +822,19 @@
       },
       "first_seen": "2026-09-15T13:53:30.223364+00:00"
     },
+    "https://www.phoronix.com/news/Mojo-1.1-Released": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Mojo-1.1-Released",
+        "link": "https://www.phoronix.com/news/Mojo-1.1-Released",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "Last month Modular's Mojo language was open-sourced following the acquisition of Modular by Qualcomm. Modular was the AI startup founded by Chris Lattner of LLVM and Swift fame. Released today was Mojo 1.1 and also marks the project recently now beginning code contributions from the community to its compiler...",
+        "summary_vi": "Modular has released Mojo 1.1, which marks the start of community code contributions to the Mojo compiler following its recent open-sourcing.",
+        "title": "Mojo 1.1 Released, Now Accepting Community Contributions To The Compiler"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
     "https://www.phoronix.com/news/OpenBSD-GEFS-File-System": {
       "entry": {
         "category": "embedded",
@@ -733,6 +860,19 @@
         "title": "OpenVDB Introduces SIMD Framework With Some 2~4x Performance Improvements"
       },
       "first_seen": "2026-09-16T12:52:31.242072+00:00"
+    },
+    "https://www.phoronix.com/news/Rust-Developers-Targeted": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Rust-Developers-Targeted",
+        "link": "https://www.phoronix.com/news/Rust-Developers-Targeted",
+        "relevance": 3,
+        "source": "Phoronix",
+        "summary": "The Rust security response working group and Crates.io team have issued a warning that a targeted attack is underway against key Rust programming language developers...",
+        "summary_vi": "The Rust security response working group and Crates.io team have issued a warning regarding a targeted attack aiming to compromise key Rust language developers.",
+        "title": "Rust Issues Warning Over Key Developers Being Targeted For Compromise"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
     },
     "https://www.phoronix.com/news/Rustls-0.23.45-Released": {
       "entry": {
@@ -772,6 +912,19 @@
         "title": "Ubuntu 26.10 Moves cp, mv & rm Over To Rust Coreutils For 100% Transition"
       },
       "first_seen": "2026-09-16T12:52:31.242072+00:00"
+    },
+    "https://www.phoronix.com/review/amd-zen5-intel-gnr-ws-smt": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/review/amd-zen5-intel-gnr-ws-smt",
+        "link": "https://www.phoronix.com/review/amd-zen5-intel-gnr-ws-smt",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "As a follow-up to the article earlier this month of the Intel Xeon 600 workstation performance against AMD Ryzen Threadripper 9000 series in over 400 benchmarks -- including when carried out at the same core count and memory configuration -- today's article is exploring the Hyper Threading / SMT impact on both the Intel Redwood Cove and AMD Zen 5 cores for workstations.",
+        "summary_vi": "This article evaluates the performance impact of Hyper-Threading and SMT on Intel Redwood Cove and AMD Zen 5 workstation processors using over 400 benchmarks.",
+        "title": "Intel Granite Rapids WS vs. AMD Threadripper Zen 5 SMT Performance"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
     },
     "https://www.phoronix.com/review/ubuntu-2610-amd64v3-lowend": {
       "entry": {
@@ -1071,6 +1224,84 @@
         "title": "Connect USB with STM32CubeProg"
       },
       "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wj2qf1": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wj2qf1",
+        "link": "https://www.reddit.com/r/embedded/comments/1wj2qf1/analysis_paralysis_with_personal_projects_cc_and/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "Hi, I've been stuck for a while now in what seems to be \"analysis paralysis\" (just discovered the term): I want to work on personal projects in my free time, but none of them end up grabbing me, whether it's for one reason or another, and I end up not really doing anything. For some context: I'm a computer engineer with 3 years of experience. In my day job I develop in C and C++, PL/SQL, I use Linux for everything, and I'm really into the embedded and systems world. When I've got a decent chunk of free time, I feel like programming and building personal projects, for the love of it and, above all, to gain technical experience in the languages I use. I come up with ideas, but none of them fully convince me, or when I actually get started I feel like \"there's already stuff out there that does this\" or that I don't see it being useful down the line. It's like being constantly stuck between \"learning\" and \"it actually being useful for something\". I've got a small homelab running Debian where, on the systems side, I do have several services deployed, but I'm talking about actual development projects here. I hate web development and I hate vibecoding: it feels like it separates me too much from the code, and what I want is to keep learning and get better technically, both for fun and for my CV (technical interviews and so on). I've actually already built a few things with ESP32 and RPi: some char drivers and MQTT devices to control something... and I've got a fairly riced Hyprland setup. But something that holds me back is that I don't want to step outside the technologies I \"know well\". Has anyone else run into a similar situation of analysis paralysis? Is anyone in a similar spot, or would you like to share any advice/experience? submitted by /u/NoBrilliant8116 [link] [comments]",
+        "summary_vi": "An experienced C/C++ and systems engineer seeks advice on overcoming personal project analysis paralysis and finding engaging embedded software ideas.",
+        "title": "Analysis paralysis with personal projects — C/C++ and systems dev looking for direction"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wj3ucd": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wj3ucd",
+        "link": "https://www.reddit.com/r/embedded/comments/1wj3ucd/diy_batterypowered_locker_alarm_looking_for/",
+        "relevance": 5,
+        "source": "Reddit r/embedded",
+        "summary": "I'm a software engineer with an electronics/telecom background, and I've recently started embedded as a hobby. I've been tinkering with an ESP8266 (NodeMCU 1.0 board) and got it paired with my self-hosted home-assistant (used ESPHome). As my first project, I'd like to build a battery-powered sensor that detects my safe locker being opened and sends me an alert on my phone when I am away from my house. ### My initial idea * Reed switch inside the locker connected to GPIO pin of ESP8266 (connected to Wi-Fi) * Permanent magnet on the moving door (inside) * Home Assistant receives the state, sends Telegram notification * Battery powers the ESP8266 because there is no electrical outlet near the locker ### Updated idea (after chatgpt) However, I realized that keeping an ESP8266 continuously connected to Wi-Fi is a terrible approach for a battery-powered sensor. According to chatgpt, the better approach is: ``` [locker (ESP H2, battery powered)] -- BLE / 802.15.4 --> ESP S3/Raspberrypi (always powered) --> HomeAssistant HomeAssistant --> Telegram ``` This seems as an advantage to me as later on, I can simply add more ESP H2 devices and \"ESP S3/Raspberrypi\" becomes the central hub. I can then experiment on zigbee protocols etc. --- I checked for commercial \"matter\" products such as TPLink Tapo (which needs a hub). They're claiming a battery life of 2 years. I am not sure if my updated setup can match such numbers? The goal for such locker sensor is to remain working on battery for atleast a week (the duration for which I am usually out). I am still getting through basics, but since I am approaching another outgoing, I just need a quick feedback from the community submitted by /u/codeasashu [link] [comments]",
+        "summary_vi": "An embedded hobbyist is seeking feedback and advice on designing the power architecture for a battery-powered ESP8266-based locker alarm sensor.",
+        "title": "DIY battery-powered locker alarm - looking for advice on power architecture"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wj680w": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wj680w",
+        "link": "https://www.reddit.com/r/embedded/comments/1wj680w/help_identifying_a_display/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "There are no markings whatsoever, on the panel or on the flex PCB. The interface should be SPI. submitted by /u/dokolenkov [link] [comments]",
+        "summary_vi": "An online community member is seeking assistance to identify an unmarked display panel with an SPI interface.",
+        "title": "Help identifying a display"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wj7916": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wj7916",
+        "link": "https://www.reddit.com/r/embedded/comments/1wj7916/direct_barcode_2d_ocr_to_plc_via_modbus_tcp_no/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "The Problem: Interfacing handheld scanners or optical text recognition (lot codes, batch numbers, mold IDs) into a PLC usually requires an industrial vision controller, a dedicated PC running proprietary middleware, or a custom serial gateway. The Solution: We built a dedicated Android utility designed to read 1D barcodes, QR codes, and alphanumeric text via device camera or hardware scan engines, and stream the string data directly into PLC holding registers over standard Modbus TCP. How It Works: Fully offline architecture—no external cloud calls or factory data leaks. Feedback and feature requests from fellow controls engineers are welcome! Application Note: Handheld OCR & Barcode to Modbus TCP Architecture 1. System Architecture Diagram [ Printed Label / Part Text ] │ (Camera / Laser) ▼ [ Android Device / Industrial PDA ] └── Local Parsing Engine (ASCII String Encoding + Byte Swap) │ (Wi-Fi / AP) ▼ [ Industrial Managed Switch ] │ (Cat6 / Port 502) ▼ [ PLC Ethernet Port (Modbus TCP Server) ] ├── Holding Registers (D100 - D115) : ASCII Payload ├── Register (D116) : String Length / Character Count └── Bit Flag (M100) : Data Ready Trigger Strobe 2. Recommended Register Allocation Map Register Address PLC Equivalent (Example) Data Type Description 40001 – 40015 D100 – D114 ASCII (16-bit words) Parsed barcode or OCR string payload (up to 30 characters). 40016 D115 INT (16-bit) Character count (actual length of parsed string). 40017 D116 UINT (16-bit) Trigger flag ( 1 = New Scan Available, 0 = Idle). 40018 D117 UINT (16-bit) PLC Handshake ACK ( 1 = PLC Processed Data, cleared by app). 3. Example PLC Ladder Logic Handshake (Structured Text / Ladder Principle) // Example Logic Flow: // 1. App writes ASCII payload to D100..D114 // 2. App sets D116 = 1 (Data Ready) // 3. PLC executes recipe check / tank match logic // 4. PLC sets D117 = 1 (ACK) and resets its internal sequence // 5. App clears D116 back to 0 IF (D116 = 1) AND (D117 = 0) THEN // Execute string comparison or recipe validation IF Verify_String(D100, Target_Recipe_String) THEN Pass_Signal := TRUE; ELSE Fail_Signal := TRUE; END_IF; // Acknowledge read completion D117 := 1; END_IF; 4. Implementation Checklist for Field Testing Configure static IP or DHCP reservation on the mobile device to avoid ARP lease disconnects. Set ping/keep-alive interval to 1000 ms to detect Wi-Fi handoff drops immediately. Test endianness with a known 4-character string (e.g., ABCD $\\rightarrow$ verify whether the first register reads 4142h or 4241h ). VIDEO: TPC IP MODBUS PDA SCANNER submitted by /u/NoWear5351 [link] [comments]",
+        "summary_vi": "The authors developed an Android utility that streams barcode, QR, and OCR text data directly into PLC holding registers using standard Modbus TCP, bypassing industrial PC middleware.",
+        "title": "Direct Barcode, 2D & OCR to PLC via Modbus TCP (No IPC or Middleware Required)"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wja3rq": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wja3rq",
+        "link": "https://www.reddit.com/r/embedded/comments/1wja3rq/which_load_capacitance_should_i_use_for_this/",
+        "relevance": 5,
+        "source": "Reddit r/embedded",
+        "summary": "Hello, I am trying to repair a laptop motherboard with an AMD Ryzen 7 6800HS processor. The orange charging light flashes continuously. The motherboard draws approximately 0.2 A for one second, then drops to 0.1 A and remains there. I have confirmed that the 1.8 V, 3.3 V, 5.1 V, and 19.5 V power rails are present, but the motherboard still does not start. During my inspection, I found a 32.768 kHz quartz crystal with a damaged casing. According to the schematic I found, the motherboard uses a 32.768 kHz crystal with a load capacitance of 12.5 pF. However, I also found a video showing an apparently identical motherboard with an AMD Ryzen 5 6600H processor, and that board appeared to use a 7 pF crystal. The motherboard FRU number is 5B21H82478. I found two possible replacement crystals with the same frequency and package: YIC 32.768K7PI/3215E ◦ Frequency: 32.768 kHz ◦ Load capacitance: 7 pF ◦ Package: 3215, 3.2 mm × 1.5 mm ◦ Two pads ◦ Frequency tolerance: ±20 ppm YIC 32.768K12.5PI/3215E ◦ Frequency: 32.768 kHz ◦ Load capacitance: 12.5 pF ◦ Package: 3215, 3.2 mm × 1.5 mm ◦ Two pads ◦ Frequency tolerance: ±20 ppm How can I determine whether my motherboard was designed for a 7 pF or 12.5 pF crystal? I do not want to install a random replacement because I understand that using the wrong load capacitance could affect oscillator startup, frequency accuracy, and reliability. Thank you for any help identifying the original crystal or determining whether I should use the 7 pF or 12.5 pF replacement. submitted by /u/Large_Minimum7673 [link] [comments]",
+        "summary_vi": "A hardware designer or repair technician seeks advice on choosing the appropriate load capacitance (7 pF vs. 12.5 pF) for a 32.768 kHz laptop motherboard crystal oscillator.",
+        "title": "Which load capacitance should I use for this 32.768 kHz laptop motherboard crystal oscilator: 7 pF or 12.5 pF?"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
+    "https://www.sigarch.org/?p=114327": {
+      "entry": {
+        "category": "research",
+        "id": "https://www.sigarch.org/?p=114327",
+        "link": "https://www.sigarch.org/eighth-annual-undergraduate-mentoring-workshop-uarch-2026/",
+        "relevance": 3,
+        "source": "SIGARCH Blog",
+        "summary": "The uArch 2026 Cohort The 8th annual Undergraduate Architecture Mentoring (uArch) Workshop took place alongside the International Symposium of Computer Architecture (ISCA) 2026, in Raleigh North Carolina. Each year, uArch introduces undergraduate and early master’s students to research and career paths in computer architecture through technical talks, sessions on graduate school life, and mentoring panels […]",
+        "summary_vi": "The eighth annual uArch workshop introduces undergraduate and early master's students to career paths and research opportunities in computer architecture.",
+        "title": "Eighth Annual Undergraduate Mentoring Workshop (uArch 2026)"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
     },
     "oai:arXiv.org:2510.27485v3": {
       "entry": {
@@ -2333,6 +2564,19 @@
       },
       "first_seen": "2026-09-17T12:48:54.388673+00:00"
     },
+    "oai:arXiv.org:2609.18075v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.18075v1",
+        "link": "https://arxiv.org/abs/2609.18075",
+        "relevance": 3,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2609.18075v1 Announce Type: cross \nAbstract: Conventional video metrics such as PSNR, SSIM, and VMAF measure visual distortion or perceptual quality, but they do not directly capture semantic preservation: whether compression retains a video's objects, actions, and temporal narrative. Existing Quality-of-Experience (QoE)-driven bitrate-selection and resource-allocation methods primarily aim to minimize rebuffering and bitrate switching while maximizing perceptual video quality, without explicitly considering semantic preservation. To address this gap, we introduce video semantic fidelity (SF), a metric that quantifies how well a compressed video preserves the semantic content of its source. An offline multimodal large language model (MLLM) generates structured descriptions of the reference and compressed versions of the video, and a separate text-only large language model (LLM) evaluates their semantic correspondence. The resulting content-dependent SF--bitrate profiles are cached and queried by the online bitrate selector without invoking MLLMs at runtime. Evaluations on three subjective QoE benchmarks show a consistent positive association between SF and mean opinion scores (MOS). A separate human semantic-rating study evaluates semantic preservation and shows that SF correlates more strongly with human judgments than conventional video metrics. We then embed these profiles into a 5G MEC-assisted video-on-demand (VoD) resource-allocation framework at the base station. When wireless resources cannot support high bitrate levels for all users, the framework uses the SF--bitrate profiles to select bitrate levels jointly across users and reduce the semantic loss caused by the required bitrate reductions. NS-3 simulations with the 5G NR module show that the proposed framework achieves higher average and worst-user SF than the evaluated baselines, with a widening advantage as the wireless resources available to each user decrease.",
+        "summary_vi": "Researchers introduce SemABR, a framework utilizing multimodal LLMs to evaluate semantic preservation in compressed videos for adaptive bitrate streaming.",
+        "title": "SemABR: Measuring Video Semantic Fidelity with Multimodal LLMs for Adaptive Bitrate Streaming"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
     "oai:arXiv.org:2609.18173v1": {
       "entry": {
         "category": "research",
@@ -2346,6 +2590,123 @@
       },
       "first_seen": "2026-09-17T12:48:54.388673+00:00"
     },
+    "oai:arXiv.org:2609.18178v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.18178v1",
+        "link": "https://arxiv.org/abs/2609.18178",
+        "relevance": 4,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2609.18178v1 Announce Type: new \nAbstract: Distributed model training at scale is frequently interrupted by transient network failures, conventionally forcing cluster managers to abort all processes and roll back to the latest checkpoint. While periodic checkpointing provides durability, frequent snapshotting introduces severe storage backpressure: our measurements on a 1.216B-parameter decoder reveal that per-update asynchronous checkpointing incurs up to a +656.7% latency overhead, consumes 32.5 GiB of host memory, and generates 3.39 TB/hour of storage traffic. To eliminate this overhead, we present AccelPact, a parallel runtime enabling zero-I/O in-memory fault recovery for sharded distributed training. When communication fails at a committed optimizer step, device memory remains quiescent and uncorrupted, yet continuation fails because frameworks like PyTorch FSDP cache internal communication handles across module wrappers and parameter hierarchies. AccelPact resolves this dependency invalidation via a non-invasive reference-rebinding mechanism coordinated by an out-of-band Gloo consensus protocol. On 16 NVIDIA RTX 5880 GPUs training full-parameter Mistral-7B, AccelPact eliminates checkpoint replay, yielding a 1.197x whole-run goodput improvement over cold restart and 1.194x over NVRx checkpoint restoration at checkpoint age 5, rising to 1.698x at age 18. Across ten successive fault injections, all 16 ranks maintain bit-identical parameter state with zero numerical drift. Across 4-to-16 GPU cluster topologies, reference rebinding executes in constant time (0.493-0.518 ms). Operating directly on native communicator instances, AccelPact requires zero application-code modifications and avoids compiler graph breaks under torch.compile, providing an efficient foundation for resilient deep learning.",
+        "summary_vi": "This paper proposes a dynamic framework dependency rebinding approach to enable zero-I/O fault recovery during sharded deep learning, avoiding severe storage latency overheads.",
+        "title": "Zero-I/O Fault Recovery for Sharded Deep Learning via Dynamic Framework Dependency Rebinding"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
+    "oai:arXiv.org:2609.18360v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.18360v1",
+        "link": "https://arxiv.org/abs/2609.18360",
+        "relevance": 5,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2609.18360v1 Announce Type: new \nAbstract: The elements of a reconfigurable intelligent surface (RIS) are commonly modeled either as frequency-selective time-invariant reflectors or as instantaneous time-varying reflection coefficients. In practice, however, time-modulated metasurfaces exhibit both frequency selectivity and periodic time variation. We develop a physically consistent linear periodically time-varying (LPTV) model that jointly captures these effects and characterizes their impact on wideband orthogonal frequency-division multiplexing (OFDM) communications. From a canonical equivalent circuit of a generic RIS element, we derive a single-resonance model whose physically meaningful parameters determine both the frequency-selective reflection coefficient and the effective impulse-response duration, i.e., the finite memory of the element. The periodically switched dispersive responses are then represented through harmonic transfer functions, leading to a closed-form per-subcarrier OFDM input-output relation. The resulting coupling is generally non-diagonal: each received subcarrier collects contributions from multiple transmitted subcarriers through the RIS harmonics, each weighted by the element response at the corresponding absolute input frequency. We further derive a generalized cyclic-prefix (CP) condition requiring the guard interval to accommodate both the propagation-channel delay spread and the RIS memory. Under this condition, intersymbol interference and out-of-grid spectral leakage are suppressed, while deterministic on-grid harmonic coupling remains. Full-wave simulations of an OpenRIS unit cell designed for a 5G NR channel validate the proposed resonant model and reveal appreciable in-band dispersion despite nearly ideal binary phase switching. Simulations over 3GPP tapped-delay-line (TDL) channels confirm the generalized CP condition and show its relevance for high-quality-factor RIS elements.",
+        "summary_vi": "This paper develops a linear periodically time-varying (LPTV) model for RIS that accurately captures both frequency selectivity and periodic time modulation effects in wideband OFDM systems. For embedded firmware developers implementing RIS control, this physically-consistent model is essential for accurate channel simulation and calibration, preventing performance degradation from modeling oversimplifications in wideband 5G deployments where both dispersive and time-varying behaviors occur simultaneously.",
+        "title": "Physically Consistent Modeling of Dispersive Time-Modulated Reconfigurable Intelligent Surfaces for Wideband OFDM"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
+    "oai:arXiv.org:2609.18368v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.18368v1",
+        "link": "https://arxiv.org/abs/2609.18368",
+        "relevance": 5,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2609.18368v1 Announce Type: new \nAbstract: Classical CSI feedback in FDD massive MIMO transmits a compressed reconstruction of the channel, optimizing fidelity to the original signal regardless of the downstream task. We propose a semantic communication perspective: instead of reconstructing the channel, the UE transmits a learned \\emph{semantic embedding} optimized end-to-end for beam selection at the gNB. Comparing reconstruction-oriented feedback (CsiNet) against task-aware semantic feedback across two input domains and three observation scenarios, we show that a semantic embedding of just $d=8$ real values from only 43 NR CSI-RS pilots in the angular-delay domain achieves the highest beam prediction accuracy, outperforming every method with access to the full 512-subcarrier channel. The key insight is that beam-relevant information is intrinsically low-dimensional: the semantic encoder learns to discard reconstruction-irrelevant structure and retain only a compact representation that is relevant to beam selection, realizing the core principle of semantic communication: transmit the intent, not the signal.",
+        "summary_vi": "This work replaces traditional CSI reconstruction-based feedback with task-aware semantic embeddings optimized end-to-end for beam selection, using sparse pilot signals more efficiently than full-bandwidth approaches. For FDD massive MIMO system developers, this semantic feedback approach reduces CSI overhead and feedback latency while maintaining or improving beam selection accuracy, directly enabling more responsive beamforming and reduced resource consumption in 5G NR systems with limited uplink bandwidth.",
+        "title": "Semantic CSI Feedback for Beam Selection: When Task-Aware Embeddings from Sparse Pilots Outperform Full-Bandwidth Reconstruction"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
+    "oai:arXiv.org:2609.18388v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.18388v1",
+        "link": "https://arxiv.org/abs/2609.18388",
+        "relevance": 4,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2609.18388v1 Announce Type: new \nAbstract: Large language models are increasingly trained on GPUs distributed across multiple regions, but geo-distributed training is challenging in practice. Real clusters often contain GPUs with different speeds and memory capacities, and they communicate over slow wide-area networks. Our analysis shows that this creates serious problems: existing synchronous methods preserve stable updates, but fast GPUs wait up to 20.9% of their runtime for slower ones, and all workers spend, on average, 65.8% of their runtime on synchronization. Recent asynchronous methods reduce waiting time but worsen the model accuracy due to stale updates. To address the problems, we present GeoMesh, a synchronous geo-distributed training framework for heterogeneous GPUs. GeoMesh balances per-worker workloads by assigning each GPU a suitable batch size and number of inner steps, so faster GPUs do more useful work instead of waiting. It also reduces communication volume by nearly 32x by exchanging compressed sign-based pseudo-gradients with lightweight magnitude and token count. Across heterogeneous GPUs and Azure-derived WAN, GeoMesh reduces time-to-target perplexity by up to 70.2% over representative baselines and lowers straggler- and WAN-induced GPU idle by up to 8.0x and 5.6x, respectively, while preserving comparable zero-shot accuracy.",
+        "summary_vi": "GeoMesh is introduced as a workload-balanced, sign-compressed framework to improve the efficiency of geo-distributed LLM training across heterogeneous GPUs and slow wide-area networks.",
+        "title": "GeoMesh: Workload-Balanced and Sign-Compressed Geo-Distributed LLM Training"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
+    "oai:arXiv.org:2609.18448v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.18448v1",
+        "link": "https://arxiv.org/abs/2609.18448",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2609.18448v1 Announce Type: new \nAbstract: Critical infrastructure assets such as bridges, tunnels, dams, and power line networks require timely and scalable inspection. While conventional manual inspection remains costly and hazardous, unmanned aerial vehicle (UAV)-based inspection has emerged as an efficient alternative for monitoring difficult-to-access structures. Existing UAV inspection pipelines have evolved from cloud-centric offline processing toward edge-based perception using lightweight object detectors such as YOLO for real- time defect localization. This article explores the transition toward fully edge-native semantic inspection powered by lightweight vision language models (VLMs), where UAVs move beyond object detection toward contextual structural understanding. It categorizes existing UAV inspection architectures, identifies their key system challenges and architectural requirements, and experimentally assesses the feasibility of semantic edge intelligence on NVIDIA Jetson UAV-class hardware using the COCO-Bridge dataset. The evaluation integrates a fine-tuned YOLO-26M for object localization and a lightweight SmolVLM-256 for semantic reasoning. Finally, it outlines future directions toward agentic, autonomous, trustworthy, and collaborative semantic UAV inspection across the edge-cloud continuum.",
+        "summary_vi": "This paper details the transition of UAV-based critical infrastructure inspection from offline cloud processing to real-time, edge-based AI perception.",
+        "title": "From Pixels to Semantics: Edge AI for UAV-Based Critical Infrastructure Inspection"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
+    "oai:arXiv.org:2609.18467v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.18467v1",
+        "link": "https://arxiv.org/abs/2609.18467",
+        "relevance": 5,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2609.18467v1 Announce Type: new \nAbstract: In integrated sensing and communications (ISAC), the same spectral and hardware resources are shared for two functionalities. Most ISAC designs assume perfect target-angle information neglecting angle estimation errors, which introduce steering-vector mismatches, degrade sensing accuracy, and may invalidate deterministic sensing guarantees. This paper investigates monostatic massive multiple-input-multiple-output (MIMO) ISAC systems under imperfect target-angle estimates. We derive closed-form expressions for the Cram\\'er-Rao lower bounds (CRLBs) of target azimuth and elevation estimates in the presence of angle uncertainty. We characterize the cumulative distribution functions and outage probabilities of the CRLBs under Gaussian, generalized uniform, and von Mises angle-error models. Our analysis reveals that, in the small-error regime, the CRLBs increase quadratically with the angle errors due to transmit steering-vector mismatch. To ensure reliable sensing, we propose a robust power allocation framework that jointly optimizes pilot training and communications/sensing transmission powers to maximize the communications sum rate while satisfying CRLB outage constraints. The resulting nonconvex problem is solved using an alternating-optimization algorithm based on successive convex approximation. Numerical results validate the developed analysis and show that the proposed robust design reduces azimuth and elevation CRLB outage probabilities by up to $60\\%$ compared with conventional non-robust schemes. It attains up to $45\\%$ higher sum rates than the non-robust design under strict CRLB thresholds.",
+        "summary_vi": "This paper investigates monostatic massive MIMO ISAC systems under imperfect target-angle information, analyzing how estimation errors introduce steering-vector mismatches that degrade sensing accuracy and violate deterministic guarantees—directly impacting 5G RAN firmware design for integrated sensing-communication modules. The paper provides CRLB outage analysis and robust resource allocation strategies essential for practical deployment. Core takeaway: firmware engineers must implement adaptive beamforming with uncertainty quantification rather than assuming perfect angle estimates.",
+        "title": "Massive MIMO ISAC Under Target-Angle Uncertainty: CRLB Outage Analysis and Robust Resource Allocation"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
+    "oai:arXiv.org:2609.18512v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.18512v1",
+        "link": "https://arxiv.org/abs/2609.18512",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2609.18512v1 Announce Type: new \nAbstract: Fault-tolerant agreement protocols fail if replicas share a common flaw that simultaneously affects more replicas than the tolerable threshold. Therefore replicas should ideally fail independently, which can be achieved through diversification. However, in practice, often the same protocol implementation is shared by all replicas which is not surprising given that the provision of multiple diverse implementations is difficult and highly laborious. This poses a major risk, as a shared protocol implementation is a prime candidate for common bugs due to its complexity. With DiverseFT, we demonstrate how, given a reference implementation, Large Language Models (LLMs) can be utilised for the automated and scalable generation of code that compiles, passes tests, and crucially differs semantically/binary-wise, that can re- place code in the reference implementation, thereby significantly reducing diversification costs. We demonstrate the feasibility of diversification of replication protocol implementations using LLMs by diversifying three implementations: PBFT, HotStuff, and Raft, showing how up to 65% of the codebase can be diversified.",
+        "summary_vi": "The authors present DiverseFT, a framework that leverages LLMs to generate diverse software implementations of agreement protocols, enhancing fault tolerance by preventing common-mode failures.",
+        "title": "DiverseFT: Diversifying Fault-Tolerant Systems using LLMs"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
+    "oai:arXiv.org:2609.18519v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.18519v1",
+        "link": "https://arxiv.org/abs/2609.18519",
+        "relevance": 4,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2609.18519v1 Announce Type: new \nAbstract: With the rapid advancement of deep learning technology, shared GPU clusters receive an increasing number of deep learning training (DLT) jobs. Yet resource fragmentation make such clusters underutilized and forces the DLT jobs running on them to endure long turnaround times. Extensive research has been devoted to quantifying fragmentation and developing scheduling algorithms that alleviate its impact. However, existing fragmentation measures break down in the absence of workload distribution information, while current schedulers cannot continuously maintain resource fragmentation at a low level. To tackle these problems, we first introduce Scheduler-Induced Fragmentation (SIF), a metric built on the notion of partial-nodes that is independent of historical workload knowledge. We then propose COMPASS-ABS, which employs the COMPact-ASSured (COMPASS) algorithm to confine the cluster state within a tight Anchor-Based Space (ABS), whose construction fully leverages the topological alignment between dominant workload size and node capacity. Moreover. We also prove that it ensures SIF is bounded by $\\frac{2}{N}$ under a workload composition condition that matches both theory and production. Evaluations implemented on a physical cluster and a simulated cluster demonstrate COMPASS-ABS effectiveness at improving resource utilization, reducing DLT job completion time by reducing fragmentation.",
+        "summary_vi": "This paper presents COMPASS-ABS, a scheduling framework designed to reduce resource fragmentation and turn-around times for deep learning training jobs in shared GPU clusters.",
+        "title": "COMPASS-ABS: Reducing Fragmentation in Shared GPU Clusters for Deep Learning Training Workloads"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
+    "oai:arXiv.org:2609.18580v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.18580v1",
+        "link": "https://arxiv.org/abs/2609.18580",
+        "relevance": 5,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2609.18580v1 Announce Type: new \nAbstract: Quantum computers can potentially solve large-scale combinatorial problems very efficiently when the problems are first converted into the quadratic unconstrained binary optimization (QUBO) format. Scheduling in fifth generation (5G) base stations is a practical combinatorial problem that cannot be solved optimally in real-time using classical computing. We formulate the downlink (DL) multiple-input multiple-output (MIMO) scheduling at 5G base stations as QUBO and analyze the QUBO formulation scalability with respect to the key system parameters. The single-user MIMO (SU-MIMO) QUBO formulation looks promising because the number of QUBO variables grows linearly while the problem search space grows exponentially with increasing number of users. Based on the simulation results, the suboptimal greedy algorithm for the SU-MIMO performs well with a high number of users and low bandwidth. A hybrid approach, where either a quantum solver or a suboptimal low-complexity classical algorithm is selected based on the system parameters, seems sensible in practice. This work paves the way for future quantum and quantum-inspired implementations of scheduling in cellular systems.",
+        "summary_vi": "This work converts the NP-hard downlink MIMO scheduling problem at 5G base stations into Quadratic Unconstrained Binary Optimization (QUBO) format for quantum computing solutions, addressing the real-time computation bottleneck in classical RAN schedulers. For embedded/firmware engineers, this represents a potential paradigm shift in how scheduling decisions are computed—moving from heuristic algorithms to quantum-assisted optimization. Critical relevance: enables optimal resource allocation in massive MIMO scenarios where classical schedulers fail to meet real-time constraints.",
+        "title": "QUBO Formulations of the Downlink MIMO Scheduling Problem in 5G Base Stations"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
+    },
     "oai:arXiv.org:2609.18633v1": {
       "entry": {
         "category": "research",
@@ -2358,6 +2719,19 @@
         "title": "Netkit: Specializing Linux Packet Delivery for Container Networks"
       },
       "first_seen": "2026-09-17T12:48:54.388673+00:00"
+    },
+    "oai:arXiv.org:2609.18797v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.18797v1",
+        "link": "https://arxiv.org/abs/2609.18797",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2609.18797v1 Announce Type: new \nAbstract: Quantum Key Distribution (QKD) in optical networks can provide information-theoretic security but is limited by its operability range, thereby requiring repeater nodes for extended coverage. Existing works typically assume that all repeater nodes and their associated key management systems are fully trusted, overlooking the risks posed by software exploits and insider threats. To address this, in this work, we propose a Bayesian fusion-based model to quantify the trustworthiness of each node. We have formulated a reliability-guided Trusted Repeater Node (TRN) selection framework for metro optical networks, where each node is assigned a trust score. We have subsequently mapped this trust score to link weights, which in turn has been used for reliable path computation for TRN selection, using the Dijkstra algorithm. We have also ranked the nodes using a composite score combining eigenvector and betweenness centrality, to capture their topographical relevance in the network. Simulation results on a reference topology demonstrate that the proposed method achieves approximately 8.93% higher path coverage than traditional centrality-based approaches like degree centrality, using the same number (around ten) of TRNs, thereby supporting reliable and resilient TRN selection for QKD-enabled optical networks.",
+        "summary_vi": "Researchers propose a Bayesian fusion-based model for trusted repeater node selection in Quantum Key Distribution networks to counter software exploits and insider threats.",
+        "title": "Reliability-Guided Trusted Repeater Node Selection in QKD-Enabled Metro Optical Networks"
+      },
+      "first_seen": "2026-09-17T23:42:02.289072+00:00"
     }
   },
   "rejected": {
@@ -2380,12 +2754,15 @@
     "https://lwn.net/Articles/1094312/": "2026-09-15T00:58:03.779863+00:00",
     "https://lwn.net/Articles/1094469/": "2026-09-15T13:53:30.223364+00:00",
     "https://lwn.net/Articles/1094470/": "2026-09-15T13:53:30.223364+00:00",
+    "https://lwn.net/Articles/1094963/": "2026-09-17T23:42:02.289072+00:00",
     "https://rcrwireless.com/?p=434526": "2026-09-15T00:58:03.779863+00:00",
     "https://rcrwireless.com/?p=434540": "2026-09-16T02:41:57.982686+00:00",
+    "https://rcrwireless.com/?p=434576": "2026-09-17T23:42:02.289072+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/poro2-knowledge-graph/README.html": "2026-09-16T02:41:57.982686+00:00",
     "https://www.cnx-software.com/?p=176234": "2026-09-08T00:43:47.238508+00:00",
     "https://www.cnx-software.com/?p=177009": "2026-09-15T13:53:30.223364+00:00",
     "https://www.linuxfoundation.org/blog/how-ospos-are-preparing-organizations-for-the-eu-cyber-resilience-act": "2026-09-10T00:38:49.074531+00:00",
+    "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-september-2026": "2026-09-17T23:42:02.289072+00:00",
     "https://www.phoronix.com/news/AMD-GAIA-0.24-Local-AI": "2026-09-16T12:52:31.242072+00:00",
     "https://www.phoronix.com/news/DLSS5VKLayer": "2026-09-09T00:41:13.818850+00:00",
     "https://www.phoronix.com/news/Debian-13.7-Released": "2026-09-13T00:26:06.323761+00:00",
@@ -2409,6 +2786,7 @@
     "https://www.phoronix.com/news/Shotcut-26.9-Beta": "2026-09-06T23:09:25.403583+00:00",
     "https://www.phoronix.com/news/Slackware-16-Alpha": "2026-09-06T12:13:08.951233+00:00",
     "https://www.phoronix.com/news/Steam-Beta-9-September-2026": "2026-09-10T00:38:49.074531+00:00",
+    "https://www.phoronix.com/news/Ubuntu-26.10-Snapshot-4": "2026-09-17T23:42:02.289072+00:00",
     "https://www.phoronix.com/news/Ubuntu-26.10-amd64v3-Daily": "2026-09-08T00:43:47.238508+00:00",
     "https://www.phoronix.com/news/Valve-Steam-Frame-1059": "2026-09-15T00:58:03.779863+00:00",
     "https://www.phoronix.com/news/Void-Linux-AI-Policy-Orphan": "2026-09-13T00:26:06.323761+00:00",
@@ -2429,6 +2807,7 @@
     "https://www.redhat.com/en/blog/autorag-advances-red-hat-openshift-ai-35": "2026-09-15T00:58:03.779863+00:00",
     "https://www.redhat.com/en/blog/build-compliance-assistant-autorag-and-red-hat-openshift-ai": "2026-09-11T00:35:59.502530+00:00",
     "https://www.redhat.com/en/blog/closing-aiops-loop-splunk-observability-cloud-and-red-hat-ansible-automation-platform": "2026-09-12T00:42:36.175668+00:00",
+    "https://www.redhat.com/en/blog/data-residency-digital-control-why-middle-east-cloud-future-depends-on-ecosystem": "2026-09-17T23:42:02.289072+00:00",
     "https://www.redhat.com/en/blog/datacenter-myth-why-sovereign-ai-demands-tenancy-model-not-just-geography": "2026-09-16T02:41:57.982686+00:00",
     "https://www.redhat.com/en/blog/fedora-45-beta-now-available": "2026-09-16T02:41:57.982686+00:00",
     "https://www.redhat.com/en/blog/friday-five-september-11-2026-red-hat": "2026-09-12T00:42:36.175668+00:00",
@@ -2444,6 +2823,8 @@
     "https://www.redhat.com/en/blog/red-hat-named-leader-idc-marketscape-worldwide-private-and-hybrid-cloud-management-automation": "2026-09-15T00:58:03.779863+00:00",
     "https://www.redhat.com/en/blog/red-hat-openshift-where-strategic-vision-meets-enterprise-execution": "2026-09-16T23:52:22.553694+00:00",
     "https://www.redhat.com/en/blog/red-hat-sponsors-openclaw-foundation-advance-open-future-production-ai-agents": "2026-09-10T00:38:49.074531+00:00",
+    "https://www.redhat.com/en/blog/scaling-enterprise-ai-fleets-alquimia-and-red-hat-openshift-ai": "2026-09-17T23:42:02.289072+00:00",
+    "https://www.redhat.com/en/blog/smart-enough-fast-enough-choosing-right-models-agentic-work": "2026-09-17T23:42:02.289072+00:00",
     "https://www.redhat.com/en/blog/sovereign-ai-and-data-services-with-duality-and-red-hat": "2026-09-16T23:52:22.553694+00:00",
     "https://www.redhat.com/en/blog/stop-rewriting-stable-code-how-lightwell-protects-your-bottom-line-and-developer-velocity": "2026-09-16T23:52:22.553694+00:00",
     "oai:arXiv.org:2604.13536v5": "2026-09-17T12:48:54.388673+00:00",
@@ -2483,6 +2864,7 @@
     "oai:arXiv.org:2609.17954v1": "2026-09-17T12:48:54.388673+00:00",
     "oai:arXiv.org:2609.18110v1": "2026-09-17T12:48:54.388673+00:00",
     "oai:arXiv.org:2609.18112v1": "2026-09-17T12:48:54.388673+00:00",
+    "oai:arXiv.org:2609.18120v1": "2026-09-17T23:42:02.289072+00:00",
     "oai:arXiv.org:2609.18849v1": "2026-09-17T12:48:54.388673+00:00"
   }
 }
