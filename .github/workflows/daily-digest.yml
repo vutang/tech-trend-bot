@@ -3,7 +3,7 @@ name: Daily tech trend digest
 on:
   schedule:
     - cron: '47 21 * * *'   # morning: 04:47 Vietnam, next calendar day
-    - cron: '47 07 * * *'   # afternoon: 14:47 Vietnam
+    - cron: '47 05 * * *'   # afternoon: 12:47 Vietnam
   workflow_dispatch:
     inputs:
       session:
@@ -44,7 +44,7 @@ jobs:
           if [[ "$EVENT_NAME" == "schedule" ]]; then
             case "$EVENT_SCHEDULE" in
               '47 21 * * *') session=morning ;;
-              '47 07 * * *') session=afternoon ;;
+              '47 05 * * *') session=afternoon ;;
               *) echo "Unknown schedule: $EVENT_SCHEDULE" >&2; exit 1 ;;
             esac
           else

@@ -82,7 +82,7 @@ Workflow `Daily tech trend digest` trong
 | Phiên | Giờ Việt Nam (UTC+7) | Cron UTC | Cap | Quota ran / research / virt |
 |---|---|---|---:|---|
 | morning | 04:47 | `47 21 * * *` | 10 | 2 / 2 / 2 |
-| afternoon | 14:47 | `47 07 * * *` | 5 | 1 / 1 / 1 |
+| afternoon | 12:47 | `47 05 * * *` | 5 | 1 / 1 / 1 |
 
 - Scheduled run lấy phiên từ `github.event.schedule`, nên cron trễ vẫn chạy
   đúng phiên. Mốc 21:47 UTC là 04:47 ngày hôm sau tại Việt Nam.
