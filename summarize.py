@@ -42,46 +42,99 @@ _JSON_RULE = (
 # Bước 1: Gemini Flash-Lite — chỉ chấm điểm, không tóm tắt (ít token nhất)
 GEMINI_FILTER_PROMPT = (
     "Bạn là bộ lọc tin tức công nghệ cho kỹ sư embedded/firmware mảng 5G RAN.\n\n"
+    "SỞ THÍCH NGƯỜI ĐỌC:\n"
+    "- Cốt lõi: embedded/firmware, Linux kernel, real-time, 5G RAN/Open RAN, "
+    "kiến trúc máy tính, networking và virtualization.\n"
+    "- Cũng quan tâm: công cụ và cách làm việc của lập trình viên, Git/hệ thống phân tán, "
+    "lựa chọn model và tối ưu workflow AI, thực hành/debug phần cứng, quản lý dự án cá nhân, "
+    "Raspberry Pi và ứng dụng self-hosted có thay đổi hữu ích. "
+    "Không bắt buộc các chủ đề này phải liên quan 5G mới được giữ lại.\n\n"
     "Với danh sách bài viết JSON (mỗi bài có title/summary), chấm điểm relevance cho MỖI bài:\n"
-    "- 5: Trực tiếp: kernel patch/feature quan trọng, real-time (PREEMPT_RT), 5G RAN/Open RAN, "
-    "kiến trúc máy tính/mạng máy tính (nghiên cứu hoặc triển khai), firmware/bootloader, "
-    "chip/SoC embedded mới\n"
-    "- 4: Gián tiếp nhưng có nội dung kỹ thuật cụ thể: driver mới, toolchain/compiler, "
-    "network protocol, vendor BSP/SDK, benchmark hiệu năng phần cứng\n"
-    "- 3: Tin công nghệ tổng quát có giá trị tham khảo (xu hướng ngành, phân tích), "
-    "không sâu kỹ thuật nhưng vẫn đáng đọc\n"
-    "- 2: Thông báo phát hành ĐỊNH KỲ không có nội dung kỹ thuật mới nổi bật — ví dụ ISO/snapshot "
-    "testing thường lệ, phần mềm desktop/end-user không liên quan kernel/embedded "
-    "(audio/video editor, ứng dụng văn phòng...); business/funding/chính sách\n"
-    "- 1: PR/quảng cáo/không có nội dung kỹ thuật\n\n"
-    "LƯU Ý: một bài có tiêu đề nhắc tới 'release'/'version mới' KHÔNG tự động được điểm cao — "
-    "chỉ chấm 4-5 nếu bản thân thay đổi đó có ý nghĩa kỹ thuật thật (ví dụ: hỗ trợ real-time, "
-    "kernel version nhảy vọt kèm thay đổi cấu trúc, tối ưu hiệu năng có số liệu cụ thể), "
-    "không phải chỉ vì đó là bài về 'release'.\n\n"
+    "- 5: Nội dung kỹ thuật trực tiếp thuộc nhóm cốt lõi, có thay đổi, cơ chế hoặc vấn đề "
+    "cụ thể đáng tìm hiểu sâu: kernel/real-time, RAN, firmware/bootloader, chip/SoC, "
+    "kiến trúc máy tính/mạng (nghiên cứu hoặc triển khai).\n"
+    "- 4: Nội dung kỹ thuật cụ thể thuộc các sở thích trên: driver, compiler/toolchain, "
+    "protocol, BSP/SDK, benchmark, thiết kế hệ thống, hướng dẫn/debug phần cứng.\n"
+    "- 3: Có giá trị cập nhật hoặc thực hành cho người đọc nhưng chưa sâu kỹ thuật: "
+    "trade-off công cụ/model AI, cách tổ chức công việc/dự án, thay đổi hữu ích ở "
+    "Raspberry Pi/self-hosted, xu hướng công nghệ có phân tích.\n"
+    "- 2: Release/ISO/snapshot định kỳ, cập nhật desktop chung chung không có thay đổi "
+    "hữu ích được nêu; business/funding/chính sách; tin AI doanh nghiệp hoặc nghiên cứu "
+    "ngoài sở thích, không có bài học kỹ thuật phù hợp trong đầu vào.\n"
+    "- 1: PR/quảng cáo/giải thưởng, nội dung đã xoá hoặc không có thông tin hữu ích.\n\n"
+    "RANH GIỚI:\n"
+    "- Bài có điểm >= 3 được giữ lại. Chấm theo thông tin trong title/summary, "
+    "không suy diễn ứng dụng 5G/embedded để nâng điểm.\n"
+    "- Không tự nâng điểm chỉ vì có từ 'release', 'AI', 'Git', 'GPU', 'network' "
+    "hoặc vì bài là nghiên cứu. Xét vấn đề, thay đổi và ích lợi cụ thể được nêu.\n"
+    "- Bài hỏi kinh nghiệm thực hành/quản lý dự án có thể đạt 3 dù chưa có lời giải; "
+    "không mặc định mọi thảo luận cộng đồng đều là nhiễu.\n\n"
+    "VÍ DỤ HIỆU CHỈNH (điểm relevance 1-5, không phải điểm rating 0-2):\n"
+    "- 'The Essence of Git: Concepts for P2P Replication': giải thích object model và "
+    "replication để xây ứng dụng phân tán -> 4.\n"
+    "- 'Jellyfin 12.0 released': có cải tiến database và nâng FFmpeg cho transcoding "
+    "-> 3; không loại chỉ vì là ứng dụng end-user.\n"
+    "- 'Smart enough, fast enough: Choosing the right models for agentic work': "
+    "bàn trade-off độ chính xác và độ trễ trong workflow coding agent -> 3.\n"
+    "- 'How do you manage multiple projects at once?': vướng phần cứng, cân nhắc "
+    "đổi dự án và tránh kiệt sức khi làm dự án cá nhân -> 3.\n"
+    "- 'Gitte As Git Client For GNOME Continues Maturing Quite Nicely': chỉ báo "
+    "version mới của Git GUI, chưa nêu cải tiến hữu ích -> 2.\n"
+    "- 'Build a compliance assistant with AutoRAG and Red Hat OpenShift AI': "
+    "use case hỏi đáp tài liệu tuân thủ doanh nghiệp, chưa có bài học phù hợp "
+    "với sở thích trên trong đoạn cung cấp -> 2.\n"
+    "- 'Red Hat is named a Leader in IDC MarketScape: Worldwide Private and Hybrid "
+    "Cloud Management with Automation': tin giải thưởng vendor -> 1.\n"
+    "Ví dụ minh hoạ ranh giới, không phải danh sách title/nhãn hiệu được ưu tiên.\n\n"
+    "Giữ nguyên title; trả đúng một kết quả cho mỗi bài đầu vào.\n"
     'Dạng trả về: {"items": [{"title": "...", "relevance": 1-5}, ...]}\n'
     + _JSON_RULE
+)
+
+# Dùng chung để Gemini và Claude giữ cùng tiêu chuẩn về độ rõ và căn cứ.
+_SUMMARY_CONTENT_RULES = (
+    "QUY TẮC NỘI DUNG:\n"
+    "- Chỉ dùng thông tin trong title/summary được cung cấp. Link nếu có chỉ là "
+    "định danh; không giả định đã đọc toàn văn.\n"
+    "- Với bài nghiên cứu: diễn đạt theo thứ tự vấn đề cần giải quyết -> "
+    "phương pháp/cơ chế chính -> kết quả hoặc giới hạn được nguồn nêu. "
+    "Dùng câu văn liền mạch, không cần nhãn cho từng phần.\n"
+    "- Giải thích ngắn vai trò của thuật ngữ quan trọng bằng ngôn ngữ dễ hiểu "
+    "cho kỹ sư chưa chuyên về đề tài đó; tránh chỉ lặp lại tên phương pháp/viết tắt.\n"
+    "- Giữ số liệu, điều kiện đo và giới hạn khi có trong đầu vào. Nếu đoạn trích "
+    "thiếu kết quả thì chỉ tóm tắt vấn đề/phương pháp đã biết; không bịa số liệu, "
+    "benchmark hoặc biến một đề xuất thành cải thiện đã được chứng minh. "
+    "Nếu chưa đủ thông tin để hiểu cơ chế, nói ngắn gọn rằng đoạn trích chưa mô tả nó.\n"
+    "- Chỉ liên hệ với embedded/5G khi đầu vào nêu rõ mối liên hệ. Không thêm "
+    "ứng dụng giả định, lời khuyên triển khai hay câu quảng bá về tác động với kỹ sư.\n"
+    "- Với tin phát hành/phần cứng/công cụ: nêu thay đổi cụ thể và tác dụng được "
+    "nguồn mô tả. Với câu hỏi cộng đồng: nêu vấn đề và điều kiện người viết đưa ra, "
+    "không tự trả lời câu hỏi.\n\n"
 )
 
 # Bước 2: Gemini Flash — tóm tắt (giữ nguyên tiếng Anh) cho phần lớn bài
 GEMINI_SUMMARIZE_PROMPT = (
     "Bạn là trợ lý tổng hợp tin tức công nghệ cho kỹ sư embedded/firmware mảng 5G RAN.\n\n"
-    "Với danh sách bài viết JSON (mỗi bài có title/link/summary), với MỖI bài trả về:\n"
+    "Với danh sách bài viết JSON (mỗi bài có title/summary), với MỖI bài trả về:\n"
     "- title: giữ nguyên tiêu đề gốc\n"
     "- summary_vi: tóm tắt 1-2 câu BẰNG TIẾNG ANH (không dịch sang tiếng Việt), "
-    "nêu đúng thông tin chính, không nhận định chủ quan\n\n"
-    'Dạng trả về: {"items": [{"title": "...", "summary_vi": "..."}, ...]}\n'
+    "tối đa 70 từ, ưu tiên thông tin cụ thể giúp quyết định có mở bài đọc hay không.\n\n"
+    + _SUMMARY_CONTENT_RULES
+    + 'Dạng trả về: {"items": [{"title": "...", "summary_vi": "..."}, ...]}\n'
     + _JSON_RULE
 )
 
 # Bước 3: Claude Haiku — phân tích sâu (giữ nguyên tiếng Anh) cho bài kỹ thuật cao (relevance = 5)
 CLAUDE_DEEP_PROMPT = (
     "Bạn là chuyên gia phân tích kỹ thuật cho kỹ sư embedded/firmware mảng 5G RAN.\n\n"
-    "Các bài viết dưới đây được đánh giá là RẤT QUAN TRỌNG (relevance = 5).\n"
+    "Tóm tắt rõ nội dung kỹ thuật của các bài sau từ title/link/summary được cung cấp.\n"
     "Với MỖI bài, hãy trả về:\n"
     "- title: giữ nguyên tiêu đề gốc\n"
-    "- summary_vi: tóm tắt 2-3 câu BẰNG TIẾNG ANH (không dịch sang tiếng Việt), nêu rõ: "
-    "công nghệ cụ thể, tác động thực tế với kỹ sư embedded/5G, điểm đáng chú ý nhất\n\n"
-    'Dạng trả về: {"items": [{"title": "...", "summary_vi": "..."}, ...]}\n'
+    "- summary_vi: tóm tắt 2-3 câu BẰNG TIẾNG ANH (không dịch sang tiếng Việt), "
+    "tối đa 90 từ; dành chỗ cho cơ chế, kết quả và điều kiện áp dụng có căn cứ, "
+    "không kéo dài nếu đoạn trích chỉ cung cấp ít thông tin.\n\n"
+    + _SUMMARY_CONTENT_RULES
+    + 'Dạng trả về: {"items": [{"title": "...", "summary_vi": "..."}, ...]}\n'
     + _JSON_RULE
 )
 

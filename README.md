@@ -34,6 +34,18 @@ Các model đang được cấu hình trong `summarize.py`:
 Summary gửi tới Telegram hiện được sinh bằng tiếng Anh. Gemini được gọi qua
 SDK `google-genai`; Claude được gọi qua SDK `anthropic`.
 
+Prompt lọc ưu tiên embedded/5G và có xét thêm công cụ phát triển, Git/hệ thống
+phân tán, workflow AI, thực hành phần cứng và dự án cá nhân. Các ví dụ từ rating
+giúp phân biệt nội dung hữu ích với tin phát hành/quảng bá chung chung; ngưỡng
+lọc vẫn là 3. Điểm rating 0–2 và relevance 1–5 là hai thang khác nhau.
+
+Cả Gemini và Claude được yêu cầu tóm tắt research theo vấn đề → phương pháp →
+kết quả/giới hạn có trong đầu vào, giải thích thuật ngữ quan trọng và chỉ liên
+hệ với embedded/5G khi nguồn nêu rõ. Summary dài tối đa 70 từ ở Gemini, 90 từ
+ở Claude theo chỉ dẫn prompt; đây không phải giới hạn được code cưỡng chế.
+Đầu vào vẫn là trích RSS (300 ký tự cho lọc, 500 cho tóm tắt), chưa đọc toàn văn.
+Bộ mẫu và cách đánh giá thay đổi nằm trong [prompt review](docs/prompt-review.md).
+
 ## Cài đặt
 
 GitHub Actions dùng Python 3.12; nên dùng cùng phiên bản khi chạy local.
@@ -232,7 +244,26 @@ tối đa 5 bài hợp lệ trong một lần chạy.
   ```bash
   python rate.py
   python rate.py 30
+  python rate.py 20 --mode backlog
   ```
+
+  Chế độ mặc định chấm delivered/rejected. `--mode backlog` chấm pending/expired
+  chưa từng được chấm: chia đôi batch giữa hai trạng thái, bù từ nhóm còn lại
+  nếu thiếu bài; batch lẻ chọn ngẫu nhiên nhóm nhận thêm một slot. Trong mỗi
+  trạng thái, lấy ngẫu nhiên và luân phiên category còn bài, không ưu tiên
+  relevance cao. Trộn toàn bộ bài trước khi hiển thị; trạng thái và điểm AI
+  vẫn được ẩn. `batch` phải là số nguyên dương.
+
+  Mỗi rating mới lưu `sampling_mode` (`default`/`backlog`) và `ai_status` tại
+  thời điểm chấm. Rating cũ thiếu `sampling_mode` thuộc chế độ mặc định.
+  Bài đã chấm ở bất kỳ mode nào sẽ không được hỏi lại khi đổi trạng thái.
+  Chấm điểm chỉ ghi `ratings.jsonl`, không thay đổi trạng thái gửi bài.
+
+  Khi phân tích, pending chấm 2 là bài đáng đọc đang chờ; expired chấm 2 là
+  bài đáng đọc đã hết hạn trước khi gửi. Cần đối chiếu trạng thái mới nhất
+  với trạng thái lúc chấm, tách `?` khỏi điểm hữu ích. Mẫu backlog cân bằng
+  category không đại diện tỷ lệ toàn kho; báo cáo nên tách theo trạng thái
+  và category. `analyze.py` hiện vẫn chỉ tổng hợp telemetry, chưa tổng hợp ratings.
 
 ## Cấu trúc repository
 
