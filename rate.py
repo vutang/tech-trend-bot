@@ -113,7 +113,15 @@ def rate(batch: int = DEFAULT_BATCH) -> None:
         return
 
     n_rejected = min(REJECTED_SAMPLE, len(rejected), max(batch // 4, 1))
-    items = delivered[: batch - n_rejected] + random.sample(rejected, n_rejected)
+    n_delivered = min(len(delivered), batch - n_rejected)
+    # Bù thêm từ rejected nếu delivered không đủ lấp đầy batch (ví dụ đã
+    # chấm hết delivered), thay vì để phiên bị co lại còn vài tin trong
+    # khi rejected vẫn còn nhiều — đây chính là nguyên nhân mỗi phiên chỉ
+    # còn ~3 tin sau khi đã chấm hết backlog delivered.
+    remaining = batch - n_delivered - n_rejected
+    if remaining > 0 and len(rejected) > n_rejected:
+        n_rejected = min(len(rejected), n_rejected + remaining)
+    items = delivered[:n_delivered] + random.sample(rejected, n_rejected)
     random.shuffle(items)  # trộn để không đoán được tin nào bị AI loại
 
     print(f"\nChấm {len(items)} tin. Thang điểm:")
