@@ -11,9 +11,35 @@ sources:
   #   url: https://www.theverge.com/rss/index.xml
   #   category: general
 
+  # Hackaday toàn site đang tắt; khác với tag Embedded Linux.
+  # Tag https://hackaday.com/tag/embedded-linux/feed/ đã kiểm tra 2026-09-21:
+  # HTTP 200 nhưng mới nhất 2025-11-24. Ưu tiên thử Linux Hacks bên dưới.
   # - name: Hackaday
   #   url: https://hackaday.com/feed/
   #   category: embedded
+
+  # ỨNG VIÊN: HTTP 200, 7 entry có ID/ngày; mới nhất 2026-09-19.
+  # Linux thực hành, có cả desktop; excerpt ngắn, content:encoded dài hơn.
+  # - name: Hackaday (Linux Hacks)
+  #   url: https://hackaday.com/category/linux-hacks/feed/
+  #   category: embedded
+
+  # CHỜ: EE Times tag Embedded Linux có 2 entry, mới nhất 2023-08-08.
+  # - name: EE Times (Embedded Linux)
+  #   url: https://www.eetimes.com/tag/embedded-linux/feed/
+  #   category: embedded
+
+  # CHỜ xử lý email/thread: Atom lore đọc được nhưng nhiều patch/reply;
+  # cần phân biệt patch đề xuất với thay đổi đã merge/phát hành.
+  # - name: Buildroot (lore)
+  #   url: https://lore.kernel.org/buildroot/new.atom
+  #   category: embedded
+  # - name: Yocto (lore)
+  #   url: https://lore.kernel.org/yocto/new.atom
+  #   category: embedded
+  # Yocto announce/status RSS trên Groups.io ít nhiễu hơn, cần lấy đúng
+  # phần kỹ thuật trước khi cắt snippet. Endpoint và kết quả kiểm tra:
+  # docs/embedded-source-research-2026-09-21.md.
 
   # - name: arXiv cs.AI
   #   url: https://rss.arxiv.org/rss/cs.AI
@@ -52,6 +78,8 @@ sources:
   # - name: eLinux Recent Changes
   #   url: https://elinux.org/index.php?title=Special:RecentChanges&feed=rss
   #   category: embedded
+  # Kiểm tra lại 2026-09-21: HTTP 200, 48 entry; vẫn gồm diff và log tài
+  # khoản. Giữ tắt; nên theo dõi trang wiki chọn trước/tài liệu hội nghị.
 
   # LWN.net Front Page: Nguồn tin số 1 về Linux kernel & cộng đồng.
   # Phủ rộng các thay đổi kernel mới nhất, phân tích kỹ thuật sâu.

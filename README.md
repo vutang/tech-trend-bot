@@ -220,6 +220,9 @@ vào `sources.yaml`; các nguồn còn lại đang chờ xử lý theo đề xu�
 Rà soát Linux tổng quát: [Tux Machines và LXer](docs/linux-source-research-2026-09-21.md).
 Hai nguồn được lưu dưới dạng comment, kèm điều kiện xử lý trước khi bật.
 
+Rà soát Embedded Systems: [eLinux, EE Times, Hackaday và Buildroot/Yocto](docs/embedded-source-research-2026-09-21.md).
+Đề xuất Hackaday Linux Hacks thay tag cũ; mailing list cần xử lý email/thread.
+
 ## Observability và đánh giá
 
 - `digest_log.py` ghi telemetry dạng JSONL vào `logs/YYYY-MM.jsonl`, gồm nguồn,
