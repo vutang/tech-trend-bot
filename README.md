@@ -223,6 +223,16 @@ Hai nguồn được lưu dưới dạng comment, kèm điều kiện xử lý t
 Rà soát Embedded Systems: [eLinux, EE Times, Hackaday và Buildroot/Yocto](docs/embedded-source-research-2026-09-21.md).
 Đề xuất Hackaday Linux Hacks thay tag cũ; mailing list cần xử lý email/thread.
 
+Linux Kernel chuyên sâu: [LWN Kernel, LKML, Phoronix Kernel và KernelNewbies](docs/kernel-source-research-2026-09-21.md).
+Ghi chú và feed ứng viên đã thêm vào cấu hình; chưa kích hoạt nguồn mới.
+
+Real-time Computing: [Real-Time Linux/PREEMPT_RT](docs/realtime-source-research-2026-09-21.md).
+RSS chính thức đọc được; cần fallback `content:encoded` trước khi bật blog.
+
+Chip vendor: [Intel, AMD/Xilinx, Qualcomm, NXP, TI, Arm và ST](docs/vendor-source-research-2026-09-21.md).
+Ưu tiên NXP i.MX Knowledge Base; đã lưu feed ứng viên và điều kiện tích hợp,
+chưa kích hoạt nguồn mới.
+
 ## Observability và đánh giá
 
 - `digest_log.py` ghi telemetry dạng JSONL vào `logs/YYYY-MM.jsonl`, gồm nguồn,

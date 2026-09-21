@@ -68,6 +68,21 @@ sources:
     url: https://www.linuxfoundation.org/blog/rss.xml
     category: embedded
 
+  # ── Real-time Computing ──────────────────────────────────────────────
+  # Real-Time Linux/PREEMPT_RT: RSS chính thức HTTP 200, 4 entry có ID/ngày;
+  # mới nhất 2026-04-20 (kiểm tra 2026-09-21), nguồn chuyên sâu ra bài thưa.
+  # CHỜ fallback entry.content trong fetch.py: cả 4 summary rỗng,
+  # nội dung ở content:encoded mà fetcher hiện chưa đọc.
+  # - name: Real-Time Linux Blog
+  #   url: https://realtime-linux.org/feed/
+  #   category: embedded
+  # CHỜ xử lý email/thread: linux-rt-users Atom đọc được nhưng 23/25
+  # subject mẫu có PATCH; không bật nguyên luồng như feed bài viết.
+  # - name: linux-rt-users (lore)
+  #   url: https://lore.kernel.org/linux-rt-users/new.atom
+  #   category: embedded
+  # Chi tiết: docs/realtime-source-research-2026-09-21.md.
+
   # ĐÃ TẮT (2026-09-03): 2 nguồn dưới đây không phải bài viết thật, mỗi entry
   # chỉ là metadata/diff, ra tin rất đều đặn nên chiếm hết slot top-5 mà
   # không có nội dung — xem lại nếu muốn bật lại, cần thêm logic khác để
@@ -80,6 +95,28 @@ sources:
   #   category: embedded
   # Kiểm tra lại 2026-09-21: HTTP 200, 48 entry; vẫn gồm diff và log tài
   # khoản. Giữ tắt; nên theo dõi trang wiki chọn trước/tài liệu hội nghị.
+
+  # ── Linux Kernel chuyên sâu ──────────────────────────────────────────
+  # Kiểm tra 2026-09-21: docs/kernel-source-research-2026-09-21.md.
+  # LWN Kernel: https://lwn.net/Kernel/ là HTML, chưa xác minh RSS riêng;
+  # /headlines/Kernel trả 404. Feed Features dưới là bài gốc đa chủ đề,
+  # KHÔNG phải Kernel-only; trùng ID với feed tổng, cân nhắc cap chung.
+  # - name: LWN.net Features
+  #   url: https://lwn.net/headlines/Features
+  #   category: embedded
+
+  # LKML: Atom đọc được, nhưng 25 thư mẫu chỉ bao phủ ~10 phút;
+  # cần gom thread/patch series, lọc chủ đề và checkpoint trước khi bật.
+  # - name: LKML (lore)
+  #   url: https://lore.kernel.org/lkml/new.atom
+  #   category: embedded
+
+  # Phoronix Kernel: https://www.phoronix.com/linux/Linux+Kernel là HTML;
+  # RSS quảng bá trên trang vẫn là /rss.php tổng. Giữ nguồn đang bật.
+  # KernelNewbies: ưu tiên https://kernelnewbies.org/LinuxVersions và
+  # các trang Linux_X.Y theo release; cần adapter lấy nội dung trang.
+  # https://kernelnewbies.org/RecentChanges?action=rss_rc đọc được nhưng
+  # là wiki edit feed; 11/15 summary rỗng, không bật làm nguồn bài viết.
 
   # LWN.net Front Page: Nguồn tin số 1 về Linux kernel & cộng đồng.
   # Phủ rộng các thay đổi kernel mới nhất, phân tích kỹ thuật sâu.
@@ -115,6 +152,51 @@ sources:
   - name: LinuxGizmos.com
     url: https://linuxgizmos.com/feed/
     category: embedded
+
+  # ── Chip vendor: ứng viên bổ sung, kiểm tra 2026-09-21 ────────────────
+  # Chi tiết: docs/vendor-source-research-2026-09-21.md.
+  # ƯU TIÊN: NXP i.MX Knowledge Base là bài hướng dẫn, khác forum Q&A.
+  # RSS HTTP 200, 20 entry có ID/ngày; summary trung vị 1.787 ký tự.
+  # Mới nhất 2026-09-09; một số bài chỉ giới thiệu tài liệu đính kèm.
+  # - name: NXP i.MX Knowledge Base
+  #   url: https://community.nxp.com/rss/board?board.id=imx-processors%40tkb
+  #   category: embedded
+
+  # Intel Open Ecosystem dẫn tới Intel Tech trên Medium. RSS đọc được,
+  # nhưng mẫu nghiêng AI/Xeon/OPEA; cần lọc relevance, có entry chỉ là link.
+  # - name: Intel Tech
+  #   url: https://medium.com/feed/intel-tech
+  #   category: embedded
+  # Phoronix /linux/Intel quảng bá RSS tổng đang bật, chưa có feed Intel
+  # riêng được xác minh; không thêm nguồn trùng URL /rss.php.
+
+  # CHỜ xử lý Q&A: TI Recent Threads có 25 entry, gồm cả câu hỏi chưa có
+  # lời giải. Cần lọc AM/DRA + Linux/RTOS và lấy FAQ/accepted answer.
+  # - name: TI E2E Processors (Recent Threads)
+  #   url: https://e2e.ti.com/support/processors-group/processors/f/processors-forum/rss?Mode=0
+  #   category: embedded
+
+  # Arm Newsroom RSS đọc được nhưng lẫn PR/tin doanh nghiệp.
+  # Arm Community Embedded đã chuyển sang developer.arm.com; URL /rss
+  # cũ trả HTML, không dùng nó như RSS.
+  # - name: Arm Newsroom
+  #   url: https://newsroom.arm.com/feed
+  #   category: embedded
+
+  # ST tag feeds đọc được nhưng ra bài thưa: STM32MP1 mới nhất 2026-02-11,
+  # STM32MP2 2025-04-29. Summary trung vị 126/128 ký tự; cần chọn nội dung
+  # từ content:encoded khi excerpt quá ngắn, fallback rỗng chưa đủ.
+  # - name: ST Blog (STM32MP1)
+  #   url: https://blog.st.com/tag/stm32mp1/feed/
+  #   category: embedded
+  # - name: ST Blog (STM32MP2)
+  #   url: https://blog.st.com/tag/stm32mp2/feed/
+  #   category: embedded
+
+  # AMD Embedded Software/Vitis/Kria, NXP i.MX Linux docs và ST OpenSTLinux
+  # release notes: theo dõi tài liệu theo phiên bản, cần adapter HTML/PDF.
+  # Qualcomm Developer Blog: có bài kỹ thuật mới nhưng chưa xác minh RSS;
+  # requests nhận trang JavaScript. Giữ meta-qcom đang bật bên dưới.
 
   # AMD/Xilinx XRT (Xilinx Runtime) — driver stack chạy accelerator FPGA.
   # Thay cho Vitis_Embedded_Platform_Source (đã xác nhận chết từ 2020,
