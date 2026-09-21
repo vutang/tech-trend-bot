@@ -217,6 +217,9 @@ hội nghị): [nghiên cứu ngày 2026-09-21](docs/source-research-2026-09-21.
 Báo cáo ghi kết quả kiểm tra endpoint và đề xuất tích hợp. Đã bổ sung cs.PL
 vào `sources.yaml`; các nguồn còn lại đang chờ xử lý theo đề xuất.
 
+Rà soát Linux tổng quát: [Tux Machines và LXer](docs/linux-source-research-2026-09-21.md).
+Hai nguồn được lưu dưới dạng comment, kèm điều kiện xử lý trước khi bật.
+
 ## Observability và đánh giá
 
 - `digest_log.py` ghi telemetry dạng JSONL vào `logs/YYYY-MM.jsonl`, gồm nguồn,

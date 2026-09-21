@@ -23,6 +23,19 @@ sources:
   #   url: https://rss.arxiv.org/rss/cs.NI
   #   category: embedded
 
+  # Linux tổng quát — CHỜ XỬ LÝ trước khi bật (kiểm tra 2026-09-21).
+  # LXer: HTTP 200, 20 entry có excerpt nhưng không timestamp đọc được;
+  # cần chính sách tuổi bài và khử trùng URL với Phoronix/LinuxGizmos.
+  # - name: LXer
+  #   url: https://lxer.com/module/newswire/headlines.rdf
+  #   category: general
+  # Tux Machines: HTTP 200, 85 entry; mô tả trung vị chỉ 50 ký tự,
+  # nhiều bài gom link cần extraction/tách bài trước khi tóm tắt.
+  # - name: Tux Machines
+  #   url: https://news.tuxmachines.org/feed.xml
+  #   category: general
+  # Chi tiết: docs/linux-source-research-2026-09-21.md.
+
   # Linux Foundation blog: phủ rộng open source (Linux kernel, embedded, AI,
   # telecom, cloud). Bài không liên quan sẽ bị lọc bởi relevance score.
   - name: Linux Foundation Blog
