@@ -215,6 +215,13 @@ sources:
     url: https://rss.arxiv.org/rss/cs.OS
     category: research
 
+  # arXiv cs.PL: ngôn ngữ lập trình, compiler, ownership và concurrency.
+  # Kiểm tra 2026-09-21: HTTP 200, 7 entry, có abstract; gồm cả bản sửa đổi.
+  # Chi tiết: docs/source-research-2026-09-21.md.
+  - name: arXiv cs.PL (Programming Languages)
+    url: https://rss.arxiv.org/rss/cs.PL
+    category: research
+
   # SIGARCH — Computer Architecture Today: branch prediction, accelerator,
   # memory và phương pháp nghiên cứu; có cả opinion/báo cáo hội nghị.
   # RSS đã kiểm tra 2026-09-14: HTTP 200, 10 entry; mới nhất 2026-09-09.

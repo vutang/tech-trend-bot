@@ -212,6 +212,11 @@ Các category đang được cấu hình là `embedded`, `ran`, `research` và `
 Với entry có timestamp, fetcher bỏ qua bài cũ hơn 27 giờ; mỗi nguồn được lấy
 tối đa 5 bài hợp lệ trong một lần chạy.
 
+Đánh giá nguồn khoa học máy tính bổ sung (cs.PL, ACM Queue, HN, Reddit và
+hội nghị): [nghiên cứu ngày 2026-09-21](docs/source-research-2026-09-21.md).
+Báo cáo ghi kết quả kiểm tra endpoint và đề xuất tích hợp. Đã bổ sung cs.PL
+vào `sources.yaml`; các nguồn còn lại đang chờ xử lý theo đề xuất.
+
 ## Observability và đánh giá
 
 - `digest_log.py` ghi telemetry dạng JSONL vào `logs/YYYY-MM.jsonl`, gồm nguồn,
