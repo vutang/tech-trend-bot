@@ -63,6 +63,7 @@
     "https://rcrwireless.com/?p=434606": "2026-09-22T23:49:48.541761+00:00",
     "https://rcrwireless.com/?p=434618": "2026-09-22T23:49:48.541761+00:00",
     "https://rcrwireless.com/?p=434622": "2026-09-23T10:20:42.143819+00:00",
+    "https://rcrwireless.com/?p=434637": "2026-09-24T10:31:49.858853+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/iteratively-tuning-hipblaslt/README.html": "2026-09-10T00:38:49.074531+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/profiling-guide/att/README.html": "2026-09-22T23:49:48.541761+00:00",
     "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data": "2026-09-22T10:21:49.085973+00:00",
@@ -141,6 +142,7 @@
     "https://www.phoronix.com/news/Linux-Perf-Python-Module": "2026-09-21T11:07:19.434489+00:00",
     "https://www.phoronix.com/news/Linux-Random-Equal-Idle-CPUs": "2026-09-16T23:52:22.553694+00:00",
     "https://www.phoronix.com/news/Linux-Shutdown-Async-21": "2026-09-06T12:01:14.796223+00:00",
+    "https://www.phoronix.com/news/Linux-Slab-Tiny-Boot-Option": "2026-09-24T10:31:49.858853+00:00",
     "https://www.phoronix.com/news/Mesa-26.3-GFX6-GFX8-Modifiers": "2026-09-11T00:35:59.502530+00:00",
     "https://www.phoronix.com/news/Mir-2.29-Released": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/NVIDIA-Hugging-Face": "2026-09-06T12:01:14.796223+00:00",
@@ -149,6 +151,7 @@
     "https://www.phoronix.com/news/Nouveau-Blackwell-Display-Fixes": "2026-09-06T05:43:45.721234+00:00",
     "https://www.phoronix.com/news/Orphaned-VMs-Linux-Patches": "2026-09-22T10:21:49.085973+00:00",
     "https://www.phoronix.com/news/PoCL-7.2-Released": "2026-09-06T12:01:14.796223+00:00",
+    "https://www.phoronix.com/news/Qualcomm-Adreno-850-Open-Source": "2026-09-24T10:31:49.858853+00:00",
     "https://www.phoronix.com/news/ReactOS-FEX-ARM64-Stacking": "2026-09-10T00:38:49.074531+00:00",
     "https://www.phoronix.com/news/Sound-Open-Firmware-2.15": "2026-09-15T13:53:30.223364+00:00",
     "https://www.phoronix.com/news/Ubuntu-24.04.5-LTS": "2026-09-11T00:35:59.502530+00:00",
@@ -334,6 +337,8 @@
     "oai:arXiv.org:2609.25609v1": "2026-09-23T23:58:04.297683+00:00",
     "oai:arXiv.org:2609.26551v1": "2026-09-23T23:58:04.297683+00:00",
     "oai:arXiv.org:2609.26644v1": "2026-09-23T23:58:04.297683+00:00",
+    "oai:arXiv.org:2609.26953v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.27551v1": "2026-09-24T10:31:49.858853+00:00",
     "tag:blogger.com,1999:blog-1834236085756782640.post-4353150683630815925": "2026-09-17T12:48:54.388673+00:00",
     "tag:blogger.com,1999:blog-7068042310767317158.post-3664437809683684494": "2026-09-15T13:53:30.223364+00:00",
     "tag:github.com,2008:Repository/107505869/v1.16.2": "2026-09-06T12:01:14.796223+00:00",
@@ -391,6 +396,19 @@
         "title": "[$] Testing compat_linux on NetBSD with the Linux Test Project"
       },
       "first_seen": "2026-09-22T00:21:39.787426+00:00"
+    },
+    "https://lwn.net/Articles/1094840/": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://lwn.net/Articles/1094840/",
+        "link": "https://lwn.net/Articles/1094840/",
+        "relevance": 4,
+        "source": "LWN.net Front Page",
+        "summary": "Inside this week's LWN.net Weekly Edition:\n \n \n Front : Git 2.56; gccrs; NetBSD and compat_linux; io_uring; Desktop UX.\n Briefs : WordPress vulnerability; Radicle vulnerability; Systemtap 5.6; GNOME 51; Systemd v262; Quotes; ...\n Announcements : Newsletters, conferences, security updates, patches, and more.",
+        "summary_vi": "Inside this week's LWN.net Weekly Edition:\n \n \n Front : Git 2.56; gccrs; NetBSD and compat_linux; io_uring; Desktop UX.\n Briefs : WordPress vulnerability; Radicle vulnerability; Systemtap 5.6; GNOME 5",
+        "title": "[$] LWN.net Weekly Edition for September 24, 2026"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
     },
     "https://lwn.net/Articles/1095723/": {
       "entry": {
@@ -600,6 +618,19 @@
       },
       "first_seen": "2026-09-22T00:21:39.787426+00:00"
     },
+    "https://www.cnx-software.com/?p=177395": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.cnx-software.com/?p=177395",
+        "link": "https://www.cnx-software.com/2026/09/24/quectel-se200zc-ap-smart-module-supports-up-to-five-cameras-with-rockchip-rv1126b-bj-soc/",
+        "relevance": 4,
+        "source": "CNX Software",
+        "summary": "Quectel has launched the SE200ZC-AP, a compact (40 x 40 mm) smart module based on the Rockchip RV1126B/RV1126BJ quad-core Arm Cortex-A53 SoC with a 12MP ISP, an 8MP AI-ISP, and a 3 TOPS NPU. The module supports up to five 12MP cameras through two 4-lane MIPI CSI interfaces and one DVP interface. Other interfaces include Gigabit Ethernet, USB 3.0/2.0, two CAN FD, up to eight UART, six I2C, two SPI, two SDIO, three SAI, 22 ADC, 28 PWM, and up to 115 GPIOs. It ships with 1GB, 2GB, or 4GB LPDDR4x and 64GB eMMC flash, and is available in commercial and industrial grades, with operating temperatures of -25°C to +75°C and -35°C to +80°C, respectively.  These features make it suitable for smart security, industrial automation, autonomous vehicles, robotic vision, and Smart Home applications. Quectel SE200ZC-AP specifications: SoC – Rockchip RV1126B or RV1126BJ (industrial-grade version) CPU – Quad-core Arm Cortex-A53 up [...] \n The post Quectel SE200ZC-AP smart module supports up to five cameras with Rockchip RV1126B/BJ SoC appeared first on CNX Software - Embedded Systems News .",
+        "summary_vi": "Quectel has launched the SE200ZC-AP, a compact (40 x 40 mm) smart module based on the Rockchip RV1126B/RV1126BJ quad-core Arm Cortex-A53 SoC with a 12MP ISP, an 8MP AI-ISP, and a 3 TOPS NPU. The modul",
+        "title": "Quectel SE200ZC-AP smart module supports up to five cameras with Rockchip RV1126B/BJ SoC"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
     "https://www.cnx-software.com/?p=177406": {
       "entry": {
         "category": "embedded",
@@ -704,6 +735,19 @@
       },
       "first_seen": "2026-09-22T00:21:39.787426+00:00"
     },
+    "https://www.phoronix.com/news/LLVM-Clang-AVX10_V2_AUX": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/LLVM-Clang-AVX10_V2_AUX",
+        "link": "https://www.phoronix.com/news/LLVM-Clang-AVX10_V2_AUX",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "In addition to AMD working on AVX10_V2_AUX support for the GCC compiler, this summer they also posted AVX10_V2_AUX support for the LLVM/Clang compiler. As of yesterday that enablement was merged for LLVM 24 for that important step toward AI Compute Extensions (ACE)...",
+        "summary_vi": "In addition to AMD working on AVX10_V2_AUX support for the GCC compiler, this summer they also posted AVX10_V2_AUX support for the LLVM/Clang compiler. As of yesterday that enablement was merged for L",
+        "title": "AMD Upstreams AVX10_V2_AUX Support Into LLVM Clang 24"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
     "https://www.phoronix.com/news/Lemonade-2026.40-RC": {
       "entry": {
         "category": "embedded",
@@ -755,6 +799,32 @@
         "title": "Linux 7.3 Adds Support For Victrix Pro BFG & Azeron Controllers"
       },
       "first_seen": "2026-09-21T11:07:19.434489+00:00"
+    },
+    "https://www.phoronix.com/news/Linux-7.4-DRM-Helpers-HDMI-2.0": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Linux-7.4-DRM-Helpers-HDMI-2.0",
+        "link": "https://www.phoronix.com/news/Linux-7.4-DRM-Helpers-HDMI-2.0",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "Sent out today was the latest weekly pull of drm-misc-next changes of feature material to queue in DRM-Next for Linux 7.4. Most notable in this week's pull request are a number of patches for enhancing the HDMI 2.0 handling in the DRM core infrastructure and display helpers...",
+        "summary_vi": "Sent out today was the latest weekly pull of drm-misc-next changes of feature material to queue in DRM-Next for Linux 7.4. Most notable in this week's pull request are a number of patches for enhancin",
+        "title": "Linux 7.4 DRM Infrastructure Better Supporting HDMI 2.0 With New Helpers"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "https://www.phoronix.com/news/NTFS-3G-2026.9.18": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/NTFS-3G-2026.9.18",
+        "link": "https://www.phoronix.com/news/NTFS-3G-2026.9.18",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "NTFS-3G 2026.9.18 was released this morning as the newest update to this FUSE-based open-source driver for NTFS file-system support...",
+        "summary_vi": "NTFS-3G 2026.9.18 was released this morning as the newest update to this FUSE-based open-source driver for NTFS file-system support...",
+        "title": "NTFS-3G Update Brings Many Security Fixes"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
     },
     "https://www.phoronix.com/news/Nebula-Matrix-NIC-Linux-7.4": {
       "entry": {
@@ -1211,6 +1281,19 @@
       },
       "first_seen": "2026-09-23T23:58:04.297683+00:00"
     },
+    "https://www.reddit.com/r/embedded/t3_1wo65i4": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wo65i4",
+        "link": "https://www.reddit.com/r/embedded/comments/1wo65i4/porting_klipper_to_the_nxp_mcxa366_lpi2c_bringup/",
+        "relevance": 5,
+        "source": "Reddit r/embedded",
+        "summary": "I’ve been documenting a from-scratch Klipper port to NXP’s MCXA366, and Part 7 covers both some architecture hardening and the first hardware I²C implementation. I’m using LPI2C3 on P3_27/P3_28 with a 12 MHz peripheral clock. The final implementation supports 100 kHz, 400 kHz, and 1 MHz and handles normal writes, register reads, repeated STARTs, NACKs, FIFO errors, arbitration loss, and timeout recovery. One bug I ran into was especially interesting: On a NACK, I originally queued STOP and then reset the TX/RX FIFOs. Resetting the TX FIFO could discard the queued STOP, leaving SCL asserted. Reversing the order—flush first, then STOP if the master still owns the bus—fixed the recovery path. I validated the implementation with a BME280 and then noticed Mainsail reporting ~0.36 MCU load at 100 kHz. Instrumentation showed that the actual CPU usage was very small. What changed was scheduler task duration: Klipper’s I²C interface is synchronous, so the task remains active while the hardware transaction progresses. Measured worst-case reads: 100 kHz → ~2.66 ms 400 kHz → ~0.70 ms 1 MHz → ~0.31 ms The corresponding Mainsail load values fell from roughly 0.36 → 0.09 → 0.04. I also compared this against several existing Klipper MCU backends and found that synchronous polling is normal there as well, so I kept the architecture and improved the bus rate instead of redesigning the API around interrupts. Write-up: https://faultvector.dev/articles/klipper-mcxa366-part-7/ submitted by /u/oxymoron224 [link] [comments]",
+        "summary_vi": "Documentation of a Klipper firmware port to NXP MCXA366 microcontroller includes hardware I²C implementation using LPI2C3 peripheral clocked at 12 MHz, supporting 100 kHz, 400 kHz, and 1 MHz bus speeds. The implementation handles standard I²C transactions (writes, register reads, repeated STARTs) and error recovery (NACK, FIFO errors, arbitration loss, timeouts); a specific timing bug on NACK handling involving STOP command sequencing is noted.",
+        "title": "Porting Klipper to the NXP MCXA366: LPI2C bring-up, NACK recovery, and measuring scheduler cost at 100 kHz–1 MHz"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
     "https://www.reddit.com/r/embedded/t3_1wob5pz": {
       "entry": {
         "category": "embedded",
@@ -1263,6 +1346,58 @@
       },
       "first_seen": "2026-09-23T23:58:04.297683+00:00"
     },
+    "https://www.reddit.com/r/embedded/t3_1wotjr4": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wotjr4",
+        "link": "https://www.reddit.com/r/embedded/comments/1wotjr4/any_idea_on_llm_compression/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "Hey Devs,I'm trying to run a LLM on a microcontroller, therefore I need to first compress my model, I saw numerous ways online and yeah from GPTs as well, but I thought it would be better to get suggestion from real devs who have experience in this, I'm new to these kinda projects so yeah any suggestion on how to start with the model compression. submitted by /u/IndicationTop5547 [link] [comments]",
+        "summary_vi": "Hey Devs,I'm trying to run a LLM on a microcontroller, therefore I need to first compress my model, I saw numerous ways online and yeah from GPTs as well, but I thought it would be better to get sugge",
+        "title": "Any idea on LLM compression"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wou6fj": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wou6fj",
+        "link": "https://www.reddit.com/r/embedded/comments/1wou6fj/how_should_i_design_a_motor_driver_with_a/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I'm working on a motor controller project and I'm trying to figure out the right architecture before I start buying/building the hardware. The idea is to make a controller for two brushed DC motors with quadrature encoders. I want the end user to be able to write simple Arduino-style code such as motor1.setSpeed(100) or motor1.stop() , while the actual low-level motor control handles things like PWM, encoder feedback, PID, current sensing, safety, etc. I'm currently thinking about using an ESP32 as the user-facing MCU and having a separate STM32 handle the real-time motor control. The ESP32 would run the user's code and communicate commands to the STM32 over UART or CAN, while the STM32 would run FreeRTOS and handle the motors, encoders, PID, watchdogs, etc. What I'm not sure about is whether I actually need two chips for this. Could I realistically do the whole thing on a single ESP32, with the user code and motor-control firmware running on the same chip? If so, how would you structure it so that user code can't interfere with the motor-control tasks or memory? If two MCUs are the better approach, I'd also like to understand how people normally structure the communication between them and how the firmware is divided. I'm fairly new to STM32/FreeRTOS, so practical advice on how you'd actually build this would be really helpful. submitted by /u/Only_Obligation7247 [link] [comments]",
+        "summary_vi": "I'm working on a motor controller project and I'm trying to figure out the right architecture before I start buying/building the hardware. The idea is to make a controller for two brushed DC motors wi",
+        "title": "How should I design a motor driver with a user-programmable MCU?"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wow594": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wow594",
+        "link": "https://www.reddit.com/r/embedded/comments/1wow594/which_programming_language_to_use_for_beagle_board/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I am a Embedded Developer, have experience with Arm cortex -M mcu, want to dwell into the world of Cortex - A mcu , Yocto project, linux driver development etc. Want to build applications on it, for that majority of people use Python, wanted to know if C++ is used in industry for building applications over python? Or should i stick with python? submitted by /u/Short-Instruction-59 [link] [comments]",
+        "summary_vi": "I am a Embedded Developer, have experience with Arm cortex -M mcu, want to dwell into the world of Cortex - A mcu , Yocto project, linux driver development etc. Want to build applications on it, for t",
+        "title": "Which programming language to use for Beagle Board?"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1woxk5d": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1woxk5d",
+        "link": "https://www.reddit.com/r/embedded/comments/1woxk5d/the_newest_esp32_can_actually_run_linux_and_its/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "\" Espressif has a new ESP32 , the ESP32-S31, and that ESP32 comes with a gigabit Ethernet MAC, a USB 2.0 High-Speed host controller, an SD card interface with two slots, and a camera input. It's a pretty standard set of features for a Linux single-board computer, but a rather strange list of things to find on a microcontroller \" submitted by /u/xanthium_in [link] [comments]",
+        "summary_vi": "\" Espressif has a new ESP32 , the ESP32-S31, and that ESP32 comes with a gigabit Ethernet MAC, a USB 2.0 High-Speed host controller, an SD card interface with two slots, and a camera input. It's a pre",
+        "title": "The newest ESP32 can actually run Linux, and it's getting uncomfortably close to a Raspberry Pi"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
     "oai:arXiv.org:2211.11659v4": {
       "entry": {
         "category": "research",
@@ -1275,6 +1410,19 @@
         "title": "Formal Abstractions for Packet Scheduling"
       },
       "first_seen": "2026-09-22T00:21:39.787426+00:00"
+    },
+    "oai:arXiv.org:2309.07781v3": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2309.07781v3",
+        "link": "https://arxiv.org/abs/2309.07781",
+        "relevance": 3,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2309.07781v3 Announce Type: replace \nAbstract: This paper presents a quantitative program verification infrastructure for discrete probabilistic programs. Our infrastructure can be viewed as the probabilistic analogue of Boogie: its central components are an intermediate verification language (IVL) together with a real-valued logic. Our IVL provides a programming-language-style for expressing verification conditions whose validity implies the correctness of a program under investigation. As our focus is on verifying quantitative properties such as bounds on expected outcomes, expected run-times, or termination probabilities, off-the-shelf IVLs based on Boolean first-order logic do not suffice. Instead, a paradigm shift from the standard Boolean to a real-valued domain is required.\n Our IVL features quantitative generalizations of standard verification constructs such as assume- and assert-statements. Verification conditions are generated by a weakest-precondition-style semantics, based on our real-valued logic. We show that our verification infrastructure supports natural encodings of numerous verification techniques from the literature. With our SMT-based implementation, we automatically verify a variety of benchmarks. To the best of our knowledge, this establishes the first deductive verification infrastructure for expectation-based reasoning about probabilistic programs.",
+        "summary_vi": "arXiv:2309.07781v3 Announce Type: replace \nAbstract: This paper presents a quantitative program verification infrastructure for discrete probabilistic programs. Our infrastructure can be viewed as the",
+        "title": "A Deductive Verification Infrastructure for Probabilistic Programs (Extended Version)"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
     },
     "oai:arXiv.org:2404.03515v4": {
       "entry": {
@@ -1366,6 +1514,19 @@
         "title": "VeriSoftBench: Repository-Scale Formal Verification Benchmarks for Lean"
       },
       "first_seen": "2026-09-23T23:58:04.297683+00:00"
+    },
+    "oai:arXiv.org:2603.20001v3": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2603.20001v3",
+        "link": "https://arxiv.org/abs/2603.20001",
+        "relevance": 3,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2603.20001v3 Announce Type: replace \nAbstract: Automated program verifiers are often organized into a front-end, which encodes an input program into an intermediate verification language (IVL), and a back-end, which proves that the IVL program is correct. Soundness of such translational verifiers requires that the back-end verification is sound and that correctness of the IVL program implies correctness of the input program. Existing formalizations for translational verifiers based on separation logic target the former, but support the latter only under the strong assumption that there exists a separation logic for the input program with the same state model as the IVL. This assumption is unrealistic in practice, especially since the state model also defines the supported separation logic resources.\n We present the first formal framework for proving the soundness of translational separation logic verifiers with non-trivial state encodings. To be applicable to various front-ends and IVLs, our framework only assumes the existence of a homomorphic encoding relation between the front-end and IVL state models. At the core of our framework is a novel condition, backward satisfiability, which is crucial to guarantee the soundness of the front-end translation. We formalize our framework for front-end verifiers based on concurrent separation logic and separation logic IVLs, such as Raven, VeriFast, and Viper. We demonstrate its expressiveness by proving soundness for three common state encodings. Our framework and all proofs are formalized in Isabelle/HOL.",
+        "summary_vi": "arXiv:2603.20001v3 Announce Type: replace \nAbstract: Automated program verifiers are often organized into a front-end, which encodes an input program into an intermediate verification language (IVL), ",
+        "title": "Sound State Encodings in Translational Separation Logic Verifiers (Extended Version)"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
     },
     "oai:arXiv.org:2604.12300v2": {
       "entry": {
@@ -3095,6 +3256,279 @@
         "title": "SARA: SLO-Aware Resource Allocation for Disaggregated Agentic LLM Services"
       },
       "first_seen": "2026-09-23T10:20:42.143819+00:00"
+    },
+    "oai:arXiv.org:2609.26824v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.26824v1",
+        "link": "https://arxiv.org/abs/2609.26824",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.26824v1 Announce Type: new \nAbstract: The growing adoption of dataflow accelerators for neural network inference introduces new attack surfaces that existing verification methodologies fail to address. Inference ac- celeration frameworks such as FINN, which transform quantized neural networks into FPGA-deployable dataflow architectures, implicitly assume semantic equivalence between the software model and the synthesized hardware. In this work, we in- troduce the FINN-Tro attack, which identifies and exploits a critical verification gap in the FINN compilation pipeline that enables stealthy hardware Trojan insertion without modifying the original quantized model. The Trojan is placed in the last Matrix-Vector Activation Unit (MVAU) layer and supports two counter-based trigger modes, periodic and persistent, and three payload types: bias addition, logit swapping, and bias subtraction, resulting in six different configurations. FINN-Tro is evaluated on an MNIST feed-forward network and a CIFAR-10 convolutional neural network deployed on a PYNQ-Z1 board. Across the evaluated configurations, accuracy reductions range from 0.90% to 82.84%, while throughput and runtime remain close to the corresponding baseline designs. The most severe configuration, persistent Bias Addition, reduces accuracy from 92.96% to 10.12% on MNIST and from 84.19% to 10.00% on CIFAR-10. The inserted logic introduces modest implementation overhead, with maximum LUT and FF increases of 6.71% and 7.49% for MNIST, and 2.50% and 3.98% for CIFAR-10, respectively. Our findings reveal that widely used pre- and post- compilation verification flows are insufficient for detecting such temporally delayed hardware manipulations, motivating the need for stronger verification mechanisms in accelerator toolchains.",
+        "summary_vi": "arXiv:2609.26824v1 Announce Type: new \nAbstract: The growing adoption of dataflow accelerators for neural network inference introduces new attack surfaces that existing verification methodologies fail",
+        "title": "FINN-Tro: Exploiting Verification Gaps in Dataflow Inference Accelerators"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.26828v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.26828v1",
+        "link": "https://arxiv.org/abs/2609.26828",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.26828v1 Announce Type: new \nAbstract: NAND-backed storage offers the capacity needed to scale LLM prefix caching, but its block I/O path incurs CPU cache contention and host-DRAM staging in addition to NAND latency. Our characterization shows that these interface costs persist even with DRAM as the storage medium, motivating CXL-SSDs for byte-addressable access to NAND-backed capacity. Surprisingly, however, a stock CXL-SSD remains about 3$\\times$ slower than local DRAM and no faster than an NVMe SSD, while generic prefetching provides little benefit. We present LM-CXD, a CXL-SSD specialized for LLM prefix caching. LM-CXD bridges the semantic gap between the serving engine, which knows which KV chunks will be consumed, and the device, which controls their placement and movement. It makes KV chunks device-visible I/O units, exposes NAND-to-DRAM progress to the serving engine, and uses device DRAM as a GPU-accessible buffer. LM-CXD further coordinates request scheduling with windowed prefetching and pipelines layerwise KV movement with GPU computation to hide NAND latency under limited device DRAM. Across five LLM models, LM-CXD reduces average TTFT over a stock CXL-SSD by up to 2.6$\\times$ with compute asynchronous prefetching and 4.03$\\times$ with layerwise prefetching, achieving TTFT within 1.5$\\times$ of local DRAM on average.",
+        "summary_vi": "arXiv:2609.26828v1 Announce Type: new \nAbstract: NAND-backed storage offers the capacity needed to scale LLM prefix caching, but its block I/O path incurs CPU cache contention and host-DRAM staging in",
+        "title": "Bridging LLM Serving and CXL-SSDs with Chunk-Aware KV Cache Management"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.26829v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.26829v1",
+        "link": "https://arxiv.org/abs/2609.26829",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.26829v1 Announce Type: new \nAbstract: Rapidly growing AI workloads are driving large investments in AI datacenters. This survey classifies industrial AI accelerators into four architectural categories and compares their compute and memory organizations. It examines how node-, rack-, and pod-scale interconnects support collective communication, and traces architectural evolution across accelerator generations. The analysis connects advances in arithmetic throughput with changes in precision, data delivery, execution coordination, communication, power delivery, and cooling. It also discusses future design challenges arising from workload diversity, data movement, infrastructure constraints, and model evolution, showing how the trade-off between generality and specialization extends from individual accelerators to datacenter-scale systems. GitHub: github.com/Yufeng98/AI-datacenter",
+        "summary_vi": "arXiv:2609.26829v1 Announce Type: new \nAbstract: Rapidly growing AI workloads are driving large investments in AI datacenters. This survey classifies industrial AI accelerators into four architectural",
+        "title": "Balancing Generality and Specialization: A Survey on AI Datacenter Hardware Architecture"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.26830v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.26830v1",
+        "link": "https://arxiv.org/abs/2609.26830",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.26830v1 Announce Type: new \nAbstract: Simulation success is not equivalent to structural correctness for LLM-generated circuits. We define and measure four evaluation levels -- schema validity, topological validity, backend executability, and component-set agreement -- on a 150-circuit trilingual benchmark, through a deployed pipeline built on a typed circuit interchange representation.\n The levels are not nested. On gpt-4o-mini, 16 of 150 circuits (10.7%, 95% CI 6.7-16.6) were rejected by the topological validator but executed in ngspice with no error or warning; 12 of these contained exactly the requested components, with one terminal disconnected. Conversely, 7 circuits (4.7%) passed the validator and ngspice refused them. Ten failed both checks and 117 passed both, so each check detects a class the other misses. A minimal three-component divider shows the cost: a dangling resistor reports 5.00 V instead of 2.50 V while ngspice stays silent.\n A paired ablation, in which every arm is evaluated from the same model sample rather than a fresh one, separates each repair stage from sampling noise. On a stratified 45-circuit subsample, model repair raised topological validity from 40.0% to 84.4% (+20 circuits, no regressions) while moving executability by a net 6 (+7, -1), an effect this sample size does not resolve, and component agreement by 2. One circuit moved in opposite directions at two levels in a single repair step. Against a direct-netlist baseline the pipeline executed 88.7% against 47.3%, or 62.7% under an accounting that credits the baseline with every failure we cannot confidently attribute to the netlist.\n These results support a narrow methodological conclusion: structural validation and simulation should be reported as distinct evaluation stages for LLM-generated circuits. A circuit that runs is not necessarily structurally valid, and a structurally valid circuit is not necessarily executable.",
+        "summary_vi": "arXiv:2609.26830v1 Announce Type: new \nAbstract: Simulation success is not equivalent to structural correctness for LLM-generated circuits. We define and measure four evaluation levels -- schema valid",
+        "title": "Validation and Simulation Catch Different Errors: Four Levels of Evaluation for LLM-Generated Circuits"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.26960v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.26960v1",
+        "link": "https://arxiv.org/abs/2609.26960",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2609.26960v1 Announce Type: new \nAbstract: A fundamental challenge in RF sensing is that Doppler signatures observed by a link entangle the target's motion with the sensing geometry, resulting in limited applicability to unconstrained real-world settings. In this paper, we establish a new foundation for physically interpretable RF sensing that disentangles reflector speed from geometry, jointly recovering the speed, geometry factor, relative amplitude, and width of each dominant Doppler ridge. More specifically, we first develop a compact parametric representation of WiFi spectrograms and establish its low-dimensional structure through a systematic computer-vision analysis of a large and diverse human-activity dataset, thereby providing a tractable foundation for learning. Building on this representation, we then design a physics-informed autoencoder whose structured bottleneck and differentiable RF forward model enforce physically meaningful estimates of reflector speed and geometry. We further introduce a synthetic-to-real training framework, eliminating the need for real WiFi training data. We extensively validate the proposed framework under both known and time-varying geometries, using both independently generated synthetic test sets and 31 real WiFi experiments. The results demonstrate the superior performance in speed and geometry extraction, robustly recovering the underlying geometry, speeds, Doppler-ridge amplitudes, and ridge widths across all settings, while substantially outperforming the strongest baselines.",
+        "summary_vi": "arXiv:2609.26960v1 Announce Type: new \nAbstract: A fundamental challenge in RF sensing is that Doppler signatures observed by a link entangle the target's motion with the sensing geometry, resulting i",
+        "title": "Untangling the Geometry and Speed for RF Sensing Spectrograms"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.27017v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.27017v1",
+        "link": "https://arxiv.org/abs/2609.27017",
+        "relevance": 5,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2609.27017v1 Announce Type: new \nAbstract: Accurate channel state information (CSI) is critical for advanced multi-antenna wireless networks. While high-fidelity and site-specific ray-tracing (RT) equipped wireless digital twins can overcome overhead for CSI acquisition. However, computing deterministic, calibrated RT based CSI from a wireless digital twin for every orthogonal frequency-division multiplexing (OFDM) symbol violates the strict microsecond latency budgets of the 5G NR numerology. To overcome this computational bottleneck, this paper investigates three approaches within a calibrated 3D digital twin framework, namely (i) the generalization of the channel twin, (ii) the performance enhancement using a neural receiver, and (iii) a data-driven interpolation framework for scalability. We compute high-precision CSI for a sparse subset of temporal anchors and employ an attention-based Transformer to predict the remaining symbols. Unlike polynomial splines or sequential long short-term memory (LSTM) networks, the Transformer exploits a global receptive field to capture the non-linear multipath dynamics while enabling parallelizable, real-time inference. To achieve spatial scalability, we introduce channel twin generalization. By fine-tuning the 3D RT models alongside the Transformer, the framework leverages the CSI dataset of one location to infer the channel behavior of an unseen environment. Transfer learning further adapts the model to a new environment using only a small fraction of locally collected data. Simulation results demonstrate that the proposed architecture substantially outperforms the baseline interpolators, achieves robust spatial transferability, and lowers the bit error rate through the unified neural receiver. These results establish a scalable, environment-agnostic foundation of distributed channel twins for high-quality, low-overhead CSI acquisition in next-generation cellular networks.",
+        "summary_vi": "Accurate channel state information (CSI) is essential for advanced multi-antenna wireless networks. The work addresses computational overhead by leveraging ray-tracing-based wireless digital twins to generate CSI, but highlights a fundamental constraint: computing deterministic, calibrated ray-tracing CSI for every OFDM symbol violates the strict microsecond latency budgets imposed by 5G NR numerologies, suggesting the need for scalable AI-native inference mechanisms to balance accuracy and real-time performance requirements.",
+        "title": "Digital Twin Enhanced Channel Twin for AI-Native CSI Inference: Generalizability and Scalability"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.27040v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.27040v1",
+        "link": "https://arxiv.org/abs/2609.27040",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2609.27040v1 Announce Type: new \nAbstract: Multi-GPU servers have become the standard building block of modern data centers, providing aggregated capacity through high-bandwidth interconnects. At the same time, workloads such as LLM inference exhibit highly dynamic memory demands, which can cause one GPU to exhaust its local memory while others remain underutilized. This mismatch motivates a model of elastic resource sharing across GPUs.\n We present EMA, a memory sharing system that allows GPUs within a server to borrow and reclaim memory from each other, forming an elastic pool of capacity. EMA ensures performance transparency for both borrowers and lenders. For borrowers, prefetching hides remote access costs so that applications experience remote and local memory as indistinguishable in performance. For lenders, borrowed resources remain reclaimable on demand, guaranteeing that performance never falls below that of static partitioning. While our design focuses on memory, the same principle naturally extends to other GPU resources.\n Our evaluation shows that EMA improves individual user throughput by up to 52%, achieves 96% of the throughput of a system provisioned with 2X capacity, and maintains latency similar to the static local baseline.",
+        "summary_vi": "arXiv:2609.27040v1 Announce Type: new \nAbstract: Multi-GPU servers have become the standard building block of modern data centers, providing aggregated capacity through high-bandwidth interconnects. A",
+        "title": "EMA: Elastic and Performance Transparent Memory Across GPUs"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.27083v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.27083v1",
+        "link": "https://arxiv.org/abs/2609.27083",
+        "relevance": 5,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2609.27083v1 Announce Type: new \nAbstract: With the gaining prominence of aerial mobility applications, their success depends on the seamless integration of terrestrial and non-terrestrial network connectivity. However, providing reliable connectivity from terrestrial telecommunication networks remains challenging due to multi-cell interference from base stations (BSs) under line-of-sight (LoS) conditions to unmanned aerial vehicles (UAVs), coverage holes caused by antenna sidelobe degradation, localized multipath fading effects, and the high-speed dynamics of aerial users. To model such complexities, often exacerbated by sparse real-world data, this work proposes a dual-stage radio environment map (REM) framework. Our approach physically decouples the channel modeling, where a spatial Transformer first anchors the deterministic, large-scale path loss geometry, while a gated recurrent unit (GRU) subsequently extrapolates the stochastic, localized fast- fading deviations. By reformulating 3D spatial interpolation as a 1D radial sequence prediction task, the framework inherently aligns with the physics of propagation. We evaluate the proposed framework against state-of-the-art baselines, including 3D Kriging, UNet, Mamba, and Inception, using empirical 5G datasets. The results demonstrate improved intra-site generalization across diverse altitudes, user dynamics, and reference signal received power (RSRP) datasets, achieving signal-strength predictions with errors near 3 dB and REM spatial-similarity indices exceeding 0.75. Finally, we examine the influence of REMs and channel rank conditions on UAV channel quality, underscoring the necessity of reliable channel modeling for robust aerial connectivity.",
+        "summary_vi": "The work tackles connectivity challenges for unmanned aerial vehicles (UAVs) integrated with terrestrial 5G networks, addressing multi-cell interference from base stations under line-of-sight conditions and coverage holes caused by antenna sidelobe degradation. AI-enabled propagation modeling and radio environment maps are proposed as mechanisms to improve reliability and coverage prediction for seamless non-terrestrial network connectivity in aerial mobility applications.",
+        "title": "AI-Enabled Wireless Propagation Modeling and Radio Environment Maps for 5G Aerial Wireless Networks"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.27085v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.27085v1",
+        "link": "https://arxiv.org/abs/2609.27085",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2609.27085v1 Announce Type: new \nAbstract: As serving capacity demand surpasses that of training, serving efficiency becomes increasingly important. Prefill-decode (P/D) disaggregation improves serving efficiency through specialization and isolation of the two phases. These benefits rest on a static partitioning. Phase demand, however, is not static. We observe that in a large LLM fleet the ratio of uncached input to output tokens has peak-to-mean ratios up to 4.7x at minute timescales, and that in a public agentic trace the hourly ratio spans a median 24.5x within a single day, while reassigning a replica takes tens of minutes. Agentic traffic sharpens the mismatch. Sizing each pool at its ninety-fifth percentile leaves up to 17% of cluster capacity unused; sizing below it converts the same imbalance into queueing and unrealized throughput. We present Crossflow, which makes this boundary elastic without changing node roles. Each decode node publishes a short-lived, revocable lease that bounds local-prefill compute, KV capacity, transfer work, and projected output. Across public and internal traces, Crossflow improves token throughput by 16.2-17.4% on geometric mean over static P/D, and by up to 43.4% at high load, while reducing mean TTFT at every evaluated point.",
+        "summary_vi": "arXiv:2609.27085v1 Announce Type: new \nAbstract: As serving capacity demand surpasses that of training, serving efficiency becomes increasingly important. Prefill-decode (P/D) disaggregation improves ",
+        "title": "Crossflow: Prefill-Decode Elasticity for Agentic LLM Serving"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.27169v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.27169v1",
+        "link": "https://arxiv.org/abs/2609.27169",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2609.27169v1 Announce Type: new \nAbstract: The increasing integration of distributed energy resources introduces new challenges for accurate fault detection and classification in distribution networks. This paper presents a topology-aware graph convolutional network-based model for fault classification under inverter-induced harmonic distortion. The model uses pre-fault and post-fault voltage and current phasors, including harmonic components, mapped to the IEEE 34-bus system topology. The simulation data generated in OpenDSS encompass varying levels of penetration of solar photovoltaics (30%, 50%, 70%) and current total harmonic distortion (0%, 1%, 3%, 5%) across multiple fault types: single line-to-ground, line-to-line, double line-to-ground, and three-phase-to-ground. A differential evolution algorithm is employed to optimize the hyperparameters of the network, resulting in a three-layer model that achieves an F1-score of 0.98. Stress testing across scenarios confirms high robustness and minimal class confusion. The results demonstrate that a graph convolutional network-based model can effectively classify distribution faults under varying photovoltaic penetration levels and harmonically distorted conditions. Comparative analyses with convolutional neural network, long short-term memory, and multi-layer perceptron architectures demonstrate that the proposed model delivers superior classification performance, particularly under the most stressed condition with 70% photovoltaic penetration and 5% harmonic distortion.",
+        "summary_vi": "arXiv:2609.27169v1 Announce Type: new \nAbstract: The increasing integration of distributed energy resources introduces new challenges for accurate fault detection and classification in distribution ne",
+        "title": "GCN-Based Model for Fault Classification in Distribution Networks under Harmonic Distortion"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.27189v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.27189v1",
+        "link": "https://arxiv.org/abs/2609.27189",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2609.27189v1 Announce Type: new \nAbstract: Zeroth-order (ZO) optimization is an attractive option for memory-efficient LLM fine-tuning, but its fault tolerance remains underexplored. Unlike first-order training, ZO progress can be represented by lightweight seed-and-scalar step logs, yet naive log-only recovery still incurs replay cost that grows with training progress, and shortcut replay does not preserve the executed floating-point trajectory. We present ZOCheck, a fault-tolerant ZO training system that exploits this replayable structure through a CPU shadow process that continuously replays logged updates, materializes consistent recovery images off the GPU critical path, and persists them asynchronously. ZOCheck therefore combines non-blocking checkpointing during training with fast recovery from a near-current state. We also develop a cost model for choosing the snapshot policy under realistic failure rates. Experiments show that ZOCheck reduces checkpoint overhead by up to 219.7x and recovery latency by 1.55x on average compared with asynchronous full-state checkpointing, translating into up to 21.3x lower end-to-end wasted time across the evaluated failure rates, while preserving exact recovery behavior.",
+        "summary_vi": "arXiv:2609.27189v1 Announce Type: new \nAbstract: Zeroth-order (ZO) optimization is an attractive option for memory-efficient LLM fine-tuning, but its fault tolerance remains underexplored. Unlike firs",
+        "title": "ZOCheck: CPU-Shadow Checkpointing for Zeroth-Order LLM Fine-Tuning"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.27193v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.27193v1",
+        "link": "https://arxiv.org/abs/2609.27193",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2609.27193v1 Announce Type: new \nAbstract: With the rising computational and monetary costs of training large language models (LLMs), checkpointing---periodically storing model states for recovery---becomes essential for fault tolerance. Conventional checkpointing entails a severe trade-off between checkpoint frequency (I/O overhead) and computational recovery (recovery time). State-of-the-art approaches mitigate this cost through pipelining checkpoint I/Os, differential checkpointing, or in-memory persistence, yet none leverage the distinct characteristics of LLM training dynamics, where model weight updates are non-uniformly distributed across transformer layers. This observation implies that saving all weights each time might not be efficient. Inspired by this observation, we present LayerCheck, a layer-wise adaptive checkpointing framework that selectively persists layers whose updates exceed a threshold. This design avoids periodic I/O bursts by distributing layer-wise checkpoint writes over time, resulting in smoother and more balanced I/O profiles. Upon recovery, LayerCheck reconstructs a mixed-timestamp composite model state by aggregating the most recently persisted versions of each layer together with their matching optimizer states. Under a bounded per-layer staleness guard, this introduces a controlled perturbation: under standard Adam assumptions it adds a bounded staleness term, and empirically the post-restart loss deviates from the failure-free trajectory by at most 0.54%. Empirical results on multiple open-source LLMs with different datasets further demonstrate that recovered models preserve the original convergence behavior and accuracy while substantially reducing checkpoint overheads. Specifically, LayerCheck achieves up to 22.6x reduction in total checkpoint size and 1.31x reduction in end-to-end training time compared to state-of-the-art systems, significantly lowering the cost of checkpointing.",
+        "summary_vi": "arXiv:2609.27193v1 Announce Type: new \nAbstract: With the rising computational and monetary costs of training large language models (LLMs), checkpointing---periodically storing model states for recove",
+        "title": "LayerCheck: Adaptive Layer-wise Checkpointing for Large Language Model Post-training"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.27266v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.27266v1",
+        "link": "https://arxiv.org/abs/2609.27266",
+        "relevance": 4,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2609.27266v1 Announce Type: new \nAbstract: CXL-enabled memory expands server memory capacity, but introduces a page-placement problem: the operating system must decide which pages should reside in DRAM and which should reside on slower CXL memory. Existing systems make this tradeoff in one of two ways. Userspace controllers support flexible policies, but expose placement decisions to scheduler jitter and kernel-userspace crossing overhead. Kernel-space systems avoid this latency, but rely on fixed heuristics that must generalize across workloads.\n We present xTier, a kernel-resident learned memory-tiering system. xTier attaches eBPF programs to PEBS events and uses a compact quantized MLP to score sampled pages inside the kernel at microsecond-scale latency. Rather than reacting to every candidate, xTier converges to a low-churn placement for the current workload phase, reduces sampling cost after convergence, and returns to a higher sampling cadence when the workload shifts.\n We evaluate xTier on six memory-bound workloads at DRAM:CXL ratios from 1:5 to 1:25. The advantage grows as the DRAM budget tightens. At 1:15 and beyond, xTier is the fastest system in 14 of 18 configurations. Where it is not fastest, it trails the best baseline by 3.9% on average. It reaches this performance while moving 13% fewer pages in geometric mean, and 22% fewer at the tighter ratios. When a workload changes phase, xTier rebuilds its hot set in DRAM faster and more completely than any baseline.",
+        "summary_vi": "arXiv:2609.27266v1 Announce Type: new \nAbstract: CXL-enabled memory expands server memory capacity, but introduces a page-placement problem: the operating system must decide which pages should reside ",
+        "title": "xTier: Intelligent Tiering for CXL-Enabled Memory"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.27319v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.27319v1",
+        "link": "https://arxiv.org/abs/2609.27319",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.27319v1 Announce Type: new \nAbstract: The recently proposed XOR cache is an inter-line-compressed last-level cache (LLC) that leverages the data-inclusion relationship between the private caches and the LLC, compressing two cache lines into one by XORing them. The architecture relies on the cache coherence protocol for data decompression. In this paper, we demonstrate that this mechanism - specifically the latency asymmetry between a cache hit on an uncompressed vs. compressed line - introduces microarchitectural vulnerabilities. Based on this observation, we propose a covert channel attack targeting the XOR cache. A colluding sender controls the receiver's access latency by triggering decompression through targeted write requests to partner cache lines. By exploiting the data-dependent compression behavior of the XOR cache, the sender and receiver establish the channel using pre-agreed data values. The channel achieves higher bandwidth than the Prime+Probe baseline for two reasons: first, each bit is encoded in the compression state of an individual line rather than the occupancy of a cache set, so a single set carries multiple bits; second, each bit is resolved by manipulating coherence-protocol state rather than forcing shared-cache evictions, so it costs fewer LLC accesses and demand misses than Prime+Probe. Full-system simulations show a bandwidth of 2.9 Mbps at an observed 0.98% bit-error rate (BER) over 50,000 transmitted bits, 13.1 times the bandwidth of Prime+Probe under the same sub-1%-BER selection rule.",
+        "summary_vi": "arXiv:2609.27319v1 Announce Type: new \nAbstract: The recently proposed XOR cache is an inter-line-compressed last-level cache (LLC) that leverages the data-inclusion relationship between the private c",
+        "title": "Exploiting Decompression Latency for Covert Channels in Inter-Line-Compressed LLCs"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.27386v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.27386v1",
+        "link": "https://arxiv.org/abs/2609.27386",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2609.27386v1 Announce Type: new \nAbstract: Intent-based networking decouples desired outcomes from device-level configuration, but most systems still map intents to parameters of an algorithm selected in advance. Large language models (LLMs) create an opportunity to automate algorithm design, yet unrestricted generated code is unsuitable for transport-network control because feasibility, reproducibility, and robustness must be enforced independently of the model. We present VERA-TN, a verification-guided framework that compiles a network intent into a bounded algorithm-design specification. The target architecture uses an LLM as a semantic variation operator over typed request-ordering and path-ranking programs; generated logic remains separated from a trusted allocator that enforces path validity, latency, capacity, and single-path constraints. We prove feasibility preservation under explicit assumptions and establish a sufficient bound for the lexicographic latency tie-break in the exact reference model. The released proof-of-concept instantiates the same interface with a bounded ten-parameter numerical candidate and deterministic replay, rather than a completed live-LLM/AST study. Across 150 certified held-out cases on a 28-node TEFNET24-derived hierarchy, evolutionary search reaches a mean priority-utility ratio of 0.958, compared with 0.952 for equal-budget random search and 0.940 for priority-greedy routing. The gain over random search is small but statistically detectable (Holm- adjusted p = 0.0083). The candidate does not improve congestion relative to MILP-C, and the effect of failure-aware training is inconclusive at the 0.05 level (p = 0.051). Eight discovery runs on the official national topology and replay on 12 unseen metro-regional topologies show no stable intent-specific specialization. These results support the trust-boundary and numerical-evolution claims but do not establish a benefit from LLM generation.",
+        "summary_vi": "arXiv:2609.27386v1 Announce Type: new \nAbstract: Intent-based networking decouples desired outcomes from device-level configuration, but most systems still map intents to parameters of an algorithm se",
+        "title": "From Intents to Algorithms: Verified Algorithm Discovery for Transport Networks"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.27482v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.27482v1",
+        "link": "https://arxiv.org/abs/2609.27482",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2609.27482v1 Announce Type: new \nAbstract: Building executable brain models is essential for moving neuroscience from description to mechanism and prediction. Human-brain-scale spiking simulation is constrained by highly irregular communication, multithreaded spike delivery, and the memory cost of sparse connectivity. We present CerebroSim, a scalable framework for whole-brain simulation. CerebroSim combines Delay-aware Spike Broadcast (DSB) for aggregated delay-aware communication, Race-free Synaptic Dynamics Computation (RSDC) for lock/atomic-free multithreaded delivery with HBM-aware optimization, and Sparse Synapse Storage Compression (3SC) for compact indexing with deterministic synapse regeneration. Using a model derived from magnetic resonance imaging and diffusion-weighted imaging, CerebroSim simulates 86 billion neurons and 100 trillion synapses on 18,432 nodes across 11.2 million cores of the LineShine Supercomputer, sustaining 24.44 PFlop/s, 91% weak-scaling efficiency, and 94% strong-scaling efficiency. This capability makes biologically constrained human-brain models practical for mechanistic studies of brain disorders and controlled in silico testing of intervention hypotheses.",
+        "summary_vi": "arXiv:2609.27482v1 Announce Type: new \nAbstract: Building executable brain models is essential for moving neuroscience from description to mechanism and prediction. Human-brain-scale spiking simulatio",
+        "title": "CerebroSim: Scalable Whole-Brain Simulator at 100-Trillion-Synapse Scale on the LineShine Supercomputer"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.27638v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.27638v1",
+        "link": "https://arxiv.org/abs/2609.27638",
+        "relevance": 3,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2609.27638v1 Announce Type: cross \nAbstract: AI-generated software changes make it increasingly important to determine what a change preserves, where local consistency fails to extend globally, and which alternatives remain. We develop the foundations of Algebraic Architecture Theory (AAT) from Atoms, typed primitive facts, and Laws, equations that objects must satisfy. A reading specifies what counts as structure and which operations and laws to preserve. The main reconstruction theorem identifies the category of full geometries and all their structure-preserving morphisms with an independently defined category of local models, up to equivalence. Objects are recovered up to isomorphism and morphisms between fixed endpoints uniquely. The theory addresses gluing, diagnosis, transport, classification of changes, and reconstruction. From finite Atom families we construct cores closed under operations and geometries with sites and coefficients. We give conditions under which a Cech obstruction detects the existence of a global state and, through comparison with repair semantics, a global repair. We compare diagnoses and give a finite criterion for uniform invariance given computable finite data. Transport along exact changes has a universal property and commutes with base change on exact pointed pullback squares. Comparisons of routes generated from the same square, finite comparison diagram, and geometry factor into an invertible comparison and an idempotent normalization. We characterize when observations determine comparison preservation and classify compatible lifts. Encodings of lens and protocol semantics preserve and reflect laws and recover semantics-preserving morphisms. Applications classify and count operation-preserving changes and extend morphisms uniquely from finite tables. Corresponding Lean declarations are listed in the appendix.",
+        "summary_vi": "arXiv:2609.27638v1 Announce Type: cross \nAbstract: AI-generated software changes make it increasingly important to determine what a change preserves, where local consistency fails to extend globally, ",
+        "title": "Foundations of Algebraic Architecture Theory: A Rising Sea of Geometry, Transport, Comparison, and Reconstruction"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.27659v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.27659v1",
+        "link": "https://arxiv.org/abs/2609.27659",
+        "relevance": 5,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2609.27659v1 Announce Type: new \nAbstract: Vehicle-to-Everything (V2X) communications impose very demanding requirements in terms of latency and reliability, which must be met in scenarios where multiple services with diverse performance targets coexist. In such scenarios, traffic-intensive services compete for limited radio resources, complicating the fulfillment of V2X service demands. Within this context, Network Slicing (NS) emerges as a key factor that enables the creation of multiple slices and the allocation of resources among them to satisfy heterogeneous service requirements. In particular, this work addresses the Radio Access Network (RAN) slicing problem from the perspective of Physical Resource Block (PRB) partitioning under high traffic demand conditions. To this end, a reinforcement learning approach based on Proximal Policy Optimization (PPO) is proposed to determine PRB allocations that satisfy the strict latency and reliability requirements of V2X services, while improving resource utilization efficiency and minimizing performance degradation of enhanced Mobile BroadBand (eMBB) services. The proposed solution is evaluated through simulation-based experiments under various traffic loads and different V2X service requirements, demonstrating its ability to adapt resource partitioning to network conditions and service demands.",
+        "summary_vi": "The paper proposes a deep reinforcement learning-based approach to optimize radio resource allocation across network slices in 5G RAN, addressing the challenge of meeting latency and reliability Service Level Agreements for V2X communications when multiple services with diverse performance targets compete for limited spectrum in the same network.",
+        "title": "A DRL-Driven Optimization of RAN Slice Resource Partitioning for V2X SLA Compliance in 5G Networks"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.27875v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.27875v1",
+        "link": "https://arxiv.org/abs/2609.27875",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2609.27875v1 Announce Type: new \nAbstract: The broadcast nature of communication in transmission media has driven the rise of network coding's popularity in wireless networks. Numerous benefits arise from employing network coding in multi-hop wireless networks, including enhanced throughput, reduced energy consumption, and decreased end-to-end delay. These advantages are a direct outcome of the minimized transmission count. This paper introduces a comprehensive framework to employ network coding in these networks. It refines decision-making at coding and decoding nodes simultaneously. The coding-nodes employ optimal stopping theory to find optimal moments for packet transmission. Meanwhile, the decoding-nodes dynamically decide, through SMDP (Semi Markov Decision Process) problem formulation, whether to conserve energy by deactivating radio units or to stay active for improved coding by overhearing packets. The proposed framework, named ENCODE, enables nodes to learn how and when to use network coding over time. Simulation results compare its performance with existing approaches. Our simulation results shed new light on when and how to use network coding in wireless multi-hop networks more effectively.",
+        "summary_vi": "arXiv:2609.27875v1 Announce Type: new \nAbstract: The broadcast nature of communication in transmission media has driven the rise of network coding's popularity in wireless networks. Numerous benefits ",
+        "title": "To Code or Not to Code: When and How to Use Network Coding in Energy Harvesting Wireless Multi-hop Networks"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.27926v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.27926v1",
+        "link": "https://arxiv.org/abs/2609.27926",
+        "relevance": 3,
+        "source": "arXiv cs.PF (Performance)",
+        "summary": "arXiv:2609.27926v1 Announce Type: new \nAbstract: Data centers serving AI inference strive to maximize GPU utilization, running their cards at full power by default: this maximizes throughput and holds latencies down, but it is energy-inefficient, spending more energy per inference than the same work needs at a better operating point. That inefficiency is a scheduling choice, not a hardware limit. The cause is physical: for a given workload, a GPU's board power rises superlinearly along its power-performance curve, on top of a fixed power floor that is paid for as long as the job runs, so energy per inference is U-shaped in the operating point (GPU, power cap). The minimum, which we name the Joule Point, is a cap at 43 to 46 per cent of a large GPU's rated power; capping to it cuts energy per inference by roughly a quarter to a third at a modest cost in capital and latency: each request runs about 1.2 times slower, and holding aggregate throughput takes that same factor more cards. Under load, the Joule Point is nearly a per-card-type constant, so a single static cap per card type captures nearly all the saving (mean penalty under one per cent), turning the online per-job search that prior systems run into a one-time characterization. We ground this in ELF, a dense power-cap dataset that sweeps 20 inference models across four GPUs; replaying it in a fleet simulation under a power budget, capping each job to the least power meeting its deadline spends 18 to 45 per cent less energy per served job. These results recast data-center energy as a schedulable resource an operator can adapt to a budget, an electricity price, or a carbon signal while meeting its service targets.",
+        "summary_vi": "arXiv:2609.27926v1 Announce Type: new \nAbstract: Data centers serving AI inference strive to maximize GPU utilization, running their cards at full power by default: this maximizes throughput and holds",
+        "title": "The Joule Point: an Energy-Optimal Operating Point for AI Inference"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+    },
+    "oai:arXiv.org:2609.28262v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.28262v1",
+        "link": "https://arxiv.org/abs/2609.28262",
+        "relevance": 4,
+        "source": "arXiv cs.PF (Performance)",
+        "summary": "arXiv:2609.28262v1 Announce Type: cross \nAbstract: Deploying deep learning models on edge CPUs is bottlenecked by computational and memory constraints. Mixed-precision quantization promises to reduce inference latency while preserving accuracy. However, quantization affects different layer types in inconsistent ways, so identifying where accuracy loss is minimized and latency reduction is maximized is critical, as the effect accumulates over a full deployment into substantial savings or unacceptable task degradation. Such identification relies on sensitivity metrics, proxies that estimate layer-wise degradation without evaluating the task accuracy of every candidate policy. Nevertheless, widely used metrics fail systematically on modern architectures. We present a systematic empirical study of 13 sensitivity metrics for layer-wise INT8 quantization across four distinctly different neural networks, and validate the resulting policies on two ARM64 platforms. Gradient-based sensitivity methods fail on 4 out of 8 model-hardware configurations and weight-based statistics on 2. In contrast, the Jensen-Shannon Divergence achieves zero catastrophic failures, reliably isolating the layers that cannot be safely quantized. A sensitivity metric alone does not define a policy, and the fixed thresholds typically used for that step are fragile over the highly skewed distributions of modern architectures. We address this with K-Means clustering, achieving near-lossless accuracy and a mean speed-up of $1.81\\times$ over the full-precision model. Finally, we reveal that excluding from quantization the layers whose speed-up is negligible, regardless of their sensitivity, can be counterproductive, as it induces computational graph fragmentation and disables operator fusion. Our results yield concrete allocation policies for practitioners and researchers deploying quantized vision models on heterogeneous edge CPUs, without GPU access or gradient computation.",
+        "summary_vi": "arXiv:2609.28262v1 Announce Type: cross \nAbstract: Deploying deep learning models on edge CPUs is bottlenecked by computational and memory constraints. Mixed-precision quantization promises to reduce ",
+        "title": "RAMP: Robust Adaptive Mixed-Precision Quantization for Edge CPU Vision Models"
+      },
+      "first_seen": "2026-09-24T10:31:49.858853+00:00"
     }
   },
   "rejected": {
@@ -3171,6 +3605,7 @@
     "https://www.cnx-software.com/?p=177168": "2026-09-17T12:48:54.388673+00:00",
     "https://www.cnx-software.com/?p=177213": "2026-09-18T10:05:15.823346+00:00",
     "https://www.cnx-software.com/?p=177269": "2026-09-18T10:05:15.823346+00:00",
+    "https://www.cnx-software.com/?p=177474": "2026-09-24T10:31:49.858853+00:00",
     "https://www.dpdk.org/?p=4421": "2026-09-18T23:36:06.086004+00:00",
     "https://www.huawei.com/en/news/2026/9/hc-agentic-infra-industry-ai": "2026-09-18T23:36:06.086004+00:00",
     "https://www.huawei.com/en/news/2026/9/hc-agentic-thinkpro-pto-cann": "2026-09-19T23:34:09.501070+00:00",
@@ -3358,6 +3793,8 @@
     "https://www.sigarch.org/?p=114327": "2026-09-17T23:42:02.289072+00:00",
     "oai:arXiv.org:2310.01961v3": "2026-09-21T11:07:19.434489+00:00",
     "oai:arXiv.org:2510.27485v3": "2026-09-16T12:52:31.242072+00:00",
+    "oai:arXiv.org:2601.15294v3": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2603.26139v2": "2026-09-24T10:31:49.858853+00:00",
     "oai:arXiv.org:2604.13536v5": "2026-09-17T12:48:54.388673+00:00",
     "oai:arXiv.org:2604.19657v2": "2026-09-15T13:53:30.223364+00:00",
     "oai:arXiv.org:2606.19686v2": "2026-09-21T11:07:19.434489+00:00",
@@ -3551,6 +3988,7 @@
     "oai:arXiv.org:2609.22095v1": "2026-09-22T10:21:49.085973+00:00",
     "oai:arXiv.org:2609.22103v1": "2026-09-22T23:49:48.541761+00:00",
     "oai:arXiv.org:2609.22105v1": "2026-09-22T23:49:48.541761+00:00",
-    "oai:arXiv.org:2609.23032v1": "2026-09-22T23:49:48.541761+00:00"
+    "oai:arXiv.org:2609.23032v1": "2026-09-22T23:49:48.541761+00:00",
+    "oai:arXiv.org:2609.27082v1": "2026-09-24T10:31:49.858853+00:00"
   }
 }
