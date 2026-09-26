@@ -73,6 +73,7 @@
     "https://rocm.blogs.amd.com/software-tools-optimization/iteratively-tuning-hipblaslt/README.html": "2026-09-10T00:38:49.074531+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/profiling-guide/att/README.html": "2026-09-22T23:49:48.541761+00:00",
     "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data": "2026-09-22T10:21:49.085973+00:00",
+    "https://spectrum.ieee.org/undersea-cables-acoustic-sensing": "2026-09-26T10:17:13.144814+00:00",
     "https://spectrum.ieee.org/v2x-highway-vehicle-communication": "2026-09-14T00:29:25.403418+00:00",
     "https://www.cnx-software.com/?p=171189": "2026-09-16T12:52:31.242072+00:00",
     "https://www.cnx-software.com/?p=175484": "2026-09-06T12:01:14.796223+00:00",
@@ -192,6 +193,7 @@
     "https://www.reddit.com/r/embedded/t3_1wlvm9z": "2026-09-20T23:32:03.775709+00:00",
     "https://www.reddit.com/r/embedded/t3_1wo65i4": "2026-09-25T00:04:46.328968+00:00",
     "https://www.reddit.com/r/embedded/t3_1wpt9jb": "2026-09-26T00:10:13.580076+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wqjh8l": "2026-09-26T10:17:13.144814+00:00",
     "https://www.redhat.com/en/blog/achieving-data-sovereignty-saas-confidential-containers-and-quantum-safe-networking": "2026-09-15T13:53:30.223364+00:00",
     "https://www.redhat.com/en/blog/azure-red-hat-openshift-hosted-control-planes-now-available-public-preview": "2026-09-16T02:41:57.982686+00:00",
     "https://www.redhat.com/en/blog/bare-metal-diverse-ai-revenue-streams-navigating-gpu-cloud-platform-challenge": "2026-09-15T00:58:03.779863+00:00",
@@ -356,8 +358,11 @@
     "oai:arXiv.org:2609.27438v1": "2026-09-25T00:04:46.328968+00:00",
     "oai:arXiv.org:2609.27551v1": "2026-09-24T10:31:49.858853+00:00",
     "oai:arXiv.org:2609.27659v1": "2026-09-25T00:04:46.328968+00:00",
+    "oai:arXiv.org:2609.28533v1": "2026-09-26T10:17:13.144814+00:00",
     "oai:arXiv.org:2609.28717v1": "2026-09-25T10:36:06.746694+00:00",
     "oai:arXiv.org:2609.28769v1": "2026-09-25T10:36:06.746694+00:00",
+    "oai:arXiv.org:2609.28779v1": "2026-09-26T10:17:13.144814+00:00",
+    "oai:arXiv.org:2609.28815v1": "2026-09-26T10:17:13.144814+00:00",
     "oai:arXiv.org:2609.28904v1": "2026-09-25T10:36:06.746694+00:00",
     "oai:arXiv.org:2609.29164v1": "2026-09-26T00:10:13.580076+00:00",
     "oai:arXiv.org:2609.29246v1": "2026-09-25T10:36:06.746694+00:00",
@@ -720,6 +725,19 @@
         "title": "Qualcomm releases Linux developer preview for the Snapdragon X2 Series"
       },
       "first_seen": "2026-09-25T00:04:46.328968+00:00"
+    },
+    "https://www.cnx-software.com/?p=177572": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.cnx-software.com/?p=177572",
+        "link": "https://www.cnx-software.com/2026/09/26/kryonos-turns-esp32-boards-into-javascript-powered-mini-computer/",
+        "relevance": 4,
+        "source": "CNX Software",
+        "summary": "KryonOS is a small JavaScript-powered OS that turns a supported ESP32 development board with a touchscreen into a standalone computer with its own graphical interface, application launcher, and file storage. It provides the basic software environment needed to use the board without writing and flashing a separate firmware program for every application. Unlike traditional ESP32 firmware, KryonOS keeps applications separate from the main system and runs them through its built-in JavaScript runtime. It also includes an App Store that allows users to download and install applications and updates over Wi-Fi without reflashing the device. KryonOS key features: Supported MCUs – ESP32 (WROOM-32), ESP32-S2, ESP32-S3, and ESP32-C3 Storage – MicroSD card support via HSPI bus Display ILI9341 display controller with XPT2046 resistive touch controller connected via VSPI Experimental support for some other display controllers, e.g., ST7789V2 JavaScript Engine – Duktape 2.x (ES5/ES5.1 compliant). Graphics Engine – Direct-to-glass 16-bit RGB565 rendering with hardware [...] \n The post KryonOS turns ESP32 boards into JavaScript-powered mini computer appeared first on CNX Software - Embedded Systems News .",
+        "summary_vi": "KryonOS is a small JavaScript-powered OS that turns a supported ESP32 development board with a touchscreen into a standalone computer with its own graphical interface, application launcher, and file s",
+        "title": "KryonOS turns ESP32 boards into JavaScript-powered mini computer"
+      },
+      "first_seen": "2026-09-26T10:17:13.144814+00:00"
     },
     "https://www.phoronix.com/news/AMDGPU-HDMI-2.1-Reliability": {
       "entry": {
@@ -1331,6 +1349,58 @@
         "title": "Ported desktop Ubuntu with GPU acceleration to a GE Profile smart fridge display"
       },
       "first_seen": "2026-09-26T00:10:13.580076+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wqdibg": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wqdibg",
+        "link": "https://www.reddit.com/r/embedded/comments/1wqdibg/any_1a_methods_to_power_an_esp32_project/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I have an esp32 right now using Micro SD Module: 100ma peak A RC522: 30ma peak A 0.96\" SSD1306 OLED: 20ma peak A 3.3v buzzer: 30ma peak A which is all about 480ma total, so I need a way to power this. Can I just plug everything to the esp32 then plug the esp32 to the wall? I'm not sure if that's a good idea though because I don't know the current the charger bricks output or will that not be a problem? submitted by /u/hfurbd [link] [comments]",
+        "summary_vi": "I have an esp32 right now using Micro SD Module: 100ma peak A RC522: 30ma peak A 0.96\" SSD1306 OLED: 20ma peak A 3.3v buzzer: 30ma peak A which is all about 480ma total, so I need a way to power this.",
+        "title": "any 1A Methods to power an Esp32 Project?"
+      },
+      "first_seen": "2026-09-26T10:17:13.144814+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wql1z0": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wql1z0",
+        "link": "https://www.reddit.com/r/embedded/comments/1wql1z0/luthor_a_novel_dfa_regexlexer_matcher_table/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "https://preview.redd.it/e18x5ez5ptrh1.png?width=695&format=png&auto=webp&s=a7cb1f57c366a20390ea6fe671c5e184c2e65886 https://github.com/codewitch-honey-crisis/Luthor Luthor is a fast, compact lexer generator that produces simple integer arrays for efficient text matching in any programming language. I've provided examples for traversing the arrays in C, Python and C#. I did use AI as an assist, and to port the C# to Python plus test. This project is a command line tool written in C# .NET 8.0 console application that can be installed as a global dotnet tool. It also ships with luthor.py which is a pure Python implementation of the same algorithms, so you can use it without .NET like in your C/++ build environments Key Features: Direct-to-DFA conversion (no intermediate NFA) Partial lazy quantifier support ( ?? , *? , +? ) - all expressions are accepted but due to limitations of DFA traversal some complicated lazy matches may end up partly or entirely greedy. Unicode support (UTF-8, UTF-16, UTF-32) Compact array output suitable for embedded systems Language-agnostic - use the arrays in C, C++, Rust, etc. What Luthor Does Luthor takes regular expressions or lexer grammars and converts them into simple integer arrays that can be embedded in any program. Instead of shipping a complex regex engine, you get a small array that can be walked with a simple matching loop. Example: The pattern [A-Za-z_][A-Za-z0-9_]* becomes: int dfa[] = {10, -1, -1, -1, 3, 65, 90, 14, 95, 95, 14, 97, 122, 14, 0, -1, -1, 4, 48, 57, 14, 65, 90, 14, 95, 95, 14, 97, 122, 14}; Technical Background Luthor implements several advanced algorithms: Direct-to-DFA construction using the Aho-Sethi-Ullman algorithm (Dragon Book) Lazy matching using Dr. Robert van Engelen's algorithm from RE/FLEX Unicode range splitting for efficient multi-byte encoding support Acknowledgements Special thanks to Dr. Robert van Engelen for his guidance on implementing lazy matching in pure DFA form. submitted by /u/honeyCrisis [link] [comments]",
+        "summary_vi": "https://preview.redd.it/e18x5ez5ptrh1.png?width=695&format=png&auto=webp&s=a7cb1f57c366a20390ea6fe671c5e184c2e65886 https://github.com/codewitch-honey-crisis/Luthor Luthor is a fast, compact lexer gen",
+        "title": "Luthor: A novel DFA regex/lexer matcher table generator suitable for embedded matching"
+      },
+      "first_seen": "2026-09-26T10:17:13.144814+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wql4iu": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wql4iu",
+        "link": "https://www.reddit.com/r/embedded/comments/1wql4iu/any_extra_resources_when_beginning_to_write/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I've been experimenting a bit with the pi pico & pwm audio to try to write a tracker for microcontrollers. I'm getting to the point where I'm relatively comfortable with programming in C & with the architecture of the RP2040. So I think soon, I want to be able to start writing drivers to communicate with peripheral devices. As I've tried, I felt a little lost, and that maybe I was lacking some knowledge or reference materials that I ought to have, and was wondering what resources might be available to look through. This question seems to have been asked before a couple of times, and the response seems to be, maybe as it should be: \"Get a microcontroller, a peripheral, and the documentation for both and start trying to communicate with the device.\" If that's the case, then I'll keep pushing through, I just didn't want to get 2-3 months in and eventually hear \"Huh? You've been trying to program peripheral drivers without reading (book X) or without knowing about (Concept Y)? You wasted your time!\". I'm becoming more comfortable writing & building C programs, I've read through some of and am comfortable referencing the pi pico documentation, and I have an Adafruit ILI9341 that I'd like to write drivers for. I have the datasheet for the ILI9341 driver, but Adafruit doesn't tell you much more about how their board behaves other than \"Just pipe some spi commands to it\". There isn't even really a datasheet for their breakout, just a web tutorial for loading their python libraries, datasheets for the components & the schematics. I think the reason I'm so confused is that I can't really seem to find a solid reference as to how their board actually behaves/what functionality of the ILI9341 is takes care of by the board itself and what I need to worry about programming for. Is it really just as simple as powering it up and piping spi to it? I might be overthinking this... I think I probably just need to spend a day or three sitting down with the manuals & hashing it out, but does anyone have any recommendations as to books to read, online courses, or other things that might be helpful for someone doing this for the first time? I have the embedded engineering roadmap: https://github.com/m3y54m/embedded-engineering-roadmap , and a copy of O' Reilly Making Embedded Systems. I read that there was a FastBit course, but it's wicked expensive ($120 i think?) and was wondering if that was really worth the money. Something tells me that it really isn't... Anyways, any advice is appreciated. If the advice is just \"skill issue, get good\" then it is what it is, I'll figure it out. Just wanted to make sure I wasn't missing anything critical before spending too much time trying to figure it out. submitted by /u/toon_link_776 [link] [comments]",
+        "summary_vi": "I've been experimenting a bit with the pi pico & pwm audio to try to write a tracker for microcontrollers. I'm getting to the point where I'm relatively comfortable with programming in C & with the ar",
+        "title": "Any Extra Resources when beginning to write Device drivers?"
+      },
+      "first_seen": "2026-09-26T10:17:13.144814+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wqle57": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wqle57",
+        "link": "https://www.reddit.com/r/embedded/comments/1wqle57/a_3d_cube_running_on_badgeware_tufty_2350_written/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "More code examples are here: https://github.com/geastack/examples For quick start: https://geastack.com/one-pager submitted by /u/arbayi [link] [comments]",
+        "summary_vi": "More code examples are here: https://github.com/geastack/examples For quick start: https://geastack.com/one-pager submitted by /u/arbayi [link] [comments]",
+        "title": "A 3D Cube Running on Badgeware Tufty 2350 written in TypeScript"
+      },
+      "first_seen": "2026-09-26T10:17:13.144814+00:00"
     },
     "oai:arXiv.org:2309.07781v3": {
       "entry": {
@@ -2476,19 +2546,6 @@
       },
       "first_seen": "2026-09-25T00:04:46.328968+00:00"
     },
-    "oai:arXiv.org:2609.28533v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.28533v1",
-        "link": "https://arxiv.org/abs/2609.28533",
-        "relevance": 5,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2609.28533v1 Announce Type: new \nAbstract: This article provides an overview of potential alternatives for providing wireless backhaul in regions that suffer from the lack of fiber optic-connectivity to the core network. These regions can be rural and remote locations, low-income neighborhoods in urban and suburban regions, and post-disaster locations suffering from the destruction of cellular infrastructure. For these scenarios, extending fiber optic cables to such locations might be extremely expensive, impractical, or simply not feasible. Hence, in order to enhance the backhaul connectivity in these scenarios, we study the potential and applicability of the integrated access and backhaul (IAB) technique, and a hybrid combination of IAB and non-terrestrial networks (NTN) that includes high/low altitude platforms (HAPs/LAPs) and low earth orbit (LEO) satellites. We conclude this article by discussing the design considerations and potential research problems that would enable efficient deployment of such solutions.",
-        "summary_vi": "This article surveys wireless backhaul alternatives for regions lacking fiber-optic infrastructure connectivity, including rural and remote locations, low-income urban neighborhoods, and post-disaster areas with damaged cellular infrastructure. The overview addresses scenarios where extending fiber-optic cables is economically or logistically impractical, providing potential solutions for restoring or extending backhaul connectivity to core networks.",
-        "title": "Virtual Backhaul Connectivity for Enhanced Coverage in Fiber-Less Areas"
-      },
-      "first_seen": "2026-09-25T10:36:06.746694+00:00"
-    },
     "oai:arXiv.org:2609.28535v1": {
       "entry": {
         "category": "research",
@@ -2527,32 +2584,6 @@
         "title": "Unmasking Shortcut Learning in IoT Intrusion Detection: A Forensic, Multi-Paradigm Evaluation of Feature Dependence and Data Leakage"
       },
       "first_seen": "2026-09-26T00:10:13.580076+00:00"
-    },
-    "oai:arXiv.org:2609.28779v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.28779v1",
-        "link": "https://arxiv.org/abs/2609.28779",
-        "relevance": 5,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2609.28779v1 Announce Type: new \nAbstract: This paper presents a controlled comparison of exactly-once Kafka pipelines implemented with Apache Flink and Kafka Streams, two engines with different state-management architectures. The state management in Flink occurs through checkpoints in external storage, whereas Kafka Streams restores local state by replaying broker changelogs. The experiments evaluate the effects of the two designs on latency, resource consumption, configuration sensitivity, and recover from injected failures. The engines produced expected outputs across 50 correctness trials, five for each engine-workload combination (exact 95% CI 0.929-1.000). The latencies, however, showed differences when tested in 30 minute trials at a fixed rate of 100 events/sec. The measured ingestion to output interval was 4-6 ms for stateless workloads and 4.3-6.2 s for windowed workloads. The median p99 was 1.97-1.97s for stateless workloads and 5.68-9.92s for windowed respectively. Further, a sensitivity study showed that increasing the durability interval from 1,000 to 10,000 ms shifted the latency distributions in Kafka Streams and Flink between stages. Kafka Streams' W3 median p99 T2-T1 increased from 6,085 to 23,155 ms; Flink's T3-T2 increased from 732 to 8,702 ms. Failure injection experiments demonstrate that latency can interfere with incomplete processing behavior. The results show that exactly-once correctness is a necessary but insufficient measure of stream processing performance. Kafka Streams completed 0/5 stateful JVM-kill and 1/5 in each stateful local-volume-loss trials, while corresponding Flink cells completed 5/5. The cost, placement and magnitude depend on state management, architecture, configuration, and measurement location. Accordingly, evaluations of fault-tolerant streaming systems should holistically measure latency, completion, recovery behavior, and correctness.",
-        "summary_vi": "This controlled comparison evaluates exactly-once Kafka pipelines using Apache Flink (checkpoint-based external state storage) and Kafka Streams (local state via broker changelog replay), measuring impacts on latency, resource consumption, and configuration sensitivity. The study aims to quantify where state-management architectural differences incur performance and resource costs in streaming workloads.",
-        "title": "Where Does Streaming State Cost Go? A Reproducible Comparison of Flink and Kafka Streams on Kafka"
-      },
-      "first_seen": "2026-09-25T10:36:06.746694+00:00"
-    },
-    "oai:arXiv.org:2609.28815v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.28815v1",
-        "link": "https://arxiv.org/abs/2609.28815",
-        "relevance": 5,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2609.28815v1 Announce Type: new \nAbstract: Near-field (N-F) line-of-sight (LoS) MIMO channels admit a compact representation through a small number of geometric parameters describing the relative transceiver geometry, enabling low-overhead channel acquisition without estimating the full channel matrix. This paper considers downlink (DL) channel acquisition under practical asymmetric user-equipment (UE) antenna capabilities with multiple DL receive antennas, but only a single active uplink (UL) transmit chain. In this setting, UL observations across the large BS aperture enable accurate estimation of the relative location of the UL-active UE antenna but are insufficient to determine the orientation of the entire UE array. We propose a two-stage geometry-based N-F LoS MIMO channel acquisition framework that distributes the estimation of the channel-defining geometric parameters between the BS and UE. First, a single UL pilot sequence enables the BS to estimate two BS-side reference angles that parameterize the relative location of the UL-active UE antenna. The BS conveys these estimates to the UE and transmits two DL pilot sequences, from which the UE estimates the remaining array-orientation parameter. We derive Cramer-Rao lower bounds (CRLBs) for the first-stage parameters and a first-order error-covariance approximation for the UE orientation that explicitly captures the propagation of first-stage estimation uncertainty. Numerical results characterize the resulting error propagation and demonstrate accurate estimation of the geometric parameters and reconstruction of the LoS MIMO channel using one UL and two DL pilot sequences.",
-        "summary_vi": "This work tackles downlink channel acquisition for near-field MIMO systems where the user equipment has asymmetric antenna configurations (multiple receive antennas but limited uplink capability). By exploiting a compact geometric representation of line-of-sight channels in the near field, the method reduces channel estimation overhead without requiring full channel matrix computation, addressing practical constraints in UE antenna design.",
-        "title": "Near-Field MIMO LoS Channel Recovery Under User Antenna Asymmetry"
-      },
-      "first_seen": "2026-09-25T10:36:06.746694+00:00"
     },
     "oai:arXiv.org:2609.28822v1": {
       "entry": {
@@ -3310,6 +3341,7 @@
     "https://www.phoronix.com/news/OpenJDK-27-Java-27": "2026-09-15T13:53:30.223364+00:00",
     "https://www.phoronix.com/news/OpenVDB-SIMD--Framework": "2026-09-16T12:52:31.242072+00:00",
     "https://www.phoronix.com/news/Phoronix-Oktoberfest-2026": "2026-09-18T10:05:15.823346+00:00",
+    "https://www.phoronix.com/news/Plasma-6.8-Last-Minute-UI-Fixes": "2026-09-26T10:17:13.144814+00:00",
     "https://www.phoronix.com/news/Plasma-6.8-Post-Beta-Fixes": "2026-09-19T23:34:09.501070+00:00",
     "https://www.phoronix.com/news/Raspberry-Pi-Desktop-2026": "2026-09-15T13:53:30.223364+00:00",
     "https://www.phoronix.com/news/ReactOS-Updated-Wine-DirectX": "2026-09-25T00:04:46.328968+00:00",
