@@ -105,6 +105,7 @@
     "https://www.cnx-software.com/?p=177225": "2026-09-17T12:48:54.388673+00:00",
     "https://www.cnx-software.com/?p=177310": "2026-09-21T11:07:19.434489+00:00",
     "https://www.cnx-software.com/?p=177313": "2026-09-20T10:10:13.503806+00:00",
+    "https://www.cnx-software.com/?p=177619": "2026-09-27T10:46:11.482910+00:00",
     "https://www.ettus.com/?p=11532": "2026-09-16T02:41:57.982686+00:00",
     "https://www.huawei.com/en/news/2026/9/hc-ascend960-supernode": "2026-09-18T23:36:06.086004+00:00",
     "https://www.huawei.com/en/news/2026/9/hc-context-memory-storage": "2026-09-18T10:05:15.823346+00:00",
@@ -145,15 +146,18 @@
     "https://www.phoronix.com/news/Linux-7.3-rc2-kmalloc-obj": "2026-09-06T12:01:38.804236+00:00",
     "https://www.phoronix.com/news/Linux-7.3-rc3-Released": "2026-09-14T00:29:25.403418+00:00",
     "https://www.phoronix.com/news/Linux-7.3-rc4-x86-Fixes": "2026-09-20T23:32:03.775709+00:00",
+    "https://www.phoronix.com/news/Linux-7.4-Better-RPI-GPU-Reset": "2026-09-27T10:46:11.482910+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Faster-Do-Open": "2026-09-19T23:34:09.501070+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Refill-Sheaves-Barn": "2026-09-26T23:54:29.308170+00:00",
     "https://www.phoronix.com/news/Linux-Apple-Audio-Shared-GPIO": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/Linux-Dropping-Old-ARM-Ahead": "2026-09-09T09:28:28.702623+00:00",
     "https://www.phoronix.com/news/Linux-IO-uring-Crazy-Friday": "2026-09-12T00:42:36.175668+00:00",
+    "https://www.phoronix.com/news/Linux-Patches-Toward-DRBD-9": "2026-09-27T10:46:11.482910+00:00",
     "https://www.phoronix.com/news/Linux-Perf-Python-Module": "2026-09-21T11:07:19.434489+00:00",
     "https://www.phoronix.com/news/Linux-Random-Equal-Idle-CPUs": "2026-09-16T23:52:22.553694+00:00",
     "https://www.phoronix.com/news/Linux-Shutdown-Async-21": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/Linux-Slab-Tiny-Boot-Option": "2026-09-24T10:31:49.858853+00:00",
+    "https://www.phoronix.com/news/Linux-X1-Carbon-G14-MIPI-Cam": "2026-09-27T10:46:11.482910+00:00",
     "https://www.phoronix.com/news/Mesa-26.3-GFX6-GFX8-Modifiers": "2026-09-11T00:35:59.502530+00:00",
     "https://www.phoronix.com/news/Mir-2.29-Released": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/NVIDIA-Hugging-Face": "2026-09-06T12:01:14.796223+00:00",
@@ -377,6 +381,7 @@
     "oai:arXiv.org:2609.29219v1": "2026-09-26T23:54:29.308170+00:00",
     "oai:arXiv.org:2609.29246v1": "2026-09-25T10:36:06.746694+00:00",
     "oai:arXiv.org:2609.29342v1": "2026-09-26T00:10:13.580076+00:00",
+    "oai:arXiv.org:2609.29563v1": "2026-09-27T10:46:11.482910+00:00",
     "oai:arXiv.org:2609.29741v1": "2026-09-26T00:10:13.580076+00:00",
     "oai:arXiv.org:2609.29920v1": "2026-09-26T00:10:13.580076+00:00",
     "tag:blogger.com,1999:blog-1834236085756782640.post-4353150683630815925": "2026-09-17T12:48:54.388673+00:00",
@@ -424,18 +429,31 @@
       },
       "first_seen": "2026-09-25T10:36:06.746694+00:00"
     },
-    "https://lwn.net/Articles/1094840/": {
+    "https://linuxgizmos.com/?p=99286": {
       "entry": {
         "category": "embedded",
-        "id": "https://lwn.net/Articles/1094840/",
-        "link": "https://lwn.net/Articles/1094840/",
+        "id": "https://linuxgizmos.com/?p=99286",
+        "link": "https://linuxgizmos.com/esp-mosaico-places-dual-core-risc-v-esp32-s31-behind-a-2-16-inch-square-amoled/",
         "relevance": 4,
-        "source": "LWN.net Front Page",
-        "summary": "Inside this week's LWN.net Weekly Edition:\n \n \n Front : Git 2.56; gccrs; NetBSD and compat_linux; io_uring; Desktop UX.\n Briefs : WordPress vulnerability; Radicle vulnerability; Systemtap 5.6; GNOME 51; Systemd v262; Quotes; ...\n Announcements : Newsletters, conferences, security updates, patches, and more.",
-        "summary_vi": "Inside this week's LWN.net Weekly Edition:\n \n \n Front : Git 2.56; gccrs; NetBSD and compat_linux; io_uring; Desktop UX.\n Briefs : WordPress vulnerability; Radicle vulnerability; Systemtap 5.6; GNOME 5",
-        "title": "[$] LWN.net Weekly Edition for September 24, 2026"
+        "source": "LinuxGizmos.com",
+        "summary": "The Espressif ESP-Mosaico is an expandable smart-interaction development kit based on the ESP32-S31 microcontroller. The compact device integrates a 2.16-inch square touch display, audio hardware, motion and magnetic sensors, NAND storage, haptic feedback and dual expansion interfaces for HMI, edge voice and multimedia applications. The ESP32-S31NRV16 at the center of the board provides two 32-bit […]",
+        "summary_vi": "The Espressif ESP-Mosaico is a compact development kit centered around the dual-core RISC-V ESP32-S31 microcontroller. It integrates a 2.16-inch square AMOLED touch display, audio hardware, sensors, NAND storage, and dual expansion interfaces for human-machine interface (HMI) and multimedia applications.",
+        "title": "ESP-Mosaico centers dual-core RISC-V ESP32-S31 around a 2.16-inch square AMOLED"
       },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+      "first_seen": "2026-09-27T10:46:11.482910+00:00"
+    },
+    "https://linuxgizmos.com/?p=99296": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://linuxgizmos.com/?p=99296",
+        "link": "https://linuxgizmos.com/esp32-s3-powers-ewatch-smartwatch-with-open-drivers-and-diy-options/",
+        "relevance": 4,
+        "source": "LinuxGizmos.com",
+        "summary": "EWatch, developed by Ewan Wills, is a programmable ESP32-S3 smartwatch with a 1.69-inch color touchscreen, 350mAh battery, vibration feedback and USB-C connectivity. The platform is offered as a bare PCB, self-assembly kit or complete watch, following more than five years of development. The EWatch hardware is built around the ESP32-S3, with Wi-Fi and Bluetooth Low […]",
+        "summary_vi": "The EWatch is a programmable DIY smartwatch built on the ESP32-S3 microcontroller, offering a 1.69-inch touchscreen, a 350mAh battery, and open drivers. It is available as a bare PCB, a self-assembly kit, or a fully completed watch.",
+        "title": "ESP32-S3 powers EWatch smartwatch with open drivers and DIY options"
+      },
+      "first_seen": "2026-09-27T10:46:11.482910+00:00"
     },
     "https://lwn.net/Articles/1095721/": {
       "entry": {
@@ -449,32 +467,6 @@
         "title": "[$] Listening to the radio with Rust"
       },
       "first_seen": "2026-09-25T00:04:46.328968+00:00"
-    },
-    "https://lwn.net/Articles/1096200/": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://lwn.net/Articles/1096200/",
-        "link": "https://lwn.net/Articles/1096200/",
-        "relevance": 4,
-        "source": "LWN.net Front Page",
-        "summary": "The Radicle peer-to-peer\ncode-collaboration project has disclosed\ntwo critical vulnerabilities in the network protocol used by Radicle\nnodes. The first flaw is that the network protocol used by Radicle \" does not\ngive the confidentiality it was expected to give \", which allows anyone who\ncan observe the network between two nodes to read the data exchanged. The second\nis that peer authentication is broken and allows impersonation, so an attacker\ncan spoof their Node ID and read private repositories they should not be able to\nread. \n\n \n In practice, the two flaws are most useful when they can be exploited\ntogether: an attacker on the path sees the Node IDs at both ends of a\nconnection, and both are normally on the allow-list. That attacker can read\nwhatever is exchanged while they watch, and can then use a Node ID they saw to\nfetch the whole repository on demand. The realistic threat is anyone on the path\nbetween your node and node it syncs with, and no setting or allow-list protects\nagainst them. \n\n We are publishing this before the security update is available. You can act\non it today, and no fix we release later can undo an exposure that has already\nhappened. \n \n\n See the post for workarounds that can be used today; a major update that will\nbe backward-incompatible is underway.",
-        "summary_vi": "The Radicle peer-to-peer\ncode-collaboration project has disclosed\ntwo critical vulnerabilities in the network protocol used by Radicle\nnodes. The first flaw is that the network protocol used by Radicl",
-        "title": "Critical security vulnerabilities in the Radicle network protocol"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "https://lwn.net/Articles/1096204/": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://lwn.net/Articles/1096204/",
-        "link": "https://lwn.net/Articles/1096204/",
-        "relevance": 4,
-        "source": "LWN.net Front Page",
-        "summary": "Systemd v262 has been released. Some of the notable new features include the\nability to build systemd as a single statically linked binary for small\ncontainers, support for the kernel coredump socket protocol introduced with\nLinux 6.17, addition of OpenSSL 4 support, and many other changes. See\nthe release\nnotes for a full list of changes.",
-        "summary_vi": "Systemd v262 has been released. Some of the notable new features include the\nability to build systemd as a single statically linked binary for small\ncontainers, support for the kernel coredump socket ",
-        "title": "Systemd v262 released"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
     },
     "https://lwn.net/Articles/1096431/": {
       "entry": {
@@ -541,19 +533,6 @@
       },
       "first_seen": "2026-09-26T23:54:29.308170+00:00"
     },
-    "https://rcrwireless.com/?p=434633": {
-      "entry": {
-        "category": "ran",
-        "id": "https://rcrwireless.com/?p=434633",
-        "link": "https://rcrwireless.com/20260923/connectivity/ntt-global-optical-networks",
-        "relevance": 3,
-        "source": "RCR Wireless News",
-        "summary": "Bruno Berti, SVP of global product management at NTT Global Data Centers, told RCR that optical technology by itself will not remove the need for additional fiber as AI traffic…",
-        "summary_vi": "Bruno Berti, SVP of global product management at NTT Global Data Centers, told RCR that optical technology by itself will not remove the need for additional fiber as AI traffic…",
-        "title": "NTT Global Data Centers sees optical networks becoming central to AI infra"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
     "https://rocm.blogs.amd.com/artificial-intelligence/model-weight-profiles/README.html": {
       "entry": {
         "category": "embedded",
@@ -580,19 +559,6 @@
       },
       "first_seen": "2026-09-26T00:10:13.580076+00:00"
     },
-    "https://rocm.blogs.amd.com/software-tools-optimization/logprob-debug/README.html": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://rocm.blogs.amd.com/software-tools-optimization/logprob-debug/README.html",
-        "link": "https://rocm.blogs.amd.com/software-tools-optimization/logprob-debug/README.html",
-        "relevance": 3,
-        "source": "AMD ROCm Blog",
-        "summary": "In online reinforcement learning (RL), a language model generates responses, receives rewards, and updates its weights to improve future responses. Many systems split this loop between a rollout engine, which generates the responses, and a trainer, which learns from them. Both engines evaluate token probabilities: rollout records the log-probability, or logprob, of each token it generates, while the trainer evaluates those same tokens when computing its loss. After the update, the new weights are sent back to rollout, and the loop begins again.",
-        "summary_vi": "In online reinforcement learning (RL), a language model generates responses, receives rewards, and updates its weights to improve future responses. Many systems split this loop between a rollout engin",
-        "title": "Debugging Logprob Mismatches in LLM Reinforcement Learning"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
     "https://rocm.blogs.amd.com/software-tools-optimization/ultraquant-kv4/README.html": {
       "entry": {
         "category": "embedded",
@@ -605,19 +571,6 @@
         "title": "UltraQuant on AMD Instinct: More Efficient Agentic Serving for Qwen3.8-MXFP4"
       },
       "first_seen": "2026-09-26T00:10:13.580076+00:00"
-    },
-    "https://www.cnx-software.com/?p=177395": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.cnx-software.com/?p=177395",
-        "link": "https://www.cnx-software.com/2026/09/24/quectel-se200zc-ap-smart-module-supports-up-to-five-cameras-with-rockchip-rv1126b-bj-soc/",
-        "relevance": 4,
-        "source": "CNX Software",
-        "summary": "Quectel has launched the SE200ZC-AP, a compact (40 x 40 mm) smart module based on the Rockchip RV1126B/RV1126BJ quad-core Arm Cortex-A53 SoC with a 12MP ISP, an 8MP AI-ISP, and a 3 TOPS NPU. The module supports up to five 12MP cameras through two 4-lane MIPI CSI interfaces and one DVP interface. Other interfaces include Gigabit Ethernet, USB 3.0/2.0, two CAN FD, up to eight UART, six I2C, two SPI, two SDIO, three SAI, 22 ADC, 28 PWM, and up to 115 GPIOs. It ships with 1GB, 2GB, or 4GB LPDDR4x and 64GB eMMC flash, and is available in commercial and industrial grades, with operating temperatures of -25°C to +75°C and -35°C to +80°C, respectively.  These features make it suitable for smart security, industrial automation, autonomous vehicles, robotic vision, and Smart Home applications. Quectel SE200ZC-AP specifications: SoC – Rockchip RV1126B or RV1126BJ (industrial-grade version) CPU – Quad-core Arm Cortex-A53 up [...] \n The post Quectel SE200ZC-AP smart module supports up to five cameras with Rockchip RV1126B/BJ SoC appeared first on CNX Software - Embedded Systems News .",
-        "summary_vi": "Quectel has launched the SE200ZC-AP, a compact (40 x 40 mm) smart module based on the Rockchip RV1126B/RV1126BJ quad-core Arm Cortex-A53 SoC with a 12MP ISP, an 8MP AI-ISP, and a 3 TOPS NPU. The modul",
-        "title": "Quectel SE200ZC-AP smart module supports up to five cameras with Rockchip RV1126B/BJ SoC"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
     },
     "https://www.cnx-software.com/?p=177399": {
       "entry": {
@@ -697,19 +650,6 @@
       },
       "first_seen": "2026-09-26T23:54:29.308170+00:00"
     },
-    "https://www.phoronix.com/news/DXVK-IGDEXT": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/DXVK-IGDEXT",
-        "link": "https://www.phoronix.com/news/DXVK-IGDEXT",
-        "relevance": 4,
-        "source": "Phoronix",
-        "summary": "Intel engineers have been quietly developing dxvk-igdext as their own component for DXVK Direct3D 8 / 9 / 10 / 11 atop the Vulkan API for leveraging Intel Direct3D 11 Graphics Extensions...",
-        "summary_vi": "Intel engineers have been quietly developing dxvk-igdext as their own component for DXVK Direct3D 8 / 9 / 10 / 11 atop the Vulkan API for leveraging Intel Direct3D 11 Graphics Extensions...",
-        "title": "Intel Developing Their DXVK-IGDEXT For Improved Linux Gaming On Arc Graphics"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
     "https://www.phoronix.com/news/GCC-Patches-AVX10V1AUX": {
       "entry": {
         "category": "embedded",
@@ -749,32 +689,6 @@
       },
       "first_seen": "2026-09-25T10:36:06.746694+00:00"
     },
-    "https://www.phoronix.com/news/LLVM-Clang-AVX10_V2_AUX": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/LLVM-Clang-AVX10_V2_AUX",
-        "link": "https://www.phoronix.com/news/LLVM-Clang-AVX10_V2_AUX",
-        "relevance": 4,
-        "source": "Phoronix",
-        "summary": "In addition to AMD working on AVX10_V2_AUX support for the GCC compiler, this summer they also posted AVX10_V2_AUX support for the LLVM/Clang compiler. As of yesterday that enablement was merged for LLVM 24 for that important step toward AI Compute Extensions (ACE)...",
-        "summary_vi": "In addition to AMD working on AVX10_V2_AUX support for the GCC compiler, this summer they also posted AVX10_V2_AUX support for the LLVM/Clang compiler. As of yesterday that enablement was merged for L",
-        "title": "AMD Upstreams AVX10_V2_AUX Support Into LLVM Clang 24"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
-    "https://www.phoronix.com/news/Lemonade-2026.40-RC": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/Lemonade-2026.40-RC",
-        "link": "https://www.phoronix.com/news/Lemonade-2026.40-RC",
-        "relevance": 4,
-        "source": "Phoronix",
-        "summary": "The AMD-aligned Lemonade open-source project for serving as a local AI server released 2026.39.1 today as well as issuing a release candidate of 2026.40 as their next release. Besides adapting to a new versioning scheme, the Lemonade SDK updates today bring a few notable changes...",
-        "summary_vi": "The AMD-aligned Lemonade open-source project for serving as a local AI server released 2026.39.1 today as well as issuing a release candidate of 2026.40 as their next release. Besides adapting to a ne",
-        "title": "Lemonade Fixes AMD APU Model Streaming, Drops OpenMOSS ROCm As ~40x Slower Than Vulkan"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
     "https://www.phoronix.com/news/Linux-7.3-rc5-DRM": {
       "entry": {
         "category": "embedded",
@@ -787,19 +701,6 @@
         "title": "AI Bug Fixes, Crescent Island Power Brake & Nouveau Fixes For Linux 7.3-rc5 DRM"
       },
       "first_seen": "2026-09-26T23:54:29.308170+00:00"
-    },
-    "https://www.phoronix.com/news/Linux-7.4-DRM-Helpers-HDMI-2.0": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/Linux-7.4-DRM-Helpers-HDMI-2.0",
-        "link": "https://www.phoronix.com/news/Linux-7.4-DRM-Helpers-HDMI-2.0",
-        "relevance": 4,
-        "source": "Phoronix",
-        "summary": "Sent out today was the latest weekly pull of drm-misc-next changes of feature material to queue in DRM-Next for Linux 7.4. Most notable in this week's pull request are a number of patches for enhancing the HDMI 2.0 handling in the DRM core infrastructure and display helpers...",
-        "summary_vi": "Sent out today was the latest weekly pull of drm-misc-next changes of feature material to queue in DRM-Next for Linux 7.4. Most notable in this week's pull request are a number of patches for enhancin",
-        "title": "Linux 7.4 DRM Infrastructure Better Supporting HDMI 2.0 With New Helpers"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
     },
     "https://www.phoronix.com/news/Linux-Considers-AGENTS-MD": {
       "entry": {
@@ -814,19 +715,6 @@
       },
       "first_seen": "2026-09-26T00:10:13.580076+00:00"
     },
-    "https://www.phoronix.com/news/NTFS-3G-2026.9.18": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/NTFS-3G-2026.9.18",
-        "link": "https://www.phoronix.com/news/NTFS-3G-2026.9.18",
-        "relevance": 4,
-        "source": "Phoronix",
-        "summary": "NTFS-3G 2026.9.18 was released this morning as the newest update to this FUSE-based open-source driver for NTFS file-system support...",
-        "summary_vi": "NTFS-3G 2026.9.18 was released this morning as the newest update to this FUSE-based open-source driver for NTFS file-system support...",
-        "title": "NTFS-3G Update Brings Many Security Fixes"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
     "https://www.phoronix.com/news/NVMe-Apple-M3-Linux-Patches": {
       "entry": {
         "category": "embedded",
@@ -840,19 +728,6 @@
       },
       "first_seen": "2026-09-25T10:36:06.746694+00:00"
     },
-    "https://www.phoronix.com/news/Qualcomm-Talks-Up-X2-Linux": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/Qualcomm-Talks-Up-X2-Linux",
-        "link": "https://www.phoronix.com/news/Qualcomm-Talks-Up-X2-Linux",
-        "relevance": 4,
-        "source": "Phoronix",
-        "summary": "Qualcomm at their Snapdragon Summit taking place in Hawaii are talking up the forthcoming Linux support for Snapdragon X2 series laptops...",
-        "summary_vi": "Qualcomm at their Snapdragon Summit taking place in Hawaii are talking up the forthcoming Linux support for Snapdragon X2 series laptops...",
-        "title": "Qualcomm Talks Up Linux On Snapdragon X2 Laptops"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
     "https://www.phoronix.com/news/Samba-4.25-Released": {
       "entry": {
         "category": "embedded",
@@ -865,19 +740,6 @@
         "title": "Samba 4.25 Released With Experimental SMB3 Persistent Handles"
       },
       "first_seen": "2026-09-25T10:36:06.746694+00:00"
-    },
-    "https://www.phoronix.com/review/java-8-openjdk-27-benchmarks": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/review/java-8-openjdk-27-benchmarks",
-        "link": "https://www.phoronix.com/review/java-8-openjdk-27-benchmarks",
-        "relevance": 4,
-        "source": "Phoronix",
-        "summary": "With the recent release of Java/OpenJDK 27 I began some fresh benchmarks in not having looked at the OpenJDK Java performance in a few years. Carried away, I ended up re-testing all the major OpenJDK versions going back to the venerable JDK 8.",
-        "summary_vi": "With the recent release of Java/OpenJDK 27 I began some fresh benchmarks in not having looked at the OpenJDK Java performance in a few years. Carried away, I ended up re-testing all the major OpenJDK ",
-        "title": "Benchmarking Java Performance Of JDK 8 Through OpenJDK 27"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
     },
     "https://www.phoronix.com/review/near-10-sec-kernel-build": {
       "entry": {
@@ -904,123 +766,6 @@
         "title": "Ubuntu 26.10 Delivers Some Nice Gains For Intel Panther Lake / Framework Laptop 13 Pro"
       },
       "first_seen": "2026-09-25T00:04:46.328968+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wo4uj0": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wo4uj0",
-        "link": "https://www.reddit.com/r/embedded/comments/1wo4uj0/looking_for_some_advice_and_feedback_riscv_dos/",
-        "relevance": 4,
-        "source": "Reddit r/embedded",
-        "summary": "Hello folks! I've been doing embedded programming for about 6 years now, mostly firmware and operating systems. I especially like silicon bring-up work and bringing up new SoCs and boards. A few things I've built and am proud of include: - I ported the WCH CH32V307 microcontroller to QEMU (got frustrated with delayed shipping lol) - Created a micro-hypervisor and operating system running on RV64, ARM64 and x64 - Working on a DOS-like operating system for the CH32V307 and other low power MCUs of RISC-V right now that can run actual MS DOS software unmodified (it already runs basic ones, currently getting a game to run called BEAST, attached a screenshot below - but not everything and it is currently VERY simple so don't expect a lot!) Here is my GitHub which have all of these projects pinned, https://github.com/mpathak-ds I'm currently looking for any work available, full time or contract, as I just want to help and get more experience and ultimately help bring RISC-V to more stuff. Happy to answer any questions below! https://preview.redd.it/87uvm5ewl9rh1.png?width=784&format=png&auto=webp&s=6d0e548c5172b210d7e20f242de9603e7479d414 submitted by /u/driftlesssoftware [link] [comments]",
-        "summary_vi": "Hello folks! I've been doing embedded programming for about 6 years now, mostly firmware and operating systems. I especially like silicon bring-up work and bringing up new SoCs and boards. A few thing",
-        "title": "Looking for some advice and feedback (RISC-V DOS runs unmodified MS-DOS software!)"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wob5pz": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wob5pz",
-        "link": "https://www.reddit.com/r/embedded/comments/1wob5pz/i_made_tiny5_a_5pixel_variable_font_family/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "Hi r/embedded ! I just released Tiny5 . It's a family of compact 5-pixel variable fonts inspired by the graphing calculators and pocket gadgets of the 1980s and 90s. The goal was to see how much clarity and personality could fit into letters only five pixels tall. There are two fonts in the family: Tiny5 , with one-pixel-wide strokes, for body text and dense readouts Tiny5 Duo , with doubled vertical stems, for titles, headings, HUDs, and labels They cover Latin, Greek, Cyrillic, and Armenian: 1,771 glyphs across 974 languages. Both fonts are also available in BDF format for seamless integration with the mcu-renderer , u8g2 and TFT_eSPI libraries. GitHub: https://github.com/Gissio/font_tiny5 Google Fonts: http://fonts.google.com/specimen/Tiny5 itch.io: https://gissio.itch.io/tiny5 Feedback is very welcome, and if you use it in a project, I'd love to see it! submitted by /u/Gissio [link] [comments]",
-        "summary_vi": "Hi r/embedded ! I just released Tiny5 . It's a family of compact 5-pixel variable fonts inspired by the graphing calculators and pocket gadgets of the 1980s and 90s. The goal was to see how much clari",
-        "title": "I made Tiny5, a 5-pixel variable font family inspired by 80s–90s calculators"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wob7jp": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wob7jp",
-        "link": "https://www.reddit.com/r/embedded/comments/1wob7jp/i_built_this_aircraft_attitude_indicator_from/",
-        "relevance": 4,
-        "source": "Reddit r/embedded",
-        "summary": "This is my first PCB hardware design. The board is built around the ESP32-P4 development platform and integrates two UART interfaces, an I2C port, a passive buzzer, four buttons, a power management chip, and a MIPI display connector. teh display is huaxiacai brand, and mipi protocal，resolution is 480×480 ，amoled，maybe i am the first one to drive this display with mipi way in the world the graphic driver is lvgl, and the arch of code is esp idf, the pcb design software is altium design, and use fusion 360 to design 3d model of encolosure This project has taken me quite a long time to complete. I worked on almost every part of it, including the code, algorithms, PCB layout and routing, PCB assembly and prototyping, the 3D enclosure design, and 3D printing. To be honest, I’m still not entirely sure what practical purpose this product could serve. I mainly built it because I thought it was cool. Another important reason was that I wanted to challenge myself and develop the ability to design and build a complete product from start to finish. I’ve also seen some people in the comments suggesting that I should open-source the project. I’m actually not against open source. I’m currently thinking about what kind of open-source model would make the most sense. Now that I’ve gained the ability to develop a complete product from scratch, I’m also considering turning this into a commercial product. For example, could I actually sell it? If I open-source the software, how should I sell the hardware alongside it? Or would it make more sense to keep the entire project closed-source? These are some of the questions I’m thinking about right now. I’m also curious about crowdfunding. Would a product like this be suitable for crowdfunding? If so, what would be a good way to approach it? submitted by /u/Alarming-Sentence-39 [link] [comments]",
-        "summary_vi": "This is my first PCB hardware design. The board is built around the ESP32-P4 development platform and integrates two UART interfaces, an I2C port, a passive buzzer, four buttons, a power management ch",
-        "title": "I built this aircraft attitude indicator from scratch — code, PCB, and enclosure, all designed by myself."
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wocys1": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wocys1",
-        "link": "https://www.reddit.com/r/embedded/comments/1wocys1/looking_for_embedded_linux_uart_android/",
-        "relevance": 4,
-        "source": "Reddit r/embedded",
-        "summary": "I’ve been working on a pretty interesting hardware/software project and I’m looking for people with experience in embedded Linux, UART, Android APK reverse engineering, BLE/protobuf, firmware analysis, CAN bus, or hardware debugging who might want to help or point me in the right direction. The situation I have a Lymow robotic mower that is fully functional hardware-wise, but the manufacturer has disabled/locked the machine on their server. The original owner attempted to return it. The return was never successfully completed after multiple pickup attempts, they received their refund, and they were eventually instructed to dispose of the mower. I acquired it afterward with the original owner’s permission and PIN. I contacted Lymow, explained the entire situation, and asked about transferring/reactivating it. They confirmed that it is disabled on their side but won’t reactivate or transfer it to me. Rather than throw away a perfectly functional robot, I’ve turned it into a reverse-engineering/learning project. What we’ve done I’m not an embedded engineer or professional programmer . I own a construction company. I’m learning this as I go, using AI heavily along with help from some extremely knowledgeable people in the Lymow community. So far we have: Connected directly to the mower over BLE without relying on the normal Lymow app. Identified the BLE service and characteristic. Negotiated MTU 512, discovered services, enabled notifications, and successfully communicated with the mower. Decompiled and analyzed the Android APK. Found debug functionality that appears to have been left inside the Android application. Found protobuf-related functionality and an execCmd-style command path. Built our own Android test application for communicating directly with the mower. Extracted, modified, rebuilt, and signed portions of the Android application for testing. Received information from other researchers/owners about previous SSH/Linux access to these machines. Started investigating UART, CAN, Linux, STM32/MCU communication, and the mower’s internal architecture. Potentially gained access to a disk image from an earlier mower from a period when SSH access was available. And we just got another potentially huge lead: another community member has apparently collected a bunch of the relevant firmware/software/files and technical material from his own working mower. He doesn’t want to experiment further on his machine because he’s understandably worried about bricking a perfectly good mower. He has offered to give that material to me so I can do the experimenting on my already-locked machine instead. That could give us a known-working reference to compare against what’s on mine and hopefully make this considerably less of a blind reverse-engineering exercise. Where we’re trying to go The immediate goal is to understand the mower well enough to obtain local administrative/root access to my own hardware and document how the system works. The path we’re currently investigating looks roughly like: Android APK/debug functionality → BLE/protobuf → Linux system → UART/serial → filesystem/firmware → communication with the mower’s embedded controllers Ultimately I’d like to make the mower functional independently of the manufacturer’s cloud lock. If that eventually means creating our own local control software or adapting an existing open-source robotic mower project, even better. I’m trying to determine the smartest path instead of randomly throwing commands at a very expensive lawn ornament. What we need help with If you have experience with any of the following, I would genuinely appreciate your input: Embedded Linux • UART/serial consoles • U-Boot • Android APK/React Native reverse engineering • protobuf • BLE • CAN bus • STM32 • firmware extraction/analysis • filesystem/disk images • JTAG/SWD • robotic systems I’m especially interested in someone who can help us: Identify the processor/SoC and architecture from board photos and markings. Identify likely UART/JTAG/SWD/debug pads. Safely determine GND/TX/RX and logic voltage. Analyze the Linux/disk image we’re receiving. Compare firmware/files from a known-working mower against my locked machine. Better understand the APK’s debug/BLE/protobuf communication path. Figure out what talks directly to the motor controllers and other hardware versus what depends on Lymow’s cloud. I can provide board photos, chip markings, APK findings, BLE logs, protobuf information, filesystem/images, and whatever else we collect. This has become a ridiculously fun rabbit hole. I’m learning all of this from scratch, so I’m not pretending to be an embedded engineer. But we’ve gotten considerably farther than I expected, and now we’re starting to accumulate enough information that somebody who actually knows this stuff could probably save me about 400 hours of learning things the hard way. If this sounds like your kind of project, comment or message me. Even if you don’t want to get deeply involved, pointing us toward the next thing we should investigate would be hugely appreciated. The goal is simple: turn a cloud-locked piece of potential e-waste into an open, locally controlled robot—and learn everything we can about it along the way. submitted by /u/elliottcg0 [link] [comments]",
-        "summary_vi": "I’ve been working on a pretty interesting hardware/software project and I’m looking for people with experience in embedded Linux, UART, Android APK reverse engineering, BLE/protobuf, firmware analysis",
-        "title": "Looking for embedded Linux / UART / Android reverse-engineering help with a locked robotic mower"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wogv1f": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wogv1f",
-        "link": "https://www.reddit.com/r/embedded/comments/1wogv1f/hit_a_wall_in_learning_firmware_and_have_come_to/",
-        "relevance": 4,
-        "source": "Reddit r/embedded",
-        "summary": "I feel a bit dumb for not realising this sooner. But after a certain point it becomes almost mandatory to learn hardware design and start making your own pcbs to write firmware for. I've been trying to be a one trick pony and never got to learning hardware properly and it worked good enough to get an entry level job. But I have hit a wall because all that I can practice with, is what is given to me at work. Ofc I can just get basic modules and use a breadboard and development kits but that isn't what you would be working on in real life. Becoming a full stack embedded engineer almost feels like an inevitability. Probably gonna complain about thermal issues soon and have to learn about heatsink materials and get the full mechanical, electrical and software stack. submitted by /u/TheExtirpater [link] [comments]",
-        "summary_vi": "I feel a bit dumb for not realising this sooner. But after a certain point it becomes almost mandatory to learn hardware design and start making your own pcbs to write firmware for. I've been trying t",
-        "title": "Hit a wall in learning firmware and have come to a realisation"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wotjr4": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wotjr4",
-        "link": "https://www.reddit.com/r/embedded/comments/1wotjr4/any_idea_on_llm_compression/",
-        "relevance": 4,
-        "source": "Reddit r/embedded",
-        "summary": "Hey Devs,I'm trying to run a LLM on a microcontroller, therefore I need to first compress my model, I saw numerous ways online and yeah from GPTs as well, but I thought it would be better to get suggestion from real devs who have experience in this, I'm new to these kinda projects so yeah any suggestion on how to start with the model compression. submitted by /u/IndicationTop5547 [link] [comments]",
-        "summary_vi": "Hey Devs,I'm trying to run a LLM on a microcontroller, therefore I need to first compress my model, I saw numerous ways online and yeah from GPTs as well, but I thought it would be better to get sugge",
-        "title": "Any idea on LLM compression"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wou6fj": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wou6fj",
-        "link": "https://www.reddit.com/r/embedded/comments/1wou6fj/how_should_i_design_a_motor_driver_with_a/",
-        "relevance": 4,
-        "source": "Reddit r/embedded",
-        "summary": "I'm working on a motor controller project and I'm trying to figure out the right architecture before I start buying/building the hardware. The idea is to make a controller for two brushed DC motors with quadrature encoders. I want the end user to be able to write simple Arduino-style code such as motor1.setSpeed(100) or motor1.stop() , while the actual low-level motor control handles things like PWM, encoder feedback, PID, current sensing, safety, etc. I'm currently thinking about using an ESP32 as the user-facing MCU and having a separate STM32 handle the real-time motor control. The ESP32 would run the user's code and communicate commands to the STM32 over UART or CAN, while the STM32 would run FreeRTOS and handle the motors, encoders, PID, watchdogs, etc. What I'm not sure about is whether I actually need two chips for this. Could I realistically do the whole thing on a single ESP32, with the user code and motor-control firmware running on the same chip? If so, how would you structure it so that user code can't interfere with the motor-control tasks or memory? If two MCUs are the better approach, I'd also like to understand how people normally structure the communication between them and how the firmware is divided. I'm fairly new to STM32/FreeRTOS, so practical advice on how you'd actually build this would be really helpful. submitted by /u/Only_Obligation7247 [link] [comments]",
-        "summary_vi": "I'm working on a motor controller project and I'm trying to figure out the right architecture before I start buying/building the hardware. The idea is to make a controller for two brushed DC motors wi",
-        "title": "How should I design a motor driver with a user-programmable MCU?"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wow594": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wow594",
-        "link": "https://www.reddit.com/r/embedded/comments/1wow594/which_programming_language_to_use_for_beagle_board/",
-        "relevance": 4,
-        "source": "Reddit r/embedded",
-        "summary": "I am a Embedded Developer, have experience with Arm cortex -M mcu, want to dwell into the world of Cortex - A mcu , Yocto project, linux driver development etc. Want to build applications on it, for that majority of people use Python, wanted to know if C++ is used in industry for building applications over python? Or should i stick with python? submitted by /u/Short-Instruction-59 [link] [comments]",
-        "summary_vi": "I am a Embedded Developer, have experience with Arm cortex -M mcu, want to dwell into the world of Cortex - A mcu , Yocto project, linux driver development etc. Want to build applications on it, for t",
-        "title": "Which programming language to use for Beagle Board?"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1woxk5d": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1woxk5d",
-        "link": "https://www.reddit.com/r/embedded/comments/1woxk5d/the_newest_esp32_can_actually_run_linux_and_its/",
-        "relevance": 4,
-        "source": "Reddit r/embedded",
-        "summary": "\" Espressif has a new ESP32 , the ESP32-S31, and that ESP32 comes with a gigabit Ethernet MAC, a USB 2.0 High-Speed host controller, an SD card interface with two slots, and a camera input. It's a pretty standard set of features for a Linux single-board computer, but a rather strange list of things to find on a microcontroller \" submitted by /u/xanthium_in [link] [comments]",
-        "summary_vi": "\" Espressif has a new ESP32 , the ESP32-S31, and that ESP32 comes with a gigabit Ethernet MAC, a USB 2.0 High-Speed host controller, an SD card interface with two slots, and a camera input. It's a pre",
-        "title": "The newest ESP32 can actually run Linux, and it's getting uncomfortably close to a Raspberry Pi"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
     },
     "https://www.reddit.com/r/embedded/t3_1wp1l4b": {
       "entry": {
@@ -1308,44 +1053,70 @@
       },
       "first_seen": "2026-09-26T23:54:29.308170+00:00"
     },
-    "oai:arXiv.org:2309.07781v3": {
+    "https://www.reddit.com/r/embedded/t3_1wr7eqz": {
       "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2309.07781v3",
-        "link": "https://arxiv.org/abs/2309.07781",
-        "relevance": 3,
-        "source": "arXiv cs.PL (Programming Languages)",
-        "summary": "arXiv:2309.07781v3 Announce Type: replace \nAbstract: This paper presents a quantitative program verification infrastructure for discrete probabilistic programs. Our infrastructure can be viewed as the probabilistic analogue of Boogie: its central components are an intermediate verification language (IVL) together with a real-valued logic. Our IVL provides a programming-language-style for expressing verification conditions whose validity implies the correctness of a program under investigation. As our focus is on verifying quantitative properties such as bounds on expected outcomes, expected run-times, or termination probabilities, off-the-shelf IVLs based on Boolean first-order logic do not suffice. Instead, a paradigm shift from the standard Boolean to a real-valued domain is required.\n Our IVL features quantitative generalizations of standard verification constructs such as assume- and assert-statements. Verification conditions are generated by a weakest-precondition-style semantics, based on our real-valued logic. We show that our verification infrastructure supports natural encodings of numerous verification techniques from the literature. With our SMT-based implementation, we automatically verify a variety of benchmarks. To the best of our knowledge, this establishes the first deductive verification infrastructure for expectation-based reasoning about probabilistic programs.",
-        "summary_vi": "arXiv:2309.07781v3 Announce Type: replace \nAbstract: This paper presents a quantitative program verification infrastructure for discrete probabilistic programs. Our infrastructure can be viewed as the",
-        "title": "A Deductive Verification Infrastructure for Probabilistic Programs (Extended Version)"
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wr7eqz",
+        "link": "https://www.reddit.com/r/embedded/comments/1wr7eqz/recently_i_got_esp32s3/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "My windows is not recognizing the device nor is not making the usb sound it just stood there silent is there a way to force windows to recognize device? model is XIAO-ESP32-S3 i did press the buttons boot and power and pressing both & still no work. submitted by /u/risottonero23 [link] [comments]",
+        "summary_vi": "A user is asking for assistance as Windows fails to recognize their new XIAO-ESP32-S3 microcontroller board. Despite pressing both the boot and power buttons, the computer does not play a USB connection sound or detect the device.",
+        "title": "recently i got esp32-s3"
       },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
+      "first_seen": "2026-09-27T10:46:11.482910+00:00"
     },
-    "oai:arXiv.org:2404.03515v4": {
+    "https://www.reddit.com/r/embedded/t3_1wrdiw7": {
       "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2404.03515v4",
-        "link": "https://arxiv.org/abs/2404.03515",
-        "relevance": 3,
-        "source": "arXiv cs.PL (Programming Languages)",
-        "summary": "arXiv:2404.03515v4 Announce Type: replace-cross \nAbstract: We address the problem of model checking context-free specifications for probabilistic pushdown automata, with applications in the verification of recursive probabilistic programs. Operator Precedence Languages (OPLs) are an expressive subclass of context-free languages suitable for model checking recursive programs. The derived Precedence Oriented Temporal Logic (POTL) can express fundamental OPL specifications such as pre/post-conditions and exception safety. We introduce probabilistic Operator Precedence Automata(pOPA), a class of probabilistic pushdown automata whose traces are OPLs, and study their model checking problem against POTL specifications. We identify a fragment of POTL, called POTLf$\\chi$, for which we develop an EXPTIME algorithm for qualitative probabilistic model checking, and an EXPSPACE algorithm for the quantitative variant. The algorithms rely on the property of separation of automata generated from POTLf$\\chi$ formulas. By the same property, the algorithms allow for model checking pOPA against Linear Temporal Logic (LTL) specifications. POTLf$\\chi$ is then the first context-free logic for which an optimal probabilistic model checking algorithm has been developed, matching its EXPTIME lower bound in complexity. In comparison, the best known algorithm for probabilistic model checking of CaRet, a prominent temporal logic based on Visibly Pushdown Languages (VPL), is doubly exponential.",
-        "summary_vi": "arXiv:2404.03515v4 Announce Type: replace-cross \nAbstract: We address the problem of model checking context-free specifications for probabilistic pushdown automata, with applications in the verificati",
-        "title": "Model Checking Probabilistic Operator Precedence Automata"
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wrdiw7",
+        "link": "https://www.reddit.com/r/embedded/comments/1wrdiw7/hil_design/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I'm looking for HIL design and building advice. I need to test and verify a device which has Ethernet, CAN, RS485 and multiple analog and digital IOs. My initial plan for the hardware is: A PC with a JLink USB-controlled power supply - 24V, 2A USB-to-CAN, USB-to-RS485 Some off the shelf IO module with Ethernet and a rest API. The digital inputs are 0-24V, analog inputs are 0-10V IO module for pulse counting (please suggest parts) IO module for square wave/sinewave generation (please suggest parts) Software - I have a pipeline which builds firmware and that's all I have for now. I'll appreciate some ideas about how to proceed with creating and orchestrating the tests (pytest is my personal preference). submitted by /u/dokolenkov [link] [comments]",
+        "summary_vi": "A user is seeking hardware design and component advice to build a Hardware-in-the-Loop (HIL) testing system for a device with Ethernet, CAN, RS485, and various IOs. Specifically, they need recommendations for off-the-shelf pulse counting and wave generation modules.",
+        "title": "HIL design"
       },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
+      "first_seen": "2026-09-27T10:46:11.482910+00:00"
     },
-    "oai:arXiv.org:2507.20674v3": {
+    "https://www.reddit.com/r/embedded/t3_1wre3ox": {
       "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2507.20674v3",
-        "link": "https://arxiv.org/abs/2507.20674",
-        "relevance": 3,
-        "source": "arXiv cs.PL (Programming Languages)",
-        "summary": "arXiv:2507.20674v3 Announce Type: replace-cross \nAbstract: Modern Java projects increasingly adopt static analysis tools that prevent null-pointer exceptions by treating nullness as a type property. However, integrating such tools into large, existing codebases remains a significant challenge. While annotation inference can eliminate many errors automatically, a subset of residual errors $-$ typically a mix of real bugs and false positives $-$ often persists and can only be resolved via code changes. Manually addressing these errors is tedious and error-prone. Large language models (LLMs) offer a promising path toward automating these repairs, but naively prompted LLMs often generate incorrect, contextually inappropriate edits. We present NullRepair, a system that integrates LLMs into a structured workflow for resolving the errors from a nullability checker. NullRepair's decision process follows a flowchart derived from manual analysis of 200 real-world errors. It leverages static analysis to identify safe and unsafe usage regions of symbols, using error-free usage examples to contextualize model prompts. Patches are generated through an iterative interaction with the LLM that incorporates project-wide context and decision logic. Our evaluation on 12 real-world Java projects shows that NullRepair resolves 63% of the 1,119 nullability errors that remain after applying a state-of-the-art annotation inference technique. Unlike two baselines (single-shot prompt and mini-SWE-agent), NullRepair also largely preserves program semantics, with all unit tests passing in 10/12 projects after applying every edit proposed by NullRepair, and 98% or more tests passing in the remaining two projects.",
-        "summary_vi": "arXiv:2507.20674v3 Announce Type: replace-cross \nAbstract: Modern Java projects increasingly adopt static analysis tools that prevent null-pointer exceptions by treating nullness as a type property. H",
-        "title": "LLM-Based Repair of Static Nullability Errors"
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wre3ox",
+        "link": "https://www.reddit.com/r/embedded/comments/1wre3ox/any_diyaccessible_radar_modules_with_2d_tracking/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I’m looking for a radar sensor for a DIY project on my own property. I need actual target position data — ideally angle + distance / X-Y coordinates — not just a presence or motion output. My target is roughly 10 m through a wall, not 10 m free-space line of sight. I know this depends heavily on the wall material, thickness, moisture, reinforcement, etc., so I’m not expecting guaranteed performance through concrete. But I would like something meaningfully better than the common cheap 24 GHz presence modules. I have already looked at the HLK-LD2450 and HLK-LD2461. They are interesting because of the basic multi-target coordinate output, but in my environment I am only seeing around 4 m through-wall performance. Requirements: 2D tracking: angle + range / X-Y coordinates Preferably 6–24 GHz, but I am open to lower frequencies if that is more realistic for wall penetration Around 10 m through-wall goal DIY-friendly hardware or at least a development/evaluation board Accessible raw or processed data via UART/USB/Ethernet/SPI/etc. Fine with doing custom integration and some signal processing Are there any FMCW/MIMO radar dev kits, industrial sensors, or other modules that you would recommend? Real-world experience with through-wall use would be especially helpful submitted by /u/Inevitable-Moose5996 [link] [comments]",
+        "summary_vi": "A user is looking for suggestions for a DIY-friendly radar module that provides 2D target tracking (angle and distance) through walls up to 10 meters. The user requires a module with significantly better through-wall performance than the common HLK-LD2450 24 GHz sensor.",
+        "title": "Any DIY-accessible radar modules with 2D tracking and better through-wall range than HLK-LD2450?"
       },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
+      "first_seen": "2026-09-27T10:46:11.482910+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wre6ck": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wre6ck",
+        "link": "https://www.reddit.com/r/embedded/comments/1wre6ck/esp32s3_n16r8_enumerates_as_cdc_but_never_as_hid/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "Board: ESP32-S3-N16R8, dual USB-C (COM + USB), core 3.3.11, Arduino IDE 2.2.1. USB Mode set to USB-OTG (TinyUSB). Goal: pot → gamepad trigger axis for a sim racing handbrake. \\#include \"USB.h\" \\#include \"USBHIDGamepad.h\" USBHIDGamepad Gamepad; const int potPin = 1; void setup() { pinMode(potPin, INPUT); Gamepad.begin(); USB.begin(); } void loop() { int pot = analogRead(potPin); int mapped = map(pot, 0, 4095, 0, 255); Gamepad.rightTrigger(mapped); delay(20); } Plugged into the native USB port, Device Manager only ever shows a USB Serial Device (usbser.inf), never anything HID. joy.cpl shows nothing. Same result with CDC On Boot on or off, different cable, different port, and swapping the begin() call order. Anyone gotten USBHIDGamepad actually enumerating as HID on core 3.3.x on an S3? Trying to figure out if this is a known bug or something I'm missing. submitted by /u/Trick-Builder-1020 [link] [comments]",
+        "summary_vi": "A user is troubleshooting an ESP32-S3 board configured in USB-OTG mode that successfully enumerates as a CDC (virtual serial port) but fails to show up as a HID (Human Interface Device) gamepad. Code and hardware details are provided to find a fix.",
+        "title": "ESP32-S3 (N16R8) enumerates as CDC but never as HID — USBHIDGamepad not showing up, any known fix?"
+      },
+      "first_seen": "2026-09-27T10:46:11.482910+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wrffcy": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wrffcy",
+        "link": "https://www.reddit.com/r/embedded/comments/1wrffcy/groundingdoes_it_mean_connecting_to_ve_of_battery/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I’m looking for a good book or resource to properly understand grounding and earthing in microcontroller projects. Not just basic GND connections, but things like: - Analog vs digital ground - RF ground - Chassis/shield ground - Different grounding topologies - Star grounding - Ground loops - Ground planes - Noise and EMI suppression - When to connect or separate different grounds I keep seeing these terms in different projects, but I’d like to understand why and when each approach is actually used, rather than just memorizing rules. Is there a book that explains this from a practical embedded-systems perspective, preferably with real PCB examples? submitted by /u/Relevant_Pumpkin9190 [link] [comments]",
+        "summary_vi": "A community member is seeking books or educational resources to understand advanced grounding and earthing concepts in microcontroller projects. The query focuses on practical topics like analog vs. digital ground, RF ground, ground loops, and electromagnetic interference (EMI) suppression.",
+        "title": "Grounding(does it mean connecting to -ve of battery) in Embedded Projects — What Am I Missing(Educational purposes)?"
+      },
+      "first_seen": "2026-09-27T10:46:11.482910+00:00"
     },
     "oai:arXiv.org:2510.27065v2": {
       "entry": {
@@ -1360,32 +1131,6 @@
       },
       "first_seen": "2026-09-26T00:10:13.580076+00:00"
     },
-    "oai:arXiv.org:2602.18307v2": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2602.18307v2",
-        "link": "https://arxiv.org/abs/2602.18307",
-        "relevance": 3,
-        "source": "arXiv cs.PL (Programming Languages)",
-        "summary": "arXiv:2602.18307v2 Announce Type: replace-cross \nAbstract: Large language models have achieved striking results in interactive theorem proving, particularly in Lean. However, most benchmarks for LLM-based proof automation are drawn from mathematics in the Mathlib ecosystem, whereas proofs in software verification are developed inside definition-rich codebases with substantial project-specific libraries. We introduce VeriSoftBench, a benchmark of 500 Lean 4 proof obligations drawn from open-source formal-methods developments and packaged to preserve realistic repository context and cross-file dependencies. Our evaluation of frontier LLMs and specialized provers yields three observations. First, provers tuned for Mathlib-style mathematics transfer poorly to this repository-centric setting. Second, success is strongly correlated with transitive repository dependence: tasks whose proofs draw on large, multi-hop dependency closures are less likely to be solved. Third, providing curated context restricted to a proof's dependency closure improves performance relative to exposing the full repository, but nevertheless leaves substantial room for improvement. Our benchmark and evaluation suite are released at https://github.com/utopia-group/VeriSoftBench.",
-        "summary_vi": "arXiv:2602.18307v2 Announce Type: replace-cross \nAbstract: Large language models have achieved striking results in interactive theorem proving, particularly in Lean. However, most benchmarks for LLM-b",
-        "title": "VeriSoftBench: Repository-Scale Formal Verification Benchmarks for Lean"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2603.20001v3": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2603.20001v3",
-        "link": "https://arxiv.org/abs/2603.20001",
-        "relevance": 3,
-        "source": "arXiv cs.PL (Programming Languages)",
-        "summary": "arXiv:2603.20001v3 Announce Type: replace \nAbstract: Automated program verifiers are often organized into a front-end, which encodes an input program into an intermediate verification language (IVL), and a back-end, which proves that the IVL program is correct. Soundness of such translational verifiers requires that the back-end verification is sound and that correctness of the IVL program implies correctness of the input program. Existing formalizations for translational verifiers based on separation logic target the former, but support the latter only under the strong assumption that there exists a separation logic for the input program with the same state model as the IVL. This assumption is unrealistic in practice, especially since the state model also defines the supported separation logic resources.\n We present the first formal framework for proving the soundness of translational separation logic verifiers with non-trivial state encodings. To be applicable to various front-ends and IVLs, our framework only assumes the existence of a homomorphic encoding relation between the front-end and IVL state models. At the core of our framework is a novel condition, backward satisfiability, which is crucial to guarantee the soundness of the front-end translation. We formalize our framework for front-end verifiers based on concurrent separation logic and separation logic IVLs, such as Raven, VeriFast, and Viper. We demonstrate its expressiveness by proving soundness for three common state encodings. Our framework and all proofs are formalized in Isabelle/HOL.",
-        "summary_vi": "arXiv:2603.20001v3 Announce Type: replace \nAbstract: Automated program verifiers are often organized into a front-end, which encodes an input program into an intermediate verification language (IVL), ",
-        "title": "Sound State Encodings in Translational Separation Logic Verifiers (Extended Version)"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
     "oai:arXiv.org:2608.22110v2": {
       "entry": {
         "category": "research",
@@ -1399,279 +1144,6 @@
       },
       "first_seen": "2026-09-26T00:10:13.580076+00:00"
     },
-    "oai:arXiv.org:2609.04476v2": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.04476v2",
-        "link": "https://arxiv.org/abs/2609.04476",
-        "relevance": 4,
-        "source": "arXiv cs.PF (Performance)",
-        "summary": "arXiv:2609.04476v2 Announce Type: replace-cross \nAbstract: Performance modeling is central to hardware design and software optimization, yet constructing these models requires structured reasoning about computation, data reuse, storage, and movement. We introduce PerfReasoning, a benchmark that evaluates LLMs both as direct performance reasoners and as generators of analytical performance-model code. Given workload, architecture, and mapping specifications, models compare mappings and predict off-chip traffic and buffer requirements. The strongest closed-source models exceed 90% on reasoning-based Q&A, and the best open-weight model reaches 82.4%. However, model construction is substantially harder: while GPT-5.6 Sol exceeds 80% pass rate, all other model configurations average below 45% and vary markedly across runs. Task-specific RL raises a 4B model's mapping-reasoning accuracy by 15.7 points, whereas feedback-free multi-round self-revision prompting is not reliably effective. PerfReasoning exposes the gap between plausible architectural reasoning and reliable performance-model construction. We will publicly release the benchmark to support reproducible evaluation and track future progress.",
-        "summary_vi": "arXiv:2609.04476v2 Announce Type: replace-cross \nAbstract: Performance modeling is central to hardware design and software optimization, yet constructing these models requires structured reasoning abo",
-        "title": "PerfReasoning: How Well Do LLMs Reason on Hardware Performance?"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2609.15558v2": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.15558v2",
-        "link": "https://arxiv.org/abs/2609.15558",
-        "relevance": 4,
-        "source": "arXiv cs.PL (Programming Languages)",
-        "summary": "arXiv:2609.15558v2 Announce Type: replace \nAbstract: Managed language runtimes often provide concurrent garbage collectors so that latency-critical applications with large working sets can keep running while most collection work proceeds in the background. ZGC is a production-quality, generational, concurrent collector in OpenJDK with sub-millisecond pause times. While ZGC is designed to run concurrently, frequent and excessive collections with ZGC can still slow the mutators due to synchronization costs and interference with shared computing resources. Hence, the ZGC scheduler is conservative by default, and in most cases, will grow the heap toward the maximum allowed before scheduling a collection. While this approach minimizes collection effort, it can be wasteful, or even harmful, if the maximum heap size is not well tuned to the actual working set.\n We propose Opportunistic ZGC (OppZGC), a feedback-directed ZGC scheduling policy that constrains the heap dynamically and automatically, without per-application tuning. OppZGC identifies periods when CPU cores are underutilized and leverages them for concurrent collection with ZGC. We describe the design and implementation of OppZGC in OpenJDK's HotSpot Java VM and evaluate it with standard and latency-sensitive benchmarks from DaCapo Chopin and SPECjbb. OppZGC limits heap usage when there is CPU capacity sufficient for additional collections, and avoids scheduling extra collections when they would substantially degrade performance. Overall, it reduces maximum heap usage for our DaCapo benchmarks by between 61% and 90%, on average, depending on configuration, with minimal impact on throughput and request latency compared to default ZGC.",
-        "summary_vi": "arXiv:2609.15558v2 Announce Type: replace \nAbstract: Managed language runtimes often provide concurrent garbage collectors so that latency-critical applications with large working sets can keep runnin",
-        "title": "Opportunistic ZGC: Leveraging Idle Cores for More Effective Concurrent Garbage Collection"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2609.25434v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.25434v1",
-        "link": "https://arxiv.org/abs/2609.25434",
-        "relevance": 4,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2609.25434v1 Announce Type: new \nAbstract: Reconfigurable photonic interconnects are emerging as a promising communication architecture for next-generation distributed computing. Yet, most circuit schedulers are designed around an idealized view of the interconnect as either blocking or strictly non-blocking. Practical scalable designs are often rearrangeably non-blocking (RNB), with connections routed through networks of internal $2\\times2$ switches. This changes the scheduling problem fundamentally: establishing a new connection can force existing connections to be rerouted, trigger state changes across multiple internal switches, and impose reconfiguration delay on otherwise unrelated traffic.\n We present Tetris, a circuit scheduling algorithm for RNB photonic interconnects. Tetris builds on two observations. First, All-to-All demands are often not doubly stochastic, leaving a small number of endpoints as communication bottlenecks. Second, reconfiguration delay can be large enough to change which connection should be scheduled next. Tetris prioritizes bottleneck endpoints using their remaining communication and reconfiguration work, while selecting and routing matchings to preserve ongoing connections whenever possible. Matchings ensure progress, but connections are scheduled independently, allowing completed connections to be replaced without matching-wide barriers and incurring delay only at switches whose states change. Our simulation and hardware-emulation results show that Tetris reduces All-to-All demand completion time by up to $6.6$x over Birkhoff--von Neumann-based scheduling and by $30$% over Sunflow. More broadly, RNB interconnects raise new questions in multi-tenant scheduling and routing for partial reconfiguration, which we discuss at the end of the paper.",
-        "summary_vi": "arXiv:2609.25434v1 Announce Type: new \nAbstract: Reconfigurable photonic interconnects are emerging as a promising communication architecture for next-generation distributed computing. Yet, most circu",
-        "title": "Tetris: Circuit Scheduling for Rearrangeably Non-Blocking Photonic Interconnects"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2609.25514v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.25514v1",
-        "link": "https://arxiv.org/abs/2609.25514",
-        "relevance": 3,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2609.25514v1 Announce Type: new \nAbstract: Vector databases are increasingly deployed in distributed settings where different users, sites, or domains maintain vector data. Existing vector databases rely on a coordinator to record which shards store which parts of the vector space and to route each query to those shards. In a decentralized setting, peers may join, leave, or move data without a trusted node tracking every change, and outdated routing information can therefore send queries to the wrong peers or require contacting many peers, reducing vector retrieval recall and increasing network latency. We present Semord, a decentralized vector search overlay system that achieves high recall by routing each ANN query to a small set of relevant peers, without relying on a centralized coordinator. Semord addresses this problem by making semantic locality routable: 1) We propose VHash to place semantically related vectors near each other in the overlay key space while avoiding load imbalance, so that each query only needs to contact a small neighborhood of peers for distributed local ANN ranking. 2) We design VecDHT, a communication protocol that maintains decentralized routing, region metadata, churn resilience, and VHash updates under membership and workload changes. Our extensive experiments on a real testbed show that Semord improves recall by more than 15% and reduces contacted peers by over 60% compared with decentralized baselines. Semord also approaches the recall and latency of a centralized oracle baseline while reducing peak peer-local ANN index memory by more than 2X. Controlled large-scale simulations further show that Semord scales across real-world embedding workloads and remains robust under churn for scoped vector retrieval as a decentralized overlay.",
-        "summary_vi": "arXiv:2609.25514v1 Announce Type: new \nAbstract: Vector databases are increasingly deployed in distributed settings where different users, sites, or domains maintain vector data. Existing vector datab",
-        "title": "Semord: Learned Semantic-Preserving Placement and Low-Fanout Routing for Distributed Vector Search"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2609.25547v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.25547v1",
-        "link": "https://arxiv.org/abs/2609.25547",
-        "relevance": 4,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2609.25547v1 Announce Type: new \nAbstract: The monopulse technique determines the angle of a target by comparing signals from two narrow beams, yielding a precise angular estimate with low complexity. However, it struggles to resolve multiple closely spaced scatterers within the same resolution cell. Existing methods for estimating multiple scatterer angles involve complex signal processing and system modifications. We propose an effective method to estimate the angular centroid of scatterers using the mode of monopulse angle estimates. A semi-analytic expression for the angle estimate distribution is derived, confirming that its mode aligns with the centroid. To enhance estimation accuracy, we employ frequency diversity to reduce sample correlation. Numerical results validate the advantages of the proposed method, demonstrating superior performance over conventional techniques with low complexity.",
-        "summary_vi": "arXiv:2609.25547v1 Announce Type: new \nAbstract: The monopulse technique determines the angle of a target by comparing signals from two narrow beams, yielding a precise angular estimate with low compl",
-        "title": "Centroid Angle Estimation of Multiple Scatterers Using Monopulse Radar with Frequency Diversity"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2609.25637v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.25637v1",
-        "link": "https://arxiv.org/abs/2609.25637",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.25637v1 Announce Type: cross \nAbstract: Formal hardware information-flow verification (IFV) provides strong guarantees against secret-dependent timing and control behavior, but often scales poorly on realistic RTL. We identify two recurring proof barriers in self-composed IFV: implementation complexity, where proof-hard datapath logic dominates even though the property needs only a compact boundary relation, and relational inductive complexity, where the proof depends on cross-copy public-control facts that the backend prover does not infer efficiently. To address them, we introduce two semantic proof decomposition forms: functional simplification, which replaces a proof-hard RTL region with a validated over-approximate summary, and relational strengthening, which exposes and proves the cross-copy relations needed for induction. We further present SLED-IFV, a solver-validated LLM-guided flow that automates the selection of these forms and their concrete targets. Given a self-composed miter and an oracle-free decision sheet, the LLM proposes a decomposition, then materializes it into proof artifacts under controller checks. The controller compiles the checked artifacts into proof obligations, and the formal verification backend remains the sole authority for acceptance. Across nine nontrivial benchmarks constructed from real RTL, SLED-IFV achieves up to 603x solver-only speedup and converts two 12-hour timeouts into completed proofs. The closed-loop flow produces verifier-accepted decompositions for all cases.",
-        "summary_vi": "arXiv:2609.25637v1 Announce Type: cross \nAbstract: Formal hardware information-flow verification (IFV) provides strong guarantees against secret-dependent timing and control behavior, but often scales",
-        "title": "SLED-IFV: Solver-Validated LLM-Guided Decomposition for Scalable Hardware Information-Flow Verification"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2609.25646v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.25646v1",
-        "link": "https://arxiv.org/abs/2609.25646",
-        "relevance": 4,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2609.25646v1 Announce Type: new \nAbstract: Satellite-based free-space optics (FSO) quantum key distribution (QKD) systems have recently attracted significant research interest due to their potential to enable globally secured applications. However, the inherent uncertainty of FSO channels, caused by weather conditions and satellite mobility, induces severe fluctuations in quantum bit-error rate (QBER) between legitimate users. This makes designing an efficient key reconciliation, an essential step in the QKD post-processing, particularly challenging. In this work, we propose a key reconciliation scheme that combines protograph rate-compatible (RC) low-density parity-check (LDPC) codes with a syndrome-based error estimation method. The proposed error estimation method reduces the number of communication rounds without requiring additional information disclosure. Furthermore, to our best knowledge, an analytical framework is first developed to evaluate end-to-end secret-key throughput (SKT), accounting for the impact of imperfect error estimation and dynamic FSO channel conditions. Numerical results demonstrate that the proposed scheme consistently outperforms conventional blind reconciliation under diverse FSO channel conditions and provide practical guidelines for system parameter selection. Finally, we validate the proposed framework through a case study that incorporates data from a Starlink low-Earth orbit (LEO) satellite and moving ground vehicles.",
-        "summary_vi": "arXiv:2609.25646v1 Announce Type: new \nAbstract: Satellite-based free-space optics (FSO) quantum key distribution (QKD) systems have recently attracted significant research interest due to their poten",
-        "title": "Key Reconciliation with RC-LDPC/Error Estimation for Satellite-based FSO/QKD Systems"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2609.25730v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.25730v1",
-        "link": "https://arxiv.org/abs/2609.25730",
-        "relevance": 5,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2609.25730v1 Announce Type: new \nAbstract: Sixth-generation (6G) applications require radio access networks (RANs) to support reliable communication and seamless sensing across their operating regions. In coupled RAN deployments, shared downlink transmitting and uplink receiving sites constrain the network's ability to accommodate asymmetric links and different sensing geometries. De-Coupled RAN (DC-RAN) separates these functions, allowing independently deployed and coordinated base stations to extend uplink and downlink communication and sensing coverage. How this flexibility translates into balanced communication and sensing services, however, remains insufficiently explored. This article revisits the evolution from coupled to DC-RAN from the perspective of service-balanced integrated sensing and communication (ISAC). It examines how architectural choices affect the availability of both services, with communication-sensing coverage symmetry capturing their spatial alignment under application-specific quality requirements. Practical challenges include preserving communication consistency, maintaining sensing continuity, and coordinating distributed resources. Two case studies illustrate how DC-RAN can support coverage symmetry alongside consistent communication, and how complementary observations can sustain continuous and accurate sensing. These examples inform a discussion of future research toward service-balanced ISAC.",
-        "summary_vi": "Coupled RAN architectures sharing downlink transmitting and uplink receiving sites limit the network's ability to handle asymmetric communication links and diverse sensing geometries required for 6G integrated sensing and communication. De-Coupled RAN (DC-RAN) separates communication and sensing functions via independently deployed and coordinated base stations to achieve service balance across the network.",
-        "title": "Toward Service-Balanced ISAC: From Coupled RAN to De-Coupled RAN"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2609.25817v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.25817v1",
-        "link": "https://arxiv.org/abs/2609.25817",
-        "relevance": 4,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2609.25817v1 Announce Type: new \nAbstract: The timeliness and accuracy of edge-based video analytics can be hindered by drastic reductions in available bandwidth (ABW) at last-mile edge routers, causing prolonged queuing delays. This work proposes Lizard, a system that leverages video-content-aware packet discarding to mitigate the negative effects of drastic ABW degradation that may frequently occur at a last-mile edge router by judiciously discarding packets that contain frame blocks less important to the analytics at the destination. To achieve this, we first devise a frame-block-aware RTP header extension to effectively decouple packet dependencies to encode frame blocks. Second, Lizard uses a priority-based feedback mechanism that dynamically evaluates packet priorities based on relative accuracy impacts. Third, we develop an adaptive phase-transition-based packet discarding strategy at the router to discard packets that represent unimportant blocks. Our evaluation of Lizard shows improvements over existing methods are substantial: 53.2% reduction in latency and 27.1% increase in analysis accuracy.",
-        "summary_vi": "arXiv:2609.25817v1 Announce Type: new \nAbstract: The timeliness and accuracy of edge-based video analytics can be hindered by drastic reductions in available bandwidth (ABW) at last-mile edge routers,",
-        "title": "Lizard: Bandwidth-Adaptive Real-Time Video Analytics through Content-Aware Packet Discarding at Last-Mile Edge Routers"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2609.25873v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.25873v1",
-        "link": "https://arxiv.org/abs/2609.25873",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.25873v1 Announce Type: cross \nAbstract: Analog circuit sizing remains a challenging and time-consuming task due to the large design space, strong performance trade-offs, and increasing circuit complexity in scaled technologies. Although recent large language model (LLM)-based methods show promise in improving sample efficiency and interpretability, existing approaches often lack explicit circuit-topology understanding and are mainly evaluated on relatively simple analog building blocks. This paper presents a multi-agent LLM-based framework for complex analog circuit sizing. The proposed framework first analyzes the circuit topology and decomposes the netlist into functional blocks and substructures. It also extracts lightweight design knowledge for reuse. Based on the extracted topology and knowledge, a planner coordinates multiple role-specialized sizing agents to update design variables and achieve global performance specifications. This workflow mimics the collaborative process of an expert analog design team and provides a structured, interpretable, and simulation-driven optimization procedure. The framework was validated on eight circuits, with the largest design containing up to 55 transistors and 60 sizing variables. Notably, for the LDO benchmark, the proposed method achieved a 60\\% success rate with an average of 83 iterations, where classical optimizers failed to find feasible solutions. Further, ablation studies demonstrate that topology understanding, design-knowledge infusion, and agent specialization provide complementary benefits. The source code is available to support reproducibility.",
-        "summary_vi": "arXiv:2609.25873v1 Announce Type: cross \nAbstract: Analog circuit sizing remains a challenging and time-consuming task due to the large design space, strong performance trade-offs, and increasing circ",
-        "title": "AgenticSizing: A Large Language Model-based Multi-Agent Framework for Analog Circuit Sizing"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2609.25892v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.25892v1",
-        "link": "https://arxiv.org/abs/2609.25892",
-        "relevance": 3,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2609.25892v1 Announce Type: new \nAbstract: In recent years, the threat of application-layer (L7) distributed denial-of-service (DDoS) attacks is ever increasing. To defend against them, network operators deploy web application firewalls (WAFs). WAFs are stateful scoring systems which are configured with a rule set that specifies what malicious traffic looks like, and how to handle it. While effective, WAFs are expensive and can increase the request latency of realistic applications by up to $4\\times$. This paper introduces Shimmer, a highly optimized WAF. Shimmer JIT-compiles the rule set and applies advanced optimizations to avoid unnecessary work in the scoring pipeline.",
-        "summary_vi": "arXiv:2609.25892v1 Announce Type: new \nAbstract: In recent years, the threat of application-layer (L7) distributed denial-of-service (DDoS) attacks is ever increasing. To defend against them, network ",
-        "title": "Rethinking Web Application Firewalls"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2609.25918v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.25918v1",
-        "link": "https://arxiv.org/abs/2609.25918",
-        "relevance": 4,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2609.25918v1 Announce Type: new \nAbstract: DAG-based consensus protocols can achieve great throughput and the optimal three-message-delay limit for n = 3f+1 consensus. While two-delay protocols exist, they pay with reduced resilience (requiring 5f+1-style committees) or rely on fallbacks that sacrifice the DAG's high throughput. This paper introduces Hydrozoan, the first DAG protocol with a dual commit path under a hybrid fault model of f Byzantine and c crashed validators, on n = 3f+c+2p+1 validators. Leaders commit in two message delays whenever at most p validators are faulty, and in three otherwise, with no extra messages, no view changes, and multiple leaders per round. Both paths are evaluated on the same DAG, using a novel graded indirect rule to reconcile them so that every honest validator reaches the same decision. We show that under geo-distributed conditions, which path is faster is a property of geography rather than the protocol, as rounds reaching a remote region cost far more than those that do not. The (f, c, p) knobs place the fast quorum where the deployment requires it, allowing a commit in two message delays. If misconfigured, Hydrozoan can still commit in three message delays: Hydrozoan commits on whichever path fires first. We also present Optimal-Hydrozoan, a variant that tolerates one more fault on the fast path, the first construction to match the known lower bound. The safety and liveness of both protocols are machine-checked in Lean 4. Our geo-distributed evaluation shows that Hydrozoan matches Mysticeti's throughput, commits ~25% faster when the fast quorum fits fast regions, and falls back to three message delays when it does not or past p faults, where existing two-delay protocols stall.",
-        "summary_vi": "arXiv:2609.25918v1 Announce Type: new \nAbstract: DAG-based consensus protocols can achieve great throughput and the optimal three-message-delay limit for n = 3f+1 consensus. While two-delay protocols ",
-        "title": "Hydrozoan: Latency-Adaptive DAG Consensus under Mixed Byzantine and Crash Faults"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2609.26190v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.26190v1",
-        "link": "https://arxiv.org/abs/2609.26190",
-        "relevance": 3,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2609.26190v1 Announce Type: new \nAbstract: For an $n$-vertex graph of maximum degree $\\Delta$, an equitable $(\\Delta+1)$-coloring is a proper coloring all of whose color classes have size $\\sigma = n/(\\Delta+1)$ up to rounding. Known algorithms for relaxations of this target aggregate along a spanning structure, at cost scaling with the diameter $D$. We study near-equitable coloring in the LOCAL model and prove that, for deterministic algorithms, exact balance is inherently global: already on the cycle $C_n$, exact balanced free $3$-coloring requires $\\Omega(n)$ rounds. More generally, additive imbalance $g$ requires $\\Omega(n/g)$ rounds, matching a deterministic $O((n/g)\\log^* n)$-round algorithm up to the $\\log^* n$ factor, and these problems realize a dense family of intermediate deterministic LOCAL complexities $\\tilde\\Theta(n^\\alpha)$, $\\alpha \\in (0,1)$, on cycles. The exact bound is sharp in two further senses: the identifier-universe threshold is exactly $N=n+1$, and the $\\log^* n$ gap cannot be closed via faster ruling-set anchors. The bound then extends to twisted fiber products, an explicit family realizing, for every $\\Delta \\ge 3$, every diameter scale from the Moore bound $\\Theta(\\log n/\\log\\Delta)$ up to $\\Theta(n/\\Delta)$. Exact equitable $(\\Delta+1)$-coloring requires $\\Theta(D)$ rounds deterministically on this family, so exactness costs diameter time already on bounded-degree graphs of logarithmic diameter.\n In contrast, coarse balance admits local algorithms. On cycles, constant multiplicative equity costs $\\Theta(\\log^* n)$ rounds. On general graphs with large color classes, all class sizes can be kept within $(1\\pm\\eta)$ times the average in time independent of the diameter: with palette exactly $\\Delta+1$ for $\\Delta \\le 2^{\\sqrt{\\log n}/C}$, and with palette $(1+\\eta)(\\Delta+1)$ for every $\\Delta \\le n^{1-o(1)}$, the latter in $O(\\log n\\,(\\log\\log n)^2)$ rounds.",
-        "summary_vi": "arXiv:2609.26190v1 Announce Type: new \nAbstract: For an $n$-vertex graph of maximum degree $\\Delta$, an equitable $(\\Delta+1)$-coloring is a proper coloring all of whose color classes have size $\\sigm",
-        "title": "Distributed Near-Equitable Coloring in the LOCAL Model"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2609.26219v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.26219v1",
-        "link": "https://arxiv.org/abs/2609.26219",
-        "relevance": 3,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2609.26219v1 Announce Type: new \nAbstract: Long-running LLM agent workflows often revise interior context spans while retaining long suffixes. Although suffix tokens remain unchanged, altered causal histories and rotary positions prevent exact reuse of their offloaded key-value (KV) states. Full suffix recomputation wastes prefill work, while indiscriminate reuse propagates stale states and full-precision restoration adds data movement. We present PatchKV, a profile-guided recovery system for suffix-preserving revisions. PatchKV decomposes adjacent context versions into an exact prefix, an updated span, and an aligned suffix. It predicts an edit-local dirty region using an offline length-conditioned drift model, augments this region with sparse nonlocal blocks selected from stored attention, and block-rounds their union into a fixed repair set. The remaining suffix blocks are restored from CPU memory using frozen per-block precision tags and a fused path for dequantization, RoPE correction, and KV-page placement. Across three models and three long-context question-answering workloads, PatchKV achieves a $2.51$-$3.85\\times$ speedup in mean resume time-to-first-token over full suffix recomputation and a $1.26$-$2.06\\times$ speedup over CacheBlend, while matching or exceeding CacheBlend's F1 score in six of nine settings and remaining within 1.36 points in the others.",
-        "summary_vi": "arXiv:2609.26219v1 Announce Type: new \nAbstract: Long-running LLM agent workflows often revise interior context spans while retaining long suffixes. Although suffix tokens remain unchanged, altered ca",
-        "title": "PatchKV: Efficient KV Cache Recovery for Dynamically Edited LLM Contexts"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2609.26363v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.26363v1",
-        "link": "https://arxiv.org/abs/2609.26363",
-        "relevance": 4,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2609.26363v1 Announce Type: new \nAbstract: Real-time avatar services run long-lived, GPU-backed sessions that transform a continuous text stream into speech, facial motion, rendered video, and RTC media. Elastic operation repeatedly reassigns these sessions across Workers. A reassignment updates shared placement state while the previous GPU runtime and RTC connection remain alive, opening a gap between control-plane assignment and execution authority. A stateful controller serializes ownership by retaining per-session authority, placing that state on the controller's scaling and failover path.\n We present DHSched, a control plane that manages long-lived stateful sessions through stateless peer Dispatch replicas. DHSched externalizes session ownership as a generation identified by (WorkerID, epoch). Dispatch conditionally commits each generation. Infer-Controller claims and revalidates the same generation before releasing state-advancing input. A stale runtime loses execution authority even if it remains alive. DHSched ranks candidates from periodically refreshed load views while keeping capacity admission authoritative. Recovery advances the same generation path via source-epoch guards and source-independent reconstruction.\n DHSched runs in our production avatar-serving stack, which reached 49,987 concurrent live sessions. On 10 June 2026, it completed 9,927 session migrations with no observed dual-owner conflicts or capacity overshoots. At the production peak, CreateLive latency was 98.3 ms at P99 and PushText latency was 16.5 ms at P99. Across 100,000 randomized ownership runs, assignment-time, claim-only, and WorkerID-only protocols permit stale execution, while DHSched records no dual-owner or stale-generation release.",
-        "summary_vi": "arXiv:2609.26363v1 Announce Type: new \nAbstract: Real-time avatar services run long-lived, GPU-backed sessions that transform a continuous text stream into speech, facial motion, rendered video, and R",
-        "title": "DHSched: Stateless Control for Stateful Real-Time Avatar Serving"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2609.26374v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.26374v1",
-        "link": "https://arxiv.org/abs/2609.26374",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.26374v1 Announce Type: new \nAbstract: This work presents a novel approach to detect misclassification errors in CNNs caused by soft errors in their parameters. We propose an architecture that uses inter-class relations induced by the CNN that needs protection. The architecture has minimal resources overhead and does not require modifying the CNN, which makes it a competent solution that can be used with other error protection techniques. We have validated the architecture with five different combinations of modern dataset-model pairs: ImageNet-1K for ResNet-50 and EfficientNetV2-Small; CIFAR-10 for MobileNetV3, ShuffleNetV2-Small with 2.0x output channels and MNASNet with depth multiplier of 1.3. The validation process was done rigorously with statistical significance, from the creation of the datasets used by the architecture to the acquisition of experimental results. Results show great performance with over 90% accuracy in detecting single errors and great error detection over multiple Bit Error Rates, which can be potentially increased with hyperparameter tuning.",
-        "summary_vi": "arXiv:2609.26374v1 Announce Type: new \nAbstract: This work presents a novel approach to detect misclassification errors in CNNs caused by soft errors in their parameters. We propose an architecture th",
-        "title": "ESupNNet: An Error Supervising Neural Network architecture for error detection against soft errors in parameters"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2609.26476v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.26476v1",
-        "link": "https://arxiv.org/abs/2609.26476",
-        "relevance": 4,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2609.26476v1 Announce Type: new \nAbstract: Serverless platforms commonly rely on bundled, memory-centric configurations, where CPU capacity follows the specified memory size. Resource decoupling reduces this waste, but can create external fragmentation by producing diverse CPU-memory shapes that leave residual capacity stranded across nodes. Memory disaggregation and tiering can turn these resource holes into usable capacity by enabling elastic memory locality, where instances use different mixes of local and remote memory. In this paper, we present Memoryless, a fragmentation-aware resource manager that exposes memory locality as a serverless control-plane primitive. Memoryless jointly selects and places function variants that differ in their compute allocation and memory-locality ratio. This allows the scheduler to match instance shapes to fragmented node capacity while preserving SLOs. We implement Memoryless on top of Knative and evaluate it with trace-driven workloads. Compared to state-of-the-art serverless placement frameworks, Memoryless reduces node usage by up to 40% in steady state and 46% at peak, while keeping SLO violations within 3%. It also reduces CPU stranding by 44%, showing that elastic memory locality can convert fragmented node capacity into usable resources.",
-        "summary_vi": "arXiv:2609.26476v1 Announce Type: new \nAbstract: Serverless platforms commonly rely on bundled, memory-centric configurations, where CPU capacity follows the specified memory size. Resource decoupling",
-        "title": "Don't let your Memory defy you: Fragmentation-Aware Serverless Allocation with Elastic Memory Locality"
-      },
-      "first_seen": "2026-09-23T23:58:04.297683+00:00"
-    },
-    "oai:arXiv.org:2609.26824v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.26824v1",
-        "link": "https://arxiv.org/abs/2609.26824",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.26824v1 Announce Type: new \nAbstract: The growing adoption of dataflow accelerators for neural network inference introduces new attack surfaces that existing verification methodologies fail to address. Inference ac- celeration frameworks such as FINN, which transform quantized neural networks into FPGA-deployable dataflow architectures, implicitly assume semantic equivalence between the software model and the synthesized hardware. In this work, we in- troduce the FINN-Tro attack, which identifies and exploits a critical verification gap in the FINN compilation pipeline that enables stealthy hardware Trojan insertion without modifying the original quantized model. The Trojan is placed in the last Matrix-Vector Activation Unit (MVAU) layer and supports two counter-based trigger modes, periodic and persistent, and three payload types: bias addition, logit swapping, and bias subtraction, resulting in six different configurations. FINN-Tro is evaluated on an MNIST feed-forward network and a CIFAR-10 convolutional neural network deployed on a PYNQ-Z1 board. Across the evaluated configurations, accuracy reductions range from 0.90% to 82.84%, while throughput and runtime remain close to the corresponding baseline designs. The most severe configuration, persistent Bias Addition, reduces accuracy from 92.96% to 10.12% on MNIST and from 84.19% to 10.00% on CIFAR-10. The inserted logic introduces modest implementation overhead, with maximum LUT and FF increases of 6.71% and 7.49% for MNIST, and 2.50% and 3.98% for CIFAR-10, respectively. Our findings reveal that widely used pre- and post- compilation verification flows are insufficient for detecting such temporally delayed hardware manipulations, motivating the need for stronger verification mechanisms in accelerator toolchains.",
-        "summary_vi": "arXiv:2609.26824v1 Announce Type: new \nAbstract: The growing adoption of dataflow accelerators for neural network inference introduces new attack surfaces that existing verification methodologies fail",
-        "title": "FINN-Tro: Exploiting Verification Gaps in Dataflow Inference Accelerators"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
-    "oai:arXiv.org:2609.26828v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.26828v1",
-        "link": "https://arxiv.org/abs/2609.26828",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.26828v1 Announce Type: new \nAbstract: NAND-backed storage offers the capacity needed to scale LLM prefix caching, but its block I/O path incurs CPU cache contention and host-DRAM staging in addition to NAND latency. Our characterization shows that these interface costs persist even with DRAM as the storage medium, motivating CXL-SSDs for byte-addressable access to NAND-backed capacity. Surprisingly, however, a stock CXL-SSD remains about 3$\\times$ slower than local DRAM and no faster than an NVMe SSD, while generic prefetching provides little benefit. We present LM-CXD, a CXL-SSD specialized for LLM prefix caching. LM-CXD bridges the semantic gap between the serving engine, which knows which KV chunks will be consumed, and the device, which controls their placement and movement. It makes KV chunks device-visible I/O units, exposes NAND-to-DRAM progress to the serving engine, and uses device DRAM as a GPU-accessible buffer. LM-CXD further coordinates request scheduling with windowed prefetching and pipelines layerwise KV movement with GPU computation to hide NAND latency under limited device DRAM. Across five LLM models, LM-CXD reduces average TTFT over a stock CXL-SSD by up to 2.6$\\times$ with compute asynchronous prefetching and 4.03$\\times$ with layerwise prefetching, achieving TTFT within 1.5$\\times$ of local DRAM on average.",
-        "summary_vi": "arXiv:2609.26828v1 Announce Type: new \nAbstract: NAND-backed storage offers the capacity needed to scale LLM prefix caching, but its block I/O path incurs CPU cache contention and host-DRAM staging in",
-        "title": "Bridging LLM Serving and CXL-SSDs with Chunk-Aware KV Cache Management"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
-    "oai:arXiv.org:2609.26829v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.26829v1",
-        "link": "https://arxiv.org/abs/2609.26829",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.26829v1 Announce Type: new \nAbstract: Rapidly growing AI workloads are driving large investments in AI datacenters. This survey classifies industrial AI accelerators into four architectural categories and compares their compute and memory organizations. It examines how node-, rack-, and pod-scale interconnects support collective communication, and traces architectural evolution across accelerator generations. The analysis connects advances in arithmetic throughput with changes in precision, data delivery, execution coordination, communication, power delivery, and cooling. It also discusses future design challenges arising from workload diversity, data movement, infrastructure constraints, and model evolution, showing how the trade-off between generality and specialization extends from individual accelerators to datacenter-scale systems. GitHub: github.com/Yufeng98/AI-datacenter",
-        "summary_vi": "arXiv:2609.26829v1 Announce Type: new \nAbstract: Rapidly growing AI workloads are driving large investments in AI datacenters. This survey classifies industrial AI accelerators into four architectural",
-        "title": "Balancing Generality and Specialization: A Survey on AI Datacenter Hardware Architecture"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
-    "oai:arXiv.org:2609.26830v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.26830v1",
-        "link": "https://arxiv.org/abs/2609.26830",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.26830v1 Announce Type: new \nAbstract: Simulation success is not equivalent to structural correctness for LLM-generated circuits. We define and measure four evaluation levels -- schema validity, topological validity, backend executability, and component-set agreement -- on a 150-circuit trilingual benchmark, through a deployed pipeline built on a typed circuit interchange representation.\n The levels are not nested. On gpt-4o-mini, 16 of 150 circuits (10.7%, 95% CI 6.7-16.6) were rejected by the topological validator but executed in ngspice with no error or warning; 12 of these contained exactly the requested components, with one terminal disconnected. Conversely, 7 circuits (4.7%) passed the validator and ngspice refused them. Ten failed both checks and 117 passed both, so each check detects a class the other misses. A minimal three-component divider shows the cost: a dangling resistor reports 5.00 V instead of 2.50 V while ngspice stays silent.\n A paired ablation, in which every arm is evaluated from the same model sample rather than a fresh one, separates each repair stage from sampling noise. On a stratified 45-circuit subsample, model repair raised topological validity from 40.0% to 84.4% (+20 circuits, no regressions) while moving executability by a net 6 (+7, -1), an effect this sample size does not resolve, and component agreement by 2. One circuit moved in opposite directions at two levels in a single repair step. Against a direct-netlist baseline the pipeline executed 88.7% against 47.3%, or 62.7% under an accounting that credits the baseline with every failure we cannot confidently attribute to the netlist.\n These results support a narrow methodological conclusion: structural validation and simulation should be reported as distinct evaluation stages for LLM-generated circuits. A circuit that runs is not necessarily structurally valid, and a structurally valid circuit is not necessarily executable.",
-        "summary_vi": "arXiv:2609.26830v1 Announce Type: new \nAbstract: Simulation success is not equivalent to structural correctness for LLM-generated circuits. We define and measure four evaluation levels -- schema valid",
-        "title": "Validation and Simulation Catch Different Errors: Four Levels of Evaluation for LLM-Generated Circuits"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
     "oai:arXiv.org:2609.26838v1": {
       "entry": {
         "category": "research",
@@ -1684,84 +1156,6 @@
         "title": "A Hybrid Rule-Based and AI-Augmented Framework for Automatic Failure Recovery in DevOps Deployments"
       },
       "first_seen": "2026-09-25T00:04:46.328968+00:00"
-    },
-    "oai:arXiv.org:2609.26960v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.26960v1",
-        "link": "https://arxiv.org/abs/2609.26960",
-        "relevance": 4,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2609.26960v1 Announce Type: new \nAbstract: A fundamental challenge in RF sensing is that Doppler signatures observed by a link entangle the target's motion with the sensing geometry, resulting in limited applicability to unconstrained real-world settings. In this paper, we establish a new foundation for physically interpretable RF sensing that disentangles reflector speed from geometry, jointly recovering the speed, geometry factor, relative amplitude, and width of each dominant Doppler ridge. More specifically, we first develop a compact parametric representation of WiFi spectrograms and establish its low-dimensional structure through a systematic computer-vision analysis of a large and diverse human-activity dataset, thereby providing a tractable foundation for learning. Building on this representation, we then design a physics-informed autoencoder whose structured bottleneck and differentiable RF forward model enforce physically meaningful estimates of reflector speed and geometry. We further introduce a synthetic-to-real training framework, eliminating the need for real WiFi training data. We extensively validate the proposed framework under both known and time-varying geometries, using both independently generated synthetic test sets and 31 real WiFi experiments. The results demonstrate the superior performance in speed and geometry extraction, robustly recovering the underlying geometry, speeds, Doppler-ridge amplitudes, and ridge widths across all settings, while substantially outperforming the strongest baselines.",
-        "summary_vi": "arXiv:2609.26960v1 Announce Type: new \nAbstract: A fundamental challenge in RF sensing is that Doppler signatures observed by a link entangle the target's motion with the sensing geometry, resulting i",
-        "title": "Untangling the Geometry and Speed for RF Sensing Spectrograms"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
-    "oai:arXiv.org:2609.27040v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.27040v1",
-        "link": "https://arxiv.org/abs/2609.27040",
-        "relevance": 3,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2609.27040v1 Announce Type: new \nAbstract: Multi-GPU servers have become the standard building block of modern data centers, providing aggregated capacity through high-bandwidth interconnects. At the same time, workloads such as LLM inference exhibit highly dynamic memory demands, which can cause one GPU to exhaust its local memory while others remain underutilized. This mismatch motivates a model of elastic resource sharing across GPUs.\n We present EMA, a memory sharing system that allows GPUs within a server to borrow and reclaim memory from each other, forming an elastic pool of capacity. EMA ensures performance transparency for both borrowers and lenders. For borrowers, prefetching hides remote access costs so that applications experience remote and local memory as indistinguishable in performance. For lenders, borrowed resources remain reclaimable on demand, guaranteeing that performance never falls below that of static partitioning. While our design focuses on memory, the same principle naturally extends to other GPU resources.\n Our evaluation shows that EMA improves individual user throughput by up to 52%, achieves 96% of the throughput of a system provisioned with 2X capacity, and maintains latency similar to the static local baseline.",
-        "summary_vi": "arXiv:2609.27040v1 Announce Type: new \nAbstract: Multi-GPU servers have become the standard building block of modern data centers, providing aggregated capacity through high-bandwidth interconnects. A",
-        "title": "EMA: Elastic and Performance Transparent Memory Across GPUs"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
-    "oai:arXiv.org:2609.27085v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.27085v1",
-        "link": "https://arxiv.org/abs/2609.27085",
-        "relevance": 3,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2609.27085v1 Announce Type: new \nAbstract: As serving capacity demand surpasses that of training, serving efficiency becomes increasingly important. Prefill-decode (P/D) disaggregation improves serving efficiency through specialization and isolation of the two phases. These benefits rest on a static partitioning. Phase demand, however, is not static. We observe that in a large LLM fleet the ratio of uncached input to output tokens has peak-to-mean ratios up to 4.7x at minute timescales, and that in a public agentic trace the hourly ratio spans a median 24.5x within a single day, while reassigning a replica takes tens of minutes. Agentic traffic sharpens the mismatch. Sizing each pool at its ninety-fifth percentile leaves up to 17% of cluster capacity unused; sizing below it converts the same imbalance into queueing and unrealized throughput. We present Crossflow, which makes this boundary elastic without changing node roles. Each decode node publishes a short-lived, revocable lease that bounds local-prefill compute, KV capacity, transfer work, and projected output. Across public and internal traces, Crossflow improves token throughput by 16.2-17.4% on geometric mean over static P/D, and by up to 43.4% at high load, while reducing mean TTFT at every evaluated point.",
-        "summary_vi": "arXiv:2609.27085v1 Announce Type: new \nAbstract: As serving capacity demand surpasses that of training, serving efficiency becomes increasingly important. Prefill-decode (P/D) disaggregation improves ",
-        "title": "Crossflow: Prefill-Decode Elasticity for Agentic LLM Serving"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
-    "oai:arXiv.org:2609.27169v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.27169v1",
-        "link": "https://arxiv.org/abs/2609.27169",
-        "relevance": 4,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2609.27169v1 Announce Type: new \nAbstract: The increasing integration of distributed energy resources introduces new challenges for accurate fault detection and classification in distribution networks. This paper presents a topology-aware graph convolutional network-based model for fault classification under inverter-induced harmonic distortion. The model uses pre-fault and post-fault voltage and current phasors, including harmonic components, mapped to the IEEE 34-bus system topology. The simulation data generated in OpenDSS encompass varying levels of penetration of solar photovoltaics (30%, 50%, 70%) and current total harmonic distortion (0%, 1%, 3%, 5%) across multiple fault types: single line-to-ground, line-to-line, double line-to-ground, and three-phase-to-ground. A differential evolution algorithm is employed to optimize the hyperparameters of the network, resulting in a three-layer model that achieves an F1-score of 0.98. Stress testing across scenarios confirms high robustness and minimal class confusion. The results demonstrate that a graph convolutional network-based model can effectively classify distribution faults under varying photovoltaic penetration levels and harmonically distorted conditions. Comparative analyses with convolutional neural network, long short-term memory, and multi-layer perceptron architectures demonstrate that the proposed model delivers superior classification performance, particularly under the most stressed condition with 70% photovoltaic penetration and 5% harmonic distortion.",
-        "summary_vi": "arXiv:2609.27169v1 Announce Type: new \nAbstract: The increasing integration of distributed energy resources introduces new challenges for accurate fault detection and classification in distribution ne",
-        "title": "GCN-Based Model for Fault Classification in Distribution Networks under Harmonic Distortion"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
-    "oai:arXiv.org:2609.27189v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.27189v1",
-        "link": "https://arxiv.org/abs/2609.27189",
-        "relevance": 3,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2609.27189v1 Announce Type: new \nAbstract: Zeroth-order (ZO) optimization is an attractive option for memory-efficient LLM fine-tuning, but its fault tolerance remains underexplored. Unlike first-order training, ZO progress can be represented by lightweight seed-and-scalar step logs, yet naive log-only recovery still incurs replay cost that grows with training progress, and shortcut replay does not preserve the executed floating-point trajectory. We present ZOCheck, a fault-tolerant ZO training system that exploits this replayable structure through a CPU shadow process that continuously replays logged updates, materializes consistent recovery images off the GPU critical path, and persists them asynchronously. ZOCheck therefore combines non-blocking checkpointing during training with fast recovery from a near-current state. We also develop a cost model for choosing the snapshot policy under realistic failure rates. Experiments show that ZOCheck reduces checkpoint overhead by up to 219.7x and recovery latency by 1.55x on average compared with asynchronous full-state checkpointing, translating into up to 21.3x lower end-to-end wasted time across the evaluated failure rates, while preserving exact recovery behavior.",
-        "summary_vi": "arXiv:2609.27189v1 Announce Type: new \nAbstract: Zeroth-order (ZO) optimization is an attractive option for memory-efficient LLM fine-tuning, but its fault tolerance remains underexplored. Unlike firs",
-        "title": "ZOCheck: CPU-Shadow Checkpointing for Zeroth-Order LLM Fine-Tuning"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
-    "oai:arXiv.org:2609.27193v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.27193v1",
-        "link": "https://arxiv.org/abs/2609.27193",
-        "relevance": 3,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2609.27193v1 Announce Type: new \nAbstract: With the rising computational and monetary costs of training large language models (LLMs), checkpointing---periodically storing model states for recovery---becomes essential for fault tolerance. Conventional checkpointing entails a severe trade-off between checkpoint frequency (I/O overhead) and computational recovery (recovery time). State-of-the-art approaches mitigate this cost through pipelining checkpoint I/Os, differential checkpointing, or in-memory persistence, yet none leverage the distinct characteristics of LLM training dynamics, where model weight updates are non-uniformly distributed across transformer layers. This observation implies that saving all weights each time might not be efficient. Inspired by this observation, we present LayerCheck, a layer-wise adaptive checkpointing framework that selectively persists layers whose updates exceed a threshold. This design avoids periodic I/O bursts by distributing layer-wise checkpoint writes over time, resulting in smoother and more balanced I/O profiles. Upon recovery, LayerCheck reconstructs a mixed-timestamp composite model state by aggregating the most recently persisted versions of each layer together with their matching optimizer states. Under a bounded per-layer staleness guard, this introduces a controlled perturbation: under standard Adam assumptions it adds a bounded staleness term, and empirically the post-restart loss deviates from the failure-free trajectory by at most 0.54%. Empirical results on multiple open-source LLMs with different datasets further demonstrate that recovered models preserve the original convergence behavior and accuracy while substantially reducing checkpoint overheads. Specifically, LayerCheck achieves up to 22.6x reduction in total checkpoint size and 1.31x reduction in end-to-end training time compared to state-of-the-art systems, significantly lowering the cost of checkpointing.",
-        "summary_vi": "arXiv:2609.27193v1 Announce Type: new \nAbstract: With the rising computational and monetary costs of training large language models (LLMs), checkpointing---periodically storing model states for recove",
-        "title": "LayerCheck: Adaptive Layer-wise Checkpointing for Large Language Model Post-training"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
     },
     "oai:arXiv.org:2609.27226v1": {
       "entry": {
@@ -1789,32 +1183,6 @@
       },
       "first_seen": "2026-09-25T00:04:46.328968+00:00"
     },
-    "oai:arXiv.org:2609.27266v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.27266v1",
-        "link": "https://arxiv.org/abs/2609.27266",
-        "relevance": 4,
-        "source": "arXiv cs.OS (Operating Systems)",
-        "summary": "arXiv:2609.27266v1 Announce Type: new \nAbstract: CXL-enabled memory expands server memory capacity, but introduces a page-placement problem: the operating system must decide which pages should reside in DRAM and which should reside on slower CXL memory. Existing systems make this tradeoff in one of two ways. Userspace controllers support flexible policies, but expose placement decisions to scheduler jitter and kernel-userspace crossing overhead. Kernel-space systems avoid this latency, but rely on fixed heuristics that must generalize across workloads.\n We present xTier, a kernel-resident learned memory-tiering system. xTier attaches eBPF programs to PEBS events and uses a compact quantized MLP to score sampled pages inside the kernel at microsecond-scale latency. Rather than reacting to every candidate, xTier converges to a low-churn placement for the current workload phase, reduces sampling cost after convergence, and returns to a higher sampling cadence when the workload shifts.\n We evaluate xTier on six memory-bound workloads at DRAM:CXL ratios from 1:5 to 1:25. The advantage grows as the DRAM budget tightens. At 1:15 and beyond, xTier is the fastest system in 14 of 18 configurations. Where it is not fastest, it trails the best baseline by 3.9% on average. It reaches this performance while moving 13% fewer pages in geometric mean, and 22% fewer at the tighter ratios. When a workload changes phase, xTier rebuilds its hot set in DRAM faster and more completely than any baseline.",
-        "summary_vi": "arXiv:2609.27266v1 Announce Type: new \nAbstract: CXL-enabled memory expands server memory capacity, but introduces a page-placement problem: the operating system must decide which pages should reside ",
-        "title": "xTier: Intelligent Tiering for CXL-Enabled Memory"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
-    "oai:arXiv.org:2609.27319v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.27319v1",
-        "link": "https://arxiv.org/abs/2609.27319",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.27319v1 Announce Type: new \nAbstract: The recently proposed XOR cache is an inter-line-compressed last-level cache (LLC) that leverages the data-inclusion relationship between the private caches and the LLC, compressing two cache lines into one by XORing them. The architecture relies on the cache coherence protocol for data decompression. In this paper, we demonstrate that this mechanism - specifically the latency asymmetry between a cache hit on an uncompressed vs. compressed line - introduces microarchitectural vulnerabilities. Based on this observation, we propose a covert channel attack targeting the XOR cache. A colluding sender controls the receiver's access latency by triggering decompression through targeted write requests to partner cache lines. By exploiting the data-dependent compression behavior of the XOR cache, the sender and receiver establish the channel using pre-agreed data values. The channel achieves higher bandwidth than the Prime+Probe baseline for two reasons: first, each bit is encoded in the compression state of an individual line rather than the occupancy of a cache set, so a single set carries multiple bits; second, each bit is resolved by manipulating coherence-protocol state rather than forcing shared-cache evictions, so it costs fewer LLC accesses and demand misses than Prime+Probe. Full-system simulations show a bandwidth of 2.9 Mbps at an observed 0.98% bit-error rate (BER) over 50,000 transmitted bits, 13.1 times the bandwidth of Prime+Probe under the same sub-1%-BER selection rule.",
-        "summary_vi": "arXiv:2609.27319v1 Announce Type: new \nAbstract: The recently proposed XOR cache is an inter-line-compressed last-level cache (LLC) that leverages the data-inclusion relationship between the private c",
-        "title": "Exploiting Decompression Latency for Covert Channels in Inter-Line-Compressed LLCs"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
     "oai:arXiv.org:2609.27343v1": {
       "entry": {
         "category": "research",
@@ -1840,19 +1208,6 @@
         "title": "Single-RF-Chain Multiuser Semantic Communications via Metasurface Modulation"
       },
       "first_seen": "2026-09-25T00:04:46.328968+00:00"
-    },
-    "oai:arXiv.org:2609.27386v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.27386v1",
-        "link": "https://arxiv.org/abs/2609.27386",
-        "relevance": 4,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2609.27386v1 Announce Type: new \nAbstract: Intent-based networking decouples desired outcomes from device-level configuration, but most systems still map intents to parameters of an algorithm selected in advance. Large language models (LLMs) create an opportunity to automate algorithm design, yet unrestricted generated code is unsuitable for transport-network control because feasibility, reproducibility, and robustness must be enforced independently of the model. We present VERA-TN, a verification-guided framework that compiles a network intent into a bounded algorithm-design specification. The target architecture uses an LLM as a semantic variation operator over typed request-ordering and path-ranking programs; generated logic remains separated from a trusted allocator that enforces path validity, latency, capacity, and single-path constraints. We prove feasibility preservation under explicit assumptions and establish a sufficient bound for the lexicographic latency tie-break in the exact reference model. The released proof-of-concept instantiates the same interface with a bounded ten-parameter numerical candidate and deterministic replay, rather than a completed live-LLM/AST study. Across 150 certified held-out cases on a 28-node TEFNET24-derived hierarchy, evolutionary search reaches a mean priority-utility ratio of 0.958, compared with 0.952 for equal-budget random search and 0.940 for priority-greedy routing. The gain over random search is small but statistically detectable (Holm- adjusted p = 0.0083). The candidate does not improve congestion relative to MILP-C, and the effect of failure-aware training is inconclusive at the 0.05 level (p = 0.051). Eight discovery runs on the official national topology and replay on 12 unseen metro-regional topologies show no stable intent-specific specialization. These results support the trust-boundary and numerical-evolution claims but do not establish a benefit from LLM generation.",
-        "summary_vi": "arXiv:2609.27386v1 Announce Type: new \nAbstract: Intent-based networking decouples desired outcomes from device-level configuration, but most systems still map intents to parameters of an algorithm se",
-        "title": "From Intents to Algorithms: Verified Algorithm Discovery for Transport Networks"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
     },
     "oai:arXiv.org:2609.27436v1": {
       "entry": {
@@ -1906,19 +1261,6 @@
       },
       "first_seen": "2026-09-25T00:04:46.328968+00:00"
     },
-    "oai:arXiv.org:2609.27482v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.27482v1",
-        "link": "https://arxiv.org/abs/2609.27482",
-        "relevance": 3,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2609.27482v1 Announce Type: new \nAbstract: Building executable brain models is essential for moving neuroscience from description to mechanism and prediction. Human-brain-scale spiking simulation is constrained by highly irregular communication, multithreaded spike delivery, and the memory cost of sparse connectivity. We present CerebroSim, a scalable framework for whole-brain simulation. CerebroSim combines Delay-aware Spike Broadcast (DSB) for aggregated delay-aware communication, Race-free Synaptic Dynamics Computation (RSDC) for lock/atomic-free multithreaded delivery with HBM-aware optimization, and Sparse Synapse Storage Compression (3SC) for compact indexing with deterministic synapse regeneration. Using a model derived from magnetic resonance imaging and diffusion-weighted imaging, CerebroSim simulates 86 billion neurons and 100 trillion synapses on 18,432 nodes across 11.2 million cores of the LineShine Supercomputer, sustaining 24.44 PFlop/s, 91% weak-scaling efficiency, and 94% strong-scaling efficiency. This capability makes biologically constrained human-brain models practical for mechanistic studies of brain disorders and controlled in silico testing of intervention hypotheses.",
-        "summary_vi": "arXiv:2609.27482v1 Announce Type: new \nAbstract: Building executable brain models is essential for moving neuroscience from description to mechanism and prediction. Human-brain-scale spiking simulatio",
-        "title": "CerebroSim: Scalable Whole-Brain Simulator at 100-Trillion-Synapse Scale on the LineShine Supercomputer"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
     "oai:arXiv.org:2609.27499v1": {
       "entry": {
         "category": "research",
@@ -1945,19 +1287,6 @@
       },
       "first_seen": "2026-09-25T00:04:46.328968+00:00"
     },
-    "oai:arXiv.org:2609.27638v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.27638v1",
-        "link": "https://arxiv.org/abs/2609.27638",
-        "relevance": 3,
-        "source": "arXiv cs.PL (Programming Languages)",
-        "summary": "arXiv:2609.27638v1 Announce Type: cross \nAbstract: AI-generated software changes make it increasingly important to determine what a change preserves, where local consistency fails to extend globally, and which alternatives remain. We develop the foundations of Algebraic Architecture Theory (AAT) from Atoms, typed primitive facts, and Laws, equations that objects must satisfy. A reading specifies what counts as structure and which operations and laws to preserve. The main reconstruction theorem identifies the category of full geometries and all their structure-preserving morphisms with an independently defined category of local models, up to equivalence. Objects are recovered up to isomorphism and morphisms between fixed endpoints uniquely. The theory addresses gluing, diagnosis, transport, classification of changes, and reconstruction. From finite Atom families we construct cores closed under operations and geometries with sites and coefficients. We give conditions under which a Cech obstruction detects the existence of a global state and, through comparison with repair semantics, a global repair. We compare diagnoses and give a finite criterion for uniform invariance given computable finite data. Transport along exact changes has a universal property and commutes with base change on exact pointed pullback squares. Comparisons of routes generated from the same square, finite comparison diagram, and geometry factor into an invertible comparison and an idempotent normalization. We characterize when observations determine comparison preservation and classify compatible lifts. Encodings of lens and protocol semantics preserve and reflect laws and recover semantics-preserving morphisms. Applications classify and count operation-preserving changes and extend morphisms uniquely from finite tables. Corresponding Lean declarations are listed in the appendix.",
-        "summary_vi": "arXiv:2609.27638v1 Announce Type: cross \nAbstract: AI-generated software changes make it increasingly important to determine what a change preserves, where local consistency fails to extend globally, ",
-        "title": "Foundations of Algebraic Architecture Theory: A Rising Sea of Geometry, Transport, Comparison, and Reconstruction"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
     "oai:arXiv.org:2609.27706v1": {
       "entry": {
         "category": "research",
@@ -1983,19 +1312,6 @@
         "title": "The KV Cache Working Set: Online Capacity Planning for LLM Inference Systems"
       },
       "first_seen": "2026-09-25T00:04:46.328968+00:00"
-    },
-    "oai:arXiv.org:2609.27875v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.27875v1",
-        "link": "https://arxiv.org/abs/2609.27875",
-        "relevance": 4,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2609.27875v1 Announce Type: new \nAbstract: The broadcast nature of communication in transmission media has driven the rise of network coding's popularity in wireless networks. Numerous benefits arise from employing network coding in multi-hop wireless networks, including enhanced throughput, reduced energy consumption, and decreased end-to-end delay. These advantages are a direct outcome of the minimized transmission count. This paper introduces a comprehensive framework to employ network coding in these networks. It refines decision-making at coding and decoding nodes simultaneously. The coding-nodes employ optimal stopping theory to find optimal moments for packet transmission. Meanwhile, the decoding-nodes dynamically decide, through SMDP (Semi Markov Decision Process) problem formulation, whether to conserve energy by deactivating radio units or to stay active for improved coding by overhearing packets. The proposed framework, named ENCODE, enables nodes to learn how and when to use network coding over time. Simulation results compare its performance with existing approaches. Our simulation results shed new light on when and how to use network coding in wireless multi-hop networks more effectively.",
-        "summary_vi": "arXiv:2609.27875v1 Announce Type: new \nAbstract: The broadcast nature of communication in transmission media has driven the rise of network coding's popularity in wireless networks. Numerous benefits ",
-        "title": "To Code or Not to Code: When and How to Use Network Coding in Energy Harvesting Wireless Multi-hop Networks"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
     },
     "oai:arXiv.org:2609.27876v1": {
       "entry": {
@@ -2036,19 +1352,6 @@
       },
       "first_seen": "2026-09-25T00:04:46.328968+00:00"
     },
-    "oai:arXiv.org:2609.27926v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.27926v1",
-        "link": "https://arxiv.org/abs/2609.27926",
-        "relevance": 3,
-        "source": "arXiv cs.PF (Performance)",
-        "summary": "arXiv:2609.27926v1 Announce Type: new \nAbstract: Data centers serving AI inference strive to maximize GPU utilization, running their cards at full power by default: this maximizes throughput and holds latencies down, but it is energy-inefficient, spending more energy per inference than the same work needs at a better operating point. That inefficiency is a scheduling choice, not a hardware limit. The cause is physical: for a given workload, a GPU's board power rises superlinearly along its power-performance curve, on top of a fixed power floor that is paid for as long as the job runs, so energy per inference is U-shaped in the operating point (GPU, power cap). The minimum, which we name the Joule Point, is a cap at 43 to 46 per cent of a large GPU's rated power; capping to it cuts energy per inference by roughly a quarter to a third at a modest cost in capital and latency: each request runs about 1.2 times slower, and holding aggregate throughput takes that same factor more cards. Under load, the Joule Point is nearly a per-card-type constant, so a single static cap per card type captures nearly all the saving (mean penalty under one per cent), turning the online per-job search that prior systems run into a one-time characterization. We ground this in ELF, a dense power-cap dataset that sweeps 20 inference models across four GPUs; replaying it in a fleet simulation under a power budget, capping each job to the least power meeting its deadline spends 18 to 45 per cent less energy per served job. These results recast data-center energy as a schedulable resource an operator can adapt to a budget, an electricity price, or a carbon signal while meeting its service targets.",
-        "summary_vi": "arXiv:2609.27926v1 Announce Type: new \nAbstract: Data centers serving AI inference strive to maximize GPU utilization, running their cards at full power by default: this maximizes throughput and holds",
-        "title": "The Joule Point: an Energy-Optimal Operating Point for AI Inference"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
-    },
     "oai:arXiv.org:2609.28219v1": {
       "entry": {
         "category": "research",
@@ -2061,19 +1364,6 @@
         "title": "Load Balancing with Partial Queue Information - Threshold Optimality and Indexability"
       },
       "first_seen": "2026-09-25T00:04:46.328968+00:00"
-    },
-    "oai:arXiv.org:2609.28262v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.28262v1",
-        "link": "https://arxiv.org/abs/2609.28262",
-        "relevance": 4,
-        "source": "arXiv cs.PF (Performance)",
-        "summary": "arXiv:2609.28262v1 Announce Type: cross \nAbstract: Deploying deep learning models on edge CPUs is bottlenecked by computational and memory constraints. Mixed-precision quantization promises to reduce inference latency while preserving accuracy. However, quantization affects different layer types in inconsistent ways, so identifying where accuracy loss is minimized and latency reduction is maximized is critical, as the effect accumulates over a full deployment into substantial savings or unacceptable task degradation. Such identification relies on sensitivity metrics, proxies that estimate layer-wise degradation without evaluating the task accuracy of every candidate policy. Nevertheless, widely used metrics fail systematically on modern architectures. We present a systematic empirical study of 13 sensitivity metrics for layer-wise INT8 quantization across four distinctly different neural networks, and validate the resulting policies on two ARM64 platforms. Gradient-based sensitivity methods fail on 4 out of 8 model-hardware configurations and weight-based statistics on 2. In contrast, the Jensen-Shannon Divergence achieves zero catastrophic failures, reliably isolating the layers that cannot be safely quantized. A sensitivity metric alone does not define a policy, and the fixed thresholds typically used for that step are fragile over the highly skewed distributions of modern architectures. We address this with K-Means clustering, achieving near-lossless accuracy and a mean speed-up of $1.81\\times$ over the full-precision model. Finally, we reveal that excluding from quantization the layers whose speed-up is negligible, regardless of their sensitivity, can be counterproductive, as it induces computational graph fragmentation and disables operator fusion. Our results yield concrete allocation policies for practitioners and researchers deploying quantized vision models on heterogeneous edge CPUs, without GPU access or gradient computation.",
-        "summary_vi": "arXiv:2609.28262v1 Announce Type: cross \nAbstract: Deploying deep learning models on edge CPUs is bottlenecked by computational and memory constraints. Mixed-precision quantization promises to reduce ",
-        "title": "RAMP: Robust Adaptive Mixed-Precision Quantization for Edge CPU Vision Models"
-      },
-      "first_seen": "2026-09-24T10:31:49.858853+00:00"
     },
     "oai:arXiv.org:2609.28358v1": {
       "entry": {
@@ -2387,19 +1677,6 @@
       },
       "first_seen": "2026-09-26T00:10:13.580076+00:00"
     },
-    "oai:arXiv.org:2609.29563v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.29563v1",
-        "link": "https://arxiv.org/abs/2609.29563",
-        "relevance": 5,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.29563v1 Announce Type: new \nAbstract: Named Data Networking (NDN) replaces address-based forwarding with longest-prefix lookup over variable-length hierarchical names, creating a difficult fit with bounded hardware fast paths. We formulate this problem as certified fast-path coverage. An offline mapper selects a prefix-closed set of parser-visible trie nodes and a separate set of action-equivalence certificates under a shared budget. A certificate relates a selected shallow FIB prefix to a deeper true-LPM class with the same forwarding action; applying the shortcut requires a sound class guard, while uncertain traffic falls back to an exact path. We present BPC-Greedy, a certificate-aware placement heuristic, and BPC-Portfolio, a multi-strategy wrapper spanning exact-heavy, repair-based, and shallow-shortcut constructions. The formulation exposes a tree-closure knapsack structure for prefix placement, exact top-k certificate selection for a fixed selected set under uniform certificate cost, and a separate bank-feasibility layer. On a synthetic parser-depth sweep and a 50k replay of public NDN testbed names under a reproducible synthetic forwarding-action snapshot, modeled certified coverage increases from 46.48% for the best exact-prefix-only bank-aware baseline to 64.06% at total budget M=48. These results characterize placement opportunity under the stated model: the evaluator uses the known true LPM as an oracle-style guard, certificate-table bank traffic is not modeled, and no claim is made about synthesized latency, area, or throughput.",
-        "summary_vi": "Named Data Networking (NDN) uses longest-prefix matching on hierarchical names instead of address-based routing, which conflicts with bounded hardware fast-path capabilities. The work formulates this as a certified fast-path coverage problem: an offline mapper selects a prefix-closed set of trie nodes and action-equivalence certificates within a shared hardware budget, where certificates map shallow Forwarding Information Base prefixes to deeper lookup results for efficient forwarding decisions on resource-constrained hardware.",
-        "title": "Certified Bank-Aware Fast-Path Coverage for Hardware-Constrained NDN Forwarding Lookup"
-      },
-      "first_seen": "2026-09-25T10:36:06.746694+00:00"
-    },
     "oai:arXiv.org:2609.29619v1": {
       "entry": {
         "category": "research",
@@ -2676,6 +1953,7 @@
     "https://lwn.net/Articles/1094575/": "2026-09-18T23:36:06.086004+00:00",
     "https://lwn.net/Articles/1094720/": "2026-09-16T23:52:22.553694+00:00",
     "https://lwn.net/Articles/1094762/": "2026-09-16T23:52:22.553694+00:00",
+    "https://lwn.net/Articles/1094840/": "2026-09-24T10:31:49.858853+00:00",
     "https://lwn.net/Articles/1094962/": "2026-09-17T23:42:02.289072+00:00",
     "https://lwn.net/Articles/1094963/": "2026-09-17T23:42:02.289072+00:00",
     "https://lwn.net/Articles/1095219/": "2026-09-18T23:36:06.086004+00:00",
@@ -2687,6 +1965,8 @@
     "https://lwn.net/Articles/1096022/": "2026-09-22T23:49:48.541761+00:00",
     "https://lwn.net/Articles/1096191/": "2026-09-23T23:58:04.297683+00:00",
     "https://lwn.net/Articles/1096195/": "2026-09-23T23:58:04.297683+00:00",
+    "https://lwn.net/Articles/1096200/": "2026-09-23T23:58:04.297683+00:00",
+    "https://lwn.net/Articles/1096204/": "2026-09-23T23:58:04.297683+00:00",
     "https://lwn.net/Articles/1096245/": "2026-09-26T00:10:13.580076+00:00",
     "https://lwn.net/Articles/1096407/": "2026-09-25T00:04:46.328968+00:00",
     "https://lwn.net/Articles/1096444/": "2026-09-25T00:04:46.328968+00:00",
@@ -2705,6 +1985,7 @@
     "https://rcrwireless.com/?p=434608": "2026-09-22T23:49:48.541761+00:00",
     "https://rcrwireless.com/?p=434614": "2026-09-22T23:49:48.541761+00:00",
     "https://rcrwireless.com/?p=434625": "2026-09-23T10:20:42.143819+00:00",
+    "https://rcrwireless.com/?p=434633": "2026-09-23T23:58:04.297683+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/dflash-on-MI355x/README.html": "2026-09-16T23:52:22.553694+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/glm52-mxfp4-mi355/README.html": "2026-09-22T00:21:39.787426+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/hylo-long-context/README.html": "2026-09-22T23:49:48.541761+00:00",
@@ -2715,6 +1996,7 @@
     "https://rocm.blogs.amd.com/software-tools-optimization/flydsl-customized-attention/README.html": "2026-09-17T23:42:02.289072+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/hipkittens-gemm-ladder/README.html": "2026-09-15T00:58:03.779863+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/hyperloom-optimization/README.html": "2026-09-22T00:21:39.787426+00:00",
+    "https://rocm.blogs.amd.com/software-tools-optimization/logprob-debug/README.html": "2026-09-23T23:58:04.297683+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/thread-trace/README.html": "2026-09-16T02:41:57.982686+00:00",
     "https://spectrum.ieee.org/social-media-bans": "2026-09-26T00:10:13.580076+00:00",
     "https://www.cnx-software.com/?p=171512": "2026-09-18T23:36:06.086004+00:00",
@@ -2728,6 +2010,7 @@
     "https://www.cnx-software.com/?p=177269": "2026-09-18T10:05:15.823346+00:00",
     "https://www.cnx-software.com/?p=177330": "2026-09-21T11:07:19.434489+00:00",
     "https://www.cnx-software.com/?p=177343": "2026-09-22T00:21:39.787426+00:00",
+    "https://www.cnx-software.com/?p=177395": "2026-09-24T10:31:49.858853+00:00",
     "https://www.cnx-software.com/?p=177406": "2026-09-23T10:20:42.143819+00:00",
     "https://www.cnx-software.com/?p=177414": "2026-09-23T10:20:42.143819+00:00",
     "https://www.cnx-software.com/?p=177474": "2026-09-24T10:31:49.858853+00:00",
@@ -2762,6 +2045,7 @@
     "https://www.phoronix.com/news/Autumn-2026-Special-Final-Call": "2026-09-25T10:36:06.746694+00:00",
     "https://www.phoronix.com/news/COSMIC-Epoch-1.9-Released": "2026-09-25T00:04:46.328968+00:00",
     "https://www.phoronix.com/news/DLSS5VKLayer": "2026-09-09T00:41:13.818850+00:00",
+    "https://www.phoronix.com/news/DXVK-IGDEXT": "2026-09-23T23:58:04.297683+00:00",
     "https://www.phoronix.com/news/Debian-13.7-Released": "2026-09-13T00:26:06.323761+00:00",
     "https://www.phoronix.com/news/Debian-Inference-Portal": "2026-09-23T23:58:04.297683+00:00",
     "https://www.phoronix.com/news/Dragonfly-2.0-Released": "2026-09-17T12:48:54.388673+00:00",
@@ -2789,11 +2073,14 @@
     "https://www.phoronix.com/news/Jemalloc-5.4": "2026-09-17T23:42:02.289072+00:00",
     "https://www.phoronix.com/news/KDE-Goals-To-2028": "2026-09-20T23:32:03.775709+00:00",
     "https://www.phoronix.com/news/KDE-KWin-Wayland-Commit-Timing": "2026-09-09T00:41:13.818850+00:00",
+    "https://www.phoronix.com/news/LLVM-Clang-AVX10_V2_AUX": "2026-09-24T10:31:49.858853+00:00",
+    "https://www.phoronix.com/news/Lemonade-2026.40-RC": "2026-09-23T23:58:04.297683+00:00",
     "https://www.phoronix.com/news/Linux-7.3-HID-G502X-USB": "2026-09-23T10:20:42.143819+00:00",
     "https://www.phoronix.com/news/Linux-7.3-Strix-Halo": "2026-09-22T23:49:48.541761+00:00",
     "https://www.phoronix.com/news/Linux-7.3-rc4": "2026-09-20T23:32:03.775709+00:00",
     "https://www.phoronix.com/news/Linux-7.3-rc4-Input": "2026-09-21T11:07:19.434489+00:00",
     "https://www.phoronix.com/news/Linux-7.4-AMD-P-State-Zen-6": "2026-09-16T02:41:57.982686+00:00",
+    "https://www.phoronix.com/news/Linux-7.4-DRM-Helpers-HDMI-2.0": "2026-09-24T10:31:49.858853+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Land-AVX-512-xor-gen": "2026-09-16T02:41:57.982686+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Yogafan-More-Laptops": "2026-09-16T12:52:31.242072+00:00",
     "https://www.phoronix.com/news/Linux-FRED-Fix-For-Wine-Games": "2026-09-19T09:44:33.099539+00:00",
@@ -2804,6 +2091,7 @@
     "https://www.phoronix.com/news/Mesa-26.2.3-Released": "2026-09-16T23:52:22.553694+00:00",
     "https://www.phoronix.com/news/Mojo-1.1-Released": "2026-09-17T23:42:02.289072+00:00",
     "https://www.phoronix.com/news/More-AMDGPU-For-Linux-7.4": "2026-09-19T09:44:33.099539+00:00",
+    "https://www.phoronix.com/news/NTFS-3G-2026.9.18": "2026-09-24T10:31:49.858853+00:00",
     "https://www.phoronix.com/news/Nebula-Matrix-NIC-Linux-7.4": "2026-09-22T00:21:39.787426+00:00",
     "https://www.phoronix.com/news/NetBSD-9.5-Released": "2026-09-06T23:09:25.403583+00:00",
     "https://www.phoronix.com/news/Nouveau-Deep-Color-Patches": "2026-09-23T10:20:42.143819+00:00",
@@ -2815,6 +2103,7 @@
     "https://www.phoronix.com/news/Phoronix-Oktoberfest-2026": "2026-09-18T10:05:15.823346+00:00",
     "https://www.phoronix.com/news/Plasma-6.8-Last-Minute-UI-Fixes": "2026-09-26T10:17:13.144814+00:00",
     "https://www.phoronix.com/news/Plasma-6.8-Post-Beta-Fixes": "2026-09-19T23:34:09.501070+00:00",
+    "https://www.phoronix.com/news/Qualcomm-Talks-Up-X2-Linux": "2026-09-23T23:58:04.297683+00:00",
     "https://www.phoronix.com/news/Raspberry-Pi-Desktop-2026": "2026-09-15T13:53:30.223364+00:00",
     "https://www.phoronix.com/news/ReactOS-Updated-Wine-DirectX": "2026-09-25T00:04:46.328968+00:00",
     "https://www.phoronix.com/news/Rust-Coreutils-0.12-Released": "2026-09-17T12:48:54.388673+00:00",
@@ -2847,6 +2136,7 @@
     "https://www.phoronix.com/news/libinput-1.32-Released": "2026-09-17T12:48:54.388673+00:00",
     "https://www.phoronix.com/review/amd-zen5-intel-gnr-ws-smt": "2026-09-17T23:42:02.289072+00:00",
     "https://www.phoronix.com/review/chuwi-unibook-wildcat-lake": "2026-09-09T09:28:28.702623+00:00",
+    "https://www.phoronix.com/review/java-8-openjdk-27-benchmarks": "2026-09-23T23:58:04.297683+00:00",
     "https://www.phoronix.com/review/linux-618-73-amd-epyc": "2026-09-22T00:21:39.787426+00:00",
     "https://www.phoronix.com/review/ubuntu-2610-amd64v3-lowend": "2026-09-16T23:52:22.553694+00:00",
     "https://www.phoronix.com/review/ubuntu-2610-strix-halo": "2026-09-18T23:36:06.086004+00:00",
@@ -2931,6 +2221,15 @@
     "https://www.reddit.com/r/embedded/t3_1wnzsjw": "2026-09-23T10:20:42.143819+00:00",
     "https://www.reddit.com/r/embedded/t3_1wo025d": "2026-09-23T10:20:42.143819+00:00",
     "https://www.reddit.com/r/embedded/t3_1wo0r8u": "2026-09-23T10:20:42.143819+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wo4uj0": "2026-09-23T23:58:04.297683+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wob5pz": "2026-09-23T23:58:04.297683+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wob7jp": "2026-09-23T23:58:04.297683+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wocys1": "2026-09-23T23:58:04.297683+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wogv1f": "2026-09-23T23:58:04.297683+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wotjr4": "2026-09-24T10:31:49.858853+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wou6fj": "2026-09-24T10:31:49.858853+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wow594": "2026-09-24T10:31:49.858853+00:00",
+    "https://www.reddit.com/r/embedded/t3_1woxk5d": "2026-09-24T10:31:49.858853+00:00",
     "https://www.reddit.com/r/embedded/t3_1wqxkbs": "2026-09-26T23:54:29.308170+00:00",
     "https://www.redhat.com/en/blog/5-reasons-why-your-lightwell-strategy-needs-more-just-patches": "2026-09-12T00:42:36.175668+00:00",
     "https://www.redhat.com/en/blog/automate-security-risk-management-across-enterprise-it-operations": "2026-09-25T00:04:46.328968+00:00",
@@ -2970,13 +2269,18 @@
     "https://www.redhat.com/en/blog/unify-vms-and-containers-everpure-cloud-azure-red-hat-openshift": "2026-09-23T23:58:04.297683+00:00",
     "https://www.sigarch.org/?p=114327": "2026-09-17T23:42:02.289072+00:00",
     "oai:arXiv.org:2211.11659v4": "2026-09-22T00:21:39.787426+00:00",
+    "oai:arXiv.org:2309.07781v3": "2026-09-24T10:31:49.858853+00:00",
     "oai:arXiv.org:2310.01961v3": "2026-09-21T11:07:19.434489+00:00",
+    "oai:arXiv.org:2404.03515v4": "2026-09-23T23:58:04.297683+00:00",
     "oai:arXiv.org:2507.13476v4": "2026-09-22T00:21:39.787426+00:00",
+    "oai:arXiv.org:2507.20674v3": "2026-09-23T23:58:04.297683+00:00",
     "oai:arXiv.org:2508.08430v2": "2026-09-22T23:49:48.541761+00:00",
     "oai:arXiv.org:2510.27485v3": "2026-09-16T12:52:31.242072+00:00",
     "oai:arXiv.org:2512.10089v2": "2026-09-22T00:21:39.787426+00:00",
     "oai:arXiv.org:2601.01158v2": "2026-09-22T00:21:39.787426+00:00",
     "oai:arXiv.org:2601.15294v3": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2602.18307v2": "2026-09-23T23:58:04.297683+00:00",
+    "oai:arXiv.org:2603.20001v3": "2026-09-24T10:31:49.858853+00:00",
     "oai:arXiv.org:2603.26139v2": "2026-09-24T10:31:49.858853+00:00",
     "oai:arXiv.org:2604.13536v5": "2026-09-17T12:48:54.388673+00:00",
     "oai:arXiv.org:2604.19657v2": "2026-09-15T13:53:30.223364+00:00",
@@ -2991,6 +2295,7 @@
     "oai:arXiv.org:2608.11234v3": "2026-09-22T10:21:49.085973+00:00",
     "oai:arXiv.org:2608.12123v2": "2026-09-16T02:41:57.982686+00:00",
     "oai:arXiv.org:2609.04238v1": "2026-09-08T00:43:47.238508+00:00",
+    "oai:arXiv.org:2609.04476v2": "2026-09-23T23:58:04.297683+00:00",
     "oai:arXiv.org:2609.04774v1": "2026-09-08T00:43:47.238508+00:00",
     "oai:arXiv.org:2609.05764v1": "2026-09-09T09:28:28.702623+00:00",
     "oai:arXiv.org:2609.05793v1": "2026-09-10T00:38:49.074531+00:00",
@@ -3064,6 +2369,7 @@
     "oai:arXiv.org:2609.15030v1": "2026-09-16T02:41:57.982686+00:00",
     "oai:arXiv.org:2609.15230v1": "2026-09-16T02:41:57.982686+00:00",
     "oai:arXiv.org:2609.15467v1": "2026-09-16T02:41:57.982686+00:00",
+    "oai:arXiv.org:2609.15558v2": "2026-09-23T23:58:04.297683+00:00",
     "oai:arXiv.org:2609.15807v1": "2026-09-15T13:53:30.223364+00:00",
     "oai:arXiv.org:2609.16003v1": "2026-09-16T12:52:31.242072+00:00",
     "oai:arXiv.org:2609.16007v1": "2026-09-16T12:52:31.242072+00:00",
@@ -3274,19 +2580,52 @@
     "oai:arXiv.org:2609.25421v1": "2026-09-23T10:20:42.143819+00:00",
     "oai:arXiv.org:2609.25427v1": "2026-09-23T10:20:42.143819+00:00",
     "oai:arXiv.org:2609.25428v1": "2026-09-23T10:20:42.143819+00:00",
+    "oai:arXiv.org:2609.25434v1": "2026-09-23T23:58:04.297683+00:00",
     "oai:arXiv.org:2609.25442v1": "2026-09-23T10:20:42.143819+00:00",
     "oai:arXiv.org:2609.25451v1": "2026-09-23T10:20:42.143819+00:00",
     "oai:arXiv.org:2609.25479v1": "2026-09-23T10:20:42.143819+00:00",
+    "oai:arXiv.org:2609.25514v1": "2026-09-23T23:58:04.297683+00:00",
+    "oai:arXiv.org:2609.25547v1": "2026-09-23T23:58:04.297683+00:00",
     "oai:arXiv.org:2609.25560v1": "2026-09-23T10:20:42.143819+00:00",
     "oai:arXiv.org:2609.25624v1": "2026-09-23T10:20:42.143819+00:00",
+    "oai:arXiv.org:2609.25637v1": "2026-09-23T23:58:04.297683+00:00",
+    "oai:arXiv.org:2609.25646v1": "2026-09-23T23:58:04.297683+00:00",
+    "oai:arXiv.org:2609.25730v1": "2026-09-23T23:58:04.297683+00:00",
     "oai:arXiv.org:2609.25782v1": "2026-09-23T10:20:42.143819+00:00",
+    "oai:arXiv.org:2609.25817v1": "2026-09-23T23:58:04.297683+00:00",
     "oai:arXiv.org:2609.25869v1": "2026-09-23T10:20:42.143819+00:00",
+    "oai:arXiv.org:2609.25873v1": "2026-09-23T23:58:04.297683+00:00",
+    "oai:arXiv.org:2609.25892v1": "2026-09-23T23:58:04.297683+00:00",
+    "oai:arXiv.org:2609.25918v1": "2026-09-23T23:58:04.297683+00:00",
     "oai:arXiv.org:2609.26122v1": "2026-09-23T10:20:42.143819+00:00",
+    "oai:arXiv.org:2609.26190v1": "2026-09-23T23:58:04.297683+00:00",
+    "oai:arXiv.org:2609.26219v1": "2026-09-23T23:58:04.297683+00:00",
     "oai:arXiv.org:2609.26270v1": "2026-09-23T10:20:42.143819+00:00",
     "oai:arXiv.org:2609.26284v1": "2026-09-23T10:20:42.143819+00:00",
+    "oai:arXiv.org:2609.26363v1": "2026-09-23T23:58:04.297683+00:00",
+    "oai:arXiv.org:2609.26374v1": "2026-09-23T23:58:04.297683+00:00",
+    "oai:arXiv.org:2609.26476v1": "2026-09-23T23:58:04.297683+00:00",
     "oai:arXiv.org:2609.26616v1": "2026-09-23T10:20:42.143819+00:00",
     "oai:arXiv.org:2609.26763v1": "2026-09-23T10:20:42.143819+00:00",
+    "oai:arXiv.org:2609.26824v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.26828v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.26829v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.26830v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.26960v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.27040v1": "2026-09-24T10:31:49.858853+00:00",
     "oai:arXiv.org:2609.27082v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.27085v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.27169v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.27189v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.27193v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.27266v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.27319v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.27386v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.27482v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.27638v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.27875v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.27926v1": "2026-09-24T10:31:49.858853+00:00",
+    "oai:arXiv.org:2609.28262v1": "2026-09-24T10:31:49.858853+00:00",
     "oai:arXiv.org:2609.29595v1": "2026-09-26T00:10:13.580076+00:00"
   }
 }
