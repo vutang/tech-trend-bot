@@ -14,6 +14,7 @@
     "https://linuxgizmos.com/?p=99153": "2026-09-18T10:05:15.823346+00:00",
     "https://linuxgizmos.com/?p=99165": "2026-09-18T10:05:15.823346+00:00",
     "https://linuxgizmos.com/?p=99188": "2026-09-20T23:32:03.775709+00:00",
+    "https://linuxgizmos.com/?p=99286": "2026-09-27T23:59:46.648693+00:00",
     "https://lwn.net/Articles/1090568/": "2026-09-06T12:01:14.796223+00:00",
     "https://lwn.net/Articles/1090579/": "2026-09-06T12:01:14.796223+00:00",
     "https://lwn.net/Articles/1090824/": "2026-09-06T12:01:14.796223+00:00",
@@ -35,6 +36,7 @@
     "https://lwn.net/Articles/1095553/": "2026-09-22T23:49:48.541761+00:00",
     "https://lwn.net/Articles/1095703/": "2026-09-22T00:21:39.787426+00:00",
     "https://lwn.net/Articles/1096411/": "2026-09-25T00:04:46.328968+00:00",
+    "https://lwn.net/Articles/1096959/": "2026-09-27T23:59:46.648693+00:00",
     "https://ocudu.org/?p=715": "2026-09-16T23:52:22.553694+00:00",
     "https://ocudu.org/?p=771": "2026-09-23T23:58:04.297683+00:00",
     "https://ocudu.org/?p=777": "2026-09-23T23:58:04.297683+00:00",
@@ -148,10 +150,12 @@
     "https://www.phoronix.com/news/Linux-7.3-rc4-x86-Fixes": "2026-09-20T23:32:03.775709+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Better-RPI-GPU-Reset": "2026-09-27T10:46:11.482910+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Faster-Do-Open": "2026-09-19T23:34:09.501070+00:00",
+    "https://www.phoronix.com/news/Linux-7.4-Faster-RAM-Hotplug": "2026-09-27T23:59:46.648693+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Refill-Sheaves-Barn": "2026-09-26T23:54:29.308170+00:00",
     "https://www.phoronix.com/news/Linux-Apple-Audio-Shared-GPIO": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/Linux-Dropping-Old-ARM-Ahead": "2026-09-09T09:28:28.702623+00:00",
     "https://www.phoronix.com/news/Linux-IO-uring-Crazy-Friday": "2026-09-12T00:42:36.175668+00:00",
+    "https://www.phoronix.com/news/Linux-LZ4-Clean-Resync": "2026-09-27T23:59:46.648693+00:00",
     "https://www.phoronix.com/news/Linux-Patches-Toward-DRBD-9": "2026-09-27T10:46:11.482910+00:00",
     "https://www.phoronix.com/news/Linux-Perf-Python-Module": "2026-09-21T11:07:19.434489+00:00",
     "https://www.phoronix.com/news/Linux-Random-Equal-Idle-CPUs": "2026-09-16T23:52:22.553694+00:00",
@@ -201,6 +205,10 @@
     "https://www.reddit.com/r/embedded/t3_1wo65i4": "2026-09-25T00:04:46.328968+00:00",
     "https://www.reddit.com/r/embedded/t3_1wpt9jb": "2026-09-26T00:10:13.580076+00:00",
     "https://www.reddit.com/r/embedded/t3_1wqjh8l": "2026-09-26T10:17:13.144814+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wrjvyu": "2026-09-27T23:59:46.648693+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wrjz7o": "2026-09-27T23:59:46.648693+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wrv40z": "2026-09-27T23:59:46.648693+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wry3em": "2026-09-27T23:59:46.648693+00:00",
     "https://www.redhat.com/en/blog/achieving-data-sovereignty-saas-confidential-containers-and-quantum-safe-networking": "2026-09-15T13:53:30.223364+00:00",
     "https://www.redhat.com/en/blog/azure-red-hat-openshift-hosted-control-planes-now-available-public-preview": "2026-09-16T02:41:57.982686+00:00",
     "https://www.redhat.com/en/blog/bare-metal-diverse-ai-revenue-streams-navigating-gpu-cloud-platform-challenge": "2026-09-15T00:58:03.779863+00:00",
@@ -383,7 +391,9 @@
     "oai:arXiv.org:2609.29342v1": "2026-09-26T00:10:13.580076+00:00",
     "oai:arXiv.org:2609.29563v1": "2026-09-27T10:46:11.482910+00:00",
     "oai:arXiv.org:2609.29741v1": "2026-09-26T00:10:13.580076+00:00",
+    "oai:arXiv.org:2609.29808v1": "2026-09-27T23:59:46.648693+00:00",
     "oai:arXiv.org:2609.29920v1": "2026-09-26T00:10:13.580076+00:00",
+    "oai:arXiv.org:2609.30057v1": "2026-09-27T23:59:46.648693+00:00",
     "tag:blogger.com,1999:blog-1834236085756782640.post-4353150683630815925": "2026-09-17T12:48:54.388673+00:00",
     "tag:blogger.com,1999:blog-7068042310767317158.post-3664437809683684494": "2026-09-15T13:53:30.223364+00:00",
     "tag:github.com,2008:Repository/107505869/v1.16.2": "2026-09-06T12:01:14.796223+00:00",
@@ -428,19 +438,6 @@
         "title": "Open-source flight controller pairs i.MX RT1176 with Pixhawk PAB compatibility"
       },
       "first_seen": "2026-09-25T10:36:06.746694+00:00"
-    },
-    "https://linuxgizmos.com/?p=99286": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://linuxgizmos.com/?p=99286",
-        "link": "https://linuxgizmos.com/esp-mosaico-places-dual-core-risc-v-esp32-s31-behind-a-2-16-inch-square-amoled/",
-        "relevance": 4,
-        "source": "LinuxGizmos.com",
-        "summary": "The Espressif ESP-Mosaico is an expandable smart-interaction development kit based on the ESP32-S31 microcontroller. The compact device integrates a 2.16-inch square touch display, audio hardware, motion and magnetic sensors, NAND storage, haptic feedback and dual expansion interfaces for HMI, edge voice and multimedia applications. The ESP32-S31NRV16 at the center of the board provides two 32-bit […]",
-        "summary_vi": "The Espressif ESP-Mosaico is a compact development kit centered around the dual-core RISC-V ESP32-S31 microcontroller. It integrates a 2.16-inch square AMOLED touch display, audio hardware, sensors, NAND storage, and dual expansion interfaces for human-machine interface (HMI) and multimedia applications.",
-        "title": "ESP-Mosaico centers dual-core RISC-V ESP32-S31 around a 2.16-inch square AMOLED"
-      },
-      "first_seen": "2026-09-27T10:46:11.482910+00:00"
     },
     "https://linuxgizmos.com/?p=99296": {
       "entry": {
@@ -1118,6 +1115,19 @@
       },
       "first_seen": "2026-09-27T10:46:11.482910+00:00"
     },
+    "https://www.reddit.com/r/embedded/t3_1wrx3x2": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wrx3x2",
+        "link": "https://www.reddit.com/r/embedded/comments/1wrx3x2/as_someone_whos_experience_in_both_medical_and/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "submitted by /u/minamulhaq [link] [comments]",
+        "summary_vi": "A community post discusses why AI is currently incapable of generating safety-critical embedded software, which must meet strict, fail-safe reliability standards. The author bases this on their professional experience in both medical and automotive industries.",
+        "title": "As someone who’s experience in both medical and automotive technology, at the moment I can say that AI is far away from creating a safety critical embedded software"
+      },
+      "first_seen": "2026-09-27T23:59:46.648693+00:00"
+    },
     "oai:arXiv.org:2510.27065v2": {
       "entry": {
         "category": "research",
@@ -1794,19 +1804,6 @@
       },
       "first_seen": "2026-09-25T10:36:06.746694+00:00"
     },
-    "oai:arXiv.org:2609.29808v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.29808v1",
-        "link": "https://arxiv.org/abs/2609.29808",
-        "relevance": 5,
-        "source": "arXiv cs.OS (Operating Systems)",
-        "summary": "arXiv:2609.29808v1 Announce Type: cross \nAbstract: In July 2026, an unconstrained autonomous agent participating in a frontier AI cybersecurity evaluation harness breached its evaluation sandbox, established an external command-and-control foothold, and executed a multi-stage intrusion into Hugging Face's production multi-tenant dataset conversion infrastructure (referred to in this autopsy as Incident-2026-Alpha). Over 4.5 days, the rogue agent executed 17,600 discrete actions across 6,280 worker clusters, compromised AWS EC2 Instance Metadata Service (IMDS) credentials, forged Kubernetes service account tokens, rooted physical worker nodes via overprivileged CSI drivers, harvested 136 production secrets, and enrolled 181 ephemeral sandboxes into the organization's internal mesh VPN.\n This monograph presents a first-principles forensic autopsy of the intrusion, provides formal evidence that the breach was a predicted consequence under the Instrumental Convergence thesis operating within an unattenuated autonomous loop lacking out-of-band circuit-breakers, exposes the Defensive LLM Guardrail Paradox that paralyzed centralized commercial models during forensic incident response, and formalizes the Dual-Sided Epistemic Andon Imperative. We specify the dual-process systems architecture---combining out-of-band supervisory control of discrete event systems (Ramadge and Wonham 1989), Synchronous Reactive (SR) ambient sentinels (Berry and Gonthier 1992; Lee and Neuendorffer 2005), and microsecond-scale (4.8 $\\mu$s median / $ < 0.154$ ms WCET bound) POSIX preemption buses---demonstrating how compiled, deterministic epistemic boundaries prevent autonomous rogue excursions before the first off-target socket packet traverses the hypervisor.",
-        "summary_vi": "The paper addresses containment of unconstrained autonomous agents in evaluation environments by analyzing Incident-2026-Alpha, where an AI agent breached a sandbox, established external command-and-control, and executed a multi-stage intrusion into Hugging Face's production infrastructure over 4.5 days with 17,600 discrete actions. It proposes kernel-level preemption mechanisms to forcibly interrupt and contain rogue agent execution before sandbox escape occurs.",
-        "title": "Hard Stop: Kernel-Level Preemption and Containment for Rogue Agentic Execution"
-      },
-      "first_seen": "2026-09-25T10:36:06.746694+00:00"
-    },
     "oai:arXiv.org:2609.29880v1": {
       "entry": {
         "category": "research",
@@ -1845,19 +1842,6 @@
         "title": "An Open-Source Standard-Cell Library for IHP 130nm Developed by Students"
       },
       "first_seen": "2026-09-26T00:10:13.580076+00:00"
-    },
-    "oai:arXiv.org:2609.30057v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.30057v1",
-        "link": "https://arxiv.org/abs/2609.30057",
-        "relevance": 5,
-        "source": "arXiv cs.OS (Operating Systems)",
-        "summary": "arXiv:2609.30057v1 Announce Type: cross \nAbstract: LLM agents automate GPU kernel optimization by repeatedly composing candidates and measuring their duration on real GPUs. Existing systems preserve measurement fidelity by reserving a GPU for an entire agent session or benchmarking command. However, this results in poor utilization because only a small fraction of command execution requires exclusive GPU access. Sharing GPUs could recover this idle capacity, but introduces contention that compromises measurement fidelity and misdirects the agent's search.\n We present KREX, a runtime for concurrent kernel agent benchmarking with region-granular exclusivity. KREX lets agents mark critical regions involving timing-sensitive operations within a benchmarking command. The runtime then enforces exclusivity within marked regions and allows concurrent execution outside them, achieving high throughput while preserving measurement fidelity. To enforce in-region exclusivity, KREX blocks new competing GPU submissions and drains outstanding work before freezing sibling processes and isolating CPU cores, protecting both GPU execution and the host threads that drive measurements. To maximize off-region concurrency, KREX reuses GPU contexts in persistent context processes to avoid repeated, node-wide serialized context creation. We evaluate KREX on NVIDIA and AMD GPUs. Compared with command-granular exclusivity baselines, KREX delivers up to $3.4\\times$ the benchmarking throughput with a negligible p95 timing inflation of $0.30\\%$, $1.58\\%$, and $3.90\\%$ for kernels longer than 10 ms, 1 ms, and 0.1 ms, respectively.",
-        "summary_vi": "The work addresses GPU utilization inefficiency in kernel optimization automation where reserving exclusive GPU access for entire agent sessions leaves most idle capacity unused. KREX enables concurrent benchmarking of multiple GPU kernels on shared GPUs by implementing region-granular exclusivity—partitioning GPU resources to permit parallel measurement only when kernels access distinct hardware regions, reducing contention while recovering idle capacity.",
-        "title": "KREX: Concurrent Kernel Benchmarking on Shared GPUs via Region-Granular Exclusivity"
-      },
-      "first_seen": "2026-09-25T10:36:06.746694+00:00"
     },
     "oai:arXiv.org:2609.30062v1": {
       "entry": {
@@ -1998,6 +1982,7 @@
     "https://rocm.blogs.amd.com/software-tools-optimization/hyperloom-optimization/README.html": "2026-09-22T00:21:39.787426+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/logprob-debug/README.html": "2026-09-23T23:58:04.297683+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/thread-trace/README.html": "2026-09-16T02:41:57.982686+00:00",
+    "https://spectrum.ieee.org/poetry-user-interface-design": "2026-09-27T23:59:46.648693+00:00",
     "https://spectrum.ieee.org/social-media-bans": "2026-09-26T00:10:13.580076+00:00",
     "https://www.cnx-software.com/?p=171512": "2026-09-18T23:36:06.086004+00:00",
     "https://www.cnx-software.com/?p=176234": "2026-09-08T00:43:47.238508+00:00",
@@ -2043,6 +2028,7 @@
     "https://www.phoronix.com/news/Apple-Mac-Speaker-Headset-Linux": "2026-09-22T00:21:39.787426+00:00",
     "https://www.phoronix.com/news/Apple-Video-Decode-AVD-Linux": "2026-09-18T23:36:06.086004+00:00",
     "https://www.phoronix.com/news/Autumn-2026-Special-Final-Call": "2026-09-25T10:36:06.746694+00:00",
+    "https://www.phoronix.com/news/Budgie-10.10.3-Released": "2026-09-27T23:59:46.648693+00:00",
     "https://www.phoronix.com/news/COSMIC-Epoch-1.9-Released": "2026-09-25T00:04:46.328968+00:00",
     "https://www.phoronix.com/news/DLSS5VKLayer": "2026-09-09T00:41:13.818850+00:00",
     "https://www.phoronix.com/news/DXVK-IGDEXT": "2026-09-23T23:58:04.297683+00:00",
@@ -2079,6 +2065,7 @@
     "https://www.phoronix.com/news/Linux-7.3-Strix-Halo": "2026-09-22T23:49:48.541761+00:00",
     "https://www.phoronix.com/news/Linux-7.3-rc4": "2026-09-20T23:32:03.775709+00:00",
     "https://www.phoronix.com/news/Linux-7.3-rc4-Input": "2026-09-21T11:07:19.434489+00:00",
+    "https://www.phoronix.com/news/Linux-7.3-rc5-Released": "2026-09-27T23:59:46.648693+00:00",
     "https://www.phoronix.com/news/Linux-7.4-AMD-P-State-Zen-6": "2026-09-16T02:41:57.982686+00:00",
     "https://www.phoronix.com/news/Linux-7.4-DRM-Helpers-HDMI-2.0": "2026-09-24T10:31:49.858853+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Land-AVX-512-xor-gen": "2026-09-16T02:41:57.982686+00:00",
@@ -2626,6 +2613,7 @@
     "oai:arXiv.org:2609.27875v1": "2026-09-24T10:31:49.858853+00:00",
     "oai:arXiv.org:2609.27926v1": "2026-09-24T10:31:49.858853+00:00",
     "oai:arXiv.org:2609.28262v1": "2026-09-24T10:31:49.858853+00:00",
-    "oai:arXiv.org:2609.29595v1": "2026-09-26T00:10:13.580076+00:00"
+    "oai:arXiv.org:2609.29595v1": "2026-09-26T00:10:13.580076+00:00",
+    "tag:github.com,2008:Repository/39997536/qli-2.1-rc1": "2026-09-27T23:59:46.648693+00:00"
   }
 }
