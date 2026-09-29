@@ -79,6 +79,7 @@
     "https://rcrwireless.com/?p=434703": "2026-09-29T01:16:55.286252+00:00",
     "https://rcrwireless.com/?p=434712": "2026-09-29T01:16:55.286252+00:00",
     "https://rcrwireless.com/?p=434722": "2026-09-29T01:16:55.286252+00:00",
+    "https://rcrwireless.com/?p=434726": "2026-09-29T11:35:47.491303+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/iteratively-tuning-hipblaslt/README.html": "2026-09-10T00:38:49.074531+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/profiling-guide/att/README.html": "2026-09-22T23:49:48.541761+00:00",
     "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data": "2026-09-22T10:21:49.085973+00:00",
@@ -133,6 +134,7 @@
     "https://www.phoronix.com/news/Btrfs-Fixes-For-Linux-7.3-rc4": "2026-09-20T10:10:13.503806+00:00",
     "https://www.phoronix.com/news/Cache-Aware-Scheduling-4-Patch": "2026-09-12T00:42:36.175668+00:00",
     "https://www.phoronix.com/news/ClangIR-Build-Default-Maybe": "2026-09-06T12:01:38.804236+00:00",
+    "https://www.phoronix.com/news/FUSE-Large-Folios": "2026-09-29T11:35:47.491303+00:00",
     "https://www.phoronix.com/news/FUTEX-Robust-List2-Syscalls": "2026-09-26T00:10:13.580076+00:00",
     "https://www.phoronix.com/news/Fedora-47-Considers-Thin-LTO": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/FreeBSD-14.5-RELEASE": "2026-09-08T00:43:47.238508+00:00",
@@ -409,6 +411,9 @@
     "oai:arXiv.org:2609.30891v1": "2026-09-29T01:16:55.286252+00:00",
     "oai:arXiv.org:2609.30998v1": "2026-09-28T12:04:39.230765+00:00",
     "oai:arXiv.org:2609.31405v1": "2026-09-29T01:16:55.286252+00:00",
+    "oai:arXiv.org:2609.32978v1": "2026-09-29T11:35:47.491303+00:00",
+    "oai:arXiv.org:2609.33689v1": "2026-09-29T11:35:47.491303+00:00",
+    "oai:arXiv.org:2609.34263v1": "2026-09-29T11:35:47.491303+00:00",
     "tag:blogger.com,1999:blog-1834236085756782640.post-4353150683630815925": "2026-09-17T12:48:54.388673+00:00",
     "tag:blogger.com,1999:blog-7068042310767317158.post-3664437809683684494": "2026-09-15T13:53:30.223364+00:00",
     "tag:github.com,2008:Repository/107505869/v1.16.2": "2026-09-06T12:01:14.796223+00:00",
@@ -493,19 +498,6 @@
       },
       "first_seen": "2026-09-28T12:04:39.230765+00:00"
     },
-    "https://www.cnx-software.com/?p=177572": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.cnx-software.com/?p=177572",
-        "link": "https://www.cnx-software.com/2026/09/26/kryonos-turns-esp32-boards-into-javascript-powered-mini-computer/",
-        "relevance": 4,
-        "source": "CNX Software",
-        "summary": "KryonOS is a small JavaScript-powered OS that turns a supported ESP32 development board with a touchscreen into a standalone computer with its own graphical interface, application launcher, and file storage. It provides the basic software environment needed to use the board without writing and flashing a separate firmware program for every application. Unlike traditional ESP32 firmware, KryonOS keeps applications separate from the main system and runs them through its built-in JavaScript runtime. It also includes an App Store that allows users to download and install applications and updates over Wi-Fi without reflashing the device. KryonOS key features: Supported MCUs – ESP32 (WROOM-32), ESP32-S2, ESP32-S3, and ESP32-C3 Storage – MicroSD card support via HSPI bus Display ILI9341 display controller with XPT2046 resistive touch controller connected via VSPI Experimental support for some other display controllers, e.g., ST7789V2 JavaScript Engine – Duktape 2.x (ES5/ES5.1 compliant). Graphics Engine – Direct-to-glass 16-bit RGB565 rendering with hardware [...] \n The post KryonOS turns ESP32 boards into JavaScript-powered mini computer appeared first on CNX Software - Embedded Systems News .",
-        "summary_vi": "KryonOS is a small JavaScript-powered OS that turns a supported ESP32 development board with a touchscreen into a standalone computer with its own graphical interface, application launcher, and file s",
-        "title": "KryonOS turns ESP32 boards into JavaScript-powered mini computer"
-      },
-      "first_seen": "2026-09-26T10:17:13.144814+00:00"
-    },
     "https://www.cnx-software.com/?p=177667": {
       "entry": {
         "category": "embedded",
@@ -519,6 +511,19 @@
       },
       "first_seen": "2026-09-29T01:16:55.286252+00:00"
     },
+    "https://www.cnx-software.com/?p=177682": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.cnx-software.com/?p=177682",
+        "link": "https://www.cnx-software.com/2026/09/29/nxp-frdm-imxrt1186-development-board-features-i-mx-rt1186-crossover-mcu-four-ethernet-ports/",
+        "relevance": 4,
+        "source": "CNX Software",
+        "summary": "NXP has just launched the FRDM-IMXRT1186, a development board based on the i.MX RT1186 crossover MCU for industrial automation, robotics, PLCs, and edge computing applications. The MCU uses a heterogeneous architecture with an 800 MHz Arm Cortex-M7 core for application processing and a 300 MHz Arm Cortex-M33 core for real-time control and communications. The board includes 64 Mbit HyperRAM, 512 Mbit HyperFlash, and 128 Mbit QSPI Flash, along with two Gigabit Ethernet ports for TSN switching and two Fast Ethernet ports for EtherCAT or TSN switching. It also features a USB Type-C OTG port and a CAN transceiver, while debugging is supported through an on-board MCU-Link debugger and JTAG connector. For expansion, the board includes Arduino UNO R3 and FRDM headers, a FlexSPI follower header, an SRAMC header, and motor-control headers. NXP FRDM-IMXRT1186 development board specifications: SoC – NXP MIMXRT1186CVJ8C (i.MX RT1180 family, LFBGA196) CPU Arm Cortex-M7 application core @ [...] \n The post NXP FRDM-IMXRT1186 development board features i.MX RT1186 crossover MCU, four Ethernet ports appeared first on CNX Software - Embedded Systems News .",
+        "summary_vi": "NXP has just launched the FRDM-IMXRT1186, a development board based on the i.MX RT1186 crossover MCU for industrial automation, robotics, PLCs, and edge computing applications. The MCU uses a heteroge",
+        "title": "NXP FRDM-IMXRT1186 development board features i.MX RT1186 crossover MCU, four Ethernet ports"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
     "https://www.phoronix.com/news/AMD-PerfOpt-Linux-7.4": {
       "entry": {
         "category": "embedded",
@@ -531,6 +536,19 @@
         "title": "AMD PerfOpt To Deliver New Performance Optimization For AMD iGPUs With Linux 7.4"
       },
       "first_seen": "2026-09-28T12:04:39.230765+00:00"
+    },
+    "https://www.phoronix.com/news/AMD-Zen-6-More-Client-Tuning": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/AMD-Zen-6-More-Client-Tuning",
+        "link": "https://www.phoronix.com/news/AMD-Zen-6-More-Client-Tuning",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "AMD engineers continue to prepare for upcoming Zen 6 powered Ryzen client processors on Linux...",
+        "summary_vi": "AMD engineers continue to prepare for upcoming Zen 6 powered Ryzen client processors on Linux...",
+        "title": "AMD Ryzen Zen 6 CPU Power Values Being Further Tuned For Linux"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
     },
     "https://www.phoronix.com/news/AMDXDNA-NPU3-Enhancements": {
       "entry": {
@@ -623,57 +641,31 @@
       },
       "first_seen": "2026-09-29T01:16:55.286252+00:00"
     },
-    "https://www.reddit.com/r/embedded/t3_1wqdibg": {
+    "https://www.phoronix.com/news/Steam-Deck-Better-Firefox": {
       "entry": {
         "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wqdibg",
-        "link": "https://www.reddit.com/r/embedded/comments/1wqdibg/any_1a_methods_to_power_an_esp32_project/",
-        "relevance": 4,
-        "source": "Reddit r/embedded",
-        "summary": "I have an esp32 right now using Micro SD Module: 100ma peak A RC522: 30ma peak A 0.96\" SSD1306 OLED: 20ma peak A 3.3v buzzer: 30ma peak A which is all about 480ma total, so I need a way to power this. Can I just plug everything to the esp32 then plug the esp32 to the wall? I'm not sure if that's a good idea though because I don't know the current the charger bricks output or will that not be a problem? submitted by /u/hfurbd [link] [comments]",
-        "summary_vi": "I have an esp32 right now using Micro SD Module: 100ma peak A RC522: 30ma peak A 0.96\" SSD1306 OLED: 20ma peak A 3.3v buzzer: 30ma peak A which is all about 480ma total, so I need a way to power this.",
-        "title": "any 1A Methods to power an Esp32 Project?"
+        "id": "https://www.phoronix.com/news/Steam-Deck-Better-Firefox",
+        "link": "https://www.phoronix.com/news/Steam-Deck-Better-Firefox",
+        "relevance": 3,
+        "source": "Phoronix",
+        "summary": "The Igalia consulting firm working with Valve is aiming to improve the Firefox web browsing experience when running on the Steam Deck handheld Linux-powered device...",
+        "summary_vi": "The Igalia consulting firm working with Valve is aiming to improve the Firefox web browsing experience when running on the Steam Deck handheld Linux-powered device...",
+        "title": "Igalia Improving The Firefox Experience For Valve's Steam Deck"
       },
-      "first_seen": "2026-09-26T10:17:13.144814+00:00"
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
     },
-    "https://www.reddit.com/r/embedded/t3_1wql1z0": {
+    "https://www.phoronix.com/review/nvidia-vera-smt": {
       "entry": {
         "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wql1z0",
-        "link": "https://www.reddit.com/r/embedded/comments/1wql1z0/luthor_a_novel_dfa_regexlexer_matcher_table/",
+        "id": "https://www.phoronix.com/review/nvidia-vera-smt",
+        "link": "https://www.phoronix.com/review/nvidia-vera-smt",
         "relevance": 4,
-        "source": "Reddit r/embedded",
-        "summary": "https://preview.redd.it/e18x5ez5ptrh1.png?width=695&format=png&auto=webp&s=a7cb1f57c366a20390ea6fe671c5e184c2e65886 https://github.com/codewitch-honey-crisis/Luthor Luthor is a fast, compact lexer generator that produces simple integer arrays for efficient text matching in any programming language. I've provided examples for traversing the arrays in C, Python and C#. I did use AI as an assist, and to port the C# to Python plus test. This project is a command line tool written in C# .NET 8.0 console application that can be installed as a global dotnet tool. It also ships with luthor.py which is a pure Python implementation of the same algorithms, so you can use it without .NET like in your C/++ build environments Key Features: Direct-to-DFA conversion (no intermediate NFA) Partial lazy quantifier support ( ?? , *? , +? ) - all expressions are accepted but due to limitations of DFA traversal some complicated lazy matches may end up partly or entirely greedy. Unicode support (UTF-8, UTF-16, UTF-32) Compact array output suitable for embedded systems Language-agnostic - use the arrays in C, C++, Rust, etc. What Luthor Does Luthor takes regular expressions or lexer grammars and converts them into simple integer arrays that can be embedded in any program. Instead of shipping a complex regex engine, you get a small array that can be walked with a simple matching loop. Example: The pattern [A-Za-z_][A-Za-z0-9_]* becomes: int dfa[] = {10, -1, -1, -1, 3, 65, 90, 14, 95, 95, 14, 97, 122, 14, 0, -1, -1, 4, 48, 57, 14, 65, 90, 14, 95, 95, 14, 97, 122, 14}; Technical Background Luthor implements several advanced algorithms: Direct-to-DFA construction using the Aho-Sethi-Ullman algorithm (Dragon Book) Lazy matching using Dr. Robert van Engelen's algorithm from RE/FLEX Unicode range splitting for efficient multi-byte encoding support Acknowledgements Special thanks to Dr. Robert van Engelen for his guidance on implementing lazy matching in pure DFA form. submitted by /u/honeyCrisis [link] [comments]",
-        "summary_vi": "https://preview.redd.it/e18x5ez5ptrh1.png?width=695&format=png&auto=webp&s=a7cb1f57c366a20390ea6fe671c5e184c2e65886 https://github.com/codewitch-honey-crisis/Luthor Luthor is a fast, compact lexer gen",
-        "title": "Luthor: A novel DFA regex/lexer matcher table generator suitable for embedded matching"
+        "source": "Phoronix",
+        "summary": "Recently I was provided remote access to a NVIDIA Vera server with the dual socket Vera CPU Superchip providing 176 Olympus cores plus with NVIDIA's Spatial Multithreading \"SMT\" implementation providing 352 total threads. With this benchmarking was free rein for testing, including CPU power and frequency monitoring. Over the next few weeks will be a number of articles looking at different areas of NVIDIA Vera performance. One of the areas I was most eager to test was looking at Vera's Spatial Multithreading. Here is a first look at the impact of NVIDIA Vera SMT.",
+        "summary_vi": "Recently I was provided remote access to a NVIDIA Vera server with the dual socket Vera CPU Superchip providing 176 Olympus cores plus with NVIDIA's Spatial Multithreading \"SMT\" implementation providi",
+        "title": "NVIDIA Vera SMT Performance Benchmarks"
       },
-      "first_seen": "2026-09-26T10:17:13.144814+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wql4iu": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wql4iu",
-        "link": "https://www.reddit.com/r/embedded/comments/1wql4iu/any_extra_resources_when_beginning_to_write/",
-        "relevance": 4,
-        "source": "Reddit r/embedded",
-        "summary": "I've been experimenting a bit with the pi pico & pwm audio to try to write a tracker for microcontrollers. I'm getting to the point where I'm relatively comfortable with programming in C & with the architecture of the RP2040. So I think soon, I want to be able to start writing drivers to communicate with peripheral devices. As I've tried, I felt a little lost, and that maybe I was lacking some knowledge or reference materials that I ought to have, and was wondering what resources might be available to look through. This question seems to have been asked before a couple of times, and the response seems to be, maybe as it should be: \"Get a microcontroller, a peripheral, and the documentation for both and start trying to communicate with the device.\" If that's the case, then I'll keep pushing through, I just didn't want to get 2-3 months in and eventually hear \"Huh? You've been trying to program peripheral drivers without reading (book X) or without knowing about (Concept Y)? You wasted your time!\". I'm becoming more comfortable writing & building C programs, I've read through some of and am comfortable referencing the pi pico documentation, and I have an Adafruit ILI9341 that I'd like to write drivers for. I have the datasheet for the ILI9341 driver, but Adafruit doesn't tell you much more about how their board behaves other than \"Just pipe some spi commands to it\". There isn't even really a datasheet for their breakout, just a web tutorial for loading their python libraries, datasheets for the components & the schematics. I think the reason I'm so confused is that I can't really seem to find a solid reference as to how their board actually behaves/what functionality of the ILI9341 is takes care of by the board itself and what I need to worry about programming for. Is it really just as simple as powering it up and piping spi to it? I might be overthinking this... I think I probably just need to spend a day or three sitting down with the manuals & hashing it out, but does anyone have any recommendations as to books to read, online courses, or other things that might be helpful for someone doing this for the first time? I have the embedded engineering roadmap: https://github.com/m3y54m/embedded-engineering-roadmap , and a copy of O' Reilly Making Embedded Systems. I read that there was a FastBit course, but it's wicked expensive ($120 i think?) and was wondering if that was really worth the money. Something tells me that it really isn't... Anyways, any advice is appreciated. If the advice is just \"skill issue, get good\" then it is what it is, I'll figure it out. Just wanted to make sure I wasn't missing anything critical before spending too much time trying to figure it out. submitted by /u/toon_link_776 [link] [comments]",
-        "summary_vi": "I've been experimenting a bit with the pi pico & pwm audio to try to write a tracker for microcontrollers. I'm getting to the point where I'm relatively comfortable with programming in C & with the ar",
-        "title": "Any Extra Resources when beginning to write Device drivers?"
-      },
-      "first_seen": "2026-09-26T10:17:13.144814+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wqle57": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wqle57",
-        "link": "https://www.reddit.com/r/embedded/comments/1wqle57/a_3d_cube_running_on_badgeware_tufty_2350_written/",
-        "relevance": 4,
-        "source": "Reddit r/embedded",
-        "summary": "More code examples are here: https://github.com/geastack/examples For quick start: https://geastack.com/one-pager submitted by /u/arbayi [link] [comments]",
-        "summary_vi": "More code examples are here: https://github.com/geastack/examples For quick start: https://geastack.com/one-pager submitted by /u/arbayi [link] [comments]",
-        "title": "A 3D Cube Running on Badgeware Tufty 2350 written in TypeScript"
-      },
-      "first_seen": "2026-09-26T10:17:13.144814+00:00"
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
     },
     "https://www.reddit.com/r/embedded/t3_1wqqbj7": {
       "entry": {
@@ -909,6 +901,71 @@
       },
       "first_seen": "2026-09-29T01:16:55.286252+00:00"
     },
+    "https://www.reddit.com/r/embedded/t3_1wsysau": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wsysau",
+        "link": "https://www.reddit.com/r/embedded/comments/1wsysau/ran_a_minecraft_server_on_a_bottle_cap/",
+        "relevance": 5,
+        "source": "Reddit r/embedded",
+        "summary": "Literally. This thing is a controller \"Triki\" for the promo games from the Polish store \"Żabka\"... nRF52810 CPU: Cortex-M4 64 МГц, no FPU Flash: 192 КB (72% used) RAM: 24 KB (99.92% used 😭) No internet, only bluetooth LE and a proxy on a pc I used a Zephyr 3.7 + bareiron (p2r3) port (mc 1.21.8) This shit took me 2 days to make lol submitted by /u/morty517 [link] [comments]",
+        "summary_vi": "Community post describing an embedded implementation of Minecraft server software on a Triki nRF52810 controller (Cortex-M4, 64 MHz, 192 KB flash, 24 KB RAM) using Zephyr 3.7 with custom modifications; demonstrates extreme resource constraints requiring 99.92% RAM utilization and connectivity via Bluetooth LE with PC proxy.",
+        "title": "Ran a minecraft server on a BOTTLE CAP"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wszh5k": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wszh5k",
+        "link": "https://www.reddit.com/r/embedded/comments/1wszh5k/what_do_i_need_to_learn_to_fully_understand_the/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I'm looking for advice on how to learn ESP32 properly from the ground up, rather than just learning how to use Arduino libraries and copy example code. My goal is to understand what is actually happening inside the ESP32 and be able to use and troubleshoot it at a deeper level. Ultimately, I want to get to the point where I can look at the ESP32 datasheet/reference manual and understand what is happening, write code closer to the hardware when necessary, and troubleshoot both hardware and software problems. What books, courses, YouTube channels or learning paths would you recommend? If you learned ESP32 from scratch, what would you learn first, and what would you leave for later? submitted by /u/Sad-Actuary-7603 [link] [comments]",
+        "summary_vi": "I'm looking for advice on how to learn ESP32 properly from the ground up, rather than just learning how to use Arduino libraries and copy example code. My goal is to understand what is actually happen",
+        "title": "What do I need to learn to fully understand the ESP32?"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wt07mt": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wt07mt",
+        "link": "https://www.reddit.com/r/embedded/comments/1wt07mt/stm32_bluepill_based_project_suggestions_for_btech/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "submitted by /u/hertales [link] [comments]",
+        "summary_vi": "submitted by /u/hertales [link] [comments]",
+        "title": "Stm32 bluepill based project suggestions for btech"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wt5rrn": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wt5rrn",
+        "link": "https://www.reddit.com/r/embedded/comments/1wt5rrn/is_esp32_a_good_start_for_learning_embedded/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I have a small project in mind and I purchased an esp32 and an nrf2850. One is arm and I'm not sure of the other. Are these good processors to learn embedded coding on? What do professionals use? Should I learn ASM for the processors to make my code more efficient? submitted by /u/Visible-Objective260 [link] [comments]",
+        "summary_vi": "I have a small project in mind and I purchased an esp32 and an nrf2850. One is arm and I'm not sure of the other. Are these good processors to learn embedded coding on? What do professionals use? Shou",
+        "title": "Is esp32 a good start for learning embedded?"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wt6p8a": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wt6p8a",
+        "link": "https://www.reddit.com/r/embedded/comments/1wt6p8a/i_wrote_a_free_opensource_book_on_making_ml/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I’ve spent the last few months writing something I wish I had when I started working on ML performance engineering. It’s called How to Make Your Model Fast: A Systems View of Efficient Machine Learning, from Silicon to Agents . The basic idea is that reducing FLOPs doesn’t necessarily make a model faster. Before optimising anything, you need to understand what the system is actually bounded by. The book starts with roofline analysis and hardware, then works its way up through kernels, compilers, quantisation, pruning, vision, on-device LLMs, robotics, profiling, serving and finally agents. The goal is to build the intuition to look at a model and a piece of hardware and reason about: How fast can this possibly run? Am I compute, bandwidth, memory or system bound? Which optimisation will actually move that limit? Is quantisation, pruning or kernel optimisation even worth doing here? What happens when the same thinking is applied to serving and agent systems? The whole thing is free and open source: https://github.com/usamahz/make-your-model-fast Would genuinely appreciate feedback or contributions from people working on ML systems, inference, compilers, edge AI or performance engineering. And if you find it useful, a ⭐ would be appreciated! submitted by /u/SoloTiger_ [link] [comments]",
+        "summary_vi": "I’ve spent the last few months writing something I wish I had when I started working on ML performance engineering. It’s called How to Make Your Model Fast: A Systems View of Efficient Machine Learnin",
+        "title": "I wrote a free, open-source book on making ML models actually fast, from silicon to agents"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
     "oai:arXiv.org:2511.19422v2": {
       "entry": {
         "category": "research",
@@ -921,6 +978,19 @@
         "title": "SLMFix: Leveraging Small Language Models for Domain Specific Language Error Fixing with Reinforcement Learning"
       },
       "first_seen": "2026-09-28T12:04:39.230765+00:00"
+    },
+    "oai:arXiv.org:2512.25065v3": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2512.25065v3",
+        "link": "https://arxiv.org/abs/2512.25065",
+        "relevance": 4,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2512.25065v3 Announce Type: replace \nAbstract: Systems resource management tasks rely primarily on hand-designed heuristics. However, growing hardware heterogeneity and workload diversity require heuristics specialized to particular deployment instances, making manual design expensive and difficult to scale. In this paper, we explore how to synthesize systems heuristics using LLMs. The main challenge is ensuring that generated heuristics execute safely, integrate correctly with the surrounding system, and still achieve strong performance. We propose Vulcan, a framework that identifies LLM-friendly interfaces that isolate core decision logic from the rest of the implementation. With Vulcan, LLM-generated code is restricted to simple stateless decision functions, while trusted runtime abstractions provide rich derived statistics for meaningful policy exploration without system-integration bugs. To ensure execution safety, LLMs synthesize heuristics in a restricted language, Anvil, that guarantees important properties by construction. We evaluate Vulcan across three well-studied domains and demonstrate up to 4.9$\\times$ higher savings for spot-VM scheduling, up to 2$\\times$ lower miss ratios for cache eviction, and up to 14% higher application performance for tiered-memory systems, while ensuring execution safety throughout.",
+        "summary_vi": "arXiv:2512.25065v3 Announce Type: replace \nAbstract: Systems resource management tasks rely primarily on hand-designed heuristics. However, growing hardware heterogeneity and workload diversity requir",
+        "title": "Vulcan: Instance-specialized, Verifiable Systems Heuristics Through LLM-driven Search"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
     },
     "oai:arXiv.org:2602.23927v2": {
       "entry": {
@@ -960,6 +1030,19 @@
         "title": "Energy Efficiency of Locally Deployed LLMs: A Preliminary Quantitative GPU Power Benchmark on Consumer Hardware"
       },
       "first_seen": "2026-09-29T01:16:55.286252+00:00"
+    },
+    "oai:arXiv.org:2608.12993v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2608.12993v1",
+        "link": "https://arxiv.org/abs/2608.12993",
+        "relevance": 4,
+        "source": "arXiv cs.PF (Performance)",
+        "summary": "arXiv:2608.12993v1 Announce Type: cross \nAbstract: The growing power demands and variability of AI workloads make electrical power delivery a critical constraint in data-center operation. Distributed energy storage can reduce the power capacity required to support stochastic loads, but its benefits depend fundamentally on the statistics and time scales of demand. This paper develops a probabilistic framework that jointly characterizes provisioned power, energy-storage capacity, and the probability of overdraw. We show that storage-assisted provisioning separates into two operating regimes. In the Small Battery Region, overdraw is dominated by short-lived demand excursions and storage provides nearly linear reductions in the required power margin. In the Large Battery Region, overdraw results from sustained demand fluctuations over longer spans of time, and the required margin exhibits diminishing returns with storage. For this regime we introduce effective power, an analogue of effective bandwidth that captures the temporal statistics of the demand and gives an asymptotically tight characterization of the required power. We further quantify how temporal correlation and spatial aggregation affect storage requirements and statistical multiplexing gains, and extend the analysis to loads with multiple demand time scales. Finally, we evaluate the framework using power-demand traces from three production data centers spanning HPC, GPU-training, and cloud-service workloads. Despite their heterogeneous, cyclo-stationary and multi-modal behavior, the measured workloads exhibit the predicted regimes, and a simple four-parameter two-state model captures the dynamics governing their storage-power tradeoffs. The resulting framework provides both a probabilistic foundation and practical dimensioning principles for storage-assisted power provisioning in next-generation AI data centers.",
+        "summary_vi": "arXiv:2608.12993v1 Announce Type: cross \nAbstract: The growing power demands and variability of AI workloads make electrical power delivery a critical constraint in data-center operation. Distributed ",
+        "title": "A Theory of Probabilistic Power Provisioning for Data Centers with Distributed Energy Storage"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
     },
     "oai:arXiv.org:2609.30379v1": {
       "entry": {
@@ -1428,6 +1511,370 @@
         "title": "EAServe: Encode-Aware Disaggregated Serving for Multimodal Large Language Models"
       },
       "first_seen": "2026-09-29T01:16:55.286252+00:00"
+    },
+    "oai:arXiv.org:2609.31851v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.31851v1",
+        "link": "https://arxiv.org/abs/2609.31851",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2609.31851v1 Announce Type: new \nAbstract: The IceCube Neutrino Observatory has removed GridFTP and x.509 certificate authentication for data transfers, migrating to the Pelican Platform, the Open Science Data Federation, and WLGC tokens. While this is a common solution on the computing infrastructure we use, we required several customizations to work with our existing data storage structure and make it easier for scientists to use. We wrote a custom WLCG token issuer to support our POSIX filesystem with custom user and group permissions across the entire filesystem. We also made several modifications to HTCondor to ease job submission using tokens, including a custom credmon. After an initially bumpy transition due to several now-resolved Pelican issues, the Pelican-based system has already proven superior to GridFTP in several ways.",
+        "summary_vi": "arXiv:2609.31851v1 Announce Type: new \nAbstract: The IceCube Neutrino Observatory has removed GridFTP and x.509 certificate authentication for data transfers, migrating to the Pelican Platform, the Op",
+        "title": "IceCube Takes Flight with Pelican - A First Experience"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.31887v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.31887v1",
+        "link": "https://arxiv.org/abs/2609.31887",
+        "relevance": 4,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2609.31887v1 Announce Type: new \nAbstract: Egraphs have enabled recent advances in program optimization, synthesis, and verification, yet remain difficult to apply to effectful programs whose memory and I/O operations must respect execution order. Existing effect-aware extraction algorithms rely on integer linear programming (ILP) and dominate total runtime.\n We introduce Statewalk DP, a new extraction algorithm that enforces effect ordering efficiently without external solvers. We prove that finding any effect-safe extraction is NP-complete, but show that Statewalk DP is tractable in statewalk width, a parameter that measures the complexity of dataflow interactions among effects. In practice, statewalk width generally remains small, enabling Statewalk DP to achieve order-of-magnitude speedups over ILP extraction while producing programs comparable to LLVM across our benchmarks. We implement the algorithm in eqcc, a prototype egraph-based compiler for imperative Bril programs and demonstrate that effect-aware extraction is no longer a bottleneck.",
+        "summary_vi": "arXiv:2609.31887v1 Announce Type: new \nAbstract: Egraphs have enabled recent advances in program optimization, synthesis, and verification, yet remain difficult to apply to effectful programs whose me",
+        "title": "Efficient Extraction for Effectful E-Graphs"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.31938v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.31938v1",
+        "link": "https://arxiv.org/abs/2609.31938",
+        "relevance": 4,
+        "source": "arXiv cs.PF (Performance)",
+        "summary": "arXiv:2609.31938v1 Announce Type: cross \nAbstract: Generative world models can provide visual rollouts for embodied planning, yet their feasibility on edge devices depends not only on the learned model but also on how the execution runtime represents its operations. We introduce a cache-aware lowering that expresses supported causal Conv3D calls as batched spatial Conv2D operations while preserving pretrained weights, temporal-cache semantics, convolution parameters, bias placement, and output layout. Across the complete Cosmos3-Edge image-to-video pipeline on a 64-GB NVIDIA Jetson AGX Orin, the proposed route accelerates VAE decoding by approximately $7\\times$ and reduces complete-generation latency by more than $2\\times$, while repeated decoder evaluations maintain complete fast-path coverage without fallbacks. The unchanged lowering also improves Cosmos3-Nano and transfers to LingBot-World's architecturally distinct Wan2.1 VAE. A clean-device comparison against fully specialized TensorRT shows that TensorRT provides a further $1.36\\times$ steady-state improvement, but requires substantially greater per-module and per-runtime-state AOT specialization. Same-latent BF16 and FP32 evaluations characterize the finite-precision differences introduced by the alternative execution order. Together, these results position cache-aware lowering as a lightweight runtime optimization that recovers most of the available decoder acceleration without modifying the learned models themselves.",
+        "summary_vi": "arXiv:2609.31938v1 Announce Type: cross \nAbstract: Generative world models can provide visual rollouts for embodied planning, yet their feasibility on edge devices depends not only on the learned mode",
+        "title": "Cache-Aware Conv3D Lowering Across Embedded World-Model Decoders"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.31980v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.31980v1",
+        "link": "https://arxiv.org/abs/2609.31980",
+        "relevance": 3,
+        "source": "arXiv cs.PF (Performance)",
+        "summary": "arXiv:2609.31980v1 Announce Type: cross \nAbstract: Coding agents can pursue persistent objectives across many tool-use turns, but evidence that general-purpose agents can conduct rigorous scientific performance engineering remains limited. We present a repository-scale case study in which off-the-shelf Codex and Claude Code agents optimize fixed-radius nearest-neighbor (FRNN) search for particle tracking. Starting from a PyTorch-dependent CUDA implementation, the agents follow an executable goal that specifies exact-correctness tests, profiling requirements, and acceptance criteria without prescribing code transformations. In the primary sequential trajectory, they autonomously remove the PyTorch dependency and conduct hypothesis-driven optimization experiments. The resulting standalone C++/CUDA library exactly reproduces the targeted reference result. Its synchronous NumPy interface achieved 1.6-fold speedup over the original GPU-resident PyTorch interface, despite including host transfers. Similar speedups were observed across different GPU architectures and software stacks. An independent optimization rerun followed a different sequence of hypotheses and reached even better performance on the target workload. These results show that goal-persistent coding agents can act as experimental performance engineers, and that executable scientific contracts are needed both to guide and to validate their optimization.",
+        "summary_vi": "arXiv:2609.31980v1 Announce Type: cross \nAbstract: Coding agents can pursue persistent objectives across many tool-use turns, but evidence that general-purpose agents can conduct rigorous scientific p",
+        "title": "Goal-Persistent Coding Agents as Scientific Performance Engineers: A Fixed-Radius Nearest-Neighbor Case Study"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.32055v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.32055v1",
+        "link": "https://arxiv.org/abs/2609.32055",
+        "relevance": 5,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2609.32055v1 Announce Type: new \nAbstract: Cloud vendors push ambitious in-network processing (e.g., crypto, telemetry) onto the NIC to offload servers even as link rates climb to terabit speeds. Vendors have responded with heterogeneous SmartNICs. For example, NVIDIA BlueField-3 interposes---between the wire and the host CPUs---a line-rate eSwitch, a multithreaded Data-Path Accelerator, general-purpose ARM cores, and a sea of fixed-function accelerators. These devices are notoriously hard to program, and harder still to predict. Applications can be implemented in many ways, with each choice potentially hitting a different bottleneck. A designer ideally needs to know---cheaply, and before a line of code is written---feasible choices and their bottlenecks, and design patterns to improve performance.\n Our paper offers a starting point to answer these questions using what we call the ZRAM model. It pairs a platform graph of processing zones and their channels with a program graph of tasks and their traffic fractions. The application designer or a compiler chooses a placement that maps the program graph onto the platform graph. Three metrics computed directly from this mapping---capability, roofline, and capacity---score the placement, deciding its feasibility and naming the bottleneck resource. We use a DDoS detector as a primary case study, and briefly explore two other applications, decision-tree inference and RDMA traversal. We distill seven design patterns for programming SmartNICs including a key one we call sifting. ZRAM generalizes to other SmartNICs such as Intel IPU E2200 and AMD Pensando Salina 400, and opens a new research agenda that includes compilers and hardware design.",
+        "summary_vi": "Cloud vendors deploy heterogeneous SmartNICs (e.g., NVIDIA BlueField-3) combining line-rate switching, multithreaded accelerators, ARM cores, and fixed-function units for in-network processing. The excerpt identifies modeling such complex devices as challenging but does not present the proposed solution or evaluation results.",
+        "title": "Towards Simple Models of Complex SmartNICs"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.32114v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.32114v1",
+        "link": "https://arxiv.org/abs/2609.32114",
+        "relevance": 4,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2609.32114v1 Announce Type: new \nAbstract: Hybrid attention models have emerged as a crucial architecture for Large Language Models (LLMs) (e.g., the Qwen3.5 and Kimi series). Their memory and computational efficiency make them highly attractive for on-device inference, forming a promising synergy with edge Neural Processing Units (NPUs). However, naive execution of these hybrid models on edge NPUs fails to deliver these benefits, often bottlenecking the prefill stage due to severe memory-system inefficiencies and architectural mismatches within the linear attention (LA) layers. We present HA-NPU, the first system to enable efficient hybrid attention LLM inference on edge NPUs without modifying the underlying algorithms. HA-NPU enhances execution efficiency by reorganizing the dataflow of the LA components across three levels: (1) At the core level, it partitions workloads by the head dimension and fuses dependent operators, eliminating cross-core global memory accesses; (2) At the operator level, it reorders execution to consume intermediate tensors immediately, drastically minimizing local-buffer pressure; (3) At the tensor level, it employs dataflow-aware layout planning to minimize transformation overhead between matrix and vector processing units. Compared to competitive baselines, HA-NPU achieves up to 35.95$\\times$ LA kernel speedup and 36.14$\\times$ energy reduction, delivering up to 2.03$\\times$ faster end-to-end request latency. The source code will be made publicly available at https://github.com/yinyuanzhang/HA-NPU",
+        "summary_vi": "arXiv:2609.32114v1 Announce Type: new \nAbstract: Hybrid attention models have emerged as a crucial architecture for Large Language Models (LLMs) (e.g., the Qwen3.5 and Kimi series). Their memory and c",
+        "title": "Empowering Hybrid Attention Models on NPUs"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.32153v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.32153v1",
+        "link": "https://arxiv.org/abs/2609.32153",
+        "relevance": 5,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2609.32153v1 Announce Type: cross \nAbstract: Transient cloud resources offer significant cost savings, but their unpredictability makes them hard to use for applications that cannot be safely restarted after reclamation. Existing approaches require application changes or rely on coarse-grained checkpointing, whose cost limits its benefits.\n We present ThreadShift, a system that transparently offloads compute-intensive threads of unmodified Linux applications to cheap transient resources while preserving correctness under reclamation. By operating at thread granularity, ThreadShift enables fast, fine-grained checkpointing and offloads only the threads that benefit from transient execution.\n The main challenge is to checkpoint individual threads despite cross-thread dependencies. ThreadShift does so by efficiently tracking memory dependencies, identifying per-thread memory writes, and maintaining coherence across machines. Three novel uses of Memory Protection Keys (MPKs) make these mechanisms efficient, enabling fast incremental checkpoints without pausing the entire application.\n We implement ThreadShift on x86-64 Linux and evaluate it on workloads including machine-learning inference, cryptographic tasks, and in-memory data processing. ThreadShift offloads threads in as little as 164 us, performs checkpointing up to three orders of magnitude faster than CRIU, and reduces deployment cost by up to 56% on commodity clouds.",
+        "summary_vi": "ThreadShift enables transparent offloading of compute-intensive threads from unmodified Linux applications to cost-effective transient cloud resources without requiring application modifications or expensive checkpointing. The system uses Memory Protection Keys (MPKs)—CPU features isolating memory regions—to manage thread state during resource reclamation while preserving application safety.",
+        "title": "ThreadShift: Transparent Thread-Level Offloading on Transient Cloud Resources Using MPKs"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.32197v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.32197v1",
+        "link": "https://arxiv.org/abs/2609.32197",
+        "relevance": 4,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2609.32197v1 Announce Type: new \nAbstract: Diffusion Transformers have become the dominant architecture for video generation. Their substantial computational cost motivates scaling inference across multi-GPU servers, yet efficient scaling remains challenging on commodity GPUs connected via PCIe, whose bandwidth is limited. Although sparse attention substantially reduces computation, its implications for communication remain underexplored.\n This paper argues that attention sparsity should be treated as a communication primitive. We present SparSP, an efficient sparse sequence parallel communication system that co-designs token distribution, communication routing, and asynchronous execution for sparse video diffusion models. First, Dependency-Aware Placement distributes sequence blocks according to diffusion models' sparse attention patterns. Second, Demand-Directed KV Routing transfers KV blocks directly to requesting GPUs without intermediate relays. Third, a Decoupled Transfer Runtime separates communication from GPU computation to reduce resource contention and maximize effective bandwidth. Our evaluation shows that SparSP improves attention performance by 1.38- 1.5$\\times$, achieves an average 1.17$\\times$ (up to 1.69$\\times$) end-to-end speedup across three representative servers and three video diffusion models, and reduces communication volume by 12.54-23.05%. Moreover, we achieve an average 1.53-1.76$\\times$ bandwidth improvement over NCCL.",
+        "summary_vi": "arXiv:2609.32197v1 Announce Type: new \nAbstract: Diffusion Transformers have become the dominant architecture for video generation. Their substantial computational cost motivates scaling inference acr",
+        "title": "SparSP: Exploiting Communication Sparsity for Sequence-Parallel Video DiTs"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.32198v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.32198v1",
+        "link": "https://arxiv.org/abs/2609.32198",
+        "relevance": 3,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2609.32198v1 Announce Type: new \nAbstract: AI agents increasingly resemble software systems: they call tools, remember facts, follow policies, delegate work, and take actions with real consequences. %\nYet the ``program'' of an agent is scattered across prompts, tools, memories, workflows, and execution traces, making its behavior difficult to inspect through ordinary testing and debugging alone. %\nThis essay argues that a programming-systems perspective offers a natural lens for making agents reliable. %\nWe recast agents as programmable artifacts whose behavior can be specified over traces and state, checked before deployment, monitored during execution, and improved from observed failures. %\nThe goal is not to make probabilistic agents behave like deterministic programs, but to give them enough structure that their behavior can be reasoned about, controlled, and repaired.",
+        "summary_vi": "arXiv:2609.32198v1 Announce Type: new \nAbstract: AI agents increasingly resemble software systems: they call tools, remember facts, follow policies, delegate work, and take actions with real consequen",
+        "title": "Agents as Software: A Programming Languages Agenda for Agent Reliability"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.32226v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.32226v1",
+        "link": "https://arxiv.org/abs/2609.32226",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2609.32226v1 Announce Type: new \nAbstract: As optical networks continue to expand in scale, complexity, and service diversity, the implementation of automation has become essential for ensuring agility, efficiency, and reliability in lifecycle management (LCM) of optical networks. Large language model (LLM) Agent, distinguished by its progressively sophisticated capabilities in logical reasoning, adaptive decision-making, complex problem solving, and multi-task orchestration, presents great opportunities to advance network automation beyond traditional AI techniques. Nevertheless, the application of LLM Agent in optical networks remains in its early exploratory stage, challenged by the lack of multi-task coordination, high computational demands, data dependence, and reliability concerns. In this paper, we envision a conceptual roadmap toward Agentic Optical Networks (AONs) by integrating LLM Agents throughout the LCM with high-level autonomy. First, we trace the evolution from manual operations to AI-empowered frameworks and distill key technologies in Agent, providing actionable insights into leveraging its strengths for addressing practical network automation challenges. A core contribution of this paper is the proposal of a hierarchical multi-Agent framework, which is specifically developed to manage every phase in LCM of AONs, including planning, deployment, operation, maintenance, upgrade, and decommission, thereby enabling more cohesive and comprehensive automation throughout the entire lifecycle. In addition, future directions and underlying challenges are also discussed at the intersection of LLM and optical networks. By aligning the LLM Agent with the specialized requirements of AONs, this work aims to explore the potential for the evolution of optical networks moving from task-level semi-automatic execution toward lifecycle-level full autonomy.",
+        "summary_vi": "arXiv:2609.32226v1 Announce Type: new \nAbstract: As optical networks continue to expand in scale, complexity, and service diversity, the implementation of automation has become essential for ensuring ",
+        "title": "Toward Agentic Optical Networks: A Vision of LLM Agent-Driven Autonomous Lifecycle Management"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.32237v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.32237v1",
+        "link": "https://arxiv.org/abs/2609.32237",
+        "relevance": 4,
+        "source": "arXiv cs.PF (Performance)",
+        "summary": "arXiv:2609.32237v1 Announce Type: new \nAbstract: The fast Fourier transform (FFT) underlies radar, imaging and scientific computing. A classic rule for fast GPU FFTs is to compute the largest block that fits on chip and compose larger transforms from such blocks. We test this rule on Apple's M6 chip, whose GPU performs 29 arithmetic operations in the time it reads one byte from main memory, and which adds matrix units to both its GPU and CPU. Comparing our kernels with Apple's MPSGraph and vDSP libraries and MLX, we find that data movement, not arithmetic, sets FFT speed. Large batches run at or near the main-memory bandwidth limit in every GPU library, and benchmarks that keep data in cache overstate real throughput by up to $3.7\\times$. The on-chip rule still predicts where speed collapses: MPSGraph and MLX lose half or more of their speed once a transform outgrows the GPU's 32\\,KiB local memory. Keeping such transforms in registers avoids an extra trip through memory: $2.2\\times$ faster than MPSGraph, and $4.4\\times$ with half-precision storage. The GPU's matrix units do not help, because recasting the FFT as matrix products adds as much arithmetic as they save. The CPU's matrix unit, 47 times faster than its vector units, does: our kernel for it beats vDSP by up to $5.3\\times$. End to end, a $4096\\times4096$ synthetic aperture radar image takes 8.1\\,ms on the GPU (6.0\\,ms with half-precision intermediates), $14$--$19\\times$ faster than a CPU reference. Running the CPU's matrix unit alongside the GPU gains nothing: both share one memory bandwidth.",
+        "summary_vi": "arXiv:2609.32237v1 Announce Type: new \nAbstract: The fast Fourier transform (FFT) underlies radar, imaging and scientific computing. A classic rule for fast GPU FFTs is to compute the largest block th",
+        "title": "Bandwidth, Not FLOPS: FFT Kernels, Matrix Units and SAR Imaging on Apple M6"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.32242v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.32242v1",
+        "link": "https://arxiv.org/abs/2609.32242",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2609.32242v1 Announce Type: new \nAbstract: Long-tailed encrypted traffic classification requires accurate recognition of infrequent classes under limited computational budgets. We propose Curv-Tail, a lightweight, end-to-end packet--byte framework trained without a separate pretraining stage. Mixed-resolution tokenization preserves exact packet-length identities within a bounded range and coarsens larger values to limit the vocabulary. An auxiliary objective predicts observed length tokens from contextual packet features before pooling, encouraging length-token retention beyond flow-level supervision. Compact temporal encoders process packet sequences and directional byte patches, and Lorentz prototypes with a shared learnable curvature magnitude classify their fused representation. On NUDT-Mobile and DataCon-Website under natural class frequencies, Curv-Tail achieves three-seed mean Tail-F1 scores of 85.70% and 46.30%, exceeding the strongest evaluated baselines by 2.91 and 1.89 percentage points, respectively. In 300-class profiling on an RTX 4090 with FP32 and batch size 256, Curv-Tail uses 98.48% fewer parameters and achieves 10.2 times the batch inference throughput of MM4Flow.",
+        "summary_vi": "arXiv:2609.32242v1 Announce Type: new \nAbstract: Long-tailed encrypted traffic classification requires accurate recognition of infrequent classes under limited computational budgets. We propose Curv-T",
+        "title": "Curv-Tail: Lightweight Long-Tailed Encrypted Traffic Classification with Discrete Packet-Length Encoding and Lorentz Prototypes"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.32548v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.32548v1",
+        "link": "https://arxiv.org/abs/2609.32548",
+        "relevance": 5,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2609.32548v1 Announce Type: new \nAbstract: We propose an integrated communication and computing (ICC) architecture that repurposes the inactive antennas of a spatial index modulation (IM) transmitter to perform over-the-air computation (AirComp). While IM delivers excellent spectral efficiency by selectively activating a subset of transmit antennas, the unused antennas are conventionally completely deactivated, forgoing spatial degrees of freedom (DoF) that can be exploited without additional bandwidth. By instead transmitting a pre-equalized, low-power computing stream over these idle antennas, the proposed architecture achieves simultaneous data transmission and computation without requiring orthogonal frequency or time resources. Alignment is performed entirely at the transmitters, such that the pre-equalization occurs leveraging local channel state information (CSI), while at the receiver, a vector Gaussian belief propagation (VGaBP) detector recovers the data payload under the discrete IM codebook constraint before the target function is estimated from the residual. Numerical results against exact maximum likelihood (ML) baselines confirm near-optimal detection under the adopted statistical model, and reveal that the number of antennas assigned to data transmission governs a direct trade-off between modulation robustness and AirComp accuracy.",
+        "summary_vi": "This work proposes an integrated communication and computing architecture that reuses inactive transmit antennas from spatial index modulation (IM)—which achieves spectral efficiency by selectively activating antenna subsets—to perform over-the-air analog computation without additional power overhead, exploiting unused spatial degrees of freedom.",
+        "title": "Integrated Communication and Computing with Index Modulation"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.32609v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.32609v1",
+        "link": "https://arxiv.org/abs/2609.32609",
+        "relevance": 5,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2609.32609v1 Announce Type: new \nAbstract: Pinching-antenna systems (PASS) enable flexible wireless transmission by activating pinching antennas (PAs) along dielectric waveguides. However, existing PASS analyses commonly rely on tractable analytical or statistical channel abstractions that do not jointly capture in-waveguide field evolution, sequential PA power extraction, and site-specific indoor multipath propagation. This paper develops a physics-driven deterministic framework for end-to-end modeling of indoor PASS. Specifically, the parabolic wave equation (PWE) resolves the position-dependent electromagnetic field inside the dielectric waveguide, and coupled-mode theory (CMT) maps the local guided field to the radiation power and phase of each PA. Ray tracing (RT) subsequently models the site-specific indoor electromagnetic propagation from each PA to the users, including LoS, reflected, and diffracted components. To enable efficient repeated evaluations, we combine a reusable PWE-CMT field representation with a physics-assisted neural-network-based RT surrogate that preserves propagation geometry, visibility, and phase information. The proposed framework achieves a complex-channel NMSE of -19.14 dB while reducing the end-to-end single-link evaluation time from approximately 2.5 s to 77 ms. Its application to single- and multi-user deployment demonstrates that the physical model can be efficiently reused for PA-position and power-allocation optimization while preserving the underlying position-dependent propagation physics.",
+        "summary_vi": "The paper develops a physics-driven deterministic framework for pinching-antenna systems (PASS) that simultaneously captures in-waveguide field evolution, sequential power extraction from activated PAs along dielectric waveguides, and site-specific indoor multipath propagation, addressing limitations of existing analytical or statistical abstractions.",
+        "title": "From Electromagnetic Physics to Intelligent Optimization: A Deterministic Modeling for Indoor Pinching-Antenna Systems"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.32621v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.32621v1",
+        "link": "https://arxiv.org/abs/2609.32621",
+        "relevance": 5,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2609.32621v1 Announce Type: new \nAbstract: The sixth generation (6G) communication systems envision a space-air-ground integrated network, making accurate satellite-to-ground (S2G) channel modeling crucial for communication systems design. Currently, the majority of S2G channel models rely on stochastic methods, which cannot provide multipath information based on realistic satellite orbits and environments. In this paper, we propose a novel low Earth orbit (LEO) S2G channel model based on dynamic ray-tracing to overcome the challenges of tracking rays for long-distance propagation by setting a virtual transmission plane (VTP). Moreover, since the line-of-sight propagation mechanism contributes the most power to satellite communications, the VTP is constructed based on the first Fresnel zone to generate parallel rays close to the ground. The realistic satellite orbit and environmental information are used in the proposed LEO S2G ray-tracing channel model to compute channel characteristics. The results show that the proposed LEO S2G ray-tracing channel model can accurately generate the channel characteristics based on the satellite orbits. The channel characteristics of LEO S2G communications computed by the proposed ray-tracing method can well match the channel measurements.",
+        "summary_vi": "This paper addresses the limitation of stochastic satellite-to-ground channel models by proposing a dynamic ray-tracing approach for low Earth orbit (LEO) systems in 6G space-air-ground integrated networks. The method captures multipath propagation based on realistic satellite orbits and environmental geometry rather than statistical approximations, enabling more accurate channel characterization for system design.",
+        "title": "A Novel Dynamic Ray-Tracing Channel Model for 6G LEO Satellite-to-Ground Communication Systems"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.32682v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.32682v1",
+        "link": "https://arxiv.org/abs/2609.32682",
+        "relevance": 5,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2609.32682v1 Announce Type: new \nAbstract: Experimental studies have demonstrated that THz links can support multi-kilometer, gigabit-per-second wireless transmission. However, few studies have effectively validated channel models through high-capacity, long-distance experiments. In this work, we experimentally demonstrate a 30 km ultra-long-haul photonic THz wireless communication system. 16 Gbaud quadrature phase shift keying (QPSK) signals are transmitted and tested, achieving a maximum data rate of 30 Gbps. For the first time, we validate two widely used THz channel models using a fully implemented 30 km experimental setup, providing a systematic and thorough analysis that integrates theoretical modeling with experimental results. We also perform an analysis of power consumption in photonic THz communication systems and provide a detailed comparison between simulated and experimental power consumption results. Finally, a detailed performance comparison between the simulation and experimental results, including signal-to-noise ratio (SNR), bit error rate (BER) and data rate, are provided. Our work provides essential insights for the design and energy-efficient deployment of future high-capacity THz networks, establishing a benchmark for subsequent research in channel modeling, experimental verification, and system-level energy efficiency.",
+        "summary_vi": "An experimental validation of terahertz communication channel models is presented through a 30 km ultra-long-haul photonic THz wireless link test. The system transmits 16 Gbaud QPSK signals, bridging the gap between theoretical models and high-capacity, long-distance THz transmission performance observed in practice.",
+        "title": "Realistic modeling of Photonic Terahertz Communication based on a real-world 30 km 30 Gbps experimental demonstration"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.32877v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.32877v1",
+        "link": "https://arxiv.org/abs/2609.32877",
+        "relevance": 4,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2609.32877v1 Announce Type: new \nAbstract: Real-world programs are rarely written in a single language: For example, C programs call assembly routines, and high-level languages like OCaml link with low-level C libraries. Yet program logics---one of the most successful techniques for modular program verification---almost exclusively target single-language programs.\n We present Hotpot, the first framework for building multi-language program logics. Hotpot enables compilation-independent, cross-language reasoning about languages with heterogeneous views of shared state. Hotpot rests on four key ideas: abstract calls to specify calls to unknown functions, lanes and the switching modality to move between languages inside the program logic, uniform integration of refinement reasoning via lanes, and exchanges to translate between separation logic assertions of different languages. We demonstrate that Hotpot allows reusing specifications across implementations in different languages, supports reasoning about higher-order cross-language function calls, and integrates with verified compilation. Hotpot is built on top of Iris and DimSum and mechanized in the Rocq Prover.",
+        "summary_vi": "arXiv:2609.32877v1 Announce Type: new \nAbstract: Real-world programs are rarely written in a single language: For example, C programs call assembly routines, and high-level languages like OCaml link w",
+        "title": "Multi-language Program Logics"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.33081v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.33081v1",
+        "link": "https://arxiv.org/abs/2609.33081",
+        "relevance": 4,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2609.33081v1 Announce Type: new \nAbstract: Modern cloud applications are built from loosely-coupled microservices that coordinate through well-defined APIs to service user requests. A single API request often triggers multiple downstream API calls, some executed sequentially and others spawned asynchronously in parallel. To certify safe and secure inter-service interactions in such applications, security and compliance teams must enforce policies not only over nested call/return structure, but also over the parallel structure of an execution: which calls may run concurrently, how many parallel branches can be spawned, and what combination of branch outcomes are allowed. However, existing runtime enforcement mechanisms typically model executions as sequential or purely nested traces, and cannot capture the parallel structure introduced by asynchronous API calls. Furthermore, since application implementations may not be accessible to security and compliance teams, the policy enforcement mechanism should be decoupled from the service implementation.\n We introduce SafePar, a specification and monitoring framework for policies over concurrent microservice executions. A SafePar policy constrains both the order of API calls and their series-parallel structure. To support seamless deployments, each policy is compiled into a series-parallel visibly pushdown automaton, a new model of computation we propose in this work, that drives a distributed runtime monitor implemented on top of the servicemesh layer. Our technique is blackbox and non-invasive: it requires no access or changes to the service implementation. Our experiments show that SafePar enforces rich concurrency-aware policies while incurring only millisecond-scale latency overhead.",
+        "summary_vi": "arXiv:2609.33081v1 Announce Type: new \nAbstract: Modern cloud applications are built from loosely-coupled microservices that coordinate through well-defined APIs to service user requests. A single API",
+        "title": "SafePar: Monitoring Asynchrony in Microservices"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.33184v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.33184v1",
+        "link": "https://arxiv.org/abs/2609.33184",
+        "relevance": 3,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.33184v1 Announce Type: new \nAbstract: Speculative decoding reduces sequential Target model calls by verifying multiple tokens from the Draft model in parallel. Yet KV Cache growth limits long-context serving under constrained GPU memory. Offloading KV to CPU memory relieves this pressure. However, existing offloading schemes restore the full KV history before attention and fail to fully exploit the benefits of KV sharing across queries within a verification round. Existing parallel speculative decoding methods also overlook idle GPU compute capacity while memory-bandwidth-bound Target verification waits for historical KV. We present SpecStream, a speculative decoding system that begins verification without waiting for the full KV history to be restored and exploits compute bubbles during KV transfers for concurrent drafting on the same GPUs. It offloads only Target-committed history, keeping candidate rollback local to the GPUs. Each streamed KV chunk serves all queries in the round, with online softmax preserving full attention. Target-priority scheduling controls Draft concurrent execution under resource limits to constrain interference with Target verification. Experiments show that SpecStream maintains task quality close to SGLang speculative decoding while supporting more concurrent requests under limited GPU memory. Across different datasets, it achieves average throughput speedups of 1.41$\\times$ and 1.32$\\times$ over the offloading baseline for Qwen3 and InternLM2.5, respectively. Compared with parallel speculative decoding on separate Target and Draft GPUs, SpecStream improves output throughput per GPU by an average of 55.4%.",
+        "summary_vi": "arXiv:2609.33184v1 Announce Type: new \nAbstract: Speculative decoding reduces sequential Target model calls by verifying multiple tokens from the Draft model in parallel. Yet KV Cache growth limits lo",
+        "title": "Resource-Efficient Speculative Decoding for Long-Context LLM Serving"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.33207v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.33207v1",
+        "link": "https://arxiv.org/abs/2609.33207",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.33207v1 Announce Type: new \nAbstract: Spiking Vision Transformers (SViTs) are developed as an energy-efficient alternative to conventional ViTs for computer vision tasks at the edge. However, huge parameter counts and complex multi-head self-attention (MHSA) operations make it challenging to achieve high energy efficiency in SViT inference, especially in tightly constrained applications. To maximize efficiency gains of SViT processing, we propose MorphAtt, a novel digital accelerator that expedites SViT inference through streamlined processing. Specifically, it processes MHSA operations using cascaded hardware modules: a Spiking Query-Key-Value generator (SpikeQKV), a low-complexity Spiking Multi-Head Self-Attention engine (SpikeAtten), and Reparameterization Convolution (RepConv) modules. To mitigate traffic congestion in on-chip memory accesses and data reuse, specialized inter-module buffers are integrated within the dataflow. Under synthesis using 32nm CMOS technology, MorphAtt achieves 792-1605 GOPS of throughput, while incurring ~39-55 mW of power consumption and 1.5 mm^2 of area, which lead to 20.3-29.1 TOPS/W of energy efficiency. These results also demonstrate that our MorphAtt offers better performance and efficiency trade-offs than state-of-the-art, thereby enabling highly energy-efficient vision-based AI systems at the edge.",
+        "summary_vi": "arXiv:2609.33207v1 Announce Type: new \nAbstract: Spiking Vision Transformers (SViTs) are developed as an energy-efficient alternative to conventional ViTs for computer vision tasks at the edge. Howeve",
+        "title": "MorphAtt: A Neuromorphic Accelerator for Efficient Multi-Head Attention Processing in Spiking Vision Transformers"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.33619v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.33619v1",
+        "link": "https://arxiv.org/abs/2609.33619",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.33619v1 Announce Type: new \nAbstract: Magnetoresistive Random Access Memory (MRAM) technologies such as Spin-Transfer Torque (STT-MRAM) and Spin-Orbit Torque assisted (SOT-STT-MRAM) offer nonvolatility and low leakage, making them attractive for IoT systems. However, conventional MRAM read circuits face two fundamental challenges: high dynamic energy consumption and vulnerability to side-channel attacks caused by data-dependent current variations in Magnetic Tunnel Junctions (MTJs). This paper presents a Secured Adiabatic Logic Sense Amplifier (SALSA) that addresses both challenges simultaneously through circuit-device co-design. S-ALSA combines structural current balancing via a 4T-2MTJ bit cell, which eliminates read current asymmetry at the storage level, with dynamic power equalization via adiabatic charge recovery in the sensing circuit. The proposed architecture supports both STT-MRAM and SOT-STT-MRAM. Case studies using 4x4 MRAM macros shows up to 80% energy savings over conventional Pre-Charge Sense Amplifiers (PCSA) across IoT frequencies. Correlation Power Analysis (CPA) attacks on PRESENT-80 encryption confirm complete suppression of key leakage when S-ALSA is combined with a balanced bit cell. This work establishes a unified framework where energy efficiency and hardware security are achieved simultaneously, enabling secure and low-power IoT memory design.",
+        "summary_vi": "arXiv:2609.33619v1 Announce Type: new \nAbstract: Magnetoresistive Random Access Memory (MRAM) technologies such as Spin-Transfer Torque (STT-MRAM) and Spin-Orbit Torque assisted (SOT-STT-MRAM) offer n",
+        "title": "S-ALSA: Co-Design of Adiabatic Logic-based Sensing and Balanced Bit-Cells for Secure and Energy-Efficient MRAM"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.33813v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.33813v1",
+        "link": "https://arxiv.org/abs/2609.33813",
+        "relevance": 4,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2609.33813v1 Announce Type: new \nAbstract: The coroutine has broadly diffused in the practice of concurrent programming in the form of generators and asynchronous functions as well as processes communicating through pipes. We wanted to use coroutines in Python to create single-threaded Unix-style pipelines. Unfortunately, available solutions in Python are cumbersome to use. The JavaScript push-stream protocol appeared to be a good alternative. However, its specification is incomplete and ambiguous. We have used TLA$^{+}$ and the TLC model checker to re-derive the protocol and obtain protocol-specific verification tools.\n In this paper, we present a formal specification of a push-stream protocol that 1) seamlessly combines synchronous and asynchronous modules, encapsulating the choice within each module; 2) provides flow control without using bounded buffers; 3) gracefully and unambiguously terminates; 4) does not require dynamic allocation of objects on the heap. In addition to completely describing expected behaviours, our specification improves on the original design by 1) allowing the input and output of intermediate pipeline modules to terminate independently and 2) explicitly reporting when a module is pending on the execution environment, to avoid incorrect resuming.\n We specify the protocol as a sequence of refinement steps and derive by equivalence a specification of what an abstract module may do. We then refine the latter into a module checker that can verify concrete module specifications for conformity. We have verified the key properties of all specifications and the validity of refinement steps with TLC. In supplemental material, we provide all TLA$^{+}$ specifications, show that the protocol is sufficiently expressive to implement a superset of all original JavaScript modules, as well as a performance comparison with Python alternatives and Unix pipes.",
+        "summary_vi": "arXiv:2609.33813v1 Announce Type: new \nAbstract: The coroutine has broadly diffused in the practice of concurrent programming in the form of generators and asynchronous functions as well as processes ",
+        "title": "Designing a Producer-driven Stream Protocol by Formal Refinement"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.34334v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.34334v1",
+        "link": "https://arxiv.org/abs/2609.34334",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2609.34334v1 Announce Type: new \nAbstract: Large language model training involves massive computation on GPU streaming multiprocessors (SMs), the primary compute units of GPUs. Since SMs host specialized accelerators such as Tensor Cores, their efficient utilization is critical to training efficiency. Unfortunately, existing collective communication systems compete with computation for SMs, as they consume SMs for communication-related data movement and synchronization operations.\n We observe that communication can, in principle, be driven by DMA engines, thereby eliminating SM involvement in communication. Based on this insight, we propose HOCCL, a zero-SM collective communication framework consisting of three components: a stream manager, a point-to-point (P2P) executor, and a collective scheduler. The stream manager preserves operator-level temporal ordering with other GPU kernels. The P2P executor enables zero-SM point-to-point communication, while the collective scheduler orchestrates P2P transfers to maximize bandwidth. Experiments show that HOCCL preserves near-peak communication performance, achieving within 3% of the state of the art on average, while eliminating communication occupancy on nearly 10% of total GPU SMs. By freeing SM resources for computation, HOCCL improves end-to-end training throughput by up to 5%.",
+        "summary_vi": "arXiv:2609.34334v1 Announce Type: new \nAbstract: Large language model training involves massive computation on GPU streaming multiprocessors (SMs), the primary compute units of GPUs. Since SMs host sp",
+        "title": "HOCCL: Offloading Collective Communication from GPU Cores to Accelerate Distributed Training"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.34351v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.34351v1",
+        "link": "https://arxiv.org/abs/2609.34351",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2609.34351v1 Announce Type: new \nAbstract: Digital Compute-in-Memory (CIM) presents a promising solution for accelerating deep neural networks (DNNs) through the integration of computational logic directly within memory arrays. However, mapping modern DNN operators to CIM accelerators often results in severe array underutilization, due to the strict data reuse constraints imposed by the rigid CIM array structure. We observe that data reuse in modern DNNs forms hyperplane structures often oriented along non-axial directions, rendering them invisible to conventional mapping methods that only exploit axis-aligned reuse. In this work, we propose PolyCIM, a polyhedral-based compilation framework for CIM architectures that systematically exposes and realigns these hyperplanes through affine transformations. PolyCIM provides a unified abstraction capable of efficiently representing both diverse DNN workloads and digital CIM architectures. Through data reuse exposure, computation mapping, and data movement optimization, PolyCIM generates mappings for CIM architectures that achieve superior array utilization and performance. Experimental results show that PolyCIM delivers up to $4\\times$ improvement in macro utilization and $3.2\\times$ speedup, effectively bridging the gap between modern DNN operators and CIM architectures.",
+        "summary_vi": "arXiv:2609.34351v1 Announce Type: new \nAbstract: Digital Compute-in-Memory (CIM) presents a promising solution for accelerating deep neural networks (DNNs) through the integration of computational log",
+        "title": "PolyCIM: Improving Data Reuse in Digital CIM Accelerators with Polyhedral-Based Compilation"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.34663v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.34663v1",
+        "link": "https://arxiv.org/abs/2609.34663",
+        "relevance": 4,
+        "source": "arXiv cs.PF (Performance)",
+        "summary": "arXiv:2609.34663v1 Announce Type: new \nAbstract: In agentic LLM services, a session calls an external tool, waits for it, and re-arrives to continue inference. Statically compiled NPU serving can fix the batch bucket set, the maximum batch size, and the number of KV cache slots at compile time. We define such an environment as a compile-time-static serving substrate and analyze the execution-time cost that tool waiting and re-arrival incur in it. On a single LLM instance, we run synthetic workloads following a measured tool waiting time distribution and compare, on the same inputs, a baseline configuration with settings {1, 2, 4, 8}, 8, and 8 against configurations that change some of them. Because re-arrival times differ across configurations, we build a simulator that replays request processing in time order, select the candidate with the lowest predicted cost among 2,077 configurations, and validate it on new inputs. We identify three mechanisms: discrete batch alignment, KV cache survival, and prefill interference. At a concurrency of 6, absent from the bucket set, tool waiting lowered the padding ratio (0.235 to 0.120) yet increased decode execution time 1.51-fold, so padding alone did not indicate cost. On new inputs at a concurrency of 8, where the baseline reused KV in 9 of 24 re-arrivals, enlarging the maximum batch size alone cut execution cost by 8.25%, and the selected configuration, which also adjusted the bucket set, by 9.72%. Where 17 of 18 re-arrivals were already reused, the effect was 0.59%. Compile-time configurations should thus be selected by diagnosing KV reuse loss and the resulting change in execution.",
+        "summary_vi": "arXiv:2609.34663v1 Announce Type: new \nAbstract: In agentic LLM services, a session calls an external tool, waits for it, and re-arrives to continue inference. Statically compiled NPU serving can fix ",
+        "title": "Tool Waiting and Re-arrival in Compile-Time-Static LLM Serving: Cost Mechanisms and Configuration Selection"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.34727v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.34727v1",
+        "link": "https://arxiv.org/abs/2609.34727",
+        "relevance": 4,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2609.34727v1 Announce Type: new \nAbstract: On-device large language model (LLM) serving is a cornerstone of local-first personal intelligence, offering users data sovereignty, strong privacy guarantees, and freedom from cloud API latency and cost. Although KV caching is widely used to reduce latency in long-context inference, existing designs were primarily optimized for cloud GPUs with dynamic execution environments and abundant memory bandwidth. These architectural assumptions do not hold on mobile NPUs, where computation graphs must be statically compiled and both memory capacity and I/O bandwidth are severely constrained. In this work, we present a compute-storage co-design for mobile-centric prefix and non-prefix KV reuse. We first propose an intra-graph mechanism that maps selective KV recomputation onto static NPU graphs, reconciling algorithmic dynamicity with NPU staticity. We further develop an inter-graph scheduler to optimize chunk merging and minimize padding with dynamic programming. To address mobile bandwidth limitations, we introduce a hierarchical KV manager featuring a tree-hash-semantic hybrid structure, along with cost-aware prefetching and eviction policies. We also build a two-dimensional pipeline that overlaps KV loading, rerotation, and storage with NPU execution, hiding data-movement latency. Experiments across representative on-device workloads and LLMs show that our design reduces time-to-first-token (TTFT) by $40-60\\%$ compared with no reuse and prefix-only caching.",
+        "summary_vi": "arXiv:2609.34727v1 Announce Type: new \nAbstract: On-device large language model (LLM) serving is a cornerstone of local-first personal intelligence, offering users data sovereignty, strong privacy gua",
+        "title": "Dynamic Flow, Static Graph: KV Cache Reuse for Efficient LLM Serving on Mobile NPUs"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.35366v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.35366v1",
+        "link": "https://arxiv.org/abs/2609.35366",
+        "relevance": 3,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2609.35366v1 Announce Type: new \nAbstract: LLM agents solve complex tasks by iteratively changing files, invoking local tools, and interacting with remote services, which modifies state across their local environment and remote services. Today, agents and users must manage these changes explicitly, whether reverting exploratory actions or recovering from erroneous ones. Doing so safely requires coordinated actions, yet current agent harnesses lack unified abstractions and mechanisms for managing local and remote state consistently and efficiently.\n We describe Planarian, an agent runtime with state management that enables agents and users to recover from erroneous actions and explore alternative executions over consistent local and remote environment state. Planarian introduces the abstraction of agent statepoints, which are consistent, restorable point-in-time versions of the environment state. Planarian exposes three state-management primitives to agents and users: (i) snapshot creates a new statepoint spanning local and remote state without requiring external services to support checkpoints: it relies on efficient incremental process and file system snapshotting to capture local sandboxed state, and transparently records compensating actions to undo remote state changes; (ii) rollback restores the environment to a previous statepoint by reverting to a prior local checkpoint and replaying compensating actions for remote state changes; and (iii) fork creates multiple isolated branches from a statepoint, enabling the agent to explore alternatives in parallel. We show that Planarian enables agents to undo mistakes and explore alternatives in parallel, improving task quality by up to 15x, and allows users to recover from erroneous actions with only 3% overhead.",
+        "summary_vi": "arXiv:2609.35366v1 Announce Type: new \nAbstract: LLM agents solve complex tasks by iteratively changing files, invoking local tools, and interacting with remote services, which modifies state across t",
+        "title": "Planarian: Managing Agent State with Statepoints"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
+    },
+    "oai:arXiv.org:2609.35508v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2609.35508v1",
+        "link": "https://arxiv.org/abs/2609.35508",
+        "relevance": 5,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2609.35508v1 Announce Type: new \nAbstract: Operating system (OS) code can account for a substantial share of CPU execution time. First, as application logic is offloaded to heterogeneous accelerators (e.g., GPUs), the CPU increasingly acts as an orchestrator, spending cycles in driver calls, data movement, and synchronization rather than in application code. Second, workloads such as serverless functions frequently invoke OS services. At the same time, the OS is a complex codebase spanning many subsystems (e.g., memory management, networking), making it hard to localize the specific code path responsible for a slowdown. Existing profilers expose measurements that require interpretation(e.g., perf and Intel VTune) or can perturb short operations when extensively instrumented (e.g., ftrace). Diagnosing OS bottlenecks can therefore require repeated kernel instrumentation and manual interpretation.\n We introduce Argus, an agentic LLM-based profiler that produces instrumentation code and autonomously reasons over potential OS-level bottlenecks. Argus integrates two key mechanisms: (i) a calibration methodology that involves collecting a measurement from an idle system and using it as a reference point to discover potential bottlenecks, and (ii) a tree-based data structure that represents the different OS execution paths, improving the agent's bottleneck localization accuracy. Argus aims to identify a specific kernel code path rather than stop at a subsystem-level diagnosis. In two case studies, we employ Argus to autonomously discover bottlenecks present in the memory management subsystem caused by (i) a THP aggressor co-running with other applications, and (ii) applications that incur different types of page faults. Argus produces 19 times fewer incorrect deep-path diagnoses than the strongest evaluated LLM-based baseline, which lacks reference calibration, while preserving low time-to-diagnosis (approximately 31 s)",
+        "summary_vi": "This work addresses OS code consuming substantial CPU cycles, particularly when applications offload work to accelerators (GPUs) and the CPU transitions to orchestration tasks like driver calls and synchronization. The summary excerpt does not detail the proposed mechanism or results for bottleneck localization, only the motivation that OS complexity and workloads like serverless functions require better performance analysis.",
+        "title": "Argus: Agentic, Reference-Calibrated, Tree-Guided, System-Software-Level Bottleneck Localization"
+      },
+      "first_seen": "2026-09-29T11:35:47.491303+00:00"
     }
   },
   "rejected": {
@@ -1550,6 +1997,7 @@
     "https://www.cnx-software.com/?p=177474": "2026-09-24T10:31:49.858853+00:00",
     "https://www.cnx-software.com/?p=177500": "2026-09-25T10:36:06.746694+00:00",
     "https://www.cnx-software.com/?p=177526": "2026-09-25T00:04:46.328968+00:00",
+    "https://www.cnx-software.com/?p=177572": "2026-09-26T10:17:13.144814+00:00",
     "https://www.dpdk.org/?p=4421": "2026-09-18T23:36:06.086004+00:00",
     "https://www.huawei.com/en/news/2026/9/dcs-gartner-award": "2026-09-25T00:04:46.328968+00:00",
     "https://www.huawei.com/en/news/2026/9/hc-agentic-infra-industry-ai": "2026-09-18T23:36:06.086004+00:00",
@@ -1591,6 +2039,7 @@
     "https://www.phoronix.com/news/Fedora-Discuss-Collabora-Office": "2026-09-25T00:04:46.328968+00:00",
     "https://www.phoronix.com/news/Firefox-156": "2026-09-15T00:58:03.779863+00:00",
     "https://www.phoronix.com/news/Firefox-157-Beta": "2026-09-15T13:53:30.223364+00:00",
+    "https://www.phoronix.com/news/Flatpak-1.18.4-Released": "2026-09-29T11:35:47.491303+00:00",
     "https://www.phoronix.com/news/GCC-Patches-AVX10V1AUX": "2026-09-25T00:04:46.328968+00:00",
     "https://www.phoronix.com/news/GIMP-3.2.6-Released": "2026-09-11T00:35:59.502530+00:00",
     "https://www.phoronix.com/news/GNOME-51-Released": "2026-09-16T23:52:22.553694+00:00",
@@ -1793,6 +2242,10 @@
     "https://www.reddit.com/r/embedded/t3_1wpynng": "2026-09-26T00:10:13.580076+00:00",
     "https://www.reddit.com/r/embedded/t3_1wq3waw": "2026-09-26T00:10:13.580076+00:00",
     "https://www.reddit.com/r/embedded/t3_1wq7ue8": "2026-09-26T00:10:13.580076+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wqdibg": "2026-09-26T10:17:13.144814+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wql1z0": "2026-09-26T10:17:13.144814+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wql4iu": "2026-09-26T10:17:13.144814+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wqle57": "2026-09-26T10:17:13.144814+00:00",
     "https://www.reddit.com/r/embedded/t3_1wqxkbs": "2026-09-26T23:54:29.308170+00:00",
     "https://www.redhat.com/en/blog/5-reasons-why-your-lightwell-strategy-needs-more-just-patches": "2026-09-12T00:42:36.175668+00:00",
     "https://www.redhat.com/en/blog/automate-security-risk-management-across-enterprise-it-operations": "2026-09-25T00:04:46.328968+00:00",
@@ -2251,6 +2704,8 @@
     "oai:arXiv.org:2609.30254v1": "2026-09-26T00:10:13.580076+00:00",
     "oai:arXiv.org:2609.30353v1": "2026-09-28T12:04:39.230765+00:00",
     "oai:arXiv.org:2609.30582v1": "2026-09-28T12:04:39.230765+00:00",
+    "oai:arXiv.org:2609.31864v1": "2026-09-29T11:35:47.491303+00:00",
+    "oai:arXiv.org:2609.32130v1": "2026-09-29T11:35:47.491303+00:00",
     "tag:github.com,2008:Repository/39997536/qli-2.1-rc1": "2026-09-27T23:59:46.648693+00:00"
   }
 }
