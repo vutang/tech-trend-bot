@@ -128,6 +128,7 @@
     "https://www.cnx-software.com/?p=177313": "2026-09-20T10:10:13.503806+00:00",
     "https://www.cnx-software.com/?p=177619": "2026-09-27T10:46:11.482910+00:00",
     "https://www.cnx-software.com/?p=177792": "2026-10-01T11:50:42.243700+00:00",
+    "https://www.cnx-software.com/?p=177928": "2026-10-04T11:18:30.736596+00:00",
     "https://www.ettus.com/?p=11532": "2026-09-16T02:41:57.982686+00:00",
     "https://www.huawei.com/en/news/2026/9/hc-ascend960-supernode": "2026-09-18T23:36:06.086004+00:00",
     "https://www.huawei.com/en/news/2026/9/hc-context-memory-storage": "2026-09-18T10:05:15.823346+00:00",
@@ -141,6 +142,7 @@
     "https://www.phoronix.com/news/AMD-Rust-Deep-Into-GPU-Stack": "2026-09-06T05:46:32.580587+00:00",
     "https://www.phoronix.com/news/ARCTIC-Fan-Controller-BSD": "2026-09-14T00:29:25.403418+00:00",
     "https://www.phoronix.com/news/ARM64-Linux-Stack-Size-Boot": "2026-09-30T11:23:36.449769+00:00",
+    "https://www.phoronix.com/news/ARM64-Linux-TLBI-Domains": "2026-10-04T11:18:30.736596+00:00",
     "https://www.phoronix.com/news/Amazon-Linux-2027-Preview": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/Apple-A18-Pro-MacBook-Neo-Patch": "2026-09-06T05:43:45.721234+00:00",
     "https://www.phoronix.com/news/Asahi-Linux-Official-M3": "2026-09-06T12:01:38.804236+00:00",
@@ -183,6 +185,7 @@
     "https://www.phoronix.com/news/Linux-IO-uring-Crazy-Friday": "2026-09-12T00:42:36.175668+00:00",
     "https://www.phoronix.com/news/Linux-LZ4-Clean-Resync": "2026-09-27T23:59:46.648693+00:00",
     "https://www.phoronix.com/news/Linux-Latency-Short-Slice-Tasks": "2026-10-04T00:03:15.008562+00:00",
+    "https://www.phoronix.com/news/Linux-MONAKA-CPU-Workarounds": "2026-10-04T11:18:30.736596+00:00",
     "https://www.phoronix.com/news/Linux-Patches-Toward-DRBD-9": "2026-09-27T10:46:11.482910+00:00",
     "https://www.phoronix.com/news/Linux-Perf-Python-Module": "2026-09-21T11:07:19.434489+00:00",
     "https://www.phoronix.com/news/Linux-Random-Equal-Idle-CPUs": "2026-09-16T23:52:22.553694+00:00",
@@ -191,6 +194,7 @@
     "https://www.phoronix.com/news/Linux-X1-Carbon-G14-MIPI-Cam": "2026-09-27T10:46:11.482910+00:00",
     "https://www.phoronix.com/news/Mesa-26.3-GFX6-GFX8-Modifiers": "2026-09-11T00:35:59.502530+00:00",
     "https://www.phoronix.com/news/Mir-2.29-Released": "2026-09-06T12:01:14.796223+00:00",
+    "https://www.phoronix.com/news/More-AMDGPU-Linux-7.4": "2026-10-04T11:18:30.736596+00:00",
     "https://www.phoronix.com/news/NVIDIA-Hugging-Face": "2026-09-06T12:01:14.796223+00:00",
     "https://www.phoronix.com/news/NVIDIA-Nova-vGPU-Manager": "2026-09-06T05:23:31.174617+00:00",
     "https://www.phoronix.com/news/NVIDIA-Olympus-SMT-Better": "2026-10-01T11:50:42.243700+00:00",
@@ -472,6 +476,7 @@
     "oai:arXiv.org:2609.38454v1": "2026-10-01T11:50:42.243700+00:00",
     "oai:arXiv.org:2609.38845v1": "2026-10-03T10:38:27.442783+00:00",
     "oai:arXiv.org:2609.38859v1": "2026-10-03T10:38:27.442783+00:00",
+    "oai:arXiv.org:2609.38868v1": "2026-10-04T11:18:30.736596+00:00",
     "oai:arXiv.org:2609.38935v1": "2026-10-03T00:45:17.081177+00:00",
     "oai:arXiv.org:2609.39156v1": "2026-10-02T01:06:03.018282+00:00",
     "oai:arXiv.org:2609.39167v1": "2026-10-04T00:03:15.008562+00:00",
@@ -542,19 +547,6 @@
       },
       "first_seen": "2026-10-03T10:38:27.442783+00:00"
     },
-    "https://lwn.net/Articles/1094721/": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://lwn.net/Articles/1094721/",
-        "link": "https://lwn.net/Articles/1094721/",
-        "relevance": 3,
-        "source": "LWN.net Front Page",
-        "summary": "Sharon Yang is a Chromium developer who worked at Google on the browser\nand now works on it at Igalia. On the final day of FOSSY 2026, she gave a\npresentation on her experiences with both of those companies, comparing and\ncontrasting the ways the each operates and how that affects work on the\ncode base. She enjoyed working at Google and feels the same about Igalia,\nso the talk was not aimed at complaints—instead it was meant to give a feel\nfor two companies that are rather different.",
-        "summary_vi": "Sharon Yang is a Chromium developer who worked at Google on the browser\nand now works on it at Igalia. On the final day of FOSSY 2026, she gave a\npresentation on her experiences with both of those com",
-        "title": "[$] Comparing Chromium development at Google and Igalia"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
     "https://lwn.net/Articles/1096028/": {
       "entry": {
         "category": "embedded",
@@ -568,19 +560,6 @@
       },
       "first_seen": "2026-10-03T00:45:17.081177+00:00"
     },
-    "https://lwn.net/Articles/1096293/": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://lwn.net/Articles/1096293/",
-        "link": "https://lwn.net/Articles/1096293/",
-        "relevance": 4,
-        "source": "LWN.net Front Page",
-        "summary": "Inside this week's LWN.net Weekly Edition:\n \n \n Front : PostgreSQL and the kernel; Rust on the GPU; KDE Plasma; C and memory safety; Rust radio; KDE funding; Chromium development.\n Briefs : File-notification attacks; Kernel report; TAB election; F-Droid 2.0; Firefox 157.0; GDB 18.1; Git v2.56.0; Quotes; ...\n Announcements : Newsletters, conferences, security updates, patches, and more.",
-        "summary_vi": "Inside this week's LWN.net Weekly Edition:\n \n \n Front : PostgreSQL and the kernel; Rust on the GPU; KDE Plasma; C and memory safety; Rust radio; KDE funding; Chromium development.\n Briefs : File-notif",
-        "title": "[$] LWN.net Weekly Edition for October 1, 2026"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
     "https://lwn.net/Articles/1097753/": {
       "entry": {
         "category": "embedded",
@@ -593,32 +572,6 @@
         "title": "Security updates for Wednesday"
       },
       "first_seen": "2026-10-01T11:50:42.243700+00:00"
-    },
-    "https://lwn.net/Articles/1097761/": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://lwn.net/Articles/1097761/",
-        "link": "https://lwn.net/Articles/1097761/",
-        "relevance": 3,
-        "source": "LWN.net Front Page",
-        "summary": "The 2026 Python Language Summit was held on July 14 in Kraków, Poland;\nthere is now a\nseries of reports available on the topics that were discussed there.\nThey include the memory buffer protocol, garbage collection, free-threaded\nPython, and \"Spicycrab\".",
-        "summary_vi": "The 2026 Python Language Summit was held on July 14 in Kraków, Poland;\nthere is now a\nseries of reports available on the topics that were discussed there.\nThey include the memory buffer protocol, garb",
-        "title": "Reports from the 2026 Python Language Summit"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "https://lwn.net/Articles/1097802/": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://lwn.net/Articles/1097802/",
-        "link": "https://lwn.net/Articles/1097802/",
-        "relevance": 4,
-        "source": "LWN.net Front Page",
-        "summary": "The full set\nof videos from the recently concluded Kernel Recipes conference\nhas been posted. Also noteworthy are the associated caricature drawings,\nby Frank Tizzoni, of attendees \nand the\nspeakers .",
-        "summary_vi": "The full set\nof videos from the recently concluded Kernel Recipes conference\nhas been posted. Also noteworthy are the associated caricature drawings,\nby Frank Tizzoni, of attendees \nand the\nspeakers .",
-        "title": "Kernel Recipes videos posted"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
     },
     "https://lwn.net/Articles/1098068/": {
       "entry": {
@@ -672,32 +625,6 @@
       },
       "first_seen": "2026-10-04T00:03:15.008562+00:00"
     },
-    "https://rocm.blogs.amd.com/artificial-intelligence/molmoact2-ryzers-strix/README.html": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://rocm.blogs.amd.com/artificial-intelligence/molmoact2-ryzers-strix/README.html",
-        "link": "https://rocm.blogs.amd.com/artificial-intelligence/molmoact2-ryzers-strix/README.html",
-        "relevance": 3,
-        "source": "AMD ROCm Blog",
-        "summary": "Teaching a robot to “put the bowl on the plate and place the cream cheese inside the bowl” used to require a rack of data-center GPUs sitting behind the robot. In this blog we show how a modern vision-language-action (VLA) model, MolmoAct2, can look at a scene, read a plain-English instruction, and drive a robot arm to complete the task, all running on a single AMD Ryzen AI Max+ 395 “Strix Halo” mini PC with the ROCm software stack. No cloud, no external accelerator, just a compact tabletop machine.",
-        "summary_vi": "Teaching a robot to “put the bowl on the plate and place the cream cheese inside the bowl” used to require a rack of data-center GPUs sitting behind the robot. In this blog we show how a modern vision",
-        "title": "Running MolmoAct2 Robot Policy on an AMD Ryzen AI Max+ 395 Mini PC"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "https://rocm.blogs.amd.com/software-tools-optimization/tracelens-analysis-agent/README.html": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://rocm.blogs.amd.com/software-tools-optimization/tracelens-analysis-agent/README.html",
-        "link": "https://rocm.blogs.amd.com/software-tools-optimization/tracelens-analysis-agent/README.html",
-        "relevance": 3,
-        "source": "AMD ROCm Blog",
-        "summary": "GPUs are valuable resources, and it is imperative to make training and inference workloads on them as efficient as possible. Bottlenecks in these workloads can arise from multiple sources, and mitigations vary depending on the source. For example, a kernel may execute well below its achievable throughput, a collective may remain exposed on the critical path, or the device may sit idle while waiting on host-side dispatch. Identifying these bottlenecks is the first step to improving end-to-end performance.",
-        "summary_vi": "GPUs are valuable resources, and it is imperative to make training and inference workloads on them as efficient as possible. Bottlenecks in these workloads can arise from multiple sources, and mitigat",
-        "title": "Automating Performance Bottleneck Identification with the TraceLens Agent"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
     "https://www.cnx-software.com/?p=167333": {
       "entry": {
         "category": "embedded",
@@ -723,19 +650,6 @@
         "title": "UP Xtreme PTL Edge Air Panther Lake Mini PC gets AirJet solid-state active cooling solution"
       },
       "first_seen": "2026-10-02T11:23:39.558422+00:00"
-    },
-    "https://www.cnx-software.com/?p=177810": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.cnx-software.com/?p=177810",
-        "link": "https://www.cnx-software.com/2026/10/01/30-raspberry-pi-smart-display-module-for-cm5-targets-digital-signage-displays-and-kiosks/",
-        "relevance": 3,
-        "source": "CNX Software",
-        "summary": "Raspberry Pi Smart Display Module is a CM5 carrier board compatible with the Intel Smart Display Module (SDM) specification, more specifically the SDM-L form factor (as opposed to the smaller SDM-S option). The Intel SDM standard has been around for years, and we first wrote it in 2018, covering the Axiomtek SDM300s (SDM-S) module. These cards are designed to be plugged into compatible digital signage displays, kiosks, point-of-sale systems, and so on. They feature a standard 98-pin PCIe edge connector with USB 3.0, HDMI 1.4/2.0, I2C/UART/SPI signalling, as well as Ethernet, HDMI, USB ports, and an M.2 expansion socket. Raspberry Pi Smart Display Module specifications: Compatible with Raspberry Pi Compute Module 5 Video Output – Full-size HDMI 2.0 port Camera – 22-way MIPI DSI/CSI-2 connector (internal) Networking Gigabit Ethernet RJ45 port WiFi 5 and Bluetooth 5.2 (on CM5) with U.FL antenna USB USB 3.0 Type-A port USB 2.0 Type-C port for programming [...] \n The post $30 Raspberry Pi Smart Display Module for CM5 targets digital signage displays and kiosks appeared first on CNX Software - Embedded Systems News .",
-        "summary_vi": "Raspberry Pi Smart Display Module is a CM5 carrier board compatible with the Intel Smart Display Module (SDM) specification, more specifically the SDM-L form factor (as opposed to the smaller SDM-S op",
-        "title": "$30 Raspberry Pi Smart Display Module for CM5 targets digital signage displays and kiosks"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
     },
     "https://www.cnx-software.com/?p=177853": {
       "entry": {
@@ -788,19 +702,6 @@
         "title": "Coreboot 26.09 Released With Framework Laptop 12 Support, AI Review Comment Policy"
       },
       "first_seen": "2026-10-02T11:23:39.558422+00:00"
-    },
-    "https://www.phoronix.com/news/EDG-CPP-Open-Sourced": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/EDG-CPP-Open-Sourced",
-        "link": "https://www.phoronix.com/news/EDG-CPP-Open-Sourced",
-        "relevance": 4,
-        "source": "Phoronix",
-        "summary": "Edison Design Group has open-sourced their EDG C/C++ front-end that has been known in the commercial world for its extensive dialect support and other features. The EDG C++ front-end has been used by the likes of Intel C++ Compiler classic, NVIDIA CUDA NVCC, and even Microsoft Visual Studio for IntelliSense...",
-        "summary_vi": "Edison Design Group has open-sourced their EDG C/C++ front-end that has been known in the commercial world for its extensive dialect support and other features. The EDG C++ front-end has been used by ",
-        "title": "EDG C/C++ Front-End Open-Sourced"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
     },
     "https://www.phoronix.com/news/Intel-CPU-Binds-ULLS-Migration": {
       "entry": {
@@ -932,19 +833,6 @@
       },
       "first_seen": "2026-10-02T11:23:39.558422+00:00"
     },
-    "https://www.phoronix.com/news/Steam-Frame-Turnip-Foveated": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/Steam-Frame-Turnip-Foveated",
-        "link": "https://www.phoronix.com/news/Steam-Frame-Turnip-Foveated",
-        "relevance": 4,
-        "source": "Phoronix",
-        "summary": "As part of Valve's work on developing the Steam Frame VR headset, they worked on foveated rendering support for the Mesa Turnip driver that supports the Qualcomm Adreno graphics with open-source Vulkan API support. Foveated rendering is the technique to more closely mimic human vision by rendering high detail at your direct gaze point and lower quality in the peripheral vision. For computer graphics, foveated rendering for headsets can be beneficial for conserving power in areas of the render frame that are less important to provide more performance with your main area of focus...",
-        "summary_vi": "As part of Valve's work on developing the Steam Frame VR headset, they worked on foveated rendering support for the Mesa Turnip driver that supports the Qualcomm Adreno graphics with open-source Vulka",
-        "title": "Valve's Work On Foveated Rendering For The Open-Source Turnip Driver On The Steam Frame"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
     "https://www.phoronix.com/news/Ubuntu-Rust-Sequoia-PGP": {
       "entry": {
         "category": "embedded",
@@ -983,84 +871,6 @@
         "title": "systemd-appd Out For Review To Centralize Tracking Of User's Apps"
       },
       "first_seen": "2026-10-03T10:38:27.442783+00:00"
-    },
-    "https://www.phoronix.com/review/openjdk-graalvm-temurin-semeru": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/review/openjdk-graalvm-temurin-semeru",
-        "link": "https://www.phoronix.com/review/openjdk-graalvm-temurin-semeru",
-        "relevance": 3,
-        "source": "Phoronix",
-        "summary": "Immediately following the OpenJDK 8 through OpenJDK 27 benchmarks I expanded the scope of testing to look at how recent OpenJDK releases have been comparing to alternative JVMs like GraalVM, Temurin, and Semeru. Here are those benchmarks if curious about the Java performance in those different environments.",
-        "summary_vi": "Immediately following the OpenJDK 8 through OpenJDK 27 benchmarks I expanded the scope of testing to look at how recent OpenJDK releases have been comparing to alternative JVMs like GraalVM, Temurin, ",
-        "title": "OpenJDK vs. GraalVM vs. Eclipse Temurin vs. Semeru Java Performance"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wu71lg": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wu71lg",
-        "link": "https://www.reddit.com/r/embedded/comments/1wu71lg/moving_from_mobile_6_yoe_react_native_to_embedded/",
-        "relevance": 4,
-        "source": "Reddit r/embedded",
-        "summary": "Hey everyone! After almost 6 years as a mobile developer focused on React Native, I've realized that the work I enjoy most is dropping into native code and working directly with hardware peripherals like BLE, sensors, and NFC. That has pushed me to move my focus down the stack into embedded systems. On the software side, I have a solid grasp of software architecture and memory management, along with basic C and a bit of Rust. Hardware-wise, I'm currently working through Dr. Valvano's UT Austin course using a Raspberry Pi Pico and an ESP32-C3 Mini. As I move deeper into embedded development, I'd love some real-world perspective on a few technical directions. I'm looking for practical project ideas using the Pico or ESP32-C3 that teach core peripheral drivers (GPIO interrupts, timers, PWM, UART, SPI, I2C) without relying on Arduino abstraction wrappers. On the toolchain side, I'm wondering whether it makes more sense to stick strictly to bare-metal C with the Pico SDK and ESP-IDF first, or if introducing FreeRTOS early on provides a better foundation for non-blocking I/O. Finally, between modern C and C++, where should I focus most of my deep-dive time for MCU development, and what technical resources or books do you recommend right after Valvano's course? Any insights or advice on bridging the gap from high-level software to low-level hardware are much appreciated. Thanks in advance! submitted by /u/knowntlol [link] [comments]",
-        "summary_vi": "Hey everyone! After almost 6 years as a mobile developer focused on React Native, I've realized that the work I enjoy most is dropping into native code and working directly with hardware peripherals l",
-        "title": "Moving from Mobile (6 YOE React Native) to Embedded: RP2040/ESP32-C3 project advice & firmware patterns"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wu77jw": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wu77jw",
-        "link": "https://www.reddit.com/r/embedded/comments/1wu77jw/are_pic16f84a_pic16f877a_and_pic18f4550/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "I didn't get to use them as much as I would like. submitted by /u/HTTP192 [link] [comments]",
-        "summary_vi": "I didn't get to use them as much as I would like. submitted by /u/HTTP192 [link] [comments]",
-        "title": "Are PIC16F84A, PIC16F877A and PIC18F4550 considered a relic?"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wua37o": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wua37o",
-        "link": "https://www.reddit.com/r/embedded/comments/1wua37o/recently_attended_an_engineering_expo_for_my/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "I am very disappointed at the fact that the first thing that people hear when I say I am a computer science major is that I will be stuck in an IT role. I went up to all these companies and letting them know that I am focusing my studies on embedded systems, and they reviewed my resumé. Some of the companies did have some positions for me, but even some of the companies just assume I would be better as a data analyst or IT guy but that is not what I want to do. No shame to those guys, but personally I feel defeated the companies won’t give me a chance. Some of them did compliment my resumé, but they were just stuck up at the fact that I am a computer science major. Just feels a big slap to the face of what I know, and yes I am new to this space, but I want to grow in embedded systems, I just need the opportunity to prove myself. This degree is starting to feel more of a hindrance to me, and that feeling is even worse now that I am a senior. submitted by /u/SirCodedRed [link] [comments]",
-        "summary_vi": "I am very disappointed at the fact that the first thing that people hear when I say I am a computer science major is that I will be stuck in an IT role. I went up to all these companies and letting th",
-        "title": "Recently attended an engineering expo for my college as a Comp sci major and I feel extremely disappointed."
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wuek9d": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wuek9d",
-        "link": "https://www.reddit.com/r/embedded/comments/1wuek9d/i_built_a_mousecontrolled_desktop_for/",
-        "relevance": 4,
-        "source": "Reddit r/embedded",
-        "summary": "Hi everyone! I’ve been working on TinyDesk, a windowed text desktop that runs on an ESP32 and displays over USB serial in a compatible terminal. The ESP32 runs the desktop and apps. The computer just renders the ANSI/VT output and sends keyboard and mouse input back—there’s no desktop application running on the PC behind the demo. It has draggable/resizable windows, a taskbar, start menu, file manager, text editor, terminal, and system monitor. You can open a file, edit and save it, then run commands in the shell without leaving the desktop. MQTT and Modbus tools are included too. A few technical details: Portable C11 core with a small platform interface. ESP32-C6, classic ESP32 with PSRAM, and 4 MB ESP32 without PSRAM builds. Classic ESP32 Desktop uses USB-UART at 921600 baud. The 4 MB/no-PSRAM build is limited to 80×25 characters and has no SSH server or OTA updates. The terminal needs UTF-8, ANSI/VT cursor control, and xterm mouse reporting. There’s also TinyDesk Shell, which runs the shell by itself if you don’t want the desktop. It’s an early developer preview. You can flash prebuilt firmware from Chrome/Edge and use the web terminal, or build from source. Demo, documentation and installer: https://schikani.github.io/tinydesk-docs/ Desktop source: https://github.com/schikani/tinydesk Standalone shell: https://github.com/schikani/tinydesk-shell I’d love feedback from people trying it on different boards and terminals. If you test it, please share your board model, terminal, and anything that breaks—especially rendering or mouse-input issues! submitted by /u/schikani01 [link] [comments]",
-        "summary_vi": "Hi everyone! I’ve been working on TinyDesk, a windowed text desktop that runs on an ESP32 and displays over USB serial in a compatible terminal. The ESP32 runs the desktop and apps. The computer just ",
-        "title": "I built a mouse-controlled desktop for microcontrollers (Tested on ESP32 boards) that runs inside your terminal — open source"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wug4qb": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wug4qb",
-        "link": "https://www.reddit.com/r/embedded/comments/1wug4qb/what_is_the_best_rtos_these_days/",
-        "relevance": 4,
-        "source": "Reddit r/embedded",
-        "summary": "I'm working on an esp32 product, currently just bare metal. A few years ago, zephyr looked like it was going to be the king, but since then I keep seeing people say they don't really like it. So what else is there? Is FreeRTOS the way to go? Maybe I'll just stay bare metal. idk. submitted by /u/wiggle_room1337 [link] [comments]",
-        "summary_vi": "I'm working on an esp32 product, currently just bare metal. A few years ago, zephyr looked like it was going to be the king, but since then I keep seeing people say they don't really like it. So what ",
-        "title": "What is the best RTOS these days?"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
     },
     "https://www.reddit.com/r/embedded/t3_1wun55k": {
       "entry": {
@@ -1400,6 +1210,71 @@
       },
       "first_seen": "2026-10-04T00:03:15.008562+00:00"
     },
+    "https://www.reddit.com/r/embedded/t3_1wx9p9u": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wx9p9u",
+        "link": "https://www.reddit.com/r/embedded/comments/1wx9p9u/should_i_switch_to_ce_if_my_dream_is_to_be_a/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "My life-call would be working on the software of airplanes. I do like all aspects of it (even simulations), but I think Embedded is the right world for me. I'm spending all my time after being done with University work with embedded projects and I'm just about to start a multi-year project to build an STM32 flight controller on simulation software like XPlane/JSBsim, teaching myself everything while doing it and aiming to be done with it once my Master's ends, hoping it will be my ticket entry to a relevant role. Problem is, I'm a CS major and I'm doing my Master's in CS still (Reliable Software Systems). My choice comes from an interest in working in Game Development I had since I was a kid, but growing up and understanding life and the state of the industry made me conscious that it's not a great life choice for me. The \"good news\" is that I've been always interested in the low-level side of game development, so mainly C/C++, high performance/constraint stuff. I'd also like the idea to work on something more physical and \"\"\" important \"\"\" than a videogame. I'm finding myself self-teaching myself EE and CE concepts, while being \"updated\" on the state of the more CS-side stuff through Uni, but which I don't really have interest in. I tell myself a project like the one I've described would give me the chance to get an interview to a relevant role, but in the back of my head I can't stop thinking I've picked the wrong degree for it, and I feel it's too late to switch now (I'm 26y/o and I've already done 5 out of 12 exams of this Master's). What do you think? I live in Italy and there are a lot of jobs posting that specifically list CE and not CS, while some others list both. Outside of Italy I see that they don't seem to discriminate the two (actually I see way more \"CS\" than \"CE\"), which is my kind of hopium right now. Would really love to hear your thoughts. Thanks. submitted by /u/Electrical-Dog-8572 [link] [comments]",
+        "summary_vi": "An aspiring flight software engineer asks if they should switch their major to Computer Engineering. They are currently teaching themselves embedded systems by building an STM32-microcontroller flight controller integrated with simulation software.",
+        "title": "Should I switch to CE if my dream is to be a Flight Software Engineer?"
+      },
+      "first_seen": "2026-10-04T11:18:30.736596+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wxch5z": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wxch5z",
+        "link": "https://www.reddit.com/r/embedded/comments/1wxch5z/i_made_patch_panel_less_than_2_dolar_for_home/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "submitted by /u/linusyp [link] [comments]",
+        "summary_vi": "A community member shares a project showcasing a home server patch panel built for under two dollars. The provided snippet does not contain any technical details, design specifications, or assembly instructions.",
+        "title": "I made patch panel less than 2 dolar for home server haha"
+      },
+      "first_seen": "2026-10-04T11:18:30.736596+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wxchju": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wxchju",
+        "link": "https://www.reddit.com/r/embedded/comments/1wxchju/arduino_core_for_stc_micros_stc8g_family/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I’ve developed an unofficial Arduino Core for STC8G microcontrollers, bringing Arduino IDE support to these low-cost 8051-based chips. The core uses SDCC as the compiler backend and stcgal for firmware flashing, allowing you to write Arduino-style code, compile it, and upload it directly from the Arduino IDE. GitHub: https://github.com/chayanforyou/Arduino-STC8 Feedback and contributions are welcome! submitted by /u/chayanforyou [link] [comments]",
+        "summary_vi": "A developer has released an unofficial Arduino Core that brings Arduino IDE support to low-cost, 8051-based STC8G microcontrollers. It uses the Small Device C Compiler backend and stcgal for flashing firmware directly from the IDE.",
+        "title": "Arduino Core for STC Micro's STC8G Family"
+      },
+      "first_seen": "2026-10-04T11:18:30.736596+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wxd22v": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wxd22v",
+        "link": "https://www.reddit.com/r/embedded/comments/1wxd22v/transition_out_of_embedded_to_pure_software/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "Hello Embedded Community! I am currently an embedded SWE with 1 YOE since graduating last year. My work revolves around camera modules, edge AI and MCUs. If I were to continue down this path I do see myself moving more deeply into the robotics/CV side of embededd SWE. However, when I compare my trajectory against my peers', it seems that I will be far behind them by miles in terms of compensation. I am curious if anyone has ever made the switch to a pure software engineering career, especially FAANG level companies. Since I am still early in my career, I am still trying to figure out whether to double down on embedded or just start leetcoding and learning systems design to land a job that pay much more. Genuinely would love to hear everyone's opinion and your personal experience thus far! You could also share your current plans for your career and where you see yourself in embedded too. submitted by /u/MurkyMistyRoad [link] [comments]",
+        "summary_vi": "An embedded software engineer with one year of experience in camera modules, edge AI, and microcontrollers asks about transitioning to pure software engineering. The main driver for this change is the expectation of significantly higher compensation in pure software roles.",
+        "title": "Transition out of Embedded to Pure Software?"
+      },
+      "first_seen": "2026-10-04T11:18:30.736596+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wxd5ic": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wxd5ic",
+        "link": "https://www.reddit.com/r/embedded/comments/1wxd5ic/yet_another_ai_generated_mr/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "[Rant inside] So, in my company a lot of people are really passionate about their chatbots. Most of the time you don't really see it, as it's supposed to be, but every other week I get a major surprise. Last week I had a member of my team pulling out an ai generated MR fixing a \"bug\" by having a bash script, executed by our build system, that edits a system header to inject a semi-stub function.. so that he/she wouldn't have to call the \"real\" \"bugged\" function that generates the error. Another MR from a senior member got a fantastic factor 100 speedup by not executing our DSP algorithm and just returning a nice array of zeros (accidentally messed up some tbb task... our CI did flag the issue here at least). So I'm thinking, either chatbots becomes good enough to steal my job, or bad but convenient enough to make it hell. The second option at least comes with the certainty I will have a job? The whole mantra \"you need to know what to ask about\" is starting to make sense to me now. How is the ai revolution going for you? submitted by /u/Johnsmtg [link] [comments]",
+        "summary_vi": "An engineer shares a complaint about a team member submitting an AI-generated Merge Request to fix a bug. The proposed change used a build-system bash script to inject a dummy function into a system header, bypassing the original failing function.",
+        "title": "Yet another AI generated MR"
+      },
+      "first_seen": "2026-10-04T11:18:30.736596+00:00"
+    },
     "oai:arXiv.org:2508.11147v3": {
       "entry": {
         "category": "research",
@@ -1426,19 +1301,6 @@
       },
       "first_seen": "2026-10-02T01:06:03.018282+00:00"
     },
-    "oai:arXiv.org:2511.22537v2": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2511.22537v2",
-        "link": "https://arxiv.org/abs/2511.22537",
-        "relevance": 4,
-        "source": "arXiv cs.PL (Programming Languages)",
-        "summary": "arXiv:2511.22537v2 Announce Type: replace-cross \nAbstract: The two main notions of control in quantum programming languages are often referred to as \"quantum control\" and \"classical control\". With the latter, the control flow is based on classical information, potentially resulting from a quantum measurement, and this paradigm is well-suited to mixed state quantum computation. Whereas with quantum control, we are primarily focused on pure quantum computation and there the \"control\" is based on superposition. The two paradigms have not mixed well traditionally and they are almost always treated separately. In this work, we show that the paradigms may be combined within the same system. The key ingredients for achieving this are: (1) syntactically: a modality for incorporating pure quantum types into a mixed state quantum type system; (2) operationally: an adaptation of the notion of \"quantum configuration\" from quantum lambda-calculi, where the quantum data is replaced with pure quantum primitives; (3) denotationally: suitable (sub)categories of Hilbert spaces, for pure computation and von Neumann algebras, for mixed state computation in the Heisenberg picture of quantum mechanics.",
-        "summary_vi": "arXiv:2511.22537v2 Announce Type: replace-cross \nAbstract: The two main notions of control in quantum programming languages are often referred to as \"quantum control\" and \"classical control\". With the",
-        "title": "A programming language combining quantum and classical control"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
     "oai:arXiv.org:2603.00326v2": {
       "entry": {
         "category": "research",
@@ -1451,32 +1313,6 @@
         "title": "Vectorized Dynamic Histograms for Sparse Oblique Forests"
       },
       "first_seen": "2026-10-02T01:06:03.018282+00:00"
-    },
-    "oai:arXiv.org:2604.16007v2": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2604.16007v2",
-        "link": "https://arxiv.org/abs/2604.16007",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2604.16007v2 Announce Type: replace \nAbstract: Emerging agentic large language model (LLM) workloads are driving rapidly growing demand for memory capacity and bandwidth. Different phases of inference, such as prefill and decode, have distinct requirements. Industry is responding by combining heterogeneous accelerators into interconnected systems, as exemplified by NVIDIA's Vera Rubin platform, where each device has its own memory architecture.\n The range of available memory technologies is also expanding. High-density on-chip SRAM, HBM, LPDDR, GDDR, and emerging options such as high-bandwidth flash (HBF) each offer different trade-offs in capacity, bandwidth, and power. Identifying efficient memory architectures for next-generation inference accelerators remains challenging because the design space spans workload characteristics, NPU design choices, and memory system designs.\n To address this challenge, we present MemExplorer, a new memory system synthesizer for heterogeneous NPU systems. MemExplorer provides a unified way to model memory technologies at different levels of the hierarchy, including on-chip and off-chip memory. It automatically selects an efficient heterogeneous memory system alongside NPU design choices, such as matrix engine size, to balance throughput and power across prefill and decode devices in a multi-device system.\n For agentic workloads under the same power budget, MemExplorer achieves up to 2.3 times the energy efficiency of the baseline NPU and 3.23 times that of an H100 in the prefill-only setting. At equivalent performance targets in the decode setting, it delivers up to 1.93 times and 2.72 times the power efficiency of the baseline NPU and H100, respectively.",
-        "summary_vi": "arXiv:2604.16007v2 Announce Type: replace \nAbstract: Emerging agentic large language model (LLM) workloads are driving rapidly growing demand for memory capacity and bandwidth. Different phases of inf",
-        "title": "MemExplorer: Navigating the Heterogeneous Memory Design Space for Agentic Inference NPUs"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "oai:arXiv.org:2608.04264v2": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2608.04264v2",
-        "link": "https://arxiv.org/abs/2608.04264",
-        "relevance": 4,
-        "source": "arXiv cs.PL (Programming Languages)",
-        "summary": "arXiv:2608.04264v2 Announce Type: replace \nAbstract: Emfrp is a functional reactive programming (FRP) language designed for small-scale embedded systems. Time-varying values are the primary abstraction mechanism in FRP and enable concise descriptions of reactive behavior. In practice, however, Emfrp programs are compiled into C and combined with platform-dependent input/output components written in C or C++. Consequently, developers must debug the resulting mixed C/C++ program using conventional debuggers such as GDB, even though the application logic is written in Emfrp. This situation creates an abstraction gap between the source-level FRP program and the executable system. This paper presents a multi-mode debugging framework for Emfrp-based embedded applications. The framework supports debugging at the level of Emfrp abstractions while also allowing inspection of platform-specific C/C++ I/O code. Our approach uses a source code mapping technique that relates Emfrp constructs to corresponding locations in the compiled program. A case study on an ESP32 microcontroller using representative debugging scenarios demonstrates improved debugging efficiency.",
-        "summary_vi": "arXiv:2608.04264v2 Announce Type: replace \nAbstract: Emfrp is a functional reactive programming (FRP) language designed for small-scale embedded systems. Time-varying values are the primary abstractio",
-        "title": "Multi-Mode Debugging for FRP-Based Embedded Systems"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
     },
     "oai:arXiv.org:2609.05635v2": {
       "entry": {
@@ -1530,19 +1366,6 @@
       },
       "first_seen": "2026-10-02T01:06:03.018282+00:00"
     },
-    "oai:arXiv.org:2609.31887v2": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.31887v2",
-        "link": "https://arxiv.org/abs/2609.31887",
-        "relevance": 4,
-        "source": "arXiv cs.PL (Programming Languages)",
-        "summary": "arXiv:2609.31887v2 Announce Type: replace \nAbstract: Egraphs have enabled recent advances in program optimization, synthesis, and verification, yet remain difficult to apply to effectful programs whose memory and I/O operations must respect execution order. Existing effect-aware extraction algorithms rely on integer linear programming (ILP) and dominate total runtime.\n We introduce Statewalk DP, a new extraction algorithm that enforces effect ordering efficiently without external solvers. We prove that finding any effect-safe extraction is NP-complete, but show that Statewalk DP is tractable in statewalk width, a parameter that measures the complexity of dataflow interactions among effects. In practice, statewalk width generally remains small, enabling Statewalk DP to achieve order-of-magnitude speedups over ILP extraction while producing programs comparable to LLVM across our benchmarks. We implement the algorithm in eggcc, a prototype egraph-based compiler for imperative Bril programs and demonstrate that effect-aware extraction is no longer a bottleneck.",
-        "summary_vi": "arXiv:2609.31887v2 Announce Type: replace \nAbstract: Egraphs have enabled recent advances in program optimization, synthesis, and verification, yet remain difficult to apply to effectful programs whos",
-        "title": "Efficient Extraction for Effectful E-Graphs"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
     "oai:arXiv.org:2609.33547v2": {
       "entry": {
         "category": "research",
@@ -1581,201 +1404,6 @@
         "title": "JET: Justification Evaluation in Transformer"
       },
       "first_seen": "2026-10-02T01:06:03.018282+00:00"
-    },
-    "oai:arXiv.org:2609.34818v2": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.34818v2",
-        "link": "https://arxiv.org/abs/2609.34818",
-        "relevance": 4,
-        "source": "arXiv cs.PF (Performance)",
-        "summary": "arXiv:2609.34818v2 Announce Type: replace-cross \nAbstract: AlphaFold2 is written in JAX, so the same inference code compiles and runs unchanged on CPUs, GPUs and Google Cloud TPUs. That portability makes the accelerator look like the main decision a user has to make. We show that it is not. Running one AlphaFold2 inference workload across a Colab CPU runtime, an NVIDIA T4 GPU and a dedicated eight-chip Cloud TPU v5e slice, we find a large hardware advantage for the TPU, 0.47 s per call in steady state on a single chip against 13.1 s on the T4 in the same measurement campaign, and three ways in which the software layer decides how much of it a user actually gets. The default execution path uses one chip of the eight, and at list prices the idle capacity makes the slice cost about as much per prediction as the GPU. Batching with JAX's vmap never exceeds single-query throughput, while mapping queries across chips with JAX's pmap gives eight chips 6.5-7.9x the throughput of one on a matched grid; automatic sharding leaves the per-chip footprint unchanged, consistent with replication, most plausibly because AlphaFold2 carries no sharding annotations. Our retained trace analysis of a first call at a new input shape reports about three quarters of the traced span in JAX tracing and compilation rather than execution. Reruns five weeks later reproduced neither cloud baseline, the GPU one off by roughly a factor of two, so the hardware ratio above is specific to one campaign.",
-        "summary_vi": "arXiv:2609.34818v2 Announce Type: replace-cross \nAbstract: AlphaFold2 is written in JAX, so the same inference code compiles and runs unchanged on CPUs, GPUs and Google Cloud TPUs. That portability ma",
-        "title": "Accelerator Choice Is Not Enough: AlphaFold2 Inference on Cloud TPUs"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "oai:arXiv.org:2609.36134v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.36134v1",
-        "link": "https://arxiv.org/abs/2609.36134",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.36134v1 Announce Type: cross \nAbstract: Functional Kolmogorov-Arnold Networks (FunKAN) achieve state-of-the-art accuracy on MRI Gibbs artifact removal and anatomical segmentation, but their 11.6 M parameters and 8.7 GFLOPs are too large for edge medical devices. We present FunKANLite, a two-stage, hardware-aware compression of FunKAN for point-of-care use. FunKANLite-TR reduces the spatial prior and replaces the ResBlock offset predictor with a depthwise-separable block. It has 1.9x fewer parameters than FunKAN and no loss in accuracy. We then distill FunKANLite-TR into FunKANLite-ST, which lowers the Hermite basis rank, factorizes the spatial prior into a low-rank form, and halves the filter widths. FunKANLite-ST has 5.6x fewer parameters and 3.7x fewer GFLOPs than FunKAN. It stays within 1.4 percentage points IoU of FunKAN on BUSI, GlaS, and CVC-ClinicDB, and reaches 33.95 dB PSNR on IXI. On an NVIDIA Jetson Orin Nano and a Raspberry Pi 5, FunKANLite-ST reduces energy per inference by up to 68% and raises throughput by 2.9x.",
-        "summary_vi": "arXiv:2609.36134v1 Announce Type: cross \nAbstract: Functional Kolmogorov-Arnold Networks (FunKAN) achieve state-of-the-art accuracy on MRI Gibbs artifact removal and anatomical segmentation, but their",
-        "title": "Hardware-Aware Functional Kolmogorov-Arnold Networks for Efficient Medical Image Enhancement and Segmentation"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "oai:arXiv.org:2609.36267v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.36267v1",
-        "link": "https://arxiv.org/abs/2609.36267",
-        "relevance": 4,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2609.36267v1 Announce Type: new \nAbstract: Two-dimensional phase unwrapping can dominate computation and memory usage in wide-area Interferometric Synthetic Aperture Radar (InSAR) processing. Here we present Whirlwind, a minimum-cost-flow (MCF) unwrapper tailored for large interferograms of surface deformation. We derive fixed likelihood-ratio costs using multilook interferometric phase statistics, marginalizing uncertainty in the local phase-gradient and coherence estimates. A compact integer lookup table and parallel-augmenting successive-shortest-path solver with Dial bucket queues make the MCF solve efficient while avoiding flow-dependent cost relinearization. We test whether these improvements in speed and memory can be obtained without a loss of solution quality using multiple evaluation criteria for individual interferograms, at mission-production scale, and in end-to-end displacement time series solutions. On a 74-Mpixel Sentinel-1 interferogram of the 2019 Ridgecrest earthquakes, Whirlwind runs in 209 s, 28x faster than single-tile SNAPHU, while using 40% of the peak memory. Across 6,014 provisional NISAR geocoded unwrapped (GUNW) products, 93% agreed with the SNAPHU-derived results on more than 99% of valid pixels; on seven challenging 77-MHz Antarctic frames, Whirlwind ran a median 21x faster than SNAPHU while matching 99.4% of its integer-cycle assignments. Finally, in a complete Sentinel-1 time series experiment, Whirlwind improved the network-inversion consistency over SNAPHU, and in a high-resolution Capella time series of the Portuguese Bend landslide, it achieved the highest correlation with a dense GPS network among five unwrapping configurations. Whirlwind is provided as an open-source library capable of handling the growing volume of globally available InSAR data.",
-        "summary_vi": "arXiv:2609.36267v1 Announce Type: new \nAbstract: Two-dimensional phase unwrapping can dominate computation and memory usage in wide-area Interferometric Synthetic Aperture Radar (InSAR) processing. He",
-        "title": "A Probabilistic-Cost Algorithm for Large-Scale 2D Phase Unwrapping"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "oai:arXiv.org:2609.36584v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.36584v1",
-        "link": "https://arxiv.org/abs/2609.36584",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.36584v1 Announce Type: cross \nAbstract: Analog in-memory computing (AIMC) offers an alternative for model training by executing matrix operations directly where weights are stored. However, scaling AIMC to train modern deep models remains an open challenge due to severe hardware non-idealities, including physical weights with finite dynamic range and write granularity, analog-digital converters with finite resolution, and noisy and asymmetric updates. Guided by the insight that gradient accumulation is sensitive to precision and rounding errors, we adopt a mixed-precision training paradigm: executing forward and backward matrix multiplications in the analog domain while computing weight gradients in the digital domain. To enable scalable training, we present a holistic system-algorithm co-design that co-optimizes weight mapping to ensure well-conditioned physical and logical weight profiles, couples a preconditioned optimizer with threshold-triggered open-loop pulsing to stabilize training trajectories, and aligns converter dynamic ranges to suppress quantization errors. Evaluated via hardware-calibrated architectural simulations calibrated with electrochemical RAM measurements, our framework scales Transformer training up to $123\\text{M}$ parameters with validation loss scaling as $L\\propto N^{-0.231}$, where $N$ is the parameter count, comparable to $L\\propto N^{-0.238}$ for digital training.",
-        "summary_vi": "arXiv:2609.36584v1 Announce Type: cross \nAbstract: Analog in-memory computing (AIMC) offers an alternative for model training by executing matrix operations directly where weights are stored. However,",
-        "title": "Making Analog Training Scale: Co-Designing Mapping, Optimizer, and Converters"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "oai:arXiv.org:2609.36752v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.36752v1",
-        "link": "https://arxiv.org/abs/2609.36752",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.36752v1 Announce Type: cross \nAbstract: Circuit design is a complex and iterative process that requires expertise in electronic engineering. It involves selecting components while meeting performance constraints, such as power efficiency, cost-effectiveness, and signal integrity. However, manual design is time-consuming and prone to errors. Although other stages of the manufacturing pipeline have benefited from AI-driven optimizations, circuit design remains a bottleneck, limiting overall productivity. Generative AI and machine learning offer the potential to automate and improve this stage, boosting efficiency and accuracy. To address this, we introduce a dual transformer architecture that bridges the gap between AI and circuit design by leveraging attention mechanisms to model complex, non-sequential circuit relationships. Our approach structures netlist data into graph-based representations, enabling effective learning of circuit topology and component interactions. The system consists of two interlinked models: a node prediction model that proposes components and an edge prediction model that infers valid connections. This collaborative and decoupled design captures both component-level semantics and global structural coherence. In our experiments, this architecture outperforms recent models such as AnalogGenie and cktGNN in the validity of generated circuits. By addressing key limitations in existing methods, our work advances automation in electronics engineering and contributes a benchmark for AI-driven circuit synthesis.",
-        "summary_vi": "arXiv:2609.36752v1 Announce Type: cross \nAbstract: Circuit design is a complex and iterative process that requires expertise in electronic engineering. It involves selecting components while meeting p",
-        "title": "cktFormer: Transformer-Based Approach for Automated Analog Circuit Design"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "oai:arXiv.org:2609.36959v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.36959v1",
-        "link": "https://arxiv.org/abs/2609.36959",
-        "relevance": 4,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2609.36959v1 Announce Type: new \nAbstract: Mixture-of-Experts (MoE) has increasingly become a mainstream approach for scaling large language models, as it expands model capacity while keeping computation cost nearly constant. Training large-scale MoE models relies on Expert Parallelism (EP), which distributes expert replicas across GPUs and exchanges tokens through all-to-all communication. The efficiency of EP is often constrained by two system bottlenecks: cross-node token transfers are limited by inter-node bandwidth, while skewed expert workloads lead to imbalanced computation across GPUs. Prior work mitigates these bottlenecks based on per-expert workload statistics, but overlooks the fact that experts could share the communication.\n In this work, we empirically present the observation that many pairs of experts are frequently co-activated by individual tokens. Motivated by this, we present Cobalt, an efficient MoE training framework that leverages expert co-activation to reduce cross-node traffic and workload imbalance. Cobalt adopts a two-stage expert layout planner that adapts expert layout to the evolving expert co-activation and workload conditions. It periodically co-locates frequently co-activated experts on the same node to reduce the cross-node communication, and performs per-step intra-node adjustment to rebalance the workloads. Subsequently, we develop a communication-aware task assignment method that routes tokens to fewer remote nodes based on the current expert layout. Experiments on 32 B200 GPUs show that Cobalt achieves up to 1.53-2.41 times (1.28-1.89 times on average) of speedup compared to existing MoE training frameworks, while reducing cross-node token traffic by 75.74%-99.26%.",
-        "summary_vi": "arXiv:2609.36959v1 Announce Type: new \nAbstract: Mixture-of-Experts (MoE) has increasingly become a mainstream approach for scaling large language models, as it expands model capacity while keeping co",
-        "title": "Cobalt: Leveraging Expert Co-activation for Efficient Distributed MoE Training"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "oai:arXiv.org:2609.37062v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.37062v1",
-        "link": "https://arxiv.org/abs/2609.37062",
-        "relevance": 3,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2609.37062v1 Announce Type: new \nAbstract: Dynamic layer skipping reduces LLM computation by allowing each token to execute only a subset of the model's layers. However, existing skippers rely on specialized generation loops and do not integrate with modern serving engines. As a result, fewer executed layers do not necessarily translate into lower serving latency: FlexiDepth skips 8 of Llama-3-8B's 32 layers on average, yet its standard generation loop decodes 14.6--21.0% more slowly than the base model. We present vSkipper, a virtualization layer that makes dynamic layer skippers pluggable in serving engines while preserving continuous batching, fixed-shape batches, paged KV caching, and captured decode graphs. At each routed layer, vSkipper groups tokens by the skipper's decision and uses routed execution only when predicted to be profitable. We implement vSkipper in SGLang and evaluate the released FlexiDepth checkpoint against upstream SGLang under identical prompts, arrivals, output lengths, and launch settings. At the knee of upstream's load curve, vSkipper reduces mean end-to-end latency by 36.8% on GSM8K and 13.6% on BBH. Under saturation, it increases request throughput by 11.3% and 7.4%. Serving adds no statistically resolved quality loss beyond the checkpoint's own. Across synthetic skip policies, two Qwen3 skippers, and three GPUs, we demonstrate reuse without workload-specific tuning. To our knowledge, vSkipper is the first system to realize serving-efficiency gains from per-token interior layer skipping within a modern LLM serving engine. The code is open-sourced as an SGLang fork at https://github.com/AKafakA/sglang-vskipper/tree/vskipper-ref",
-        "summary_vi": "arXiv:2609.37062v1 Announce Type: new \nAbstract: Dynamic layer skipping reduces LLM computation by allowing each token to execute only a subset of the model's layers. However, existing skippers rely o",
-        "title": "vSkipper: Translating Dynamic Layer Skipping into LLM Serving Gains"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "oai:arXiv.org:2609.37069v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.37069v1",
-        "link": "https://arxiv.org/abs/2609.37069",
-        "relevance": 4,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2609.37069v1 Announce Type: new \nAbstract: Distributed optimization in edge networks is constrained by heterogeneous client computing capabilities and limited communication resources. We propose the Windowed and Quantized Group-Based Alternating Direction Method of Multipliers (WQ-GADMM) to coordinate group updates under limited activation capacity and reduce communication costs. Clients are grouped by estimated computation time. Each window activates a limited number of groups per round, and the cloud updates the global model after all groups have updated once. The method quantizes both downlink and uplink model exchanges to reduce communication costs and allows bounded model staleness and inexact proximal local updates. For smooth nonconvex objectives, we establish an average squared Karush-Kuhn-Tucker residual bound under the stated assumptions and parameter conditions. The bound consists of a term that decreases with the iteration count and a quantization-dependent error term. Experiments on MNIST and CIFAR-10 show that 12-bit communication reduces communication volume and simulated wall-clock time while maintaining test accuracy comparable to full precision. The 12-bit configuration also maintains complete group coverage and achieves shorter mean group inter-completion gaps than the evaluated baselines.",
-        "summary_vi": "arXiv:2609.37069v1 Announce Type: new \nAbstract: Distributed optimization in edge networks is constrained by heterogeneous client computing capabilities and limited communication resources. We propose",
-        "title": "Windowed and Quantized Group-Based ADMM for Distributed Optimization in Heterogeneous Edge Networks"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "oai:arXiv.org:2609.37073v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.37073v1",
-        "link": "https://arxiv.org/abs/2609.37073",
-        "relevance": 4,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2609.37073v1 Announce Type: new \nAbstract: We analyze exponential backoff, an algorithm used to share a single communication channel in a distributed manner between several users, in a similar way as many networking standards such as 802.11. We demonstrate that this algorithm has a meta-stable behavior, in the sense that the system oscillates over long time-scales between meta-stable configurations where only a subset of the sources effectively access the channel. In other words, meta-stability creates a form of implicit admission control. We provide both theoretical tools and numerical experiments to understand this phenomenon further. Our experiments are fully reproducible and the code is publicly available as a Python package available at https://pypi.org/project/slotted-aloha-simulator/.",
-        "summary_vi": "arXiv:2609.37073v1 Announce Type: new \nAbstract: We analyze exponential backoff, an algorithm used to share a single communication channel in a distributed manner between several users, in a similar w",
-        "title": "Exponential Backoff: Meta-Stability and Implicit Admission Control"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "oai:arXiv.org:2609.37085v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.37085v1",
-        "link": "https://arxiv.org/abs/2609.37085",
-        "relevance": 4,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2609.37085v1 Announce Type: new \nAbstract: Data-intensive services in the Computing Continuum must balance analytics quality, resource usage, and cost across heterogeneous nodes with limited and uneven capacity. This balance becomes especially difficult when resource scaling reaches capacity limits, because changes in demand and cluster pressure must then be absorbed without violating client-defined quality ranges. Existing orchestrators mainly adapt resources, placements, or replicas, while analytics requirements such as coverage, sample, and freshness remain fixed. This article presents ARGOS, the Adaptive Reinforcement Learning-Driven Governance for Orchestrated Services, an end-to-end controller that formulates multidimensional elasticity as a per-request Markov decision process over analytics quality and cluster pressure, supported by capacity-aware admission. ARGOS is evaluated under controlled workloads and time-varying multi-tenant arrivals on a heterogeneous cluster. Across the controlled scenarios, the deep reinforcement learning policies consistently outperform the non-learning baselines and approach the independently tuned best-fixed reference. A separate live evaluation reports improvements over the static midpoint under realistic and saturated arrivals, with no recorded CPU or memory violations but remaining coverage violations. These results support deep reinforcement learning as an adaptive mechanism for multidimensional elasticity when resource scaling alone is insufficient.",
-        "summary_vi": "arXiv:2609.37085v1 Announce Type: new \nAbstract: Data-intensive services in the Computing Continuum must balance analytics quality, resource usage, and cost across heterogeneous nodes with limited and",
-        "title": "ARGOS: Reinforcement Learning-Driven Multidimensional Elasticity for Service Orchestration in the Computing Continuum"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "oai:arXiv.org:2609.37137v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.37137v1",
-        "link": "https://arxiv.org/abs/2609.37137",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2609.37137v1 Announce Type: cross \nAbstract: Reduced and mixed precision have moved from a niche optimization to a central design axis in scientific computing and engineering, driven by energy constraints, heterogeneous accelerators, and the convergence of simulation and machine learning. This paper organizes the landscape around seven coupled themes---number formats, floating-point emulation, emerging architectures, hardware/software co-design, relation to other approximations, software design, and precision as a multilevel resource ---and, for each theme, synthesizes the state of the art, future directions, and open questions. We emphasize \\emph{energy per trusted solution} as the core objective, and we frame \\say{recklessly responsible} computing as a pragmatic doctrine: exploit low precision aggressively, but with systematic detection, escalation, and certification pathways.",
-        "summary_vi": "arXiv:2609.37137v1 Announce Type: cross \nAbstract: Reduced and mixed precision have moved from a niche optimization to a central design axis in scientific computing and engineering, driven by energy c",
-        "title": "Mixed-Precision Computing for Scientific Discovery: Formats, Co-Design, and Responsible Approximation"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "oai:arXiv.org:2609.37532v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.37532v1",
-        "link": "https://arxiv.org/abs/2609.37532",
-        "relevance": 3,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2609.37532v1 Announce Type: new \nAbstract: Growing large language model applications demand efficient inference. At high concurrency, block-diffusion speculative decoding suffers from verification padding, rejected candidates, and incompatibility between variable prefixes and fixed-shape graphs. Uniform truncation sacrifices acceptable tokens. We present DScale, preserving drafter architecture, weights, and full draft length. A separate 112K-parameter predictor requires neither confidence calibration nor hardware speed-curve preparation. Path-aware tiles reduce padding. Dynamic verify-length (DVL) allocation packs scored prefixes into half the native verification capacity. Fixed-address workspaces propagate changing boundaries through verification and acceptance while reusing captured graphs. On A100-40GB with tensor parallelism 1, Qwen3-8B and Qwen3-4B cover four datasets and concurrency 8-32, reusing each target's frozen predictor. Geometric-mean throughput gains across these configurations are respectively 43.9% and 48.8% over DFlash, 22.2% and 37.7% over DSpark, and 24.4% and 32.0% over Domino, with lower request latency. Cumulative ablations show that adding the three mechanisms successively increases geometric-mean throughput, while budget adjustment improves accepted-token retention. GPU profiling shows that complete decode-step time on GSM8K decreases by 30.8-52.5% relative to DFlash",
-        "summary_vi": "arXiv:2609.37532v1 Announce Type: new \nAbstract: Growing large language model applications demand efficient inference. At high concurrency, block-diffusion speculative decoding suffers from verificati",
-        "title": "DScale: Scaling Block-Diffusion Speculative Decoding with Adaptive Verification"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "oai:arXiv.org:2609.37627v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.37627v1",
-        "link": "https://arxiv.org/abs/2609.37627",
-        "relevance": 4,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2609.37627v1 Announce Type: new \nAbstract: Large-scale AI training clusters increasingly use optical circuit switching (OCS) to reconfigure rack-level interconnects and create elastic accelerator slices. In multi-tenant TPU-style clusters, however, small and medium jobs often leave partial free capacity stranded inside racks. Although the aggregate free capacity may be sufficient for a new job, it cannot be used by local placement or coarse full-rack stitching. This paper presents RingStitch, an OCS-based defragmentation scheduler that turns fragmented rack capacity into schedulable resources. RingStitch follows a local-first policy, stitches compact cross-rack fragments only when needed, and orders the selected racks into a low-cost logical ring. Simulations on a TPU 8t-like SuperPod model show that RingStitch improves schedulability over local and full-rack baselines.",
-        "summary_vi": "arXiv:2609.37627v1 Announce Type: new \nAbstract: Large-scale AI training clusters increasingly use optical circuit switching (OCS) to reconfigure rack-level interconnects and create elastic accelerato",
-        "title": "RingStitch: Demand-Aware Optical Stitching for Fragmented TPU Clusters"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "oai:arXiv.org:2609.37672v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.37672v1",
-        "link": "https://arxiv.org/abs/2609.37672",
-        "relevance": 4,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2609.37672v1 Announce Type: new \nAbstract: Encrypted Web traffic analysis requires effective representations of observable communication behavior. Existing pretraining methods often adapt NLP/CV objectives and sequence architectures, motivating learning objectives that capture traffic-specific interaction patterns. We present NetLexicon, a discrete pretraining framework that learns reusable behavioral states from unlabeled traffic. It converts contextual traffic windows into discrete states through vector quantization, constructing a compact traffic lexicon. We design two complementary pretraining objectives. State Transition Prediction (STP) forecasts subsequent sequence structure and packet features from observed history, while Statistical Feature Alignment (SFA) grounds learned states in window-level traffic statistics. Together, they guide the lexicon to capture recurring communication behaviors and their evolution.\n We evaluate NetLexicon on four benchmarks covering Web application identification, service type identification, and malware detection. NetLexicon improves Macro-F1 by up to 25.5 percentage points over the strongest baseline on each benchmark and reduces fine-tuning time per epoch by up to 23.6 times relative to the evaluated baselines. Further analysis shows that the learned discrete states capture recognizable patterns in packet size, timing, and data transfer. These results demonstrate that incorporating observable behavioral structure into pretraining supports effective, efficient, and interpretable representations for encrypted traffic analysis.",
-        "summary_vi": "arXiv:2609.37672v1 Announce Type: new \nAbstract: Encrypted Web traffic analysis requires effective representations of observable communication behavior. Existing pretraining methods often adapt NLP/CV",
-        "title": "NetLexicon: Learning Discrete Behavioral Representations for Encrypted Web Traffic Analysis"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
-    },
-    "oai:arXiv.org:2609.37995v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.37995v1",
-        "link": "https://arxiv.org/abs/2609.37995",
-        "relevance": 4,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2609.37995v1 Announce Type: new \nAbstract: IoT terminals served by LEO satellite constellations transmit data to passing satellites in discrete uplink windows. That data is delivered to buyers only when the satellite reaches a ground station. This store-and-forward structure makes the achievable price a discontinuous function of the delivery completeness threshold (a phenomenon we call a pricing cliff) and creates a geographic pricing asymmetry between polar and equatorial terminals that depends on constellation size. We present an integrated pricing model combining a full SGP4 orbital simulation of the deployed Kin\\'eis constellation with a buffer flow model and a value decay framework with decay constants derived from operational decision-window timescales in the application literature and anchored to observed satellite imagery market prices. We show that polar and equatorial terminals are dominated by structurally different latency components requiring different infrastructure interventions, formally characterize the pricing cliff phenomenon and its commercial significance, and derive a geographic pricing premium that is exactly independent of the residual value assumption. Going from 1 to 25 satellites reduces the polar--equatorial premium by 25x, with diminishing returns beyond n=10; at full constellation size the premium falls below 1% of peak data value and remains below 1.5% across the full plausible range of buyer urgency.",
-        "summary_vi": "arXiv:2609.37995v1 Announce Type: new \nAbstract: IoT terminals served by LEO satellite constellations transmit data to passing satellites in discrete uplink windows. That data is delivered to buyers o",
-        "title": "Pricing IoT Data Delivered via LEO Satellites"
-      },
-      "first_seen": "2026-10-01T00:51:09.199810+00:00"
     },
     "oai:arXiv.org:2609.38235v1": {
       "entry": {
@@ -1995,19 +1623,6 @@
         "summary": "arXiv:2609.38771v1 Announce Type: new \nAbstract: A single-tone large-signal operating point of a nonlinear two-port is a periodic orbit of a periodically forced circuit. When the device has memory (self-heating, trapping), the Floquet exponents of that orbit separate into fast (electrical) and slow (thermal and trapping) modes, and long-term memory is motion on the invariant manifold attached to the slow modes. An existence and uniqueness theorem for that manifold follows from the parameterization method of Cabr\\'e, Fontich and de la Llave, applied to the stroboscopic map at the orbit; the manifold is the spectral submanifold of Haller and Ponsioen, without a small-forcing parameter. The manifold is a bundle over the circle of drive phase, its fiber dimension the number of slow Floquet exponents, and the dynamic X-parameter kernel of Verspecht et al. identifies its reduced dynamics from step changes of the drive amplitude. Consequently, an exact reduced model has as many memory states as slow exponents, the memoryless X-parameter surface is the fixed-point family of the reduced dynamics, and the envelope-domain model is the reduced dynamics driven by the envelope. The hypotheses are verified and the manifold constructed for a GaN HEMT compact model with a three-pole thermal network and a drain-lag trap: the trap contributes a $14\\,\\mu$s time constant set by the linearization and not by its $6$ ms emission time, the thermal submanifolds are nearly flat with linear reduced dynamics, and the expansion in the trap direction is valid only within a few thermal voltages ($nV_T\\approx26$ mV), so trap memory needs a global representation of the manifold.",
         "summary_vi": "Modeling memory effects (like thermal trapping or self-heating) in nonlinear two-port circuits is complex. This paper demonstrates that long-term memory behavior corresponds to motion on a slow invariant manifold, establishing mathematical existence and uniqueness proofs for this manifold.",
         "title": "Memory in Behavioral Models as Motion on a Slow Invariant Manifold"
-      },
-      "first_seen": "2026-10-01T11:50:42.243700+00:00"
-    },
-    "oai:arXiv.org:2609.38868v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.38868v1",
-        "link": "https://arxiv.org/abs/2609.38868",
-        "relevance": 5,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2609.38868v1 Announce Type: new \nAbstract: This paper proposes a novel blind beamforming strategy for signal enhancement aided by an intelligent reflecting surface (IRS), using only samples of the received signal power. Unlike existing conditional sampling mean (CSM) based approaches, which rely solely on comparing the CSM values, the proposed algorithm fully exploits the information in the sampled data by constructing a least squares problem. This enables the estimation of the phase difference between the IRS-reflected channel and the direct channel, ultimately yielding the optimal IRS phase configuration. The simulation results verify that, by fully leveraging the collected data, the proposed scheme outperforms the CSM-based method, especially when the number of IRS phase quantization levels is larger than 2, while incurring the same level of computational complexity.",
-        "summary_vi": "A blind beamforming algorithm for IRS-aided signal enhancement is proposed using only received signal power samples. Unlike prior conditional sampling mean (CSM) methods that merely compare CSM values, this approach formulates a least squares problem to fully exploit sampled data and estimate phase differences, improving beamforming performance without CSI.",
-        "title": "Blind IRS Beamforming Using Only Received Signal Power Measurements"
       },
       "first_seen": "2026-10-01T11:50:42.243700+00:00"
     },
@@ -2864,6 +2479,7 @@
     "https://lwn.net/Articles/1094470/": "2026-09-15T13:53:30.223364+00:00",
     "https://lwn.net/Articles/1094575/": "2026-09-18T23:36:06.086004+00:00",
     "https://lwn.net/Articles/1094720/": "2026-09-16T23:52:22.553694+00:00",
+    "https://lwn.net/Articles/1094721/": "2026-10-01T00:51:09.199810+00:00",
     "https://lwn.net/Articles/1094762/": "2026-09-16T23:52:22.553694+00:00",
     "https://lwn.net/Articles/1094840/": "2026-09-24T10:31:49.858853+00:00",
     "https://lwn.net/Articles/1094962/": "2026-09-17T23:42:02.289072+00:00",
@@ -2883,6 +2499,7 @@
     "https://lwn.net/Articles/1096200/": "2026-09-23T23:58:04.297683+00:00",
     "https://lwn.net/Articles/1096204/": "2026-09-23T23:58:04.297683+00:00",
     "https://lwn.net/Articles/1096245/": "2026-09-26T00:10:13.580076+00:00",
+    "https://lwn.net/Articles/1096293/": "2026-10-01T00:51:09.199810+00:00",
     "https://lwn.net/Articles/1096407/": "2026-09-25T00:04:46.328968+00:00",
     "https://lwn.net/Articles/1096431/": "2026-09-25T00:04:46.328968+00:00",
     "https://lwn.net/Articles/1096444/": "2026-09-25T00:04:46.328968+00:00",
@@ -2896,6 +2513,8 @@
     "https://lwn.net/Articles/1097466/": "2026-09-30T00:46:27.180142+00:00",
     "https://lwn.net/Articles/1097495/": "2026-09-30T00:46:27.180142+00:00",
     "https://lwn.net/Articles/1097758/": "2026-10-01T11:50:42.243700+00:00",
+    "https://lwn.net/Articles/1097761/": "2026-10-01T00:51:09.199810+00:00",
+    "https://lwn.net/Articles/1097802/": "2026-10-01T00:51:09.199810+00:00",
     "https://lwn.net/Articles/1098067/": "2026-10-02T01:06:03.018282+00:00",
     "https://rcrwireless.com/?p=434490": "2026-09-15T13:53:30.223364+00:00",
     "https://rcrwireless.com/?p=434506": "2026-09-15T13:53:30.223364+00:00",
@@ -2931,6 +2550,7 @@
     "https://rocm.blogs.amd.com/artificial-intelligence/mlperf-inf-v6.1/README.html": "2026-09-17T23:42:02.289072+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/mlperf-inf_v6.1-repro/README.html": "2026-09-17T23:42:02.289072+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/model-weight-profiles/README.html": "2026-09-26T00:10:13.580076+00:00",
+    "https://rocm.blogs.amd.com/artificial-intelligence/molmoact2-ryzers-strix/README.html": "2026-10-01T00:51:09.199810+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/poro2-knowledge-graph/README.html": "2026-09-16T02:41:57.982686+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/quark-strix-halo/README.html": "2026-09-26T00:10:13.580076+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/sim2real-rl-instinct/README.html": "2026-09-30T00:46:27.180142+00:00",
@@ -2940,6 +2560,7 @@
     "https://rocm.blogs.amd.com/software-tools-optimization/hyperloom-optimization/README.html": "2026-09-22T00:21:39.787426+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/logprob-debug/README.html": "2026-09-23T23:58:04.297683+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/thread-trace/README.html": "2026-09-16T02:41:57.982686+00:00",
+    "https://rocm.blogs.amd.com/software-tools-optimization/tracelens-analysis-agent/README.html": "2026-10-01T00:51:09.199810+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/ultraquant-kv4/README.html": "2026-09-26T00:10:13.580076+00:00",
     "https://spectrum.ieee.org/poetry-user-interface-design": "2026-09-27T23:59:46.648693+00:00",
     "https://spectrum.ieee.org/social-media-bans": "2026-09-26T00:10:13.580076+00:00",
@@ -2969,6 +2590,7 @@
     "https://www.cnx-software.com/?p=177672": "2026-09-30T00:46:27.180142+00:00",
     "https://www.cnx-software.com/?p=177682": "2026-09-29T11:35:47.491303+00:00",
     "https://www.cnx-software.com/?p=177759": "2026-09-30T11:23:36.449769+00:00",
+    "https://www.cnx-software.com/?p=177810": "2026-10-01T00:51:09.199810+00:00",
     "https://www.dpdk.org/?p=4421": "2026-09-18T23:36:06.086004+00:00",
     "https://www.huawei.com/en/news/2026/9/dcs-gartner-award": "2026-09-25T00:04:46.328968+00:00",
     "https://www.huawei.com/en/news/2026/9/hc-agentic-infra-industry-ai": "2026-09-18T23:36:06.086004+00:00",
@@ -3013,6 +2635,7 @@
     "https://www.phoronix.com/news/Debian-13.7-Released": "2026-09-13T00:26:06.323761+00:00",
     "https://www.phoronix.com/news/Debian-Inference-Portal": "2026-09-23T23:58:04.297683+00:00",
     "https://www.phoronix.com/news/Dragonfly-2.0-Released": "2026-09-17T12:48:54.388673+00:00",
+    "https://www.phoronix.com/news/EDG-CPP-Open-Sourced": "2026-10-01T00:51:09.199810+00:00",
     "https://www.phoronix.com/news/Fedora-45-Beta": "2026-09-16T02:41:57.982686+00:00",
     "https://www.phoronix.com/news/Fedora-45-Snapdragon-X1": "2026-09-29T01:16:55.286252+00:00",
     "https://www.phoronix.com/news/Fedora-Discuss-Collabora-Office": "2026-09-25T00:04:46.328968+00:00",
@@ -3074,6 +2697,7 @@
     "https://www.phoronix.com/news/More-AMDGPU-For-Linux-7.4": "2026-09-19T09:44:33.099539+00:00",
     "https://www.phoronix.com/news/NTFS-3G-2026.9.18": "2026-09-24T10:31:49.858853+00:00",
     "https://www.phoronix.com/news/NVIDIA-Display-Config-Server": "2026-09-29T01:16:55.286252+00:00",
+    "https://www.phoronix.com/news/NVIDIA-Wayland-Xorg-Latency": "2026-10-04T11:18:30.736596+00:00",
     "https://www.phoronix.com/news/NVMe-Apple-M3-Linux-Patches": "2026-09-25T10:36:06.746694+00:00",
     "https://www.phoronix.com/news/Nebula-Matrix-NIC-Linux-7.4": "2026-09-22T00:21:39.787426+00:00",
     "https://www.phoronix.com/news/NetBSD-9.5-Released": "2026-09-06T23:09:25.403583+00:00",
@@ -3106,6 +2730,7 @@
     "https://www.phoronix.com/news/Starling-0.5-3D-Desktop": "2026-09-20T23:32:03.775709+00:00",
     "https://www.phoronix.com/news/Steam-Beta-9-September-2026": "2026-09-10T00:38:49.074531+00:00",
     "https://www.phoronix.com/news/Steam-Deck-Better-Firefox": "2026-09-29T11:35:47.491303+00:00",
+    "https://www.phoronix.com/news/Steam-Frame-Turnip-Foveated": "2026-10-01T00:51:09.199810+00:00",
     "https://www.phoronix.com/news/Steam-Frame-Uses-Zink": "2026-09-18T23:36:06.086004+00:00",
     "https://www.phoronix.com/news/Steam-Survey-September-2025": "2026-10-02T01:06:03.018282+00:00",
     "https://www.phoronix.com/news/Toolpak": "2026-09-26T23:54:29.308170+00:00",
@@ -3130,6 +2755,7 @@
     "https://www.phoronix.com/news/hw-monitor-0.6": "2026-09-30T11:23:36.449769+00:00",
     "https://www.phoronix.com/news/libinput-1.32-Released": "2026-09-17T12:48:54.388673+00:00",
     "https://www.phoronix.com/news/openSUSE-Leap-16.1-RC": "2026-09-28T12:04:39.230765+00:00",
+    "https://www.phoronix.com/news/openSUSE-ZUPT-Backups": "2026-10-04T11:18:30.736596+00:00",
     "https://www.phoronix.com/review/amd-perfopt": "2026-09-30T00:46:27.180142+00:00",
     "https://www.phoronix.com/review/amd-zen5-intel-gnr-ws-smt": "2026-09-17T23:42:02.289072+00:00",
     "https://www.phoronix.com/review/chuwi-unibook-wildcat-lake": "2026-09-09T09:28:28.702623+00:00",
@@ -3138,6 +2764,7 @@
     "https://www.phoronix.com/review/linux-618-73-amd-epyc": "2026-09-22T00:21:39.787426+00:00",
     "https://www.phoronix.com/review/near-10-sec-kernel-build": "2026-09-26T00:10:13.580076+00:00",
     "https://www.phoronix.com/review/nvidia-vera-smt": "2026-09-29T11:35:47.491303+00:00",
+    "https://www.phoronix.com/review/openjdk-graalvm-temurin-semeru": "2026-10-01T00:51:09.199810+00:00",
     "https://www.phoronix.com/review/ubuntu-2610-amd64v3-lowend": "2026-09-16T23:52:22.553694+00:00",
     "https://www.phoronix.com/review/ubuntu-2610-panther-lake": "2026-09-25T00:04:46.328968+00:00",
     "https://www.phoronix.com/review/ubuntu-2610-strix-halo": "2026-09-18T23:36:06.086004+00:00",
@@ -3283,6 +2910,11 @@
     "https://www.reddit.com/r/embedded/t3_1wtwzkj": "2026-09-30T11:23:36.449769+00:00",
     "https://www.reddit.com/r/embedded/t3_1wtzoe1": "2026-09-30T11:23:36.449769+00:00",
     "https://www.reddit.com/r/embedded/t3_1wu09d8": "2026-09-30T11:23:36.449769+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wu71lg": "2026-10-01T00:51:09.199810+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wu77jw": "2026-10-01T00:51:09.199810+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wua37o": "2026-10-01T00:51:09.199810+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wuek9d": "2026-10-01T00:51:09.199810+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wug4qb": "2026-10-01T00:51:09.199810+00:00",
     "https://www.reddit.com/r/embedded/t3_1wuw7c1": "2026-10-01T11:50:42.243700+00:00",
     "https://www.reddit.com/r/embedded/t3_1wwjvd6": "2026-10-03T10:38:27.442783+00:00",
     "https://www.redhat.com/en/blog/5-reasons-why-your-lightwell-strategy-needs-more-just-patches": "2026-09-12T00:42:36.175668+00:00",
@@ -3338,6 +2970,7 @@
     "oai:arXiv.org:2510.27065v2": "2026-09-26T00:10:13.580076+00:00",
     "oai:arXiv.org:2510.27485v3": "2026-09-16T12:52:31.242072+00:00",
     "oai:arXiv.org:2511.19422v2": "2026-09-28T12:04:39.230765+00:00",
+    "oai:arXiv.org:2511.22537v2": "2026-10-01T00:51:09.199810+00:00",
     "oai:arXiv.org:2512.07011v2": "2026-09-30T11:23:36.449769+00:00",
     "oai:arXiv.org:2512.10089v2": "2026-09-22T00:21:39.787426+00:00",
     "oai:arXiv.org:2512.25065v3": "2026-09-29T11:35:47.491303+00:00",
@@ -3349,6 +2982,7 @@
     "oai:arXiv.org:2603.20001v3": "2026-09-24T10:31:49.858853+00:00",
     "oai:arXiv.org:2603.26139v2": "2026-09-24T10:31:49.858853+00:00",
     "oai:arXiv.org:2604.13536v5": "2026-09-17T12:48:54.388673+00:00",
+    "oai:arXiv.org:2604.16007v2": "2026-10-01T00:51:09.199810+00:00",
     "oai:arXiv.org:2604.19657v2": "2026-09-15T13:53:30.223364+00:00",
     "oai:arXiv.org:2604.19657v3": "2026-09-28T12:04:39.230765+00:00",
     "oai:arXiv.org:2605.01352v2": "2026-09-30T00:46:27.180142+00:00",
@@ -3360,6 +2994,7 @@
     "oai:arXiv.org:2607.13604v2": "2026-09-10T00:38:49.074531+00:00",
     "oai:arXiv.org:2607.17939v2": "2026-09-22T00:21:39.787426+00:00",
     "oai:arXiv.org:2608.00008v2": "2026-09-29T01:16:55.286252+00:00",
+    "oai:arXiv.org:2608.04264v2": "2026-10-01T00:51:09.199810+00:00",
     "oai:arXiv.org:2608.07179v2": "2026-09-16T23:52:22.553694+00:00",
     "oai:arXiv.org:2608.11234v3": "2026-09-22T10:21:49.085973+00:00",
     "oai:arXiv.org:2608.12123v2": "2026-09-16T02:41:57.982686+00:00",
@@ -3801,6 +3436,7 @@
     "oai:arXiv.org:2609.31851v1": "2026-09-29T11:35:47.491303+00:00",
     "oai:arXiv.org:2609.31864v1": "2026-09-29T11:35:47.491303+00:00",
     "oai:arXiv.org:2609.31887v1": "2026-09-29T11:35:47.491303+00:00",
+    "oai:arXiv.org:2609.31887v2": "2026-10-01T00:51:09.199810+00:00",
     "oai:arXiv.org:2609.31938v1": "2026-09-29T11:35:47.491303+00:00",
     "oai:arXiv.org:2609.31980v1": "2026-09-29T11:35:47.491303+00:00",
     "oai:arXiv.org:2609.32055v1": "2026-09-29T11:35:47.491303+00:00",
@@ -3845,6 +3481,7 @@
     "oai:arXiv.org:2609.34657v1": "2026-09-30T00:46:27.180142+00:00",
     "oai:arXiv.org:2609.34663v1": "2026-09-29T11:35:47.491303+00:00",
     "oai:arXiv.org:2609.34727v1": "2026-09-29T11:35:47.491303+00:00",
+    "oai:arXiv.org:2609.34818v2": "2026-10-01T00:51:09.199810+00:00",
     "oai:arXiv.org:2609.34927v1": "2026-09-30T00:46:27.180142+00:00",
     "oai:arXiv.org:2609.35173v1": "2026-09-30T00:46:27.180142+00:00",
     "oai:arXiv.org:2609.35310v1": "2026-09-30T00:46:27.180142+00:00",
@@ -3857,23 +3494,37 @@
     "oai:arXiv.org:2609.36074v1": "2026-09-30T11:23:36.449769+00:00",
     "oai:arXiv.org:2609.36106v1": "2026-09-30T11:23:36.449769+00:00",
     "oai:arXiv.org:2609.36122v1": "2026-09-30T11:23:36.449769+00:00",
+    "oai:arXiv.org:2609.36134v1": "2026-10-01T00:51:09.199810+00:00",
     "oai:arXiv.org:2609.36156v1": "2026-09-30T11:23:36.449769+00:00",
     "oai:arXiv.org:2609.36179v1": "2026-09-30T11:23:36.449769+00:00",
     "oai:arXiv.org:2609.36196v1": "2026-09-30T11:23:36.449769+00:00",
     "oai:arXiv.org:2609.36247v1": "2026-09-30T11:23:36.449769+00:00",
+    "oai:arXiv.org:2609.36267v1": "2026-10-01T00:51:09.199810+00:00",
     "oai:arXiv.org:2609.36522v1": "2026-09-30T11:23:36.449769+00:00",
+    "oai:arXiv.org:2609.36584v1": "2026-10-01T00:51:09.199810+00:00",
     "oai:arXiv.org:2609.36609v1": "2026-10-01T00:51:09.199810+00:00",
     "oai:arXiv.org:2609.36731v1": "2026-09-30T11:23:36.449769+00:00",
+    "oai:arXiv.org:2609.36752v1": "2026-10-01T00:51:09.199810+00:00",
     "oai:arXiv.org:2609.36763v1": "2026-09-30T11:23:36.449769+00:00",
     "oai:arXiv.org:2609.36845v1": "2026-09-30T11:23:36.449769+00:00",
     "oai:arXiv.org:2609.36899v1": "2026-09-30T11:23:36.449769+00:00",
     "oai:arXiv.org:2609.36938v1": "2026-09-30T11:23:36.449769+00:00",
     "oai:arXiv.org:2609.36954v1": "2026-09-30T11:23:36.449769+00:00",
+    "oai:arXiv.org:2609.36959v1": "2026-10-01T00:51:09.199810+00:00",
     "oai:arXiv.org:2609.37021v1": "2026-09-30T11:23:36.449769+00:00",
+    "oai:arXiv.org:2609.37062v1": "2026-10-01T00:51:09.199810+00:00",
+    "oai:arXiv.org:2609.37069v1": "2026-10-01T00:51:09.199810+00:00",
+    "oai:arXiv.org:2609.37073v1": "2026-10-01T00:51:09.199810+00:00",
+    "oai:arXiv.org:2609.37085v1": "2026-10-01T00:51:09.199810+00:00",
+    "oai:arXiv.org:2609.37137v1": "2026-10-01T00:51:09.199810+00:00",
     "oai:arXiv.org:2609.37233v1": "2026-09-30T11:23:36.449769+00:00",
+    "oai:arXiv.org:2609.37532v1": "2026-10-01T00:51:09.199810+00:00",
+    "oai:arXiv.org:2609.37627v1": "2026-10-01T00:51:09.199810+00:00",
+    "oai:arXiv.org:2609.37672v1": "2026-10-01T00:51:09.199810+00:00",
     "oai:arXiv.org:2609.37711v1": "2026-09-30T11:23:36.449769+00:00",
     "oai:arXiv.org:2609.37726v1": "2026-09-30T11:23:36.449769+00:00",
     "oai:arXiv.org:2609.37728v1": "2026-09-30T11:23:36.449769+00:00",
+    "oai:arXiv.org:2609.37995v1": "2026-10-01T00:51:09.199810+00:00",
     "oai:arXiv.org:2609.38734v1": "2026-10-01T11:50:42.243700+00:00",
     "oai:arXiv.org:2609.38897v1": "2026-10-01T11:50:42.243700+00:00",
     "oai:arXiv.org:2609.40046v1": "2026-10-01T11:50:42.243700+00:00",
