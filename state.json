@@ -99,6 +99,7 @@
     "https://rcrwireless.com/?p=434839": "2026-10-06T01:55:08.067921+00:00",
     "https://rcrwireless.com/?p=434869": "2026-10-07T01:01:57.012881+00:00",
     "https://rcrwireless.com/?p=434874": "2026-10-07T01:01:57.012881+00:00",
+    "https://rcrwireless.com/?p=434883": "2026-10-07T12:01:12.937548+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/iteratively-tuning-hipblaslt/README.html": "2026-09-10T00:38:49.074531+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/profiling-guide/att/README.html": "2026-09-22T23:49:48.541761+00:00",
     "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data": "2026-09-22T10:21:49.085973+00:00",
@@ -516,6 +517,10 @@
     "oai:arXiv.org:2610.02618v1": "2026-10-05T12:40:32.898052+00:00",
     "oai:arXiv.org:2610.03139v1": "2026-10-06T01:55:08.067921+00:00",
     "oai:arXiv.org:2610.03245v1": "2026-10-06T01:55:08.067921+00:00",
+    "oai:arXiv.org:2610.03879v1": "2026-10-07T12:01:12.937548+00:00",
+    "oai:arXiv.org:2610.03887v1": "2026-10-07T12:01:12.937548+00:00",
+    "oai:arXiv.org:2610.03961v1": "2026-10-07T12:01:12.937548+00:00",
+    "oai:arXiv.org:2610.04201v1": "2026-10-07T12:01:12.937548+00:00",
     "oai:arXiv.org:2610.04213v1": "2026-10-07T01:01:57.012881+00:00",
     "oai:arXiv.org:2610.04289v1": "2026-10-07T01:01:57.012881+00:00",
     "oai:arXiv.org:2610.04296v1": "2026-10-07T01:01:57.012881+00:00",
@@ -541,6 +546,32 @@
         "title": "TechNexion TELOS-AI4000 delivers 40 TOPS in compact form factor"
       },
       "first_seen": "2026-10-05T12:40:32.898052+00:00"
+    },
+    "https://linuxgizmos.com/?p=99394": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://linuxgizmos.com/?p=99394",
+        "link": "https://linuxgizmos.com/raspberry-pi-5-cluster-runs-qwen3-30b-a3b-at-15-tokens-s-on-cpu/",
+        "relevance": 3,
+        "source": "LinuxGizmos.com",
+        "summary": "Hellomatik has published a study and a modified distributed-llama implementation for running the Qwen3-30B-A3B language model across four Raspberry Pi 5 boards. Using only the boards’ Arm Cortex-A76 CPUs, the cluster reached a reported decode throughput of 15.143 tokens per second, without GPU or NPU acceleration or CPU overclocking. The setup uses four Raspberry Pi […]",
+        "summary_vi": "Hellomatik has published a study and a modified distributed-llama implementation for running the Qwen3-30B-A3B language model across four Raspberry Pi 5 boards. Using only the boards’ Arm Cortex-A76 C",
+        "title": "Raspberry Pi 5 cluster runs Qwen3-30B-A3B at 15 tokens/s on CPU"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "https://linuxgizmos.com/?p=99409": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://linuxgizmos.com/?p=99409",
+        "link": "https://linuxgizmos.com/ibase-ib966-3-5-inch-sbc-with-panther-lake-and-up-to-180-tops/",
+        "relevance": 3,
+        "source": "LinuxGizmos.com",
+        "summary": "IBASE has announced the IB966, a 3.5-inch SBC based on Intel Core Ultra Series 3 “Panther Lake” processors, with up to 180 TOPS of aggregate AI performance, 128GB of DDR5-7200 memory, dual 2.5GbE and three M.2 slots. IBASE indicates that the IB966 is available with three Intel Core Ultra Series 3 “Panther Lake” processors: Intel […]",
+        "summary_vi": "IBASE has announced the IB966, a 3.5-inch SBC based on Intel Core Ultra Series 3 “Panther Lake” processors, with up to 180 TOPS of aggregate AI performance, 128GB of DDR5-7200 memory, dual 2.5GbE and ",
+        "title": "IBASE IB966 3.5-inch SBC with Panther Lake and up to 180 TOPS"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
     },
     "https://lwn.net/Articles/1096963/": {
       "entry": {
@@ -620,6 +651,19 @@
       },
       "first_seen": "2026-10-06T01:55:08.067921+00:00"
     },
+    "https://rcrwireless.com/?p=434842": {
+      "entry": {
+        "category": "ran",
+        "id": "https://rcrwireless.com/?p=434842",
+        "link": "https://rcrwireless.com/20261007/open_ran/open-ran-ai-testing",
+        "relevance": 3,
+        "source": "RCR Wireless News",
+        "summary": "During the RCR Wireless News‘ Intelligent RAN Forum 2026, Viavi marketing manager Owen O’Donnell and Battelle vice president of product development Mark Reudink examined the evolution of open and intelligent…",
+        "summary_vi": "During the RCR Wireless News‘ Intelligent RAN Forum 2026, Viavi marketing manager Owen O’Donnell and Battelle vice president of product development Mark Reudink examined the evolution of open and inte",
+        "title": "Open RAN’s AI era puts interoperability and testing in focus"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
     "https://rcrwireless.com/?p=434853": {
       "entry": {
         "category": "ran",
@@ -658,6 +702,19 @@
         "title": "Schneider Electric and PTC consolidate industrial AI stack – but where’s the network? (Telco Diary)"
       },
       "first_seen": "2026-10-07T01:01:57.012881+00:00"
+    },
+    "https://rcrwireless.com/?p=434877": {
+      "entry": {
+        "category": "ran",
+        "id": "https://rcrwireless.com/?p=434877",
+        "link": "https://rcrwireless.com/20261007/carriers/what-a-single-square-kilometer-tells-us-about-starlink-mobile-vish",
+        "relevance": 3,
+        "source": "RCR Wireless News",
+        "summary": "Starlink Mobile’s real constraint might not be satellite coverage but capacity per square kilometer. A new model, offered up by Vish Nandlall, suggests where population density forces satellite service back…",
+        "summary_vi": "Starlink Mobile’s real constraint might not be satellite coverage but capacity per square kilometer. A new model, offered up by Vish Nandlall, suggests where population density forces satellite servic",
+        "title": "What a single square kilometer tells us about Starlink Mobile (Analyst Angle)"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
     },
     "https://rocm.blogs.amd.com/artificial-intelligence/taf-blog/README.html": {
       "entry": {
@@ -737,6 +794,19 @@
       },
       "first_seen": "2026-10-07T01:01:57.012881+00:00"
     },
+    "https://www.cnx-software.com/?p=178014": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.cnx-software.com/?p=178014",
+        "link": "https://www.cnx-software.com/2026/10/07/dspi-firmware-turns-raspberry-pi-rp2040-rp2350-into-a-usb-sound-card-with-an-onboard-dsp-engine/",
+        "relevance": 3,
+        "source": "CNX Software",
+        "summary": "DSPi is a full-featured audio DSP firmware for the Raspberry Pi Pico, Pico 2, and other Raspberry Pi RP2040/RP2350 boards, which turns them into a USB sound card with an integrated DSP. It allows users to make use of essential tools like room correction, active crossovers, parametric EQ, time alignment, and more, and essentially works as a regular sound card on your computer. DSPi firmware’s capabilities: Dual-Core DSP – EQ processing is split across both cores on both RP2040 and RP2350. USB Audio Interface – Supports 16-bit and 24-bit PCM input at 44.1, 48, and 96 kHz, working on macOS, Windows, Linux, and iOS. S/PDIF Input – 24-bit PCM stereo audio at 44.1 or 48kHz. 24-bit S/PDIF or I2S Outputs – Up to 4x independent stereo output slots (8x channels on RP2350, 4x channels on RP2040). Subwoofer Output – Dedicated mono PDM output channel with a high-performance 2nd-order delta-sigma modulator, [...] \n The post DSPi firmware turns Raspberry Pi RP2040/RP2350 into a USB sound card with an onboard DSP engine appeared first on CNX Software - Embedded Systems News .",
+        "summary_vi": "DSPi is a full-featured audio DSP firmware for the Raspberry Pi Pico, Pico 2, and other Raspberry Pi RP2040/RP2350 boards, which turns them into a USB sound card with an integrated DSP. It allows user",
+        "title": "DSPi firmware turns Raspberry Pi RP2040/RP2350 into a USB sound card with an onboard DSP engine"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
     "https://www.phoronix.com/news/AMD-ROCm-10.1": {
       "entry": {
         "category": "embedded",
@@ -749,6 +819,19 @@
         "title": "AMD ROCm 10.1 Released With Many Improvements"
       },
       "first_seen": "2026-10-06T01:55:08.067921+00:00"
+    },
+    "https://www.phoronix.com/news/AMD-Zen-6-IBS-Memory-Profiler": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/AMD-Zen-6-IBS-Memory-Profiler",
+        "link": "https://www.phoronix.com/news/AMD-Zen-6-IBS-Memory-Profiler",
+        "relevance": 3,
+        "source": "Phoronix",
+        "summary": "One of the AMD Zen 6 CPU features that hasn't been talked about too widely beyond appearing in a public AMD tech doc is the IBS Memory Profiler. This week in Prague at LPC 2026 an AMD engineer talked up Zen 6's IBS Memory Profiler and its benefits for hot page detection and promotion on Linux systems...",
+        "summary_vi": "One of the AMD Zen 6 CPU features that hasn't been talked about too widely beyond appearing in a public AMD tech doc is the IBS Memory Profiler. This week in Prague at LPC 2026 an AMD engineer talked ",
+        "title": "AMD Engineer Talks Up New IBS Memory Profiler Feature Found On Zen 6"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
     },
     "https://www.phoronix.com/news/Auto-CPUFreq-3.2": {
       "entry": {
@@ -867,6 +950,19 @@
       },
       "first_seen": "2026-10-07T01:01:57.012881+00:00"
     },
+    "https://www.phoronix.com/news/Qialcomm-QPaCE-Linux-ZRAM": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Qialcomm-QPaCE-Linux-ZRAM",
+        "link": "https://www.phoronix.com/news/Qialcomm-QPaCE-Linux-ZRAM",
+        "relevance": 3,
+        "source": "Phoronix",
+        "summary": "Qualcomm's Snapdragon 8 Elite Gen 6 \"Hawi\" SoC features the Qualcomm Page Compression Engine \"QPaCE\" hardware accelerator. Linux patches posted recently provide a QPaCE driver for accelerating page compression and decompression for the ZRAM block device...",
+        "summary_vi": "Qualcomm's Snapdragon 8 Elite Gen 6 \"Hawi\" SoC features the Qualcomm Page Compression Engine \"QPaCE\" hardware accelerator. Linux patches posted recently provide a QPaCE driver for accelerating page co",
+        "title": "Qualcomm Posts QPaCE Linux Driver Code For Faster ZRAM On Newest SoCs"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
     "https://www.phoronix.com/news/Qualcomm-HW-BIn-Trip-Point": {
       "entry": {
         "category": "embedded",
@@ -906,6 +1002,45 @@
       },
       "first_seen": "2026-10-07T01:01:57.012881+00:00"
     },
+    "https://www.phoronix.com/news/WSL2-Linux-Kernel-Fence-Sharing": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/WSL2-Linux-Kernel-Fence-Sharing",
+        "link": "https://www.phoronix.com/news/WSL2-Linux-Kernel-Fence-Sharing",
+        "relevance": 3,
+        "source": "Phoronix",
+        "summary": "Following the Windows Subsystem for Linux 3.0.2 release with support for running WSL2 now on very large servers and also experimental sparse VHD storage support, Microsoft has now released a new version of the WSL2 Linux kernel as their downstream kernel configuration tailored for WSL2 usage...",
+        "summary_vi": "Following the Windows Subsystem for Linux 3.0.2 release with support for running WSL2 now on very large servers and also experimental sparse VHD storage support, Microsoft has now released a new versi",
+        "title": "Microsoft Updates Its WSL2 Linux Kernel With DXGKRNL Improvement, More Features Enabled"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "https://www.phoronix.com/news/X.Org-12-New-Issues-2026": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/X.Org-12-New-Issues-2026",
+        "link": "https://www.phoronix.com/news/X.Org-12-New-Issues-2026",
+        "relevance": 3,
+        "source": "Phoronix",
+        "summary": "With the assistance of AI, another dozen security vulnerabilities affecting both the conventional X.Org Server as well as XWayland were made public this evening...",
+        "summary_vi": "With the assistance of AI, another dozen security vulnerabilities affecting both the conventional X.Org Server as well as XWayland were made public this evening...",
+        "title": "Another Dozen Vulnerabilities Found In The X.Org Server & XWayland"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "https://www.phoronix.com/news/XMFS-Linux-File-System": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/XMFS-Linux-File-System",
+        "link": "https://www.phoronix.com/news/XMFS-Linux-File-System",
+        "relevance": 3,
+        "source": "Phoronix",
+        "summary": "Huawei engineers are experimenting with a new file-system called XMFS. XMFS was presented this week at LPC 2026 in Czechia as a file-system for modern Linux servers with CXL 3.0 or Huawei United Bus connectivity...",
+        "summary_vi": "Huawei engineers are experimenting with a new file-system called XMFS. XMFS was presented this week at LPC 2026 in Czechia as a file-system for modern Linux servers with CXL 3.0 or Huawei United Bus c",
+        "title": "XMFS: Experimental File-System Being Worked On By Huawei For Modern Linux Servers"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
     "https://www.phoronix.com/news/YSERVER-1.7": {
       "entry": {
         "category": "embedded",
@@ -944,58 +1079,6 @@
         "title": "NVIDIA Vera HPC Performance Benchmarks Take On AMD EPYC, Intel Xeon"
       },
       "first_seen": "2026-10-07T01:01:57.012881+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wx9p9u": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wx9p9u",
-        "link": "https://www.reddit.com/r/embedded/comments/1wx9p9u/should_i_switch_to_ce_if_my_dream_is_to_be_a/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "My life-call would be working on the software of airplanes. I do like all aspects of it (even simulations), but I think Embedded is the right world for me. I'm spending all my time after being done with University work with embedded projects and I'm just about to start a multi-year project to build an STM32 flight controller on simulation software like XPlane/JSBsim, teaching myself everything while doing it and aiming to be done with it once my Master's ends, hoping it will be my ticket entry to a relevant role. Problem is, I'm a CS major and I'm doing my Master's in CS still (Reliable Software Systems). My choice comes from an interest in working in Game Development I had since I was a kid, but growing up and understanding life and the state of the industry made me conscious that it's not a great life choice for me. The \"good news\" is that I've been always interested in the low-level side of game development, so mainly C/C++, high performance/constraint stuff. I'd also like the idea to work on something more physical and \"\"\" important \"\"\" than a videogame. I'm finding myself self-teaching myself EE and CE concepts, while being \"updated\" on the state of the more CS-side stuff through Uni, but which I don't really have interest in. I tell myself a project like the one I've described would give me the chance to get an interview to a relevant role, but in the back of my head I can't stop thinking I've picked the wrong degree for it, and I feel it's too late to switch now (I'm 26y/o and I've already done 5 out of 12 exams of this Master's). What do you think? I live in Italy and there are a lot of jobs posting that specifically list CE and not CS, while some others list both. Outside of Italy I see that they don't seem to discriminate the two (actually I see way more \"CS\" than \"CE\"), which is my kind of hopium right now. Would really love to hear your thoughts. Thanks. submitted by /u/Electrical-Dog-8572 [link] [comments]",
-        "summary_vi": "An aspiring flight software engineer asks if they should switch their major to Computer Engineering. They are currently teaching themselves embedded systems by building an STM32-microcontroller flight controller integrated with simulation software.",
-        "title": "Should I switch to CE if my dream is to be a Flight Software Engineer?"
-      },
-      "first_seen": "2026-10-04T11:18:30.736596+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wxch5z": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wxch5z",
-        "link": "https://www.reddit.com/r/embedded/comments/1wxch5z/i_made_patch_panel_less_than_2_dolar_for_home/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "submitted by /u/linusyp [link] [comments]",
-        "summary_vi": "A community member shares a project showcasing a home server patch panel built for under two dollars. The provided snippet does not contain any technical details, design specifications, or assembly instructions.",
-        "title": "I made patch panel less than 2 dolar for home server haha"
-      },
-      "first_seen": "2026-10-04T11:18:30.736596+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wxd22v": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wxd22v",
-        "link": "https://www.reddit.com/r/embedded/comments/1wxd22v/transition_out_of_embedded_to_pure_software/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "Hello Embedded Community! I am currently an embedded SWE with 1 YOE since graduating last year. My work revolves around camera modules, edge AI and MCUs. If I were to continue down this path I do see myself moving more deeply into the robotics/CV side of embededd SWE. However, when I compare my trajectory against my peers', it seems that I will be far behind them by miles in terms of compensation. I am curious if anyone has ever made the switch to a pure software engineering career, especially FAANG level companies. Since I am still early in my career, I am still trying to figure out whether to double down on embedded or just start leetcoding and learning systems design to land a job that pay much more. Genuinely would love to hear everyone's opinion and your personal experience thus far! You could also share your current plans for your career and where you see yourself in embedded too. submitted by /u/MurkyMistyRoad [link] [comments]",
-        "summary_vi": "An embedded software engineer with one year of experience in camera modules, edge AI, and microcontrollers asks about transitioning to pure software engineering. The main driver for this change is the expectation of significantly higher compensation in pure software roles.",
-        "title": "Transition out of Embedded to Pure Software?"
-      },
-      "first_seen": "2026-10-04T11:18:30.736596+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1wxd5ic": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wxd5ic",
-        "link": "https://www.reddit.com/r/embedded/comments/1wxd5ic/yet_another_ai_generated_mr/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "[Rant inside] So, in my company a lot of people are really passionate about their chatbots. Most of the time you don't really see it, as it's supposed to be, but every other week I get a major surprise. Last week I had a member of my team pulling out an ai generated MR fixing a \"bug\" by having a bash script, executed by our build system, that edits a system header to inject a semi-stub function.. so that he/she wouldn't have to call the \"real\" \"bugged\" function that generates the error. Another MR from a senior member got a fantastic factor 100 speedup by not executing our DSP algorithm and just returning a nice array of zeros (accidentally messed up some tbb task... our CI did flag the issue here at least). So I'm thinking, either chatbots becomes good enough to steal my job, or bad but convenient enough to make it hell. The second option at least comes with the certainty I will have a job? The whole mantra \"you need to know what to ask about\" is starting to make sense to me now. How is the ai revolution going for you? submitted by /u/Johnsmtg [link] [comments]",
-        "summary_vi": "An engineer shares a complaint about a team member submitting an AI-generated Merge Request to fix a bug. The proposed change used a build-system bash script to inject a dummy function into a system header, bypassing the original failing function.",
-        "title": "Yet another AI generated MR"
-      },
-      "first_seen": "2026-10-04T11:18:30.736596+00:00"
     },
     "https://www.reddit.com/r/embedded/t3_1wxsift": {
       "entry": {
@@ -1192,6 +1275,19 @@
       },
       "first_seen": "2026-10-06T12:14:45.665168+00:00"
     },
+    "https://www.reddit.com/r/embedded/t3_1wz2zdd": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wz2zdd",
+        "link": "https://www.reddit.com/r/embedded/comments/1wz2zdd/enclosures_box/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "If you're commercializing a product (or just want something nice and clean) where do you design and manufacture the boxes for your PCBs? Edit: for sake of discussion I'm excluding 3D printing at home even though that's probably the most viable solution. submitted by /u/witx_ [link] [comments]",
+        "summary_vi": "If you're commercializing a product (or just want something nice and clean) where do you design and manufacture the boxes for your PCBs? Edit: for sake of discussion I'm excluding 3D printing at home ",
+        "title": "Enclosures / box"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
     "https://www.reddit.com/r/embedded/t3_1wz9q7n": {
       "entry": {
         "category": "embedded",
@@ -1244,6 +1340,58 @@
       },
       "first_seen": "2026-10-07T01:01:57.012881+00:00"
     },
+    "https://www.reddit.com/r/embedded/t3_1wzlkeq": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wzlkeq",
+        "link": "https://www.reddit.com/r/embedded/comments/1wzlkeq/at_serious_situation_in_my_life/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "I’m a recent ECE graduate and completed 6 months of Embedded Systems training at Vector India. My main goal is to build a career in embedded systems/firmware. I have an opportunity a role involving: - Embedded C & microcontrollers - Sensors, data acquisition & IoT - Ethernet, TCP/IP, Modbus, PROFINET & serial communication - PLC & Siemens HMI - Machine vision / OpenCV / Python - Industrial robots & motion - PLC-camera-robot-PC integration - Field work, commissioning and some travel The role has a 2-year contract/service agreement. My concern is: if I spend 2 years in this kind of industrial automation/integration role, will it help me move into a pure Embedded/Firmware Engineer role later, or could I get stuck in PLC/automation? Would you take this opportunity if your long-term goal was embedded systems? Any advice from people working in embedded, automation, robotics or industrial systems would be really helpful. submitted by /u/Ok-Regular2199 [link] [comments]",
+        "summary_vi": "I’m a recent ECE graduate and completed 6 months of Embedded Systems training at Vector India. My main goal is to build a career in embedded systems/firmware. I have an opportunity a role involving: -",
+        "title": "At Serious Situation in my life"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wzo842": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wzo842",
+        "link": "https://www.reddit.com/r/embedded/comments/1wzo842/ucc21550q1_120_v_b2b_nmos_ltspice_circuit_not/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "I'm testing a 120 V high-side B2B NMOS switch using a UCC21550-Q1. The MOSFETs are connected drain-to-drain, and I'm using separate isolated 15 V supplies for the two driver channels. My understanding is that the gate-driver supplies should float with the MOSFET sources, e.g.: VSSA = 120 V VDDA = 135 V VDDA - VSSA = 15 V However, my LTspice simulation is not working as expected. I've attached the schematic and waveform. Could someone take a look and help identify what I'm doing wrong? I'm particularly interested in whether the UCC21550-Q1 can be used this way with the secondary-side references floating around 120 V, and whether there is something wrong with my gate-driver connections. Thanks! submitted by /u/InternalAgile5828 [link] [comments]",
+        "summary_vi": "I'm testing a 120 V high-side B2B NMOS switch using a UCC21550-Q1. The MOSFETs are connected drain-to-drain, and I'm using separate isolated 15 V supplies for the two driver channels. My understanding",
+        "title": "UCC21550-Q1 + 120 V B2B NMOS: LTspice circuit not working as expected"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wzrff5": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wzrff5",
+        "link": "https://www.reddit.com/r/embedded/comments/1wzrff5/how_to_learn_embedded_systems_by_myself/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "I am a second year computer science student and I am planning to learn embedded systems by myself but I don’t know where to start or if I can even learn it by myself. Can I get any advice on how to start and what to do? submitted by /u/EveningAsparagus8762 [link] [comments]",
+        "summary_vi": "I am a second year computer science student and I am planning to learn embedded systems by myself but I don’t know where to start or if I can even learn it by myself. Can I get any advice on how to st",
+        "title": "How to learn embedded systems by myself"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wzrtjk": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wzrtjk",
+        "link": "https://www.reddit.com/r/embedded/comments/1wzrtjk/how_demodulation_section_working_and_how_rc_time/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "submitted by /u/Relevant_Pumpkin9190 [link] [comments]",
+        "summary_vi": "submitted by /u/Relevant_Pumpkin9190 [link] [comments]",
+        "title": "How demodulation section working and how RC time constant works with microcontroller."
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
     "oai:arXiv.org:2503.08530v4": {
       "entry": {
         "category": "research",
@@ -1256,6 +1404,19 @@
         "title": "A Probabilistic Choreography Language for PRISM"
       },
       "first_seen": "2026-10-06T01:55:08.067921+00:00"
+    },
+    "oai:arXiv.org:2508.19073v4": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2508.19073v4",
+        "link": "https://arxiv.org/abs/2508.19073",
+        "relevance": 3,
+        "source": "arXiv cs.PF (Performance)",
+        "summary": "arXiv:2508.19073v4 Announce Type: replace-cross \nAbstract: Deep learning training commonly runs on shared multi-tenant GPU servers, where exclusive allocation provides isolation but can leave resources underutilized and increase queueing time. Collocation can improve efficiency, but interference-agnostic placement may cause severe slowdowns, while inaccurate memory information can lead to out-of-memory (OOM) failures.\n We present AEGIS, a server-scale runtime scheduling system for controlled collocation of deep learning training workloads on shared multi-GPU servers. AEGIS integrates memory feasibility, post-placement observation, runtime-pressure filtering, placement, and OOM-aware recovery in a single scheduling loop. After placement, AEGIS observes workload activity before permitting further collocation, then uses low-overhead telemetry to determine whether a GPU can safely accept additional work. OOM failures trigger retries under progressively safer memory conditions, eventually falling back to exclusive execution. This online approach avoids costly offline pairwise compatibility profiling.\n We evaluate AEGIS using vision, Transformer, recommendation, and LLM-style workloads across three production-derived traces. AEGIS reduces geometric-mean makespan by 16% relative to Lucid, 21% relative to Horus, and 27% relative to exclusive allocation. Sensitivity studies show that activity-anchored observation and runtime-pressure filtering balance conservative isolation against interference-agnostic collocation, improving makespan while limiting sharing-induced per-task slowdown.",
+        "summary_vi": "arXiv:2508.19073v4 Announce Type: replace-cross \nAbstract: Deep learning training commonly runs on shared multi-tenant GPU servers, where exclusive allocation provides isolation but can leave resource",
+        "title": "AEGIS: Runtime-Guided GPU Collocation for Multi-Tenant Deep Learning Training"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
     },
     "oai:arXiv.org:2510.07582v2": {
       "entry": {
@@ -1933,32 +2094,6 @@
       },
       "first_seen": "2026-10-06T12:14:45.665168+00:00"
     },
-    "oai:arXiv.org:2610.03879v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2610.03879v1",
-        "link": "https://arxiv.org/abs/2610.03879",
-        "relevance": 5,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2610.03879v1 Announce Type: new \nAbstract: Integrated Sensing and Communication (ISAC) will allow 6G networks to provide both sensing and communication services through shared infrastructure and spectrum resources. However, network slicing that views these services as distinct slices with distinct objectives and performance requirements will inevitably miss the emergent value of integrating them. By considering Sensing-Assisted Communication (SAC) and Communication-Assisted Sensing (CAS), which create interdependencies between services, we can observe trade-offs in resources dimensioned to support each slice and, ultimately, the ISAC slicing performance. As such, this paper proposes a performance analysis of an ISAC slicing framework that accounts for resource allocation and sensor density, as well as SAC and CAS, dimensioned to achieve slice-specific Service-Level Agreement (SLA) satisfaction. Numerical simulations, across different bandwidth allocations, sensor deployments, and demand scenarios, show that ISAC slicing performance is fundamentally constrained by sensing resolution, shaped by demand, and scaled by sensor deployment. These findings provide insights for the design of future ISAC slicing mechanisms.",
-        "summary_vi": "The paper addresses network slicing for Integrated Sensing and Communication (ISAC) in 6G networks, proposing that traditional slicing treating sensing and communication as separate services misses synergistic benefits. The approach incorporates Sensing-Assisted Communication (SAC) and Communication-Assisted Sensing (CAS) to better exploit shared infrastructure and spectrum, though specific performance metrics are not detailed in the available excerpt.",
-        "title": "Performance Analysis of ISAC Slicing with Sensing-Assisted Communication and Communication-Assisted Sensing"
-      },
-      "first_seen": "2026-10-06T12:14:45.665168+00:00"
-    },
-    "oai:arXiv.org:2610.03887v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2610.03887v1",
-        "link": "https://arxiv.org/abs/2610.03887",
-        "relevance": 5,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2610.03887v1 Announce Type: new \nAbstract: Upper mid-band spectrum is promising for 5G and 6G cellular networks, yet concrete and low-emissivity glass impose over 20 dB of building penetration loss above 2 GHz, degrading outdoor-to-indoor (O2I) coverage. A reconfigurable intelligent surface (RIS) on a neighboring building bypasses this blockage by focusing energy onto indoor users. This paper introduces PRIMO (Parallel RIS Min-Rate Optimization), a training-free joint optimizer of base-station precoding, RIS phase shifts, and RIS placement, validated by calibrated ray tracing in a MetroTech Commons digital twin (Brooklyn, NY) at 6.75 and 16.95 GHz. At equal physical aperture, half-wavelength spacing packs 6.25 times as many elements per array at FR3 as at FR1(C), so FR1(C) leads at low indoor-user counts while FR3 dominates at higher counts, where the additional spatial degrees of freedom suppress inter-user interference. Above a 1 bps/Hz service floor, PRIMO supports 92% more indoor users at FR3 than at FR1(C), and raises the minimum user rate by up to 90% over a fully converged alternating-optimization baseline while running about 100 times faster.",
-        "summary_vi": "Upper mid-band spectrum faces significant outdoor-to-indoor coverage challenges due to building penetration loss exceeding 20 dB above 2 GHz from concrete and low-emissivity glass. The paper proposes PRIMO, a training-free joint optimizer for base station beamforming and reconfigurable intelligent surface (RIS) placement on neighboring buildings to redirect energy to indoor users, bypassing blockage while maintaining coverage.",
-        "title": "Joint Beamforming and RIS Deployment Optimization for Outdoor-to-Indoor Coverage at Upper Mid-Band: A Dual-Band Ray-Tracing Study"
-      },
-      "first_seen": "2026-10-06T12:14:45.665168+00:00"
-    },
     "oai:arXiv.org:2610.03934v1": {
       "entry": {
         "category": "research",
@@ -1984,19 +2119,6 @@
         "title": "TreeWalker: Partial Evaluation for Grouped Tree-Ensemble Inference"
       },
       "first_seen": "2026-10-07T01:01:57.012881+00:00"
-    },
-    "oai:arXiv.org:2610.03961v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2610.03961v1",
-        "link": "https://arxiv.org/abs/2610.03961",
-        "relevance": 5,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2610.03961v1 Announce Type: new \nAbstract: Although scattering is inherently non-separable, holographic multiple-input multiple-output channels are commonly modeled using separable scattering across the source and receiver. In this paper, we investigate non-separable scattering in a non-line-of-sight holographic line model based on wavenumber-division multiplexing. We model its power spectral factor (PSF) using a bivariate von Mises-Fisher (vMF) distribution and introduce a non-separability parameter. We prove that the marginal densities flatten and their Kullback--Leibler divergence from the uniform distribution decreases monotonically with non-separability. Using majorization theory, we further establish that an upper bound and an approximation at low signal-to-noise ratio (SNR) of the ergodic spectral efficiency increase monotonically. Numerical results validate the analysis and demonstrate the performance gains of non-separable scattering over its separable counterpart.",
-        "summary_vi": "Holographic MIMO channels typically assume scattering is separable between source and receiver, but real channels exhibit non-separable scattering. This work models power spectral factors using bivariate von Mises-Fisher distributions in wavenumber-division multiplexing based non-line-of-sight holographic systems to account for coupled spatial correlation, though the summary excerpt does not detail the analytical results or practical implications.",
-        "title": "Analysis of Non-Separable Scattering in WDM-Based NLoS Holographic MIMO"
-      },
-      "first_seen": "2026-10-06T12:14:45.665168+00:00"
     },
     "oai:arXiv.org:2610.03969v1": {
       "entry": {
@@ -2060,19 +2182,6 @@
         "summary": "arXiv:2610.04041v1 Announce Type: new \nAbstract: Continuous-discrete filtering is a classical problem in signal processing and control theory, whereby the state driving a stochastic differential equation (SDE) must be inferred from noisy, partial discrete-time observations. Corresponding filtering algorithms are often formed as discrete-time methods and applied to a discretization of the SDE, an approach limited by the incurred discretization error, or model a type of Gaussian moment ordinary differential equation (ODE) flow, which is approximate for nonlinear dynamics. We introduce a new method, the Wiener-space cubature Kalman filter (WSC-KF), for Gaussian filtering in this continuous-discrete setting. The WSC-KF combines spatial sigma-point representations with Wiener space cubature integration, effectively approximating iterated integral terms of the driving Brownian motion to higher-order than standard discretization (e.g., Ito-Taylor expansions), or approximate moment-ODE flows (e.g., as in the unscented Kalman filter). Theoretically, we characterize the path-law approximation degree of WSC-KF through a tunable model order parameter. We prove that, depending on the model order chosen, WSC-KF provides weak order bounds comparable to or dominating that of a cubature Kalman filter using a first-order Ito predict step. Numerically, we confirm that rate on a globally Lipschitz Levy-area diffusion. Degree-5 Wiener cubature matches mixed iterated integrals that existing continuous-discrete Kalman predictors omit, while remaining efficiently computable; this is the mechanism enabling higher-order weak path-law approximation.",
         "summary_vi": "arXiv:2610.04041v1 Announce Type: new \nAbstract: Continuous-discrete filtering is a classical problem in signal processing and control theory, whereby the state driving a stochastic differential equat",
         "title": "Wiener Space Cubature for Nonlinear Gaussian Filtering"
-      },
-      "first_seen": "2026-10-06T12:14:45.665168+00:00"
-    },
-    "oai:arXiv.org:2610.04201v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2610.04201v1",
-        "link": "https://arxiv.org/abs/2610.04201",
-        "relevance": 5,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2610.04201v1 Announce Type: new \nAbstract: Deep learning precoders, particularly those based on Transformer architectures, offer superior spectral efficiency for Massive MIMO systems but may incur high computational cost. While existing mixed-precision quantization studies on convolutional neural networks establish important energy baselines, traditional discrete search methods fail to scale to the large parameter spaces of modern Transformers. To bridge this gap, we apply a differentiable precision learning technique to massive MIMO precoding. This approach autonomously and jointly optimizes weights, activations, quantization step sizes, and layer-wise bit-widths in a single training loop, directly optimizing for energy efficiency. We further expand this approach by incorporating Neural Architecture Search across various Transformer model sizes and evaluating the impact of random versus floating-point trained initializations on resolution tuning. Ultimately, we demonstrate that the proposed training method enables the deployment of highly compact Transformer precoders, improving energy efficiency by up to 288\\(\\times\\) compared to the classical Weighted Minimum Mean Square Error algorithm at equal sum-rate performance in a dense downtown environment.",
-        "summary_vi": "Transformer-based deep learning precoders achieve high spectral efficiency for Massive MIMO but incur substantial computational cost. The paper applies differentiable mixed-precision quantization with automatic resolution tuning to scale beyond discrete search limitations, reducing computational overhead while preserving precoding performance across varying quantization bit-widths.",
-        "title": "Quantized Transformers for Massive MIMO Precoding with Automatic Resolution Tuning"
       },
       "first_seen": "2026-10-06T12:14:45.665168+00:00"
     },
@@ -2257,6 +2366,19 @@
         "title": "AID: A Framework for AI Infrastructure Dynamics"
       },
       "first_seen": "2026-10-06T12:14:45.665168+00:00"
+    },
+    "oai:arXiv.org:2610.04801v2": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.04801v2",
+        "link": "https://arxiv.org/abs/2610.04801",
+        "relevance": 3,
+        "source": "arXiv cs.PF (Performance)",
+        "summary": "arXiv:2610.04801v2 Announce Type: replace-cross \nAbstract: A useful model of AI inference infrastructure must specify the system state, the information available to an observer, and the decisions the model is intended to support. We introduce AID (AI Infrastructure Dynamics), a framework for describing this learning problem across coupled physical, computational, networking, and serving processes. The formulation allows structured and variable-size state, asynchronous observations, multiple physical timescales, and demand that responds to service. We distinguish representations that support prediction under an existing policy from those that preserve service outcomes under changed actions, and separate both from identifying intervention responses. Two analytical results describe a lower bound on prediction error when available observations cannot distinguish models and a sufficient condition for exact controlled state reduction. These results apply established information and state-abstraction principles to AI infrastructure. We then describe a validation protocol for cache representations, workload histories, measurement availability, and imposed actions.",
+        "summary_vi": "arXiv:2610.04801v2 Announce Type: replace-cross \nAbstract: A useful model of AI inference infrastructure must specify the system state, the information available to an observer, and the decisions the ",
+        "title": "AID: A Framework for AI Infrastructure Dynamics"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
     },
     "oai:arXiv.org:2610.04852v1": {
       "entry": {
@@ -2453,6 +2575,19 @@
       },
       "first_seen": "2026-10-06T12:14:45.665168+00:00"
     },
+    "oai:arXiv.org:2610.05281v2": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.05281v2",
+        "link": "https://arxiv.org/abs/2610.05281",
+        "relevance": 3,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2610.05281v2 Announce Type: replace-cross \nAbstract: Modern agents increasingly ground their reasoning in observations returned by tools, such as file contents read from a workspace. However, the data sources underlying these observations may later be modified by users, other agents, or external tools, while the model retains only the stale content in its context window. Existing agent runtimes provide little support for notifying the model that a previously observed fact has become stale, causing agents to reuse outdated observations and make incorrect claims about the current workspace state. We propose Concord, a context coherence framework that maintains the consistency between tool observation in agent context and the mutable sources from which they were derived. Concord links each observation to its source, detects source changes, and uses configurable handling policies to update, annotate, or suppress stale context before reuse. Concord is applicable across different agent runtimes and external resources, and can be easily extended to new runtime-resource settings. We implement Concord as a general framework, and instantiate a concrete use case to assess its effectiveness. We construct ConcordBench, where previously observed file contents become stale after subsequent edits. Across three evaluated frontier models, Concord produces answers consistent with the restored workspace state in all evaluated cases under these constructed conditions, matching the oracle on recover count for this benchmark, while using 46.4% fewer tokens than the strongest non-oracle baseline.",
+        "summary_vi": "arXiv:2610.05281v2 Announce Type: replace-cross \nAbstract: Modern agents increasingly ground their reasoning in observations returned by tools, such as file contents read from a workspace. However, th",
+        "title": "When Agent Context Goes Stale: Incoherence in Volatile Agent Context"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
     "oai:arXiv.org:2610.05305v1": {
       "entry": {
         "category": "research",
@@ -2647,6 +2782,344 @@
         "title": "Hybrid Classical-Quantum Solutions to Accelerate the Adoption of Quantum Computing"
       },
       "first_seen": "2026-10-07T01:01:57.012881+00:00"
+    },
+    "oai:arXiv.org:2610.06900v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.06900v1",
+        "link": "https://arxiv.org/abs/2610.06900",
+        "relevance": 3,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2610.06900v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used in binary decompilation to refine the C-like pseudocode produced by traditional rule-based decompilers. While this pseudocode is useful, it is a heuristic and lossy abstraction rather than a faithful copy of the source code. It often contains decompiler errors, especially for aggressively optimized binaries where critical low-level details are obscured. We present ASAP, an assembly-source aligned pseudocode refinement framework for binary decompilation. ASAP learns source-aligned assembly representations from paired source and binary functions using joint function-level and snippet-level contrastive alignment. A Q-Former then compresses chunk-level assembly features into a fixed number of assembly tokens that condition the decompilation LLM alongside the decompiler-produced pseudocode. During refinement, we use stochastic pseudocode masking and a relative assembly-advantage loss to reduce the model's tendency to ignore assembly features and rely only on pseudocode refining. On two decompilation benchmarks across multiple compiler optimization levels, ASAP improves the average re-execution rate from 64.7% to 71.9% and the average recompilation rate from 91.6% to 96.6% compared with the strongest baseline, offering both a new perspective and a practical solution to binary decompilation.",
+        "summary_vi": "arXiv:2610.06900v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used in binary decompilation to refine the C-like pseudocode produced by traditional rule-based decompile",
+        "title": "ASAP: Assembly-Source Aligned Pseudocode Refinement For Binary Decompilation"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.06905v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.06905v1",
+        "link": "https://arxiv.org/abs/2610.06905",
+        "relevance": 3,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2610.06905v1 Announce Type: new \nAbstract: Large language models (LLMs) progressively support embedded hardware development, but a plausible recommendation may pose safety risks when acting on the physical hardware. Because electrical safety can be different between every microcontroller board, a practical question is raised: can LLMs have the capability to make the right decision on whether a proposed user operation is safe for the board? Although benchmarks for embedded development exist, they primarily target code generation and hardware design tasks. This highlights the lack of tested board-specific judgment regarding electrical safety. To address this gap, we introduce the ElecSafety benchmark to evaluate whether an LLM can respond with the correct label and derive that label from the proper manufacturer constraints and rules. We extract these constraints from vendor datasheets and hardware manuals. Each scenario is defined by a decisive condition and a gold label (safe, hazardous, or cannot determine) before translating the scenario into natural language. We categorize the scenarios into violation and compliant cases, board-swap, near-boundary, and missing-information. We then evaluated the scenario on six open-weight LLMs under various conditions of rule access and token limitations. The finding shows board rules can improve accuracy, whereas limiting the token has a smaller impact. Even the best configuration remains unreliable on near-boundary and missing-information scenarios, and a correct label often rests on the inaccurate constraints.",
+        "summary_vi": "arXiv:2610.06905v1 Announce Type: new \nAbstract: Large language models (LLMs) progressively support embedded hardware development, but a plausible recommendation may pose safety risks when acting on t",
+        "title": "ElecSafety: Diagnosing Large Language Model Safety Judgments for Microcontroller Boards"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.06911v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.06911v1",
+        "link": "https://arxiv.org/abs/2610.06911",
+        "relevance": 3,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2610.06911v1 Announce Type: new \nAbstract: Directed Diffusion (DD), uses mechanisms such as data aggregation and in-network processing to suppress the additional data overhead however there is no guarantee that paths from nearby sources join after a few hops. Also for path construction, each source floods a distinct exploratory data (ED) packet through the network which is not necessary for nearby sources. In this paper an efficient data-gathering protocol (EDAP) is proposed to address the problems of late-aggregation and distinct ED-flooding through using a virtual sink (VS) node nearby the sources which plays the role of sink node and broadcasts local interest messages and routed gathered data toward destination. Also in this protocol, multiple paths are constructed between virtual sink and the sink node which leads to load-balancing and increase in the life-time of the network nodes. Our routing protocol can produce more than one disjoint or braided path and spread the gathered data properly between constructed paths according to their length and remaining energy. Simulation results shows that in this way a significant amount of energy can be saved and the network lifetime will be increased considerably (up to 75% better than DD).",
+        "summary_vi": "arXiv:2610.06911v1 Announce Type: new \nAbstract: Directed Diffusion (DD), uses mechanisms such as data aggregation and in-network processing to suppress the additional data overhead however there is n",
+        "title": "EDAP: An Efficient Data-Gathering Protocol for Wireless Sensor Networks"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.06937v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.06937v1",
+        "link": "https://arxiv.org/abs/2610.06937",
+        "relevance": 3,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2610.06937v1 Announce Type: new \nAbstract: Reducing logic depth during FPGA technology mapping does not necessarily eliminate fanout bottlenecks in the resulting LUT networks.Replicating heavily loaded LUTs can alleviate these bottlenecks, but the added copies consume area and may increase upstream loading. We propose FAPO, a mapper-independent post-mapping optimizer that jointly refines sink assignments and LUT cuts under a final-area constraint.Replication, cut switching, and recovery are evaluated by the resulting live LUT count.We derive a necessary all-critical-path condition for delay reduction and obtain minimum-copy proposals by minimum cut within a restricted same-cut family.These proposals complement greedy refinement, with mappings selected by full-network area and timing.Experiments on EPFL benchmarks with three initial mappers achieve geometric-mean reductions of up to 14.48% in fanout-aware area--timing product (ATP) with a 5% final-area allowance.VPR evaluation shows a 7.04% reduction in routed critical-path delay relative to ABC if.",
+        "summary_vi": "arXiv:2610.06937v1 Announce Type: new \nAbstract: Reducing logic depth during FPGA technology mapping does not necessarily eliminate fanout bottlenecks in the resulting LUT networks.Replicating heavily",
+        "title": "FAPO: Fanout-Aware Post-Mapping Optimization for LUT-Based FPGAs"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.06939v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.06939v1",
+        "link": "https://arxiv.org/abs/2610.06939",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2610.06939v1 Announce Type: new \nAbstract: We study the \\textit{optimal gathering} problem over a finite set of designated \\textit{meeting nodes} for \\textit{asynchronous, anonymous,} and \\textit{oblivious} mobile robots on an infinite grid under crash faults. The robots have global visibility and strong multiplicity detection, but share neither a coordinate system nor chirality. The objective is to gather all non-faulty robots at a \\textsc{Weber Meeting Node}, minimizing the total Manhattan distance from their initial positions. Up to $n-2$ robots may crash permanently, and such crashes are indistinguishable from arbitrary delays. Existing approaches often rely on a designated robot to break symmetry, whose crash may block the remaining robots indefinitely. Instead, our approach enables every robot to independently select the same target from its snapshot, while target-dependent restricted shortest paths preserve the target as a \\textsc{Weber Meeting Node}. We prove that, under strong multiplicity detection, optimal gathering is impossible from certain fully symmetric configurations. For all remaining configurations, our algorithm \\textsc{CrashTolerantWeberGathering()} selects a unique common target, preserves its optimality throughout the execution, and allows non-faulty robots to progress without waiting for crashed robots, thereby guaranteeing gathering in finite time.",
+        "summary_vi": "arXiv:2610.06939v1 Announce Type: new \nAbstract: We study the \\textit{optimal gathering} problem over a finite set of designated \\textit{meeting nodes} for \\textit{asynchronous, anonymous,} and \\texti",
+        "title": "When Robots Crash: Optimal Asynchronous Gathering at Weber Meeting Nodes"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.06968v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.06968v1",
+        "link": "https://arxiv.org/abs/2610.06968",
+        "relevance": 3,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2610.06968v1 Announce Type: new \nAbstract: Fuzzing is effective at finding bugs in deep learning (DL) compilers, but existing fuzzers repeatedly trigger faults they have already uncovered. Current fuzzers diversify the generated programs, and downstream tools deduplicate bug reports post hoc, but neither stops a fuzzer from generating programs that re-trigger known defects. We present Reprise, a DL compiler fuzzer that suppresses reports of known defects during test generation. Reprise uses a deliberately lightweight generator that builds graphs in a unified intermediate representation (UIR) with local operator signatures. Instead of diversifying programs, Reprise distills each discovered defect into a semantic graph pattern that captures the operators, value constraints, graph context, and data flow required to trigger it. During graph synthesis, it regenerates any node that completes a known pattern, so known defect triggers are avoided before compilation and execution. We evaluate Reprise on three DL compilers: TVM, PyTorch Inductor, and ONNX Runtime. Against its unguided variant, patterns written for the dominant known defects reduce crash reports by 90.2% on TVM (254 to 25) and by 93.8% on PyTorch Inductor (594 to 37), with comparable branch coverage and 1.0-17.9% fewer executed tests. These results come from one run per configuration and concern the defects the patterns were distilled from. Reprise also found 25 previously unknown bugs across the three compilers, 24 of them within one month, of which 7 have been fixed and 12 more confirmed by developers. The replication package has been provided at [11].",
+        "summary_vi": "arXiv:2610.06968v1 Announce Type: new \nAbstract: Fuzzing is effective at finding bugs in deep learning (DL) compilers, but existing fuzzers repeatedly trigger faults they have already uncovered. Curre",
+        "title": "Pattern-Guided Graph Synthesis for Suppressing Known Defects in DL Compiler Fuzzing"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07029v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07029v1",
+        "link": "https://arxiv.org/abs/2610.07029",
+        "relevance": 3,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2610.07029v1 Announce Type: new \nAbstract: Resistive random-access memory (ReRAM)-based Processing-in-Memory (PIM) accelerator is a promising platform for processing massively memory intensive matrix-vector multiplications of neural networks in parallel domain, due to its capability of analog computation, ultra-high density, near-zero leakage current, and non-volatility. Despite many advantages, ReRAM-based accelerators are highly error-prone due to limitations of technology fabrication that lead to process variations and defects. These limitations degrade the accuracy of Deep Convolutional Neural Networks (Deep CNNs) running on PIM accelerators. While these CNNs accelerators are widely deployed in safety-critical systems, their vulnerability to fault is not well explored. In this paper, we have developed a fault injection framework to investigate the vulnerability of large-scale CNNs at both software- and hardware-level of inference phases. Faulty ReRAM devices are another reliability challenges due to significant degradation of classification accuracy when CNN parameters are mapped to the accelerators. To investigate this challenge, we map the CNN learning parameter to the ReRAM crossbar and inject faults into crossbar arrays. The proposed framework analyzes the impact of stuck-at high (SaH) and stuck-at low (SaL) fault models on different layers and locations of CNN learning parameters. By performing extensive fault injections, we illustrate that the vulnerability behavior of ReRAM-based PIM accelerator for CNNs is greatly impressible to the types and depth of layers, the location of the learning parameter in every layer, and the value and types of faults. Our observations show that different models have different vulnerabilities to faults. Specifically, we show that SaL further reduces classification accuracy than SaH.",
+        "summary_vi": "arXiv:2610.07029v1 Announce Type: new \nAbstract: Resistive random-access memory (ReRAM)-based Processing-in-Memory (PIM) accelerator is a promising platform for processing massively memory intensive m",
+        "title": "An Empirical Fault Vulnerability Exploration of ReRAM-based Process-in-Memory CNN Accelerators"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07030v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07030v1",
+        "link": "https://arxiv.org/abs/2610.07030",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2610.07030v1 Announce Type: new \nAbstract: Container placement in data centers must simultaneously minimize power consumption and maximize affinity preferences, while satisfying multi-resource capacity and anti-affinity constraints. Traditional approaches typically rely on fixed rules, which lack adaptability to dynamic cluster states and are difficult to extend for adaptive decision-making. On the other hand, meta-heuristic methods, although more flexible, are often computationally expensive, slower and prone to getting trapped in local optima. In this work, we propose an adaptive and efficient approach based on an LLM-driven multi-agent collaboration framework, where four specialized agents operate in a closed-loop ReAct cycle at each placement step. A Power Consumption Agent and an Affinity Agent debate over competing objectives, while a Placement Agent resolves conflicts using Tolerance-Gated Arbitration (TGA). A Rearrangement Agent further refines decisions through the Monotone Improvement Rule (MIR) in a post-placement refinement phase. All the agents reason over deterministic, feasibility-filtered candidate tables provided by the environment, ensuring that every proposed action inherently satisfies hard constraints. Based on experimental evaluation using the Google Cluster Trace with a configuration of 100 applications and 25 machines, the proposed framework consumes 8.36% less power and achieves 39.30% higher affinity than the power-greedy baseline. Ablation studies confirm that each architectural component, the multi-round debate mechanism, the TGA in the Placement Agent, and the MIR in the Rearrangement Agent, contributes meaningfully to the overall performance, with removal of any single component degrading both power consumption and affinity satisfaction.",
+        "summary_vi": "arXiv:2610.07030v1 Announce Type: new \nAbstract: Container placement in data centers must simultaneously minimize power consumption and maximize affinity preferences, while satisfying multi-resource c",
+        "title": "LLM-Based Multi-Agent Collaboration for Constrained Multi-Objective Container Placement"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07035v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07035v1",
+        "link": "https://arxiv.org/abs/2610.07035",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2610.07035v1 Announce Type: new \nAbstract: The IO500 benchmark provides a common basis for evaluating high-performance computing (HPC) storage systems, while its growing submission repository also offers an opportunity to study performance behavior across systems and time. This work presents a repository-scale characterization of 294 post-reset IO500 submissions from 116 sites spanning 2019--2025. We combine descriptive and temporal analysis with phase-level correlation, scale-sensitivity analysis, and benchmark-log examination to investigate how performance characteristics represented by individual benchmark phases relate to composite rankings. The results show strong relationships among phases measuring similar I/O behavior, but weaker and scale-sensitive relationships between bandwidth and metadata performance. Temporal and log-level analyses further reveal information that is not apparent from aggregate scores alone. These findings demonstrate the value of analyzing IO500 results beyond leader-board rankings and identify important considerations concerning system scale, benchmark execution, and repository provenance when using community benchmark data for comparative and longitudinal HPC performance analysis.",
+        "summary_vi": "arXiv:2610.07035v1 Announce Type: new \nAbstract: The IO500 benchmark provides a common basis for evaluating high-performance computing (HPC) storage systems, while its growing submission repository al",
+        "title": "Repository-Scale Performance Characterization of the IO500 Benchmark"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07078v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07078v1",
+        "link": "https://arxiv.org/abs/2610.07078",
+        "relevance": 3,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2610.07078v1 Announce Type: new \nAbstract: Vector processors exploit data-level parallelism to provide high computational throughput, but very long vectors can make the Vector Register File (VRF) a significant source of area, energy, and register pressure. This cost is exacerbated when vector instructions operate on values with scalar semantics: although such values are architecturally represented using vector registers, they do not require full-width storage. This paper proposes the Scalarized Vector Register File (SVRF), a microarchitectural enhancement that redirects scalar-semantics vector values to a dedicated scalar register file, avoiding unnecessary allocation and access of full-width physical vector registers. The SVRF integrates with vector register renaming while preserving compatibility with the supported vector ISA. We implement and evaluate SVRF in an Register Transfer Level (RTL)-based RISC-V Vector Extension (RVV)-compliant vector processing unit supporting very long vectors. Across representative HPC and AI/ML workloads, the SVRF reduces vector-register pressure and VRF activity without degrading performance. By exploiting the resulting reduction in VRF demand, the proposed design achieves up to 15.8% VRF area reduction and up to 6% total area reduction, while reducing total power by up to 12% in evaluated configurations. Some workloads also achieve up to 1.12X speedup.",
+        "summary_vi": "arXiv:2610.07078v1 Announce Type: new \nAbstract: Vector processors exploit data-level parallelism to provide high computational throughput, but very long vectors can make the Vector Register File (VRF",
+        "title": "SVRF: Efficient Register Storage for Long-Vector Architectures"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07094v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07094v1",
+        "link": "https://arxiv.org/abs/2610.07094",
+        "relevance": 3,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2610.07094v1 Announce Type: new \nAbstract: LLM deployment is shifting from single-turn completion to agentic trajectories in which a model plans, calls tools, reads results and reasons at test time before acting. This inverts the economics of inference hardware: chat serving amortises weight reads across large batches, whereas agent trajectories are sequentially dependent, run at effective batch one, and make per-token decode latency (TPOT) the dominant term in task completion time. Using a roofline analysis and a closed-form episode-latency model, we show why this regime favours accelerators that keep weights in on-die SRAM (Cerebras WSE-3/3T, Groq/NVIDIA LPU) or compiler-managed tiered memory (SambaNova SN40L/SN50), and why three vendor ecosystems converged in 2026 on disaggregated prefill/decode serving. We show that per-step reliability compounds exponentially in trajectory length-a 2% per-step failure rate erases a 2x decode advantage for a 20-step agent-so determinism and tail latency are first-order performance variables. We then propose a four-layer evaluation framework (silicon, serving system, agent episode, enterprise) with a metric set built on goodput at an agentic SLO and cost per successful episode, a six-axis benchmark protocol over six task families, a paired-bootstrap statistical design, an attestation protocol for vendor-run benchmarks, and TCO, availability and adoption-timing models with explicit break-even conditions. All performance figures are public and labelled by evidence class; we state seven falsifiable hypotheses and the experiments that test them, and argue that the most likely original result is that token-throughput rankings diverge from cost-per-successful-task rankings on long-horizon work.",
+        "summary_vi": "arXiv:2610.07094v1 Announce Type: new \nAbstract: LLM deployment is shifting from single-turn completion to agentic trajectories in which a model plans, calls tools, reads results and reasons at test t",
+        "title": "Evaluating Inference Compute for Generative AI: A Framework for Enterprise Workloads"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07098v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07098v1",
+        "link": "https://arxiv.org/abs/2610.07098",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2610.07098v1 Announce Type: new \nAbstract: Large transformer-based models increasingly depend on multi-GPU execution, which requires frequent collective communication among GPUs. Existing communication libraries often rely on many GPU threads to achieve high bandwidth or low latency, resulting in a large streaming multiprocessor (SM)-side resource footprint. This footprint can limit the resources available to other GPU work, particularly when communication and computation execute concurrently. Thus, efficient collective communication should not only achieve high collective performance but also reduce its SM-side resource usage. This paper presents T-CCL, a resource-efficient collective communication library based on the Tensor Memory Accelerator (TMA) for intra-node communication. T-CCL offloads both data movement and reduction operations to TMA and executes each collective as a pipelined series of asynchronous TMA operations, reducing the SM resources required for collective communication while maintaining high bandwidth. Evaluated across AllReduce, AllGather, and ReduceScatter collectives, T-CCL outperforms NCCL by up to 2.4x with unrestricted communication resources and up to 3.42x under restricted resource budgets, remains competitive with NCCL's recent symmetric-memory kernels, and occupies the same or fewer SMs in profiled cases. In a GEMM-collective overlap case study, switching the communication backend from NCCL to T-CCL raises the average operator-level speedup over a sequential baseline from 1.12x to 1.25x on two GPUs and from 1.04x to 1.14x on four GPUs, as T-CCL uses fewer SMs for communication, leaving more SMs available to the overlapped GEMM. Integrated into vLLM as a communication backend, T-CCL improves end-to-end inference throughput over vLLM's automatic backend dispatch by up to 1.31x, outperforming it at every evaluated batch size on both the conversation and decode-heavy workloads.",
+        "summary_vi": "arXiv:2610.07098v1 Announce Type: new \nAbstract: Large transformer-based models increasingly depend on multi-GPU execution, which requires frequent collective communication among GPUs. Existing commun",
+        "title": "T-CCL: Resource Efficient and Performant Collective Communication using Tensor Memory Accelerator"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07101v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07101v1",
+        "link": "https://arxiv.org/abs/2610.07101",
+        "relevance": 3,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2610.07101v1 Announce Type: new \nAbstract: Cellular-connected UAV operations already fly in many countries. However, cellular networks were designed for terrestrial users and remain blind to the operational consequences of delaying information from low-altitude aircraft. We present Risk-Aware (RA), a framework that translates information freshness and operational context into aircraft-specific operational risk, enabling uplink scheduling based on operational consequence rather than network metrics alone. RA balances the consequence of further delay against the service cost of heterogeneous single- and multi-slot updates. It combines a regulation-inspired risk proxy, risk-directed prioritization based on marginal risk growth, and a Max-Weight scheduler with Lyapunov-based performance guarantees. Although RA is derived from an analytically tractable model, we evaluate it under moving UAV trajectories, dynamic operational context, geographically varying population exposure, and realistic UAV video traffic. Across 48 operating points and fleets of up to 120 UAVs in S\\~ao Paulo delivery operations and the Interlagos Formula 1 Grand Prix setting, RA reduces 99th-percentile per-UAV risk by up to 96% over proportional fair and 86% over round robin, while supporting fleets up to 1.5$\\times$ and 3$\\times$ larger, respectively, within the same risk envelope.",
+        "summary_vi": "arXiv:2610.07101v1 Announce Type: new \nAbstract: Cellular-connected UAV operations already fly in many countries. However, cellular networks were designed for terrestrial users and remain blind to the",
+        "title": "Who Can Safely Wait? Risk-Aware 5G Scheduling for Low-Altitude UAV Operation"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07185v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07185v1",
+        "link": "https://arxiv.org/abs/2610.07185",
+        "relevance": 3,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2610.07185v1 Announce Type: new \nAbstract: This paper proposes a subspace-based decision scheme to detect range-spread targets in presence of thermal noise, clutter, and intentional interference. The target and intentional interference (i.e., noise-like jammer) effects are confined to the covariance matrix of the received primary data vectors. The jammer is also present in the secondary data vectors necessary to estimate the clutter covariance matrix. Finally, an additional set of training data, acquired by the system in passive mode and, hence, not contaminated by target and clutter echoes, is used to avoid the jammer parameters are unidentifiable. The detection problem is addressed by deriving an architecture based upon the likelihood ratio test where the unknown second-order parameters are suitably estimated. To this end, a unified theoretical framework is defined also providing a geometrical interpretation of the estimation procedures. The performance assessment, conducted also in comparison to a natural competitor, highlights the effectiveness of the proposed solution.",
+        "summary_vi": "arXiv:2610.07185v1 Announce Type: new \nAbstract: This paper proposes a subspace-based decision scheme to detect range-spread targets in presence of thermal noise, clutter, and intentional interference",
+        "title": "Subspace-based Second-Order Detection Architectures for Radar Signals in the Presence of Unstructured Interference"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07230v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07230v1",
+        "link": "https://arxiv.org/abs/2610.07230",
+        "relevance": 3,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2610.07230v1 Announce Type: new \nAbstract: The extreme collective completion time (CCT) demands of AI workloads challenge existing packet spraying algorithms, which can have trouble efficiently load-balancing workloads that are sent at full line rates.\n We trace this to a structural cause: on a fat tree, once a packet picks its upward path, the downward path to its destination is unique, so destination-oblivious schemes cannot undo the imbalance it creates. We prove that such schemes can suffer from $\\Theta(\\sqrt{m})$ queueing for messages of size $m$, thus eventually triggering rate reductions by the congestion control. Instead, we suggest Ofan, a switch-based destination-aware LB scheme that can reach $O(1)$ queueing. We also present its pOfan variant that fits the pipe-based architecture of current switches. Our P4 implementation shows that it consumes modest resources. An end-to-end FSDP2 evaluation with Llama-3 405B-parameter models shows that Ofan cuts CCT inflation by $16$--$39\\times$ when compared to existing algorithms.",
+        "summary_vi": "arXiv:2610.07230v1 Announce Type: new \nAbstract: The extreme collective completion time (CCT) demands of AI workloads challenge existing packet spraying algorithms, which can have trouble efficiently ",
+        "title": "Ofan: Optimal Load Balancing for AI Training"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07333v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07333v1",
+        "link": "https://arxiv.org/abs/2610.07333",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2610.07333v1 Announce Type: new \nAbstract: As Mixture-of-Experts (MoE) models scale toward hundreds of experts and higher top-$k$ routing, memory efficiency in distributed training becomes a critical bottleneck. Peak memory is dominated by the MoE block, not attention: every intermediate buffer in the MoE dispatch pipeline is individually scaled by top-k routing. The standard all-to-all dispatcher sends all routed tokens in a single collective step, requiring the full top-$k$-expanded buffer to be constructed at once. In this work, we propose RelayMoE, a ring-based MoE execution model that computes locally as expert weights or tokens circulate, avoiding full top-$k$-expanded dispatch buffers. RelayMoE selects between expert and token routing according to communication volume and overlaps transfers with computation. The ring structure naturally supports memory-efficient MoE recomputation during backward: each hop reconstructs expert intermediates, uses them to compute gradients, and releases them before the next hop. The saved memory supports longer sequences and larger batches, or retains more attention activations to reduce attention recomputation and improve training throughput. We evaluate RelayMoE on 30B$-$57B production MoE models and varied expert configurations. In single-layer MoE experiments, RelayMoE achieves a $2\\times$ average speedup over Megatron-LM. In full-model training under the same GPU memory budget, it improves throughput by up to $2.02\\times$ and extends the largest tested trainable sequence length by up to $2.85\\times$.",
+        "summary_vi": "arXiv:2610.07333v1 Announce Type: new \nAbstract: As Mixture-of-Experts (MoE) models scale toward hundreds of experts and higher top-$k$ routing, memory efficiency in distributed training becomes a cri",
+        "title": "Memory-Efficient Expert Routing for Distributed MoE Training"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07377v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07377v1",
+        "link": "https://arxiv.org/abs/2610.07377",
+        "relevance": 3,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2610.07377v1 Announce Type: new \nAbstract: This paper presents an FPGA-based SmartNIC architecture designed to address critical network challenges in data-intensive scientific computing. As scientific workflows increasingly demand high-bandwidth data movement and real-time monitoring across wide-area networks, the Open Cloud Testbed (OCT) provides an ideal platform for investigating in-network processing solutions at line rate.\n Our approach focuses on implementing network visibility, optimization, and orchestration capabilities through FPGA acceleration. The proposed system leverages P4-programmable data-plane functions to support packet parsing, marking, telemetry extraction, traffic steering, and machine learning inference, all without requiring host CPU intervention or modifications to application servers.\n As a concrete example, our framework integrates the SciTags standard, which enables associating network traffic with scientific context through packet marking. We implement a high-performance network bridge that counts packets by their SciTag values, as identified in the IPv6 Flow Label.\n Experimental evaluation on AMD U280 FPGAs in OCT demonstrates the feasibility of this approach, showing imperceptible processing latency and line-rate packet handling, while accurately monitoring scientific data flows.",
+        "summary_vi": "arXiv:2610.07377v1 Announce Type: new \nAbstract: This paper presents an FPGA-based SmartNIC architecture designed to address critical network challenges in data-intensive scientific computing. As scie",
+        "title": "High Speed Network Processing for Scientific Computing in the Open Cloud Testbed"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07415v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07415v1",
+        "link": "https://arxiv.org/abs/2610.07415",
+        "relevance": 3,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2610.07415v1 Announce Type: new \nAbstract: Disaggregated mobile networks expose open interfaces for independent agents to control the Radio Access Network (RAN). The interactions between agents with contrasting objectives can result in conflicts. However, existing conflict mitigation methods treat agents that control the same parameter as being in a conflict that requires arbitration of their actions, without assessing whether their objectives can be satisfied simultaneously. In this paper, we introduce a control-theoretic approach to determine when agents can coexist and share control of the same parameters. We model threshold-based agents often encountered in the literature as sampled deadband feedback controllers and represent their objectives through Key Performance Indicator (KPI) targets and tolerances that define acceptable deadband bounds. We derive compatibility conditions from these bounds and show that compatibility for any number of agents and monitored KPIs can be established through pairwise tests. We propose a conflict mitigation policy that allows compatible agents to share control of the same network parameters while restricting arbitration to cases where their objectives cannot be satisfied simultaneously. We evaluate our policy through simulations using NIST's ns3-oran extension of ns-3, and our results show that it enables agents to share control with near-zero Service Level Agreement (SLA) drift when their objectives are compatible and the shared acceptable range is attainable, while matching Priority Mitigation when their objectives are incompatible.",
+        "summary_vi": "arXiv:2610.07415v1 Announce Type: new \nAbstract: Disaggregated mobile networks expose open interfaces for independent agents to control the Radio Access Network (RAN). The interactions between agents ",
+        "title": "Understanding Conflict and Compatibility Conditions for Agents in AI-RAN"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07462v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07462v1",
+        "link": "https://arxiv.org/abs/2610.07462",
+        "relevance": 3,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2610.07462v1 Announce Type: new \nAbstract: We present a comparative analysis of two promising filter bank multicarrier waveforms for integrated sensing and communications (ISAC) systems operating in high-mobility environments. In particular, we consider two-dimensional FFT-precoded filter bank (2D-FFT FB) modulation and the recently-proposed affine filter bank modulation (AFBM) waveforms, which exploit different signal representations across the time-frequency, delay-Doppler and affine domains to improve robustness against Doppler effects, each resulting in distinct features. On the one hand, 2D-FFT FB improves spectral localization under high Doppler conditions, while AFBM combines chirp-based modulation with filter bank processing to achieve low peak-to-average power ratio (PAPR) and reduced out-of-band emission (OOBE). These schemes are compared in terms of OOBE, PAPR and bit-error-rate (BER), as well as the delay and Doppler cuts of the ambiguity function (AF) under deterministic and random sensing symbols. Results for orthogonal time frequency space (OTFS) and affine frequency division multiplexing (AFDM) are also included to provide additional basis of comparison. The results show the performance trade-offs between the two filter bank (FB)-based schemes, providing insights into waveform candidates for high-mobility ISAC scenarios such as vehicular communications and future sixth generation (6G) networks.",
+        "summary_vi": "arXiv:2610.07462v1 Announce Type: new \nAbstract: We present a comparative analysis of two promising filter bank multicarrier waveforms for integrated sensing and communications (ISAC) systems operatin",
+        "title": "Comparative Analysis of Filter Bank Waveforms for ISAC Systems: 2D-FFT FB and AFBM"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07541v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07541v1",
+        "link": "https://arxiv.org/abs/2610.07541",
+        "relevance": 3,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2610.07541v1 Announce Type: new \nAbstract: Warp primitives such as tensor core operations, shuffles, reductions, and barriers are critical to high-performance GPU kernels, and every major GPU language supports some set of them. The threads that participate in a primitive, and therefore synchronize, are determined dynamically by how threads diverge and reconverge, and by intra-warp scheduling such as independent thread scheduling. In practice, many high-performance kernels use these primitives and behave as expected, following an intuitive but unwritten data-race-freedom contract that has never been stated precisely or empirically tested.\n We present WarpDRF, the first abstract warp programming model to make this contract precise, with participation rules parameterized by reconvergence guarantees and per-primitive requirements so that instantiations match different GPU languages. We prove (formalized in Rocq) that a kernel satisfying WarpDRF executes every warp primitive with the participants the reference semantics assigns and produces the same results, so a programmer can reason in the reference semantics alone. We implement the model in MLIR with a reference interpreter and fuzz 10K conformance tests for each of three configurations across CUDA, HIP, HLSL, Metal, and SPIR-V on 16 device and backend pairs; at least one WarpDRF configuration describes each, with CUDA honoring the strictly weakest configuration. Finally, we extend Faial, a static data-race analyzer for CUDA, into the first DRF checker for an empirically validated warp model, and apply it to llama.cpp, where most kernels that use warp primitives already satisfy the contract, but three contain previously unknown data races, showing the need for tools that check it.",
+        "summary_vi": "arXiv:2610.07541v1 Announce Type: new \nAbstract: Warp primitives such as tensor core operations, shuffles, reductions, and barriers are critical to high-performance GPU kernels, and every major GPU la",
+        "title": "WarpDRF: Data-Race Freedom for Warp-Level Programming"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07670v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07670v1",
+        "link": "https://arxiv.org/abs/2610.07670",
+        "relevance": 3,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2610.07670v1 Announce Type: new \nAbstract: Many deep learning based radar target detectors rely on range-cell level labels for training, which are expensive to obtain. To reduce the labeling burden, this paper presents a training strategy that uses only range-window level labels. Specifically, two sub-echoes are randomly cropped from the same window echo, resulting in a known relative shift between them. A siamese Transformer is then used to identify target-salient responses from one sub-echo and form pseudo labels, which are mapped to the paired sub-echo according to the known shift. In addition, a shift-equivariant consistency (SEC) constraint is imposed to align the predicted responses of the two sub-echoes after shift compensation. By exploiting shift priors within each labeled window, the proposed approach learns reliable detection without requiring cell-level labels. Experimental results show that it consistently surpasses classical constant false alarm rate (CFAR) detectors and achieves performance close to range-cell level labels training, while substantially reducing labeling cost.",
+        "summary_vi": "arXiv:2610.07670v1 Announce Type: new \nAbstract: Many deep learning based radar target detectors rely on range-cell level labels for training, which are expensive to obtain. To reduce the labeling bur",
+        "title": "Radar Intelligent Detection with Coarse-Grained Labels"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07742v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07742v1",
+        "link": "https://arxiv.org/abs/2610.07742",
+        "relevance": 3,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2610.07742v1 Announce Type: new \nAbstract: Optimized kernels such as FlashAttention and FlashDecoding are crucial for accelerating today's large models. Most of them are handwritten by experts because existing ML compilers cannot match their efficiency. Producing such kernels requires fusing computations with multiple reductions, which requires both algebraic transformation of the computation graph and operator scheduling of the transformed graph. Unfortunately, searching the two jointly yields a space too large to navigate. We propose Cleave, an ML compiler built on symbolic decoupling: Cleave discovers transformations by performing superoptimization on a graph with symbolic shapes, and then schedules each resulting graph on concrete shapes. Representing shapes as symbols makes equivalence checking cheap and lets a new Split operator, with a symbolic split count, parallelize along a reduction dimension. Cleave's scheduler fuses graphs with multiple reductions through iterative tiling and horizontal fusion. Evaluation on common LLM subgraphs shows that Cleave generates kernels up to 2.8x faster than the best baseline (1.6x on average) and reduces compilation time by 5.9x on average compared to Mirage. For dynamic workloads captured from production serving traces, Cleave compiles each operator once and achieves geometric mean speedups of 1.4x and 1.7x over FlashInfer's handwritten FA2 and FA3 backends. Cleave's code is available at: https://github.com/nyu-systems/cleave",
+        "summary_vi": "arXiv:2610.07742v1 Announce Type: new \nAbstract: Optimized kernels such as FlashAttention and FlashDecoding are crucial for accelerating today's large models. Most of them are handwritten by experts b",
+        "title": "Cleave: Scaling Tensor Program Optimization via Decoupled Algebraic Search and Operator Scheduling"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07994v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07994v1",
+        "link": "https://arxiv.org/abs/2610.07994",
+        "relevance": 3,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2610.07994v1 Announce Type: new \nAbstract: This paper studies waveform-level security for Integrated Sensing and Communication (ISAC). Instead of relying on spatial beamforming or power allocation, we randomize the sensing waveform itself using phase keys and tangent Artificial Noise (AN) applied to a Fourier-curve constellation. Coordinated legitimate nodes know the key and recover the sensing reference, while Eve observes only a randomized waveform and cannot construct the correct coherent matched reference. We consider an Unmanned Aerial Vehicle (UAV)-mounted Eve with a dominant Line-of-Sight (LOS) link who fully exploits favorable geometry, including a bypass scenario where Eve listens to both the direct and echo sides to circumvent our design. We further consider a stronger Eve that attempts phase-key reconstruction from long-term observations; even then, residual key mismatch structurally degrades correlation and AN cancellation, while accurate key recovery incurs high computational complexity. Numerical results show that the proposed design reduces Eve's probability of detecting the sensing reference using non-coherent detection and, in the bypass case, substantially suppresses her correct-delay lock probability, while the legitimate receiver reliably locks onto the reference through echo accumulation.",
+        "summary_vi": "arXiv:2610.07994v1 Announce Type: new \nAbstract: This paper studies waveform-level security for Integrated Sensing and Communication (ISAC). Instead of relying on spatial beamforming or power allocati",
+        "title": "Waveform Randomization for Secure ISAC"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.08008v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.08008v1",
+        "link": "https://arxiv.org/abs/2610.08008",
+        "relevance": 3,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2610.08008v1 Announce Type: new \nAbstract: Movable antenna (MA) has emerged as a promising technology to unlock spatial degrees of freedom for wireless sensing systems. However, optimizing MA positions for multi-target sensing remains challenging due to the complicated coupling between the array geometry and unknown target directions, as well as severe sidelobe interference. In this paper, we propose an MA-enabled multi-target wireless sensing scheme to achieve both high-precision and robust target parameter estimation. To characterize the sensing performance while maintaining tractability, we introduce two complementary metrics, namely a lower bound (LB) of the Cram\\'er-Rao bound (CRB) and the steering vector correlation (SVC). Specifically, by investigating the partial order relationship of the Fisher information matrix, we derive a closed-form LB of the multi-target CRB, which decouples the unknown target directions. Meanwhile, the SVC is employed to characterize the spatial correlation and sidelobe-induced interference among sensing signals over different directions. Based on these two metrics, we formulate an MA position optimization problem that minimizes the SVC while constraining the LB below a predefined threshold. To render the resulting non-convex problem tractable, we exploit the spatial symmetry of the continuous SVC function and discretize the sidelobe region, thereby transforming the spatial minimax objective into a finite set of constraints. Meanwhile, the LB constraint is equivalently reformulated as a spatial variance constraint on the MA positions. Building on these transformations, we develop a successive convex approximation (SCA) algorithm within an alternating optimization (AO) framework to iteratively optimize the horizontal and vertical MA coordinates.",
+        "summary_vi": "arXiv:2610.08008v1 Announce Type: new \nAbstract: Movable antenna (MA) has emerged as a promising technology to unlock spatial degrees of freedom for wireless sensing systems. However, optimizing MA po",
+        "title": "Movable Antenna-Enabled Multi-Target Sensing: Sidelobe Suppression via Position Optimization"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.08238v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.08238v1",
+        "link": "https://arxiv.org/abs/2610.08238",
+        "relevance": 3,
+        "source": "arXiv cs.PF (Performance)",
+        "summary": "arXiv:2610.08238v1 Announce Type: cross \nAbstract: Awkward Array is a widely used library in high-energy physics (HEP) for representing and manipulating nested, variable-length data in Python. Previous CHEP contributions have explored GPU acceleration for Awkward Array, demonstrating the feasibility and performance benefits of CUDA-based backend while also identifying limitations related to irregular data access, fine-grained kernel launches, and composability of operations. In this contribution, we present recent developments that build directly on these earlier efforts by introducing a CUDA execution model for Awkward Array based on the Python CUDA Core Compute Libraries (CCCL).\n Using CCCL, we eliminate the need for custom CUDA kernels and can instead use a high-level Python interface. The CCCL-based approach also enables fusion of multiple Awkward operations into a reduced number of CUDA kernels, addressing kernel launch overhead observed in earlier GPU implementations. Lazy execution allows expression graphs to be constructed and optimized prior to kernel generation, improving performance for analysis workflows involving jagged arrays, combinatorial operations, and reductions. In contrast to earlier approaches, this design also emphasizes extensibility, allowing user-defined Python code to be incorporated into GPU execution paths with minimal boilerplate and without breaking existing analysis semantics.\n We present performance studies that demonstrate improvements over previously reported eager GPU execution strategies for representative HEP analysis patterns. These developments extend the GPU capabilities of Awkward Array toward a more composable and sustainable backend, aligned with the needs of Python-based analysis at the HL-LHC and beyond.",
+        "summary_vi": "arXiv:2610.08238v1 Announce Type: cross \nAbstract: Awkward Array is a widely used library in high-energy physics (HEP) for representing and manipulating nested, variable-length data in Python. Previou",
+        "title": "GPU Acceleration of Awkward Arrays: Using Python cuda.compute"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.08483v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.08483v1",
+        "link": "https://arxiv.org/abs/2610.08483",
+        "relevance": 3,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2610.08483v1 Announce Type: cross \nAbstract: Address translation is a major bottleneck in data-intensive workloads. TLB prefetching can hide translation latency, but existing spatial prefetchers struggle with irregular accesses, while temporal prefetchers store address deltas in fixed-capacity hardware that cannot scale with application memory footprints. Our characterization of 200 translation-intensive workloads reveals that each virtual memory region has a small, recurring set of deltas, and over 94% of deltas fit in 18 signed bits. We introduce Trail, a temporal TLB prefetcher that stores deltas in unused bits of leaf page table entries (PTEs). When a region triggers a page table walk, Trail identifies the region that last triggered a walk from the same instruction and records their delta in that source region's PTE. When a later walk fetches the source region's PTE cache block, Trail retrieves its deltas without additional memory accesses and prefetches translations for likely destination regions into the TLBs and cache hierarchy. Storing multiple deltas per PTE cache block improves coverage, while using existing PTE bits allows metadata capacity to scale with the application's memory footprint without additional metadata storage. Across 200 workloads and 100 multiprogrammed mixes, Trail improves single-core (four-core) performance by 5.7% (11.5%) on average over a baseline without TLB prefetching, outperforming the best prior standalone TLB prefetcher by 1.7% (2.5%). Trail requires only a 64-entry hardware table to track per-instruction page table walk history. Trail is freely available at https://github.com/CMU-SAFARI/Virtuoso/tree/trail-artifact-release.",
+        "summary_vi": "arXiv:2610.08483v1 Announce Type: cross \nAbstract: Address translation is a major bottleneck in data-intensive workloads. TLB prefetching can hide translation latency, but existing spatial prefetchers",
+        "title": "Trail: Scalable and Low-Cost Temporal TLB Prefetching via Page-Table-Embedded Deltas"
+      },
+      "first_seen": "2026-10-07T12:01:12.937548+00:00"
     },
     "tag:github.com,2008:Repository/39997536/qli-2.1.1": {
       "entry": {
@@ -3210,6 +3683,10 @@
     "https://www.reddit.com/r/embedded/t3_1wwwy3d": "2026-10-04T00:03:15.008562+00:00",
     "https://www.reddit.com/r/embedded/t3_1wx15jm": "2026-10-04T00:03:15.008562+00:00",
     "https://www.reddit.com/r/embedded/t3_1wx1lp8": "2026-10-04T00:03:15.008562+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wx9p9u": "2026-10-04T11:18:30.736596+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wxch5z": "2026-10-04T11:18:30.736596+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wxd22v": "2026-10-04T11:18:30.736596+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wxd5ic": "2026-10-04T11:18:30.736596+00:00",
     "https://www.reddit.com/r/embedded/t3_1wz3ypo": "2026-10-07T01:01:57.012881+00:00",
     "https://www.redhat.com/en/blog/5-reasons-why-your-lightwell-strategy-needs-more-just-patches": "2026-09-12T00:42:36.175668+00:00",
     "https://www.redhat.com/en/blog/ai-pilots-production-dh2i-brings-customers-resilient-ai-red-hat-openshift": "2026-10-06T01:55:08.067921+00:00",
