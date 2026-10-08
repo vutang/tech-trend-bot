@@ -29,10 +29,8 @@
     "https://lwn.net/Articles/1092229/": "2026-10-07T01:01:04.434173+00:00",
     "https://lwn.net/Articles/1092419/": "2026-10-07T01:01:04.434173+00:00",
     "https://lwn.net/Articles/1092439/": "2026-10-07T01:01:04.434173+00:00",
-    "https://lwn.net/Articles/1092555/": "2026-09-08T00:43:47.238508+00:00",
     "https://lwn.net/Articles/1092659/": "2026-10-07T01:01:04.434173+00:00",
     "https://lwn.net/Articles/1092660/": "2026-10-07T01:01:04.434173+00:00",
-    "https://lwn.net/Articles/1092984/": "2026-09-08T00:43:47.238508+00:00",
     "https://lwn.net/Articles/1093144/": "2026-09-09T00:41:13.818850+00:00",
     "https://lwn.net/Articles/1093398/": "2026-09-12T00:42:36.175668+00:00",
     "https://lwn.net/Articles/1093962/": "2026-09-14T00:29:25.403418+00:00",
@@ -43,6 +41,8 @@
     "https://lwn.net/Articles/1096827/": "2026-09-30T00:46:27.180142+00:00",
     "https://lwn.net/Articles/1096908/": "2026-10-02T01:06:03.018282+00:00",
     "https://lwn.net/Articles/1096959/": "2026-09-27T23:59:46.648693+00:00",
+    "https://lwn.net/Articles/1097209/": "2026-10-08T01:20:40.258601+00:00",
+    "https://lwn.net/Articles/1097859/": "2026-10-08T01:20:40.258601+00:00",
     "https://lwn.net/Articles/1098404/": "2026-10-04T00:03:15.008562+00:00",
     "https://ocudu.org/?p=715": "2026-09-16T23:52:22.553694+00:00",
     "https://ocudu.org/?p=771": "2026-09-23T23:58:04.297683+00:00",
@@ -97,8 +97,10 @@
     "https://rcrwireless.com/?p=434797": "2026-10-03T00:45:17.081177+00:00",
     "https://rcrwireless.com/?p=434811": "2026-10-06T01:55:08.067921+00:00",
     "https://rcrwireless.com/?p=434839": "2026-10-06T01:55:08.067921+00:00",
+    "https://rcrwireless.com/?p=434842": "2026-10-08T01:20:40.258601+00:00",
     "https://rcrwireless.com/?p=434869": "2026-10-07T01:01:57.012881+00:00",
     "https://rcrwireless.com/?p=434874": "2026-10-07T01:01:57.012881+00:00",
+    "https://rcrwireless.com/?p=434877": "2026-10-08T01:20:40.258601+00:00",
     "https://rcrwireless.com/?p=434883": "2026-10-07T12:01:12.937548+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/iteratively-tuning-hipblaslt/README.html": "2026-09-10T00:38:49.074531+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/profiling-guide/att/README.html": "2026-09-22T23:49:48.541761+00:00",
@@ -107,7 +109,6 @@
     "https://spectrum.ieee.org/v2x-highway-vehicle-communication": "2026-09-14T00:29:25.403418+00:00",
     "https://www.cnx-software.com/?p=171189": "2026-09-16T12:52:31.242072+00:00",
     "https://www.cnx-software.com/?p=175484": "2026-10-07T01:01:04.434173+00:00",
-    "https://www.cnx-software.com/?p=176412": "2026-09-08T00:43:47.238508+00:00",
     "https://www.cnx-software.com/?p=176672": "2026-10-07T01:01:04.434173+00:00",
     "https://www.cnx-software.com/?p=176691": "2026-10-07T01:01:04.434173+00:00",
     "https://www.cnx-software.com/?p=176707": "2026-10-07T01:01:04.434173+00:00",
@@ -116,7 +117,6 @@
     "https://www.cnx-software.com/?p=176766": "2026-10-07T01:01:04.434173+00:00",
     "https://www.cnx-software.com/?p=176801": "2026-10-07T01:01:04.434173+00:00",
     "https://www.cnx-software.com/?p=176819": "2026-10-07T01:01:04.434173+00:00",
-    "https://www.cnx-software.com/?p=176898": "2026-09-08T00:43:47.238508+00:00",
     "https://www.cnx-software.com/?p=176923": "2026-09-09T00:41:13.818850+00:00",
     "https://www.cnx-software.com/?p=176941": "2026-09-09T00:41:13.818850+00:00",
     "https://www.cnx-software.com/?p=176959": "2026-09-09T09:28:28.702623+00:00",
@@ -134,6 +134,7 @@
     "https://www.cnx-software.com/?p=177310": "2026-09-21T11:07:19.434489+00:00",
     "https://www.cnx-software.com/?p=177313": "2026-09-20T10:10:13.503806+00:00",
     "https://www.cnx-software.com/?p=177619": "2026-09-27T10:46:11.482910+00:00",
+    "https://www.cnx-software.com/?p=177739": "2026-10-08T01:20:40.258601+00:00",
     "https://www.cnx-software.com/?p=177792": "2026-10-01T11:50:42.243700+00:00",
     "https://www.cnx-software.com/?p=177928": "2026-10-04T11:18:30.736596+00:00",
     "https://www.ettus.com/?p=11532": "2026-09-16T02:41:57.982686+00:00",
@@ -163,7 +164,6 @@
     "https://www.phoronix.com/news/FUSE-Large-Folios": "2026-09-29T11:35:47.491303+00:00",
     "https://www.phoronix.com/news/FUTEX-Robust-List2-Syscalls": "2026-09-26T00:10:13.580076+00:00",
     "https://www.phoronix.com/news/Fedora-47-Considers-Thin-LTO": "2026-10-07T01:01:04.434173+00:00",
-    "https://www.phoronix.com/news/FreeBSD-14.5-RELEASE": "2026-09-08T00:43:47.238508+00:00",
     "https://www.phoronix.com/news/Fujitsu-MONAKA-Launches": "2026-09-18T10:05:15.823346+00:00",
     "https://www.phoronix.com/news/GCC-17-RISC-V-mtune-mcpu-native": "2026-10-07T01:01:04.434173+00:00",
     "https://www.phoronix.com/news/GNOME-RFC-Process-Discussion": "2026-10-07T01:01:04.434173+00:00",
@@ -224,7 +224,6 @@
     "https://www.phoronix.com/news/Zstd-Linux-7.4-Avoid-Redundant": "2026-09-14T00:29:25.403418+00:00",
     "https://www.phoronix.com/news/systemd-262": "2026-09-22T23:49:48.541761+00:00",
     "https://www.phoronix.com/news/systemd-262-rc2": "2026-09-09T00:41:13.818850+00:00",
-    "https://www.phoronix.com/news/x86-CPU-With-APX-x86S": "2026-09-08T00:43:47.238508+00:00",
     "https://www.phoronix.com/review/amazon-linux-2027-benchmarks": "2026-10-07T01:01:04.434173+00:00",
     "https://www.phoronix.com/review/msi-b850p-coreboot-opensil": "2026-09-10T00:38:49.074531+00:00",
     "https://www.qemu.org/2026/09/23/bugs": "2026-09-23T23:58:04.297683+00:00",
@@ -271,6 +270,7 @@
     "https://www.redhat.com/en/blog/evolving-your-automation-pt-2-architectural-decisions-upgrading-red-hat-ansible-automation-platform-27": "2026-09-22T23:49:48.541761+00:00",
     "https://www.redhat.com/en/blog/fine-tuned-model-cheaper-and-faster-inference-speculator-training-red-hat-openshift-ai-kubeflow": "2026-09-15T00:58:03.779863+00:00",
     "https://www.redhat.com/en/blog/friday-five-september-4-2026-red-hat": "2026-10-07T01:01:04.434173+00:00",
+    "https://www.redhat.com/en/blog/how-global-service-providers-achieve-virtualization-migration-scale-red-hat-openshift-virtualization": "2026-10-08T01:20:40.258601+00:00",
     "https://www.redhat.com/en/blog/migrate-virtual-machines-red-hat-openstack-services-openshift": "2026-10-01T00:51:09.199810+00:00",
     "https://www.redhat.com/en/blog/mlops-edge-ai-preparing-ai-models-deployment-edge": "2026-10-06T01:55:08.067921+00:00",
     "https://www.redhat.com/en/blog/modernizing-virtualization-higher-education-how-automated-node-recovery-protects-data-integrity": "2026-10-07T01:01:04.434173+00:00",
@@ -283,7 +283,6 @@
     "https://www.redhat.com/en/blog/securing-ai-agents-requires-securing-systems-around-them": "2026-09-29T01:16:55.286252+00:00",
     "https://www.redhat.com/en/blog/what-enterprises-need-to-know-about-the-cyber-resilience-act-and-software-supply-chain-risk": "2026-10-03T10:38:27.442783+00:00",
     "https://www.redhat.com/en/blog/what-enterprises-need-to-know-about-the-software-they-depend-on": "2026-10-03T00:45:17.081177+00:00",
-    "https://www.redhat.com/en/blog/why-faster-coding-isnt-making-delivery-any-faster": "2026-09-08T00:43:47.238508+00:00",
     "https://www.redhat.com/en/blog/why-red-hat-building-open-foundation-enterprise-agents-openclaw-enterprise": "2026-09-30T00:46:27.180142+00:00",
     "https://www.redhat.com/en/blog/why-red-hat-is-building-secure-agent-onboarding": "2026-09-28T12:04:39.230765+00:00",
     "oai:arXiv.org:2508.04417v2": "2026-10-07T01:01:57.012881+00:00",
@@ -343,11 +342,8 @@
     "oai:arXiv.org:2609.04040v1": "2026-10-07T01:01:04.434173+00:00",
     "oai:arXiv.org:2609.04043v2": "2026-09-25T00:04:46.328968+00:00",
     "oai:arXiv.org:2609.04058v1": "2026-10-07T01:01:04.434173+00:00",
-    "oai:arXiv.org:2609.04244v1": "2026-09-08T00:43:47.238508+00:00",
     "oai:arXiv.org:2609.04259v1": "2026-09-09T00:41:13.818850+00:00",
-    "oai:arXiv.org:2609.04406v1": "2026-09-08T00:43:47.238508+00:00",
     "oai:arXiv.org:2609.04417v1": "2026-09-09T00:41:13.818850+00:00",
-    "oai:arXiv.org:2609.04429v1": "2026-09-08T00:43:47.238508+00:00",
     "oai:arXiv.org:2609.04476v3": "2026-10-02T11:23:39.558422+00:00",
     "oai:arXiv.org:2609.05635v1": "2026-09-09T09:28:28.702623+00:00",
     "oai:arXiv.org:2609.05725v1": "2026-09-09T09:28:28.702623+00:00",
@@ -526,6 +522,10 @@
     "oai:arXiv.org:2610.04296v1": "2026-10-07T01:01:57.012881+00:00",
     "oai:arXiv.org:2610.04808v1": "2026-10-06T12:14:45.665168+00:00",
     "oai:arXiv.org:2610.06475v1": "2026-10-07T01:01:57.012881+00:00",
+    "oai:arXiv.org:2610.07191v1": "2026-10-08T01:20:40.258601+00:00",
+    "oai:arXiv.org:2610.07301v1": "2026-10-08T01:20:40.258601+00:00",
+    "oai:arXiv.org:2610.07644v1": "2026-10-08T01:20:40.258601+00:00",
+    "oai:arXiv.org:2610.07668v1": "2026-10-08T01:20:40.258601+00:00",
     "tag:blogger.com,1999:blog-1834236085756782640.post-4353150683630815925": "2026-09-17T12:48:54.388673+00:00",
     "tag:blogger.com,1999:blog-1834236085756782640.post-4531771362299770475": "2026-10-06T12:14:45.665168+00:00",
     "tag:blogger.com,1999:blog-7068042310767317158.post-3664437809683684494": "2026-09-15T13:53:30.223364+00:00",
@@ -585,6 +585,19 @@
         "title": "[$] An update on the Sashiko patch-review system"
       },
       "first_seen": "2026-10-06T01:55:08.067921+00:00"
+    },
+    "https://lwn.net/Articles/1097198/": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://lwn.net/Articles/1097198/",
+        "link": "https://lwn.net/Articles/1097198/",
+        "relevance": 4,
+        "source": "LWN.net Front Page",
+        "summary": "Nadrieril is a long-time Rust contributor, and the maintainer of the rustc\npattern-matching infrastructure. During his involvement with Rust, he has\nnoticed a problem with the usability of the language: it is difficult to\nautomatically extract information from a Rust crate for use with other tooling.\n \nThe Charon project aims to fix that by providing a stable API for accessing\ninternal information from the Rust compiler.",
+        "summary_vi": "To address the difficulty of automatically extracting information from Rust crates (code packages) for external tooling, the Charon project provides a stable API to access internal details directly from the Rust compiler.",
+        "title": "[$] Analyzing Rust programs with Charon"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
     },
     "https://lwn.net/Articles/1097760/": {
       "entry": {
@@ -651,19 +664,6 @@
       },
       "first_seen": "2026-10-06T01:55:08.067921+00:00"
     },
-    "https://rcrwireless.com/?p=434842": {
-      "entry": {
-        "category": "ran",
-        "id": "https://rcrwireless.com/?p=434842",
-        "link": "https://rcrwireless.com/20261007/open_ran/open-ran-ai-testing",
-        "relevance": 3,
-        "source": "RCR Wireless News",
-        "summary": "During the RCR Wireless News‘ Intelligent RAN Forum 2026, Viavi marketing manager Owen O’Donnell and Battelle vice president of product development Mark Reudink examined the evolution of open and intelligent…",
-        "summary_vi": "During the RCR Wireless News‘ Intelligent RAN Forum 2026, Viavi marketing manager Owen O’Donnell and Battelle vice president of product development Mark Reudink examined the evolution of open and inte",
-        "title": "Open RAN’s AI era puts interoperability and testing in focus"
-      },
-      "first_seen": "2026-10-07T12:01:12.937548+00:00"
-    },
     "https://rcrwireless.com/?p=434853": {
       "entry": {
         "category": "ran",
@@ -702,19 +702,6 @@
         "title": "Schneider Electric and PTC consolidate industrial AI stack – but where’s the network? (Telco Diary)"
       },
       "first_seen": "2026-10-07T01:01:57.012881+00:00"
-    },
-    "https://rcrwireless.com/?p=434877": {
-      "entry": {
-        "category": "ran",
-        "id": "https://rcrwireless.com/?p=434877",
-        "link": "https://rcrwireless.com/20261007/carriers/what-a-single-square-kilometer-tells-us-about-starlink-mobile-vish",
-        "relevance": 3,
-        "source": "RCR Wireless News",
-        "summary": "Starlink Mobile’s real constraint might not be satellite coverage but capacity per square kilometer. A new model, offered up by Vish Nandlall, suggests where population density forces satellite service back…",
-        "summary_vi": "Starlink Mobile’s real constraint might not be satellite coverage but capacity per square kilometer. A new model, offered up by Vish Nandlall, suggests where population density forces satellite servic",
-        "title": "What a single square kilometer tells us about Starlink Mobile (Analyst Angle)"
-      },
-      "first_seen": "2026-10-07T12:01:12.937548+00:00"
     },
     "https://rocm.blogs.amd.com/artificial-intelligence/taf-blog/README.html": {
       "entry": {
@@ -767,19 +754,6 @@
         "title": "XIMEA MU003TG-SY-UC – A miniature, modular 0.3MP USB 3.0 ToF Sensor based on Sony IMX556"
       },
       "first_seen": "2026-10-06T12:14:45.665168+00:00"
-    },
-    "https://www.cnx-software.com/?p=177936": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.cnx-software.com/?p=177936",
-        "link": "https://www.cnx-software.com/2026/10/05/geekworm-ups-scap-5v5a-a-supercapacitor-ups-hat-for-raspberry-pi-5/",
-        "relevance": 3,
-        "source": "CNX Software",
-        "summary": "Geekworm, in collaboration with Mcuzone, has launched the UPS Scap 5V5A, a new supercapacitor UPS HAT for the Raspberry Pi 5 designed to keep the Raspberry Pi running long enough (a few seconds to a few minutes) to save data and shut down safely, rather than provide hours of backup power. Available in 100F, 60F, and 22F versions, the HAT has a built-in PD chip that negotiates a true 5V/5A output. This gives the Raspberry Pi 5 enough power to run properly without triggering the low-voltage warnings that can happen with some power supplies. The module connects to the Raspberry Pi 5 through pogo pins to detect power loss and supports I2C for checking voltage and current in real time. It also features dual independent power inputs, so you can power it with either a wide-voltage DC barrel jack or a standard USB-C PD charger. Geekworm UPS Scap 5V5A supercapacitor [...] \n The post Geekworm UPS Scap 5V5A – A supercapacitor UPS HAT for Raspberry Pi 5 appeared first on CNX Software - Embedded Systems News .",
-        "summary_vi": "Geekworm, in collaboration with Mcuzone, has launched the UPS Scap 5V5A, a new supercapacitor UPS HAT for the Raspberry Pi 5 designed to keep the Raspberry Pi running long enough (a few seconds to a f",
-        "title": "Geekworm UPS Scap 5V5A – A supercapacitor UPS HAT for Raspberry Pi 5"
-      },
-      "first_seen": "2026-10-05T00:10:30.939245+00:00"
     },
     "https://www.cnx-software.com/?p=177965": {
       "entry": {
@@ -846,6 +820,19 @@
       },
       "first_seen": "2026-10-06T01:55:08.067921+00:00"
     },
+    "https://www.phoronix.com/news/FEX-2610-Released": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/FEX-2610-Released",
+        "link": "https://www.phoronix.com/news/FEX-2610-Released",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "FEX 2610 released today as the newest monthly release of this open-source emulator for running x86_64 games/apps on AArch64 for ARM64 Linux systems, including most notably by Valve's Steam Frame headset...",
+        "summary_vi": "The FEX 2610 emulator, designed to run x86_64 applications on ARM64 Linux systems, has been released with new support for AVX-VNNI vector instructions and optimized disk caching.",
+        "title": "FEX 2610 Released With Handling For AVX-VNNI, Disk Cache Improvements"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
     "https://www.phoronix.com/news/Intel-APX-Projected-Gains": {
       "entry": {
         "category": "embedded",
@@ -911,6 +898,19 @@
       },
       "first_seen": "2026-10-06T12:14:45.665168+00:00"
     },
+    "https://www.phoronix.com/news/Microsoft-LiteBox-0.1": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Microsoft-LiteBox-0.1",
+        "link": "https://www.phoronix.com/news/Microsoft-LiteBox-0.1",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "Back in February we featured LiteBox as a new Microsoft open-source project building out a Rust-based sandboxing Library OS. LiteBox leverages Linux virtualization security features and Rust language inherent benefits to provide the ability for sandboxing Linux apps on Linux, Linux programs on Windows, and other security-oriented deployments. Out today is the first tagged release of LiteBox for this open-source library operating system...",
+        "summary_vi": "Microsoft has released the first tagged version of LiteBox, an open-source sandboxing library operating system written in Rust that leverages Linux virtualization security features to run isolated applications across Linux and Windows.",
+        "title": "Microsoft Issues First Release Of Their LiteBox Sandboxing Library OS"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
     "https://www.phoronix.com/news/Microsoft-WSL-3.0.2": {
       "entry": {
         "category": "embedded",
@@ -950,6 +950,19 @@
       },
       "first_seen": "2026-10-07T01:01:57.012881+00:00"
     },
+    "https://www.phoronix.com/news/Photocraft-Filmcraft-AI": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Photocraft-Filmcraft-AI",
+        "link": "https://www.phoronix.com/news/Photocraft-Filmcraft-AI",
+        "relevance": 3,
+        "source": "Phoronix",
+        "summary": "As an interesting demonstrator for the power of AI and potentially pressing legal challenges, Claude Code and AI agents have created \"open-source, clean-room reimplementation\" versions of Adobe Photoshop, Adobe Premier, and Adobe Lightroom. These new creations from the ArtCraft project are implemented in the Rust programming language...",
+        "summary_vi": "Using Claude Code and AI agents, the ArtCraft project has generated open-source, clean-room reimplementations of Adobe Photoshop, Premiere, and Lightroom written in the Rust programming language.",
+        "title": "AI Makes \"Open-Source, Clean Room\" Implementations Of Adobe Photoshop & Premier In Rust"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
     "https://www.phoronix.com/news/Qialcomm-QPaCE-Linux-ZRAM": {
       "entry": {
         "category": "embedded",
@@ -975,6 +988,19 @@
         "title": "Qualcomm Patching Linux For Hardware Thermal Binning To Benefit Snapdragon X Laptops"
       },
       "first_seen": "2026-10-05T12:40:32.898052+00:00"
+    },
+    "https://www.phoronix.com/news/Steam-Beta-Use-Proton-Default": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Steam-Beta-Use-Proton-Default",
+        "link": "https://www.phoronix.com/news/Steam-Beta-Use-Proton-Default",
+        "relevance": 3,
+        "source": "Phoronix",
+        "summary": "Valve released tonight a new Steam client beta that includes some notable improvements for Linux users...",
+        "summary_vi": "Valve has released a new Steam client beta for Linux users that automatically defaults non-Steam Windows executable files to run using the Proton compatibility layer.",
+        "title": "Steam Beta Now Defaults Non-Steam Windows Binaries To Using Proton"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
     },
     "https://www.phoronix.com/news/TrueNAS-27-RC.1-Release": {
       "entry": {
@@ -1080,18 +1106,18 @@
       },
       "first_seen": "2026-10-07T01:01:57.012881+00:00"
     },
-    "https://www.reddit.com/r/embedded/t3_1wxsift": {
+    "https://www.phoronix.com/review/star-labs-starfighter": {
       "entry": {
         "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1wxsift",
-        "link": "https://www.reddit.com/r/embedded/comments/1wxsift/llm_resistant/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "I work on software (Infra and Distributed systems) but am burnt out completely with the LLM pilled management. Every role I look at wants high speed velocity in developing software. Not a single team I talked to had a sane take and even if they did, their hands are tied. I think hardware is doing much better. It's going to be real work to give up skills on software side and shift to embedded. But I'm inclined to do if it means I still get to tinker. Management in software is completely bonkers and I've no hope and don't want to compete with people heavily using llm-tools. It's not going to be easy for me to break into it after a decade of Software experience. What do you think? Ofcourse nobody can predict the future, but how is it looking as of now? Is embedded a safe haven? submitted by /u/conqrr [link] [comments]",
-        "summary_vi": "I work on software (Infra and Distributed systems) but am burnt out completely with the LLM pilled management. Every role I look at wants high speed velocity in developing software. Not a single team ",
-        "title": "LLM resistant?"
+        "id": "https://www.phoronix.com/review/star-labs-starfighter",
+        "link": "https://www.phoronix.com/review/star-labs-starfighter",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "When it comes to Linux pre-loaded laptops, I have looked at hardware from most of these vendors over the past 22+ years of Phoronix. One vendor I haven't had the chance to personally test until now is the UK-based Star Labs. That changed recently and over the past few weeks I have been testing out their new StarFighter laptop that offers great Linux support and comes pre-loaded with Coreboot and streamlined firmware updates via LVFS. For those after a high-end mobile workstation, the Star Labs StarFighter offers a lot of performance potential while being open-source friendly and with Coreboot in tow.",
+        "summary_vi": "The new Star Labs StarFighter laptop offers a high-end mobile workstation pre-loaded with Linux, featuring Coreboot open-source system firmware and streamlined firmware updates via the Linux Vendor Firmware Service.",
+        "title": "Star Labs StarFighter Ultra: A Modern High-End Linux Laptop With Coreboot"
       },
-      "first_seen": "2026-10-05T00:10:30.939245+00:00"
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
     },
     "https://www.reddit.com/r/embedded/t3_1wxvsh5": {
       "entry": {
@@ -1391,6 +1417,71 @@
         "title": "How demodulation section working and how RC time constant works with microcontroller."
       },
       "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1wzwrc4": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1wzwrc4",
+        "link": "https://www.reddit.com/r/embedded/comments/1wzwrc4/seeking_help_which_of_these_iot_projects_are/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "Hello im just Kindly requesting for advice: I’m an Embedded IoT student trying to choose 2–4 portfolio projects for embedded IoT / IoT networking jobs. I’m mostly trying to avoid building something that sounds impressive in school but isn’t really used in modern industry anymore. Current ideas: Modbus RTU/TCP → MQTT industrial gateway Edge condition monitoring using vibration/temp sensors + FFT/anomaly detection Fault-tolerant IoT network with local buffering, reconnection and failure recovery Embedded Linux industrial IoT gateway Secure OTA firmware updates for multiple embedded nodes CAN → Ethernet/MQTT gateway Data-center/environment monitoring system LoRa/BLE → IP/MQTT gateway For people working in embedded, industrial IoT, automation or networking: Which of these are actually common/useful in industry today, and which feel more like student projects? I know commercial products already exist for most of these, but is building a smaller version still useful experience for a portfolio? I’d also really appreciate advice on the hardware. What would I realistically need for each project? STM32/ESP32 boards, Raspberry Pi, RS-485/CAN transceivers, Ethernet modules, sensors, etc. Also, STM32 vs ESP32: does it make much difference to employers? For example, would: \"STM32 + FreeRTOS + Ethernet + industrial protocols\" generally look better for embedded/industrial jobs than doing basically the same project with an ESP32? Or is the actual architecture, code quality and understanding much more important than the MCU? Lastly, is there a particular STM32 or ESP32 family that could handle most of these projects without major compromises? Ideally I’d like to learn one MCU properly and reuse it across several projects. I’d need things like FreeRTOS, Ethernet, CAN, UART/RS-485, SPI/I²C, TLS/OTA and possibly DSP/FFT. I’m currently looking at STM32F4/F7/H7 and ESP32-S3, but I’m open to better recommendations. Any criticism of the project list is welcome too. I’d especially like to know if there’s anything here that experienced engineers would immediately say isn’t worth building anymore. submitted by /u/Key_Specialist_7787 [link] [comments]",
+        "summary_vi": "An embedded IoT student asks the community to evaluate which portfolio project ideas—such as a Modbus-to-MQTT gateway or edge vibration monitoring using FFT—are genuinely valued in modern industry.",
+        "title": "Seeking help: Which of these IoT projects are actually useful in industry vs just good student projects?"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1x01sf1": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x01sf1",
+        "link": "https://www.reddit.com/r/embedded/comments/1x01sf1/should_i_keep_trying_offcampus_or_consider_masters/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "I’m a final year Btech ECE student from a tier 1 college in India and I’ve been preparing mainly for Embedded Systems or Firmware roles. I’ve been working on things like microcontrollers, RTOS, embedded C, communication protocols, and Networking. The problem is that no companies for Embedded/Firmware/IoT roles are coming to my campus. Most of the campus opportunities are for software, analytics, etc. So I’m confused about what to do: Keep preparing and apply off-campus for Embedded roles, even if it takes time to get the first opportunity Do an Mtech (possibly in Embedded Systems/VLSI/related fields) and use that to get better opportunities in the embedded industry Take a software/other job if available and try to transition into embedded later For people working in the Indian embedded industry, or people who have gone through a similar situation: How realistic is it to get a good Embedded/Firmware role off-campus as a fresher? Does a Masters degree significantly improve opportunities for Embedded/Hardware roles? Would you recommend spending 1–2 years on Mtech if the goal is specifically embedded? What skills/projects actually helped you get your first embedded job? I’d really appreciate your advice, especially from people who are working in the embedded field submitted by /u/Mani__0_7 [link] [comments]",
+        "summary_vi": "A final-year electronics student preparing for firmware and embedded systems roles asks whether to continue applying for off-campus positions or pursue a Master's degree due to a lack of campus recruiters.",
+        "title": "Should I keep trying off-campus or consider Masters?"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1x028y1": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x028y1",
+        "link": "https://www.reddit.com/r/embedded/comments/1x028y1/rp2040_driving_640480_vga_without_a_framebuffer/",
+        "relevance": 5,
+        "source": "Reddit r/embedded",
+        "summary": "Since August I've been building an operating system for the RP2040/RP2350. This is the current bench setup: a Pico on perfboard, a resistor-DAC VGA port, and more hot glue than I'd like to admit. Hahaha What you're looking at 640×480 @ 60 Hz, RGB332 out of PIO into a resistor DAC. Everything on the monitor comes from the Pico: the file windows, a maze and a Mandelbrot, each running as its own task, yeah! The 3.2\" SPI LCD (ILI9340 + XPT2046 touch) runs beside the VGA and mirrors a 320×240 crop. Core 1 hands over lines it has already composed, and DMA pushes the changed rows Keyboard and mouse plug into a second RP2040: one into its native USB port (TinyUSB host), one into a Pico-PIO-USB socket. Their events ride as tagged frames inside the 1 Mbaud UART console stream, so the main Pico spends no pins on input DS1307 + EEPROM on I2C, microSD on the shared SPI bus (a 3.3 V breakout, because the cheap 5 V modules drive MISO even when not selected and garble the touch readings), PWM mono sound through a two-stage RC into a small amp. Power bank, because why not ^_^ The parts I think this sub will care about No framebuffer. 640×480×8 bit is 300 KB; the RP2040 has 264. The screen lives in a 34 KiB block (text/attribute cells, palettes, sprites, per-line segment tables), and core 1 composes every scanline in software just before PIO needs it. At 252 MHz that's a budget of 8008 cycles per line. At boot it benchmarks its own worst cases on silicon; the worst lane right now is 7948 of 8008 (99 %). The rule: every lane stays strictly under budget, or the change doesn't go in Every app is bytecode. It's a register VM with hand-written dispatchers for ARMv6-M and RV32, at about 23-25 cycles per instruction on the M0+. Because the VM counts instructions, preemption is real: a while true can't stall the machine, and a fault kills one task, not the board. Each load/store is masked to the task's memory, and swap goes to flash One binary everywhere. The same .rpx runs on the RP2040, on both RP2350 core types (Arm and RISC-V) and in a WASM emulator in the browser. A differential test keeps the C core bit-identical to a JS reference VM It has its own flash filesystem, user accounts, and a small language (CAST) that compiles on the device itself No overclocking past 252 MHz, and no native code from apps. Native drivers load only through a gated kit loader. Happy to go deep on the scanline compositor, the PIO-USB host, or why a VM on an M0+ is less crazy than it sounds. And I'd like to hear where you'd poke holes first. (Disclosure: the logo on the LCD is my company's, Recaster.) submitted by /u/realmcalec [link] [comments]",
+        "summary_vi": "Developer describes a custom operating system for RP2040/RP2350 microcontroller achieving 640×480@60Hz VGA output via PIO-driven resistor-DAC without dedicated framebuffer memory. The system implements multitasking window manager, graphical applications, and USB host capability using a secondary Pico, with a parallel 320×240 SPI LCD display running alongside VGA output in resource-constrained environment.",
+        "title": "RP2040 driving 640×480 VGA without a framebuffer: windows, a preemptive bytecode VM, and a second Pico as USB host"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1x08lwj": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x08lwj",
+        "link": "https://www.reddit.com/r/embedded/comments/1x08lwj/how_to_stick_a_tape_ble_antenna/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I have a tape antenna and a little smaller enclosure. So, there are 2 options of how to stick it. I'd like to pick one which retains the best signal. In one case the edges are bent at 90° and the antenna is oriented horizontally. In the other case the edges are bent a very little but the antenna is placed 45°. This BLE device will be placed at a distance at the same height to the counterpart (imagine this enclosure tied to a vertical pillar). Based on your experience/knowledge, which option suites better? Or probably it doesn't matter at all? submitted by /u/brifgadir [link] [comments]",
+        "summary_vi": "A community member seeks RF placement advice on how to fold and stick a flexible Bluetooth Low Energy (BLE) tape antenna inside a tight vertical enclosure to maintain optimal signal performance.",
+        "title": "How to stick a tape BLE antenna?"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1x0c03l": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x0c03l",
+        "link": "https://www.reddit.com/r/embedded/comments/1x0c03l/rk3576_bringup_my_second_linux_board_lessons/",
+        "relevance": 5,
+        "source": "Reddit r/embedded",
+        "summary": "About a month ago I posted my first Linux board (RK3566, KVM-over-IP). The next rev is back and I wanted to do a follow up lessons learned! For this board, I bumped up to the RK3576 so it can do 4K60 capture and encode. 8-layers, RK806 PMIC, LPDDR4X, HDMI input, HDMI output, dual GbE through a small switch, WiFi/BT and PoE. Fabbed and assembled at JLCPCB again. After incorporating the fixes from the last board (component spacing, triple checking parts on order, and network switch wiring), this bring up was 1000x smoother. 4K60 capture and low latency streaming work end to end now. Stuff I ran into: SD boot / 4-bit mode: I inverted card-detect polarity, so with a card inserted the chip saw an empty slot. The BootROM skipped SD, so I booted u-boot from SPI NOR, which got SD running in 1-bit mode only. On the RK3576, an \"empty\" slot hands two data pins to JTAG. An internal pull-down on the detect pin early in u-boot fixed it. Removing that transistor next spin. No power-up on PoE: The PoE supply output about 6.0V unloaded, just over the power mux's ~5.99V OVP, so it never switched over and never loaded the rail down. Reducing the feedback resistor slightly should fix it (still testing this but pretty sure it's the issue). 4K encode stuck at ~38 fps: 4K60 needs both RK3576 encoder cores alternating frames. The vendor library's async thread blocked whenever the next frame wasn't ready, so everything ran on one core. A separate wait thread fixed it, and now both cores are at ~77%, steady 60 fps. Smaller stuff: the left and right halves of the 4K image came out swapped (lane mapping in the device tree), the USB 2 host port needed the unused USB 3 PHY explicitly disabled, and one RGB LED was dead on one of the boards. Bonus given RAM prices right now: testing showed this board doesn't need as much RAM as I put on it, so that's coming down for the next rev. Big $$$$ savings there. Happy to answer questions on the RK3576 or bring-up in general. Another huge shout out to u/PracticalMirror2834 for another thorough review! Also if anyone has tips on how to take better PCB pictures, I'd love to hear them. This time I bought a light box but it's still needs some improvement... submitted by /u/adouglass52 [link] [comments]",
+        "summary_vi": "Community member describes hardware bring-up experience of a second custom Linux board using RK3576 SoC, upgraded from RK3566 to support 4K60 video capture and encoding. The 8-layer design integrates RK806 PMIC, LPDDR4X, dual GbE, HDMI input/output, WiFi/BT, and PoE functionality, manufactured at JLCPCB. Author shares practical lessons from first board iteration, including component spacing verification and network subsystem wiring improvements.",
+        "title": "RK3576 bring-up (my second Linux board) + lessons learned"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
     },
     "oai:arXiv.org:2503.08530v4": {
       "entry": {
@@ -2991,6 +3082,19 @@
       },
       "first_seen": "2026-10-07T12:01:12.937548+00:00"
     },
+    "oai:arXiv.org:2610.07368v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07368v1",
+        "link": "https://arxiv.org/abs/2610.07368",
+        "relevance": 4,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2610.07368v1 Announce Type: new \nAbstract: Causal message ordering provides essential semantics for distributed applications, yet ensuring it within an asynchronous system subject to Byzantine failures presents fundamental theoretical and practical challenges. Prior research establishes that algorithms cannot guarantee both strong safety and liveness without using cryptography under these conditions. Existing Byzantine-tolerant solutions make synchrony assumptions or suffer from $O(n)$ message space overheads and $O(n^2)$ message complexity, where $n$ is the number of processes in the system, or use cryptography, but may not guarantee strong safety. In this paper, we present a novel Byzantine-tolerant causal ordering algorithm that achieves an optimal $O(1)$ application message space overhead for point-to-point messages. Our approach uses a Sender Permission to Send (SPS) invariant and an \\textit{Isolated-Buffer Optimistic Model} for the memory management architecture. To circumvent Byzantine state-pinning and head-of-line blocking attacks, instead of unified causal buffers, we use isolated, per-peer queues equipped with event-driven \\textit{Cascading Space Evictions}. We formally prove that our algorithm guarantees system-wide liveness and satisfies a weakened causal safety abstraction called \\textit{Congestion-Relaxed Causal Delivery}. Under this model, weak causal safety is strictly preserved for all honest-to-honest communications unless extreme network latency or Byzantine withholding attacks exceed quantifiable local buffer capacities, forcing optimistic queue evictions. This formal guarantee successfully balances causal ordering with high throughput, constant message space overhead, low computational overhead, and strictly bounded local space.",
+        "summary_vi": "To maintain correct message ordering in distributed networks facing malicious node failures (Byzantine failures) without high overhead, this paper proposes a Byzantine-tolerant causal unicast algorithm achieving constant message space overhead, though performance details are omitted in the snippet.",
+        "title": "Byzantine-Tolerant Causal Unicast with Constant Message Space Overhead"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
     "oai:arXiv.org:2610.07377v1": {
       "entry": {
         "category": "research",
@@ -3017,6 +3121,19 @@
       },
       "first_seen": "2026-10-07T12:01:12.937548+00:00"
     },
+    "oai:arXiv.org:2610.07443v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07443v1",
+        "link": "https://arxiv.org/abs/2610.07443",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2610.07443v1 Announce Type: new \nAbstract: Large language models (LLMs) have become the backbone of modern AI applications, but pose significant challenges for efficient inference. Their autoregressive generation divides execution into two phases: prefill, dominated by large GEMMs, and decoding, dominated by small GEMVs. Modern serving systems further introduce complexity through continuous batching and prefill-decoding disaggregation, leading to dynamic workloads and phase separation. However, existing accelerators remain poorly aligned with these system-level behaviors, resulting in inefficiencies in LLM serving.\n In this work, we present DynaCore, a unified architecture for efficient LLM serving via system-architecture co-design. We observe that the compute tile a systolic array executes, its Minimum Efficient Unit (MEU), spans all three GEMM dimensions. DynaCore reshapes the MEU along all three: spatially it trades array width against height asymmetrically, raising weight delivery while leaving the input path untouched, and temporally Split-K maps the reduction onto the array, folding partial sums through the interconnect the array already has. To exploit phase separation, we further propose disaggregated quantization, applying dual-side quantization to prefill and weight-only quantization to decoding, with an inner-product mixed-precision datapath that keeps output width invariant to precision. A runtime scheduling framework then selects an MEU per batch. Evaluation with real-world serving traces shows that DynaCore substantially reduces service-level latency over quantization and reconfigurable accelerators, improving TTFT by 3.50x and 2.97x and TPOT by 36.55x and 8.02x, respectively.",
+        "summary_vi": "Large language model inference is split into a matrix-matrix-heavy prefill phase and a matrix-vector-heavy decoding phase, creating dynamic workloads. The paper proposes a shape-adaptive architecture with disaggregated quantization to handle these varying workloads, though specific results are not detailed in this snippet.",
+        "title": "A Shape-Adaptive Architecture with Disaggregated Quantization for Efficient LLM Serving"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
     "oai:arXiv.org:2610.07462v1": {
       "entry": {
         "category": "research",
@@ -3029,6 +3146,45 @@
         "title": "Comparative Analysis of Filter Bank Waveforms for ISAC Systems: 2D-FFT FB and AFBM"
       },
       "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07495v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07495v1",
+        "link": "https://arxiv.org/abs/2610.07495",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2610.07495v1 Announce Type: new \nAbstract: Productivity has long been recognized as a central concern in high-performance computing (HPC), yet it still lacks a workable formal definition and a broadly accepted metric for quantified assessment. Recent attempts to incorporate productivity into performance-portability analysis have introduced code-divergence, convergence, and semantic measures, but have not established a convincing formal relationship between productivity and performance portability. More recent language and compiler systems, including JACC, Mojo, JLIR, and Accl++, pursue productive performance portability through higher-level abstractions, multi-level intermediate representations, automatic kernel generation, and runtime compilation. These systems demonstrate substantial engineering progress, while productivity is still commonly represented through programmability, ecosystem reuse, code size, or reduced implementation burden rather than direct measurement of human effort. This paper presents a critical review of HPC productivity measurement, tracing its development from source lines of code (SLOC), static complexity, and empirical usability studies to development-time models and semantic approaches. We also examine how automated migration and artificial-intelligence(AI)-assisted programming weaken the correspondence between code transformation and human effort, shifting effort toward verification, correction, and performance tuning. The reviewed methods are compared in terms of what they measure, directness, objectivity, reproducibility, practicality, and their relationship to performance and portability. We conclude by identifying the principal limitations and open challenges for quantified HPC productivity assessment.",
+        "summary_vi": "This paper provides a critical review of productivity metrics in High-Performance Computing (HPC), covering aspects like lines of code and AI-assisted programming, while highlighting the lack of a proven relationship between productivity and performance portability.",
+        "title": "Productivity in HPC: A Critical Review from SLOC and Performance Portability to AI-Assisted Programming"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
+    "oai:arXiv.org:2610.07504v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07504v1",
+        "link": "https://arxiv.org/abs/2610.07504",
+        "relevance": 5,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2610.07504v1 Announce Type: new \nAbstract: GPUs are increasingly in demand for AI workloads, yet often remain substantially underutilized, motivating workload colocation. However, colocation introduces interference that can degrade latency-critical workloads. Existing approaches mitigate interference using either heuristic-based scheduling or interference predictors. Heuristics rely on coarse-grained metrics that overlook important interference sources, while predictors often depend on simulator-specific or similarly coarse metrics. However, GPU interference is complex and arises from multiple mechanisms, including thread-block placement, memory hierarchy contention, and intra-SM resource contention. We present Mosaic, a kernel-level interference predictor that explicitly models these mechanisms using a combination of analytical and lightweight learned models. Across four GPU architectures, Mosaic reduces prediction error by up to an order of magnitude compared to prior predictors. We integrate Mosaic into a scheduler, MosaicSched, that performs online kernel admission control and selects between full-GPU colocation and SM partitioning to maximize best-effort throughput while satisfying latency SLOs. Across all workloads, MosaicSched keeps the p99 latency below or very close to the target SLO.",
+        "summary_vi": "GPU colocation can underutilize expensive accelerators but risks latency degradation from inter-workload interference. This work proposes kernel-level interference prediction to enable latency-guaranteed GPU sharing, moving beyond coarse-grained heuristic scheduling toward fine-grained interference modeling.",
+        "title": "Mosaic: GPU Sharing with Latency Guarantees through Kernel-Level Interference Prediction"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
+    "oai:arXiv.org:2610.07516v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07516v1",
+        "link": "https://arxiv.org/abs/2610.07516",
+        "relevance": 4,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2610.07516v1 Announce Type: new \nAbstract: Distributed training and rollout generation often use different tensor layouts, requiring model weights to be resharded across distinct process groups. This M-to-N redistribution is not directly expressed by standard collectives. Flat direct sends duplicate traffic across destination replicas, while gather-then-broadcast concentrates network injection at one root and transfers data that destinations do not need. For DeepSeek-V3 on 256 GPUs, legacy all-gather plus broadcast accounts for 29.4% of the reported reinforcement-learning step time. We present NCCL M2N, a layout- and topology-aware collective primitive for distributed tensor resharding. Given source and destination meshes and placements, it derives the required transfer regions and a global communication schedule. Its hierarchical route balances source contributions across eligible destination ranks, forwards one copy between destination NVLink domains, and completes local replication over NVLink. Network transfer and local replication overlap, avoiding replica-multiplied source egress. An aggregate data-movement model captures the limits of both stages. We evaluate NCCL M2N on up to 256 GB200 GPUs in an NVL72 cluster with NDR InfiniBand. A single FFN-MoE layer transfer achieves up to 7.9x speedup over flat direct sends (9.8 ms versus 77.3 ms). In a separate 256-GPU DeepSeek-V3 NeMo-RL experiment, NCCL M2N reduces reported weight-sync time from 5.78 s to 2.77 s, a 2.09x speedup over legacy all-gather plus broadcast, and reduces step time by 12.7%.",
+        "summary_vi": "Redistributing tensor layouts across processor groups during model training often causes network congestion or redundant traffic. The authors propose NCCL M2N, a layout- and network-aware communication collective, which aims to optimize this process, highlighting legacy inefficiencies on 256 GPUs.",
+        "title": "NCCL M2N: A Layout- and Topology-Aware Collective for Distributed Tensor Resharding"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
     },
     "oai:arXiv.org:2610.07541v1": {
       "entry": {
@@ -3043,6 +3199,32 @@
       },
       "first_seen": "2026-10-07T12:01:12.937548+00:00"
     },
+    "oai:arXiv.org:2610.07593v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07593v1",
+        "link": "https://arxiv.org/abs/2610.07593",
+        "relevance": 4,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2610.07593v1 Announce Type: new \nAbstract: TRANSIT is a transparent scale-in framework to enable multi-node model training on fewer GPUs while maintaining training efficiency by transparently leveraging CPU DRAM as an extension of GPU memory during distributed training. It achieves this through a user-space interposition layer, requiring no modifications to the application, training framework, cluster scheduler, device driver, or operating system. Furthermore, TRANSIT achieves higher efficiency by leveraging a zero-copy data path for CPU-GPU transfers. We evaluate TRANSIT on dense and MoE models across scales up to 64 NVIDIA H100 GPUs and multiple parallelism configurations over a RoCE network. Our evaluation shows that TRANSIT can: (a) outperform state-of-the-art framework-managed offloading techniques, achieving up to 68%, 59%, and 42% higher per-GPU throughput than TorchTitan, ZeRO-Offload, and ZeRO-Infinity, respectively, (b) enables training with 50% fewer GPUs while maintaining over 90% of baseline per-GPU throughput, (c) lower per-node network traffic by up to 33%, and (d) improve per-GPU throughput by up to 35% in communication-bound settings.",
+        "summary_vi": "To train large models on fewer GPUs, the TRANSIT framework transparently extends GPU memory using CPU DRAM through a user-space interposition layer, requiring zero modifications to applications, device drivers, or the underlying operating system.",
+        "title": "TRANSIT: Transparent Scale-in for Multi-Node LLM Training"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
+    "oai:arXiv.org:2610.07600v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07600v1",
+        "link": "https://arxiv.org/abs/2610.07600",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2610.07600v1 Announce Type: new \nAbstract: Useful-skew schedules can satisfy timing constraints yet remain unrealizable by a fixed clock tree with discrete tuning choices. We formulate this mismatch as exact membership in a finite relative-latency set and develop a checkable feedback interface between the scheduler and the tree model. Arithmetic certificates explain unrealizable targets, while tree-specific contraction reduces the structural size of the exact relations projected onto selected sinks. These relations become realizability cuts that can exclude more candidates than a no-good on the same certificate support, including discrete holes that linear inequalities cannot separate. Controlled experiments confirm fewer oracle calls and faster projection construction. They also expose important limits: globally minimum certificates can cost more than they save, compact arithmetic feedback can fail on non-parity obstructions, and direct monolithic optimization remains faster on the tested additive models. The contribution is an exact, independently verifiable scheduler--tree interface, rather than a claim of universal solver acceleration or physical signoff.",
+        "summary_vi": "Clock timing schedules may not be physical on fixed clock trees with discrete tuning options. The authors address this by formulating the mismatch as a finite relative-latency set and proposing a checkable feedback interface with arithmetic certificates, though final performance outcomes are not detailed.",
+        "title": "Beyond No-Good Benders Cuts: Exact Realizability for Discretely Tunable Clock Trees"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
     "oai:arXiv.org:2610.07670v1": {
       "entry": {
         "category": "research",
@@ -3056,6 +3238,19 @@
       },
       "first_seen": "2026-10-07T12:01:12.937548+00:00"
     },
+    "oai:arXiv.org:2610.07682v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07682v1",
+        "link": "https://arxiv.org/abs/2610.07682",
+        "relevance": 5,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2610.07682v1 Announce Type: new \nAbstract: Remote automatic modulation recognition balances sensing-node complexity, reporting cost and accuracy. To address this trade-off, we propose channel-aware semantic split inference: a sensing node sends a semantic report over a noisy link and the edge server completes recognition. In our model, split depth and report length are independent design variables, with end-to-end training through the channel. We compare the resulting design against basic split placements, which run inference at the edge server or at the sensing node, and against a state-of-the-art collaborative scheme. We assess sensing-node model size, computation, latency and energy against recognition accuracy. We show that intermediate splits give the best accuracy-cost trade-off.",
+        "summary_vi": "To balance sensing-node complexity, communication cost, and accuracy in automatic modulation recognition, this approach uses semantic split inference where edge nodes transmit compressed semantic features over noisy wireless links while a remote server completes classification. Split depth and report length are jointly optimized through end-to-end channel-aware training.",
+        "title": "Semantic Split Inference for Remote Modulation Recognition"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
     "oai:arXiv.org:2610.07742v1": {
       "entry": {
         "category": "research",
@@ -3068,6 +3263,45 @@
         "title": "Cleave: Scaling Tensor Program Optimization via Decoupled Algebraic Search and Operator Scheduling"
       },
       "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.07747v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07747v1",
+        "link": "https://arxiv.org/abs/2610.07747",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2610.07747v1 Announce Type: new \nAbstract: Local multipath rejection can erase evidence needed for cooperative sensing. We propose staged anchored recovery: preserve strong-only confirmations, then query compatible weak reports using unused strong anchors. For any number of sensing nodes, we prove lossless residual screening and derive corroboration and bidirectional cost laws. In 1,024 five-UAV drops, recovery adds 30 matched targets and three false outputs over strict consensus, matching one-pass anchored confirmation's detection counts while reducing weak uploads by 97.4%. Equal-sized cue/report records yield 4.5% less payload than uploading all eligible reports. Independent validation recovers four additional targets with no observed false outputs.",
+        "summary_vi": "To prevent local multipath signals from erasing critical sensing data, the authors propose a staged anchored recovery method that queries weak reports using strong anchors; in 1,024 simulated five-UAV drops, this method added 30 matched targets with only three false outputs.",
+        "title": "When Weak Reports Matter: Staged Anchored Fusion for Cooperative UAV Sensing"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
+    "oai:arXiv.org:2610.07889v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07889v1",
+        "link": "https://arxiv.org/abs/2610.07889",
+        "relevance": 5,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2610.07889v1 Announce Type: new \nAbstract: Open Radio Access Network (O-RAN) architectures extend programmability in next-generation cellular networks through Near-Real-Time and Non-Real-Time RAN Intelligent Controllers (RICs), enabling AI/ML-driven xApps and rApps to optimize network behavior dynamically. However, validating automated closed-loop control algorithms in live environments presents significant operational risks and deployment costs. To address this challenge, this paper introduces the O-RAN Digital Twin (ONDT), a modular, virtualized, and cloud-native experimentation framework developed as a 6G enabler within the SNS SUNRISE-6G project. We present the ONDT architecture and its end-to-end experimentation workflows, showing how the framework automates O-RAN-compliant rApp/xApp onboarding, RAN scenario configuration and initialization, Key Performance Metric (KPM) collection, and closed-loop control validation. Experimental validation using Juniper RIC platforms and the Keysight RICtest emulation framework demonstrates ONDT ability to provide an isolated and reproducible environment for KPM monitoring, cell ON/OFF control, automated dataset generation, and rApp/xApp validation.",
+        "summary_vi": "Addressing the high risks and costs of testing real-time RAN Intelligent Controller (RIC) automation in live networks, this paper introduces ONDT, a modular and virtualized Open-RAN digital twin designed for risk-free xApp and rApp closed-loop experimentation.",
+        "title": "ONDT: A Modular and Virtualized O-RAN Digital Twin for xApp/rApp Closed-Loop Experimentatio"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
+    "oai:arXiv.org:2610.07900v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.07900v1",
+        "link": "https://arxiv.org/abs/2610.07900",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2610.07900v1 Announce Type: new \nAbstract: Wi-Fi 9 is expected to go beyond mere communication and provide new services such as sensing or computation. At this juncture, Artificial Intelligence (AI) is taking a leading role in the definition of the 802.11bx amendment, named WLAN Intelligent Networking (WIN). In this tutorial, we survey the recent progress made toward Wi-Fi 9 within IEEE 802.11 standardization, tracing the drivers and technological advances that motivate an AI-ready Wi-Fi 9. We then examine AI's role along three complementary dimensions, i.e., AI as a protocol (AI is applied to Wi-Fi's PHY/MAC operation), AI as a platform (Wi-Fi infrastructure is repurposed to provide AI computation), and AI as traffic (AI flows call for new traffic-handling policies), and discuss candidate features and open challenges along each. As a concrete illustration of the AI as traffic paradigm, we present a case study on AI traffic differentiation, where we explore a potential extension of the current Enhanced Distributed Channel Access (EDCA) to support new AI traffic flows.",
+        "summary_vi": "The paper surveys the IEEE 802.11bx amendment (WLAN Intelligent Networking) for Wi-Fi 9, exploring how the standard integrates Artificial Intelligence to support services beyond communications, such as sensing and computation.",
+        "title": "IEEE 802.11bx - WLAN Intelligent Networking (WIN): Toward an AI-Ready Wi-Fi 9"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
     },
     "oai:arXiv.org:2610.07994v1": {
       "entry": {
@@ -3095,6 +3329,32 @@
       },
       "first_seen": "2026-10-07T12:01:12.937548+00:00"
     },
+    "oai:arXiv.org:2610.08041v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.08041v1",
+        "link": "https://arxiv.org/abs/2610.08041",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2610.08041v1 Announce Type: new \nAbstract: High precision continuous localization is a fundamental challenge for automated guided vehicles (AGVs) operating in electromagnetically sensitive industrial environments. To mitigate the continuity limitations of conventional discrete localization methods and the accuracy limitations of existing continuous localization methods, this paper proposes a continuous AGV localization method that integrates interferometric fiber Bragg grating (FBG) array sensing with a hybrid deep learning framework. We first design a shallowly buried interferometric FBG array sensing track to enable the stable acquisition of high-quality signals. The received sensing signals are subsequently parameterized and preprocessed in a task-oriented manner, in which a multichannel joint representation is constructed using a sliding time window. A hybrid deep learning framework is developed to estimate AGV position from multichannel FBG response signals by jointly exploiting inter-channel spatial correlation and temporal continuity in the measurement sequence. Experimental results show that the proposed method achieves a mean absolute error (MAE) of less than 2 cm under complex industrial conditions, proving its effectiveness and robustness in practical AGV localization scenarios.",
+        "summary_vi": "To improve continuous localization accuracy for automated guided vehicles (AGVs) in electromagnetically sensitive factories, this paper proposes a hybrid deep learning method integrated with optical-fiber sensing arrays (FBG), though the excerpt lacks concrete test results.",
+        "title": "A Continuous High Precision Localization Method for AGVs Based on Interferometric FBG Array Sensing and Hybrid Deep Learning"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
+    "oai:arXiv.org:2610.08056v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.08056v1",
+        "link": "https://arxiv.org/abs/2610.08056",
+        "relevance": 5,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2610.08056v1 Announce Type: new \nAbstract: This work presents a prototype implementation of a noncoherent multiple-input multiple-output (MIMO) system based on Grassmannian signalling, where neither the transmitter nor receiver requires channel state information (CSI), operating at a carrier frequency of 15 GHz in the frequency range 3 (FR3) upper mid-band envisioned for 6G. To the best of our knowledge, this is the first prototype implementation of Grassmannian signaling reported in the literature beyond sub-6 GHz bands. We identify the motivation of applying Grassmannian signaling, a form of unitary space-time modulation (USTM), in this band for wireless and mobile applications with low spectral-efficiency requirements but strict reliability and power-efficiency demands. With this idea in mind, we present a system design integrated with orthogonal frequency-division multiplexing (OFDM) that addresses the challenges associated with the higher carrier frequencies of FR3 while providing reliable operation across a broad range of scenarios, including urban and rural environments as well as vehicular communications. We then present the prototype implementation of the proposed design, based on software-defined radio (SDR) devices integrated with radio-frequency (RF) mixers, filters, and power amplifiers to ensure adequate operation in the targeted band. Over-the-air (OTA) experiments based on symbol error rate (SER) measurements under non-line-of-sight (NLoS) and line-of-sight (LoS) scenarios, and across different data rates, show good agreement with software simulations, thereby validating the prototype implementation.",
+        "summary_vi": "This work demonstrates the first prototype implementation of noncoherent MIMO using Grassmannian signaling, eliminating the need for channel state information (CSI) at both transmitter and receiver. The system operates at 15 GHz in the FR3 upper mid-band spectrum targeted for 6G applications. Grassmannian signaling constructs codewords as points on a manifold to maximize mutual information without channel knowledge, enabling blind communication in scenarios where CSI acquisition overhead or feedback is impractical.",
+        "title": "Noncoherent MIMO in the FR3 Upper Mid-Band Using Grassmannian Signaling: Prototype and Experimental Evaluation"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
     "oai:arXiv.org:2610.08238v1": {
       "entry": {
         "category": "research",
@@ -3108,6 +3368,32 @@
       },
       "first_seen": "2026-10-07T12:01:12.937548+00:00"
     },
+    "oai:arXiv.org:2610.08267v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.08267v1",
+        "link": "https://arxiv.org/abs/2610.08267",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2610.08267v1 Announce Type: new \nAbstract: Dynamic blockage severely degrades vehicular integrated sensing and communication (ISAC), since narrow millimeter-wave beams must be adjusted before the line-of-sight (LoS) link is blocked or misaligned. This paper proposes WM4ISAC, a proactive ISAC framework built on a world model that learns a reusable latent dynamics model of the traffic environment from downlink radar heatmaps, rather than directly mapping observations to beam indices. The proposed framework uses a vision (V) module to compress sensing observations, an action-conditioned memory (M) module to predict latent environment evolution, and lightweight event heads to evaluate LoS alignment, blockage, and scatter-assisted non-line-of-sight (NLoS) alignment for candidate beams. A codebook-level controller then uses these event predictions to proactively switch between LoS and NLoS beams without knowing the future user or blocker states. Simulations under dynamic blockage show that WM4ISAC improves the mean rate by $28.9\\%$ over current LoS tracking, raises the 5\\%-tile rate from $0.9$ Mbps to $30.5$ Mbps, and reaches $88.7\\%$ of the perfect-information upper bound.",
+        "summary_vi": "To prevent millimeter-wave beam misalignment in vehicular integrated sensing and communication (ISAC) during physical blockages, the authors propose WM4ISAC, a framework that learns a predictive environmental model from radar heatmaps to proactively adjust beams.",
+        "title": "WM4ISAC: World Model for Proactive ISAC Under Dynamic Blockage"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
+    "oai:arXiv.org:2610.08461v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.08461v1",
+        "link": "https://arxiv.org/abs/2610.08461",
+        "relevance": 5,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2610.08461v1 Announce Type: new \nAbstract: This paper investigates the joint electromagnetic (EM)-domain and baseband (BB)-domain beamforming for integrated sensing and communication (ISAC) systems enabled by pattern- and polarization-reconfigurable pixel-antenna arrays. A multiport-network-based antenna model is developed to map each binary switch configuration to its radiation response using the impedance and open-circuit radiation data extracted from Computer Simulation Technology (CST) Studio Suite simulations. Based on this model, polarization-aware virtual channels are constructed for downlink communication and statistical target sensing, leading to a mixed-integer nonconvex problem that maximizes the average sensing signal-to-noise ratio (SNR) subject to user signal-to-interference-plus-noise ratio (SINR) and transmit-power constraints. To handle the coupled binary and continuous variables, we propose an alternating optimization algorithm, in which the EM-domain switch-state matrices are updated using successive exhaustive Boolean optimization (SEBO), the BB-domain precoder is optimized via a minorization-maximization (MM) and second-order cone programming (SOCP) procedure, and the sensing combiner is obtained from a Rayleigh-quotient update. Simulation results show that the proposed design achieves higher sensing SNR and stronger target-angle robustness than the fixed-patch benchmark.",
+        "summary_vi": "This paper addresses beamforming optimization across both electromagnetic and baseband domains for integrated sensing-and-communication (ISAC) systems using pattern- and polarization-reconfigurable pixel-antenna arrays. A multiport-network model maps switch configurations of reconfigurable antennas to their radiation patterns using impedance and radiation data from electromagnetic simulation, enabling joint optimization of sensing and communication beams through coordinated control of physical antenna properties and digital processing.",
+        "title": "Joint EM-BB Beamforming Design for ISAC Systems With Reconfigurable Antenna Arrays"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
     "oai:arXiv.org:2610.08483v1": {
       "entry": {
         "category": "research",
@@ -3120,6 +3406,19 @@
         "title": "Trail: Scalable and Low-Cost Temporal TLB Prefetching via Page-Table-Embedded Deltas"
       },
       "first_seen": "2026-10-07T12:01:12.937548+00:00"
+    },
+    "oai:arXiv.org:2610.08550v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.08550v1",
+        "link": "https://arxiv.org/abs/2610.08550",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2610.08550v1 Announce Type: new \nAbstract: Reconfigurable pixel antenna arrays provide additional electromagnetic (EM) degrees of freedom for wireless transmission by enabling hardware-level adaptation of radiation responses. In practical arrays, inter-element mutual coupling (MC) alters the switch-state-dependent responses, causing MC-unaware designs to be mismatched with the realized coupled-array channels. To address this issue, we propose an MC-aware EM and signal-processing co-design framework for downlink multi-user multiple-input single-output (MU-MISO) systems. The full pixel antenna array is modeled as a unified multi-port circuit network that jointly characterizes the feed ports and switch-controlled pixel ports. By combining the impedance matrix extracted from Computer Simulation Technology (CST) Studio Suite simulations with the full-array open-circuit far-field responses, we construct a switch-state-dependent EM-domain channel that explicitly captures both intra-antenna pixel coupling and inter-element MC. Based on this model, we formulate a sum-rate maximization problem over the binary switch-state vector and the transmit precoder. To address the resulting mixed-integer non-convex problem, we develop an alternating optimization algorithm in which the binary switch-state vector is updated via sequential exhaustive block optimization (SEBO), while the transmit precoder is optimized using fractional programming (FP). CST-based simulations show that the proposed MC-aware design outperforms MC-unaware, MC-free, and conventional patch-array baselines. These results demonstrate that accurate MC modeling is essential not only for reducing model mismatch, but also for exploiting the coupled embedded responses of practical pixel antenna arrays.",
+        "summary_vi": "Physical mutual coupling (electromagnetic interference between antenna elements) degrades performance in reconfigurable pixel antenna arrays. The authors propose a mutual-coupling-aware co-design of electromagnetics and signal processing to correct this mismatch, though performance results are omitted.",
+        "title": "Mutual-Coupling-Aware Electromagnetic and Signal Processing Co-Design for Pixel Antenna Arrays"
+      },
+      "first_seen": "2026-10-08T01:20:40.258601+00:00"
     },
     "tag:github.com,2008:Repository/39997536/qli-2.1.1": {
       "entry": {
@@ -3160,7 +3459,6 @@
     "https://linuxgizmos.com/?p=99348": "2026-10-02T01:06:03.018282+00:00",
     "https://linuxgizmos.com/?p=99357": "2026-10-02T11:23:39.558422+00:00",
     "https://lwn.net/Articles/1092003/": "2026-09-11T00:35:59.502530+00:00",
-    "https://lwn.net/Articles/1092512/": "2026-09-08T00:43:47.238508+00:00",
     "https://lwn.net/Articles/1092553/": "2026-09-16T23:52:22.553694+00:00",
     "https://lwn.net/Articles/1092993/": "2026-09-10T00:38:49.074531+00:00",
     "https://lwn.net/Articles/1093145/": "2026-09-09T00:41:13.818850+00:00",
@@ -3231,6 +3529,8 @@
     "https://lwn.net/Articles/1098599/": "2026-10-06T01:55:08.067921+00:00",
     "https://lwn.net/Articles/1098600/": "2026-10-06T01:55:08.067921+00:00",
     "https://lwn.net/Articles/1098610/": "2026-10-06T01:55:08.067921+00:00",
+    "https://lwn.net/Articles/1099202/": "2026-10-08T01:20:40.258601+00:00",
+    "https://lwn.net/Articles/1099206/": "2026-10-08T01:20:40.258601+00:00",
     "https://rcrwireless.com/?p=434490": "2026-09-15T13:53:30.223364+00:00",
     "https://rcrwireless.com/?p=434506": "2026-09-15T13:53:30.223364+00:00",
     "https://rcrwireless.com/?p=434509": "2026-09-15T13:53:30.223364+00:00",
@@ -3284,7 +3584,6 @@
     "https://spectrum.ieee.org/social-media-bans": "2026-09-26T00:10:13.580076+00:00",
     "https://www.cnx-software.com/?p=167333": "2026-10-02T11:23:39.558422+00:00",
     "https://www.cnx-software.com/?p=171512": "2026-09-18T23:36:06.086004+00:00",
-    "https://www.cnx-software.com/?p=176234": "2026-09-08T00:43:47.238508+00:00",
     "https://www.cnx-software.com/?p=177009": "2026-09-15T13:53:30.223364+00:00",
     "https://www.cnx-software.com/?p=177099": "2026-09-15T00:58:03.779863+00:00",
     "https://www.cnx-software.com/?p=177155": "2026-09-16T12:52:31.242072+00:00",
@@ -3312,6 +3611,7 @@
     "https://www.cnx-software.com/?p=177806": "2026-10-02T11:23:39.558422+00:00",
     "https://www.cnx-software.com/?p=177810": "2026-10-01T00:51:09.199810+00:00",
     "https://www.cnx-software.com/?p=177853": "2026-10-02T01:06:03.018282+00:00",
+    "https://www.cnx-software.com/?p=177936": "2026-10-05T00:10:30.939245+00:00",
     "https://www.cnx-software.com/?p=177985": "2026-10-06T01:55:08.067921+00:00",
     "https://www.dpdk.org/?p=4421": "2026-09-18T23:36:06.086004+00:00",
     "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement": "2026-10-06T01:55:08.067921+00:00",
@@ -3476,7 +3776,6 @@
     "https://www.phoronix.com/news/Ubuntu-26.10-Snapdragon-Concept": "2026-09-30T00:46:27.180142+00:00",
     "https://www.phoronix.com/news/Ubuntu-26.10-Snapshot-4": "2026-09-17T23:42:02.289072+00:00",
     "https://www.phoronix.com/news/Ubuntu-26.10-With-Linux-7.3": "2026-09-19T09:44:33.099539+00:00",
-    "https://www.phoronix.com/news/Ubuntu-26.10-amd64v3-Daily": "2026-09-08T00:43:47.238508+00:00",
     "https://www.phoronix.com/news/Ubuntu-Canonical-Did-345M-2025": "2026-09-22T23:49:48.541761+00:00",
     "https://www.phoronix.com/news/Ubuntu-Completes-Rust-Coreutils": "2026-09-16T12:52:31.242072+00:00",
     "https://www.phoronix.com/news/Ubuntu-Rust-Sequoia-PGP": "2026-10-02T11:23:39.558422+00:00",
@@ -3687,7 +3986,9 @@
     "https://www.reddit.com/r/embedded/t3_1wxch5z": "2026-10-04T11:18:30.736596+00:00",
     "https://www.reddit.com/r/embedded/t3_1wxd22v": "2026-10-04T11:18:30.736596+00:00",
     "https://www.reddit.com/r/embedded/t3_1wxd5ic": "2026-10-04T11:18:30.736596+00:00",
+    "https://www.reddit.com/r/embedded/t3_1wxsift": "2026-10-05T00:10:30.939245+00:00",
     "https://www.reddit.com/r/embedded/t3_1wz3ypo": "2026-10-07T01:01:57.012881+00:00",
+    "https://www.redhat.com/en/3-reasons-to-attend-red-hat-summit-connect": "2026-10-08T01:20:40.258601+00:00",
     "https://www.redhat.com/en/blog/5-reasons-why-your-lightwell-strategy-needs-more-just-patches": "2026-09-12T00:42:36.175668+00:00",
     "https://www.redhat.com/en/blog/ai-pilots-production-dh2i-brings-customers-resilient-ai-red-hat-openshift": "2026-10-06T01:55:08.067921+00:00",
     "https://www.redhat.com/en/blog/automate-security-risk-management-across-enterprise-it-operations": "2026-09-25T00:04:46.328968+00:00",
@@ -3696,6 +3997,7 @@
     "https://www.redhat.com/en/blog/balancing-open-science-and-data-privacy-enterprise-red-hat-openshift-ai": "2026-09-30T00:46:27.180142+00:00",
     "https://www.redhat.com/en/blog/beyond-ocr-achieving-98-billing-accuracy-groundx-and-openshift-ai": "2026-09-18T23:36:06.086004+00:00",
     "https://www.redhat.com/en/blog/breaking-ai-productivity-paradox-intelligent-migration-factory-modernize-infrastructure-and-applications": "2026-09-23T23:58:04.297683+00:00",
+    "https://www.redhat.com/en/blog/breathing-life-corporate-innovation-ideabot": "2026-10-08T01:20:40.258601+00:00",
     "https://www.redhat.com/en/blog/build-compliance-assistant-autorag-and-red-hat-openshift-ai": "2026-09-11T00:35:59.502530+00:00",
     "https://www.redhat.com/en/blog/building-ai-powered-multimodal-compliance-monitor-training-tracking-chat": "2026-10-01T00:51:09.199810+00:00",
     "https://www.redhat.com/en/blog/closing-aiops-loop-splunk-observability-cloud-and-red-hat-ansible-automation-platform": "2026-09-12T00:42:36.175668+00:00",
@@ -3711,7 +4013,6 @@
     "https://www.redhat.com/en/blog/incident-insight-governed-action-logicmonitor-edwin-ai-and-red-hat-ansible-automation-platform": "2026-09-23T23:58:04.297683+00:00",
     "https://www.redhat.com/en/blog/inside-look-red-hats-high-school-internship-program": "2026-10-02T01:06:03.018282+00:00",
     "https://www.redhat.com/en/blog/insights-client-updates-rhel-package-management": "2026-09-11T00:35:59.502530+00:00",
-    "https://www.redhat.com/en/blog/introducing-external-secrets-management-console-plugin": "2026-09-08T00:43:47.238508+00:00",
     "https://www.redhat.com/en/blog/lightwell-reality-check": "2026-09-10T00:38:49.074531+00:00",
     "https://www.redhat.com/en/blog/modernizing-microsoft-sql-server-choosing-right-path-red-hat": "2026-09-15T00:58:03.779863+00:00",
     "https://www.redhat.com/en/blog/opening-black-box-profiling-secured-agentic-pipeline-red-hat-openshift-ai": "2026-09-15T13:53:30.223364+00:00",
@@ -3722,6 +4023,7 @@
     "https://www.redhat.com/en/blog/red-hat-named-leader-2026-gartnerr-magic-quadranttm-server-virtualization-platforms": "2026-09-16T23:52:22.553694+00:00",
     "https://www.redhat.com/en/blog/red-hat-named-leader-2026-idc-marketscape": "2026-10-06T01:55:08.067921+00:00",
     "https://www.redhat.com/en/blog/red-hat-named-leader-idc-marketscape-worldwide-private-and-hybrid-cloud-management-automation": "2026-09-15T00:58:03.779863+00:00",
+    "https://www.redhat.com/en/blog/red-hat-openshift-platform-plus-rosa-aws-marketplace": "2026-10-08T01:20:40.258601+00:00",
     "https://www.redhat.com/en/blog/red-hat-openshift-where-strategic-vision-meets-enterprise-execution": "2026-09-16T23:52:22.553694+00:00",
     "https://www.redhat.com/en/blog/red-hat-sponsors-openclaw-foundation-advance-open-future-production-ai-agents": "2026-09-10T00:38:49.074531+00:00",
     "https://www.redhat.com/en/blog/reimagining-enterprise-innovation-engine-agentic-era": "2026-10-01T00:51:09.199810+00:00",
@@ -3778,9 +4080,7 @@
     "oai:arXiv.org:2608.12123v2": "2026-09-16T02:41:57.982686+00:00",
     "oai:arXiv.org:2608.12993v1": "2026-09-29T11:35:47.491303+00:00",
     "oai:arXiv.org:2608.22110v2": "2026-09-26T00:10:13.580076+00:00",
-    "oai:arXiv.org:2609.04238v1": "2026-09-08T00:43:47.238508+00:00",
     "oai:arXiv.org:2609.04476v2": "2026-09-23T23:58:04.297683+00:00",
-    "oai:arXiv.org:2609.04774v1": "2026-09-08T00:43:47.238508+00:00",
     "oai:arXiv.org:2609.05635v2": "2026-10-02T11:23:39.558422+00:00",
     "oai:arXiv.org:2609.05764v1": "2026-09-09T09:28:28.702623+00:00",
     "oai:arXiv.org:2609.05793v1": "2026-09-10T00:38:49.074531+00:00",
