@@ -17,6 +17,7 @@
     "https://linuxgizmos.com/?p=99286": "2026-09-27T23:59:46.648693+00:00",
     "https://linuxgizmos.com/?p=99366": "2026-10-05T00:10:30.939245+00:00",
     "https://linuxgizmos.com/?p=99378": "2026-10-05T00:10:30.939245+00:00",
+    "https://linuxgizmos.com/?p=99424": "2026-10-10T11:23:32.463986+00:00",
     "https://lwn.net/Articles/1090568/": "2026-10-07T01:01:04.434173+00:00",
     "https://lwn.net/Articles/1090579/": "2026-10-07T01:01:04.434173+00:00",
     "https://lwn.net/Articles/1090824/": "2026-10-07T01:01:04.434173+00:00",
@@ -41,6 +42,7 @@
     "https://lwn.net/Articles/1097859/": "2026-10-08T01:20:40.258601+00:00",
     "https://lwn.net/Articles/1098399/": "2026-10-09T01:28:13.470643+00:00",
     "https://lwn.net/Articles/1098404/": "2026-10-04T00:03:15.008562+00:00",
+    "https://lwn.net/Articles/1098670/": "2026-10-10T11:23:32.463986+00:00",
     "https://ocudu.org/?p=715": "2026-09-16T23:52:22.553694+00:00",
     "https://ocudu.org/?p=771": "2026-09-23T23:58:04.297683+00:00",
     "https://ocudu.org/?p=777": "2026-09-23T23:58:04.297683+00:00",
@@ -130,6 +132,7 @@
     "https://www.cnx-software.com/?p=177739": "2026-10-08T01:20:40.258601+00:00",
     "https://www.cnx-software.com/?p=177792": "2026-10-01T11:50:42.243700+00:00",
     "https://www.cnx-software.com/?p=177928": "2026-10-04T11:18:30.736596+00:00",
+    "https://www.cnx-software.com/?p=178083": "2026-10-10T11:23:32.463986+00:00",
     "https://www.ettus.com/?p=11532": "2026-09-16T02:41:57.982686+00:00",
     "https://www.huawei.com/en/news/2026/9/hc-ascend960-supernode": "2026-09-18T23:36:06.086004+00:00",
     "https://www.huawei.com/en/news/2026/9/hc-context-memory-storage": "2026-09-18T10:05:15.823346+00:00",
@@ -172,6 +175,7 @@
     "https://www.phoronix.com/news/Linux-7.3-RandStruct-Rust": "2026-10-07T01:01:04.434173+00:00",
     "https://www.phoronix.com/news/Linux-7.3-rc3-Released": "2026-09-14T00:29:25.403418+00:00",
     "https://www.phoronix.com/news/Linux-7.3-rc4-x86-Fixes": "2026-09-20T23:32:03.775709+00:00",
+    "https://www.phoronix.com/news/Linux-7.4-AMDGPU-Final": "2026-10-10T11:23:32.463986+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Apple-Device-Trees": "2026-10-03T00:45:17.081177+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Better-RPI-GPU-Reset": "2026-09-27T10:46:11.482910+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Faster-Do-Open": "2026-09-19T23:34:09.501070+00:00",
@@ -283,6 +287,7 @@
     "https://www.redhat.com/en/blog/why-secure-design-new-standard-open-source": "2026-10-10T01:18:49.490352+00:00",
     "oai:arXiv.org:2508.04417v2": "2026-10-07T01:01:57.012881+00:00",
     "oai:arXiv.org:2508.16738v3": "2026-10-02T01:06:03.018282+00:00",
+    "oai:arXiv.org:2510.25963v2": "2026-10-10T11:23:32.463986+00:00",
     "oai:arXiv.org:2511.23406v2": "2026-10-07T01:01:04.434173+00:00",
     "oai:arXiv.org:2604.12300v2": "2026-09-25T00:04:46.328968+00:00",
     "oai:arXiv.org:2605.00555v4": "2026-10-07T01:01:04.434173+00:00",
@@ -560,19 +565,6 @@
       },
       "first_seen": "2026-10-07T12:01:12.937548+00:00"
     },
-    "https://linuxgizmos.com/?p=99424": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://linuxgizmos.com/?p=99424",
-        "link": "https://linuxgizmos.com/intel-twin-lake-based-helix-320-industrial-gateway-with-quad-2-5gbe/",
-        "relevance": 4,
-        "source": "LinuxGizmos.com",
-        "summary": "OnLogic’s newest industrial edge gateway, the Helix 320, features a fanless design powered by Intel N-Series Twin Lake processors. The compact system includes four 2.5GbE ports, two configurable serial ports, M.2 expansion, and support for up to three displays. OnLogic offers the Helix 320 with two Intel N-Series “Twin Lake” processors: N250 – 4-core/4-thread architecture, […]",
-        "summary_vi": "OnLogic's new fanless industrial edge gateway, Helix 320, features Intel Twin Lake N-Series processors like the 4-core N250. The hardware provides four 2.5GbE ports, dual configurable serial ports, M.2 expansion, and support for three displays.",
-        "title": "Intel Twin Lake-Based Helix 320 Industrial Gateway with Quad 2.5GbE"
-      },
-      "first_seen": "2026-10-09T12:07:21.302578+00:00"
-    },
     "https://lwn.net/Articles/1097198/": {
       "entry": {
         "category": "embedded",
@@ -598,19 +590,6 @@
         "title": "[$] An update on Rust's project goals"
       },
       "first_seen": "2026-10-09T01:28:13.470643+00:00"
-    },
-    "https://lwn.net/Articles/1098670/": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://lwn.net/Articles/1098670/",
-        "link": "https://lwn.net/Articles/1098670/",
-        "relevance": 4,
-        "source": "LWN.net Front Page",
-        "summary": "While many developers are struggling to keep up with the flood of\nvulnerability reports, others are still focused on preventing those reports\nfrom happening in the first place. Control-flow integrity (CFI) is the\nterm for preventing (or at least detecting) exploits that divert the flow\nof control from its intended paths. At the 2026 GNU Tools Cauldron , Kees Cook\npresented his changes to the GCC compiler suite to support forward-edge CFI\nfor the kernel.",
-        "summary_vi": "To prevent exploits from diverting execution paths, the GCC compiler suite is updated with changes to support forward-edge control-flow integrity (CFI) checking—a security mechanism designed to detect unauthorized control flow alterations—specifically targeted for the Linux kernel.",
-        "title": "[$] Adding kernel control-flow-integrity checking to GCC"
-      },
-      "first_seen": "2026-10-10T01:18:49.490352+00:00"
     },
     "https://lwn.net/Articles/1099024/": {
       "entry": {
@@ -703,18 +682,18 @@
       },
       "first_seen": "2026-10-08T12:16:35.137792+00:00"
     },
-    "https://www.cnx-software.com/?p=178083": {
+    "https://www.cnx-software.com/?p=178096": {
       "entry": {
         "category": "embedded",
-        "id": "https://www.cnx-software.com/?p=178083",
-        "link": "https://www.cnx-software.com/2026/10/09/open-source-esp32-c3-dns-ad-blocker-supports-up-to-over-500000-domains-without-psram/",
-        "relevance": 4,
+        "id": "https://www.cnx-software.com/?p=178096",
+        "link": "https://www.cnx-software.com/2026/10/10/m5stack-toughc5-weatherproof-esp32-c5-iot-controller-offers-dual-band-wi-fi-6-ble-5-and-zigbee-thread/",
+        "relevance": 3,
         "source": "CNX Software",
-        "summary": "Developed by Zed (M-Abozaid), the esp32-c3-adblock is an open-source, Pi-hole-style DNS ad blocker that runs on a $2 ESP32-C3 microcontroller board/module without requiring PSRAM. It blocks ads and tracking domains across devices on a home or small office network by filtering DNS requests. Instead of storing domain strings in RAM, the project stores them as sorted 40-bit FNV-1a hashes in flash memory and uses binary search to check DNS requests. When a UDP DNS query comes in, the C++ firmware extracts the domain, hashes it (including parent suffixes), and performs a binary search against the flash hash table. If the domain is on the blocklist, the ESP32-C3 returns 0.0.0.0 to block the request. Otherwise, it forwards the query to an upstream DNS server and returns the response to the client. This method fits over 140,000 domains into ~0.7 MB of flash memory while using only ~50 KB of RAM. A [...] \n The post Open-source ESP32-C3 DNS ad blocker supports up to over 500,000 domains without PSRAM appeared first on CNX Software - Embedded Systems News .",
-        "summary_vi": "To block network ads on a low-cost $2 ESP32-C3 microcontroller without extra memory (PSRAM), the esp32-c3-adblock firmware stores sorted 40-bit FNV-1a domain hashes in flash memory. It performs a binary search on incoming UDP DNS queries, supporting over 500,000 domains.",
-        "title": "Open-source ESP32-C3 DNS ad blocker supports up to over 500,000 domains without PSRAM"
+        "summary": "M5Stack has just introduced the ToughC5, a rugged, weatherproof outdoor IoT controller built around the ESP32-C5. The device features a bright 2.0-inch capacitive touch IPS display and RS485 connectivity. The ToughC5 is an upgrade to the ESP32-base3d M5Stack TOUGH introduced in 2021, with the upgraded model featuring a more modern ESP32-C5 MCU with dual-band (2.4/5 GHz) Wi-Fi 6, Bluetooth 5 LE, and an IEEE 802.15.4 radio for Zigbee and Thread. Other changes include faster Octal PSRAM, an upgraded RTC chip with a dedicated coin cell backup battery, a passive buzzer replacing the previous 1W speaker, and a custom power management system (M5PM1 + M5IOE1) replacing the AXP192 PMU. These features make it suitable for industrial field control, outdoor edge data collection, and smart building applications. M5Stack ToughC5 specifications: Wireless SoC – Espressif Systems ESP32-C5HR8 CPU Single-core 32-bit RISC-V processor @ up to 240 MHz Low-power RISC-V core @ 40 MHz [...] \n The post M5Stack ToughC5 weatherproof ESP32-C5 IoT controller offers dual-band Wi-Fi 6, BLE 5, and Zigbee/Thread appeared first on CNX Software - Embedded Systems News .",
+        "summary_vi": "M5Stack released the ToughC5 outdoor controller based on the ESP32-C5 microcontroller, featuring a 2.0-inch touch screen and RS485 connectivity. It upgrades the previous model with dual-band Wi-Fi 6, Bluetooth 5 LE, IEEE 802.15.4 radio for Zigbee/Thread, and faster Octal PSRAM.",
+        "title": "M5Stack ToughC5 weatherproof ESP32-C5 IoT controller offers dual-band Wi-Fi 6, BLE 5, and Zigbee/Thread"
       },
-      "first_seen": "2026-10-09T12:07:21.302578+00:00"
+      "first_seen": "2026-10-10T11:23:32.463986+00:00"
     },
     "https://www.phoronix.com/news/AMD-Zen-6-IBS-Memory-Profiler": {
       "entry": {
@@ -768,6 +747,32 @@
       },
       "first_seen": "2026-10-08T12:16:35.137792+00:00"
     },
+    "https://www.phoronix.com/news/KDE-Plasma-6.8-Next-Week": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/KDE-Plasma-6.8-Next-Week",
+        "link": "https://www.phoronix.com/news/KDE-Plasma-6.8-Next-Week",
+        "relevance": 3,
+        "source": "Phoronix",
+        "summary": "KDE Plasma 6.8 is gearing up for its official debut next week in coinciding with the 30th anniversary since the KDE project began...",
+        "summary_vi": "KDE Plasma 6.8 is gearing up for its official release next week alongside the 30th anniversary of the KDE project. The upcoming desktop environment update includes a last-minute fix for NVIDIA hardware.",
+        "title": "KDE Plasma 6.8 Ready For Release Next Week, Sees Last Minute NVIDIA Fix"
+      },
+      "first_seen": "2026-10-10T11:23:32.463986+00:00"
+    },
+    "https://www.phoronix.com/news/KNOD-2026-GPU-Network-Process": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/KNOD-2026-GPU-Network-Process",
+        "link": "https://www.phoronix.com/news/KNOD-2026-GPU-Network-Process",
+        "relevance": 3,
+        "source": "Phoronix",
+        "summary": "A while back we covered KNOD as an experimental solution for in-kernel network offloading to AMD GPUs. The open-source KNOD project allows leveraging GPUs to handle packet processing in a very performant and energy efficient manner without needing any specialized hardware. KNOD has continued and a development update was shared this week at the Linux Plumbers Conference in Prague...",
+        "summary_vi": "The open-source KNOD project provides in-kernel network packet offloading to AMD GPUs, enabling high-performance and energy-efficient packet handling without specialized hardware. A development update on its progress was recently presented at the Linux Plumbers Conference.",
+        "title": "KNOD Progressing For Linux In-Kernel GPU Offloading For Network Packet Processing"
+      },
+      "first_seen": "2026-10-10T11:23:32.463986+00:00"
+    },
     "https://www.phoronix.com/news/Kage-Linux-Driver-Isolation": {
       "entry": {
         "category": "embedded",
@@ -781,18 +786,18 @@
       },
       "first_seen": "2026-10-08T12:16:35.137792+00:00"
     },
-    "https://www.phoronix.com/news/Linux-7.4-AMDGPU-Final": {
+    "https://www.phoronix.com/news/Linux-7.3-rc7-Networking": {
       "entry": {
         "category": "embedded",
-        "id": "https://www.phoronix.com/news/Linux-7.4-AMDGPU-Final",
-        "link": "https://www.phoronix.com/news/Linux-7.4-AMDGPU-Final",
-        "relevance": 4,
+        "id": "https://www.phoronix.com/news/Linux-7.3-rc7-Networking",
+        "link": "https://www.phoronix.com/news/Linux-7.3-rc7-Networking",
+        "relevance": 3,
         "source": "Phoronix",
-        "summary": "AMD on Thursday sent out a final pull request of their feature work aiming to be submitted for the upcoming Linux 7.4 merge window. This round of \"few last odds and ends\" is mostly about landing some bug fixes but of which there are a few worth mentioning...",
-        "summary_vi": "AMD has submitted its final pull request for the upcoming Linux 7.4 kernel merge window. This release focuses on bug fixes for their HDMI 2.1 graphics drivers.",
-        "title": "AMD Caps Off Linux 7.4 Graphics Driver Development With More HDMI 2.1 Fixes"
+        "summary": "Ahead of the Linux 7.3-rc7 kernel due for release on Sunday, this week's batch of networking fixes were submitted and merged. The vast networking subsystem of wired and wireless drivers plus the various other networking features continues to see a lot of activity due to AI-driven bug reports and patches...",
+        "summary_vi": "Over 50 networking fixes were merged ahead of the Linux 7.3-rc7 kernel release across wired and wireless drivers. The networking subsystem continues to experience high patch activity driven by AI-generated bug reports and code submissions.",
+        "title": "Linux Networking Diverts 50+ Fixes To Next Kernel, Still Bombarded With AI Fueled Churn"
       },
-      "first_seen": "2026-10-09T12:07:21.302578+00:00"
+      "first_seen": "2026-10-10T11:23:32.463986+00:00"
     },
     "https://www.phoronix.com/news/Linux-AI-Agent-Resources": {
       "entry": {
@@ -949,6 +954,19 @@
         "title": "Steam Beta Now Defaults Non-Steam Windows Binaries To Using Proton"
       },
       "first_seen": "2026-10-08T01:20:40.258601+00:00"
+    },
+    "https://www.phoronix.com/news/Ubuntu-26.10-GCC-15-Default": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Ubuntu-26.10-GCC-15-Default",
+        "link": "https://www.phoronix.com/news/Ubuntu-26.10-GCC-15-Default",
+        "relevance": 3,
+        "source": "Phoronix",
+        "summary": "From a performance and enthusiast perspective, what I personally find most disappointing and puzzling with the imminent release of Ubuntu 26.10 comes down to its default compiler version...",
+        "summary_vi": "The upcoming Ubuntu 26.10 release continues to use GCC 15 as its default system compiler. The author notes this decision as disappointing regarding performance and enthusiast expectations.",
+        "title": "Ubuntu 26.10 Sticks To Using GCC 15 By Default"
+      },
+      "first_seen": "2026-10-10T11:23:32.463986+00:00"
     },
     "https://www.phoronix.com/news/Ubuntu-26.10-RISC-V-Desktop": {
       "entry": {
@@ -1288,6 +1306,19 @@
       },
       "first_seen": "2026-10-09T12:07:21.302578+00:00"
     },
+    "https://www.reddit.com/r/embedded/t3_1x1k25j": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x1k25j",
+        "link": "https://www.reddit.com/r/embedded/comments/1x1k25j/safety_architecture_and_black_channel/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "I'm working on a safety architecture based on a heterogeneous SoC. Basically it contains a Cortex-M and a Cortex-A. I would like to have a confirmation about the data path certification I designed. In the Cortex-M, I run a safety software that take some IO. It is safe because if it doesn't work, the device can be destroy. In the Cortex-A, I run a Linux. The Cortex-M software need an input that come from a websocket (TCP based). I use the Cortex-A to run the websocket for two main reasons : - The ethernet driver and all libraries are already present on this side and easy to setup. - The TCP, websocket and ssl libraries is totally not certifiable. It means that even if I use the Cortex-M to embed the websocket, I will still have a non-certify stack. Now, I would like to certify the data path in order to be sure that, if the Cortex-M receive this data, the data will not be corrupt. For doing that, I use the black channel mechanism. It consists to add to the payload send by the intervener, a CRC and a counter in addition to the main data. - The counter : to be sure that the data is leaving; - The CRC : to be sure that the data is not corrupted. So the intervener (a third PC), send through the websocket this improved payload. The certification I'm talking about is IEC-61508. This is a small schematics about the data path. My question : does my solution is correct ? submitted by /u/Pale-Tear-5646 [link] [comments]",
+        "summary_vi": "A developer working on a heterogeneous SoC combining Cortex-M safety software with Linux on Cortex-A seeks confirmation regarding a safety data path certification. The system requires passing TCP-based websocket data from Linux on Cortex-A to critical safety IO software on Cortex-M.",
+        "title": "Safety architecture and black channel"
+      },
+      "first_seen": "2026-10-10T11:23:32.463986+00:00"
+    },
     "https://www.reddit.com/r/embedded/t3_1x1k965": {
       "entry": {
         "category": "embedded",
@@ -1340,6 +1371,58 @@
       },
       "first_seen": "2026-10-10T01:18:49.490352+00:00"
     },
+    "https://www.reddit.com/r/embedded/t3_1x26kov": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x26kov",
+        "link": "https://www.reddit.com/r/embedded/comments/1x26kov/followup_why_my_1986_rtos_survived_a_simplistic/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "A couple of weeks ago, I asked about a change in VRTX's equal-priority scheduling behavior between its 1984 and 1987 documentation. Original discussion: https://www.reddit.com/r/embedded/s/gMr2klUiCY Thanks to the comments here and in other subreddits, I realized something interesting about my own implementation. Early VRTX wasn't simply LIFO. The older documentation describes inserting newly ready tasks ahead of existing tasks at the same priority. However, time slicing and other ready-queue operations also affect the ordering. The actual behavior is more nuanced than a simple LIFO policy. When I developed my own RTOS, CHARM-II, in 1986, I used VRTX documentation as one of my references. I interpreted its equal-priority scheduling as essentially newest-first and implemented a simpler version of that behavior. Looking back, I had not fully understood the original VRTX scheduling rules. So why didn't this cause serious problems? I think the development environment had a lot to do with it. Back then, I was developing not only the RTOS but also almost the entire application myself. There was very little third-party code in the system, and I knew exactly what each task was doing, when it would become ready, and how it interacted with other tasks. In other words, I could design the application around the scheduler's behavior, rather than expecting the scheduler to accommodate independently developed software components. At least, that's my explanation looking back 40 years later. For my modern reconstruction, I've chosen FIFO ordering among equal-priority ready tasks, mainly for simplicity and predictability. The original historical question remains unanswered: I still don't know why VRTX changed its scheduling policy. But the discussion helped me understand both the trade-offs involved and a subtle difference between the RTOS I wrote in 1986 and the one I had used as a reference. Thanks to everyone who contributed! submitted by /u/noborutkhs [link] [comments]",
+        "summary_vi": "The author discusses insights into a 1986 RTOS implementation regarding VRTX equal-priority task scheduling. Early VRTX documentation described inserting newly ready tasks ahead of existing tasks at the same priority, affecting ready-queue management and time slicing.",
+        "title": "Follow-up: Why my 1986 RTOS survived a simplistic interpretation of VRTX scheduling"
+      },
+      "first_seen": "2026-10-10T11:23:32.463986+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1x2bscx": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x2bscx",
+        "link": "https://www.reddit.com/r/embedded/comments/1x2bscx/uart_dma_works_in_loopback_but_not_with_2_stm32/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "I did a test project to connect 2 STM32 in UART DMA. It worked in loopback but now not between the 2 STM32 I obtain scrambled data. My grounds are connected and the wires are properly connected. Here is my code : uint16_t rxLength = 0; uint8_t rx_buffer[64]; void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef * huart, uint16_t length) { rxLength = length; HAL_UARTEx_ReceiveToIdle_DMA(huart, rx_buffer, 64); } /* USER CODE END 0 */ /** * The application entry point. * int */ int main(void) { /* USER CODE BEGIN 1 */ /* USER CODE END 1 */ /* MCU Configuration--------------------------------------------------------*/ /* Reset of all peripherals, Initializes the Flash interface and the Systick. */ HAL_Init(); /* USER CODE BEGIN Init */ /* USER CODE END Init */ /* Configure the system clock */ SystemClock_Config(); /* USER CODE BEGIN SysInit */ /* USER CODE END SysInit */ /* Initialize all configured peripherals */ MX_GPIO_Init(); MX_DMA_Init(); MX_USART2_UART_Init(); MX_TIM1_Init(); /* USER CODE BEGIN 2 */ HAL_TIM_Base_Start(&htim1); uint8_t tx_buffer[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; HAL_UARTEx_ReceiveToIdle_DMA(&huart2, rx_buffer, 64); /* USER CODE END 2 */ /* Infinite loop */ /* USER CODE BEGIN WHILE */ while (1) { HAL_UART_Transmit_DMA(&huart2, tx_buffer, 10); /* USER CODE END WHILE */ /* USER CODE BEGIN 3 */ } /* USER CODE END 3 */ } And Here is what I get on my rx_buffer https://preview.redd.it/i3f4otja8muh1.png?width=387&format=png&auto=webp&s=4712109c32d66768b12dc9b3f51705ba68accd50 submitted by /u/Loose-Assist45 [link] [comments]",
+        "summary_vi": "A developer encounters scrambled data when communicating between two STM32 microcontrollers using UART DMA, despite successful loopback tests and proper ground connections. The provided text includes C code snippets setting up idle-line DMA reception.",
+        "title": "UART DMA works in loopback but not with 2 STM32"
+      },
+      "first_seen": "2026-10-10T11:23:32.463986+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1x2cng2": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x2cng2",
+        "link": "https://www.reddit.com/r/embedded/comments/1x2cng2/the_3d_microscope_you_deserve/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "submitted by /u/Proud_Trade2769 [link] [comments]",
+        "summary_vi": "A user shared a community post regarding a 3D microscope. The provided snippet does not contain further technical details or descriptions of the device.",
+        "title": "The 3D microscope you deserve"
+      },
+      "first_seen": "2026-10-10T11:23:32.463986+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1x2cupv": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x2cupv",
+        "link": "https://www.reddit.com/r/embedded/comments/1x2cupv/best_module_for_bluetooth_security_testing/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "I need to make collage project for Wireless security course, and I decided to make a device like the flipper zero that can test the wireless networks like WI-FI and Bluetooth and so on. but, I need help to pick the right module for the Bluetooth part that work on classic Bluetooth and BLE, I have been told that the ESP32-WROOM 32 is the best option. so, I need confirm on that and if anyone know any better options I will be thankful for the help submitted by /u/Stunning-Taste9317 [link] [comments]",
+        "summary_vi": "A user creating a wireless security testing device for a college course seeks recommendations for a hardware module supporting both Classic Bluetooth and Bluetooth Low Energy (BLE). They ask if the ESP32-WROOM-32 is the best option or if better alternatives exist.",
+        "title": "Best module for Bluetooth security testing"
+      },
+      "first_seen": "2026-10-10T11:23:32.463986+00:00"
+    },
     "oai:arXiv.org:2505.08088v5": {
       "entry": {
         "category": "research",
@@ -1365,19 +1448,6 @@
         "title": "AEGIS: Runtime-Guided GPU Collocation for Multi-Tenant Deep Learning Training"
       },
       "first_seen": "2026-10-07T12:01:12.937548+00:00"
-    },
-    "oai:arXiv.org:2510.25963v2": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2510.25963v2",
-        "link": "https://arxiv.org/abs/2510.25963",
-        "relevance": 4,
-        "source": "arXiv cs.PF (Performance)",
-        "summary": "arXiv:2510.25963v2 Announce Type: replace \nAbstract: A well-designed scheduling policy can unlock significant performance improvements with no additional resources. Multiserver SRPT (SRPT-k) is known to achieve asymptotically optimal mean response time in the heavy-traffic limit, as load approaches capacity. No better policy is known for the M/G/k queue in any regime. We introduce a new policy, SRPT-Except-k+1 & Modified SRPT (SEK-SMOD), which is the first policy to provably achieve lower mean response time than SRPT-k. SEK-SMOD outperforms SRPT-k across all loads and all job size distributions. The key idea behind SEK-SMOD is to prioritize large jobs over small jobs in specific scenarios to improve server utilization, and thereby improve the response time of subsequent jobs in expectation. Our proof is a novel application of hybrid worst-case and stochastic techniques to relative analysis, where we analyze the deviations of our proposed SEK-SMOD policy away from the SRPT-k baseline policy. Furthermore, we design Practical SEK (a simplified variant of SEK-SMOD) and empirically verify the improvement over SRPT-k via simulation.",
-        "summary_vi": "To improve upon the classic Multiserver Shortest Remaining Processing Time (SRPT-k) scheduling policy, this paper introduces SEK-SMOD. This new scheduling policy is mathematically proven to achieve a lower mean response time in M/G/k queues across all traffic loads.",
-        "title": "Outperforming Multiserver SRPT at All Loads"
-      },
-      "first_seen": "2026-10-09T12:07:21.302578+00:00"
     },
     "oai:arXiv.org:2512.12067v3": {
       "entry": {
