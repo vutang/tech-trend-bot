@@ -42,6 +42,7 @@
     "https://lwn.net/Articles/1098670/": "2026-10-10T11:23:32.463986+00:00",
     "https://lwn.net/Articles/1099949/": "2026-10-12T13:35:18.699602+00:00",
     "https://lwn.net/Articles/1099950/": "2026-10-12T13:35:18.699602+00:00",
+    "https://lwn.net/Articles/1100055/": "2026-10-13T12:59:04.220462+00:00",
     "https://ocudu.org/?p=715": "2026-09-16T23:52:22.553694+00:00",
     "https://ocudu.org/?p=771": "2026-09-23T23:58:04.297683+00:00",
     "https://ocudu.org/?p=777": "2026-09-23T23:58:04.297683+00:00",
@@ -99,6 +100,7 @@
     "https://rcrwireless.com/?p=434915": "2026-10-10T01:18:49.490352+00:00",
     "https://rcrwireless.com/?p=434922": "2026-10-13T02:44:05.425689+00:00",
     "https://rcrwireless.com/?p=434926": "2026-10-12T13:35:18.699602+00:00",
+    "https://rcrwireless.com/?p=434930": "2026-10-13T12:59:04.220462+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/profiling-guide/att/README.html": "2026-09-22T23:49:48.541761+00:00",
     "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data": "2026-09-22T10:21:49.085973+00:00",
     "https://spectrum.ieee.org/undersea-cables-acoustic-sensing": "2026-09-26T10:17:13.144814+00:00",
@@ -127,6 +129,7 @@
     "https://www.cnx-software.com/?p=177928": "2026-10-04T11:18:30.736596+00:00",
     "https://www.cnx-software.com/?p=178083": "2026-10-10T11:23:32.463986+00:00",
     "https://www.cnx-software.com/?p=178133": "2026-10-11T11:37:08.824229+00:00",
+    "https://www.cnx-software.com/?p=178234": "2026-10-13T12:59:04.220462+00:00",
     "https://www.ettus.com/?p=11532": "2026-09-16T02:41:57.982686+00:00",
     "https://www.huawei.com/en/news/2026/9/hc-ascend960-supernode": "2026-09-18T23:36:06.086004+00:00",
     "https://www.huawei.com/en/news/2026/9/hc-context-memory-storage": "2026-09-18T10:05:15.823346+00:00",
@@ -261,6 +264,7 @@
     "https://www.reddit.com/r/embedded/t3_1x3g6qx": "2026-10-12T00:47:21.124571+00:00",
     "https://www.reddit.com/r/embedded/t3_1x3h6hh": "2026-10-12T00:47:21.124571+00:00",
     "https://www.reddit.com/r/embedded/t3_1x3m878": "2026-10-12T00:47:21.124571+00:00",
+    "https://www.reddit.com/r/embedded/t3_1x4ibjm": "2026-10-13T12:59:04.220462+00:00",
     "https://www.redhat.com/en/blog/achieving-data-sovereignty-saas-confidential-containers-and-quantum-safe-networking": "2026-09-15T13:53:30.223364+00:00",
     "https://www.redhat.com/en/blog/actionable-disconnected-cluster-analysis-available-now-pen-drive-powered-red-hat-lightspeed": "2026-10-09T12:07:21.302578+00:00",
     "https://www.redhat.com/en/blog/agentic-ai-network-operations-smarter-decisions-proven-automation": "2026-09-30T11:23:36.449769+00:00",
@@ -538,6 +542,7 @@
     "oai:arXiv.org:2610.12815v1": "2026-10-13T02:44:05.425689+00:00",
     "oai:arXiv.org:2610.13094v1": "2026-10-13T02:44:05.425689+00:00",
     "oai:arXiv.org:2610.13108v1": "2026-10-13T02:44:05.425689+00:00",
+    "oai:arXiv.org:2610.13315v1": "2026-10-13T12:59:04.220462+00:00",
     "oai:arXiv.org:2610.13364v1": "2026-10-13T02:44:05.425689+00:00",
     "oai:arXiv.org:2610.13749v1": "2026-10-13T02:44:05.425689+00:00",
     "oai:arXiv.org:2610.13761v1": "2026-10-13T02:44:05.425689+00:00",
@@ -614,18 +619,31 @@
       },
       "first_seen": "2026-10-12T13:35:18.699602+00:00"
     },
-    "https://www.cnx-software.com/?p=178096": {
+    "https://rcrwireless.com/?p=435554": {
+      "entry": {
+        "category": "ran",
+        "id": "https://rcrwireless.com/?p=435554",
+        "link": "https://rcrwireless.com/20261013/ai-infrastructure/nokia-strategic-ai",
+        "relevance": 3,
+        "source": "RCR Wireless News",
+        "summary": "As AI data centers scale, the way computing resources connect is becoming increasingly important to infrastructure performance and business value. High-performance XPUs are being deployed to support AI training and…",
+        "summary_vi": "As AI data centers scale, the way computing resources connect is becoming increasingly important to infrastructure performance and business value. High-performance XPUs are being deployed to support A",
+        "title": "Connectivity inside the DC is becoming a strategic AI decision"
+      },
+      "first_seen": "2026-10-13T12:59:04.220462+00:00"
+    },
+    "https://www.cnx-software.com/?p=178070": {
       "entry": {
         "category": "embedded",
-        "id": "https://www.cnx-software.com/?p=178096",
-        "link": "https://www.cnx-software.com/2026/10/10/m5stack-toughc5-weatherproof-esp32-c5-iot-controller-offers-dual-band-wi-fi-6-ble-5-and-zigbee-thread/",
-        "relevance": 3,
+        "id": "https://www.cnx-software.com/?p=178070",
+        "link": "https://www.cnx-software.com/2026/10/13/microchip-mtch3380p-and-mtch3240p-capacitive-touch-controllers-support-up-to-64-buttons-with-parallel-sensing/",
+        "relevance": 4,
         "source": "CNX Software",
-        "summary": "M5Stack has just introduced the ToughC5, a rugged, weatherproof outdoor IoT controller built around the ESP32-C5. The device features a bright 2.0-inch capacitive touch IPS display and RS485 connectivity. The ToughC5 is an upgrade to the ESP32-base3d M5Stack TOUGH introduced in 2021, with the upgraded model featuring a more modern ESP32-C5 MCU with dual-band (2.4/5 GHz) Wi-Fi 6, Bluetooth 5 LE, and an IEEE 802.15.4 radio for Zigbee and Thread. Other changes include faster Octal PSRAM, an upgraded RTC chip with a dedicated coin cell backup battery, a passive buzzer replacing the previous 1W speaker, and a custom power management system (M5PM1 + M5IOE1) replacing the AXP192 PMU. These features make it suitable for industrial field control, outdoor edge data collection, and smart building applications. M5Stack ToughC5 specifications: Wireless SoC – Espressif Systems ESP32-C5HR8 CPU Single-core 32-bit RISC-V processor @ up to 240 MHz Low-power RISC-V core @ 40 MHz [...] \n The post M5Stack ToughC5 weatherproof ESP32-C5 IoT controller offers dual-band Wi-Fi 6, BLE 5, and Zigbee/Thread appeared first on CNX Software - Embedded Systems News .",
-        "summary_vi": "M5Stack released the ToughC5 outdoor controller based on the ESP32-C5 microcontroller, featuring a 2.0-inch touch screen and RS485 connectivity. It upgrades the previous model with dual-band Wi-Fi 6, Bluetooth 5 LE, IEEE 802.15.4 radio for Zigbee/Thread, and faster Octal PSRAM.",
-        "title": "M5Stack ToughC5 weatherproof ESP32-C5 IoT controller offers dual-band Wi-Fi 6, BLE 5, and Zigbee/Thread"
+        "summary": "Microchip Technology has introduced the MTCH3380P and MTCH3240P, two new capacitive touch controllers that handle touch detection internally, making it easier to build display-free HMI devices with touch-sensitive buttons, sliders, and wheels. The main difference between the two controllers is the number of supported touch sensors. The MTCH3380P supports up to 38 self-capacitance or 64 mutual-capacitance keys, while the smaller MTCH3240P supports up to 24 self-capacitance or 32 mutual-capacitance keys. Both controllers use parallel sensing with 12 on-chip ADCs to improve touch response times and noise immunity. They also support touch detection through thick cover materials and when users are wearing gloves, making them suitable for home appliances, industrial control panels, EV chargers, and outdoor kiosks. Both also support IEC/UL 60730 Class B functional safety requirements. Microchip MTCH3380P and MTCH3240P specifications: Controller engine – Microchip patented charge-transfer acquisition engine with pipelined analog sensing and digital processing. Touch sensing Mutual capacitance [...] \n The post Microchip MTCH3380P and MTCH3240P capacitive touch controllers support up to 64 buttons with parallel sensing appeared first on CNX Software - Embedded Systems News .",
+        "summary_vi": "Microchip Technology has introduced the MTCH3380P and MTCH3240P, two new capacitive touch controllers that handle touch detection internally, making it easier to build display-free HMI devices with to",
+        "title": "Microchip MTCH3380P and MTCH3240P capacitive touch controllers support up to 64 buttons with parallel sensing"
       },
-      "first_seen": "2026-10-10T11:23:32.463986+00:00"
+      "first_seen": "2026-10-13T12:59:04.220462+00:00"
     },
     "https://www.cnx-software.com/?p=178128": {
       "entry": {
@@ -666,6 +684,19 @@
       },
       "first_seen": "2026-10-12T13:35:18.699602+00:00"
     },
+    "https://www.phoronix.com/news/Asterinas-0.19-Released": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Asterinas-0.19-Released",
+        "link": "https://www.phoronix.com/news/Asterinas-0.19-Released",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "Asterinas is the open-source project developing a Rust-based, memory-safe Linux alternative OS while striving for Linux software compatibility. Out now is Asterinas 0.19 as the project continues advancing on its goals...",
+        "summary_vi": "Asterinas is the open-source project developing a Rust-based, memory-safe Linux alternative OS while striving for Linux software compatibility. Out now is Asterinas 0.19 as the project continues advan",
+        "title": "Asterinas 0.19.0 Brings Up X.Org & Other Improvements To This Rust-Written OS"
+      },
+      "first_seen": "2026-10-13T12:59:04.220462+00:00"
+    },
     "https://www.phoronix.com/news/EXT4-iomap-Buffered-IO": {
       "entry": {
         "category": "embedded",
@@ -692,6 +723,19 @@
       },
       "first_seen": "2026-10-12T13:35:18.699602+00:00"
     },
+    "https://www.phoronix.com/news/IREE-3.12-Released": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/IREE-3.12-Released",
+        "link": "https://www.phoronix.com/news/IREE-3.12-Released",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "Rolling out last week was a new version of IREE as the Intermediate Representation Execution Environment for MLIR-based end-to-end compiler and run-time for lowering machine learning models into a unified IR and working across different hardware/driver stacks. Making IREE 3.12 notable is a rewrite to its Vulkan code...",
+        "summary_vi": "Rolling out last week was a new version of IREE as the Intermediate Representation Execution Environment for MLIR-based end-to-end compiler and run-time for lowering machine learning models into a uni",
+        "title": "IREE 3.12 Introduces Rolls Out Rewritten Vulkan Driver, Experimental AMD HSA HAL"
+      },
+      "first_seen": "2026-10-13T12:59:04.220462+00:00"
+    },
     "https://www.phoronix.com/news/Intel-HDMI-2.1-FRL-Linux-v2": {
       "entry": {
         "category": "embedded",
@@ -704,32 +748,6 @@
         "title": "Intel Posts Updated Linux Driver Code For HDMI 2.1 FRL On Meteor Lake & Newer"
       },
       "first_seen": "2026-10-12T13:35:18.699602+00:00"
-    },
-    "https://www.phoronix.com/news/KDE-Plasma-6.8-Next-Week": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/KDE-Plasma-6.8-Next-Week",
-        "link": "https://www.phoronix.com/news/KDE-Plasma-6.8-Next-Week",
-        "relevance": 3,
-        "source": "Phoronix",
-        "summary": "KDE Plasma 6.8 is gearing up for its official debut next week in coinciding with the 30th anniversary since the KDE project began...",
-        "summary_vi": "KDE Plasma 6.8 is gearing up for its official release next week alongside the 30th anniversary of the KDE project. The upcoming desktop environment update includes a last-minute fix for NVIDIA hardware.",
-        "title": "KDE Plasma 6.8 Ready For Release Next Week, Sees Last Minute NVIDIA Fix"
-      },
-      "first_seen": "2026-10-10T11:23:32.463986+00:00"
-    },
-    "https://www.phoronix.com/news/KNOD-2026-GPU-Network-Process": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/KNOD-2026-GPU-Network-Process",
-        "link": "https://www.phoronix.com/news/KNOD-2026-GPU-Network-Process",
-        "relevance": 3,
-        "source": "Phoronix",
-        "summary": "A while back we covered KNOD as an experimental solution for in-kernel network offloading to AMD GPUs. The open-source KNOD project allows leveraging GPUs to handle packet processing in a very performant and energy efficient manner without needing any specialized hardware. KNOD has continued and a development update was shared this week at the Linux Plumbers Conference in Prague...",
-        "summary_vi": "The open-source KNOD project provides in-kernel network packet offloading to AMD GPUs, enabling high-performance and energy-efficient packet handling without specialized hardware. A development update on its progress was recently presented at the Linux Plumbers Conference.",
-        "title": "KNOD Progressing For Linux In-Kernel GPU Offloading For Network Packet Processing"
-      },
-      "first_seen": "2026-10-10T11:23:32.463986+00:00"
     },
     "https://www.phoronix.com/news/Linus-Torvalds-Assoc-Array": {
       "entry": {
@@ -757,19 +775,6 @@
       },
       "first_seen": "2026-10-12T00:47:21.124571+00:00"
     },
-    "https://www.phoronix.com/news/Linux-7.3-rc7-Networking": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/Linux-7.3-rc7-Networking",
-        "link": "https://www.phoronix.com/news/Linux-7.3-rc7-Networking",
-        "relevance": 3,
-        "source": "Phoronix",
-        "summary": "Ahead of the Linux 7.3-rc7 kernel due for release on Sunday, this week's batch of networking fixes were submitted and merged. The vast networking subsystem of wired and wireless drivers plus the various other networking features continues to see a lot of activity due to AI-driven bug reports and patches...",
-        "summary_vi": "Over 50 networking fixes were merged ahead of the Linux 7.3-rc7 kernel release across wired and wireless drivers. The networking subsystem continues to experience high patch activity driven by AI-generated bug reports and code submissions.",
-        "title": "Linux Networking Diverts 50+ Fixes To Next Kernel, Still Bombarded With AI Fueled Churn"
-      },
-      "first_seen": "2026-10-10T11:23:32.463986+00:00"
-    },
     "https://www.phoronix.com/news/Linux-7.3-rc7-Released": {
       "entry": {
         "category": "embedded",
@@ -782,6 +787,19 @@
         "title": "Linux 7.3-rc7 Released With Linux 7.3 Hopefully Out Next Weekend"
       },
       "first_seen": "2026-10-13T02:44:05.425689+00:00"
+    },
+    "https://www.phoronix.com/news/NVIDIA-Nova-Linux-7.4-Changes": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/NVIDIA-Nova-Linux-7.4-Changes",
+        "link": "https://www.phoronix.com/news/NVIDIA-Nova-Linux-7.4-Changes",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "The DRM Rust changes targeting the Linux 7.4 merge window have been submitted for pulling into DRM-Next ahead of that cycle kicking off (hopefully) next week. The NVIDIA Nova driver continues leading the way for the development of in-kernel Rust GPU drivers and in the process building out the Rust Direct Rendering Manager (DRM) infrastructure...",
+        "summary_vi": "The DRM Rust changes targeting the Linux 7.4 merge window have been submitted for pulling into DRM-Next ahead of that cycle kicking off (hopefully) next week. The NVIDIA Nova driver continues leading ",
+        "title": "NVIDIA's Nova Driver Continues Leading The Way For Linux Rust GPU Drivers"
+      },
+      "first_seen": "2026-10-13T12:59:04.220462+00:00"
     },
     "https://www.phoronix.com/news/Rolling-Releases-GenAI-Era": {
       "entry": {
@@ -796,19 +814,6 @@
       },
       "first_seen": "2026-10-11T00:29:49.881685+00:00"
     },
-    "https://www.phoronix.com/news/Ubuntu-26.10-GCC-15-Default": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/Ubuntu-26.10-GCC-15-Default",
-        "link": "https://www.phoronix.com/news/Ubuntu-26.10-GCC-15-Default",
-        "relevance": 3,
-        "source": "Phoronix",
-        "summary": "From a performance and enthusiast perspective, what I personally find most disappointing and puzzling with the imminent release of Ubuntu 26.10 comes down to its default compiler version...",
-        "summary_vi": "The upcoming Ubuntu 26.10 release continues to use GCC 15 as its default system compiler. The author notes this decision as disappointing regarding performance and enthusiast expectations.",
-        "title": "Ubuntu 26.10 Sticks To Using GCC 15 By Default"
-      },
-      "first_seen": "2026-10-10T11:23:32.463986+00:00"
-    },
     "https://www.phoronix.com/review/rocm-10-opencl-rusticl": {
       "entry": {
         "category": "embedded",
@@ -821,71 +826,6 @@
         "title": "ROCm 10 OpenCL vs. Mesa 26.3-dev Rusticl Performance On AMD Strix Halo"
       },
       "first_seen": "2026-10-13T02:44:05.425689+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1x1k25j": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1x1k25j",
-        "link": "https://www.reddit.com/r/embedded/comments/1x1k25j/safety_architecture_and_black_channel/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "I'm working on a safety architecture based on a heterogeneous SoC. Basically it contains a Cortex-M and a Cortex-A. I would like to have a confirmation about the data path certification I designed. In the Cortex-M, I run a safety software that take some IO. It is safe because if it doesn't work, the device can be destroy. In the Cortex-A, I run a Linux. The Cortex-M software need an input that come from a websocket (TCP based). I use the Cortex-A to run the websocket for two main reasons : - The ethernet driver and all libraries are already present on this side and easy to setup. - The TCP, websocket and ssl libraries is totally not certifiable. It means that even if I use the Cortex-M to embed the websocket, I will still have a non-certify stack. Now, I would like to certify the data path in order to be sure that, if the Cortex-M receive this data, the data will not be corrupt. For doing that, I use the black channel mechanism. It consists to add to the payload send by the intervener, a CRC and a counter in addition to the main data. - The counter : to be sure that the data is leaving; - The CRC : to be sure that the data is not corrupted. So the intervener (a third PC), send through the websocket this improved payload. The certification I'm talking about is IEC-61508. This is a small schematics about the data path. My question : does my solution is correct ? submitted by /u/Pale-Tear-5646 [link] [comments]",
-        "summary_vi": "A developer working on a heterogeneous SoC combining Cortex-M safety software with Linux on Cortex-A seeks confirmation regarding a safety data path certification. The system requires passing TCP-based websocket data from Linux on Cortex-A to critical safety IO software on Cortex-M.",
-        "title": "Safety architecture and black channel"
-      },
-      "first_seen": "2026-10-10T11:23:32.463986+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1x26kov": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1x26kov",
-        "link": "https://www.reddit.com/r/embedded/comments/1x26kov/followup_why_my_1986_rtos_survived_a_simplistic/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "A couple of weeks ago, I asked about a change in VRTX's equal-priority scheduling behavior between its 1984 and 1987 documentation. Original discussion: https://www.reddit.com/r/embedded/s/gMr2klUiCY Thanks to the comments here and in other subreddits, I realized something interesting about my own implementation. Early VRTX wasn't simply LIFO. The older documentation describes inserting newly ready tasks ahead of existing tasks at the same priority. However, time slicing and other ready-queue operations also affect the ordering. The actual behavior is more nuanced than a simple LIFO policy. When I developed my own RTOS, CHARM-II, in 1986, I used VRTX documentation as one of my references. I interpreted its equal-priority scheduling as essentially newest-first and implemented a simpler version of that behavior. Looking back, I had not fully understood the original VRTX scheduling rules. So why didn't this cause serious problems? I think the development environment had a lot to do with it. Back then, I was developing not only the RTOS but also almost the entire application myself. There was very little third-party code in the system, and I knew exactly what each task was doing, when it would become ready, and how it interacted with other tasks. In other words, I could design the application around the scheduler's behavior, rather than expecting the scheduler to accommodate independently developed software components. At least, that's my explanation looking back 40 years later. For my modern reconstruction, I've chosen FIFO ordering among equal-priority ready tasks, mainly for simplicity and predictability. The original historical question remains unanswered: I still don't know why VRTX changed its scheduling policy. But the discussion helped me understand both the trade-offs involved and a subtle difference between the RTOS I wrote in 1986 and the one I had used as a reference. Thanks to everyone who contributed! submitted by /u/noborutkhs [link] [comments]",
-        "summary_vi": "The author discusses insights into a 1986 RTOS implementation regarding VRTX equal-priority task scheduling. Early VRTX documentation described inserting newly ready tasks ahead of existing tasks at the same priority, affecting ready-queue management and time slicing.",
-        "title": "Follow-up: Why my 1986 RTOS survived a simplistic interpretation of VRTX scheduling"
-      },
-      "first_seen": "2026-10-10T11:23:32.463986+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1x2bscx": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1x2bscx",
-        "link": "https://www.reddit.com/r/embedded/comments/1x2bscx/uart_dma_works_in_loopback_but_not_with_2_stm32/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "I did a test project to connect 2 STM32 in UART DMA. It worked in loopback but now not between the 2 STM32 I obtain scrambled data. My grounds are connected and the wires are properly connected. Here is my code : uint16_t rxLength = 0; uint8_t rx_buffer[64]; void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef * huart, uint16_t length) { rxLength = length; HAL_UARTEx_ReceiveToIdle_DMA(huart, rx_buffer, 64); } /* USER CODE END 0 */ /** * The application entry point. * int */ int main(void) { /* USER CODE BEGIN 1 */ /* USER CODE END 1 */ /* MCU Configuration--------------------------------------------------------*/ /* Reset of all peripherals, Initializes the Flash interface and the Systick. */ HAL_Init(); /* USER CODE BEGIN Init */ /* USER CODE END Init */ /* Configure the system clock */ SystemClock_Config(); /* USER CODE BEGIN SysInit */ /* USER CODE END SysInit */ /* Initialize all configured peripherals */ MX_GPIO_Init(); MX_DMA_Init(); MX_USART2_UART_Init(); MX_TIM1_Init(); /* USER CODE BEGIN 2 */ HAL_TIM_Base_Start(&htim1); uint8_t tx_buffer[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; HAL_UARTEx_ReceiveToIdle_DMA(&huart2, rx_buffer, 64); /* USER CODE END 2 */ /* Infinite loop */ /* USER CODE BEGIN WHILE */ while (1) { HAL_UART_Transmit_DMA(&huart2, tx_buffer, 10); /* USER CODE END WHILE */ /* USER CODE BEGIN 3 */ } /* USER CODE END 3 */ } And Here is what I get on my rx_buffer https://preview.redd.it/i3f4otja8muh1.png?width=387&format=png&auto=webp&s=4712109c32d66768b12dc9b3f51705ba68accd50 submitted by /u/Loose-Assist45 [link] [comments]",
-        "summary_vi": "A developer encounters scrambled data when communicating between two STM32 microcontrollers using UART DMA, despite successful loopback tests and proper ground connections. The provided text includes C code snippets setting up idle-line DMA reception.",
-        "title": "UART DMA works in loopback but not with 2 STM32"
-      },
-      "first_seen": "2026-10-10T11:23:32.463986+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1x2cng2": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1x2cng2",
-        "link": "https://www.reddit.com/r/embedded/comments/1x2cng2/the_3d_microscope_you_deserve/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "submitted by /u/Proud_Trade2769 [link] [comments]",
-        "summary_vi": "A user shared a community post regarding a 3D microscope. The provided snippet does not contain further technical details or descriptions of the device.",
-        "title": "The 3D microscope you deserve"
-      },
-      "first_seen": "2026-10-10T11:23:32.463986+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1x2cupv": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1x2cupv",
-        "link": "https://www.reddit.com/r/embedded/comments/1x2cupv/best_module_for_bluetooth_security_testing/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "I need to make collage project for Wireless security course, and I decided to make a device like the flipper zero that can test the wireless networks like WI-FI and Bluetooth and so on. but, I need help to pick the right module for the Bluetooth part that work on classic Bluetooth and BLE, I have been told that the ESP32-WROOM 32 is the best option. so, I need confirm on that and if anyone know any better options I will be thankful for the help submitted by /u/Stunning-Taste9317 [link] [comments]",
-        "summary_vi": "A user creating a wireless security testing device for a college course seeks recommendations for a hardware module supporting both Classic Bluetooth and Bluetooth Low Energy (BLE). They ask if the ESP32-WROOM-32 is the best option or if better alternatives exist.",
-        "title": "Best module for Bluetooth security testing"
-      },
-      "first_seen": "2026-10-10T11:23:32.463986+00:00"
     },
     "https://www.reddit.com/r/embedded/t3_1x2i2st": {
       "entry": {
@@ -1017,19 +957,6 @@
       },
       "first_seen": "2026-10-13T02:44:05.425689+00:00"
     },
-    "https://www.reddit.com/r/embedded/t3_1x4ibjm": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1x4ibjm",
-        "link": "https://www.reddit.com/r/embedded/comments/1x4ibjm/getting_into_architecturelevel_embedded/",
-        "relevance": 5,
-        "source": "Reddit r/embedded",
-        "summary": "I've been working for some months now on a project that requires low-level development for ARM Cortex-A silicon. I'm talking bootloading, memory operations, hypervisor settings, memory mapping and MMU configuration, etc. I've come to realise how little I actually know my way around a low level environment. I've developed for embedded systems for a long time now, but always focusing on an application/integration level (RTOS, digital communications, system architecture, etc.). I want to get some experience on lower-level development - direct register manipulation based on CPU architecture, bootloading, debugger architecture, memory domains, etc. Anyone with experience on the field, what advise do you have on getting into low-level development and silicon programming using ISA languages coming from embedded-C and microcontroller development? My goal would be to acquire the confidence and the skill to integrate silicon functionality through assembly and making sense of the CPU documentation. I'd like to be able to script some basic functional hardware routines starting from scratch. submitted by /u/TheCorsairAPX [link] [comments]",
-        "summary_vi": "A community question from an embedded engineer with long experience at application/integration level (RTOS, digital communications, system architecture) who is transitioning to low-level ARM Cortex-A development and seeks guidance on bootloading, memory operations, hypervisor settings, memory mapping, and MMU configuration—areas unfamiliar despite previous embedded systems background.",
-        "title": "Getting into Architecture-Level Embedded Development (Cortex-A, RISC-V, ARM64, etc.)"
-      },
-      "first_seen": "2026-10-13T02:44:05.425689+00:00"
-    },
     "https://www.reddit.com/r/embedded/t3_1x4kgx4": {
       "entry": {
         "category": "embedded",
@@ -1055,6 +982,71 @@
         "title": "[Help] Need assistance extracting source code from S7-1500 / ET 200SP (CPU 1512SP-1 PN) SMC binary folder"
       },
       "first_seen": "2026-10-13T02:44:05.425689+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1x4pj1w": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x4pj1w",
+        "link": "https://www.reddit.com/r/embedded/comments/1x4pj1w/recreating_the_pebble_smartwatch_with_the_jlclab/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "https://preview.redd.it/abe62wgxi6vh1.jpg?width=2160&format=pjpg&auto=webp&s=1b5d7312108e73cfef8c51adcf6afd5bbaf5e552 submitted by /u/Simple-Ad3267 [link] [comments]",
+        "summary_vi": "https://preview.redd.it/abe62wgxi6vh1.jpg?width=2160&format=pjpg&auto=webp&s=1b5d7312108e73cfef8c51adcf6afd5bbaf5e552 submitted by /u/Simple-Ad3267 [link] [comments]",
+        "title": "Recreating the Pebble Smartwatch with the JLCLAB Huangshan Pi! What features would you like to see once I assemble them?"
+      },
+      "first_seen": "2026-10-13T12:59:04.220462+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1x4pk7y": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x4pk7y",
+        "link": "https://www.reddit.com/r/embedded/comments/1x4pk7y/how_to_resolve_suspended_signal_sigtrap/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I Just started coding with R7FA2L2073-CFM, E2 STUDIO WITH E2 EMULATOR LITE. And im trying to glow an LED but it is not working, its just a simple gpio. so i choose to debug the controller and im facing these following errors. even with no configurations in FSP cofiguations im getting errors. Please Help me if these is any configuarations i need to do before debugging. image1 im using 5v supply from external supply to my controller. PS: Im just a Beginner in Coding and with Renesas E2 studio IDE. submitted by /u/Electronic-Bit-1836 [link] [comments]",
+        "summary_vi": "I Just started coding with R7FA2L2073-CFM, E2 STUDIO WITH E2 EMULATOR LITE. And im trying to glow an LED but it is not working, its just a simple gpio. so i choose to debug the controller and im facin",
+        "title": "How to Resolve \"suspended: signal : sigtrap: trace/breakpoint trap\""
+      },
+      "first_seen": "2026-10-13T12:59:04.220462+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1x4sy1j": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x4sy1j",
+        "link": "https://www.reddit.com/r/embedded/comments/1x4sy1j/pebble_smartwatch_clone_update_dice_roller_and/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "submitted by /u/Simple-Ad3267 [link] [comments]",
+        "summary_vi": "submitted by /u/Simple-Ad3267 [link] [comments]",
+        "title": "Pebble smartwatch clone update: Dice roller and aircraft shooter working! What retro games would you play on a dev board like this?"
+      },
+      "first_seen": "2026-10-13T12:59:04.220462+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1x4t0r4": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x4t0r4",
+        "link": "https://www.reddit.com/r/embedded/comments/1x4t0r4/pebble_smartwatch_clone_update_dice_roller_and/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "submitted by /u/Simple-Ad3267 [link] [comments]",
+        "summary_vi": "submitted by /u/Simple-Ad3267 [link] [comments]",
+        "title": "Pebble smartwatch clone update: Dice roller and aircraft shooter working! What retro games would you play on a dev board like this?"
+      },
+      "first_seen": "2026-10-13T12:59:04.220462+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1x4uqqa": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x4uqqa",
+        "link": "https://www.reddit.com/r/embedded/comments/1x4uqqa/stm32_adc_dma_dac_audio_random_spikes_clicks_hiss/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "&#x200B; Hi everyone, I’m building a real-time digital audio processing system using STM32F407VGT6 and STM32F405RGT6. The signal path is: Analog Input → ADC → DMA → 8-Band Equalizer → DAC → Analog Output The system basically works, but I’m getting random short spikes/discontinuities in the ADC-to-DAC signal. These become very noticeable in the audio as constant clicks/pops and significant hiss/noise. I have been troubleshooting this for quite some time, but I still cannot determine whether the problem is related to: \\- ADC sampling/timing \\- DMA synchronization \\- DAC triggering \\- buffer handling \\- clock/timer configuration \\- ADC/DAC synchronization \\- or something else in the digital signal path I’m currently using the internal HSI clock and a 100 kHz sampling rate. Has anyone here successfully built an STM32 ADC → DMA → DAC audio path without random spikes, clicks or synchronization problems? If someone experienced with STM32 audio, ADC/DAC, DMA or real-time DSP could take a look, I can post the complete source code and oscilloscope screenshots/waveforms showing the problem. I would really appreciate any ideas about what could be causing these short spikes and how to eliminate them. Hardware: STM32F407VGT6 / STM32F405RGT6 ADC → DMA → DSP → DAC 100 kHz sampling HSI internal clock 8-band EQ Keywords: \\#STM32 #STM32F4 #ADC #DAC #DMA #Audio #DSP #Embedded #Microcontroller #Electronics submitted by /u/arash_hitech [link] [comments]",
+        "summary_vi": "&#x200B; Hi everyone, I’m building a real-time digital audio processing system using STM32F407VGT6 and STM32F405RGT6. The signal path is: Analog Input → ADC → DMA → 8-Band Equalizer → DAC → Analog Out",
+        "title": "STM32 ADC → DMA → DAC Audio: Random Spikes, Clicks & Hiss at 100 kHz — What am I missing?"
+      },
+      "first_seen": "2026-10-13T12:59:04.220462+00:00"
     },
     "oai:arXiv.org:2401.01114v3": {
       "entry": {
@@ -1485,19 +1477,6 @@
       },
       "first_seen": "2026-10-12T13:35:18.699602+00:00"
     },
-    "oai:arXiv.org:2610.13315v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2610.13315v1",
-        "link": "https://arxiv.org/abs/2610.13315",
-        "relevance": 5,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2610.13315v1 Announce Type: new \nAbstract: This paper considers channel state information (CSI) prediction using neural networks for time-varying multi-antenna channels from noisy historical observations. The main challenge is to exploit temporal correlation while distinguishing channel evolution from observation noise. We propose JEPA-kMMVAE, which combines a joint-embedding predictive architecture with a k-memory Markov variational autoencoder to predict future CSI through temporally structured latent representations. The framework supports direct prediction and residual corrections relative to the latest latent state and noisy CSI observation. Simulation results show that the residual configuration outperforms the evaluated baselines at moderate and high input CSI signal-to-noise ratios, while sequence baselines remain more accurate under stronger noise.",
-        "summary_vi": "The paper addresses channel state information (CSI) prediction for multi-antenna systems from noisy historical data by proposing JEPA-kMMVAE, which combines joint-embedding predictive architecture with k-memory Markov variational autoencoder. The approach exploits temporal correlation in channel evolution while filtering observation noise to predict future CSI in time-varying wireless channels.",
-        "title": "JEPA-kMMVAE: CSI Prediction for Time-Varying Wireless Channels"
-      },
-      "first_seen": "2026-10-13T02:44:05.425689+00:00"
-    },
     "oai:arXiv.org:2610.13318v1": {
       "entry": {
         "category": "research",
@@ -1817,6 +1796,7 @@
     "https://rcrwireless.com/?p=434897": "2026-10-09T12:07:21.302578+00:00",
     "https://rcrwireless.com/?p=434912": "2026-10-09T12:07:21.302578+00:00",
     "https://rcrwireless.com/?p=434920": "2026-10-09T12:07:21.302578+00:00",
+    "https://rcrwireless.com/?p=435558": "2026-10-13T12:59:04.220462+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/aims-deployment-exp/README.html": "2026-10-01T00:51:09.199810+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/dflash-on-MI355x/README.html": "2026-09-16T23:52:22.553694+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/glm52-mxfp4-mi355/README.html": "2026-09-22T00:21:39.787426+00:00",
@@ -1881,6 +1861,7 @@
     "https://www.cnx-software.com/?p=177985": "2026-10-06T01:55:08.067921+00:00",
     "https://www.cnx-software.com/?p=178014": "2026-10-07T12:01:12.937548+00:00",
     "https://www.cnx-software.com/?p=178053": "2026-10-08T12:16:35.137792+00:00",
+    "https://www.cnx-software.com/?p=178096": "2026-10-10T11:23:32.463986+00:00",
     "https://www.dpdk.org/?p=4421": "2026-09-18T23:36:06.086004+00:00",
     "https://www.huawei.com/en/news/2026/10/omdia-core-network": "2026-10-10T01:18:49.490352+00:00",
     "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement": "2026-10-06T01:55:08.067921+00:00",
@@ -1975,7 +1956,9 @@
     "https://www.phoronix.com/news/Intel-Xe-vRAM-Health-Check": "2026-09-19T23:34:09.501070+00:00",
     "https://www.phoronix.com/news/Jemalloc-5.4": "2026-09-17T23:42:02.289072+00:00",
     "https://www.phoronix.com/news/KDE-Goals-To-2028": "2026-09-20T23:32:03.775709+00:00",
+    "https://www.phoronix.com/news/KDE-Plasma-6.8-Next-Week": "2026-10-10T11:23:32.463986+00:00",
     "https://www.phoronix.com/news/KDE-Plasma-6.8-Tiled-Windows": "2026-10-03T10:38:27.442783+00:00",
+    "https://www.phoronix.com/news/KNOD-2026-GPU-Network-Process": "2026-10-10T11:23:32.463986+00:00",
     "https://www.phoronix.com/news/Kage-Linux-Driver-Isolation": "2026-10-08T12:16:35.137792+00:00",
     "https://www.phoronix.com/news/LLVM-Clang-AVX10_V2_AUX": "2026-09-24T10:31:49.858853+00:00",
     "https://www.phoronix.com/news/Lemonade-2026.40-RC": "2026-09-23T23:58:04.297683+00:00",
@@ -1987,6 +1970,7 @@
     "https://www.phoronix.com/news/Linux-7.3-rc5-DRM": "2026-09-26T23:54:29.308170+00:00",
     "https://www.phoronix.com/news/Linux-7.3-rc5-Released": "2026-09-27T23:59:46.648693+00:00",
     "https://www.phoronix.com/news/Linux-7.3-rc6-Released": "2026-10-05T00:10:30.939245+00:00",
+    "https://www.phoronix.com/news/Linux-7.3-rc7-Networking": "2026-10-10T11:23:32.463986+00:00",
     "https://www.phoronix.com/news/Linux-7.4-AMD-P-State-Zen-6": "2026-09-16T02:41:57.982686+00:00",
     "https://www.phoronix.com/news/Linux-7.4-AMD-PState-Zen-6": "2026-10-05T12:40:32.898052+00:00",
     "https://www.phoronix.com/news/Linux-7.4-DRM-Helpers-HDMI-2.0": "2026-09-24T10:31:49.858853+00:00",
@@ -2001,6 +1985,7 @@
     "https://www.phoronix.com/news/Linux-Fix-AMD-Zen-5-TLB-Sizes": "2026-09-16T12:52:31.242072+00:00",
     "https://www.phoronix.com/news/Linux-Improv-Hibernation-2026": "2026-09-15T13:53:30.223364+00:00",
     "https://www.phoronix.com/news/Linux-Kbuild-Faster-v3": "2026-09-19T09:44:33.099539+00:00",
+    "https://www.phoronix.com/news/Linux-Mint-27-Many-Features": "2026-10-13T12:59:04.220462+00:00",
     "https://www.phoronix.com/news/Linux-Standardize-vRAM-Stats": "2026-09-18T10:05:15.823346+00:00",
     "https://www.phoronix.com/news/Mesa-26.2.3-Released": "2026-09-16T23:52:22.553694+00:00",
     "https://www.phoronix.com/news/Mesa-26.3-RADV-VK_AMD_anti_lag": "2026-10-09T01:28:13.470643+00:00",
@@ -2024,6 +2009,7 @@
     "https://www.phoronix.com/news/NVMe-Apple-M3-Linux-Patches": "2026-09-25T10:36:06.746694+00:00",
     "https://www.phoronix.com/news/Nebula-Matrix-NIC-Linux-7.4": "2026-09-22T00:21:39.787426+00:00",
     "https://www.phoronix.com/news/Nouveau-Deep-Color-Patches": "2026-09-23T10:20:42.143819+00:00",
+    "https://www.phoronix.com/news/ONLYOFFICE-10.0": "2026-10-13T12:59:04.220462+00:00",
     "https://www.phoronix.com/news/Omarchy-Alibaba-3M": "2026-09-23T10:20:42.143819+00:00",
     "https://www.phoronix.com/news/OpenBSD-GEFS-File-System": "2026-09-16T23:52:22.553694+00:00",
     "https://www.phoronix.com/news/OpenCL-3.1.2-Released": "2026-09-18T10:05:15.823346+00:00",
@@ -2070,6 +2056,7 @@
     "https://www.phoronix.com/news/Toolpak": "2026-09-26T23:54:29.308170+00:00",
     "https://www.phoronix.com/news/TrueNAS-27-RC.1-Release": "2026-10-06T01:55:08.067921+00:00",
     "https://www.phoronix.com/news/Ubuntu-26.10-Beta-Released": "2026-10-02T01:06:03.018282+00:00",
+    "https://www.phoronix.com/news/Ubuntu-26.10-GCC-15-Default": "2026-10-10T11:23:32.463986+00:00",
     "https://www.phoronix.com/news/Ubuntu-26.10-OOM-Adjustments": "2026-09-19T09:44:33.099539+00:00",
     "https://www.phoronix.com/news/Ubuntu-26.10-RISC-V-Desktop": "2026-10-10T01:18:49.490352+00:00",
     "https://www.phoronix.com/news/Ubuntu-26.10-Snapdragon-Concept": "2026-09-30T00:46:27.180142+00:00",
@@ -2336,9 +2323,14 @@
     "https://www.reddit.com/r/embedded/t3_1x1e2r4": "2026-10-09T12:07:21.302578+00:00",
     "https://www.reddit.com/r/embedded/t3_1x1j9vs": "2026-10-09T12:07:21.302578+00:00",
     "https://www.reddit.com/r/embedded/t3_1x1jd1r": "2026-10-09T12:07:21.302578+00:00",
+    "https://www.reddit.com/r/embedded/t3_1x1k25j": "2026-10-10T11:23:32.463986+00:00",
     "https://www.reddit.com/r/embedded/t3_1x1k965": "2026-10-10T01:18:49.490352+00:00",
     "https://www.reddit.com/r/embedded/t3_1x1q0dr": "2026-10-10T01:18:49.490352+00:00",
     "https://www.reddit.com/r/embedded/t3_1x1ulup": "2026-10-10T01:18:49.490352+00:00",
+    "https://www.reddit.com/r/embedded/t3_1x26kov": "2026-10-10T11:23:32.463986+00:00",
+    "https://www.reddit.com/r/embedded/t3_1x2bscx": "2026-10-10T11:23:32.463986+00:00",
+    "https://www.reddit.com/r/embedded/t3_1x2cng2": "2026-10-10T11:23:32.463986+00:00",
+    "https://www.reddit.com/r/embedded/t3_1x2cupv": "2026-10-10T11:23:32.463986+00:00",
     "https://www.reddit.com/r/embedded/t3_1x2j89j": "2026-10-11T00:29:49.881685+00:00",
     "https://www.reddit.com/r/embedded/t3_1x2nddx": "2026-10-11T00:29:49.881685+00:00",
     "https://www.reddit.com/r/embedded/t3_1x3m8tn": "2026-10-12T00:47:21.124571+00:00",
