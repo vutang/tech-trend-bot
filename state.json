@@ -108,6 +108,7 @@
     "https://rcrwireless.com/?p=435568": "2026-10-14T00:37:17.101304+00:00",
     "https://rcrwireless.com/?p=435591": "2026-10-15T00:07:44.827060+00:00",
     "https://rcrwireless.com/?p=435647": "2026-10-15T23:54:14.069902+00:00",
+    "https://rcrwireless.com/?p=435662": "2026-10-17T09:41:47.588367+00:00",
     "https://rcrwireless.com/?p=435673": "2026-10-16T23:54:14.734784+00:00",
     "https://rcrwireless.com/?p=435677": "2026-10-16T23:54:14.734784+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/profiling-guide/att/README.html": "2026-09-22T23:49:48.541761+00:00",
@@ -170,6 +171,7 @@
     "https://www.phoronix.com/news/Ikey-Doherty-Plans-Linux-Build": "2026-10-07T01:01:04.434173+00:00",
     "https://www.phoronix.com/news/InputPlumber-0.79": "2026-10-07T01:01:04.434173+00:00",
     "https://www.phoronix.com/news/Intel-Graphics-CMRR-Linux-7.4": "2026-10-07T01:01:04.434173+00:00",
+    "https://www.phoronix.com/news/Intel-Instruction-Timeout-Linux": "2026-10-17T09:41:47.588367+00:00",
     "https://www.phoronix.com/news/Intel-Nova-Lake-P-64-bit-Mode": "2026-10-07T01:01:04.434173+00:00",
     "https://www.phoronix.com/news/KDE-Plasma-6.8-Autoscroll": "2026-10-07T01:01:04.434173+00:00",
     "https://www.phoronix.com/news/KosmicKrisp-Vulkan-1.4-2026": "2026-10-04T00:03:15.008562+00:00",
@@ -304,6 +306,7 @@
     "oai:arXiv.org:2508.16738v3": "2026-10-02T01:06:03.018282+00:00",
     "oai:arXiv.org:2510.25963v2": "2026-10-10T11:23:32.463986+00:00",
     "oai:arXiv.org:2511.23406v2": "2026-10-07T01:01:04.434173+00:00",
+    "oai:arXiv.org:2512.20622v3": "2026-10-17T09:41:47.588367+00:00",
     "oai:arXiv.org:2603.17627v5": "2026-10-11T00:29:49.881685+00:00",
     "oai:arXiv.org:2603.25414v5": "2026-10-11T00:29:49.881685+00:00",
     "oai:arXiv.org:2604.12300v2": "2026-09-25T00:04:46.328968+00:00",
@@ -315,6 +318,7 @@
     "oai:arXiv.org:2606.00455v4": "2026-10-13T02:44:05.425689+00:00",
     "oai:arXiv.org:2606.02854v3": "2026-10-11T00:29:49.881685+00:00",
     "oai:arXiv.org:2606.18958v2": "2026-10-07T01:01:04.434173+00:00",
+    "oai:arXiv.org:2606.22283v2": "2026-10-17T09:41:47.588367+00:00",
     "oai:arXiv.org:2607.10314v2": "2026-10-01T00:51:09.199810+00:00",
     "oai:arXiv.org:2607.13184v2": "2026-09-22T23:49:48.541761+00:00",
     "oai:arXiv.org:2608.00029v3": "2026-10-07T01:01:04.434173+00:00",
@@ -547,6 +551,7 @@
     "oai:arXiv.org:2610.20222v1": "2026-10-15T23:54:14.069902+00:00",
     "oai:arXiv.org:2610.20230v1": "2026-10-15T23:54:14.069902+00:00",
     "oai:arXiv.org:2610.20754v1": "2026-10-16T23:54:14.734784+00:00",
+    "oai:arXiv.org:2610.20923v1": "2026-10-17T09:41:47.588367+00:00",
     "oai:arXiv.org:2610.20962v1": "2026-10-16T23:54:14.734784+00:00",
     "oai:arXiv.org:2610.21096v1": "2026-10-16T10:07:43.710673+00:00",
     "oai:arXiv.org:2610.21313v1": "2026-10-16T10:07:43.710673+00:00",
@@ -624,71 +629,6 @@
       },
       "first_seen": "2026-10-15T00:07:44.827060+00:00"
     },
-    "https://lwn.net/Articles/1099015/": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://lwn.net/Articles/1099015/",
-        "link": "https://lwn.net/Articles/1099015/",
-        "relevance": 3,
-        "source": "LWN.net Front Page",
-        "summary": "Rust's system of ownership and borrowed references is convenient when it can\ncorrectly model a program's needs. The\n \nRust for Linux project has worked to\nprovide adapters between Rust's semantics and the existing C code\nin the kernel. At Kangrejos 2026, Andreas Hindborg spoke about a\n \npatch\nseries implementing the next such adaptor: an Ownable trait for\nrepresenting objects that are allocated in C code, but which Rust code is responsible\nfor cleaning up (if not necessarily deallocating) when it is done with them.\nHe hoped to finally reach a consensus on the patch series, after months of\ndiscussion on the mailing list.",
-        "summary_vi": "Rust's system of ownership and borrowed references is convenient when it can\ncorrectly model a program's needs. The\n \nRust for Linux project has worked to\nprovide adapters between Rust's semantics and",
-        "title": "[$] Owning C types from Rust code"
-      },
-      "first_seen": "2026-10-14T00:37:17.101304+00:00"
-    },
-    "https://lwn.net/Articles/1099486/": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://lwn.net/Articles/1099486/",
-        "link": "https://lwn.net/Articles/1099486/",
-        "relevance": 3,
-        "source": "LWN.net Front Page",
-        "summary": "KDE Linux , the KDE Project's second\nstab at creating its own distribution, was first introduced as \"Project Banana\"\nat the Akademy conference in 2024 by\nHarald Sitter. Nate Graham announced \nthe first alpha-quality release during Akademy 2025 . Graham and Sitter\npaired up at Akademy 2026 to \nprovide an update on its progress, lay out plans for refining the distribution to\naddress user feedback, and discuss some of the problems that still need to be\ndealt with. KDE Linux is still not-quite-ready for prime time, but Graham hopes\nthat it will be suitable for widespread use soon—for an undefined value of\n\"soon\".",
-        "summary_vi": "KDE Linux , the KDE Project's second\nstab at creating its own distribution, was first introduced as \"Project Banana\"\nat the Akademy conference in 2024 by\nHarald Sitter. Nate Graham announced \nthe firs",
-        "title": "[$] KDE Linux at two"
-      },
-      "first_seen": "2026-10-14T00:37:17.101304+00:00"
-    },
-    "https://lwn.net/Articles/1100181/": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://lwn.net/Articles/1100181/",
-        "link": "https://lwn.net/Articles/1100181/",
-        "relevance": 3,
-        "source": "LWN.net Front Page",
-        "summary": "Security updates have been issued by AlmaLinux (cjose, curl, emacs, environment-modules, flatpak, flatpak-builder, gd, glibc, kernel, libxml2, pcre2, and rsyslog), Debian (chromium, keystone, libgit2, librsvg, nagios4, and ntfs-3g), Fedora (baresip, bcm283x-firmware, curl, flare-im, GitPython, iperf3, kernel, libebml, libmatroska, libre, mkvtoolnix, python-mkdocs-rss-plugin, radicale, uboot-tools, and xiphos), Mageia (antlr4-project, cjose, cups, firefox, nss, golang, libextractor, nginx, ntfs-3g, openvpn, perl-DBI, perl-Imager, polkit, rsync, strongswan, thunderbird, tor, ugrep, vlc, and wireshark), Oracle (bind, bind9.16, cjose, compat-openssl10, compat-openssl11, curl, dovecot, emacs, flatpak, jackson-core, jackson-databind, jackson-jaxrs-providers, and jackson-modules-base, kernel, mod_auth_openidc, nodejs:22, tftp, and thunderbird), SUSE (bind, gcc13, gcc48, ghostscript, go1.26, go1.27, helm, libpng16, librsvg, libsoup, libX11, libXi, python, python-anyio, python-Django, python-PyJWT, python-tornado6, python-urllib3, python310, python313-bugzilla, python313-cmarkgfm, python313-colander, python313-configobj, python313-confluent-kafka, python313-django-registration, python313-ecdsa, python313-httptools, python313-imagecodecs, python313-impacket, terraform-provider-aws, terraform-provider-azurerm, terraform-provider-external, terraform-provider-google, terraform-provider-helm, terraform-provider-kubernetes, terraform-provid, thunderbird, unbound, virtiofsd, and xorg-x11-server), and Ubuntu (ffmpeg, google-guest-agent, google-osconfig-agent, and libx11).",
-        "summary_vi": "Security updates have been issued by AlmaLinux (cjose, curl, emacs, environment-modules, flatpak, flatpak-builder, gd, glibc, kernel, libxml2, pcre2, and rsyslog), Debian (chromium, keystone, libgit2,",
-        "title": "Security updates for Tuesday"
-      },
-      "first_seen": "2026-10-14T00:37:17.101304+00:00"
-    },
-    "https://lwn.net/Articles/1100182/": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://lwn.net/Articles/1100182/",
-        "link": "https://lwn.net/Articles/1100182/",
-        "relevance": 3,
-        "source": "LWN.net Front Page",
-        "summary": "PostgreSQL core\nteam member Peter Eisentraut has written a blog\npost reflecting on the \" unusually high number of features \" that have\nbeen taken out of the upcoming PostgreSQL 19 release since the beta period\nbegan. \n\n \n Some of the reverted features had significant architectural defects that\nwould have been hard to fix quickly and during beta. But there was also a long\ntail of relatively harmless issues involving various edge cases. In past times,\nmany of these would not have surfaced until much later and we would have fixed\nthem bit by bit over the subsequent five years. But with LLM-assisted code\nreview, these kinds of things can get found much faster, and then you're staring\nat a list of like forty defect reports. And even if each of them requires only a\nthree-line fix on average, there is a fixed overhead to dealing with each of\nthese, and then you run out of time. Most if not all of the affected reverted\nfeatures were written a long time ago when LLM-assisted code review was not as\nuseful as it is now, meaning that the effective quality bar has been raised\nafter the time the feature was written and committed. Unless the capabilities of\nLLM-assisted code review keep improving at the current rate, this situation\nshould sort itself out for future development cycles. \n\n A corollary of that is that, at least for the most part, as far as I can\ntell, this situation is not due to \"vibe coding\". This code was written well\nbefore that was a possibility. \n \n\n LWN covered the unusually\nlarge number of bug fixes required for PostgreSQL 19 features in\nSeptember.",
-        "summary_vi": "PostgreSQL core\nteam member Peter Eisentraut has written a blog\npost reflecting on the \" unusually high number of features \" that have\nbeen taken out of the upcoming PostgreSQL 19 release since the be",
-        "title": "Eisentraut: The reverts will continue until morale improves"
-      },
-      "first_seen": "2026-10-14T00:37:17.101304+00:00"
-    },
-    "https://lwn.net/Articles/1100247/": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://lwn.net/Articles/1100247/",
-        "link": "https://lwn.net/Articles/1100247/",
-        "relevance": 3,
-        "source": "LWN.net Front Page",
-        "summary": "The Lix and Nix projects have jointly\ndisclosed a set of vulnerabilities that can be used to escalate privileges\nto root on systems running the Lix or Nix daemons. \" All systems that build\nuntrusted derivations are affected. \" Releases with fixes from each project\nare available today. CVE IDs have not yet been requested. See the announcement\nfor more details on the vulnerabilities.",
-        "summary_vi": "The Lix and Nix projects have jointly\ndisclosed a set of vulnerabilities that can be used to escalate privileges\nto root on systems running the Lix or Nix daemons. \" All systems that build\nuntrusted d",
-        "title": "Nix and Lix local root-privilege-escalation vulnerabilities"
-      },
-      "first_seen": "2026-10-14T00:37:17.101304+00:00"
-    },
     "https://lwn.net/Articles/1100785/": {
       "entry": {
         "category": "embedded",
@@ -754,19 +694,6 @@
       },
       "first_seen": "2026-10-15T23:54:14.069902+00:00"
     },
-    "https://rcrwireless.com/?p=435662": {
-      "entry": {
-        "category": "ran",
-        "id": "https://rcrwireless.com/?p=435662",
-        "link": "https://rcrwireless.com/20261016/analyst-angle/plume-2-0-from-wi-fi-optimizer-to-agentic-operating-layer-for-isps-analyst-angle",
-        "relevance": 3,
-        "source": "RCR Wireless News",
-        "summary": "Plume has rebuilt its architecture, embraced industry standards and launched an AI agent workspace, shifting from Wi-Fi optimization to ISP-wide intelligence. The bet: lower support costs, reduced churn and new…",
-        "summary_vi": "Plume 2.0 updates its architecture around open standards and an AI agent workspace to transition from Wi-Fi optimization into an ISP-wide operating layer. The goal is to reduce operational support costs and customer churn.",
-        "title": "Plume 2.0 – from Wi-Fi optimizer to agentic operating layer for ISPs (Analyst Angle)"
-      },
-      "first_seen": "2026-10-16T23:54:14.734784+00:00"
-    },
     "https://rcrwireless.com/?p=435668": {
       "entry": {
         "category": "ran",
@@ -793,6 +720,19 @@
       },
       "first_seen": "2026-10-15T00:07:44.827060+00:00"
     },
+    "https://www.cnx-software.com/?p=176999": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.cnx-software.com/?p=176999",
+        "link": "https://www.cnx-software.com/2026/10/17/seeed-studio-xiao-ips-display-series-features-esp32-s3-or-nrf52840-soc-with-0-96-inch-to-1-47-inch-lcd-options/",
+        "relevance": 4,
+        "source": "CNX Software",
+        "summary": "Seeed Studio has introduced the XIAO IPS touch display series, a family of six compact development boards built around the XIAO ESP32-S3 Plus or XIAO nRF52840 Plus MCU, with 0.96-inch, 1.14-inch, and 1.47-inch IPS color displays. All six boards include a 6-axis IMU, a PDM digital microphone, user buttons, and LiPo battery support. The larger 1.47-inch version adds capacitive touch and a microSD card slot, whereas the 1.14-inch model includes a Grove I2C connector for connecting external sensors. The ESP32-S3 versions support Wi-Fi and Bluetooth LE connectivity, while the nRF52840 models focus on lower-power Bluetooth LE applications. The boards are designed for portable dashboards, smart home controllers, wearable devices, sensor monitoring, and other small IoT projects. XIAO IPS Display Series specifications: Wireless board (one or the other) XIAO nRF52840 Plus Wireless MCU –  Nordic nRF52840 Arm Cortex-M4F microcontroller @ up to 64 MHz with 1 MB flash, 256 KB SRAM, Bluetooth 5.0, [...] \n The post Seeed Studio XIAO IPS display series features ESP32-S3 or nRF52840 SoC with 0.96-inch to 1.47-inch LCD options appeared first on CNX Software - Embedded Systems News .",
+        "summary_vi": "Seeed Studio has introduced the XIAO IPS touch display series, a family of six compact development boards built around the XIAO ESP32-S3 Plus or XIAO nRF52840 Plus MCU, with 0.96-inch, 1.14-inch, and ",
+        "title": "Seeed Studio XIAO IPS display series features ESP32-S3 or nRF52840 SoC with 0.96-inch to 1.47-inch LCD options"
+      },
+      "first_seen": "2026-10-17T09:41:47.588367+00:00"
+    },
     "https://www.cnx-software.com/?p=178260": {
       "entry": {
         "category": "embedded",
@@ -805,19 +745,6 @@
         "title": "Xerxes Pi 2026 and Xerxes Nano carrier boards offer NVMe, PoE, and OCuLink for Raspberry Pi and Jetson modules (Crowdfunding)"
       },
       "first_seen": "2026-10-16T10:07:43.710673+00:00"
-    },
-    "https://www.cnx-software.com/?p=178263": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.cnx-software.com/?p=178263",
-        "link": "https://www.cnx-software.com/2026/10/14/viewe-4-3-inch-esp32-s31-display-development-board/",
-        "relevance": 3,
-        "source": "CNX Software",
-        "summary": "VIEWE has introduced the PLCM-UES31S043H800V480C-U, a 4.3-inch smart display module that appears to be the first third-party development board powered by the new ESP32-S31 MCU. The board includes a 4.3-inch display with 2.4 GHz Wi-Fi 6, Bluetooth 5.4 LE and Classic, and IEEE 802.15.4 for Zigbee and Thread. It also features USB-C and USB-A ports, a microSD card slot, RS485 and CAN interfaces, and a 20-pin GPIO expansion header with UART and I2C. The board also includes an ES8389 audio codec, two NS4150B amplifiers, two onboard microphones, four ADC buttons, a WS2812B RGB LED, and BOOT/RESET buttons. It operates on a 5V power supply and supports an operating temperature range of -20°C to +70°C. VIEWE PLCM-UES31S043H800V480C-U Specifications: Wireless module – ESP32-S31-WROOM-3-N16R16V SoC – ESP32-S31NRV16 CPU RISC-V HP (High-performance) RV32IMAFCP CPU @ 320 MHz with FPU, SIMD, etc. RISC-V LP (Low-power) MCU core Memory – 512 KB SRAM, 32 KB low-power SRAM, [...] \n The post VIEWE launches 4.3-inch ESP32-S31 display development board appeared first on CNX Software - Embedded Systems News .",
-        "summary_vi": "VIEWE has introduced the PLCM-UES31S043H800V480C-U, a 4.3-inch smart display module that appears to be the first third-party development board powered by the new ESP32-S31 MCU. The board includes a 4.",
-        "title": "VIEWE launches 4.3-inch ESP32-S31 display development board"
-      },
-      "first_seen": "2026-10-14T00:37:17.101304+00:00"
     },
     "https://www.cnx-software.com/?p=178265": {
       "entry": {
@@ -936,18 +863,18 @@
       },
       "first_seen": "2026-10-15T00:07:44.827060+00:00"
     },
-    "https://www.phoronix.com/news/Firefox-159-Beta": {
+    "https://www.phoronix.com/news/Fedora-46-RPM-v6": {
       "entry": {
         "category": "embedded",
-        "id": "https://www.phoronix.com/news/Firefox-159-Beta",
-        "link": "https://www.phoronix.com/news/Firefox-159-Beta",
+        "id": "https://www.phoronix.com/news/Fedora-46-RPM-v6",
+        "link": "https://www.phoronix.com/news/Fedora-46-RPM-v6",
         "relevance": 3,
         "source": "Phoronix",
-        "summary": "With Firefox 158 released, Firefox 159 is now in beta ahead of its official release in two weeks...",
-        "summary_vi": "With Firefox 158 released, Firefox 159 is now in beta ahead of its official release in two weeks...",
-        "title": "Firefox 159 Beta Released With Fix For Tabs On Wayland"
+        "summary": "The RPM v4 packaging format has been used by Red Hat Enterprise Linux and Fedora and its derivatives for more than two decades. With next year's Fedora 46 release, Fedora Linux may finally transition to the modern RPM v6 packaging format...",
+        "summary_vi": "The RPM v4 packaging format has been used by Red Hat Enterprise Linux and Fedora and its derivatives for more than two decades. With next year's Fedora 46 release, Fedora Linux may finally transition ",
+        "title": "Fedora 46 Looking At Moving To RPM v6 Package Format"
       },
-      "first_seen": "2026-10-14T00:37:17.101304+00:00"
+      "first_seen": "2026-10-17T09:41:47.588367+00:00"
     },
     "https://www.phoronix.com/news/HP-EliteBook-6-Q1q-Linux-Patch": {
       "entry": {
@@ -961,19 +888,6 @@
         "title": "HP EliteBook 6 G1q Powered By Snapdragon X1 Plus Sees Linux Patches"
       },
       "first_seen": "2026-10-15T00:07:44.827060+00:00"
-    },
-    "https://www.phoronix.com/news/Intel-ISPC-1.32-Released": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/Intel-ISPC-1.32-Released",
-        "link": "https://www.phoronix.com/news/Intel-ISPC-1.32-Released",
-        "relevance": 3,
-        "source": "Phoronix",
-        "summary": "Intel ISPC 1.32 released today as the newest version of this Intel Implicit SPMD Program Compiler built atop LLVM/Clang. ISPC is a variant of the C programming language with extensiosn catering to Single Program Multiple Data programming for both Intel CPUs and GPUs...",
-        "summary_vi": "Intel ISPC 1.32 released today as the newest version of this Intel Implicit SPMD Program Compiler built atop LLVM/Clang. ISPC is a variant of the C programming language with extensiosn catering to Sin",
-        "title": "Intel ISPC 1.32 Released With AVX10.2 & APX Support, Even AMD Zen 6 Too"
-      },
-      "first_seen": "2026-10-14T00:37:17.101304+00:00"
     },
     "https://www.phoronix.com/news/Intel-LLM-Scaler-vLLM-PV-1.5": {
       "entry": {
@@ -1001,6 +915,19 @@
       },
       "first_seen": "2026-10-15T23:54:14.069902+00:00"
     },
+    "https://www.phoronix.com/news/LLVMpipe-AVX-512-MR": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/LLVMpipe-AVX-512-MR",
+        "link": "https://www.phoronix.com/news/LLVMpipe-AVX-512-MR",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "With pending code for Mesa, the LLVMpipe software-based Gallium3D/OpenGL driver could soon become faster on modern systems that support AVX-512. That's assuming the AI/LLVM-generated code is all in order...",
+        "summary_vi": "With pending code for Mesa, the LLVMpipe software-based Gallium3D/OpenGL driver could soon become faster on modern systems that support AVX-512. That's assuming the AI/LLVM-generated code is all in or",
+        "title": "AI Resurrects AVX-512 Support For Mesa's LLVMpipe Software Driver"
+      },
+      "first_seen": "2026-10-17T09:41:47.588367+00:00"
+    },
     "https://www.phoronix.com/news/Linux-7.3-Threadripper-9995WX": {
       "entry": {
         "category": "embedded",
@@ -1026,19 +953,6 @@
         "title": "Linux Finally Making It Easier To Answer The Question: \"Is This RISC-V System RVA23?\""
       },
       "first_seen": "2026-10-15T10:19:36.277492+00:00"
-    },
-    "https://www.phoronix.com/news/Linux-Dropping-Assisted-By-Req": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/Linux-Dropping-Assisted-By-Req",
-        "link": "https://www.phoronix.com/news/Linux-Dropping-Assisted-By-Req",
-        "relevance": 3,
-        "source": "Phoronix",
-        "summary": "Currently there is a policy requirement for Linux kernel patches where AI tools contributed, they should be documented with an \"Assisted-by:\" tag to make clear AI was used in the creation of said patch. But Linux kernel developers are now looking at dropping this requirement amid the rampant use of AI/LLMs...",
-        "summary_vi": "Currently there is a policy requirement for Linux kernel patches where AI tools contributed, they should be documented with an \"Assisted-by:\" tag to make clear AI was used in the creation of said patc",
-        "title": "Linux Kernel Developers Plan To Remove \"Assisted-By\" Tag Requirement For AI/LLM Usage"
-      },
-      "first_seen": "2026-10-14T00:37:17.101304+00:00"
     },
     "https://www.phoronix.com/news/Mesa-Torx-YOLOX-PyTorch": {
       "entry": {
@@ -1092,19 +1006,6 @@
       },
       "first_seen": "2026-10-15T23:54:14.069902+00:00"
     },
-    "https://www.phoronix.com/review/framework-laptop-12-wildcat-lake": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/review/framework-laptop-12-wildcat-lake",
-        "link": "https://www.phoronix.com/review/framework-laptop-12-wildcat-lake",
-        "relevance": 3,
-        "source": "Phoronix",
-        "summary": "Last year Framework Computer launched the Framework Laptop 12 as a convertible, 2-in-1 laptop that was friendly with Linux and upgradeable inline with the beloved Framework Laptop 13 and 16 models. The initial Framework Laptop 12 was nice but the use of an Intel Raptor Lake U SoC in 2025 wasn't all that exciting. Now though Framework Laptop 12 is available with Intel Core 3 \"Wildcat Lake\" for offering better performance and power efficiency.",
-        "summary_vi": "Last year Framework Computer launched the Framework Laptop 12 as a convertible, 2-in-1 laptop that was friendly with Linux and upgradeable inline with the beloved Framework Laptop 13 and 16 models. Th",
-        "title": "Framework Laptop 12 Offers Improved Performance & Efficiency With Intel Core 3 Wildcat Lake"
-      },
-      "first_seen": "2026-10-14T00:37:17.101304+00:00"
-    },
     "https://www.phoronix.com/review/intel-xeon-granite-rapids-ubuntu-2610": {
       "entry": {
         "category": "embedded",
@@ -1144,45 +1045,6 @@
       },
       "first_seen": "2026-10-15T00:07:44.827060+00:00"
     },
-    "https://www.reddit.com/r/embedded/t3_1x4xw6a": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1x4xw6a",
-        "link": "https://www.reddit.com/r/embedded/comments/1x4xw6a/two_pcb_designs_for_the_same_esp32c5_thermostat/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "I'm developing an open-source thermostat/HVAC controller based on the ESP32-C5, and I've ended up maintaining two PCB designs with the same intended functionality. One uses the Seeed XIAO ESP32-C5; the other uses a generic 30-pin ESP32-C5 DevKit. The attached render shows the EU version with the generic DevKit installed. The XIAO version is the one I'm optimizing for as a finished product. A compact, defined module makes it easier to work toward a consistent mechanical design, assembly process and manufacturable product. The generic DevKit version is for people who prefer a more conventional development board and want another way to build the project. It adds design and testing work, but avoids making one particular module the only option. I'm trying to balance two goals: designing something that can realistically be manufactured as a product, while keeping the hardware accessible to people who want to build or modify it themselves. I'm curious how others approach this. Would you maintain separate PCB variants for these two use cases, or try to accommodate both on one board? What trade-offs would you consider before deciding? submitted by /u/gulliverrrr [link] [comments]",
-        "summary_vi": "I'm developing an open-source thermostat/HVAC controller based on the ESP32-C5, and I've ended up maintaining two PCB designs with the same intended functionality. One uses the Seeed XIAO ESP32-C5; th",
-        "title": "Two PCB designs for the same ESP32-C5 thermostat - production vs. DIY flexibility"
-      },
-      "first_seen": "2026-10-14T00:37:17.101304+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1x4yjwh": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1x4yjwh",
-        "link": "https://www.reddit.com/r/embedded/comments/1x4yjwh/im_losing_my_mind_trying_to_find_the_issue_with/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "Edit: issue was resolved, it was pin 11 AVDD shorted to ground. Credit to u/Hangoverman who caught the issue. Full disclosure, this is a work project, so the question is probably doomed since I can't show the whole circuit. We have a managed network switch on our hardware. One of the ports was meant to go to a W5500 to give ethernet connection to the microcontroller. It just doesn't work, and I've tried for 9 months and 5 revisions. Every one of the other dozens of features and peripherals on the board work perfectly. This isn't blocking anything important, so my bosses are ready to drop the feature, but it is driving me crazy. I connect to the W5500 and the KSZ8895MLUB network switch over spi with no issues. I have tried multiple sets of magnetics, right now what's in there is actually the Hanrun HR681616 The other 3 ports of the switch all connect fine The switch has a diagnostic that checks the connection, but it gets back that TX4_P and TX4_N are open, but that the RX side is OK. The PHY won't form a link in any mode. I believe my configuration is right for the W5500, but I could be wrong. I will admit that I am not very experienced with networking. I have put an oscilloscope on all the ports of the magnetics and have seen what looks like data going both ways during startup, but I don't know if it looks right at all. submitted by /u/Lost-Constant7655 [link] [comments]",
-        "summary_vi": "Edit: issue was resolved, it was pin 11 AVDD shorted to ground. Credit to u/Hangoverman who caught the issue. Full disclosure, this is a work project, so the question is probably doomed since I can't ",
-        "title": "I'm losing my mind trying to find the issue with my W5500 implementation."
-      },
-      "first_seen": "2026-10-14T00:37:17.101304+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1x503ow": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1x503ow",
-        "link": "https://www.reddit.com/r/embedded/comments/1x503ow/component_selection/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "Hi everyone, I've found answers to many of my questions in this community, so I'd like to ask for your advice on this topic as well. I'm a recent graduate working at a company that designs and manufactures PCBs for communication systems. I'm learning a lot in my role, but sometimes I feel like I'm working on similar projects repeatedly or simply using more advanced versions of existing technologies. What I'm really curious about is this: How do you approach component selection when starting a project from scratch? I've noticed that people take different approaches to this. Some tend to follow existing designs or reference projects, while others conduct their own research and make decisions based on the specific requirements of their projects. This has made me particularly interested in understanding how the component selection process works in practice. What criteria do you consider when selecting components? How do you make use of datasheets, manufacturer resources, and other tools? More specifically, how do you determine whether a particular component is the best fit for your project? I recently tried using AI tools to help me with one of my hobby projects, but some of the answers left me a bit confused. It's also possible that I didn't phrase my questions correctly. I'd really appreciate it if you could share your experiences and explain how you approach this process. Thanks in advance! submitted by /u/VuralYusuf [link] [comments]",
-        "summary_vi": "Hi everyone, I've found answers to many of my questions in this community, so I'd like to ask for your advice on this topic as well. I'm a recent graduate working at a company that designs and manufac",
-        "title": "Component Selection"
-      },
-      "first_seen": "2026-10-14T00:37:17.101304+00:00"
-    },
     "https://www.reddit.com/r/embedded/t3_1x51cat": {
       "entry": {
         "category": "embedded",
@@ -1195,32 +1057,6 @@
         "title": "Looking for a rugged, waterproof Wi-Fi push button with LED indicators - any recommendations?"
       },
       "first_seen": "2026-10-14T10:38:07.145690+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1x53ijc": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1x53ijc",
-        "link": "https://www.reddit.com/r/embedded/comments/1x53ijc/how_do_you_learn_about_gpu_architecture_and_its/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "I have some background in programming micro-controllers and now out of pure interest, I would like to understand how GPUs work and how they are programmed. Can somebody recommend some resources to understand the basics? Thanks. submitted by /u/4ChawanniGhodePe [link] [comments]",
-        "summary_vi": "I have some background in programming micro-controllers and now out of pure interest, I would like to understand how GPUs work and how they are programmed. Can somebody recommend some resources to und",
-        "title": "How do you learn about GPU architecture and it's programming?"
-      },
-      "first_seen": "2026-10-14T00:37:17.101304+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1x5bfr5": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1x5bfr5",
-        "link": "https://www.reddit.com/r/embedded/comments/1x5bfr5/is_it_worth_buying_a_500mhz_4gss_scope_vs_100mhz/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "Pretty much the title; I want to buy an osciloscope for hobbyist use (I’m a recent EEE graduate) and I can afford to go for the MHO954 from Rigol. The only problem is that I’m just not sure if it’s worth it or not. Does it bring significant benefits over a 100MHz oscilloscope? submitted by /u/Putrid-Second-390 [link] [comments]",
-        "summary_vi": "Pretty much the title; I want to buy an osciloscope for hobbyist use (I’m a recent EEE graduate) and I can afford to go for the MHO954 from Rigol. The only problem is that I’m just not sure if it’s wo",
-        "title": "Is it worth buying a 500MHz 4GS/s scope VS 100MHz 1.25GS/s one?"
-      },
-      "first_seen": "2026-10-14T00:37:17.101304+00:00"
     },
     "https://www.reddit.com/r/embedded/t3_1x5i69g": {
       "entry": {
@@ -1547,6 +1383,58 @@
       },
       "first_seen": "2026-10-16T23:54:14.734784+00:00"
     },
+    "https://www.reddit.com/r/embedded/t3_1x7qswo": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x7qswo",
+        "link": "https://www.reddit.com/r/embedded/comments/1x7qswo/has_anyone_used_aliexpress_pogo_pin_programming/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "My current project using STM32 involves a compact PCB (70x30) and I want to fit a small connector for the SWD programming. I though I would buy a STLINK-V3MINIE which has a STDC14 connector for it. I don't want TagConnect due to the price and because it would need some jank way of connecting MCU -> TC as both use pretty unusual connectors. Then I stumbled across STDC14 breakout board and pogo pin \"nail of bed\" style programming jig on AliExpress. The breakout board would be useful anyway to convert from STDC14 to some normal connection, but for the jig I am not sure how to make the footprint on the PCB for it as I don't know the pin diameter. I probably will start programming with just holes for Dupont held with hands which I will connect to the breakout which is connected to the STLINK. But I'd like the final version to have some sort of a actual connector. Can anybody provide any advice? It's hobby-ish (definitely not commerical) project so jank is somewhat welcome. I am a electronics beginner and the only thing I have already that could be useful is Dupont jumper cables. EDIT: I am not saying TagConnect is jank, it's the way I would be using it because I can't buy the correct TagConnect cable for my STLINK. Read more here: https://www.reddit.com/r/embedded/comments/1x7qswo/comment/ph6o46m submitted by /u/Wekuz [link] [comments]",
+        "summary_vi": "My current project using STM32 involves a compact PCB (70x30) and I want to fit a small connector for the SWD programming. I though I would buy a STLINK-V3MINIE which has a STDC14 connector for it. I ",
+        "title": "Has anyone used AliExpress pogo pin programming jigs"
+      },
+      "first_seen": "2026-10-17T09:41:47.588367+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1x83vd1": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x83vd1",
+        "link": "https://www.reddit.com/r/embedded/comments/1x83vd1/wrote_a_driver_for_the_imx519_with_claude_code_to/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "Edit: found a real bug in v0.2.0-beta, the multi-threaded video processing change in that release crashes about 40% of the time. Reverted it, pushed v0.2.1-beta with the fix. If you grabbed v0.2.0-beta and hit random crashes, that's why, grab the new tag instead. When Radxa built the Cubie A7Z, they didn't bother supporting many camera modules. Just a couple of specific ones have official overlays. The IMX519, the 16MP autofocus camera that's everywhere on the Pi side, Waveshare, Arducam, all of that, just wasn't one of them. No driver, no overlay, nothing. So I had Claude Code build one with me from scratch. Honestly it's kind of wild how far this stuff has come. We're talking reading schematics, writing actual kernel driver code, debugging kernel crashes, patching libcamera itself. Stuff that used to need a kernel dev who really knows this SoC. Curious what people think about that side of it too. Repo's here if you want to look: https://github.com/AsedaDeveloper/a7z-imx519-driver What it can do right now: all five sensor resolutions up to the full 16MP, manual exposure and gain, autofocus, hardware H.264 video encoding, a virtual webcam device so normal apps can just use it, raw DNG capture, and basic libcamera support. It's beta, and only tested on my one board and one camera module so far. There's a known performance thing where the color processing is a bit slow for 1080p, I tried fixing it but the fix had a crash bug, so it's reverted for now. What I actually need now is people with a Cubie A7Z, A7A, or A7S to try it on their own setup, maybe a different IMX519 variant or even a different module entirely. The repo has issue templates set up for exactly this, even a \"tried it, broke, here's the error\" report helps a lot right now. Let me know what you think, happy to answer anything. submitted by /u/Straight_Zucchini_37 [link] [comments]",
+        "summary_vi": "Edit: found a real bug in v0.2.0-beta, the multi-threaded video processing change in that release crashes about 40% of the time. Reverted it, pushed v0.2.1-beta with the fix. If you grabbed v0.2.0-bet",
+        "title": "Wrote a driver for the IMX519 with Claude Code to get it working on the Radxa Cubie A7Z"
+      },
+      "first_seen": "2026-10-17T09:41:47.588367+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1x84nqj": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x84nqj",
+        "link": "https://www.reddit.com/r/embedded/comments/1x84nqj/designing_a_cm4_lite_carrier_with_external_emmc/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "Hi everyone, I’m designing a CM4 Lite carrier with external eMMC, using 3.3 V VCC and 1.8 V VCCQ. Has anyone built and tested a similar setup recently? I’m particularly interested in how you handled the CLK, CMD, and DAT0–DAT7 lines: Did you use series resistors? On which signals, what values, and where did you place them? Did you use external pull-ups to 1.8 V on CMD and the data lines? During my research, I’ve found designs with and without series resistors, and different approaches to pull-ups. However, I haven’t found a clear, tested example specifically using the CM4 Lite with 1.8 V eMMC signalling, so I’m unsure which approach to follow. If you’ve got this working, I’d appreciate any schematic snippets, layout advice, or any details. Thanks! submitted by /u/sgergo1 [link] [comments]",
+        "summary_vi": "Hi everyone, I’m designing a CM4 Lite carrier with external eMMC, using 3.3 V VCC and 1.8 V VCCQ. Has anyone built and tested a similar setup recently? I’m particularly interested in how you handled t",
+        "title": "Designing a CM4 Lite carrier with external eMMC"
+      },
+      "first_seen": "2026-10-17T09:41:47.588367+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1x858fw": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1x858fw",
+        "link": "https://www.reddit.com/r/embedded/comments/1x858fw/a_farewell_from_a_13yearold_developer_its_been_a/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "Hi everyone, I’m joining from Türkiye; I’m 13 years old, and this might be my last post here. For the past three years—ever since I was 10—I’ve been teaching myself about electronics, C++, Arduino, Blender, game development, and PCB design; essentially, I’ve been self-taught. I’ve spent countless hours learning, making mistakes, solving problems, and trying to turn my ideas into real projects. I’m at an intermediate level in C++ and have started exploring the fundamentals of advanced topics. I’ve also shared quite a few C++ tutorial videos on YouTube and Instagram. Beyond programming, I’m proficient in Blender, Unity, and PlayCanvas, and I know a bit of JavaScript, too. I even created and published my own game on itch.io! The game is set during World War II. You don’t play as a soldier; instead, you play as a cannon that has lost its family and set out to find them. Along the way, you overcome obstacles and dream of reuniting with them. However, in the end, you discover that the cannon suffers from schizophrenia and that the family it was searching for—and indeed the entire journey—was merely a delusion. In reality, it never reunites with its family. This was one of my attempts to turn an idea in my head into reality; I’m proud to have managed to complete and publish it. Now, let me talk about the project I mentioned in my previous posts (feel free to go back and check that post out): I’m working on designing my own development board. The schematic has become complex, and some of the PCB routing has turned into a bit of a headache; That’s why I had to go back and rework things to fix issues and tidy up the connections. It could be frustrating at times, but it’s all part of the process of learning hardware design. For those interested in the technical details: The board is based on the ATmega328P microcontroller; it uses a CH340G USB-to-serial interface for computer communication and features an AMS1117-5.0 voltage regulator. I also added dedicated TX and RX indicator LEDs to the board. I had planned to share more updates, and there are still aspects I want to improve. I’m also considering adding an LCD screen to the project in the future. This isn't my final project; it’s just one step in a much longer journey. I shared this development board project here previously; if you’d like to see the earlier stages, feel free to check out my past posts. Unfortunately, new social media regulations in Türkiye regarding users under the age of 15 might cause me to lose access to this account. I don’t know exactly what will happen, but I wanted to write this post just in case I’m unable to return and share my progress here. It feels strange to think I might have to leave a community where I love sharing what I create and what I learn. But there’s one thing I want to make clear: Even if my account gets shut down, I will NEVER stop creating. I’ll keep learning C++. I’ll continue experimenting with electronics and Arduino. I’ll keep designing PCBs, developing games, working in Blender, and creating new software. Just as I have for the past three years, I will continue to make mistakes and learn from them. The only difference might be that I won't be able to share my projects, progress, or new ideas with you anymore. I may not be posting here, but I will still remain that same kid sitting at the computer, trying to understand how things work and looking for ways to build something new. I want to thank everyone who shared their knowledge, offered advice, or took the time to look at projects created by someone like me. You might not realize it, but even small interactions can encourage a young person to keep learning and creating. I am only 13 years old. I have a lot to learn, and I realize my projects aren't perfect. But three years ago, I was just a kid curious about electronics and programming. Today, I design my own circuit boards, write C++ code, and publish my own games. And I want to see how far I can go. Perhaps this isn't a real goodbye. Perhaps it's just the end of a chapter. I might lose this account, but I won't lose my curiosity, my ideas, or my desire to create. Thank you for being part of this little journey. Take care, keep creating amazing things, and never stop being curious. Goodbye!(Translated using Google Translate; please excuse any linguistic errors.) submitted by /u/Waste_Peanut6669 [link] [comments]",
+        "summary_vi": "Hi everyone, I’m joining from Türkiye; I’m 13 years old, and this might be my last post here. For the past three years—ever since I was 10—I’ve been teaching myself about electronics, C++, Arduino, Bl",
+        "title": "A farewell from a 13-year-old developer. It’s been a wonderful 3 years."
+      },
+      "first_seen": "2026-10-17T09:41:47.588367+00:00"
+    },
     "oai:arXiv.org:1602.08563v3": {
       "entry": {
         "category": "research",
@@ -1598,19 +1486,6 @@
         "title": "TeraAgent: A Distributed Agent-Based Simulation Engine for Simulating Half a Trillion Agents"
       },
       "first_seen": "2026-10-16T10:07:43.710673+00:00"
-    },
-    "oai:arXiv.org:2512.20622v3": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2512.20622v3",
-        "link": "https://arxiv.org/abs/2512.20622",
-        "relevance": 5,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2512.20622v3 Announce Type: replace \nAbstract: Privacy concerns around 5G, the latest generation of mobile networks, are growing, with fears that its deployment may increase exposure to privacy risks. This perception is largely driven by the use of denser deployments of small antenna systems, which enable highly accurate data collection at higher speeds and closer proximity to mobile users. At the same time, 5G's unique radio communication features can make the reproduction of known network attacks more challenging. In particular, passive network attacks, which do not involve direct interaction with the target network and are therefore nearly impossible to detect, remain a pressing concern. Such attacks can reveal sensitive information about users, their devices, and active applications, which may then be exploited through known vulnerabilities or spear-phishing schemes. This survey examines the feasibility of passive network attacks in 5G and beyond (B5G/6G) networks, with emphasis on two major categories: information extraction (system identification, website and application fingerprinting) and geolocation (user identification and position tracking). These attacks are well documented and reproducible in existing wireless and mobile systems, including short-range networks (IEEE 802.11) and, to a lesser extent, LTE. Current evidence suggests that while such attacks remain theoretically possible in 5G, their practical execution is significantly constrained by directional beamforming, high-frequency propagation characteristics, and encryption mechanisms. For B5G and early 6G networks, the lack of public tools and high hardware cost currently renders these attacks infeasible in practice, which highlights a critical gap in our understanding of future network threat models.",
-        "summary_vi": "The survey examines feasibility and privacy risks of passive attacks on 5G networks, considering threats introduced by dense small-cell deployments enabling high-precision data collection and radio-frequency features that may complicate attack mitigation compared to prior cellular generations. It evaluates whether known network attack methodologies remain reproducible or effective under 5G's architecture.",
-        "title": "How Feasible are Passive Network Attacks on 5G Networks and Beyond? A Survey"
-      },
-      "first_seen": "2026-10-16T23:54:14.734784+00:00"
     },
     "oai:arXiv.org:2603.22519v3": {
       "entry": {
@@ -1726,19 +1601,6 @@
         "summary": "arXiv:2606.18167v2 Announce Type: replace-cross \nAbstract: The reliable distribution of entanglement is essential for the effective operation of quantum networks. Due to fundamental differences between quantum and classical communication systems, it is necessary to develop specialised algorithms and protocols that also account for quantum-specific constraints. In this work, we focus on the issue of recalibration. As suggested by recent experimental studies, the process of local entanglement generation in a quantum link degrades over time due to environmental changes that have to be estimated and compensated via a fixed-duration calibration operation, during which the link is not available. Therefore, in such a quantum network, every link alternates between an activation period, during which it operates normally, and a calibration period, during which it cannot participate in the end-to-end entanglement distribution, thereby creating a trade-off between link quality (the initial fidelity of generated pairs, which decays during activation) and availability (the fraction of time the link is usable, which calibration reduces). We develop analytically a protocol for optimally assigning activation periods to each link in linear quantum repeater chains, subject to any general end-to-end fidelity requirements and local initial fidelity thresholds. Building on this foundation, we extend to general quantum networks, where multiple paths may cross at common links. To this, we propose a heuristic approach, evaluate it through simulations, and compare its performance with a benchmark, a numerical approach and theoretical bounds, confirming the analytical ordering of their performance.",
         "summary_vi": "arXiv:2606.18167v2 Announce Type: replace-cross \nAbstract: The reliable distribution of entanglement is essential for the effective operation of quantum networks. Due to fundamental differences betwee",
         "title": "Optimal Calibration of Quantum Network Links"
-      },
-      "first_seen": "2026-10-16T10:07:43.710673+00:00"
-    },
-    "oai:arXiv.org:2606.22283v2": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2606.22283v2",
-        "link": "https://arxiv.org/abs/2606.22283",
-        "relevance": 5,
-        "source": "arXiv cs.OS (Operating Systems)",
-        "summary": "arXiv:2606.22283v2 Announce Type: replace-cross \nAbstract: The Apple Neural Engine (ANE) is Apple's fixed-function matrix accelerator. It has shipped in every Apple system-on-chip since the A11 in iPhones and iPads and the M1 in Macs. Applications reach it only through Core ML, which documents almost nothing below its own surface. This work reverse-engineers the engine. We reach it directly, below Core ML, from an ordinary user process, and that access opens the rest to measurement. We measure on Apple silicon and decompile the private runtime, compiler, kernel driver, and firmware, checking each against the other. We give the datapath and the roofline that bounds throughput and energy. Below that are the compiler and the program format it emits, the weight-compression scheme, the kernel driver, the firmware, and the command protocol. We decode compiler targets for the A11 through A18 and M1 through M5 families, with per-chip tables and an operation-by-device matrix. We measured silicon on the M1 and M5 only, and we mark every claim measured, decompile-derived, or predicted. We record how we reached the engine and what we could not measure. The route is callable from user space, but Apple does not document or support it, and it breaks across operating-system updates. It serves measurement and on-device research. Core ML remains the path for shipped software.",
-        "summary_vi": "This paper reverse-engineers Apple's Neural Engine (ANE), a fixed-function matrix accelerator integrated into Apple's system-on-chips since the A11 and M1. The authors bypass the Core ML abstraction layer to access ANE directly from user processes, enabling direct measurement of the engine's architecture and performance characteristics that have been undocumented by official documentation.",
-        "title": "Apple Neural Engine: Architecture, Programming, and Performance"
       },
       "first_seen": "2026-10-16T10:07:43.710673+00:00"
     },
@@ -3094,19 +2956,6 @@
       },
       "first_seen": "2026-10-16T10:07:43.710673+00:00"
     },
-    "oai:arXiv.org:2610.20923v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2610.20923v1",
-        "link": "https://arxiv.org/abs/2610.20923",
-        "relevance": 5,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2610.20923v1 Announce Type: new \nAbstract: This paper considers uplink channel state information (CSI)-based sensing as an opportunistic approach to enabling sensing in cellular networks, with minimum required modifications to the infrastructure. A practical sensing signal processing procedure is presented, combining 5G positioning function with multi-antenna array processing for passive target localization. The approach is validated through simulation and practical experiments with a software-defined radio-based setup, utilizing open-source software frameworks and commercially available hardware components. Results demonstrate feasibility of the uplink CSI-based sensing for detection, localization and tracking of moving targets over local areas.",
-        "summary_vi": "This paper presents an opportunistic approach to enable sensing in cellular networks using uplink channel state information (CSI) with minimal infrastructure modifications. The method combines 5G positioning functions with multi-antenna array processing for passive target localization, validated through simulation and practical experiments in a soft testbed environment.",
-        "title": "Evolution Toward Sensing-Enabled RAN: Practical Bistatic Sensing via Uplink"
-      },
-      "first_seen": "2026-10-16T10:07:43.710673+00:00"
-    },
     "oai:arXiv.org:2610.20924v1": {
       "entry": {
         "category": "research",
@@ -3667,16 +3516,21 @@
     "https://lwn.net/Articles/1098617/": "2026-10-09T01:28:13.470643+00:00",
     "https://lwn.net/Articles/1098979/": "2026-10-07T01:01:57.012881+00:00",
     "https://lwn.net/Articles/1098980/": "2026-10-07T01:01:57.012881+00:00",
+    "https://lwn.net/Articles/1099015/": "2026-10-14T00:37:17.101304+00:00",
     "https://lwn.net/Articles/1099024/": "2026-10-10T01:18:49.490352+00:00",
     "https://lwn.net/Articles/1099202/": "2026-10-08T01:20:40.258601+00:00",
     "https://lwn.net/Articles/1099206/": "2026-10-08T01:20:40.258601+00:00",
     "https://lwn.net/Articles/1099388/": "2026-10-09T01:28:13.470643+00:00",
+    "https://lwn.net/Articles/1099486/": "2026-10-14T00:37:17.101304+00:00",
     "https://lwn.net/Articles/1099587/": "2026-10-10T01:18:49.490352+00:00",
     "https://lwn.net/Articles/1099588/": "2026-10-10T01:18:49.490352+00:00",
     "https://lwn.net/Articles/1099594/": "2026-10-13T02:44:05.425689+00:00",
     "https://lwn.net/Articles/1099602/": "2026-10-10T01:18:49.490352+00:00",
     "https://lwn.net/Articles/1099764/": "2026-10-12T00:47:21.124571+00:00",
     "https://lwn.net/Articles/1099798/": "2026-10-12T13:35:18.699602+00:00",
+    "https://lwn.net/Articles/1100181/": "2026-10-14T00:37:17.101304+00:00",
+    "https://lwn.net/Articles/1100182/": "2026-10-14T00:37:17.101304+00:00",
+    "https://lwn.net/Articles/1100247/": "2026-10-14T00:37:17.101304+00:00",
     "https://lwn.net/Articles/1100426/": "2026-10-15T10:19:36.277492+00:00",
     "https://lwn.net/Articles/1100429/": "2026-10-15T00:07:44.827060+00:00",
     "https://lwn.net/Articles/1100787/": "2026-10-15T23:54:14.069902+00:00",
@@ -3779,6 +3633,7 @@
     "https://www.cnx-software.com/?p=178096": "2026-10-10T11:23:32.463986+00:00",
     "https://www.cnx-software.com/?p=178128": "2026-10-12T13:35:18.699602+00:00",
     "https://www.cnx-software.com/?p=178154": "2026-10-12T13:35:18.699602+00:00",
+    "https://www.cnx-software.com/?p=178263": "2026-10-14T00:37:17.101304+00:00",
     "https://www.dpdk.org/?p=4421": "2026-09-18T23:36:06.086004+00:00",
     "https://www.huawei.com/en/news/2026/10/adn-oss-share": "2026-10-16T23:54:14.734784+00:00",
     "https://www.huawei.com/en/news/2026/10/huaweiconnect-europe": "2026-10-15T23:54:14.069902+00:00",
@@ -3817,6 +3672,7 @@
     "https://www.linuxfoundation.org/blog/navigating-open-source-governance-in-the-age-of-artificial-intelligence-the-2026-state-of-ospos-and-open-source-management": "2026-10-07T01:01:57.012881+00:00",
     "https://www.linuxfoundation.org/blog/reflections-on-the-2026-open-data-infrastructure-report": "2026-10-03T00:45:17.081177+00:00",
     "https://www.linuxfoundation.org/blog/unlocking-the-door-to-open-source-reflections-from-nerdearla-and-getting-started-in-open-source-development": "2026-10-02T01:06:03.018282+00:00",
+    "https://www.phoronix.com/news/AI-Starling-Desktop-Office": "2026-10-17T09:41:47.588367+00:00",
     "https://www.phoronix.com/news/AMD-BC-250-Linux-PSP-Support": "2026-09-21T11:07:19.434489+00:00",
     "https://www.phoronix.com/news/AMD-PerfOpt-Linux-7.4": "2026-09-28T12:04:39.230765+00:00",
     "https://www.phoronix.com/news/AMD-ROCm-10.1": "2026-10-06T01:55:08.067921+00:00",
@@ -3853,6 +3709,7 @@
     "https://www.phoronix.com/news/Fedora-Discuss-Collabora-Office": "2026-09-25T00:04:46.328968+00:00",
     "https://www.phoronix.com/news/Firefox-157-Released": "2026-09-29T01:16:55.286252+00:00",
     "https://www.phoronix.com/news/Firefox-158-Released": "2026-10-12T13:35:18.699602+00:00",
+    "https://www.phoronix.com/news/Firefox-159-Beta": "2026-10-14T00:37:17.101304+00:00",
     "https://www.phoronix.com/news/Flatpak-1.18.4-Released": "2026-09-29T11:35:47.491303+00:00",
     "https://www.phoronix.com/news/Framework-Desktop-Gorgon-Halo": "2026-10-01T00:51:09.199810+00:00",
     "https://www.phoronix.com/news/Framework-More-CachyOS": "2026-10-15T00:07:44.827060+00:00",
@@ -3877,6 +3734,7 @@
     "https://www.phoronix.com/news/Intel-CPU-Binds-ULLS-Migration": "2026-10-03T00:45:17.081177+00:00",
     "https://www.phoronix.com/news/Intel-GPU-D-Series": "2026-10-13T02:44:05.425689+00:00",
     "https://www.phoronix.com/news/Intel-HDMI-2.1-FRL-Linux-v2": "2026-10-12T13:35:18.699602+00:00",
+    "https://www.phoronix.com/news/Intel-ISPC-1.32-Released": "2026-10-14T00:37:17.101304+00:00",
     "https://www.phoronix.com/news/Intel-Media-Crescent-Island": "2026-09-30T11:23:36.449769+00:00",
     "https://www.phoronix.com/news/Intel-NPU-Linux-7.4-CQ-Priority": "2026-09-17T12:48:54.388673+00:00",
     "https://www.phoronix.com/news/Intel-Optimization-Zone-1.2": "2026-10-01T11:50:42.243700+00:00",
@@ -3909,6 +3767,7 @@
     "https://www.phoronix.com/news/Linux-74-RPi-10-Touch-Display-2": "2026-10-03T10:38:27.442783+00:00",
     "https://www.phoronix.com/news/Linux-AI-Agent-Resources": "2026-10-09T01:28:13.470643+00:00",
     "https://www.phoronix.com/news/Linux-Considers-AGENTS-MD": "2026-09-26T00:10:13.580076+00:00",
+    "https://www.phoronix.com/news/Linux-Dropping-Assisted-By-Req": "2026-10-14T00:37:17.101304+00:00",
     "https://www.phoronix.com/news/Linux-FRED-Fix-For-Wine-Games": "2026-09-19T09:44:33.099539+00:00",
     "https://www.phoronix.com/news/Linux-Kbuild-Faster-v3": "2026-09-19T09:44:33.099539+00:00",
     "https://www.phoronix.com/news/Linux-Mint-27-Many-Features": "2026-10-13T12:59:04.220462+00:00",
@@ -3997,6 +3856,7 @@
     "https://www.phoronix.com/news/WSL2-Linux-Kernel-Fence-Sharing": "2026-10-07T12:01:12.937548+00:00",
     "https://www.phoronix.com/news/Wine-11.18-Released": "2026-09-18T23:36:06.086004+00:00",
     "https://www.phoronix.com/news/Wine-11.19-Released": "2026-10-03T00:45:17.081177+00:00",
+    "https://www.phoronix.com/news/Wine-11.20-Released": "2026-10-17T09:41:47.588367+00:00",
     "https://www.phoronix.com/news/Wine-Staging-11.18": "2026-09-19T23:34:09.501070+00:00",
     "https://www.phoronix.com/news/X.Org-12-New-Issues-2026": "2026-10-07T12:01:12.937548+00:00",
     "https://www.phoronix.com/news/XMFS-Linux-File-System": "2026-10-07T12:01:12.937548+00:00",
@@ -4011,6 +3871,7 @@
     "https://www.phoronix.com/review/amd-perfopt": "2026-09-30T00:46:27.180142+00:00",
     "https://www.phoronix.com/review/amd-zen5-intel-gnr-ws-smt": "2026-09-17T23:42:02.289072+00:00",
     "https://www.phoronix.com/review/fedora-45-beta-benchmarks": "2026-10-02T01:06:03.018282+00:00",
+    "https://www.phoronix.com/review/framework-laptop-12-wildcat-lake": "2026-10-14T00:37:17.101304+00:00",
     "https://www.phoronix.com/review/java-8-openjdk-27-benchmarks": "2026-09-23T23:58:04.297683+00:00",
     "https://www.phoronix.com/review/lemonade-vulkan-rocm": "2026-10-06T01:55:08.067921+00:00",
     "https://www.phoronix.com/review/linux-618-73-amd-epyc": "2026-09-22T00:21:39.787426+00:00",
@@ -4245,8 +4106,14 @@
     "https://www.reddit.com/r/embedded/t3_1x4sy1j": "2026-10-13T12:59:04.220462+00:00",
     "https://www.reddit.com/r/embedded/t3_1x4t0r4": "2026-10-13T12:59:04.220462+00:00",
     "https://www.reddit.com/r/embedded/t3_1x4uqqa": "2026-10-13T12:59:04.220462+00:00",
+    "https://www.reddit.com/r/embedded/t3_1x4xw6a": "2026-10-14T00:37:17.101304+00:00",
+    "https://www.reddit.com/r/embedded/t3_1x4yjwh": "2026-10-14T00:37:17.101304+00:00",
+    "https://www.reddit.com/r/embedded/t3_1x503ow": "2026-10-14T00:37:17.101304+00:00",
+    "https://www.reddit.com/r/embedded/t3_1x53ijc": "2026-10-14T00:37:17.101304+00:00",
+    "https://www.reddit.com/r/embedded/t3_1x5bfr5": "2026-10-14T00:37:17.101304+00:00",
     "https://www.reddit.com/r/embedded/t3_1x5malr": "2026-10-14T10:38:07.145690+00:00",
     "https://www.reddit.com/r/embedded/t3_1x7spd2": "2026-10-16T23:54:14.734784+00:00",
+    "https://www.reddit.com/r/embedded/t3_1x84v9i": "2026-10-17T09:41:47.588367+00:00",
     "https://www.redhat.com/en/3-reasons-to-attend-red-hat-summit-connect": "2026-10-08T01:20:40.258601+00:00",
     "https://www.redhat.com/en/blog/ai-pilots-production-dh2i-brings-customers-resilient-ai-red-hat-openshift": "2026-10-06T01:55:08.067921+00:00",
     "https://www.redhat.com/en/blog/automate-security-risk-management-across-enterprise-it-operations": "2026-09-25T00:04:46.328968+00:00",
