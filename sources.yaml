@@ -497,5 +497,32 @@ sources:
     url: https://feeds.feedburner.com/TheHackersNews
     category: security
 
+  # Nguồn security chuyên sâu — kiểm tra feedparser 2026-10-29: HTTP 200,
+  # có entry/timestamp/summary, ra bài thưa (2-6 bài/30 ngày) nên không
+  # lấn át top-5. Đã loại: linux-cve-announce và oss-security (luồng CVE tự
+  # động, chiếm slot), Binarly (im từ 2026-09-02), CISA/NCC (403).
+
+  # Project Zero: nghiên cứu lỗ hổng sâu (kernel, mobile, JS engine). Dùng
+  # URL projectzero.google; URL blogspot cũ chỉ redirect 302.
+  - name: Project Zero
+    url: https://projectzero.google/feed.xml
+    category: security
+
+  # Eclypsium: firmware/UEFI/thiết bị mạng. Lẫn podcast BTS và khảo sát,
+  # sẽ bị lọc relevance.
+  - name: Eclypsium
+    url: https://eclypsium.com/feed/
+    category: security
+
+  # Quarkslab: reverse engineering, audit và CVE cụ thể; summary ngắn (~300 ký tự).
+  - name: Quarkslab
+    url: https://blog.quarkslab.com/feeds/all.rss.xml
+    category: security
+
+  # Trail of Bits: audit, crypto, supply chain, AI; ít firmware hơn các nguồn trên.
+  - name: Trail of Bits
+    url: https://blog.trailofbits.com/index.xml
+    category: security
+
   # Khi mở sang phạm vi "đa lĩnh vực" (giai đoạn 4), chỉ cần thêm nguồn mới
   # vào đây — không cần đổi code ở fetch.py/summarize.py.
