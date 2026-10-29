@@ -66,9 +66,6 @@
     "https://ocudu.org/?p=851": "2026-10-09T01:28:13.470643+00:00",
     "https://osmocom.org/news/334": "2026-10-13T02:44:05.425689+00:00",
     "https://osmocom.org/news/335": "2026-10-24T00:02:40.989120+00:00",
-    "https://rcrwireless.com/?p=434703": "2026-09-29T01:16:55.286252+00:00",
-    "https://rcrwireless.com/?p=434712": "2026-09-29T01:16:55.286252+00:00",
-    "https://rcrwireless.com/?p=434722": "2026-09-29T01:16:55.286252+00:00",
     "https://rcrwireless.com/?p=434726": "2026-09-29T11:35:47.491303+00:00",
     "https://rcrwireless.com/?p=434760": "2026-10-01T11:50:42.243700+00:00",
     "https://rcrwireless.com/?p=434762": "2026-10-01T00:51:09.199810+00:00",
@@ -124,10 +121,12 @@
     "https://rcrwireless.com/?p=435773": "2026-10-27T00:50:51.993375+00:00",
     "https://rcrwireless.com/?p=435785": "2026-10-27T00:50:51.993375+00:00",
     "https://rcrwireless.com/?p=435793": "2026-10-28T00:46:21.169893+00:00",
+    "https://rcrwireless.com/?p=435818": "2026-10-29T04:16:31.165926+00:00",
     "https://rcrwireless.com/?p=435821": "2026-10-29T01:15:38.013696+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/rdna-fp16-gemm/README.html": "2026-10-16T23:54:14.734784+00:00",
     "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone": "2026-10-28T00:46:21.169893+00:00",
     "https://spectrum.ieee.org/high-altitude-platform-station": "2026-10-15T23:54:14.069902+00:00",
+    "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html": "2026-10-29T04:16:31.165926+00:00",
     "https://www.cnx-software.com/?p=175484": "2026-10-07T01:01:04.434173+00:00",
     "https://www.cnx-software.com/?p=176672": "2026-10-07T01:01:04.434173+00:00",
     "https://www.cnx-software.com/?p=176691": "2026-10-07T01:01:04.434173+00:00",
@@ -214,6 +213,7 @@
     "https://www.phoronix.com/news/Linux-Latency-Short-Slice-Tasks": "2026-10-04T00:03:15.008562+00:00",
     "https://www.phoronix.com/news/Linux-MGLRU-FG-Patches": "2026-10-05T00:10:30.939245+00:00",
     "https://www.phoronix.com/news/Linux-MONAKA-CPU-Workarounds": "2026-10-04T11:18:30.736596+00:00",
+    "https://www.phoronix.com/news/Linux-Provenance-Time-PTIME": "2026-10-29T04:16:31.165926+00:00",
     "https://www.phoronix.com/news/Linux-Shutdown-Async-21": "2026-10-07T01:01:04.434173+00:00",
     "https://www.phoronix.com/news/Linux-WA-TLBI-Erratum-1718": "2026-10-12T00:47:21.124571+00:00",
     "https://www.phoronix.com/news/MS-Paravirt-Hyper-V-IOMMU": "2026-10-12T00:47:21.124571+00:00",
@@ -236,8 +236,6 @@
     "https://www.phoronix.com/news/systemd-Merges-Rust-Programs": "2026-10-24T23:44:03.287716+00:00",
     "https://www.phoronix.com/review/amazon-linux-2027-benchmarks": "2026-10-07T01:01:04.434173+00:00",
     "https://www.phoronix.com/review/amd-perfopt-prior-gen": "2026-10-11T00:29:49.881685+00:00",
-    "https://www.reddit.com/r/embedded/t3_1wsbseu": "2026-09-29T01:16:55.286252+00:00",
-    "https://www.reddit.com/r/embedded/t3_1wsjqcv": "2026-09-29T01:16:55.286252+00:00",
     "https://www.reddit.com/r/embedded/t3_1wwiufv": "2026-10-03T10:38:27.442783+00:00",
     "https://www.reddit.com/r/embedded/t3_1wwq1hu": "2026-10-04T00:03:15.008562+00:00",
     "https://www.reddit.com/r/embedded/t3_1wxchju": "2026-10-05T00:10:30.939245+00:00",
@@ -268,6 +266,8 @@
     "https://www.reddit.com/r/embedded/t3_1xf0etd": "2026-10-25T23:35:40.238013+00:00",
     "https://www.reddit.com/r/embedded/t3_1xf6iwv": "2026-10-25T23:35:40.238013+00:00",
     "https://www.reddit.com/r/embedded/t3_1xf85e8": "2026-10-25T23:35:40.238013+00:00",
+    "https://www.reddit.com/r/embedded/t3_1xgwndq": "2026-10-29T04:16:31.165926+00:00",
+    "https://www.reddit.com/r/embedded/t3_1xh95fl": "2026-10-29T04:16:31.165926+00:00",
     "https://www.reddit.com/r/embedded/t3_1xhfhmf": "2026-10-28T11:41:08.830280+00:00",
     "https://www.redhat.com/en/blog/5-minute-demo-devsecops-red-hat-openshift-speed-application-delivery": "2026-10-20T00:41:16.386846+00:00",
     "https://www.redhat.com/en/blog/actionable-disconnected-cluster-analysis-available-now-pen-drive-powered-red-hat-lightspeed": "2026-10-09T12:07:21.302578+00:00",
@@ -306,7 +306,6 @@
     "https://www.redhat.com/en/blog/rhel-nvidia-delivers-trusted-foundation-next-gen-ai-workloads": "2026-10-22T00:14:37.714250+00:00",
     "https://www.redhat.com/en/blog/scale-enterprise-analytics-running-cloudera-data-platform-openshift-virtualization": "2026-10-10T01:18:49.490352+00:00",
     "https://www.redhat.com/en/blog/securing-ai-agents-enterprise-ai-factory-nvidia-bluefield-doca-argus-red-hat-openshift": "2026-10-22T00:14:37.714250+00:00",
-    "https://www.redhat.com/en/blog/securing-ai-agents-requires-securing-systems-around-them": "2026-09-29T01:16:55.286252+00:00",
     "https://www.redhat.com/en/blog/shared-gpus-without-shared-latency-priority-aware-serving-in-red-hat-ai": "2026-10-21T00:09:49.548846+00:00",
     "https://www.redhat.com/en/blog/simplifying-tls-certificate-management-red-hat-openshift-nec": "2026-10-23T00:11:08.671003+00:00",
     "https://www.redhat.com/en/blog/what-enterprises-need-to-know-about-the-cyber-resilience-act-and-software-supply-chain-risk": "2026-10-03T10:38:27.442783+00:00",
@@ -316,6 +315,7 @@
     "https://www.redhat.com/en/blog/why-secure-design-new-standard-open-source": "2026-10-10T01:18:49.490352+00:00",
     "oai:arXiv.org:2508.04417v2": "2026-10-07T01:01:57.012881+00:00",
     "oai:arXiv.org:2508.16738v3": "2026-10-02T01:06:03.018282+00:00",
+    "oai:arXiv.org:2510.08479v3": "2026-10-29T04:16:31.165926+00:00",
     "oai:arXiv.org:2510.25963v2": "2026-10-10T11:23:32.463986+00:00",
     "oai:arXiv.org:2511.23406v2": "2026-10-07T01:01:04.434173+00:00",
     "oai:arXiv.org:2512.20622v3": "2026-10-17T09:41:47.588367+00:00",
@@ -389,10 +389,6 @@
     "oai:arXiv.org:2609.16787v2": "2026-10-02T01:06:03.018282+00:00",
     "oai:arXiv.org:2609.22314v2": "2026-10-09T01:28:13.470643+00:00",
     "oai:arXiv.org:2609.29808v2": "2026-10-02T11:23:39.558422+00:00",
-    "oai:arXiv.org:2609.30534v1": "2026-09-29T01:16:55.286252+00:00",
-    "oai:arXiv.org:2609.30800v1": "2026-09-29T01:16:55.286252+00:00",
-    "oai:arXiv.org:2609.30891v1": "2026-09-29T01:16:55.286252+00:00",
-    "oai:arXiv.org:2609.31405v1": "2026-09-29T01:16:55.286252+00:00",
     "oai:arXiv.org:2609.32715v1": "2026-09-30T00:46:27.180142+00:00",
     "oai:arXiv.org:2609.32822v1": "2026-09-30T00:46:27.180142+00:00",
     "oai:arXiv.org:2609.32848v1": "2026-09-30T00:46:27.180142+00:00",
@@ -560,6 +556,10 @@
     "oai:arXiv.org:2610.36602v1": "2026-10-29T01:15:38.013696+00:00",
     "oai:arXiv.org:2610.36609v1": "2026-10-28T11:41:08.830280+00:00",
     "oai:arXiv.org:2610.36748v1": "2026-10-29T01:15:38.013696+00:00",
+    "oai:arXiv.org:2610.36792v1": "2026-10-29T04:16:31.165926+00:00",
+    "oai:arXiv.org:2610.36880v1": "2026-10-29T04:16:31.165926+00:00",
+    "oai:arXiv.org:2610.36881v1": "2026-10-29T04:16:31.165926+00:00",
+    "oai:arXiv.org:2610.37067v1": "2026-10-29T04:16:31.165926+00:00",
     "oai:arXiv.org:2610.37466v1": "2026-10-29T01:15:38.013696+00:00",
     "oai:arXiv.org:2610.37480v1": "2026-10-29T01:15:38.013696+00:00",
     "tag:blogger.com,1999:blog-1834236085756782640.post-4531771362299770475": "2026-10-06T12:14:45.665168+00:00",
@@ -607,6 +607,19 @@
         "title": "Collabora advances Mali GPU support with Kraid compiler and Tyr Rust driver"
       },
       "first_seen": "2026-10-28T11:41:08.830280+00:00"
+    },
+    "https://linuxgizmos.com/?p=99683": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://linuxgizmos.com/?p=99683",
+        "link": "https://linuxgizmos.com/xerxes-home-lab-adds-jetson-support-nvme-and-poe/",
+        "relevance": 4,
+        "source": "LinuxGizmos.com",
+        "summary": "Australian company Rapid Analysis has launched a new Kickstarter campaign for its Xerxes Home Lab platform, featuring updated carrier boards for Raspberry Pi Compute Modules and NVIDIA Jetson systems. The lineup includes the Xerxes Pi 2026, Xerxes Nano, and an RK3566-based compute module, targeting home servers, embedded systems, and local AI applications. The campaign follows […]",
+        "summary_vi": "Rapid Analysis launched a Kickstarter for its Xerxes Home Lab platform featuring updated carrier boards supporting Raspberry Pi Compute Modules, NVIDIA Jetson systems, NVMe, and PoE. The hardware lineup targets home servers, embedded systems, and local AI applications.",
+        "title": "Xerxes Home Lab adds Jetson support, NVMe, and PoE"
+      },
+      "first_seen": "2026-10-29T04:16:31.165926+00:00"
     },
     "https://lwn.net/Articles/1102102/": {
       "entry": {
@@ -683,19 +696,6 @@
         "summary": "The Redox OS project, which is a\nUnix-like microkernel-based operating system written in Rust, has published a report on the work\nthat it has done in the last year to implement io_uring-like\n I/O . \n\n \n Last year, the Redox team received a grant to develop io_uring-like Ring\nBuffer support at the system task level, as a first step towards ring buffer\ncommunications between the application and the majority of system services. This\nphase of the work finished up in September, as the last pieces were put in\nplace. \n\n [...] In addition to implementing the Ring Buffer machinery for our system\nservices and drivers that can support it, an io_uring and\n liburing -like API for applications was completed and\ndemonstrated. There was also substantial work done on support crates, including\nan async executor for drivers. \n\n And there was some very exciting work on various performance improvements, to\nallow much faster switching between applications and their system services. But\nI will let the team tell you all the technical details.",
         "summary_vi": "Redox OS, a microkernel-based operating system written in Rust, completed work on system-task-level ring buffers inspired by Linux's `io_uring`. This effort aims to enable asynchronous ring-buffer communication between applications and system services.",
         "title": "Redox OS ring buffers project summary"
-      },
-      "first_seen": "2026-10-29T01:15:38.013696+00:00"
-    },
-    "https://rcrwireless.com/?p=435818": {
-      "entry": {
-        "category": "ran",
-        "id": "https://rcrwireless.com/?p=435818",
-        "link": "https://pages.rcrtech.com/deterministic-networks-by-design-webinar",
-        "relevance": 3,
-        "source": "RCR Wireless News",
-        "summary": "Only 16% of GenAI deployments have reached network operations, and most operators are still at TM Forum autonomy Levels 2-3. The reason isn’t a lack of AI. It’s that nobody…",
-        "summary_vi": "This webinar explores why telecommunications operators avoid relying on unconstrained AI predictions in live networks, citing that only 16% of generative AI deployments currently reach operational networks with most achieving low autonomy levels.",
-        "title": "Webinar: Deterministic Networks by Design: Why operators can’t let AI guess on live networks"
       },
       "first_seen": "2026-10-29T01:15:38.013696+00:00"
     },
@@ -1245,19 +1245,6 @@
       },
       "first_seen": "2026-10-28T00:46:21.169893+00:00"
     },
-    "https://www.reddit.com/r/embedded/t3_1xgwndq": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1xgwndq",
-        "link": "https://www.reddit.com/r/embedded/comments/1xgwndq/isolating_a_virtionet_driver_on_arm64_with_sel4/",
-        "relevance": 5,
-        "source": "Reddit r/embedded",
-        "summary": "Hi everyone. I am working on a research prototype of a trusted computing base on top of the seL4 microkernel. The core idea is simple: if a driver crashes, the kernel should not care. So I moved the network driver and the protocol stack into a separate child process with its own VSpace. A fault there cannot reach the verified core. Recently I started porting this to ARM64 (targeting the Raspberry Pi 4B). Right now the full cycle works in QEMU: ELF loader, seL4 kernel, root task, UART output, and a virtio-net driver running inside an isolated ELF child. The child has its own CSpace and VSpace, and it re-attaches to the device MMIO and DMA frame that the root task initialized. Interrupts are routed through seL4 Notifications, and the child signals back to the root when it finishes. The hardest part was not writing the driver, but getting the object management and page table setup right. The AArch64 page table hierarchy and ASID pool assignment took a while to click. Now I am stuck on the next step. On the real Raspberry Pi 4B, the network controller is Broadcom GENET, not virtio-net. QEMU's raspi4b machine does not emulate GENET, so I cannot validate a driver for it in the emulator. I know there are Linux and L4Re references, but I would prefer to hear from someone who has actually touched this hardware. If you have worked with GENET on the Pi 4, or with seL4 on ARM64, I would appreciate any pointers. Especially about the DMA layout and the interrupt mapping. I am not looking for a ready-made driver, just for a direction that will save me a few days of guessing. Repo and docs are here if anyone is curious: https://github.com/Nik0laic4/SchildTCB (the arm64 branch is where the action is). submitted by /u/Nik0laich [link] [comments]",
-        "summary_vi": "The author describes a research prototype using the seL4 microkernel to isolate network drivers and protocol stacks into separate child processes with independent virtual address spaces, preventing driver faults from affecting the verified kernel core. The approach has been validated in QEMU on ARM64 (targeting Raspberry Pi 4B) with ELF loader, seL4 kernel, root task, and UART output functional, and now faces challenges porting to real hardware including questions about the Pi 4 GENET controller compatibility.",
-        "title": "Isolating a virtio-net driver on ARM64 with seL4 (and a question about the Pi 4 GENET controller)"
-      },
-      "first_seen": "2026-10-28T00:46:21.169893+00:00"
-    },
     "https://www.reddit.com/r/embedded/t3_1xgz2y7": {
       "entry": {
         "category": "embedded",
@@ -1271,18 +1258,18 @@
       },
       "first_seen": "2026-10-28T00:46:21.169893+00:00"
     },
-    "https://www.reddit.com/r/embedded/t3_1xh95fl": {
+    "https://www.reddit.com/r/embedded/t3_1xhc58j": {
       "entry": {
         "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1xh95fl",
-        "link": "https://www.reddit.com/r/embedded/comments/1xh95fl/realtime_speechtotext_on_an_esp32p4_a/",
-        "relevance": 5,
+        "id": "https://www.reddit.com/r/embedded/t3_1xhc58j",
+        "link": "https://www.reddit.com/r/embedded/comments/1xhc58j/i2c_sda_being_held_low_after_starting_i2s/",
+        "relevance": 4,
         "source": "Reddit r/embedded",
-        "summary": "TL;DR: a 65.7M-parameter streaming speech recognizer runs live on an ESP32-P4 (chip rev v3): 2/4-bit weights (71 → 26.65 MB, in PSRAM), integer math with hand-written PIE SIMD kernels on both cores, 0.70x real time, 4.34% WER on LibriSpeech test-clean. The chip's output is bit-exact with the PC build, and the cache measurements show it's compute-bound: reading the weights from PSRAM costs at most 39 ms of the encoder's 592 ms per chunk. Open source. I got an open-vocabulary speech recognizer running live on an ESP32-P4: you talk into the board's mic and the words appear on its screen as you speak. No network, no NPU: two RISC-V cores at 400 MHz, 32 MB of PSRAM, and the P4's SIMD extension (PIE). Here is the engineering side, with the measurements. Source: https://github.com/BoumedineBillal/esp32-pie-asr The budget Model: Kroko (by Banafo), a streaming Zipformer2 transducer, 65.7M parameters. As released it is 71 MB in int8. Chip: 32 MB PSRAM, 16 MB flash. ESP-DL and TFLite Micro go no lower than 8-bit weights, so int8 doesn't fit, and ESP-SR's MultiNet only knows a fixed list of commands. Real time: each 1.28 s chunk of audio must be done in less than 1.28 s, forever, with fixed memory. 1. Memory: 71 MB → 26.65 MB 2/4-bit weights in groups of 128, each group rotated by a Hadamard matrix, codes indexing Lloyd-Max levels (the Cactus Quants layout). 2 or 4 bits per matrix, chosen by its sensitivity, no training: 193 of the 290 encoder matrices in 4 bits, the rest in 2. The file is used in place in PSRAM. It doesn't fit the 16 MB flash, so it loads from microSD at boot (2.9 s). PSRAM: weights 26.65 MB, engine state about 4 MB, frame buffer 1.2 MB, about 0.5 MB left at the lowest. Internal RAM: the hot code and a 256 KB L2 cache; 121 KB left free. 2. Compute: integer math and PIE assembly int8 into the products, int16 activations between them, nonlinearities as tables indexed by the int16 input. Each input group is rotated once (additions only, exact in int32) and shifted to int8; that rotation serves every row. The 2/4-bit codes are decoded to int8 through a table: 851 cycles per 2048 weights. The tile kernel multiplies 16 rows by a 128-wide group in 168 cycles: 12.1 MACs per cycle. PIE has fused instructions that do 16 int8 multiply-adds, a 16-byte load and the pointer increment in one instruction. Both cores share every product, split by blocks of output rows; each core writes only its own outputs. The integer math costs no accuracy: 4.53% WER (greedy) as a float simulation, 4.52% on the chip. Per 1.28 s chunk, in the live app with the screen drawing on core 1: features 14.0 ms, encoder 742.2 ms, beam search 138.1 ms, total 895.8 ms (0.70x real time) . 3. Cache and PSRAM, measured (encoder alone, per chunk, P4X) Setting Encoder L2 256 KB, 128-byte lines, autoload off 632.8 ms same, autoload on misses (weights are read in order) 592.5 ms L2 128 KB +104 ms L2 512 KB doesn't boot: too little internal RAM left PSRAM 200 → 250 MHz -10 ms codes decoded without reading them from PSRAM (test hack) 553.8 ms The last line is the useful one: reading the weights from PSRAM costs at most 39 ms of 592, so it's compute-bound. DMA prefetch into internal RAM could win 39 ms at best, and it would take about 3000 transfers per chunk with a few µs of driver work each, so I didn't do it. The same code on a v1.3 chip (360 MHz CPU, 200 MHz PSRAM) took 726 ms for the encoder. 4. Bit-exact with the PC build I wanted the WER measured on all of LibriSpeech (5559 clips), which is only practical on a PC. So the PC build has to compute exactly what the chip computes: libm's exp, log, tanh differ in the last bit between glibc and newlib, so the features and tables differed. I replaced them with my own functions built from IEEE + - * / only. -ffp-contract=off on both sides (no fused multiply-adds). Every PIE kernel has a C reference that the PC build runs, and each two-core part writes only its own outputs. Checked on the board: 22 kernel checks with 0 wrong values, the encoder's output CRC on every chunk plus the final text on 8 clips, and the tokens on 140 phrase-biasing clips. 5. PIE 2.1 vs 2.2 v1.x chips have PIE 2.1, the P4X (chip rev v3) has PIE 2.2. Same mnemonics, different encodings: 2.2 adds saturation and rounding fields to the instructions. The same .S source assembles for both, but a v1.x binary doesn't run on the P4X. The release targets rev v3 only for now. Results LibriSpeech test-clean 4.34% WER, test-other 10.26% (beam search, 4 hypotheses). The original int8 model on a PC: 3.94% and 9.17%. A word is final about 2 s after you say it. Extras: hotwords from a text file on the SD card, and six voice-control demos (word rules, no LLM). Limits : needs chip rev v3 with 32 MB PSRAM; English only; measured on clean read speech, not noisy rooms yet; power not measured. Full video: https://www.youtube.com/watch?v=oe-2MowdsSs Credits: the model is Kroko by Banafo; the weight layout comes from Cactus Quants. Live transcription on the ESP32-P4X: two RISC-V cores, PIE SIMD, 2/4-bit weights in PSRAM, no cloud. submitted by /u/Efficient_Royal5828 [link] [comments]",
-        "summary_vi": "A 65.7M-parameter streaming speech recognizer runs live on ESP32-P4 using 2/4-bit quantized weights (71→26.65 MB in PSRAM) and hand-written integer-math SIMD kernels across both cores, achieving 0.70x real-time speed with 4.34% WER on LibriSpeech test-clean, with cache measurements confirming compute-bound performance.",
-        "title": "Real-time speech-to-text on an ESP32-P4: a 65.7M-parameter model in 2/4-bit weights, hand-written SIMD kernels, bit-exact with its PC build (write-up + source)"
+        "summary": "I’m working on a senior design project using an ESP32 Feather V2 and an Adafruit TLV320DAC3100 audio DAC for Bluetooth audio playback. I keep running into an issue where the DAC appears to pull the I2C SDA line LOW whenever I start I2S. When I stop I2S and reinitialize I2C, everything works again. The SDA line only stops working when I2S is started. What’s even stranger is that I’ve tried unsoldering and resoldering connections, moving wires to different GPIO pins, and even replacing the DAC board entirely. All of these fixes work initially, even through several power cycles. However, when I leave everything overnight and come back the next day, the exact same problem returns. I’m genuinely at a loss as to what’s causing this. Has anyone experienced something similar or have any idea how to fix this? submitted by /u/Yakeboiii [link] [comments]",
+        "summary_vi": "The author describes an issue where an audio DAC pulls the I2C SDA data line low whenever I2S audio begins on an ESP32 board. Re-soldering, swapping GPIO pins, and replacing the DAC hardware did not resolve the problem.",
+        "title": "I2C SDA being held low after starting I2S"
       },
-      "first_seen": "2026-10-28T00:46:21.169893+00:00"
+      "first_seen": "2026-10-29T04:16:31.165926+00:00"
     },
     "https://www.reddit.com/r/embedded/t3_1xhf3xe": {
       "entry": {
@@ -1309,6 +1296,32 @@
         "title": "Why AI won't replace low-level embedded engineers anytime soon (Bench perspective)?"
       },
       "first_seen": "2026-10-28T11:41:08.830280+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xhgbdf": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xhgbdf",
+        "link": "https://www.reddit.com/r/embedded/comments/1xhgbdf/importing_an_infineon_60ghz_radar_dev_kit_demo/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "Hey everyone, I am a student working on a private engineering project and I want to order the Infineon DEMO BGT60TR13C radar evaluation board via Mouser India. It costs around ₹20,500. Mouser chat support told me that shipping is CPT, meaning customs duties and taxes are entirely my responsibility when the package lands in India via FedEx/DHL. Before hitting buy, I want to double-check a few compliance and legal things with anyone here who has imported similar dev boards (like TI mmWave kits, high-frequency RF shields, or radar boards) to India: WPC / ETA License: The board operates in the 57 GHz to 64 GHz millimeter-wave band and is a completely unhoused bare PCB evaluation kit strictly for R&D/laboratory testing. Under the DoT/WPC Office Memorandum for prototypes, and considering the 60 GHz band is de-licensed in India for Short Range Devices (SRD), will customs clear this automatically without asking for a WPC import permit or Equipment Type Approval? Import License / IEC: Since I am buying this as an individual hobbyist/student using personal funds, will standard personal KYC (Aadhaar Card / Passport) be enough for FedEx/DHL to clear it at the airport under personal baggage/gift import rules? Customs Duty Expectations: Has anyone imported similar sensor dev kits recently? What total percentage of duty + 18% IGST should I expect to be billed by the courier at my doorstep? If anyone has went through this exact process with Mouser India for high-frequency RF/radar prototyping kits, your insights would save me a massive headache. Thanks! submitted by /u/vigooluther [link] [comments]",
+        "summary_vi": "A student in India asks about legal and WPC/ETA compliance requirements before importing an Infineon 60GHz radar evaluation board costing ~₹20,500 via Mouser under CPT terms, where customs duties are the buyer's responsibility.",
+        "title": "Importing an Infineon 60GHz Radar Dev Kit (DEMO BGT60TR13C) via Mouser India - Do I need a WPC/ETA license?"
+      },
+      "first_seen": "2026-10-29T04:16:31.165926+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xhk5gj": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xhk5gj",
+        "link": "https://www.reddit.com/r/embedded/comments/1xhk5gj/canexplorer_canbus_monitoring_for_the_modern_man/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "Hi everyone! Introducing CANExplorer, a free, MIT-licensed application for Windows, Linux, and macOS. The goal is to connect the whole workflow: capture traffic, investigate unknown signals, build a database, interact with ECUs, and automate tests—all in one application. Some highlights: Reverse engineering without a DBC: inspect changing bits, byte entropy and histograms; find candidate checksums, counters, multiplexers and signal fields automatically. Find signals using known measurements: correlate traffic with CSV/GPS logs or polled OBD-II values, estimate scaling and time offsets, and identify related signals across messages. Turn findings into a draft database: promote detected fields into the editor, review the results, and save a DBC. Diagnostics and calibration: UDS over CAN/LIN, DoIP, ECU flashing, XCP/CCP with A2L support, and newly added GMLAN diagnostics for GM/Opel workflows. Simulation and automated testing: write ECU simulations and tests in Python/QML, run them in the GUI or headlessly, and generate HTML/JUnit reports for CI. Remote access and MQTT: connect to buses shared by another computer—such as a Raspberry Pi—and publish decoded signals to your dashboards. It also includes signal plots, triggered recording, log replay and comparison, CAN/LIN database editing, J1939 and CANopen tools. Hardware support includes SocketCAN, PCAN, Vector, Kvaser, CANable/gs_usb, SLCAN, GVRET and more, depending on platform and drivers. You can also try it without hardware using virtual buses and simulated ECUs. I’d appreciate feedback from people working with real adapters and recordings: what works well, what breaks, and what would make this useful on your bench? Bug reports, sample captures and contributions are welcome! Thanks. submitted by /u/AKJ7 [link] [comments]",
+        "summary_vi": "CANExplorer is a free, MIT-licensed desktop app for CAN bus traffic capture, ECU interaction, and automated testing. It supports reverse-engineering signals without a DBC database file by analyzing byte entropy, histograms, and candidate checksums.",
+        "title": "CANExplorer: CanBus Monitoring for the modern man"
+      },
+      "first_seen": "2026-10-29T04:16:31.165926+00:00"
     },
     "https://www.reddit.com/r/embedded/t3_1xhlics": {
       "entry": {
@@ -1388,6 +1401,32 @@
       },
       "first_seen": "2026-10-29T01:15:38.013696+00:00"
     },
+    "https://www.reddit.com/r/embedded/t3_1xi6mki": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xi6mki",
+        "link": "https://www.reddit.com/r/embedded/comments/1xi6mki/zephyr_rtos_45_is_out/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "submitted by /u/kartben [link] [comments]",
+        "summary_vi": "This post announces the release of Zephyr RTOS version 4.5. The provided snippet contains no additional details regarding specific changes or new features.",
+        "title": "Zephyr RTOS 4.5 is out"
+      },
+      "first_seen": "2026-10-29T04:16:31.165926+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xi75nv": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xi75nv",
+        "link": "https://www.reddit.com/r/embedded/comments/1xi75nv/ever_started_a_simple_diy_project_and_ended_up/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "I’ve been looking at DIY handheld game consoles lately, and it’s funny how much goes into making something that looks so simple.​ You’ve got the board, the screen, the buttons, the power supply… and somehow, getting everything to work together becomes a project of its own.​ It’s part of what makes DIY electronics fun, I guess. You start with an idea, run into a few unexpected problems, and end up learning things you probably wouldn’t have touched otherwise.​ Curious to hear from other makers here — what’s a project that taught you way more than you expected? submitted by /u/Simple-Ad3267 [link] [comments]",
+        "summary_vi": "A maker reflects on the unexpected complexity of integrating displays, power supplies, and buttons for DIY handheld consoles. The author asks the community to share their own experiences with unexpectedly educational DIY projects.",
+        "title": "Ever started a simple DIY project and ended up learning way more than expected?"
+      },
+      "first_seen": "2026-10-29T04:16:31.165926+00:00"
+    },
     "https://www.sigarch.org/?p=116520": {
       "entry": {
         "category": "research",
@@ -1452,19 +1491,6 @@
         "title": "Guard Analysis and Safe Erasure Gradual Typing: a Type System for Elixir"
       },
       "first_seen": "2026-10-26T11:34:23.964933+00:00"
-    },
-    "oai:arXiv.org:2510.08479v3": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2510.08479v3",
-        "link": "https://arxiv.org/abs/2510.08479",
-        "relevance": 5,
-        "source": "arXiv cs.OS (Operating Systems)",
-        "summary": "arXiv:2510.08479v3 Announce Type: replace-cross \nAbstract: Provenance plays a critical role in maintaining traceability of a system's actions for root cause analysis of security threats and impacts. Provenance collection is often incorporated into the reference monitor of systems to ensure that an audit trail exists of all events, that events are completely captured, and that logging of such events cannot be bypassed. However, recent research has questioned whether existing state-of-the-art provenance collection systems fail to ensure the security guarantees of a true reference monitor due to the 'super producer threat' in which provenance generation can overload a system to force the system to drop security-relevant events and allow an attacker to hide their actions. One approach towards solving this threat is to enforce resource isolation, but that does not fully solve the problems resulting from hardware dependencies and performance limitations.\n In this paper, we show how an operating system's kernel scheduler can mitigate this threat, and we introduce Aegis, a learned scheduler for Linux specifically designed for provenance. Unlike conventional schedulers that ignore provenance completeness requirements, Aegis leverages reinforcement learning to learn provenance task behavior and to dynamically optimize resource allocation. We evaluate Aegis's efficacy and show that Aegis significantly improves both the completeness and efficiency of provenance collection systems compared to traditional scheduling, while maintaining reasonable overheads and even improving overall runtime in certain cases compared to the default Linux scheduler.",
-        "summary_vi": "The paper examines provenance collection in system reference monitors, which track audit trails of all events to ensure security traceability and prevent logging bypass. Recent research has questioned whether existing state-of-the-art provenance mechanisms maintain their intended guarantees. The work appears to revisit these guarantees using learned kernel scheduling approaches, though the summary excerpt does not detail the specific mechanism or findings.",
-        "title": "No Provenance Left Behind: Revisiting Reference Monitor Guarantees with Learned Kernel Scheduling"
-      },
-      "first_seen": "2026-10-27T11:02:26.672421+00:00"
     },
     "oai:arXiv.org:2510.26008v3": {
       "entry": {
@@ -3026,19 +3052,6 @@
       },
       "first_seen": "2026-10-28T11:41:08.830280+00:00"
     },
-    "oai:arXiv.org:2610.36792v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2610.36792v1",
-        "link": "https://arxiv.org/abs/2610.36792",
-        "relevance": 5,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2610.36792v1 Announce Type: new \nAbstract: This paper investigates static multipath suppression in a time-varying radio channel at 28 GHz using wideband measurements conducted in a dynamic road environment. Two temporal differencing filters and three Doppler-domain notch filtering configurations are compared in terms of their effects on power delay profiles (PDPs) and root mean square (RMS) delay spread. The results demonstrate that all investigated methods effectively suppress stationary multipath components, improving the visibility of vehicle-related reflections. However, differences in filter frequency responses influence the relative powers of dynamic multipath components and the resulting RMS delay spread distributions. The findings highlight the importance of static multipath suppression and filter selection in characterizing time-varying propagation channels.",
-        "summary_vi": "At 28 GHz mmWave frequencies, time-varying channels in dynamic road environments contain static multipath components that complicate power delay profile analysis. The paper compares temporal differencing filters and Doppler-domain notch filtering methods to suppress stationary reflections while preserving dynamic channel characteristics, evaluating effects on delay spread metrics.",
-        "title": "Static Multipath Suppression in Power Delay Profile of Time-Varying Channel at 28 GHz"
-      },
-      "first_seen": "2026-10-29T01:15:38.013696+00:00"
-    },
     "oai:arXiv.org:2610.36798v1": {
       "entry": {
         "category": "research",
@@ -3078,32 +3091,6 @@
       },
       "first_seen": "2026-10-28T11:41:08.830280+00:00"
     },
-    "oai:arXiv.org:2610.36880v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2610.36880v1",
-        "link": "https://arxiv.org/abs/2610.36880",
-        "relevance": 5,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2610.36880v1 Announce Type: new \nAbstract: The achievable gains of multiple-input multiple-output (MIMO) systems depend on channel state information (CSI), whose acquisition consumes pilot and feedback resources for every user in every coherence interval. Meanwhile, the propagation environment that shapes the channel persists. Exploiting such information will help to greatly reduce the overhead of CSI acquisition. This paper investigates the spatial MIMO channel rendering problem, which learns a latent beamspace channel scene from sparse observations and renders the long-term transmit and receive beam pair power map at unobserved user locations. Motivated by 3D Gaussian splatting in visual scene rendering, the proposed MIMO Gaussian splatting (MIMO-GS) represents the scene with pairs of receive and transmit 3D Gaussians, projects them from the user and base station onto the corresponding beam domains, and accumulates the beam associations through beam pair splatting. On a simulated urban scenario and measured indoor channels, MIMO-GS renders 5.5 times faster than ray tracing without a calibrated replica. Applied to multiuser beam management, the rendered maps allow users and transmit beams to be scheduled without sounding while accounting for the inter-user interference, and the net sum rate reaches 98% of the genie-aided benchmark, 19% above a position-based predictor.",
-        "summary_vi": "MIMO performance depends on channel state information (CSI) acquisition, which incurs overhead in pilot and feedback resources per user per coherence interval. The paper investigates spatial MIMO channel rendering using 3D Gaussian splatting to exploit persistent propagation environment geometry, aiming to reduce CSI acquisition overhead by leveraging spatial structure.",
-        "title": "Spatial MIMO Channel Rendering: A 3D Gaussian Splatting Approach"
-      },
-      "first_seen": "2026-10-29T01:15:38.013696+00:00"
-    },
-    "oai:arXiv.org:2610.36881v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2610.36881v1",
-        "link": "https://arxiv.org/abs/2610.36881",
-        "relevance": 5,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2610.36881v1 Announce Type: new \nAbstract: Channel state information (CSI) prediction forecasts future channel states from historical observations, supporting transceiver design and resource allocation with reduced measurement overhead. However, existing deep learning predictors mainly encode channel knowledge in model parameters, which can limit their ability to represent diverse patterns of channel dynamics across scenes. In this paper, we propose RAG-CSI, a retrieval-enhanced Transformer framework that augments prediction with relevant historical channel knowledge. Specifically, we construct a global--local CSI knowledge store containing representative observations across scenes and historical observations from the current serving scene. We further develop joint state--dynamics retrieval (JSDR), which jointly characterizes channel states, phase dynamics, and amplitude dynamics to retrieve relevant CSI sequences. A Transformer predictor then uses cross-attention to fuse the retrieved knowledge with the current CSI history and predict future CSI with limited additional model parameters. Experiments on a multi-scene CSI dataset show overall improvements exceeding 10\\% across all five evaluation metrics over the best baseline for each metric, including a 15.42\\% reduction in normalized mean squared error.",
-        "summary_vi": "Channel state information (CSI) prediction from historical observations enables efficient transceiver design and resource allocation but struggles with diverse channel dynamics across scenarios. RAG-CSI proposes a retrieval-enhanced Transformer that augments deep learning models with retrieval mechanisms to better capture varying channel patterns, addressing the limitation of encoding channel knowledge solely in model parameters.",
-        "title": "RAG-CSI: Global Local Retrieval via Joint State and Dynamics Matching for CSI Prediction"
-      },
-      "first_seen": "2026-10-29T01:15:38.013696+00:00"
-    },
     "oai:arXiv.org:2610.37006v1": {
       "entry": {
         "category": "research",
@@ -3142,19 +3129,6 @@
         "title": "p-DCIM: A 28nm Probabilistic SRAM DCIM based Ising Machine for Near-Memory Context Selection in LLM-RAG Pipeline"
       },
       "first_seen": "2026-10-28T11:41:08.830280+00:00"
-    },
-    "oai:arXiv.org:2610.37067v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2610.37067v1",
-        "link": "https://arxiv.org/abs/2610.37067",
-        "relevance": 5,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2610.37067v1 Announce Type: new \nAbstract: A frequency-agile radar with a large digital array moves the spatial frequency of its look direction across the beams of a spatial FFT every time it changes carrier, so a beamspace adaptive processor must decide where to put its window at each hop. Because the beamspace transform is orthonormal, the output of the processor depends only on the span of the window, and a hop changes nothing but where the window sits. Centring the window exactly on the fractional bin of the look direction keeps the look vector fully inside it at every carrier, for the price of one phase ramp before the FFT. On a 32 by 32 array over 4 to 8 GHz the look bin drifts by 1.6 to 6.9 bins for look directions from u=0.2 to 60 degrees. Rounding to the nearest bin costs up to 1.34, 0.74 and 0.50 dB of look-direction capture for 3 by 3, 5 by 5 and 7 by 7 windows. In a three-jammer scenario with 41 carriers, a window frozen at the lowest carrier loses 39 to 60 dB at the worst carrier for a look direction of u=0.55, the exact window beats nearest-bin placement by 0.31 to 0.65 dB there, and the advantage reverses for a nine-beam window near broadside, where nearest-bin was 0.61 dB better.",
-        "summary_vi": "Frequency-agile radar with digital arrays must reposition beamspace windows when the carrier frequency hops, as the spatial FFT bins shift accordingly. The paper analyzes window placement strategies to optimize capture performance, examining the trade-offs between exact bin centering and discretization errors when the window position must be rounded to integer grid points.",
-        "title": "Placing the Beamspace Window on a Hopping Carrier: Bin Drift, Exact Capture and the Cost of Rounding"
-      },
-      "first_seen": "2026-10-29T01:15:38.013696+00:00"
     },
     "oai:arXiv.org:2610.37104v1": {
       "entry": {
@@ -3297,14 +3271,11 @@
     "https://lwn.net/Articles/1094226/": "2026-10-22T00:14:37.714250+00:00",
     "https://lwn.net/Articles/1094721/": "2026-10-01T00:51:09.199810+00:00",
     "https://lwn.net/Articles/1095731/": "2026-09-30T00:46:27.180142+00:00",
-    "https://lwn.net/Articles/1095811/": "2026-09-29T01:16:55.286252+00:00",
     "https://lwn.net/Articles/1096028/": "2026-10-03T00:45:17.081177+00:00",
     "https://lwn.net/Articles/1096293/": "2026-10-01T00:51:09.199810+00:00",
     "https://lwn.net/Articles/1096518/": "2026-10-01T00:51:09.199810+00:00",
     "https://lwn.net/Articles/1096963/": "2026-10-06T01:55:08.067921+00:00",
-    "https://lwn.net/Articles/1097191/": "2026-09-29T01:16:55.286252+00:00",
     "https://lwn.net/Articles/1097198/": "2026-10-08T01:20:40.258601+00:00",
-    "https://lwn.net/Articles/1097213/": "2026-09-29T01:16:55.286252+00:00",
     "https://lwn.net/Articles/1097466/": "2026-09-30T00:46:27.180142+00:00",
     "https://lwn.net/Articles/1097468/": "2026-10-07T01:01:57.012881+00:00",
     "https://lwn.net/Articles/1097495/": "2026-09-30T00:46:27.180142+00:00",
@@ -3423,7 +3394,6 @@
     "https://rocm.blogs.amd.com/artificial-intelligence/rocopt/README.html": "2026-10-21T00:09:49.548846+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/sim2real-rl-instinct/README.html": "2026-09-30T00:46:27.180142+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/taf-blog/README.html": "2026-10-07T01:01:57.012881+00:00",
-    "https://rocm.blogs.amd.com/artificial-intelligence/verl_0.9.0_rocm7.15/README.html": "2026-09-29T01:16:55.286252+00:00",
     "https://rocm.blogs.amd.com/ecosystems-and-partners/rocm-10.1-blog/README.html": "2026-10-06T01:55:08.067921+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/di-kimi-k3-mxfp4/README.html": "2026-10-09T01:28:13.470643+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/hipcim-26-08/README.html": "2026-10-21T00:09:49.548846+00:00",
@@ -3435,6 +3405,10 @@
     "https://rocm.blogs.amd.com/software-tools-optimization/tracelens-analysis-agent/README.html": "2026-10-01T00:51:09.199810+00:00",
     "https://spectrum.ieee.org/faa-aviation-airwaves": "2026-10-28T11:41:08.830280+00:00",
     "https://spectrum.ieee.org/zblan-fiber-optic-cables-iss": "2026-10-27T00:50:51.993375+00:00",
+    "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html": "2026-10-29T04:16:31.165926+00:00",
+    "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html": "2026-10-29T04:16:31.165926+00:00",
+    "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html": "2026-10-29T04:16:31.165926+00:00",
+    "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html": "2026-10-29T04:16:31.165926+00:00",
     "https://www.cnx-software.com/?p=167333": "2026-10-02T11:23:39.558422+00:00",
     "https://www.cnx-software.com/?p=175717": "2026-10-05T12:40:32.898052+00:00",
     "https://www.cnx-software.com/?p=176022": "2026-10-21T10:36:54.456279+00:00",
@@ -3443,7 +3417,6 @@
     "https://www.cnx-software.com/?p=177367": "2026-10-09T01:28:13.470643+00:00",
     "https://www.cnx-software.com/?p=177586": "2026-10-03T10:38:27.442783+00:00",
     "https://www.cnx-software.com/?p=177625": "2026-10-21T10:36:54.456279+00:00",
-    "https://www.cnx-software.com/?p=177667": "2026-09-29T01:16:55.286252+00:00",
     "https://www.cnx-software.com/?p=177672": "2026-09-30T00:46:27.180142+00:00",
     "https://www.cnx-software.com/?p=177682": "2026-09-29T11:35:47.491303+00:00",
     "https://www.cnx-software.com/?p=177759": "2026-09-30T11:23:36.449769+00:00",
@@ -3527,9 +3500,7 @@
     "https://www.phoronix.com/news/FFmpeg-9.1-Releasing": "2026-10-23T10:33:29.369204+00:00",
     "https://www.phoronix.com/news/Fedora-45-First-No-Go": "2026-10-16T10:07:43.710673+00:00",
     "https://www.phoronix.com/news/Fedora-45-Second-NO-GO": "2026-10-23T00:11:08.671003+00:00",
-    "https://www.phoronix.com/news/Fedora-45-Snapdragon-X1": "2026-09-29T01:16:55.286252+00:00",
     "https://www.phoronix.com/news/Fedora-46-RPM-v6": "2026-10-17T09:41:47.588367+00:00",
-    "https://www.phoronix.com/news/Firefox-157-Released": "2026-09-29T01:16:55.286252+00:00",
     "https://www.phoronix.com/news/Firefox-158-Released": "2026-10-12T13:35:18.699602+00:00",
     "https://www.phoronix.com/news/Firefox-159-Beta": "2026-10-14T00:37:17.101304+00:00",
     "https://www.phoronix.com/news/Firefox-159-Released": "2026-10-27T11:02:26.672421+00:00",
@@ -3548,6 +3519,7 @@
     "https://www.phoronix.com/news/HP-EliteBook-6-Q1q-Linux-Patch": "2026-10-15T00:07:44.827060+00:00",
     "https://www.phoronix.com/news/HPFS-For-Linux-Removal": "2026-10-24T00:02:40.989120+00:00",
     "https://www.phoronix.com/news/Haiku-September-2026": "2026-10-15T10:19:36.277492+00:00",
+    "https://www.phoronix.com/news/Hyprland-0.57": "2026-10-29T04:16:31.165926+00:00",
     "https://www.phoronix.com/news/IREE-3.12-Released": "2026-10-13T12:59:04.220462+00:00",
     "https://www.phoronix.com/news/Intel-AMD-oneDNN-Optimize": "2026-10-21T00:09:49.548846+00:00",
     "https://www.phoronix.com/news/Intel-APX-Projected-Gains": "2026-10-06T12:14:45.665168+00:00",
@@ -3560,6 +3532,7 @@
     "https://www.phoronix.com/news/Intel-Nova-Lake-SR-IOV-Xe": "2026-10-15T23:54:14.069902+00:00",
     "https://www.phoronix.com/news/Intel-Optimization-Zone-1.2": "2026-10-01T11:50:42.243700+00:00",
     "https://www.phoronix.com/news/Intel-XeSS-Steam-Play-Proton": "2026-10-20T00:41:16.386846+00:00",
+    "https://www.phoronix.com/news/Jamey-Sharp-Praises-Wayland": "2026-10-29T04:16:31.165926+00:00",
     "https://www.phoronix.com/news/KDE-Fixes-15-Year-Old-Bugs": "2026-10-28T00:46:21.169893+00:00",
     "https://www.phoronix.com/news/KDE-Plasma-6.8-Next-Week": "2026-10-10T11:23:32.463986+00:00",
     "https://www.phoronix.com/news/KDE-Plasma-6.8-Released": "2026-10-14T10:38:07.145690+00:00",
@@ -3610,7 +3583,6 @@
     "https://www.phoronix.com/news/Mesa-Drops-Direct3D-10-UMD": "2026-10-02T01:06:03.018282+00:00",
     "https://www.phoronix.com/news/Mesa-Governance-Model": "2026-10-06T12:14:45.665168+00:00",
     "https://www.phoronix.com/news/Mesa-PowerVR-Vulkan-2026": "2026-10-03T10:38:27.442783+00:00",
-    "https://www.phoronix.com/news/Mesa-Shiva-For-Vulkan": "2026-09-29T01:16:55.286252+00:00",
     "https://www.phoronix.com/news/Mesa-Torx-YOLOX-PyTorch": "2026-10-14T10:38:07.145690+00:00",
     "https://www.phoronix.com/news/Mesa-Toward-Eliminating-TGSI": "2026-09-30T11:23:36.449769+00:00",
     "https://www.phoronix.com/news/Mesa-Zink-VA-API-On-Vulkan": "2026-10-16T10:07:43.710673+00:00",
@@ -3625,9 +3597,9 @@
     "https://www.phoronix.com/news/Multipass-1.17": "2026-10-20T10:26:37.013396+00:00",
     "https://www.phoronix.com/news/NVIDIA-615.78.08-Linux": "2026-10-08T12:16:35.137792+00:00",
     "https://www.phoronix.com/news/NVIDIA-Boro-Linux-Kernel-AI": "2026-10-09T12:07:21.302578+00:00",
-    "https://www.phoronix.com/news/NVIDIA-Display-Config-Server": "2026-09-29T01:16:55.286252+00:00",
     "https://www.phoronix.com/news/NVIDIA-Nova-Linux-7.4-Changes": "2026-10-13T12:59:04.220462+00:00",
     "https://www.phoronix.com/news/NVIDIA-Wayland-Xorg-Latency": "2026-10-04T11:18:30.736596+00:00",
+    "https://www.phoronix.com/news/NetBSD-New-Text-Editor": "2026-10-29T04:16:31.165926+00:00",
     "https://www.phoronix.com/news/OBS-Studio-33.0": "2026-10-24T00:02:40.989120+00:00",
     "https://www.phoronix.com/news/ONLYOFFICE-10.0": "2026-10-13T12:59:04.220462+00:00",
     "https://www.phoronix.com/news/Omarchy-Faster-Web-Browser": "2026-10-18T23:40:11.886816+00:00",
@@ -3651,7 +3623,6 @@
     "https://www.phoronix.com/news/Rolling-Releases-GenAI-Era": "2026-10-11T00:29:49.881685+00:00",
     "https://www.phoronix.com/news/Rustls-0.23.46-Released": "2026-10-14T10:38:07.145690+00:00",
     "https://www.phoronix.com/news/Ryzen-AI-Dev-Platform-Sep-2026": "2026-10-03T00:45:17.081177+00:00",
-    "https://www.phoronix.com/news/SIMDjson-5.0": "2026-09-29T01:16:55.286252+00:00",
     "https://www.phoronix.com/news/SQLite-3.54-Released": "2026-10-10T01:18:49.490352+00:00",
     "https://www.phoronix.com/news/September-2026-Highlights": "2026-10-02T01:06:03.018282+00:00",
     "https://www.phoronix.com/news/Servo-0.6-Changes": "2026-10-18T23:40:11.886816+00:00",
@@ -3706,10 +3677,6 @@
     "https://www.phoronix.com/review/star-labs-starfighter": "2026-10-08T01:20:40.258601+00:00",
     "https://www.phoronix.com/review/ubuntu-2610-amd64v3-epyc": "2026-10-15T00:07:44.827060+00:00",
     "https://www.phoronix.com/review/ubuntu-2610-arrow-lake": "2026-10-21T00:09:49.548846+00:00",
-    "https://www.reddit.com/r/embedded/t3_1wsk0kk": "2026-09-29T01:16:55.286252+00:00",
-    "https://www.reddit.com/r/embedded/t3_1wsu00a": "2026-09-29T01:16:55.286252+00:00",
-    "https://www.reddit.com/r/embedded/t3_1wsw865": "2026-09-29T01:16:55.286252+00:00",
-    "https://www.reddit.com/r/embedded/t3_1wswhrt": "2026-09-29T01:16:55.286252+00:00",
     "https://www.reddit.com/r/embedded/t3_1wsysau": "2026-09-29T11:35:47.491303+00:00",
     "https://www.reddit.com/r/embedded/t3_1wszh5k": "2026-09-29T11:35:47.491303+00:00",
     "https://www.reddit.com/r/embedded/t3_1wt07mt": "2026-09-29T11:35:47.491303+00:00",
@@ -4046,7 +4013,6 @@
     "oai:arXiv.org:2607.18254v2": "2026-10-20T00:41:16.386846+00:00",
     "oai:arXiv.org:2607.23500v2": "2026-10-15T23:54:14.069902+00:00",
     "oai:arXiv.org:2607.26306v2": "2026-10-22T00:14:37.714250+00:00",
-    "oai:arXiv.org:2608.00008v2": "2026-09-29T01:16:55.286252+00:00",
     "oai:arXiv.org:2608.04264v2": "2026-10-01T00:51:09.199810+00:00",
     "oai:arXiv.org:2608.05807v2": "2026-10-22T00:14:37.714250+00:00",
     "oai:arXiv.org:2608.05819v2": "2026-10-05T12:40:32.898052+00:00",
@@ -4064,20 +4030,7 @@
     "oai:arXiv.org:2609.21137v4": "2026-10-23T00:11:08.671003+00:00",
     "oai:arXiv.org:2609.29595v2": "2026-10-02T01:06:03.018282+00:00",
     "oai:arXiv.org:2609.30104v2": "2026-10-02T01:06:03.018282+00:00",
-    "oai:arXiv.org:2609.30671v1": "2026-09-29T01:16:55.286252+00:00",
-    "oai:arXiv.org:2609.30785v1": "2026-09-29T01:16:55.286252+00:00",
-    "oai:arXiv.org:2609.30854v1": "2026-09-29T01:16:55.286252+00:00",
-    "oai:arXiv.org:2609.30914v1": "2026-09-29T01:16:55.286252+00:00",
-    "oai:arXiv.org:2609.30930v1": "2026-09-29T01:16:55.286252+00:00",
-    "oai:arXiv.org:2609.31010v1": "2026-09-29T01:16:55.286252+00:00",
-    "oai:arXiv.org:2609.31018v1": "2026-09-29T01:16:55.286252+00:00",
-    "oai:arXiv.org:2609.31047v1": "2026-09-29T01:16:55.286252+00:00",
-    "oai:arXiv.org:2609.31217v1": "2026-09-29T01:16:55.286252+00:00",
     "oai:arXiv.org:2609.31228v1": "2026-09-30T11:23:36.449769+00:00",
-    "oai:arXiv.org:2609.31292v1": "2026-09-29T01:16:55.286252+00:00",
-    "oai:arXiv.org:2609.31397v1": "2026-09-29T01:16:55.286252+00:00",
-    "oai:arXiv.org:2609.31429v1": "2026-09-29T01:16:55.286252+00:00",
-    "oai:arXiv.org:2609.31551v1": "2026-09-29T01:16:55.286252+00:00",
     "oai:arXiv.org:2609.31687v1": "2026-09-30T00:46:27.180142+00:00",
     "oai:arXiv.org:2609.31851v1": "2026-09-29T11:35:47.491303+00:00",
     "oai:arXiv.org:2609.31864v1": "2026-09-29T11:35:47.491303+00:00",
