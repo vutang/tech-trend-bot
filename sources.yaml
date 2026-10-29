@@ -487,5 +487,15 @@ sources:
     url: https://www.reddit.com/r/networking/.rss
     category: ran
 
+  # The Hacker News: tin security tổng hợp. ~90% feed là malware/phishing/CVE
+  # doanh nghiệp (sẽ bị bộ lọc relevance loại); chỉ bài firmware/UEFI/kernel/
+  # hypervisor/sandbox có giá trị. Kiểm tra 2026-10-29: HTTP 200, 50 entry,
+  # có timestamp, summary ~395 ký tự. LƯU Ý: MAX_PER_SOURCE lấy 5 bài mới nhất
+  # TRƯỚC khi chấm relevance nên bài phù hợp có thể bị cắt — theo dõi bằng
+  # analyze.py; cân nhắc lọc từ khoá theo nguồn.
+  - name: The Hacker News
+    url: https://feeds.feedburner.com/TheHackersNews
+    category: security
+
   # Khi mở sang phạm vi "đa lĩnh vực" (giai đoạn 4), chỉ cần thêm nguồn mới
   # vào đây — không cần đổi code ở fetch.py/summarize.py.

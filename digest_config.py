@@ -12,8 +12,8 @@ class DigestConfig:
 
 
 SESSION_CONFIGS = MappingProxyType({
-    "morning": DigestConfig("morning", 10, MappingProxyType({"ran": 2, "research": 2, "virt": 2})),
-    "afternoon": DigestConfig("afternoon", 5, MappingProxyType({"ran": 1, "research": 1, "virt": 1})),
+    "morning": DigestConfig("morning", 10, MappingProxyType({"ran": 2, "research": 2, "virt": 1, "security": 1})),
+    "afternoon": DigestConfig("afternoon", 5, MappingProxyType({"ran": 1, "research": 1, "security": 1})),
 })
 MIN_GLOBAL_SLOTS = MappingProxyType({"morning": 4, "afternoon": 2})
 

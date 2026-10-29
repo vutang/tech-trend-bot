@@ -16,8 +16,8 @@ def record(aid, status, run, session=None, logged_at=None):
     if session is not None:
         r["session"] = session
         r["cap"] = 10 if session == "morning" else 5
-        r["quotas"] = {"ran": 2, "research": 2, "virt": 2} if session == "morning" else {
-            "ran": 1, "research": 1, "virt": 1}
+        r["quotas"] = {"ran": 2, "research": 2, "virt": 1, "security": 1} if session == "morning" else {
+            "ran": 1, "research": 1, "security": 1}
     if logged_at:
         r["logged_at"] = logged_at
     return r

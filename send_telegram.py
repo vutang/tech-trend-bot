@@ -27,8 +27,9 @@ CATEGORY_LABEL = {
     "ran": "5G/5G-A/6G RAN",
     "research": "Computer Architecture/Networking (papers)",
     "virt": "Virtualization (vRAN)",
+    "security": "Security (firmware/system)",
 }
-CATEGORY_ORDER = ["ran", "virt", "embedded", "research", "ai-ml", "general"]
+CATEGORY_ORDER = ["ran", "virt", "security", "embedded", "research", "ai-ml", "general"]
 
 
 def _rank_score(e: dict) -> float:

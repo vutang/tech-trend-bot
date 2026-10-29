@@ -20,7 +20,7 @@ def entry(i, category="embedded", relevance=5, **extra):
 
 def pool():
     return [entry(f"{c}-{i}", c, 3 if c != "embedded" else 5)
-            for c in ("ran", "research", "virt", "embedded") for i in range(12)]
+            for c in ("ran", "research", "virt", "security", "embedded") for i in range(12)]
 
 
 class SelectionTests(unittest.TestCase):
@@ -30,14 +30,19 @@ class SelectionTests(unittest.TestCase):
         self.addCleanup(clock.stop)
 
     def test_session_caps_and_quotas(self):
-        for session, cap, minimum in (("morning", 10, 2), ("afternoon", 5, 1)):
+        expected = {
+            "morning": (10, {"ran": 2, "research": 2, "virt": 1, "security": 1}),
+            "afternoon": (5, {"ran": 1, "research": 1, "security": 1}),
+        }
+        for session, (cap, quotas) in expected.items():
             with self.subTest(session=session):
                 selected = select_entries(pool(), session=session)
                 self.assertEqual(len(selected), cap)
                 counts = Counter(e["category"] for e in selected)
-                for category in ("ran", "research", "virt"):
+                for category, minimum in quotas.items():
                     self.assertEqual(counts[category], minimum)
-                self.assertEqual(counts["embedded"], cap - 3 * minimum)
+                self.assertEqual(counts["virt"], quotas.get("virt", 0))
+                self.assertEqual(counts["embedded"], cap - sum(quotas.values()))
 
     def test_missing_categories_release_slots(self):
         entries = [entry(i) for i in range(12)] + [entry("r", "ran", 3)]

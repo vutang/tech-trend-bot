@@ -91,10 +91,10 @@ Chạy tay áp dụng cap của phiên, dùng chung state, nhưng không có tr�
 Workflow `Daily tech trend digest` trong
 `.github/workflows/daily-digest.yml`:
 
-| Phiên | Giờ Việt Nam (UTC+7) | Cron UTC | Cap | Quota ran / research / virt |
+| Phiên | Giờ Việt Nam (UTC+7) | Cron UTC | Cap | Quota ran / research / virt / security |
 |---|---|---|---:|---|
-| morning | 04:47 | `47 21 * * *` | 10 | 2 / 2 / 2 |
-| afternoon | 12:47 | `47 05 * * *` | 5 | 1 / 1 / 1 |
+| morning | 04:47 | `47 21 * * *` | 10 | 2 / 2 / 1 / 1 |
+| afternoon | 12:47 | `47 05 * * *` | 5 | 1 / 1 / 0 / 1 |
 
 - Scheduled run lấy phiên từ `github.event.schedule`, nên cron trễ vẫn chạy
   đúng phiên. Mốc 21:47 UTC là 04:47 ngày hôm sau tại Việt Nam.
@@ -208,7 +208,7 @@ RSS/Atom. Mỗi nguồn có:
   category: embedded
 ```
 
-Các category đang được cấu hình là `embedded`, `ran`, `research` và `virt`.
+Các category đang được cấu hình là `embedded`, `ran`, `research`, `virt` và `security`.
 Với entry có timestamp, fetcher bỏ qua bài cũ hơn 27 giờ; mỗi nguồn được lấy
 tối đa 5 bài hợp lệ trong một lần chạy.
 
