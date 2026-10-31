@@ -10,6 +10,7 @@
     "https://bootlin.com/?p=22452": "2026-10-22T00:14:37.714250+00:00",
     "https://content.knowledgehub.wiley.com/fast-rf-device-testing-with-analog-sources-a-practical-guide-to-amplifier-and-receiver-characterization/": "2026-10-15T10:19:36.277492+00:00",
     "https://developer.nvidia.com/blog/?p=122184": "2026-10-07T01:01:04.434173+00:00",
+    "https://eclypsium.com/?p=18915": "2026-10-31T11:15:22.551414+00:00",
     "https://linuxgizmos.com/?p=98965": "2026-10-07T01:01:04.434173+00:00",
     "https://linuxgizmos.com/?p=98983": "2026-10-07T01:01:04.434173+00:00",
     "https://linuxgizmos.com/?p=99366": "2026-10-05T00:10:30.939245+00:00",
@@ -152,6 +153,7 @@
     "https://www.cnx-software.com/?p=178083": "2026-10-10T11:23:32.463986+00:00",
     "https://www.cnx-software.com/?p=178133": "2026-10-11T11:37:08.824229+00:00",
     "https://www.cnx-software.com/?p=178234": "2026-10-13T12:59:04.220462+00:00",
+    "https://www.cnx-software.com/?p=178238": "2026-10-31T11:15:22.551414+00:00",
     "https://www.cnx-software.com/?p=178256": "2026-10-15T23:54:14.069902+00:00",
     "https://www.cnx-software.com/?p=178413": "2026-10-18T23:40:11.886816+00:00",
     "https://www.huawei.com/en/news/2026/10/communications-network-wireless": "2026-10-29T01:15:38.013696+00:00",
@@ -169,6 +171,7 @@
     "https://www.phoronix.com/news/Auto-Vectorize-RISC-V-Kernel": "2026-10-11T11:37:08.824229+00:00",
     "https://www.phoronix.com/news/Beeper-In-Kernel-Parsing-eBPF": "2026-10-27T11:02:26.672421+00:00",
     "https://www.phoronix.com/news/Boost-Recently-Busy-CPUs": "2026-10-07T01:01:57.012881+00:00",
+    "https://www.phoronix.com/news/CUDA-Oxide-0.3": "2026-10-31T11:15:22.551414+00:00",
     "https://www.phoronix.com/news/DMA-BUF-IO-uring-Linux-7.4": "2026-10-28T00:46:21.169893+00:00",
     "https://www.phoronix.com/news/Drgn-0.3-Released": "2026-10-11T11:37:08.824229+00:00",
     "https://www.phoronix.com/news/F2FS-Linux-7.4": "2026-10-30T01:24:44.649656+00:00",
@@ -195,6 +198,7 @@
     "https://www.phoronix.com/news/Linux-7.4-Apple-Device-Trees": "2026-10-03T00:45:17.081177+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Block": "2026-10-25T10:10:08.316819+00:00",
     "https://www.phoronix.com/news/Linux-7.4-CXL": "2026-10-27T00:50:51.993375+00:00",
+    "https://www.phoronix.com/news/Linux-7.4-Ceph": "2026-10-31T11:15:22.551414+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Crypto-Library": "2026-10-22T00:14:37.714250+00:00",
     "https://www.phoronix.com/news/Linux-7.4-EDAC": "2026-10-20T00:41:16.386846+00:00",
     "https://www.phoronix.com/news/Linux-7.4-EXT4": "2026-10-26T11:34:23.964933+00:00",
@@ -559,6 +563,7 @@
     "oai:arXiv.org:2610.37067v1": "2026-10-29T04:16:31.165926+00:00",
     "oai:arXiv.org:2610.37466v1": "2026-10-29T01:15:38.013696+00:00",
     "oai:arXiv.org:2610.37480v1": "2026-10-29T01:15:38.013696+00:00",
+    "oai:arXiv.org:2610.37706v1": "2026-10-31T11:15:22.551414+00:00",
     "oai:arXiv.org:2610.38918v1": "2026-10-30T11:42:20.435734+00:00",
     "oai:arXiv.org:2610.39040v1": "2026-10-31T01:04:35.861546+00:00",
     "oai:arXiv.org:2610.39268v1": "2026-10-31T01:04:35.861546+00:00",
@@ -633,19 +638,6 @@
         "title": "Building Trusted AI Infrastructure"
       },
       "first_seen": "2026-10-30T01:24:44.649656+00:00"
-    },
-    "https://eclypsium.com/?p=18915": {
-      "entry": {
-        "category": "security",
-        "id": "https://eclypsium.com/?p=18915",
-        "link": "https://eclypsium.com/news/cybersecurity-dive-hackers-could-poison-ai-models-by-tampering-with-core-infrastructure/",
-        "relevance": 4,
-        "source": "Eclypsium",
-        "summary": "AI systems rely on a complex web of hardware. Compromising any one component could let adversaries change model weights. \n The post Cybersecurity Dive: Hackers could poison AI models by tampering with core infrastructure appeared first on Eclypsium .",
-        "summary_vi": "AI systems rely on a complex web of hardware. Compromising any one component could let adversaries change model weights. \n The post Cybersecurity Dive: Hackers could poison AI models by tampering with",
-        "title": "Cybersecurity Dive: Hackers could poison AI models by tampering with core infrastructure"
-      },
-      "first_seen": "2026-10-31T01:04:35.861546+00:00"
     },
     "https://linuxgizmos.com/?p=99669": {
       "entry": {
@@ -776,6 +768,19 @@
         "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV"
       },
       "first_seen": "2026-10-30T11:42:20.435734+00:00"
+    },
+    "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html": {
+      "entry": {
+        "category": "security",
+        "id": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+        "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+        "relevance": 3,
+        "source": "The Hacker News",
+        "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\n\nThe web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44",
+        "summary_vi": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\n\nThe web infrastructure and security company said it autonomo",
+        "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%"
+      },
+      "first_seen": "2026-10-31T11:15:22.551414+00:00"
     },
     "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html": {
       "entry": {
@@ -1323,6 +1328,19 @@
       },
       "first_seen": "2026-10-30T11:42:20.435734+00:00"
     },
+    "https://www.reddit.com/r/embedded/t3_1xje3gd": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xje3gd",
+        "link": "https://www.reddit.com/r/embedded/comments/1xje3gd/aipowered_home_appliances_without_the_cloud_will/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "Came across this Arm article about running natural-language interaction locally on microcontrollers: https://developer.arm.com/community/arm-community-blogs/b/ai-blog/posts/how-on-device-ai-makes-home-appliances-easier-to-use How realistic is this for mass-market products? Will we actually see it in everyday appliances, or is this another technology that looks promising but never really takes off? Curious what people think. submitted by /u/Fantastic_Coast_11 [link] [comments]",
+        "summary_vi": "Came across this Arm article about running natural-language interaction locally on microcontrollers: https://developer.arm.com/community/arm-community-blogs/b/ai-blog/posts/how-on-device-ai-makes-home",
+        "title": "AI-powered home appliances without the cloud — will this actually take off?"
+      },
+      "first_seen": "2026-10-31T11:15:22.551414+00:00"
+    },
     "https://www.reddit.com/r/embedded/t3_1xji4bn": {
       "entry": {
         "category": "embedded",
@@ -1374,6 +1392,58 @@
         "title": "Are I2S slot widths limited by something?"
       },
       "first_seen": "2026-10-31T01:04:35.861546+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xjx7ih": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xjx7ih",
+        "link": "https://www.reddit.com/r/embedded/comments/1xjx7ih/made_a_simple_psg_i_guess/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I have a large stock of STC8G1K08A MCUs with the 8051 core and plan to build some projects to use them up. While reading the chip datasheet, I found this MCU supports PWM output, so I decided to turn it into a Programmable Sound Generator. I spent some time writing a simple program with three channels. Each channel can output square waves, triangle waves, sawtooth waves and noise. Amplitude (volume) and frequency are adjustable. It uses normalized mixing, then outputs audio via 8-bit resolution PWM at a 16 kHz audio refresh rate. It is controlled over I2C. The final performance is not perfect, but it works. submitted by /u/ExtensionShoulder457 [link] [comments]",
+        "summary_vi": "I have a large stock of STC8G1K08A MCUs with the 8051 core and plan to build some projects to use them up. While reading the chip datasheet, I found this MCU supports PWM output, so I decided to turn ",
+        "title": "Made a simple PSG (I guess)"
+      },
+      "first_seen": "2026-10-31T11:15:22.551414+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xjzybv": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xjzybv",
+        "link": "https://www.reddit.com/r/embedded/comments/1xjzybv/i_built_an_opensource_webrtc_platform_for/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "My original idea was to build a drone that friends could watch and take turns flying. It still hasn’t flown (regulations, life), so I’m exploring the same setup for ground robots. Longer term, I’d like to record sessions for training and let an AI model join the room as another operator. pi-webrtc is a single binary that streams a camera from a Raspberry Pi or Jetson to a browser over WebRTC, and carries control messages back to the device over DataChannel. It uses the hardware encoder, achieves sub-100ms latency on LAN, and works remotely over WiFi, LTE, or 5G without a public IP (signaling over MQTT). It's open source, and I'd love to hear feedback, especially from anyone working on remote robotics, teleoperation, or WebRTC. GitHub: https://github.com/mazupo/pi-webrtc submitted by /u/Decent-Lime-9185 [link] [comments]",
+        "summary_vi": "My original idea was to build a drone that friends could watch and take turns flying. It still hasn’t flown (regulations, life), so I’m exploring the same setup for ground robots. Longer term, I’d lik",
+        "title": "I built an open-source WebRTC platform for streaming and controlling robots remotely"
+      },
+      "first_seen": "2026-10-31T11:15:22.551414+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xk0as8": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xk0as8",
+        "link": "https://www.reddit.com/r/embedded/comments/1xk0as8/anyone_know_how_to_setup_pico_as_a_programmer_for/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "anyone know how to setup pico as a programmer for EN25QH16B flash? submitted by /u/desk010101 [link] [comments]",
+        "summary_vi": "anyone know how to setup pico as a programmer for EN25QH16B flash? submitted by /u/desk010101 [link] [comments]",
+        "title": "anyone know how to setup pico as a programmer for EN25QH16B flash?"
+      },
+      "first_seen": "2026-10-31T11:15:22.551414+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xk6713": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xk6713",
+        "link": "https://www.reddit.com/r/embedded/comments/1xk6713/title_electronics_engineer_trying_to_transition/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "Hi everyone! I’m an EEE graduate currently working in a defence electronics company. I joined with the intention of building a career in electronics design, but unfortunately, my role gradually shifted towards procurement and inventory management. I feel like I’m losing touch with the technical side of engineering, and I don’t want that to define my career. I’ve decided to rebuild my fundamentals and work towards Embedded Systems. I’m currently learning: Digital Electronics C programming Computer Architecture I also own an STM32F407VGT6 Discovery board and plan to learn STM32, bare-metal programming, RTOS and eventually Embedded Linux. My biggest struggles are pointers, memory management and solving C problems independently. Sometimes even basic concepts take me hours to understand. I work full-time, so I’m trying to figure out how to make consistent progress without burning out. I’d love advice from experienced engineers: Am I following the right learning path? How good should my C programming be before starting STM32? What skills do companies expect from an entry-level embedded engineer? Is transitioning back into core engineering realistic with my background? I don’t want to just follow tutorials and make LEDs blink. I want to understand the fundamentals and become an engineer who can build and debug things independently. If you were starting over in my position, what would you do? Honest advice is welcome! submitted by /u/Bubbly-Sky7339 [link] [comments]",
+        "summary_vi": "Hi everyone! I’m an EEE graduate currently working in a defence electronics company. I joined with the intention of building a career in electronics design, but unfortunately, my role gradually shifte",
+        "title": "Title: Electronics Engineer trying to transition into Embedded Systems – Struggling with fundamentals, C programming and knowing where to start. Need advice from experienced engineers."
+      },
+      "first_seen": "2026-10-31T11:15:22.551414+00:00"
     },
     "https://www.sigarch.org/?p=116520": {
       "entry": {
@@ -2037,19 +2107,6 @@
         "title": "SLICE-CiM: Selective Layer-wise Inference Control Engine with Confidence-Based Early Exit for SRAM based Digital Compute-in-Memory"
       },
       "first_seen": "2026-10-29T01:15:38.013696+00:00"
-    },
-    "oai:arXiv.org:2610.37706v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2610.37706v1",
-        "link": "https://arxiv.org/abs/2610.37706",
-        "relevance": 4,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2610.37706v1 Announce Type: new \nAbstract: Recent advances in large language models (LLMs) have improved Verilog generation. However, most training pipelines distill natural-language reasoning traces whose intermediate design decisions are weakly structured and are primarily selected according to the correctness of the final generated RTL. We present MCTS-SFT, a verifier-guided framework for curating reasoning traces for supervised fine-tuning (SFT) of Verilog generation models. MCTS-SFT formulates trace construction as search over intermediate reasoning states and uses Monte Carlo Tree Search (MCTS) to propagate functional feedback from complete Verilog rollouts to earlier design decisions. Within this framework, we introduce Plan-MCTS, which searches over compact hardware-design plans that explicitly represent interfaces, timing, state, behavior, and update rules. We further study plan-preserving supervision, in which the searched structured state is retained as part of the downstream SFT target. Our experiments find that Plan-MCTS achieves the highest functional trace yield, with 84.2% correct traces compared with 81.9% for one-shot structured planning and 82.0% for unguided tree exploration. For identical Plan-MCTS trajectories and Verilog outputs, retaining the explicit searched plan during SFT raises pass@10 from 52.56% to 57.7%, demonstrating that the representation of intermediate design decisions materially affects downstream learning. In a separate 6,000-trace study, MCTS-curated supervision improves pass@10 over full-response chain-of-thought distillation by up to 3.7 points while reducing downstream generation length by approximately 50% on VerilogEval-v2. These results demonstrate that structured hardware planning, verifier-guided search, and explicit intermediate-state supervision provide complementary mechanisms for constructing more effective and token-efficient training data for Verilog generation.",
-        "summary_vi": "arXiv:2610.37706v1 Announce Type: new \nAbstract: Recent advances in large language models (LLMs) have improved Verilog generation. However, most training pipelines distill natural-language reasoning t",
-        "title": "Search-Guided Reasoning Trace Curation for Verilog Generation"
-      },
-      "first_seen": "2026-10-30T11:42:20.435734+00:00"
     },
     "oai:arXiv.org:2610.37710v1": {
       "entry": {
@@ -2779,6 +2836,7 @@
     "https://lwn.net/Articles/1103212/": "2026-10-28T00:46:21.169893+00:00",
     "https://lwn.net/Articles/1103357/": "2026-10-29T01:15:38.013696+00:00",
     "https://lwn.net/Articles/1103666/": "2026-10-30T01:24:44.649656+00:00",
+    "https://lwn.net/Articles/1104174/": "2026-10-31T11:15:22.551414+00:00",
     "https://lwn.net/Articles/1104210/": "2026-10-31T01:04:35.861546+00:00",
     "https://rcrwireless.com/?p=434790": "2026-10-03T00:45:17.081177+00:00",
     "https://rcrwireless.com/?p=434801": "2026-10-06T01:55:08.067921+00:00",
@@ -2840,7 +2898,9 @@
     "https://spectrum.ieee.org/faa-aviation-airwaves": "2026-10-28T11:41:08.830280+00:00",
     "https://spectrum.ieee.org/zblan-fiber-optic-cables-iss": "2026-10-27T00:50:51.993375+00:00",
     "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html": "2026-10-30T01:24:44.649656+00:00",
+    "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html": "2026-10-31T11:15:22.551414+00:00",
     "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html": "2026-10-29T11:49:06.816281+00:00",
+    "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html": "2026-10-31T11:15:22.551414+00:00",
     "https://thehackernews.com/2026/10/binance-suffers-security-breach.html": "2026-10-30T11:42:20.435734+00:00",
     "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html": "2026-10-31T01:04:35.861546+00:00",
     "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html": "2026-10-30T01:24:44.649656+00:00",
@@ -2849,6 +2909,7 @@
     "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html": "2026-10-30T11:42:20.435734+00:00",
     "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html": "2026-10-29T04:16:31.165926+00:00",
     "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html": "2026-10-29T04:16:31.165926+00:00",
+    "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html": "2026-10-31T11:15:22.551414+00:00",
     "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html": "2026-10-30T01:24:44.649656+00:00",
     "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html": "2026-10-29T04:16:31.165926+00:00",
     "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html": "2026-10-31T01:04:35.861546+00:00",
@@ -2935,6 +2996,7 @@
     "https://www.phoronix.com/news/Cloud-Hypervisor-54": "2026-10-14T10:38:07.145690+00:00",
     "https://www.phoronix.com/news/Coreboot-26.09-Released": "2026-10-02T11:23:39.558422+00:00",
     "https://www.phoronix.com/news/Corsair-Novablade-Pro-Linux-7.3": "2026-10-11T11:37:08.824229+00:00",
+    "https://www.phoronix.com/news/DXVK-NVAPI-0.9.3": "2026-10-31T11:15:22.551414+00:00",
     "https://www.phoronix.com/news/Darrick-Wong-Step-Back-23-Years": "2026-10-16T23:54:14.734784+00:00",
     "https://www.phoronix.com/news/Dasharo-0.9-ASRock-SPC741D8": "2026-10-15T23:54:14.069902+00:00",
     "https://www.phoronix.com/news/EXT4-Deprecates-Journal-Mode": "2026-10-09T01:28:13.470643+00:00",
@@ -2952,6 +3014,7 @@
     "https://www.phoronix.com/news/Framework-More-CachyOS": "2026-10-15T00:07:44.827060+00:00",
     "https://www.phoronix.com/news/FreeType-2.15-Released": "2026-10-13T02:44:05.425689+00:00",
     "https://www.phoronix.com/news/Fwupd-To-Android-Integration": "2026-10-21T10:36:54.456279+00:00",
+    "https://www.phoronix.com/news/GNOME-Establishes-RFC": "2026-10-31T11:15:22.551414+00:00",
     "https://www.phoronix.com/news/GNOME-Moose-0.6-AI": "2026-10-17T23:25:45.625725+00:00",
     "https://www.phoronix.com/news/GNOME-Moose-Local-AI": "2026-10-04T00:03:15.008562+00:00",
     "https://www.phoronix.com/news/GNOME-OS-Preview": "2026-10-16T23:54:14.734784+00:00",
@@ -2981,6 +3044,7 @@
     "https://www.phoronix.com/news/KDE-Plasma-6.8-Released": "2026-10-14T10:38:07.145690+00:00",
     "https://www.phoronix.com/news/KDE-Plasma-6.8-Tiled-Windows": "2026-10-03T10:38:27.442783+00:00",
     "https://www.phoronix.com/news/KDE-Plasma-6.8.2": "2026-10-28T11:41:08.830280+00:00",
+    "https://www.phoronix.com/news/KDE-Plasma-6.9-More-Performance": "2026-10-31T11:15:22.551414+00:00",
     "https://www.phoronix.com/news/KDE-Plasma-6.9-Wayland-PiP": "2026-10-24T09:48:53.438495+00:00",
     "https://www.phoronix.com/news/KDE-Plasma-6.9-Weather-Keyboard": "2026-10-18T09:55:04.003324+00:00",
     "https://www.phoronix.com/news/KMSCON-10.1-Released": "2026-10-27T00:50:51.993375+00:00",
