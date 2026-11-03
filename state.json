@@ -132,6 +132,7 @@
     "https://rcrwireless.com/?p=435837": "2026-10-30T01:24:44.649656+00:00",
     "https://rcrwireless.com/?p=435845": "2026-11-03T03:07:33.506203+00:00",
     "https://rcrwireless.com/?p=435851": "2026-11-02T13:55:07.841963+00:00",
+    "https://rcrwireless.com/?p=435866": "2026-11-03T13:02:11.696372+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/rdna-fp16-gemm/README.html": "2026-10-16T23:54:14.734784+00:00",
     "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone": "2026-10-28T00:46:21.169893+00:00",
     "https://spectrum.ieee.org/high-altitude-platform-station": "2026-10-15T23:54:14.069902+00:00",
@@ -142,6 +143,7 @@
     "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html": "2026-10-31T01:04:35.861546+00:00",
     "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html": "2026-11-01T12:03:06.789682+00:00",
     "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html": "2026-11-03T03:07:33.506203+00:00",
+    "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html": "2026-11-03T13:02:11.696372+00:00",
     "https://www.cnx-software.com/?p=175484": "2026-10-07T01:01:04.434173+00:00",
     "https://www.cnx-software.com/?p=176672": "2026-10-07T01:01:04.434173+00:00",
     "https://www.cnx-software.com/?p=176691": "2026-10-07T01:01:04.434173+00:00",
@@ -152,7 +154,6 @@
     "https://www.cnx-software.com/?p=176801": "2026-10-07T01:01:04.434173+00:00",
     "https://www.cnx-software.com/?p=176819": "2026-10-07T01:01:04.434173+00:00",
     "https://www.cnx-software.com/?p=177739": "2026-10-08T01:20:40.258601+00:00",
-    "https://www.cnx-software.com/?p=177928": "2026-10-04T11:18:30.736596+00:00",
     "https://www.cnx-software.com/?p=178070": "2026-10-14T00:37:17.101304+00:00",
     "https://www.cnx-software.com/?p=178083": "2026-10-10T11:23:32.463986+00:00",
     "https://www.cnx-software.com/?p=178133": "2026-10-11T11:37:08.824229+00:00",
@@ -168,7 +169,6 @@
     "https://www.phoronix.com/news/AMD-Rust-Deep-Into-GPU-Stack": "2026-10-07T01:01:04.434173+00:00",
     "https://www.phoronix.com/news/AMD-Zen-6-BTB-CTX-Linux-7.4": "2026-10-06T01:55:08.067921+00:00",
     "https://www.phoronix.com/news/AMD-Zen-6-BTB-Linux-7.4-Merged": "2026-10-22T10:40:49.740733+00:00",
-    "https://www.phoronix.com/news/ARM64-Linux-TLBI-Domains": "2026-10-04T11:18:30.736596+00:00",
     "https://www.phoronix.com/news/Amazon-Linux-2027-Preview": "2026-10-07T01:01:04.434173+00:00",
     "https://www.phoronix.com/news/Apple-A18-Pro-MacBook-Neo-Patch": "2026-10-07T01:01:04.434173+00:00",
     "https://www.phoronix.com/news/Asterinas-0.19-Released": "2026-10-14T00:37:17.101304+00:00",
@@ -234,13 +234,11 @@
     "https://www.phoronix.com/news/Linux-Considers-Dropping--KGDB": "2026-10-29T01:15:38.013696+00:00",
     "https://www.phoronix.com/news/Linux-Hibernation-With-Lockdown": "2026-10-09T12:07:21.302578+00:00",
     "https://www.phoronix.com/news/Linux-MGLRU-FG-Patches": "2026-10-05T00:10:30.939245+00:00",
-    "https://www.phoronix.com/news/Linux-MONAKA-CPU-Workarounds": "2026-10-04T11:18:30.736596+00:00",
     "https://www.phoronix.com/news/Linux-Provenance-Time-PTIME": "2026-10-29T04:16:31.165926+00:00",
     "https://www.phoronix.com/news/Linux-Shutdown-Async-21": "2026-10-07T01:01:04.434173+00:00",
     "https://www.phoronix.com/news/Linux-WA-TLBI-Erratum-1718": "2026-10-12T00:47:21.124571+00:00",
     "https://www.phoronix.com/news/MS-Paravirt-Hyper-V-IOMMU": "2026-10-12T00:47:21.124571+00:00",
     "https://www.phoronix.com/news/Mir-2.29-Released": "2026-10-07T01:01:04.434173+00:00",
-    "https://www.phoronix.com/news/More-AMDGPU-Linux-7.4": "2026-10-04T11:18:30.736596+00:00",
     "https://www.phoronix.com/news/NVIDIA-Hugging-Face": "2026-10-07T01:01:04.434173+00:00",
     "https://www.phoronix.com/news/NVIDIA-Nova-vGPU-Manager": "2026-10-07T01:01:04.434173+00:00",
     "https://www.phoronix.com/news/NetworkManager-AI-Canary": "2026-10-07T01:01:04.434173+00:00",
@@ -299,6 +297,7 @@
     "https://www.reddit.com/r/embedded/t3_1xjx7ih": "2026-11-01T00:26:52.886150+00:00",
     "https://www.reddit.com/r/embedded/t3_1xknuze": "2026-11-01T12:03:06.789682+00:00",
     "https://www.reddit.com/r/embedded/t3_1xloafw": "2026-11-03T03:07:33.506203+00:00",
+    "https://www.reddit.com/r/embedded/t3_1xmjjlq": "2026-11-03T13:02:11.696372+00:00",
     "https://www.redhat.com/en/blog/5-minute-demo-devsecops-red-hat-openshift-speed-application-delivery": "2026-10-20T00:41:16.386846+00:00",
     "https://www.redhat.com/en/blog/actionable-disconnected-cluster-analysis-available-now-pen-drive-powered-red-hat-lightspeed": "2026-10-09T12:07:21.302578+00:00",
     "https://www.redhat.com/en/blog/advancing-netops-code-strategic-momentum-enhanced-security-and-multimode-automation": "2026-10-15T10:19:36.277492+00:00",
@@ -405,7 +404,6 @@
     "oai:arXiv.org:2609.04058v1": "2026-10-07T01:01:04.434173+00:00",
     "oai:arXiv.org:2609.12276v2": "2026-10-08T12:16:35.137792+00:00",
     "oai:arXiv.org:2609.22314v2": "2026-10-09T01:28:13.470643+00:00",
-    "oai:arXiv.org:2609.38868v1": "2026-10-04T11:18:30.736596+00:00",
     "oai:arXiv.org:2610.00510v1": "2026-10-05T00:10:30.939245+00:00",
     "oai:arXiv.org:2610.00752v1": "2026-10-05T00:10:30.939245+00:00",
     "oai:arXiv.org:2610.02296v1": "2026-10-05T12:40:32.898052+00:00",
@@ -562,6 +560,8 @@
     "oai:arXiv.org:2610.41415v1": "2026-11-02T13:55:07.841963+00:00",
     "oai:arXiv.org:2610.41423v1": "2026-11-02T13:55:07.841963+00:00",
     "oai:arXiv.org:2610.41700v1": "2026-11-03T03:07:33.506203+00:00",
+    "oai:arXiv.org:2611.00002v1": "2026-11-03T13:02:11.696372+00:00",
+    "oai:arXiv.org:2611.00635v1": "2026-11-03T13:02:11.696372+00:00",
     "tag:blogger.com,1999:blog-1834236085756782640.post-4091900366795999234": "2026-10-29T11:49:06.816281+00:00",
     "tag:blogger.com,1999:blog-1834236085756782640.post-4531771362299770475": "2026-10-06T12:14:45.665168+00:00",
     "tag:github.com,2008:Repository/107505869/v1.16.2": "2026-10-07T01:01:04.434173+00:00",
@@ -569,6 +569,19 @@
     "tag:github.com,2008:Repository/184341774/v54.0": "2026-10-14T10:38:07.145690+00:00"
   },
   "pending": {
+    "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/": {
+      "entry": {
+        "category": "security",
+        "id": "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/",
+        "link": "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/",
+        "relevance": 3,
+        "source": "Trail of Bits",
+        "summary": "As millions of Americans vote in today’s U.S. midterms, most will use paper ballots, which are protected by strict chain-of-custody protocols and, in some cases, statistical audits. You may wonder why we still use paper for our elections and voting systems when tasks like banking, tax filing, and document signing have moved away from paper-based legacy systems and become fully electronic. The short answer: security. \n That may come as a surprise to some. After all, cryptography and other security advancements have enabled secure electronic systems for many applications. In fact, cryptography can be used to provide two essential safeguards in elections: keeping (1) individual votes secret while (2) making the final tally independently verifiable. This is exactly the approach of cryptographic protocols like Helios and ElectionGuard . However, Helios intentionally targets lower-risk and lower-coercion settings rather than high-stakes public elections. ElectionGuard, by contrast, is intended for public elections, but not as a replacement for a paper-based system; it is used as a cryptographic layer integrated with traditional voting infrastructure. \n In this blog post, we’ll explain how cryptographic techniques can help protect ballot secrecy and prevent manipulation in electronic voting systems, and explore the limitations of these systems. Although cryptography can strengthen election verifiability and have other strong security properties, it cannot fully replace the security and trust of existing paper ballot systems in general elections. \n The challenges of electronic voting \n The National Academy of Sciences’ excellent 2018 report on election security concludes that electronic ballot return (also known as online voting or internet voting) should not be used in general elections , since “no known technology guarantees the secrecy, security, and verifiability of a marked ballot transmitted over the Internet.” \n The difficulty of this problem makes sense when you consider the strong security guarantees any election system requires: \n \n \n Voter privacy must be maintained, even if a voter has a financial incentive to disclose their vote to a third party. \n \n \n Ballot integrity must be maintained. This becomes especially challenging in the electronic setting because, in general, the voter does not hold a cryptographic identity and cannot sign their ballot cryptographically. Oh, and the electronic voting client and server may be compromised anyway. \n \n \n Voters shouldn’t be able to vote more than once, but this is hard to verify without associating votes with their voters. This becomes even more challenging electronically when, again, voters often lack a digital cryptographic identity. \n \n \n Everyone should be able to trust (and ideally verify) that the election result correctly reflects the voters’ intent. \n \n \n Paper-based voting systems must solve these problems, too. The first three requirements are typically met through standard physical security measures you see in paper ballot election locations: voters identify themselves to polling workers (preventing multiple votes from one person), are given a ballot without their name on it and a secure location to fill it in (protecting voter privacy), and personally hand their ballot to a polling worker and watch as their ballot is submitted for counting (ballot integrity). As with any security controls, there are threats that can compromise these protections; however, compromising them at a nationwide scale is extremely expensive, difficult, and noisy (i.e., detectable) to election observers, making these controls especially effective for large national elections. The final requirement is the most difficult to achieve for paper-based systems, and voters typically have to trust that election workers compute the final tallies honestly, and that chain-of-custody controls coupled with post-election audits would detect any attempt to compromise the election outcome. Cryptography can be used in conjunction with paper-based systems to help strengthen the trust in this final requirement, using what’s known as end-to-end verifiability, as we will explore later in the post. \n Electronic systems introduce an existentially dangerous failure mode not present in modern, sensible paper-based systems: a supply-chain or 0-day vulnerability that can scale across many voting machines and jurisdictions could allow one person to single-handedly control and influence the outcome of an election (and, depending on the system and exact vulnerability, possibly while evading detection). In traditional paper-based systems, this risk is sharply constrained by independent physical records and physical security controls. It’s much more difficult for a single person to meaningfully change an election’s outcome while evading detection in this system. \n Software security alone is not enough to secure electronic voting systems, though; the key design principle is not only to implement robust security controls but also to design your system so that all failures of those controls are detectable. This can’t be solved only using software whose correctness must be trusted. This property is known as software independence : changes in the election outcome caused by changes or errors (or vulnerabilities) in voting software must be detectable. In practice, this is typically achieved using evidence that can be verified independently of the voting software, such as a paper ballot audit trail. \n Inside the design and cryptographic safeguards of electronic voting systems \n Now that we’ve introduced the challenges of electronic voting, let’s explore how modern system designs aim to address them. We will focus our discussion on two electronic voting systems in particular: Helios and ElectionGuard. Helios is a complete voting protocol that targets low-stakes elections where coercion is not a concern. Famously, it is used by the International Association for Cryptologic Research to elect its board of directors . ElectionGuard aims to provide end-to-end verifiability on top of existing election infrastructure, and has been tested alongside systems based on paper ballots in College Park Maryland , Preston Idaho , and Fulton Wisconsin . Let’s look at how these systems use cryptography to provide voter privacy, ballot integrity, and end-to-end verifiability. \n Protecting voter privacy \n Encryption is a natural choice to preserve voter privacy and ensure that cast votes cannot be read by anyone else: by having the voting client encrypt ballots before they are returned, we protect them from being read in transit. But who controls the key we encrypt to? If we encrypt ballots to a public key controlled by the backend server, it could just decrypt each ballot when it is received, which would immediately reveal how users voted. (Even if the ballot is sent anonymously, the backend would still know how users at a particular voting station voted; it would just not be able to associate individual ballots with the corresponding voters.) \n One way of solving this problem is to threshold-share the keypair used for encryption, and split the private key between $N$ trusted election officials. This means that a predetermined quorum $t+1\\ \\leq N$ of the trustees have to be involved in order to decrypt ciphertexts. Using a homomorphic encryption scheme offers further protection for individual encrypted ballots: it allows the backend to compute an encrypted tally from the encrypted votes and only decrypt the final result. As long as $N-t$ election officials are honest, this protects the confidentiality of cast votes from the voting client to the inclusion in the final tally 1 . \n \n \n \n ${{E}_{K}({x}_{1}+\\ \\ldots \\ +{x}_{N})\\ ={E}_{K}({x}_{1})\\ \\oplus \\ \\ldots \\ \\oplus {E}_{K}({x}_{N})}_{}$ \n \n \n \n \n \n With homomorphic encryption, the server can compute the encryption of the sum of the individual votes ${x}_{i}$ as the sum of the encrypted votes ${E}_{K}({x}_{i})$. \n Schemes like Helios and ElectionGuard use a version of exponential ElGamal to encrypt individual choices on the ballot 2 . If the threshold-shared election key is $K\\ =\\ {g}^{k}$, the choice $x$ is encrypted as ${E}_{K}(x)\\ =\\ ({g}^{r},\\ {K}^{r}{g}^{x})$, where $r$ is a random scalar. This scheme is additively homomorphic using pointwise multiplication of ciphertexts, as shown below. \n \n \n \n ${E}_{K}(x)\\ \\oplus {E}_{K}(y)\\ {=}_{}({g}^{r}{\\cdot g}^{s},{K}^{r}{g}^{x}\\cdot {K}^{s}{g}^{y})\\ =\\ ({g}^{r+s},\\ {K}^{r+s}{g}^{x+y})={E}_{K}(x+y)$ \n \n \n \n \n \n Exponential ElGamal is additively homomorphic if we define $\\oplus$ as pointwise multiplication of ciphertexts. \n Note that decryption yields ${g}^{x}$ rather than $x$, which is typically hard to invert. However, since $x$ is comparatively small in this case, we can use brute force (or tables) to recover the exponent. \n As an example, if we use 0 to indicate No and 1 to indicate Yes , we can compute the number of Yes -votes by summing the individual encrypted votes as described above, and then decrypting the encrypted tally to reveal the result. However, if we don’t ensure that individual ciphertexts are well-formed, a compromised client could simply encrypt the value 1,000,000 to vote Yes a million times. To prevent this, clients must include a zero-knowledge proof ensuring that the encrypted ballot contains a permitted value (or a permitted combination of values). \n Protecting against a compromised voting client \n What if the voting client is hacked and alters the voters’ choices before they are encrypted, or drops the ballot completely? To protect against client compromise, the voter needs a way to ensure that the backend received their ballot, and that the choices recorded and encrypted by the software client correspond to how they actually voted. \n This can be achieved in different ways. Helios and ElectionGuard use a mechanism known as Benaloh’s challenge method . The underlying idea is that when the ballot is encrypted, the voter obtains a commitment to the encrypted ballot and is then allowed to challenge and spoil their ballot. If they do, the ballot is opened and the voter can verify that their choices were recorded correctly and that the commitment corresponds to the encrypted ballot. The device has to reveal the commitment to the voter before learning whether or not the voter wants to challenge the encrypted ballot. Otherwise, it could present a correct commitment only when it is challenged. Moreover, it must be possible to obtain some external validation that the committed ciphertext actually encrypts the voter’s intended choices. Otherwise, the voting client can simply lie and present a plaintext that doesn’t match the commitment. \n When the voter is satisfied that the voting client records their choices honestly, they record their choices one last time and cast their ballot, which is then published to a public bulletin board. The voter can use their commitment to check that their encrypted ballot is included in the published election record. \n While this protocol provides a method to detect a compromised voting client that tampers with the voter’s choices or drops ballots, it still requires that a significant portion of voters exercise the mechanism in order to ensure that compromised clients are detected with high-enough probability 3 . Moreover, it does not protect against other types of compromise, like a voting client surreptitiously sending the voter’s plaintext ballot to a third-party server. \n Additional issues must be solved in order for this method to be secure. One is the problem of voter authentication: how does the voting client ensure that the voter is eligible to vote, and how do we ensure that only one vote is cast? Additionally, there is the previously mentioned problem of coercion: how do we protect voters from being strong-armed into voting for a specific candidate or issue when voting stations may be spread out all over the world? \n Authenticating voters is generally a difficult problem in countries (like the U.S.) that do not have a widely used national ID. However, there are options available for specific groups of voters. For example, some voting systems designed for overseas military voters use the Common Access Card to allow service members to identify themselves. Protecting voters against coercion typically requires that voters are able to vote without being supervised, which seems like a difficult problem to solve using cryptography. \n Protecting against a compromised backend \n What if the backend server is faulty or compromised by an attacker? With encryption, the backend aggregates the encrypted votes into an election record, computes the encrypted final tally over the encrypted votes, and then lets election officials decrypt the result. Encryption protects voter privacy, but it doesn’t stop the server from dropping, altering, or injecting votes into the election record. How could we allow voters to verify that this did not happen? \n If the election record is public (and we can ensure that everyone shares a consistent view of it), voters can verify that their encrypted vote is included in the record using their commitment to their encrypted ballot, as described above. This provides a mechanism to detect a compromised server which attempts to drop or alter votes. Again, we need to rely on active participation from many voters to ensure that a compromise is detected, since a voter can only detect if their individual ballot has been dropped or tampered with. \n ElectionGuard extends this idea to allow voters to detect a change in any of the ballots cast before theirs by chaining ballot commitments generated on the same device. Without chaining, the commitment is essentially computed as a hash of the voter’s encrypted ballot. With chaining, ballot commitments are chained as follows: \n \n \n \n ${c}_{1}=H({c}_{0}\\ ,\\ {B}_{1})$ ${c}_{2}=H({c}_{1}\\ ,\\ {B}_{2})$ ${c}_{3}=H({c}_{2\\ },\\ {B}_{3})$ $\\vdots$ \n \n \n \n \n \n When ballot commitments are computed as a chain, the hash chain is published together with the election record. Here, ${B}_{i}$ is voter $i$’s encrypted ballot. \n This means that any changes are propagated forward, allowing voters to detect tampering with earlier votes cast using the same voting client. \n Detecting a compromised server that injects additional votes is more difficult and usually requires external data, like voter participation records, to solve. It is not enough to associate encrypted ballots with voter identities, since a malicious server could pad the election record with ballots corresponding to abstaining voters. \n Once the election record is trusted, it is possible to use zero-knowledge proofs to verify that the final result is computed correctly from the published election record. Since anyone can compute the encrypted tally from the election record, we only need to prove that the final aggregate ciphertext was decrypted correctly. \n What cryptography solves that paper ballots can’t do alone: end-to-end verifiability \n Recall our fourth requirement for election systems, which we admitted was most difficult to achieve for paper-based systems: Everyone should be able to trust (and ideally verify) that the election result correctly reflects the voters’ intent. \n This requirement is usually formalized in terms of end-to-end verifiability , which means that the following should be possible: \n \n Each voter should be able to verify that their choices have been correctly recorded. \n Anyone should be able to verify that the final tally is computed correctly from the election record. \n \n Taken together, these two mechanisms allow voters to independently verify that their vote contributed to the election outcome, without relying on a particular piece of software or hardware (which may be hacked), or external observers (who may not be trustworthy). This property isn’t achievable in exclusively paper-based election systems without introducing some level of trust in humans/institutions overseeing the election. For example, without trusting anyone, how do you know what happens to your paper ballot after you and your vote both leave the voting location? The reason you won’t know this in an exclusively paper-based system is simple: in order to protect vote secrecy, when you submit your ballot to be counted with the other ballots, you intentionally break the link between your identity and your ballot. \n Well, using cryptography, you can introduce a mechanism to verify that a cryptographic representation of your vote was included in the election record while still preserving voter privacy! This mechanism is exactly what was described above: encrypt the ballots and publish them to a public bulletin so that voters can privately check that their vote was both included and not tampered with. This allows you to enhance trust in existing paper-based election systems without compromising their security properties. This is the exact design choice behind ElectionGuard. \n We won’t be replacing paper ballots any time soon \n Helios and ElectionGuard both build on the ideas outlined above, but their use cases differ. Helios explicitly targets settings with low coercion risk and advises against use in high-stakes public elections. ElectionGuard, on the other hand, is built to provide end-to-end verifiability on top of an existing paper-based voting system. Neither protocol makes a general claim to solve the problem of electronic voting because neither achieves the security of status quo paper-based systems purely electronically. \n There is widespread agreement among experts on election security that paper ballots are essential for protecting the security and integrity of general elections, and that likely will not change anytime soon. However, cryptographic techniques like the ones described in this post can still be used alongside paper ballots to improve trust in the election outcome by improving the result’s public verifiability and auditability. \n If you’re using cryptography to build a new voting system, please reach out . We want to hear about it! \n \n \n \n \n A higher threshold is not always better. Helios requiring all trustees to participate to decrypt the election result caused the IACR to have to rerun their 2025 election after it found that one of the trustees had inadvertently lost their share of the key .  ↩︎ \n \n \n Helios and ElectionGuard differ slightly in how they implement encryption. Here, we describe the method used in Helios since it’s closer to standard ElGamal.  ↩︎ \n \n \n As an example, if a compromised voting client tampers with 1000 votes, and voters challenge one encrypted vote in one hundred on average, the probability of the attack remaining undetected would be 0.991000 ≈ 4.3 ∙10-5. However, it is also important to consider what recourse a voter has if tampering is detected. This determines whether they are apt to raise concerns, or simply shrug their shoulders and try again.  ↩︎",
+        "summary_vi": "As millions of Americans vote in today’s U.S. midterms, most will use paper ballots, which are protected by strict chain-of-custody protocols and, in some cases, statistical audits. You may wonder why",
+        "title": "The cryptography behind electronic voting (and why paper ballots are still essential)"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
     "https://linuxgizmos.com/?p=99704": {
       "entry": {
         "category": "embedded",
@@ -608,19 +621,6 @@
       },
       "first_seen": "2026-11-01T00:26:52.886150+00:00"
     },
-    "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html": {
-      "entry": {
-        "category": "security",
-        "id": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-        "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-        "relevance": 3,
-        "source": "The Hacker News",
-        "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\n\nThe web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44",
-        "summary_vi": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\n\nThe web infrastructure and security company said it autonomo",
-        "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%"
-      },
-      "first_seen": "2026-10-31T11:15:22.551414+00:00"
-    },
     "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html": {
       "entry": {
         "category": "security",
@@ -633,6 +633,45 @@
         "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts"
       },
       "first_seen": "2026-11-02T13:55:07.841963+00:00"
+    },
+    "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html": {
+      "entry": {
+        "category": "security",
+        "id": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+        "link": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+        "relevance": 3,
+        "source": "The Hacker News",
+        "summary": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks.\n\nThe Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM.\n\n\"These attacks aim to encrypt data and extort ransom,\" it said in a statement",
+        "summary_vi": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks.\n\nThe Taiwanese vendor said it observed t",
+        "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html": {
+      "entry": {
+        "category": "security",
+        "id": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+        "link": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+        "relevance": 3,
+        "source": "The Hacker News",
+        "summary": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue. Gartner®’s report on exposure prioritization states that fewer than 10% of vulnerabilities are exploited, yet most are treated as urgent. The report also argues",
+        "summary_vi": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk e",
+        "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "https://www.cnx-software.com/?p=178752": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.cnx-software.com/?p=178752",
+        "link": "https://www.cnx-software.com/2026/11/03/seeed-studio-4-26-mono-and-7-3-color-e-paper-kits-opendisplay-firmware/",
+        "relevance": 4,
+        "source": "CNX Software",
+        "summary": "Seeed Studio has launched two Nordic nRF52840-based Bluetooth LE e-paper kits preloaded with the OpenDisplay open-source firmware for e-paper displays and supporting Home Assistant integration. The OpenDisplay 4.26″ Mono features a 4.26-inch monochrome/grayscale display with 800×480 resolution and partial refresh support, while the OpenDisplay 7.3″ Color Kit is equipped with a 7.3-inch Spectra 6 color e-paper with the same resolution. Both are powered by a 2,000 mAh battery and feature a few buttons for control and reset. Seeed Studio OpenDisplay kits specifications: MCU – Nordic Semi nRF52840 CPU – Arm Cortex-M4F microcontroller @ up to 64 MHz Memory – 256 KB SRAM Storage – 1 MB flash Wireless – Bluetooth LE 5.0, NFC, 802.15.4 connectivity Display OpenDisplay 4.26″ Mono Kit 4.26-inch monochrome ePaper Black and white (default); optional 4-gray mode Partial Refresh – Supported in black-and-white mode only Resolution – 800 × 480 Controller – Seeed XIAO EN05 driver board [...] \n The post Seeed Studio launches 4.26” Mono and 7.3” Color e-Paper kits preloaded with OpenDisplay firmware appeared first on CNX Software - Embedded Systems News .",
+        "summary_vi": "Seeed Studio has launched two Nordic nRF52840-based Bluetooth LE e-paper kits preloaded with the OpenDisplay open-source firmware for e-paper displays and supporting Home Assistant integration. The Op",
+        "title": "Seeed Studio launches 4.26” Mono and 7.3” Color e-Paper kits preloaded with OpenDisplay firmware"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
     },
     "https://www.cnx-software.com/?p=178766": {
       "entry": {
@@ -660,6 +699,19 @@
       },
       "first_seen": "2026-11-02T01:02:32.460847+00:00"
     },
+    "https://www.cnx-software.com/?p=179120": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.cnx-software.com/?p=179120",
+        "link": "https://www.cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385/",
+        "relevance": 3,
+        "source": "CNX Software",
+        "summary": "Raspberry Pi has announced yet another price increase, this time for most models with 16GB of RAM. The Raspberry Pi 5 16GB now sells for $385, an $80 increase compared to the last price hike in April, and the Raspberry Pi CM5 system-on-module gets a $40 increase, starting at $375 for the Lite model without wireless. The “good news” is that the Raspberry Pi 500+ mechanical keyboard PC stays at the same price, starting at $410. I suppose they can afford it on that model, because it’s already richly priced and the demand must be lower than for single board computers and compute modules. Here’s the updated price list for the Compute Module 5 16GB variants. Interestingly, the price is the same whether we get 32GB or 64GB eMMC flash. I still remember people complaining about the $120 launch price of the Raspberry Pi 5 16GB. That was less than [...] \n The post When will this stop? The Raspberry Pi 5 16GB SBC now sells for $385 appeared first on CNX Software - Embedded Systems News .",
+        "summary_vi": "Raspberry Pi has announced yet another price increase, this time for most models with 16GB of RAM. The Raspberry Pi 5 16GB now sells for $385, an $80 increase compared to the last price hike in April,",
+        "title": "When will this stop? The Raspberry Pi 5 16GB SBC now sells for $385"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
     "https://www.phoronix.com/news/FreeRDP-3.33": {
       "entry": {
         "category": "embedded",
@@ -673,6 +725,32 @@
       },
       "first_seen": "2026-11-02T13:55:07.841963+00:00"
     },
+    "https://www.phoronix.com/news/GCC-17-Merges-AVX10V1AUX": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/GCC-17-Merges-AVX10V1AUX",
+        "link": "https://www.phoronix.com/news/GCC-17-Merges-AVX10V1AUX",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "Landing today into the GCC 17 compiler codebase is initial support for AVX10V1AUX as the auxillary updates to AVX10.1 that are out of the cross-vendor AI Compute Extensions \"ACE\" initiative between AMD and Intel...",
+        "summary_vi": "Landing today into the GCC 17 compiler codebase is initial support for AVX10V1AUX as the auxillary updates to AVX10.1 that are out of the cross-vendor AI Compute Extensions \"ACE\" initiative between AM",
+        "title": "GCC 17 Compiler Merges Support For AVX10V1AUX"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "https://www.phoronix.com/news/Intel-Compute-26.40.40196.8": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Intel-Compute-26.40.40196.8",
+        "link": "https://www.phoronix.com/news/Intel-Compute-26.40.40196.8",
+        "relevance": 3,
+        "source": "Phoronix",
+        "summary": "Released today was the Intel Compute Runtime 26.40.40196.8 as the newest version of their open-source GPU compute stack for both Windows and Linux systems...",
+        "summary_vi": "Released today was the Intel Compute Runtime 26.40.40196.8 as the newest version of their open-source GPU compute stack for both Windows and Linux systems...",
+        "title": "Intel Compute Runtime Continues Prepping For GPU D Series, OpenCL LEO for Nova Lake P"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
     "https://www.phoronix.com/news/KDE-Linux-October-2026": {
       "entry": {
         "category": "embedded",
@@ -685,6 +763,19 @@
         "title": "KDE Linux Nearing Its Beta Milestone, Now Ships With NTSYNC By Default"
       },
       "first_seen": "2026-11-02T13:55:07.841963+00:00"
+    },
+    "https://www.phoronix.com/news/Linux-Dropping-Last-MMX-Opt": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Linux-Dropping-Last-MMX-Opt",
+        "link": "https://www.phoronix.com/news/Linux-Dropping-Last-MMX-Opt",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "For what will likely be merged to the Linux 7.5 kernel, the mainline kernel is preparing to drop its last optimization its been carrying for far outdated MMX processors. This affects the likes of Intel Pentium MMX and Pentium II processors running modern software with up-to-date kernels when Linux 7.5 is released in 2027...",
+        "summary_vi": "For what will likely be merged to the Linux 7.5 kernel, the mainline kernel is preparing to drop its last optimization its been carrying for far outdated MMX processors. This affects the likes of Inte",
+        "title": "The Linux Kernel Preparing To Remove The Last Of Its MMX Optimized Code"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
     },
     "https://www.phoronix.com/news/October-2026-Highlights": {
       "entry": {
@@ -724,58 +815,6 @@
         "title": "Raspberry Pi 5 16GB Price Rises To $385 USD"
       },
       "first_seen": "2026-11-02T13:55:07.841963+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1xje3gd": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1xje3gd",
-        "link": "https://www.reddit.com/r/embedded/comments/1xje3gd/aipowered_home_appliances_without_the_cloud_will/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "Came across this Arm article about running natural-language interaction locally on microcontrollers: https://developer.arm.com/community/arm-community-blogs/b/ai-blog/posts/how-on-device-ai-makes-home-appliances-easier-to-use How realistic is this for mass-market products? Will we actually see it in everyday appliances, or is this another technology that looks promising but never really takes off? Curious what people think. submitted by /u/Fantastic_Coast_11 [link] [comments]",
-        "summary_vi": "Came across this Arm article about running natural-language interaction locally on microcontrollers: https://developer.arm.com/community/arm-community-blogs/b/ai-blog/posts/how-on-device-ai-makes-home",
-        "title": "AI-powered home appliances without the cloud — will this actually take off?"
-      },
-      "first_seen": "2026-10-31T11:15:22.551414+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1xjzybv": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1xjzybv",
-        "link": "https://www.reddit.com/r/embedded/comments/1xjzybv/i_built_an_opensource_webrtc_platform_for/",
-        "relevance": 4,
-        "source": "Reddit r/embedded",
-        "summary": "My original idea was to build a drone that friends could watch and take turns flying. It still hasn’t flown (regulations, life), so I’m exploring the same setup for ground robots. Longer term, I’d like to record sessions for training and let an AI model join the room as another operator. pi-webrtc is a single binary that streams a camera from a Raspberry Pi or Jetson to a browser over WebRTC, and carries control messages back to the device over DataChannel. It uses the hardware encoder, achieves sub-100ms latency on LAN, and works remotely over WiFi, LTE, or 5G without a public IP (signaling over MQTT). It's open source, and I'd love to hear feedback, especially from anyone working on remote robotics, teleoperation, or WebRTC. GitHub: https://github.com/mazupo/pi-webrtc submitted by /u/Decent-Lime-9185 [link] [comments]",
-        "summary_vi": "My original idea was to build a drone that friends could watch and take turns flying. It still hasn’t flown (regulations, life), so I’m exploring the same setup for ground robots. Longer term, I’d lik",
-        "title": "I built an open-source WebRTC platform for streaming and controlling robots remotely"
-      },
-      "first_seen": "2026-10-31T11:15:22.551414+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1xk0as8": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1xk0as8",
-        "link": "https://www.reddit.com/r/embedded/comments/1xk0as8/anyone_know_how_to_setup_pico_as_a_programmer_for/",
-        "relevance": 4,
-        "source": "Reddit r/embedded",
-        "summary": "anyone know how to setup pico as a programmer for EN25QH16B flash? submitted by /u/desk010101 [link] [comments]",
-        "summary_vi": "anyone know how to setup pico as a programmer for EN25QH16B flash? submitted by /u/desk010101 [link] [comments]",
-        "title": "anyone know how to setup pico as a programmer for EN25QH16B flash?"
-      },
-      "first_seen": "2026-10-31T11:15:22.551414+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1xk6713": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1xk6713",
-        "link": "https://www.reddit.com/r/embedded/comments/1xk6713/title_electronics_engineer_trying_to_transition/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "Hi everyone! I’m an EEE graduate currently working in a defence electronics company. I joined with the intention of building a career in electronics design, but unfortunately, my role gradually shifted towards procurement and inventory management. I feel like I’m losing touch with the technical side of engineering, and I don’t want that to define my career. I’ve decided to rebuild my fundamentals and work towards Embedded Systems. I’m currently learning: Digital Electronics C programming Computer Architecture I also own an STM32F407VGT6 Discovery board and plan to learn STM32, bare-metal programming, RTOS and eventually Embedded Linux. My biggest struggles are pointers, memory management and solving C problems independently. Sometimes even basic concepts take me hours to understand. I work full-time, so I’m trying to figure out how to make consistent progress without burning out. I’d love advice from experienced engineers: Am I following the right learning path? How good should my C programming be before starting STM32? What skills do companies expect from an entry-level embedded engineer? Is transitioning back into core engineering realistic with my background? I don’t want to just follow tutorials and make LEDs blink. I want to understand the fundamentals and become an engineer who can build and debug things independently. If you were starting over in my position, what would you do? Honest advice is welcome! submitted by /u/Bubbly-Sky7339 [link] [comments]",
-        "summary_vi": "Hi everyone! I’m an EEE graduate currently working in a defence electronics company. I joined with the intention of building a career in electronics design, but unfortunately, my role gradually shifte",
-        "title": "Title: Electronics Engineer trying to transition into Embedded Systems – Struggling with fundamentals, C programming and knowing where to start. Need advice from experienced engineers."
-      },
-      "first_seen": "2026-10-31T11:15:22.551414+00:00"
     },
     "https://www.reddit.com/r/embedded/t3_1xk8o60": {
       "entry": {
@@ -1036,6 +1075,58 @@
         "title": "Extreme Edge NN inference library, 97% Real time MNIST Arduino UNO R3"
       },
       "first_seen": "2026-11-03T03:07:33.506203+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xmix6z": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xmix6z",
+        "link": "https://www.reddit.com/r/embedded/comments/1xmix6z/27mparam_int8_tts_in_122_kb_of_ram_on_an_esp32s3/",
+        "relevance": 5,
+        "source": "Reddit r/embedded",
+        "summary": "I have been working on a steerable TTS, which can change voice based on context. Technical breakdown of getting neural speech synthesis onto a single 240 MHz core: Compute: 0.12 GMAC per second of audio, all int8 (weights and activations) Memory: 2.97 MB of weights stay in flash, memory-mapped; working RAM is 122 KB; no PSRAM Text front end on the device: 1.8 MB of lexicon and rules, plus a small neural G2P for unknown words (about 0.27 s per word) Verification: a Python reference implementation is bit-exact with the firmware, so model changes can be checked off-device Results: RTF 0.66 on 10 s of speech; first audio in 0.35 s; 16 kHz output streamed in chunks UTMOS of 3.8 on openTTS Leaderboard, and WER 0.93 % Video above. Firmware is C for ESP-IDF and Arduino: https://github.com/WhissleAI/steer-tts Model: https://huggingface.co/WhissleAI/steer-tts-nano Happy to answer questions on the flash streaming, the int8 kernels or the memory layout. submitted by /u/Working_Hat5120 [link] [comments]",
+        "summary_vi": "A context-aware TTS system was deployed on ESP32-S3 with int8 quantized weights (2.97 MB) memory-mapped from flash, 122 KB working RAM, and no PSRAM. Computational cost is 0.12 GMAC/sec of audio at 0.66 real-time factor. On-device text frontend uses 1.8 MB lexicon/rules plus a small int8 neural grapheme-to-phoneme model for unknown words (0.27 s latency per word), verified against a Python reference implementation.",
+        "title": "2.7M-param int8 TTS in 122 KB of RAM on an ESP32-S3: weights streamed from flash, 0.66 RTF, no PSRAM"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xmn1w7": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xmn1w7",
+        "link": "https://www.reddit.com/r/embedded/comments/1xmn1w7/i_built_a_new_rtos_for_posix_and_rp2040_from/",
+        "relevance": 5,
+        "source": "Reddit r/embedded",
+        "summary": "Over the past several months, I've occasionally posted here about revisiting CHARM-II, an RTOS I developed for the Motorola 68000 in 1986. What started as an attempt to restore and understand my old code gradually turned into something different: developing a new RTOS using some of the original design ideas, while reconsidering the kernel, APIs, and platform-specific implementation. I've named the new project ”Karqri”, and I've now released its source code under the MIT license: https://github.com/noboru-takahashi/karqri What currently works Karqri has a shared kernel that runs in two environments: POSIX: Cooperative task execution using ucontext , with logical ticks at task checkpoints. Raspberry Pi Pico (RP2040): Preemptive task switching using independent PSP stacks, SVC/PendSV, and hardware timer interrupts. The kernel includes priority-based scheduling, task management, event notifications, and timers. To compare the two implementations, I've created a shared six-task demo. Tasks A–F move along three tracks and coordinate access to a shared critical zone using event notifications. The same workload runs on both platforms, but the scheduling and context-switching mechanisms are different. I've also added automated tests and Pico validation scenarios. The repository includes the source code, build instructions, and validation tools. What I want to explore next Releasing the source is only the first milestone. I'm also interested in making RTOS behavior easier to observe and understand, particularly the timing and causal relationships between task switches, event notifications, waiting, and wakeups. I've started experimenting with capturing Pico execution traces and generating HTML timelines. This is still limited to a specific validation scenario, rather than a general-purpose tracing system. For now, though, I'd especially like to get feedback on the RTOS implementation itself. If you notice any design issues or opportunities for improvement in how the shared kernel and platform-specific code are separated, I'd be interested to hear your thoughts. Previous discussions For context, here are two earlier posts in this community: Recreated a cooperative RTOS track demo from 40 years ago on POSIX Follow-up: Why my 1986 RTOS survived a simplistic interpretation of VRTX scheduling Those discussions helped me reconsider some of the original design assumptions. Karqri is still experimental, and I don't consider it production-ready. I'm publishing it now because I think the next stage of development will benefit from feedback beyond my own experiments. submitted by /u/noborutkhs [link] [comments]",
+        "summary_vi": "The developer created Karqri, a new RTOS for POSIX and RP2040, drawing from design principles developed for CHARM-II (Motorola 68000 in 1986). The project evolved from attempting to restore the 1986 codebase into a complete reimplementation with updated kernel, APIs, and platform-specific support. Source code is released under MIT license and available on GitHub.",
+        "title": "I built a new RTOS for POSIX and RP2040 from ideas I explored in 1986 — source now available"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xms0mg": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xms0mg",
+        "link": "https://www.reddit.com/r/embedded/comments/1xms0mg/standalone_server_for_iot_projects_without_any/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "Hi everyone, I'm currently working on my final year project. My project is about designing and developing a smart solar-powered dryer for agro-processing applications. I do have an ESP32, micro sd card adapter with its micro sd storage card, a 5V relay to control the dryer's fan and a temperature sensor to detect the surrounding temperature. i wanrted to build a standalone server without using any third-party websites and any middleman. The purpose of doing this is to completely protect my data and to get unlimited storage with the storage card I have. And also, I do not want to pay any subscription price to other third-party websites. Many AI models such as ChatGPT, Claude, and Google Gemini suggested the port forwarding method, but I do not want that because the esp32 will be stuck in one place and can't move it anywhere. Also, in simple word, I want it like this. All the information that is collected by the esp32 or the database should be live-streamed on the internet, and anyone can access that database from the internet even if they are not sharing the same wifi as the ESP32. All the information will also be stored on my SD card. This is what I want. Can you guys help me with it? submitted by /u/Free_Examination_370 [link] [comments]",
+        "summary_vi": "Hi everyone, I'm currently working on my final year project. My project is about designing and developing a smart solar-powered dryer for agro-processing applications. I do have an ESP32, micro sd car",
+        "title": "Standalone server for IoT projects without any third-party websites or any middlemen. Is it possible?"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xms2sa": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xms2sa",
+        "link": "https://www.reddit.com/r/embedded/comments/1xms2sa/isolator_boobytrap/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I bought an SWD isolator for an upcoming design that involves a big BLDC motor, figuring I’d like to keep my debug probes, computer and me a bit safer (as if safe means a lot to me!) What I didn’t expect was that my little £3 20 pin to 10-pin 0.05” adapter would short pins 1 and 2 together. It seems these cheap adapter boards often come with ‘creative’ workarounds for other problems that break isolation. Before I go spinning up a fresh PCB that fixes these issues, does anyone have any recommendations for a good adapter board? submitted by /u/DigitalDunc [link] [comments]",
+        "summary_vi": "I bought an SWD isolator for an upcoming design that involves a big BLDC motor, figuring I’d like to keep my debug probes, computer and me a bit safer (as if safe means a lot to me!) What I didn’t exp",
+        "title": "Isolator Boobytrap."
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
     },
     "oai:arXiv.org:2601.19092v3": {
       "entry": {
@@ -1504,6 +1595,305 @@
         "title": "RAMA: Retrieval-Augmented Multi-Agent Routing with Episodic Memory for LEO Satellite Networks"
       },
       "first_seen": "2026-11-03T03:07:33.506203+00:00"
+    },
+    "oai:arXiv.org:2611.00011v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00011v1",
+        "link": "https://arxiv.org/abs/2611.00011",
+        "relevance": 3,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.00011v1 Announce Type: new \nAbstract: Accurate heart rate (HR) and interbeat interval (IBI) estimation from wearable electrocardiogram (ECG) is essential for continuous physiological monitoring, but motion artifacts can create false QRS-like peaks and obscure true R-peaks. Conventional detectors and local interval-repair rules process detections independently and may become unreliable when several consecutive beats are corrupted. We present ARTA (Artifact-Robust Temporal Alignment), a graph-based combinatorial framework that estimates the heartbeat sequence through constrained temporal optimization. ARTA combines candidates from multiple ECG detectors, represents them as nodes in a directed acyclic graph and connects candidates through physiologically plausible RR intervals. Candidate confidence uses detector agreement and local ECG quality, while history-dependent transition costs capture recent IBI consistency and a soft heart-rate prior. Beam-search dynamic programming selects a coherent low-cost path across the recording, suppressing false detections and recovering missed beats when plausible auxiliary candidates are available. On the IEEE Signal Processing Cup exercise dataset with electrode-motion artifacts from -2 to 12 dB, ARTA achieved an HR mean absolute error of 1.79 beats per minute, 54% lower than the strongest single-detector baseline, with 92.38% of windows within +/-5 beats per minute, an R-peak F1 score of 0.95, and an IBI mean absolute error of 6.52 ms. Cross-dataset evaluation on the European ST-T Database further assessed transfer to long clinical ambulatory recordings and a label-free reliability analysis examined conditional performance without using reference annotations for segment selection. ARTA is single-channel, training-free, interpretable and computationally lightweight, operating approximately 27 times faster than real time with peak memory below 2.1 MB in a single-thread CPU simulation.",
+        "summary_vi": "arXiv:2611.00011v1 Announce Type: new \nAbstract: Accurate heart rate (HR) and interbeat interval (IBI) estimation from wearable electrocardiogram (ECG) is essential for continuous physiological monito",
+        "title": "ARTA: Graph Combinatorial Optimization for Robust Interbeat Interval Estimation from Wearable Electrocardiogram Signals"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00051v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00051v1",
+        "link": "https://arxiv.org/abs/2611.00051",
+        "relevance": 3,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2611.00051v1 Announce Type: new \nAbstract: LLM agents execute as long-lived, multi-stage workflows with substantial resource-demand variation across phases. Provisioning each agent or sandbox for its lifetime peak leads to low resource utilization, particularly for memory, whereas aggressive oversubscription risks memory contention, out-of-memory failures, and costly workflow retries. This tension limits the concurrency and efficiency of agent serving under constrained host memory.\n We present TenonAgent, a runtime system that virtualizes sandbox residency by decoupling the logical agent's lifetime from its physical execution environment. To manage memory oversubscription, TenonAgent employs a dual-timescale control plane. At action boundaries, it combines predictive admission control with a fail-closed, restart-safe contract, dynamically materializing or dematerializing sandboxes based on global memory pressure. During active tool execution, a sched_ext-based kernel gate paces sandbox execution permissions to reduce unexpected concurrent memory growth. The gate provides feedback control over future execution opportunities.\n Evaluations across diverse agentic workloads show that, under the tested workloads and parameter settings, TenonAgent substantially reduces observed OOM failures and achieves a 100% task success rate in bursts reaching an 8.6x memory oversubscription ratio. Overall, it delivers up to a 5.5x speedup over unmanaged execution, outperforms existing agent-level and cgroup-based schedulers by 5x to 37x, and provides consistent benefits across both Docker and Firecracker microVM backends.",
+        "summary_vi": "arXiv:2611.00051v1 Announce Type: new \nAbstract: LLM agents execute as long-lived, multi-stage workflows with substantial resource-demand variation across phases. Provisioning each agent or sandbox fo",
+        "title": "TenonAgent: Virtualizing Execution Residency for Memory-Oversubscribed LLM Agents"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00060v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00060v1",
+        "link": "https://arxiv.org/abs/2611.00060",
+        "relevance": 3,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2611.00060v1 Announce Type: new \nAbstract: AI agents now handle a growing share of tasks across sessions within a persistent project. Their behavior depends not only on the model, but heavily on the persistent state they read from the environment. Existing systems assemble this memory at use time, splicing selected files into the prompt as a one-off payload. As a result, per-task assembly is costly and can still miss critical material, failures cannot be traced or replayed, and agents can read documentation written for the wrong version. Our key insight is that what an agent should read is mostly determined by its project, so the selection can be computed once, ahead of time, and reused across tasks.\n We propose Memorix, an agent memory system that realizes this insight. Memorix achieves this via three key mechanisms: (1) an immutable and versioned Store pins every source by identity and reproduces historical layouts cheaply, (2) a View that splits selection (Derivations) from composition (Environment), making the result reproducible and shareable, and (3) Quests and Profiles keep a delivered view refreshable and available inside the project as sources evolve. We implement Memorix and evaluate it on SWE-ContextBench and LibEvolutionEval against mainstream agent memory systems. Precomputed Environments raise resolved rate by up to 1.5X and deliver the correct library version on every version-conditioned task, while cutting amortized cost by up to 100X and build time by up to 38X.",
+        "summary_vi": "arXiv:2611.00060v1 Announce Type: new \nAbstract: AI agents now handle a growing share of tasks across sessions within a persistent project. Their behavior depends not only on the model, but heavily on",
+        "title": "Memorix: Managing Memory Selections for AI Agents"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00282v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00282v1",
+        "link": "https://arxiv.org/abs/2611.00282",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.00282v1 Announce Type: new \nAbstract: Randomized caches protect against side-channel attacks by obfuscating the mapping of memory addresses to cache locations. Existing proposals typically describe architectural behavior, leaving practical hardware implementation challenges largely unexplored. We implement four prominent designs, CEASER-S, ScatterCache, SassCache, and MIRAGE, and integrate them as the last-level cache (LLC) of a multi-core out-of-order RISC-V system-on-chip (SoC). We identify common and design-specific implementation challenges and develop practical solutions. We evaluate complete FPGA implementations by running SPEC CPU 2017 rate and GAPBS workloads to completion, providing, to our knowledge, the first comparative evaluation of these designs on a common full-system hardware platform. Pipelining the index derivation function (IDF) alone is insufficient: in three of the four variants, other components become the frequency bottleneck, reducing frequency by up to 35% relative to the baseline set-associative cache. Redesigning the critical paths while preserving mappings, rekeying, and victim-selection policies brings the three affected variants to no more than 10% below the baseline frequency, at the cost of added latency or reduced concurrency. Increased LLC access latency, rather than additional misses, dominates IPC degradation, reducing instructions per cycle by up to 5% for SPEC and 11% for GAPBS. Hardware overhead depends on the design and implementation technology: FPGA lookup-table usage increases by 10-35%, while ASIC area increases by 1-14%.",
+        "summary_vi": "arXiv:2611.00282v1 Announce Type: new \nAbstract: Randomized caches protect against side-channel attacks by obfuscating the mapping of memory addresses to cache locations. Existing proposals typically ",
+        "title": "Randomized Caches in Hardware: Challenges and Trade-offs"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00292v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00292v1",
+        "link": "https://arxiv.org/abs/2611.00292",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.00292v1 Announce Type: new \nAbstract: Deep neural network (DNN) accelerators for edge inference must meet tight energy, latency, and area (EDP) constraints, and their optimal hardware architecture and dataflow configuration is typically identified through design space exploration (DSE). However, on-chip memory technology including cell type, bank organization, and process node, is rarely treated as a first-class citizen in DSE. For example, increasing memory capacity can reduce memory accesses through greater data reuse, but at the cost of higher area and access energy, thereby limiting the compute units budget. Consequently, memory technology can fundamentally shift the optimal accelerator architecture for a given area and EDP budget. Existing machine learning (ML)-based DSE methods require repeating simulation, data generation, and model training for each new memory technology. We present TADA, a memory technology-aware DNN accelerator performance and energy estimator that predicts system latency and energy for a given workload, hardware configuration, and memory technology. TADA is trained on a synthetic dataset that generalizes across memory technologies. The dataset spans current and future technology trends while enforcing physics-based guardrails to preserve realistic area-energy trade-offs. Each memory technology is represented by a technology signature, a vector of read energy, write energy, and storage capacity across a range of areas, provided as input alongside the workload and hardware configuration. Across 21 unseen technology curves spanning SRAM, STTRAM, ReRAM, PCM, FeFET, eDRAM, and CTT, TADA predicts system energy and latency with 1.5-4.4% and 0.7-1.2% mean absolute percentage error, respectively. In three pairwise case studies, it matches the simulator-selected memory technology at 98.7-100% of area budgets, with a mean EDP loss of at most 0.21%, while achieving over 10^4x higher evaluation throughput.",
+        "summary_vi": "arXiv:2611.00292v1 Announce Type: new \nAbstract: Deep neural network (DNN) accelerators for edge inference must meet tight energy, latency, and area (EDP) constraints, and their optimal hardware archi",
+        "title": "TADA: Technology Aware DNN Accelerator Performance and Energy Estimator"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00332v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00332v1",
+        "link": "https://arxiv.org/abs/2611.00332",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.00332v1 Announce Type: new \nAbstract: AI-enabled wireless networks have emerged as vital components of future-generation wireless communication systems. Among various wireless architectures, Bluetooth Low Energy (BLE) networks have attracted significant research interest due to their widespread adoption and low cost. In these networks, deep learning (DL) models can be integrated directly into the physical-layer infrastructure to perform diverse tasks, including environment sensing, localization, radio frequency fingerprinting (RFFP), and signal denoising. While highly effective under their original training configurations, these DL models often fail significantly when deployed in unseen environments---such as different rooms, varying temperature conditions, or altered carrier frequencies. Addressing this limitation requires rigorous benchmarking of models and algorithms against unseen configurations to evaluate their generalization and robustness. To bridge this gap, this paper makes two key contributions: i) we introduce a comprehensive, large-scale wireless BLE dataset consisting of raw IQ transmissions from 31 distinct commercial devices captured across diverse days, locations, environments, temperatures, receiver hardware, and frequency channels; ii) we present a case study evaluating state-of-the-art techniques for domain-robust RFFP to advance real-world AI reliability.",
+        "summary_vi": "arXiv:2611.00332v1 Announce Type: new \nAbstract: AI-enabled wireless networks have emerged as vital components of future-generation wireless communication systems. Among various wireless architectures",
+        "title": "Dataset and Experimental Testbed for Deep Learning-Based Bluetooth Device Fingerprinting"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00409v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00409v1",
+        "link": "https://arxiv.org/abs/2611.00409",
+        "relevance": 3,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.00409v1 Announce Type: new \nAbstract: This paper proposes an open-source automated LC matching network optimization framework that combines schematic-level design optimization with electromagnetic (EM)-aware post-layout refinement. An ML-based surrogate predicts the frequency-dependent complex admittance of individual routes, enabling reuse across matching network topologies and physical layouts for the same technology node without retraining. These route models guide post-layout passive retuning to recover matching performance while preserving the layout footprint. Evaluated in a commercial 65nm CMOS technology, the surrogate achieves 1.94-4.91% mean absolute percentage error with respect to a full-wave electromagnetic solver, with no detected passivity violations. Across nine LC matching networks operating at 5-95GHz, our framework recovers S_11 from -6.37dB, for schematic-level optimization after post-layout degradation to -22.27dB after EM-aware post-layout refinement. All designs meet matching targets under full-layout EM verification in optimization runtimes below 70s.",
+        "summary_vi": "arXiv:2611.00409v1 Announce Type: new \nAbstract: This paper proposes an open-source automated LC matching network optimization framework that combines schematic-level design optimization with electrom",
+        "title": "Route-Aware EM Surrogate for Automated LC Matching Network Optimization"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00426v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00426v1",
+        "link": "https://arxiv.org/abs/2611.00426",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.00426v1 Announce Type: new \nAbstract: The upper mid-band, also known as Frequency Range 3 (FR3), spans 7.125-24.25 GHz and is a key candidate band for sixth-generation (6G) wireless communications. However, channel measurements in industrial environments remain scarce, and the 3GPP indoor-factory (InF) channel model, developed for omnidirectional antennas, has yet to be validated across the FR3 band. This paper presents a wideband channel measurement campaign in an industrial production hall, covering 135 line-of-sight (LOS) positions at 1-18 m and 30 non-line-of-sight (NLOS) positions behind an industrial robot at 2.5-16.5 m across 6-12 GHz. In LOS, the path-loss exponent ranged from 1.87 to 2.12, and the close-in fits agreed with the 3GPP InF-LOS model to within approximately 2 dB. However, shadow fading was only 1.4-1.7 dB, compared with the model's 4.3 dB. In NLOS, the robot caused an excess loss that increased from 10.3 to 13.0 dB between 6.5 and 11.5 GHz, consistent with diffraction. Blocking the direct path raised the mean directional delay spread from approximately 5 to 25 ns, close to omnidirectional values. These results indicate that the 3GPP InF model captures mean LOS path loss well but overestimates the variability of beam-aligned FR3 links, and that blockage loss in FR3 is frequency dependent. The dataset and processing code are publicly available.",
+        "summary_vi": "arXiv:2611.00426v1 Announce Type: new \nAbstract: The upper mid-band, also known as Frequency Range 3 (FR3), spans 7.125-24.25 GHz and is a key candidate band for sixth-generation (6G) wireless communi",
+        "title": "Wideband Channel Measurements in the Lower FR3 Band (6-12 GHz) for Industrial Environments"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00439v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00439v1",
+        "link": "https://arxiv.org/abs/2611.00439",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.00439v1 Announce Type: new \nAbstract: Integrated sensing and communication (ISAC) lets a base station detect human motion with the same signals it uses for data, but every sensing transmission takes resources from users. Sensing rarely while nothing moves saves resources, yet a brief hand gesture by an otherwise still person can then start and end between two transmissions and go unnoticed. We propose an evidence-driven schedule, based on data-efficient cumulative-sum (CuSum) change detection, that pauses sensing while measurements indicate no motion and senses continuously once they suggest motion. It is adapted to orthogonal frequency-division multiplexing (OFDM) sensing, where requests can be blocked by data traffic and measurements arrive late, and evaluated with an articulated human model of limb motion. In simulations without wall reflections, with the same monitoring budget and below one false alarm per minute, it detects 1.5--4.2 times as many limb movements within 200~ms as periodic sensing. A tuned two-rate trigger performs similarly, and the gain over periodic sensing persists, without retuning or cost matching, in a simulated room with wall reflections. Under a small budget, measurements should decide when to sense.",
+        "summary_vi": "arXiv:2611.00439v1 Announce Type: new \nAbstract: Integrated sensing and communication (ISAC) lets a base station detect human motion with the same signals it uses for data, but every sensing transmiss",
+        "title": "Sense Less, Miss Less: Evidence-Driven Sensing Schedules for ISAC"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00453v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00453v1",
+        "link": "https://arxiv.org/abs/2611.00453",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.00453v1 Announce Type: new \nAbstract: Proactive handover can save a millimeter-wave (mmWave) link before a passing body blocks it, but only if the network knows where the user is. We ask whether the radio units that serve a user can localize it accurately enough from its uplink sounding reference signals. We derive position error bounds that include synchronization and array calibration errors, with and without reflected paths known from a digital twin, and test two estimators in a ray-traced street canyon on held-out scenarios. Three findings stand out. First, with line of sight to both radio units, array calibration, not bandwidth, limits the bound. Second, blockage degrades the line-of-sight-only bound sharply, whereas known reflections keep the map-aided bound low. Third, a simple dominant-path estimator fails where it matters most: its errors grow sharply around blockage, and proactive handover becomes worse than the 3GPP baseline. A map-aided multipath tracker cuts the median error from 12 to 3.7 cm and removes this significant penalty at link margins of 15 dB and above, but does not yet beat the baseline.",
+        "summary_vi": "arXiv:2611.00453v1 Announce Type: new \nAbstract: Proactive handover can save a millimeter-wave (mmWave) link before a passing body blocks it, but only if the network knows where the user is. We ask wh",
+        "title": "mmWave UE Positioning Under Blockage: Limits for ISAC-Assisted Handover"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00472v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00472v1",
+        "link": "https://arxiv.org/abs/2611.00472",
+        "relevance": 3,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.00472v1 Announce Type: new \nAbstract: Gradient imperfections disrupt the encoding benefits of long-readout imaging applications on high-performance systems. Currently, external field monitoring hardware provides the only reliable solution for general spatial-temporal gradient characterization. We present FESTiVE, a data-driven alternative to higher-order field monitoring. FESTiVE leverages parallel imaging to both implicitly model and explicitly recover field imperfections. Using a fast k-t mapping calibration scan, FESTiVE formulates a time-varying GRAPPA problem which maps k-space data corrupted by a time-varying gradient imperfection against a clean reference. This mapping is represented compactly with an implicit neural representation, from which the spatial-temporal fields are recovered in image space using coil sensitivities. In phantom, FESTiVE produces comparable field measurements to a Skope field camera across multiple non-cartesian 2D acquisition strategies and gradient specifications. In vivo, FESTiVE achieves state-of-the-art image quality for a high-performance diffusion spiral protocol on the head-only MAGNUS 3T, where higher-order phase imperfections are significant. At 7T, on the head-only Siemens TerraX system, FESTiVE enables 300{\\mu}m spiral imaging where conventional field camera-based approaches fall below probe dephasing limits. In conclusion, FESTiVE enables robust high-resolution non-cartesian imaging on high-performance gradients, characterizing gradient imperfections using parallel imaging rather than field monitoring hardware.",
+        "summary_vi": "arXiv:2611.00472v1 Announce Type: new \nAbstract: Gradient imperfections disrupt the encoding benefits of long-readout imaging applications on high-performance systems. Currently, external field monito",
+        "title": "FESTiVE: Self-calibrated Spatial-temporal Gradient Characterization for Non-cartesian Imaging on High Performance Systems"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00476v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00476v1",
+        "link": "https://arxiv.org/abs/2611.00476",
+        "relevance": 4,
+        "source": "arXiv cs.PF (Performance)",
+        "summary": "arXiv:2611.00476v1 Announce Type: cross \nAbstract: Geometric perception on edge must simultaneously achieve two goals that are rarely addressed together: preserve accurate spatial understanding for object localization and operate within stringent latency, memory, energy, and precision constraints. This coupling is particularly evident in oriented bird's-eye-view (BEV) detection, where global context, multi-scale interactions, and geometric fusion affect both prediction quality and hardware dataflow. Conventional deployment flows first compress a model using aggregate quality or complexity proxies and then map the compressed operations to a fixed accelerator interface. This separation risks removing geometric structures that appear redundant under coarse metrics but are critical for precise localization, while leaving hardware-level efficiencies in the retained geometry unexploited. We present FieldRT, an algorithm-hardware co-design methodology that uses a common analysis of geometric sensitivity and data lifetime to derive both the deployment profile and its spatial realization. We deploy FieldRT with Axis-Fusion Network (AFN), a sub-million-parameter oriented-BEV detector, and construct controlled profiles that vary the capacity and organization of its geometric processing. The experiments show that redundancy is task-dependent rather than uniform across metrics. Dense prediction can improve while real instance detection deteriorates; coarse localization may remain stable while strict-IoU precision degrades. Moreover, transformations that are individually safe can become detrimental when combined. FieldRT translates the retained geometric structure into a parameterized streaming architecture that shares field access and storage across spatial operators. The resulting custom-PL primitives achieve production-scale numerical closure on an AMD Kria KV260 and make otherwise infeasible multi-dilation execution realizable.",
+        "summary_vi": "arXiv:2611.00476v1 Announce Type: cross \nAbstract: Geometric perception on edge must simultaneously achieve two goals that are rarely addressed together: preserve accurate spatial understanding for ob",
+        "title": "FieldRT: Reconfigurable Architecture from Geometric Sensitivity to Streaming Acceleration"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00495v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00495v1",
+        "link": "https://arxiv.org/abs/2611.00495",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.00495v1 Announce Type: new \nAbstract: Megakernels let one persistent GPU program prepare dependent operators early and execute ready tasks together. We study the benefits and costs of these capabilities by reconstructing two LLM megakernels, ThunderKittens (TK) and VDCores, as separate kernels on H100 using their original operator code. Our results show that CTA residency can misrepresent opportunities for useful overlap in both directions. By overlapping startup and operand loading with programmatic dependent launch (PDL), the reconstructions reduce decode-step latency by 5.7% in TK and achieve comparable performance in VDCores when both executions enforce the required memory ordering. Under whole-operator dependencies, TK's persistent execution still gains more from prefetch, but runtime and completion-signal ordering costs outweigh this advantage. Both startup overlap and prefetch depend on resource availability. Persistent CTAs can reuse storage before retiring, whereas separate successors must acquire their full CTA footprints before initializing or loading operands. This admission constraint in both reconstructions motivates finer resource sharing across kernels. Beyond early preparation, joint execution requires ready work and spare capacity in the bottleneck resource. Reserving SMs for communication can add GEMM waves that erase overlap gains, while filling idle SMs offers little benefit once memory bandwidth is saturated. These findings clarify benefits and costs of megakernels and motivate GPU support for earlier resource reuse across kernels.",
+        "summary_vi": "arXiv:2611.00495v1 Announce Type: new \nAbstract: Megakernels let one persistent GPU program prepare dependent operators early and execute ready tasks together. We study the benefits and costs of these",
+        "title": "Understanding GPU Megakernels: Why Residency Can Mislead"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00506v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00506v1",
+        "link": "https://arxiv.org/abs/2611.00506",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.00506v1 Announce Type: new \nAbstract: Parallel speculative drafters use a lightweight serial head to recover token dependencies within a block generated in parallel. Each head step updates only a small state, yet projects that state through the same vocabulary-sized matrix. Step-wise execution repeatedly transfers this large, immutable projection, making the head a meaningful source of latency despite its low arithmetic cost. We present Weights That Stay, an execution design that keeps projection shards on chip for the entire serial draft walk. A persistent megakernel couples weight residency with GPU-side token selection and state advancement, reusing resident weights while exchanging only compact state between steps. The design supports full or partial residency and accommodates both Markov and recurrent heads on H100 and B200. Integrated into SGLang, Weights That Stay improves throughput for Markov drafting on Qwen3-4B and Qwen3-8B, with gains of up to 12.3%. At the head level, the DSpark walk is up to 11.6$\\times$ faster than the fastest measured SGLang reference path. These results show that aligning weight residency with the full draft walk translates cross-step reuse into end-to-end serving gains.",
+        "summary_vi": "arXiv:2611.00506v1 Announce Type: new \nAbstract: Parallel speculative drafters use a lightweight serial head to recover token dependencies within a block generated in parallel. Each head step updates ",
+        "title": "Weights That Stay: On-Chip Megakernels for Serial Heads in Speculative Decoding"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00625v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00625v1",
+        "link": "https://arxiv.org/abs/2611.00625",
+        "relevance": 4,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.00625v1 Announce Type: new \nAbstract: The Citizens Broadband Radio Service (CBRS) shares the 3550-3700 MHz band between incumbent radar systems and commercial LTE/5G users, so radar activity must be detected accurately and promptly. Spectrogram-based YOLO detectors can localize coexisting radar and cellular signals, but running them on resource-constrained edge devices is challenging. Model-distributed inference (MDI) can increase throughput by partitioning a model across edge devices. Using an end-to-end pipeline from raw I/Q samples to on-device detection, we show that partitioning recent YOLO generations incurs high activation-transfer costs due to their multi-scale structures. To reduce these costs, we propose CEDAR, a communication-efficient, edge-distributed architecture for radar detection. Its RF-aware detector, CEDAR-YOLO, removes YOLO's multi-scale neck and two of its three detection scales, leaving a single-scale path with independently configured frequency and time resolutions, which lowers the communication cost of partitioning. Its compression-aware MDI framework, CEDAR-MDI, integrates lightweight activation compressors and selects, for each compressor, the partition that minimizes the pipeline bottleneck. On an NVIDIA Jetson Orin Nano testbed with real-world over-the-air data, CEDAR-YOLO reduces the parameter count by 35-57% and model inference time by 16-33%, and CEDAR-MDI achieves up to $3.27\\times$ the throughput of single-device inference, with detection quality preserved in both cases.",
+        "summary_vi": "arXiv:2611.00625v1 Announce Type: new \nAbstract: The Citizens Broadband Radio Service (CBRS) shares the 3550-3700 MHz band between incumbent radar systems and commercial LTE/5G users, so radar activit",
+        "title": "Communication-Efficient Model-Distributed Inference for CBRS Radar Detection at the Edge"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00646v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00646v1",
+        "link": "https://arxiv.org/abs/2611.00646",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.00646v1 Announce Type: new \nAbstract: Disaggregated LLM reinforcement learning (RL) repeatedly synchronizes policy weights between training and rollout GPU pools. Existing systems reduce communication through shard delivery and replica forwarding, yet separate conversion passes and staging buffers still add latency and GPU-memory overheads to synchronous updates. We present ShardFly, which coordinates reusable transfer planning with streaming GPU execution for synchronous, in-place weight updates. ShardFly introduces two components. The Planner compiles native shard mappings, quantization dependencies, and replica routes into cross-tensor schedules, reserving payload buffers only for scheduled transfers. The Executor runs each rank's schedule in one persistent transfer kernel, fusing memory-layout conversion, quantization, GPU-initiated communication, and destination writes while forwarding transformed bytes across replicas. Plans and communication state are reused under stable configurations and replaced between updates for coordinated rollout scaling. On up to 32 H20 GPUs, ShardFly achieves complete BF16 weight-update speedups of 1.26--27.92$\\times$ across five models and four baselines: veRL NCCL, Awex, veRL NIXL, and WeightBridge. In end-to-end Qwen3-30B-A3B GRPO across four rollout configurations, ShardFly improves response-token throughput by 5.49--6.71\\% over veRL NCCL.",
+        "summary_vi": "arXiv:2611.00646v1 Announce Type: new \nAbstract: Disaggregated LLM reinforcement learning (RL) repeatedly synchronizes policy weights between training and rollout GPU pools. Existing systems reduce co",
+        "title": "When Shards Fly: Cross-Tensor In-Flight Conversion for Low-Latency, Low-Memory Weight Updates in Disaggregated RL"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00790v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00790v1",
+        "link": "https://arxiv.org/abs/2611.00790",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.00790v1 Announce Type: new \nAbstract: This paper investigates UAV-assisted federated edge vision for training computationally heavy object detection models. Existing studies treat training data as static, ignoring the tight coupling between dynamic visual sensing and massive in place computational burdens. To minimize the expected training time under battery constraints, we propose a four-phase joint trajectory, sensing, and computation co-design. To mitigate data heterogeneity, we use a uniform sensing probability to translate federated convergence requirements into UAV mobility constraints. Furthermore, a two-layer alternating optimization (AO) algorithm is developed to adaptively determine the local data workload, optimally balancing the required training rounds against in-place computation delays. Simulations validate the superiority of our approach in model convergence and accuracy over baselines.",
+        "summary_vi": "arXiv:2611.00790v1 Announce Type: new \nAbstract: This paper investigates UAV-assisted federated edge vision for training computationally heavy object detection models. Existing studies treat training ",
+        "title": "Joint Trajectory, Sensing, and Computation Co-Design for UAV-Assisted Federated Edge Vision"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00891v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00891v1",
+        "link": "https://arxiv.org/abs/2611.00891",
+        "relevance": 4,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2611.00891v1 Announce Type: new \nAbstract: Thirty years ago, ARINC 653 was introduced to provide a vendor-independent platform for software applications in Integrated Modular Avionics (IMA). A platform is characterized by a well-defined interface abstracting over implementation details; in the case of ARINC 653 this is an Application Programming Interface (API), defined on the source-code level. However, several aspects of this API - such as the memory layout and partially also the integer bit width of data types - remain implementation dependent, so portability across Operating Systems (OSs) requires recompilation, and often also source code adaptation. Our contribution is three-fold; first, we refine the ARINC 653 header file, eliminating remaining ambiguities. Second, building on WebAssembly (Wasm), we define an OS- and processor-architecture-agnostic Application Binary Interface (ABI) at the object-code level, resolving differences in data layout, endianness, and function-pointer representation between host and guest environments. Third, we demonstrate a Wasm-VM-agnostic shim-library that executes ARINC 653 partitions, compiled to Wasm bytecode and following our ABI, on multiple processor architectures using two independent Wasm runtimes.",
+        "summary_vi": "arXiv:2611.00891v1 Announce Type: new \nAbstract: Thirty years ago, ARINC 653 was introduced to provide a vendor-independent platform for software applications in Integrated Modular Avionics (IMA). A p",
+        "title": "Beyond Source Compatibility: WebAssembly as a Stable ABI for ARINC 653 Applications"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.00967v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.00967v1",
+        "link": "https://arxiv.org/abs/2611.00967",
+        "relevance": 3,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2611.00967v1 Announce Type: new \nAbstract: Large language models and inference techniques evolve rapidly, making model enablement a recurring production task rather than a one-time integration effort. At Alibaba, a shared inference infrastructure must keep pace with new models and serving capabilities while remaining reliable across heterogeneous production environments. To reconcile rapid evolution with production reliability, we present RTP-LLM, an open-source production inference engine developed and deployed at Alibaba. Its architecture separates model-specific execution from shared request processing, state management, and resource coordination. Explicit interfaces localize compatible model changes while allowing models and deployment configurations to reuse common serving mechanisms. RTP-LLM has evolved from an exploratory system into a shared production engine that supports $\\sim$100 models and processes hundreds of trillions of tokens per day. We describe how its architecture and production practices accommodate model evolution and contain the impact of failures, and share lessons for building evolvable and reliable inference engines at enterprise scale.",
+        "summary_vi": "arXiv:2611.00967v1 Announce Type: new \nAbstract: Large language models and inference techniques evolve rapidly, making model enablement a recurring production task rather than a one-time integration e",
+        "title": "RTP-LLM: Building an Evolvable and Reliable LLM Inference Engine at Alibaba Scale"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.01212v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.01212v1",
+        "link": "https://arxiv.org/abs/2611.01212",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.01212v1 Announce Type: new \nAbstract: Energy consumption is a major design concern in wireless sensor networks. Cognitive radio provides opportunistic access to licensed spectrum, while multicast routing allows several destinations to share forwarding paths. In this paper, we propose two geographic multicast routing protocols for cognitive wireless sensor networks, CCast and PCast. CCast combines multicast-tree construction with a latency-oriented spectrum-selection metric. PCast uses a normalized link-power cost to select routes and can avoid regions where primary users occupy lower-frequency bands. Both protocols use local neighbor information and destination coordinates, without requiring a complete network-topology map. Simulations compare the proposed protocols with geographic multicast routing (GMP) and multiple unicast routing. In simulations, CCast and PCast reduce energy consumption by 21\\% and 26\\% relative to GMP, at the cost of longer per-destination routes and higher delivery delay.",
+        "summary_vi": "arXiv:2611.01212v1 Announce Type: new \nAbstract: Energy consumption is a major design concern in wireless sensor networks. Cognitive radio provides opportunistic access to licensed spectrum, while mul",
+        "title": "Energy-Efficient Geographic Multicast Routing in Cognitive Wireless Sensor Networks"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.01459v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.01459v1",
+        "link": "https://arxiv.org/abs/2611.01459",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.01459v1 Announce Type: new \nAbstract: Passive sensing on the cellular downlink places the receiver at the user equipment and changes nothing in the network. We report simulation results for an LTE band-3 cell-specific reference signal arm on a ray-traced channel. On a synthetic street canyon the arm is compared with an uplink sounding reference signal arm on the same band, target and scorer: missed-detection probabilities of 0.667 and 0.772. On a surveyed site built from OpenStreetMap footprints and the licensed site record, nine receiver positions along the street track the vehicle at coverage between 29.9 % and 61.7 %; a 283 m lap separates target height from trajectory at 1.6 to 30 m; a 137 m lap on the built-up street tracks a vehicle and a 15 m airborne target on every cell, and 8 receivers at 135 m spacing carry one illuminator's coverage over 1140 m of the street. Potential future work includes extending the analysis to multiple illuminators and varying receiver configurations, and confirmation through over-the-air measurements.",
+        "summary_vi": "arXiv:2611.01459v1 Announce Type: new \nAbstract: Passive sensing on the cellular downlink places the receiver at the user equipment and changes nothing in the network. We report simulation results for",
+        "title": "Vehicle and UAV Detection and Tracking with LTE Downlink Reference Signals: A Ray-Traced Evaluation on a Mapped Suburban Site with Licensed Base-Station Records"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.02451v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.02451v1",
+        "link": "https://arxiv.org/abs/2611.02451",
+        "relevance": 3,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2611.02451v1 Announce Type: new \nAbstract: Recurrences are ubiquitous in signal and image processing, bioinformatics, numerical computing, combinatorial optimization, and many other domains. Because recurrences seem inherently sequential, they are often implemented serially and thus do not leverage vector instructions in modern hardware. This leaves much of the available, often highly parallel, hardware underutilized.\n In this paper, we present an algebra of recurrences over semirings and study algebraic identities that enable vectorization. Using our algebraic framework, we present a number of vectorizing transformations that yield efficient, vectorized implementations across various settings. These transformations naturally extend to 2D recurrences and mutual recurrences.\n We implement the recurrence algebra and the vectorizing transformations in a compiler called VecRec.VecRec compiles recurrence programs to efficient vectorized C++ implementations. The generated kernels can achieve up to an order-of-magnitude speedup over serial implementations across a wide variety of recurrences. A case study in bioinformatics shows that they are competitive with, and in many cases better than, existing libraries with manually-crafted vectorization.",
+        "summary_vi": "arXiv:2611.02451v1 Announce Type: new \nAbstract: Recurrences are ubiquitous in signal and image processing, bioinformatics, numerical computing, combinatorial optimization, and many other domains. Bec",
+        "title": "Vectorizing Recurrences over Semirings"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
+    },
+    "oai:arXiv.org:2611.02752v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.02752v1",
+        "link": "https://arxiv.org/abs/2611.02752",
+        "relevance": 3,
+        "source": "arXiv cs.PF (Performance)",
+        "summary": "arXiv:2611.02752v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have shown strong capabilities in code generation and reasoning, motivating extensive benchmarks for evaluating functional correctness. However, performance optimization in High-Performance Computing (HPC) poses fundamentally different challenges that are not captured by existing evaluations: HPC performance depends on low-level code, intricate memory access patterns, and computational kernels embedded within sophisticated execution contexts. We introduce HPC-Bench, a performance-grounded benchmark for evaluating LLMs as optimizers of computational kernels in realistic HPC workloads, including 114 workloads across 16 HPC computational motifs. HPC-Bench provides a fully automated, end-to-end evaluation pipeline that combines program-level correctness verification with two correctness-gated metrics, Fast@k and Speedup@k, to characterize reliability and speedup under a fixed sampling budget. Our evaluation of three representative LLMs across serial CPU, OpenMP, and CUDA settings shows that stricter speedup requirements substantially reduce the probability of finding a correct and fast optimization. HPC-Bench is available at https://github.com/Deep-Learning-Profiling-Tools/HPC-Bench.",
+        "summary_vi": "arXiv:2611.02752v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have shown strong capabilities in code generation and reasoning, motivating extensive benchmarks for evaluating functional",
+        "title": "HPC-Bench: A Comprehensive Benchmark for High Performance Computing Codes"
+      },
+      "first_seen": "2026-11-03T13:02:11.696372+00:00"
     }
   },
   "rejected": {
@@ -1637,6 +2027,7 @@
     "https://rcrwireless.com/?p=435842": "2026-10-31T01:04:35.861546+00:00",
     "https://rcrwireless.com/?p=435848": "2026-11-03T03:07:33.506203+00:00",
     "https://rcrwireless.com/?p=435854": "2026-11-03T03:07:33.506203+00:00",
+    "https://rcrwireless.com/?p=435863": "2026-11-03T13:02:11.696372+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/Micro-World-V2/README.html": "2026-10-22T00:14:37.714250+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/eagle3-training/README.html": "2026-10-28T00:46:21.169893+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/faster-action-models/README.html": "2026-10-22T00:14:37.714250+00:00",
@@ -1671,6 +2062,7 @@
     "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html": "2026-10-29T11:49:06.816281+00:00",
     "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html": "2026-10-31T01:04:35.861546+00:00",
     "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html": "2026-10-30T11:42:20.435734+00:00",
+    "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html": "2026-10-31T11:15:22.551414+00:00",
     "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html": "2026-10-30T01:24:44.649656+00:00",
     "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html": "2026-10-29T11:49:06.816281+00:00",
     "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html": "2026-10-29T04:16:31.165926+00:00",
@@ -1690,10 +2082,12 @@
     "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html": "2026-11-02T13:55:07.841963+00:00",
     "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html": "2026-11-03T03:07:33.506203+00:00",
     "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html": "2026-11-01T12:03:06.789682+00:00",
+    "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html": "2026-11-03T13:02:11.696372+00:00",
     "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html": "2026-11-01T12:03:06.789682+00:00",
     "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html": "2026-11-02T13:55:07.841963+00:00",
     "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html": "2026-11-01T12:03:06.789682+00:00",
     "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html": "2026-11-02T13:55:07.841963+00:00",
+    "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html": "2026-11-03T13:02:11.696372+00:00",
     "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html": "2026-11-03T03:07:33.506203+00:00",
     "https://www.cnx-software.com/?p=175717": "2026-10-05T12:40:32.898052+00:00",
     "https://www.cnx-software.com/?p=176022": "2026-10-21T10:36:54.456279+00:00",
@@ -1891,7 +2285,6 @@
     "https://www.phoronix.com/news/NVIDIA-615.78.08-Linux": "2026-10-08T12:16:35.137792+00:00",
     "https://www.phoronix.com/news/NVIDIA-Boro-Linux-Kernel-AI": "2026-10-09T12:07:21.302578+00:00",
     "https://www.phoronix.com/news/NVIDIA-Nova-Linux-7.4-Changes": "2026-10-13T12:59:04.220462+00:00",
-    "https://www.phoronix.com/news/NVIDIA-Wayland-Xorg-Latency": "2026-10-04T11:18:30.736596+00:00",
     "https://www.phoronix.com/news/NetBSD-New-Text-Editor": "2026-10-29T04:16:31.165926+00:00",
     "https://www.phoronix.com/news/OBS-Studio-33.0": "2026-10-24T00:02:40.989120+00:00",
     "https://www.phoronix.com/news/ONLYOFFICE-10.0": "2026-10-13T12:59:04.220462+00:00",
@@ -1916,6 +2309,7 @@
     "https://www.phoronix.com/news/Rolling-Releases-GenAI-Era": "2026-10-11T00:29:49.881685+00:00",
     "https://www.phoronix.com/news/Rustls-0.23.46-Released": "2026-10-14T10:38:07.145690+00:00",
     "https://www.phoronix.com/news/SQLite-3.54-Released": "2026-10-10T01:18:49.490352+00:00",
+    "https://www.phoronix.com/news/SUSE-Layoffs-10p-AI": "2026-11-03T13:02:11.696372+00:00",
     "https://www.phoronix.com/news/Servo-0.6-Changes": "2026-10-18T23:40:11.886816+00:00",
     "https://www.phoronix.com/news/SpacemiT-Linux-7.4": "2026-10-08T12:16:35.137792+00:00",
     "https://www.phoronix.com/news/Steam-Beta-Use-Proton-Default": "2026-10-08T01:20:40.258601+00:00",
@@ -1949,7 +2343,6 @@
     "https://www.phoronix.com/news/YSERVER-1.7": "2026-10-06T12:14:45.665168+00:00",
     "https://www.phoronix.com/news/memtest86-Plus-9.0": "2026-10-15T23:54:14.069902+00:00",
     "https://www.phoronix.com/news/oneDNN-3.14-Released": "2026-10-24T00:02:40.989120+00:00",
-    "https://www.phoronix.com/news/openSUSE-ZUPT-Backups": "2026-10-04T11:18:30.736596+00:00",
     "https://www.phoronix.com/review/cachyos-ubuntu2610-fedora45": "2026-10-29T01:15:38.013696+00:00",
     "https://www.phoronix.com/review/framework-laptop-12-wildcat-lake": "2026-10-14T00:37:17.101304+00:00",
     "https://www.phoronix.com/review/intel-xeon-granite-rapids-ubuntu-2610": "2026-10-16T23:54:14.734784+00:00",
@@ -1962,10 +2355,6 @@
     "https://www.phoronix.com/review/star-labs-starfighter": "2026-10-08T01:20:40.258601+00:00",
     "https://www.phoronix.com/review/ubuntu-2610-amd64v3-epyc": "2026-10-15T00:07:44.827060+00:00",
     "https://www.phoronix.com/review/ubuntu-2610-arrow-lake": "2026-10-21T00:09:49.548846+00:00",
-    "https://www.reddit.com/r/embedded/t3_1wx9p9u": "2026-10-04T11:18:30.736596+00:00",
-    "https://www.reddit.com/r/embedded/t3_1wxch5z": "2026-10-04T11:18:30.736596+00:00",
-    "https://www.reddit.com/r/embedded/t3_1wxd22v": "2026-10-04T11:18:30.736596+00:00",
-    "https://www.reddit.com/r/embedded/t3_1wxd5ic": "2026-10-04T11:18:30.736596+00:00",
     "https://www.reddit.com/r/embedded/t3_1wxsift": "2026-10-05T00:10:30.939245+00:00",
     "https://www.reddit.com/r/embedded/t3_1wxvsh5": "2026-10-05T12:40:32.898052+00:00",
     "https://www.reddit.com/r/embedded/t3_1wxytpb": "2026-10-05T12:40:32.898052+00:00",
@@ -2190,6 +2579,10 @@
     "https://www.reddit.com/r/embedded/t3_1xiyr35": "2026-10-30T01:24:44.649656+00:00",
     "https://www.reddit.com/r/embedded/t3_1xiz4ma": "2026-10-30T01:24:44.649656+00:00",
     "https://www.reddit.com/r/embedded/t3_1xj2tux": "2026-10-30T11:42:20.435734+00:00",
+    "https://www.reddit.com/r/embedded/t3_1xje3gd": "2026-10-31T11:15:22.551414+00:00",
+    "https://www.reddit.com/r/embedded/t3_1xjzybv": "2026-10-31T11:15:22.551414+00:00",
+    "https://www.reddit.com/r/embedded/t3_1xk0as8": "2026-10-31T11:15:22.551414+00:00",
+    "https://www.reddit.com/r/embedded/t3_1xk6713": "2026-10-31T11:15:22.551414+00:00",
     "https://www.redhat.com/en/3-reasons-to-attend-red-hat-summit-connect": "2026-10-08T01:20:40.258601+00:00",
     "https://www.redhat.com/en/blog/ai-agent-security-policy-driven-access-control": "2026-10-28T00:46:21.169893+00:00",
     "https://www.redhat.com/en/blog/ai-pilots-production-dh2i-brings-customers-resilient-ai-red-hat-openshift": "2026-10-06T01:55:08.067921+00:00",
@@ -3099,6 +3492,16 @@
     "oai:arXiv.org:2610.41508v1": "2026-11-03T03:07:33.506203+00:00",
     "oai:arXiv.org:2610.41525v1": "2026-11-03T03:07:33.506203+00:00",
     "oai:arXiv.org:2610.41825v1": "2026-11-03T03:07:33.506203+00:00",
+    "oai:arXiv.org:2611.00040v1": "2026-11-03T13:02:11.696372+00:00",
+    "oai:arXiv.org:2611.00117v1": "2026-11-03T13:02:11.696372+00:00",
+    "oai:arXiv.org:2611.00164v1": "2026-11-03T13:02:11.696372+00:00",
+    "oai:arXiv.org:2611.00182v1": "2026-11-03T13:02:11.696372+00:00",
+    "oai:arXiv.org:2611.00187v1": "2026-11-03T13:02:11.696372+00:00",
+    "oai:arXiv.org:2611.00391v1": "2026-11-03T13:02:11.696372+00:00",
+    "oai:arXiv.org:2611.00449v1": "2026-11-03T13:02:11.696372+00:00",
+    "oai:arXiv.org:2611.01189v1": "2026-11-03T13:02:11.696372+00:00",
+    "oai:arXiv.org:2611.01463v1": "2026-11-03T13:02:11.696372+00:00",
+    "oai:arXiv.org:2611.02345v1": "2026-11-03T13:02:11.696372+00:00",
     "tag:blogger.com,1999:blog-7068042310767317158.post-2018016391806741936": "2026-10-15T10:19:36.277492+00:00",
     "tag:github.com,2008:Repository/135502094/202610.2.23.244": "2026-10-13T02:44:05.425689+00:00",
     "tag:github.com,2008:Repository/135502094/202620.2.26.0_Petalinux": "2026-11-02T13:55:07.841963+00:00",
