@@ -73,6 +73,7 @@
     "https://lwn.net/Articles/1104629/": "2026-11-02T01:02:32.460847+00:00",
     "https://lwn.net/Articles/1104654/": "2026-11-02T01:02:32.460847+00:00",
     "https://lwn.net/Articles/1104847/": "2026-11-03T03:07:33.506203+00:00",
+    "https://nickvsnetworking.com/?p=8306": "2026-11-07T01:13:55.085191+00:00",
     "https://nickvsnetworking.com/?p=8479": "2026-10-28T11:41:08.830280+00:00",
     "https://ocudu.org/?p=851": "2026-10-09T01:28:13.470643+00:00",
     "https://ocudu.org/?p=926": "2026-10-30T01:24:44.649656+00:00",
@@ -128,6 +129,7 @@
     "https://rcrwireless.com/?p=435845": "2026-11-03T03:07:33.506203+00:00",
     "https://rcrwireless.com/?p=435851": "2026-11-02T13:55:07.841963+00:00",
     "https://rcrwireless.com/?p=435866": "2026-11-03T13:02:11.696372+00:00",
+    "https://rcrwireless.com/?p=435878": "2026-11-07T01:13:55.085191+00:00",
     "https://rcrwireless.com/?p=435887": "2026-11-04T13:19:08.134166+00:00",
     "https://rcrwireless.com/?p=435894": "2026-11-05T01:49:34.737244+00:00",
     "https://rcrwireless.com/?p=435903": "2026-11-05T01:49:34.737244+00:00",
@@ -146,6 +148,7 @@
     "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html": "2026-11-01T12:03:06.789682+00:00",
     "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html": "2026-11-05T01:49:34.737244+00:00",
     "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html": "2026-11-03T03:07:33.506203+00:00",
+    "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html": "2026-11-07T01:13:55.085191+00:00",
     "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html": "2026-11-06T13:18:31.957095+00:00",
     "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html": "2026-11-05T13:31:37.120286+00:00",
     "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html": "2026-11-06T01:57:39.156695+00:00",
@@ -176,6 +179,7 @@
     "https://www.huawei.com/en/news/2026/10/ubbf2026-networkx-bdc": "2026-10-16T10:07:43.710673+00:00",
     "https://www.phoronix.com/news/AMD-Rust-Deep-Into-GPU-Stack": "2026-11-06T13:14:17.741766+00:00",
     "https://www.phoronix.com/news/AMD-Zen-6-BTB-Linux-7.4-Merged": "2026-10-22T10:40:49.740733+00:00",
+    "https://www.phoronix.com/news/AMD-Zen-6-TEE-RISC-V-Based": "2026-11-07T01:13:55.085191+00:00",
     "https://www.phoronix.com/news/Amazon-Linux-2027-Preview": "2026-11-06T13:14:17.741766+00:00",
     "https://www.phoronix.com/news/Apple-A18-Pro-MacBook-Neo-Patch": "2026-11-06T13:14:17.741766+00:00",
     "https://www.phoronix.com/news/Asterinas-0.19-Released": "2026-10-14T00:37:17.101304+00:00",
@@ -562,13 +566,32 @@
     "oai:arXiv.org:2611.06772v1": "2026-11-06T01:57:39.156695+00:00",
     "oai:arXiv.org:2611.07068v1": "2026-11-06T13:18:31.957095+00:00",
     "oai:arXiv.org:2611.07201v1": "2026-11-06T13:18:31.957095+00:00",
+    "oai:arXiv.org:2611.07225v1": "2026-11-07T01:13:55.085191+00:00",
+    "oai:arXiv.org:2611.07250v1": "2026-11-07T01:13:55.085191+00:00",
+    "oai:arXiv.org:2611.07390v1": "2026-11-07T01:13:55.085191+00:00",
+    "oai:arXiv.org:2611.07685v1": "2026-11-07T01:13:55.085191+00:00",
+    "oai:arXiv.org:2611.08380v1": "2026-11-07T01:13:55.085191+00:00",
     "tag:blogger.com,1999:blog-1834236085756782640.post-4091900366795999234": "2026-10-29T11:49:06.816281+00:00",
     "tag:blogger.com,1999:blog-7068042310767317158.post-2586278352895696704": "2026-11-04T01:43:07.426560+00:00",
     "tag:github.com,2008:Repository/107505869/v1.16.2": "2026-11-06T13:14:17.741766+00:00",
     "tag:github.com,2008:Repository/107505869/v1.17.0": "2026-11-06T13:14:17.741766+00:00",
+    "tag:github.com,2008:Repository/107505869/v1.18.0": "2026-11-07T01:13:55.085191+00:00",
     "tag:github.com,2008:Repository/184341774/v54.0": "2026-10-14T10:38:07.145690+00:00"
   },
   "pending": {
+    "https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/": {
+      "entry": {
+        "category": "security",
+        "id": "https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/",
+        "link": "https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/",
+        "relevance": 3,
+        "source": "Trail of Bits",
+        "summary": "Binance’s October 2026 security incident raises an operational question for every organization holding user funds: Can your security controls recognize when a valid signature grants an attacker wallet authority? If an organization only monitors transfers and ownership changes, it may miss the shift in wallet authority until assets move. \n Binance’s initial update about the incident suggested that a compromised DevOps laptop allowed an attacker to access a service container and submit unauthorized withdrawals. Its second update reported additional breaches but no evidence that wallet private keys had leaked. In its November 3 report , Binance described a broader attack involving social engineering, misuse of an internal AI tool, stolen credentials, and unauthorized access to its wallet-signing service. The attacker nevertheless obtained valid signatures, illustrating a major risk: a compromised server with permission to request signatures can misuse a protected key without extracting it. \n The attacker used an EIP-7702 delegation that allows a wallet to sign a standing instruction: “Use this code when my account is called.” Ethereum keeps that instruction in place until it is changed or cleared using the wallet’s key. That enabled repeated transfers , including funds deposited after the first theft, without further signatures from Binance. Other Binance wallets were drained through ordinary signed transfers. \n Transaction execution and monitoring systems must keep pace with Ethereum. EIP-7702 places delegation authorizations outside ordinary calldata. Session keys, recovery paths, authorization modules, Safe modules, and ERC-4337 UserOperations all add execution paths that signing policies and monitors must understand. Systems that have not been updated can miss malicious authority changes and asset movements, leaving wallets exposed. Teams must update their detection rules and test that these attack paths are covered. \n If you’re responsible for securing wallet infrastructure, start with our checklist. \n Four steps to strengthen wallet security \n These four recommendations address the risks exposed by the attack. We also provide tests to help you verify that these security controls work. \n 1. Reduce access to signing infrastructure \n Document every service and API that can request wallet signatures, who can call it, and what it can authorize, including transfers, delegation, and arbitrary data. Review this inventory whenever wallet functionality changes on supported chains. Separate signing infrastructure from everyday business systems and verify transaction details through an independent system. Use our TRAIL method to trace how a compromised laptop or server could reach signing. \n Verify the result: \n \n For each identified compromise path, use the access and credentials available to the compromised system to attempt an unapproved action. Identify the control expected to block it and retain evidence that no usable signature was produced. \n \n 2. Treat delegation as an administrative privilege \n Configure signing services to recognize requests that change account authority. Reject EIP-7702 authorizations for custody externally owned accounts (EOAs) that do not need delegation, and ensure generic digest-signing APIs cannot bypass that restriction. Where delegation is required, separately approve the authorizing account, delegate address and code, chain, and nonce. Before evaluating execution, simulations must apply the proposed delegation and inspect changes to permissions and future execution authority alongside immediate balance changes. \n Verify the result: \n \n \n Delegation requests for accounts with delegation disabled are rejected through both dedicated and generic signing interfaces. \n \n \n Changing an approved account, delegate, chain, or nonce requires renewed approval. Simulations expose added authority even when the transaction moves no assets immediately. \n \n \n 3. Limit damage even if signing is compromised \n Even after delegation, the original EOA key can still transfer funds or change the delegate. This means that if the key is compromised, an attacker can bypass limits enforced by the delegate. Protect those assets with separate custody controls that the operational key cannot change. Our cold-storage guidance describes independently enforced limits, monitored delays on sensitive actions, and a separate configuration authority. \n Verify the result: \n \n \n Treat the operational key as compromised and attempt direct transfers, delegate replacement, and policy changes. Confirm these paths cannot bypass the claimed protections, including shortening or removing delays. \n \n \n Exercise incident response against a malicious withdrawal. Record alert and containment times, and demonstrate that responders can cancel or contain the withdrawal before execution. Confirm that the blocked withdrawal cannot subsequently execute. \n \n \n 4. Detect changes in wallet authority \n Map each wallet to the assets and contracts it controls, including wallets that hold no funds. Alerts should identify the affected systems and privileges (e.g., an unapproved delegation on an account that can upgrade funded vaults). Attribute direct calls, module execution, and ERC-4337 operations to their authorization paths. \n Verify the result: \n \n \n Test various delegation scenarios, mixed authorization tuples, multisig-module execution, and failed UserOperations inside successful bundles. \n \n \n Monitoring should reconstruct authority changes and asset movements in order, identify affected systems, and distinguish detection from controls that block execution before funds move. \n \n \n Make signing infrastructure an ongoing responsibility \n If your organization runs wallets or signing services, take another look at how they’re secured. Test whether your signing policies account for EIP-7702 and ERC-4337, whether independent safeguards still work if an attacker gains access to signing, and whether your monitoring catches changes to accounts and permissions. \n Give someone ownership of this review and put it on a regular schedule. Run it again whenever you change the protocols you support, the wallets you use, or your signing services.",
+        "summary_vi": "Binance’s October 2026 security incident raises an operational question for every organization holding user funds: Can your security controls recognize when a valid signature grants an attacker wallet",
+        "title": "After Binance, check what your signing systems can approve"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
+    },
     "https://bootlin.com/?p=22577": {
       "entry": {
         "category": "embedded",
@@ -620,6 +643,19 @@
         "title": "ESP32-S3 USB dongle adds microphone, IR and hardware security"
       },
       "first_seen": "2026-11-06T13:18:31.957095+00:00"
+    },
+    "https://lwn.net/Articles/1103190/": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://lwn.net/Articles/1103190/",
+        "link": "https://lwn.net/Articles/1103190/",
+        "relevance": 4,
+        "source": "LWN.net Front Page",
+        "summary": "When a computer hibernates, the kernel writes the contents of memory to disk and\nthen shuts the system down. Resuming from hibernation involves reading that data\nback into memory, and then having the kernel pick up where it left off.\nUnfortunately, the kernel does not have\nany way to know that the data it is reading back has not been tampered with,\nwhich is why lockdown , an optional kernel\nfeature that attempts to prevent modifications to the running kernel, disables hibernation.\nMatthew Garrett, who has been working on lockdown for many years, has shared\n \na patch set that aims to fix this problem. His solution must also protect\nagainst downgrade attacks (where an attacker reboots the computer with an older\nkernel version to bypass new protections), which complicates the implementation.",
+        "summary_vi": "When a computer hibernates, the kernel writes the contents of memory to disk and\nthen shuts the system down. Resuming from hibernation involves reading that data\nback into memory, and then having the ",
+        "title": "[$] Locking down hibernation for the winter"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
     },
     "https://lwn.net/Articles/1103429/": {
       "entry": {
@@ -712,31 +748,31 @@
       },
       "first_seen": "2026-11-05T13:31:37.120286+00:00"
     },
-    "https://nickvsnetworking.com/?p=8306": {
+    "https://lwn.net/Articles/1105899/": {
       "entry": {
-        "category": "ran",
-        "id": "https://nickvsnetworking.com/?p=8306",
-        "link": "https://nickvsnetworking.com/mms-and-wifi-calling/",
+        "category": "embedded",
+        "id": "https://lwn.net/Articles/1105899/",
+        "link": "https://lwn.net/Articles/1105899/",
         "relevance": 3,
-        "source": "Nick vs Networking (Mobile Networks)",
-        "summary": "Recently we rolled out WiFi Calling with one of our operators. The question came in about how would MMS be handled when a customer is relying just on WiFi – It’s a good question and one I didn’t know the answer to (Sidebar, yes, still talking about MMS). I’ve covered in the past how MMS … Continue reading MMS and WiFi Calling →",
-        "summary_vi": "Following a rollout of Wi-Fi Calling with a mobile operator, the author examines how multimedia messaging service (MMS) traffic is handled when a user relies exclusively on a Wi-Fi connection.",
-        "title": "MMS and WiFi Calling"
+        "source": "LWN.net Front Page",
+        "summary": "Greg Kroah-Hartman has released the 7.3.2 \nand 6.18.61 stable kernels. Each contains quite\na few changes throughout the tree; users are advised to upgrade.",
+        "summary_vi": "Greg Kroah-Hartman has released the 7.3.2 \nand 6.18.61 stable kernels. Each contains quite\na few changes throughout the tree; users are advised to upgrade.",
+        "title": "Two stable kernels for Friday"
       },
-      "first_seen": "2026-11-06T01:57:39.156695+00:00"
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
     },
-    "https://rcrwireless.com/?p=435878": {
+    "https://lwn.net/Articles/1105902/": {
       "entry": {
-        "category": "ran",
-        "id": "https://rcrwireless.com/?p=435878",
-        "link": "https://rcrwireless.com/20261104/bssoss/ericsson-telstra-autonomous-networks",
-        "relevance": 3,
-        "source": "RCR Wireless News",
-        "summary": "The collaboration frames agentic AI, OSS/BSS evolution and the knowledge plane as foundations for decision-safe autonomy Communications service providers (CSPS) are gradually working to move from automation to autonomy, but…",
-        "summary_vi": "Ericsson and Telstra are collaborating to advance communications service providers toward autonomous networks using agentic AI and a dedicated knowledge plane. Their approach focuses on decision-safe autonomy to evolve underlying network management systems.",
-        "title": "Ericsson and Telstra put intent and knowledge at the center of autonomous networks"
+        "category": "embedded",
+        "id": "https://lwn.net/Articles/1105902/",
+        "link": "https://lwn.net/Articles/1105902/",
+        "relevance": 4,
+        "source": "LWN.net Front Page",
+        "summary": "Hot on the heels of the previous\ntwo stable kernels , Greg Kroah-Hartman has announced the release of the 7.3.3 , 6.18.62 ,\n 6.12.116 , 6.6.162 , 6.1.192 ,\n 5.15.225 , and 5.10.274 stable kernels. Each one only contains\nfixes for three use-after-free vulnerabilities announced today by the Xen\nsecurity team. \n\n Two of the vulnerabilities could allow an attacker to cause a denial of service (DoS) for the\nentire Xen host machine with possible information leakage ( CVE-2026-100080 ,\n CVE-2026-100082 ),\nand one may allow privilege escalation as well as a DoS of the host machine ( CVE-2026-100081 ). Users\nshould, of course, upgrade if they are using Xen.",
+        "summary_vi": "Hot on the heels of the previous\ntwo stable kernels , Greg Kroah-Hartman has announced the release of the 7.3.3 , 6.18.62 ,\n 6.12.116 , 6.6.162 , 6.1.192 ,\n 5.15.225 , and 5.10.274 stable kernels. Eac",
+        "title": "Seven stable kernels with fixes for three Xen vulnerabilities"
       },
-      "first_seen": "2026-11-04T13:19:08.134166+00:00"
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
     },
     "https://rocm.blogs.amd.com/artificial-intelligence/quark-wan22-mixed-precision/README.html": {
       "entry": {
@@ -789,6 +825,19 @@
         "title": "From Operator to Kernel: Profile DeepSeek-V4-Flash in Primus with madengine"
       },
       "first_seen": "2026-11-06T01:57:39.156695+00:00"
+    },
+    "https://rocm.blogs.amd.com/software-tools-optimization/primusclaw/README.html": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://rocm.blogs.amd.com/software-tools-optimization/primusclaw/README.html",
+        "link": "https://rocm.blogs.amd.com/software-tools-optimization/primusclaw/README.html",
+        "relevance": 3,
+        "source": "AMD ROCm Blog",
+        "summary": "PrimusClaw is an open-source managed agent runtime: a session store, an agent harness, and per-session sandboxes that you run in your own Kubernetes cluster, next to your AMD Instinct™ GPUs. In production use at AMD since April 2026, two PrimusClaw deployments have hosted more than 40,000 agent sessions for more than 70 users: over 100,000 agent-hours, more than 4 million tool calls, and more than 500 billion prompt tokens. On the main deployment, the median run lasted 3.4 hours (Endnote 2).",
+        "summary_vi": "PrimusClaw is an open-source managed agent runtime: a session store, an agent harness, and per-session sandboxes that you run in your own Kubernetes cluster, next to your AMD Instinct™ GPUs. In produc",
+        "title": "PrimusClaw: An Open-Source Managed Agent Runtime for AMD Instinct GPU Clusters"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
     },
     "https://rocm.blogs.amd.com/software-tools-optimization/profiling-guide/ai_tinyopenfold/README.html": {
       "entry": {
@@ -855,6 +904,19 @@
       },
       "first_seen": "2026-11-05T13:31:37.120286+00:00"
     },
+    "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html": {
+      "entry": {
+        "category": "security",
+        "id": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+        "link": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+        "relevance": 3,
+        "source": "The Hacker News",
+        "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.\n\nThe company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday.\n\nOne flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a",
+        "summary_vi": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.\n\nThe company released ",
+        "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
+    },
     "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html": {
       "entry": {
         "category": "security",
@@ -867,6 +929,19 @@
         "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction"
       },
       "first_seen": "2026-11-05T01:49:34.737244+00:00"
+    },
+    "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html": {
+      "entry": {
+        "category": "security",
+        "id": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+        "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+        "relevance": 3,
+        "source": "The Hacker News",
+        "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment.\n\nThe new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as",
+        "summary_vi": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in mode",
+        "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
     },
     "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html": {
       "entry": {
@@ -1089,6 +1164,19 @@
       },
       "first_seen": "2026-11-04T13:19:08.134166+00:00"
     },
+    "https://www.phoronix.com/news/FreeBSD-15.2-Beta-1": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/FreeBSD-15.2-Beta-1",
+        "link": "https://www.phoronix.com/news/FreeBSD-15.2-Beta-1",
+        "relevance": 3,
+        "source": "Phoronix",
+        "summary": "FreeBSD 15.2 Beta 1 is out today as the release dance kicks off in working toward the next installment of FreeBSD 15...",
+        "summary_vi": "FreeBSD 15.2 Beta 1 is out today as the release dance kicks off in working toward the next installment of FreeBSD 15...",
+        "title": "FreeBSD 15.2 Beta 1 Allows Experimental Cross-Building Of Base Packages On Linux/macOS"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
+    },
     "https://www.phoronix.com/news/Intel-One-Mono-1.5": {
       "entry": {
         "category": "embedded",
@@ -1193,6 +1281,19 @@
       },
       "first_seen": "2026-11-06T01:57:39.156695+00:00"
     },
+    "https://www.phoronix.com/news/Linux-7.4-rc2-FAT32": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Linux-7.4-rc2-FAT32",
+        "link": "https://www.phoronix.com/news/Linux-7.4-rc2-FAT32",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "In addition to a FAT32 optimization yielding as much as a 265x improvement that was merged for the Linux 7.4 cycle and separately another big FAT32 improvement expected for Linux 7.5, merged this week as part of the non-MM fixes for Linux 7.4-rc2 was another big FAT32 performance optimization...",
+        "summary_vi": "In addition to a FAT32 optimization yielding as much as a 265x improvement that was merged for the Linux 7.4 cycle and separately another big FAT32 improvement expected for Linux 7.5, merged this week",
+        "title": "Linux 7.4-rc2 Change Yields As Much As 162x Improvement For FAT32"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
+    },
     "https://www.phoronix.com/news/Linux-7.4-rc2-Sound": {
       "entry": {
         "category": "embedded",
@@ -1283,6 +1384,19 @@
         "title": "RadeonSI & RADV Now Enabling D16 Support For GFX8 Era GPUs"
       },
       "first_seen": "2026-11-04T01:43:07.426560+00:00"
+    },
+    "https://www.phoronix.com/news/ReactOS-Initial-USB-3.0": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/ReactOS-Initial-USB-3.0",
+        "link": "https://www.phoronix.com/news/ReactOS-Initial-USB-3.0",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "After years of work, ReactOS as the \"open-source Windows\" operating system striving for Windows program and driver compatibility now has an initial USB 3.0 driver stack in place...",
+        "summary_vi": "After years of work, ReactOS as the \"open-source Windows\" operating system striving for Windows program and driver compatibility now has an initial USB 3.0 driver stack in place...",
+        "title": "ReactOS Lands Initial USB3 Driver Support"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
     },
     "https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver": {
       "entry": {
@@ -1635,6 +1749,19 @@
       },
       "first_seen": "2026-11-06T13:18:31.957095+00:00"
     },
+    "https://www.reddit.com/r/embedded/t3_1xp2agt": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xp2agt",
+        "link": "https://www.reddit.com/r/embedded/comments/1xp2agt/question_on_sw_abstraction_layer_between/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "Hi, I came across an interesting scenario in industrial settings, such as factory processes and production lines. Many machines still rely on legacy software to operate. At the platform level, these systems often use x86 architecture, and the software may have been written decades ago using tools such as Visual Basic or Visual Studio. The user interfaces may look dated and boxy, but the software does its job, and the machines continue to run well. Because these systems are built for x86, replacing their hardware with a RISC-V platform is rarely straightforward. Software developed for x86 generally will not run directly on RISC-V hardware. I think this may be due, in part, to the lack of a suitable abstraction layer. I am not sure. Just asking for guidance. For example, imagine software that initializes a camera and starts capturing video. A function such as CameraInit() might work on an x86 platform but fail to initialize the camera sensor on a RISC-V platform. Intel’s oneAPI seems to address some problems of this kind. Besides oneAPI, are there any open-source abstraction layers that provide common interfaces and could help with this kind of challenge? Would you recommend SYCL for this use case? submitted by /u/kendryte_k230 [link] [comments]",
+        "summary_vi": "Hi, I came across an interesting scenario in industrial settings, such as factory processes and production lines. Many machines still rely on legacy software to operate. At the platform level, these s",
+        "title": "Question on SW Abstraction layer between Application and SDK on RISCV"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
+    },
     "https://www.reddit.com/r/embedded/t3_1xp2fkz": {
       "entry": {
         "category": "embedded",
@@ -1661,6 +1788,19 @@
       },
       "first_seen": "2026-11-06T13:18:31.957095+00:00"
     },
+    "https://www.reddit.com/r/embedded/t3_1xp6yvi": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xp6yvi",
+        "link": "https://www.reddit.com/r/embedded/comments/1xp6yvi/i_built_an_opensource_wifi_repeater_with_the_bw16/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "I built an open-source Wi-Fi repeater using the Ai-Thinker BW16 (RTL8720DN). It uses Realtek’s L2 bridge and a DHCP relay, so clients get network settings from the main router. It works, but throughput is currently limited: I measured around 8 Mbps through the repeater versus 37 Mbps directly. Feedback and contributions are welcome! https://github.com/highstat/BW16-Repeater submitted by /u/Prudent-Point-888 [link] [comments]",
+        "summary_vi": "I built an open-source Wi-Fi repeater using the Ai-Thinker BW16 (RTL8720DN). It uses Realtek’s L2 bridge and a DHCP relay, so clients get network settings from the main router. It works, but throughpu",
+        "title": "I built an open-source Wi-Fi repeater with the BW16 (RTL8720DN)"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
+    },
     "https://www.reddit.com/r/embedded/t3_1xp9y7a": {
       "entry": {
         "category": "embedded",
@@ -1686,6 +1826,45 @@
         "title": "Need help with project ideas for NUCLEO-H753ZI"
       },
       "first_seen": "2026-11-06T13:18:31.957095+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xpfqkj": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xpfqkj",
+        "link": "https://www.reddit.com/r/embedded/comments/1xpfqkj/lightnmeacpp_singlepass_nmea0183_parser_for/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "[Open Source] Hi everyone, Following the MicroPython version, I have officially released the production-ready C++ port of this architecture: light-nmea-cpp. It is built using the C++17 standard and designed specifically for resource-constrained 32-bit and 8-bit microcontrollers. The library is header-only and features a deterministic, single-pass design that parses data on the fly (e.g., straight from UART DMA buffers) without any dynamic memory fragmentation. Throughput: * 6.63 M lines/s on desktop (x86_64) * 110,629 pkt/s on ESP32 * 47,579 pkt/s on RP2040 Supported Platforms: * 8-bit AVR (Arduino Uno R3 example included) * 32-bit Cortex-M * ESP32 * RP2040 * RISC-V * x86_64 The codebase is open-sourced under the GPL-3.0 license. Repository: https://github.com/octaprog7/light-nmea-cpp submitted by /u/Unlucky-Falcon-9587 [link] [comments]",
+        "summary_vi": "[Open Source] Hi everyone, Following the MicroPython version, I have officially released the production-ready C++ port of this architecture: light-nmea-cpp. It is built using the C++17 standard and de",
+        "title": "light-nmea-cpp: Single-pass NMEA-0183 parser for Embedded Systems (C++17, Zero-Allocation, No FPU)"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xpgumu": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xpgumu",
+        "link": "https://www.reddit.com/r/embedded/comments/1xpgumu/can_rs485_be_used_to_transmit_short_video_clips/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "I'm looking into a project using RS-485 @ 115400bps. I used a calculator online and it said a 1mb video file could take minutes to send. What if I double the baud rate? Curious to see if there's a way to reliably send multiple video clips over RS-485? Also, its a 4 wire. So obviously power, gnd, and data submitted by /u/NecessaryLeg6097 [link] [comments]",
+        "summary_vi": "I'm looking into a project using RS-485 @ 115400bps. I used a calculator online and it said a 1mb video file could take minutes to send. What if I double the baud rate? Curious to see if there's a way",
+        "title": "Can RS-485 be used to transmit short video clips?"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xpj4ct": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xpj4ct",
+        "link": "https://www.reddit.com/r/embedded/comments/1xpj4ct/what_display_should_i_choose/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "I am making a robot with animated facial expressions like Dasai Mochi. I am using a esp32 board for this. Can anyone suggest me any good small displays that I can use? I have tried the 128x64 OLED display but find it a bit unprofessional hence I don't really want to use it. I want to sell the product and thus want it for mass production submitted by /u/UnofficialReaper [link] [comments]",
+        "summary_vi": "I am making a robot with animated facial expressions like Dasai Mochi. I am using a esp32 board for this. Can anyone suggest me any good small displays that I can use? I have tried the 128x64 OLED dis",
+        "title": "What display should I choose?"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
     },
     "https://www.redhat.com/en/blog/future-proofing-enterprise-ai-impact-post-quantum-cryptography-red-hat-ai-enterprise": {
       "entry": {
@@ -3546,31 +3725,18 @@
       },
       "first_seen": "2026-11-06T13:18:31.957095+00:00"
     },
-    "oai:arXiv.org:2611.07225v1": {
+    "oai:arXiv.org:2611.07264v1": {
       "entry": {
         "category": "research",
-        "id": "oai:arXiv.org:2611.07225v1",
-        "link": "https://arxiv.org/abs/2611.07225",
-        "relevance": 5,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2611.07225v1 Announce Type: new \nAbstract: Proportional fair (PF) scheduling in fifth-generation (5G) New Radio (NR) ranks user equipment (UE) by instantaneous rate over an exponentially weighted moving average (EWMA) of delivered service. We identify a served-but-undelivered denial-of-service (DoS) attack in which rank indicator (RI) inflation induces persistent physical resource block (PRB) starvation. Unsupported spatial layers cause first-attempt delivery failure, keeping the attacker's service EWMA low; the evaluated PF allocator repeatedly grants it the full PRB pool, denying honest UEs transmission opportunities. We formalize this recurrence and evaluate it in 3,300 paired, 200 slot multi-user shards spanning rank 1 and rank 2 Sionna Ray Tracing geometries, three link adaptation controllers, PF and round robin (RR), four target identities, and five seeds. On the rank 2 geometry, selective RI inflation yields 94--95\\% target capture, reduces PRB Jain fairness from 0.997 to 0.28, and produces mean honest zero-grant runs of 41--56\\,ms; RR preserves equal allocation. Exact offline replay and a Monte Carlo recurrence isolate the delivered-service denominator as the causal path. Cross-field and controller ablations show a weaker, controller-dependent channel-quality trigger, while activity-gated EWMA defenses remain structurally blind. The results motivate RI-consistency checks before feedback acquires scheduling authority and slot-time PRB evidence inside the O-RAN Distributed Unit.",
-        "summary_vi": "A denial-of-service attack exploits 5G NR proportional fair scheduling by inflating rank indicator values, causing first-attempt delivery failures and persistent physical resource block starvation while keeping the attacker's exponentially weighted moving average (EWMA) memory inflated.",
-        "title": "PRB Starvation at Slot Time via Rank Indicator Inflation: Attacking Proportional Fair Memory in the Scheduler"
+        "id": "oai:arXiv.org:2611.07264v1",
+        "link": "https://arxiv.org/abs/2611.07264",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.07264v1 Announce Type: cross \nAbstract: The rapid expansion of the Internet of Things (IoT) has increased the volume of data generated at the network edge, where many devices operate under severe memory, processing, and energy constraints. In this context, Tiny Machine Learning (TinyML) enables machine learning (ML) tasks to be executed on microcontrollers, smart sensors, and other resource-constrained platforms. However, the literature remains heterogeneous regarding the algorithms evaluated, energy-measurement methods, reported metrics, influencing factors, and optimization strategies. This study presents a systematic mapping of energy-aware TinyML research. It identifies the main models and learning approaches, classifies energy-evaluation methodologies and metrics, examines the technical factors affecting energy consumption, and organizes the reported optimization techniques into a structured taxonomy. The findings highlight the frequent use of convolutional and lightweight architectures, direct measurements and analytical estimations, and factors related to model architecture, hardware, communication, numerical precision, and input characteristics. The optimization strategies were grouped into model compression, hardware-aware design, system and communication optimization, and data and processing optimization. The results also reveal limited standardization in experimental platforms, measurement procedures, and reporting practices, limiting reproducibility and direct comparison across studies. This mapping provides an updated overview of the field and guidance for developing and evaluating more energy-efficient TinyML solutions.",
+        "summary_vi": "arXiv:2611.07264v1 Announce Type: cross \nAbstract: The rapid expansion of the Internet of Things (IoT) has increased the volume of data generated at the network edge, where many devices operate under ",
+        "title": "Energy Measurement and Optimization of TinyML in Resource-Constrained Embedded Systems: A Systematic Mapping Study"
       },
-      "first_seen": "2026-11-06T13:18:31.957095+00:00"
-    },
-    "oai:arXiv.org:2611.07250v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.07250v1",
-        "link": "https://arxiv.org/abs/2611.07250",
-        "relevance": 5,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2611.07250v1 Announce Type: new \nAbstract: The design of sixth generation (6G) mobile systems requires measurements of artificial intelligence (AI) service traffic under controlled network conditions. The 3rd Generation Partnership Project (3GPP) Service and System Aspects Working Group 4 (SA4) documents such measurements in draft Technical Report 26.870. In this paper, we describe the open testbed used for the study and analyze the results recorded in version 0.6.2 and its companion workbook. The testbed combines network emulation, packet capture, application measurements, and scenario execution against hosted and self-hosted models. The reported uplink to downlink volume ratios span more than six orders of magnitude. A personal assistant agent has a ratio of 0.007 at its local control interface and 0.50 on its wide-area egress. Deterministic agent signaling follows the configured round-trip delay. In a tokenized video experiment with 125 questions per profile, the number of correct answers changes by at most three through 10% independent uplink loss. Larger losses reduce accuracy, but the available repetitions do not establish a tolerance threshold. We also analyze emulator behavior that affects the interpretation of the study. Per-packet jitter introduces reordering, correlated random-loss settings suppress rare loss events, and a Gilbert-Elliott parameter mapping changes the stationary loss rate. The results support characterization by scenario, measurement layer, and versioned network configuration.",
-        "summary_vi": "This work presents an open testbed for measuring artificial intelligence service traffic characteristics under controlled conditions, supporting 6G system design through 3GPP SA4 standardization. The study documents traffic patterns recorded in Technical Report 26.870 version 0.6.2 using experimental data from the testbed, though specific traffic metrics and performance results are not detailed in the excerpt provided.",
-        "title": "Characterizing AI Service Traffic for 6G: An Open Testbed and Initial Results from 3GPP SA4"
-      },
-      "first_seen": "2026-11-06T13:18:31.957095+00:00"
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
     },
     "oai:arXiv.org:2611.07306v1": {
       "entry": {
@@ -3611,6 +3777,19 @@
       },
       "first_seen": "2026-11-06T13:18:31.957095+00:00"
     },
+    "oai:arXiv.org:2611.07452v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.07452v1",
+        "link": "https://arxiv.org/abs/2611.07452",
+        "relevance": 3,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.07452v1 Announce Type: new \nAbstract: SSL has been adopted for encrypted traffic classification to learn representations from unlabeled traces and reduce reliance on manual feature engineering. However, recent studies show that data leakage can inflate reported performance and that pretrained models can underperform shallow classifiers once leakage is controlled.\n These findings raise questions about what information SSL can learn from encrypted traffic and how different pretraining mechanisms exploit this information. In this paper, we systematically investigate these questions by examining the sources of learnable information, the effectiveness of contextual pretraining, alternative self-supervision mechanisms, and the limits of representation learning.\n We first find that visible protocol fields retain contextual dependencies that are strongest between adjacent bytes, while payload interventions establish the classification value of retained plaintext structure.\n Guided by these insights, we investigate byte-level contextual learning through ByteBERT and TrafficDCNet, showing that aligning prediction granularity with local dependencies produces more discriminative representations.\n We further examine cross-view contrastive learning through AlignTraffic and find that complementary supervision improves representation quality beyond contextual prediction alone.\n Across four public classification tasks, AlignTraffic outperforms shallow learning by 5.97% to 30.70%, with additional evaluations on industrial traffic demonstrating its effectiveness in broader settings. Finally, evaluations on Tor traffic and individual packets reveal limitations when application information is concealed or unevenly distributed. These findings provide a systematic understanding of how observable information and self-supervision mechanisms shape the effectiveness and scope of representation learning for encrypted traffic.",
+        "summary_vi": "arXiv:2611.07452v1 Announce Type: new \nAbstract: SSL has been adopted for encrypted traffic classification to learn representations from unlabeled traces and reduce reliance on manual feature engineer",
+        "title": "Understanding Self-Supervised Representation Learning for Encrypted Traffic"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
+    },
     "oai:arXiv.org:2611.07477v1": {
       "entry": {
         "category": "research",
@@ -3637,6 +3816,19 @@
       },
       "first_seen": "2026-11-06T13:18:31.957095+00:00"
     },
+    "oai:arXiv.org:2611.07535v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.07535v1",
+        "link": "https://arxiv.org/abs/2611.07535",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.07535v1 Announce Type: new \nAbstract: Low latency is critical to user experience. As NVIDIA Blackwell and Rubin GPUs advance multi-die scaling, data placement and cross-die communication become increasingly important. However, the latency implications and underlying costs of cross-die communication and die-aware execution remain largely unexplored. In this report, we present a comprehensive evaluation of the Locality Domain (LD) feature introduced in CUDA 13.4. Conducted on a single node equipped with eight NVIDIA B300 GPUs, our study examines three aspects: memory management and access, computation, and communication, to identify the sources of latency and, more importantly, explore how LD can mitigate them. Our measurements show that the benefits of LD depend on data access patterns. Through die-aware adaptations and integration with widely used libraries and tools, we achieve speedups of up to 43.5% for NCCL 2.32.3 (AllGather), 111.3% for nvbandwidth (DtoD), and 37% for DeepGEMM (EP). We also identify non-negligible LD-related GPU memory allocation overhead when allocation sizes exceed 32 MB due to barrier and TLB invalidation, we propose a fix to the GPU driver kernel module (submitted to NVIDIA) and show that overhead could be reduced 7x ~ 10x without requiring any user-code changes.",
+        "summary_vi": "arXiv:2611.07535v1 Announce Type: new \nAbstract: Low latency is critical to user experience. As NVIDIA Blackwell and Rubin GPUs advance multi-die scaling, data placement and cross-die communication be",
+        "title": "Characterizing CUDA Locality Domains on Blackwell GPUs"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
+    },
     "oai:arXiv.org:2611.07548v1": {
       "entry": {
         "category": "research",
@@ -3649,6 +3841,19 @@
         "title": "Sharp Minimum-Rate Guarantees for Power-Based Discrete RIS Design"
       },
       "first_seen": "2026-11-06T13:18:31.957095+00:00"
+    },
+    "oai:arXiv.org:2611.07550v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.07550v1",
+        "link": "https://arxiv.org/abs/2611.07550",
+        "relevance": 3,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.07550v1 Announce Type: new \nAbstract: Mobile networks are evolving toward service-aware operation to support heterogeneous applications with diverse quality-ofservice (QoS) and quality-of-experience (QoE) requirements. In practice, however, the widespread use of encryption makes service types difficult to observe directly, which limits the deployment of service-aware optimization in operational networks. Recent raw-byte representation learning methods have improved offline encrypted-traffic classification, but their robustness in realistic deployment remains limited due to temporal drift and the lack of explicit labels for online adaptation. This paper proposes Stable Encrypted-Traffic Representation and Online Adaptation (SEROA), a deployment-oriented framework for encryptedtraffic classification in service-aware mobile networks. In the offline stage, SEROA exploits protocol structure to learn temporally stable representations by applying masked modeling to stable fields, protocolaware transformations and contrastive learning to unstable fields, and time-adversarial learning to suppress time-specific cues. In the online stage, SEROA uses feedback records containing QoE measurements, wireless states, and allocation decisions to update the deployed classifier through contextual-bandit learning. Experiments show that SEROA consistently outperforms representative pretrained baselines under both random and time-based evaluation protocols, and remains effective under QoE-driven online adaptation. These results demonstrate the value of stable representation learning and online adaptation for practical service-aware mobile networks.",
+        "summary_vi": "arXiv:2611.07550v1 Announce Type: new \nAbstract: Mobile networks are evolving toward service-aware operation to support heterogeneous applications with diverse quality-ofservice (QoS) and quality-of-e",
+        "title": "SEROA: Stable Encrypted-Traffic Representation and Online Adaptation for Service-Aware Networks"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
     },
     "oai:arXiv.org:2611.07559v1": {
       "entry": {
@@ -3676,6 +3881,32 @@
       },
       "first_seen": "2026-11-06T13:18:31.957095+00:00"
     },
+    "oai:arXiv.org:2611.07592v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.07592v1",
+        "link": "https://arxiv.org/abs/2611.07592",
+        "relevance": 3,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.07592v1 Announce Type: new \nAbstract: Reordering low-Earth-orbit (LEO) beam-hopping visits can reduce grant-free update delivery even when each region receives the same service time. We derive the largest limit on inter-frame position changes that meets a prescribed delivery-rate loss tolerance when every group is visited once per frame. The guarantee concerns a protected beam's spatially averaged long-run delivery rate relative to optimized periodic service under exogenous re-planning. Fixed admission can favor irregular visits, whereas admission optimized for each revisit interval makes the per-visit reward concave under sufficient conditions on transmission success. Periodic service is then optimal at a fixed mean interval. The shortest and longest allowed intervals determine the exact worst-case loss, attained by feasible alternating visit orders that respect every group's displacement limit. The resulting budget requires no estimate of the revisit-interval distribution and extends to independent stationary renewal updates. In a collision example with 40 groups and 40 resources per slot, increasing the loss tolerance from zero to 1% raises the limit from 17 to 24 positions. With independent priorities, the latter retains over 90% of the priority-weighted waiting-cost reduction achieved by unrestricted ordering. Received-power simulations under Rayleigh fading support the predicted loss.",
+        "summary_vi": "arXiv:2611.07592v1 Announce Type: new \nAbstract: Reordering low-Earth-orbit (LEO) beam-hopping visits can reduce grant-free update delivery even when each region receives the same service time. We der",
+        "title": "Re-Planning Budgets under Admission Control in Grant-Free LEO Beam-Hopping Access"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
+    },
+    "oai:arXiv.org:2611.07656v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.07656v1",
+        "link": "https://arxiv.org/abs/2611.07656",
+        "relevance": 3,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.07656v1 Announce Type: new \nAbstract: The proliferation of computation-intensive applications, such as generative artificial intelligence and low-altitude economy services, demands mobile edge computing (MEC) systems that are both energy-efficient and adaptable to highly dynamic workloads. However, conventional MEC architectures rely on fixed-position antennas with limited spatial flexibility and rigid single-slot task execution models, which fail to accommodate bursty traffic and time-varying channels. To address these challenges, this paper proposes a novel MEC framework empowered by movable antennas (MAs) and task buffering. Unlike traditional approaches, our system enables continuous antenna repositioning to maximize array gains and decouples task generation from immediate execution via buffer queues, allowing for flexible multi-slot scheduling. We formulate a stochastic optimization problem to minimize long-term energy consumption by jointly optimizing receive beamforming, MA positions, and computing resources. Leveraging Lyapunov optimization, we transform the long-term problem into tractable per-slot subproblems and develop an efficient alternating optimization algorithm. Simulation results demonstrate that the proposed scheme significantly outperforms the benchmark schemes in terms of energy consumption, while maintaining stable task queues under unpredictable traffic conditions.",
+        "summary_vi": "arXiv:2611.07656v1 Announce Type: new \nAbstract: The proliferation of computation-intensive applications, such as generative artificial intelligence and low-altitude economy services, demands mobile e",
+        "title": "Joint Flexible Beamforming, Resource Allocation, and Task Buffering for Movable-Antenna Enabled MEC Systems"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
+    },
     "oai:arXiv.org:2611.07707v1": {
       "entry": {
         "category": "research",
@@ -3688,6 +3919,45 @@
         "title": "CAMP: Context-Aware Mapping and Placement for LLMs on 3D-IMC Arrays"
       },
       "first_seen": "2026-11-06T13:18:31.957095+00:00"
+    },
+    "oai:arXiv.org:2611.07716v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.07716v1",
+        "link": "https://arxiv.org/abs/2611.07716",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.07716v1 Announce Type: new \nAbstract: Reliable operation of multi-hop wireless networks requires accounting for statistical dependence among link failures caused by common propagation conditions and shared network components. This paper develops a copula-based framework for modeling node-induced dependence among link-level signal-to-noise ratios and quantifying its effect on end-to-end outage. By separating marginal fading distributions from the dependence structure, the framework captures nonlinear and tail-dependent coupling beyond conventional correlation-based models. Exact outage expressions are derived for primary-backup configurations involving edge-disjoint paths and paths with shared links. We then characterize the conditional outage probability of each candidate backup path given a primary-path failure, jointly accounting for node-induced dependence and shared-link failures. In high-reliability regimes, we derive a first-order score that decomposes conditional outage into terms associated with marginal path outage, shared links, and node-induced dependence, enabling efficient dependence-aware backup-path selection. We also establish sufficient conditions under which the first-order and exact selection rules identify the same backup path. Numerical results validate the analysis and show that copula families with the same Kendall's $\\tau$ can yield markedly different outage behavior because of their different tail-dependence properties. In particular, lower-tail dependence and path overlap can substantially reduce redundancy gains and reverse rankings based only on marginal outage probability.",
+        "summary_vi": "arXiv:2611.07716v1 Announce Type: new \nAbstract: Reliable operation of multi-hop wireless networks requires accounting for statistical dependence among link failures caused by common propagation condi",
+        "title": "Copula-Based Dependence Modeling for Resilient 6G Multi-Hop Wireless Networks"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
+    },
+    "oai:arXiv.org:2611.07724v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.07724v1",
+        "link": "https://arxiv.org/abs/2611.07724",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.07724v1 Announce Type: new \nAbstract: The proliferation of low-altitude aerial Internet of Things applications, such as UAV-based sensing/monitoring, demands high-performance uplinks, yet terrestrial-optimized cellular networks with downtilted base station (BS) antennas form coverage holes that severely degrade aerial uplink. To address this challenge without modifying infrastructure, active reconfigurable intelligent surfaces (RISs) are introduced. Unlike existing studies with complicated active RIS optimizations, we conduct a detailed noise analysis to simplify the transmission design. By deploying one active RIS per BS sector to fully exploit multi-sector reception, we develop a joint sector maximal signal combining scheme that improves signal quality through diversity gain. Active RISs introduce amplifier noise, raising questions about their net benefit. We derive an upper bound on the power ratio between RIS-introduced noise and BS-inherent noise, revealing that the impact of RIS noise is negligible under typical operating conditions. Based on this insight, we maximize a derived lower bound of the received signal-to-noise ratio by sequentially designing the amplitude and phase of reflection coefficients with closed-form expressions. Simulation results validate the theoretical analysis on negligible RIS-introduced noise in typical systems and demonstrate that under the same array gain, a larger RIS size rather than a higher reflection gain is preferred for enhancing the low-altitude uplink transmission.",
+        "summary_vi": "arXiv:2611.07724v1 Announce Type: new \nAbstract: The proliferation of low-altitude aerial Internet of Things applications, such as UAV-based sensing/monitoring, demands high-performance uplinks, yet t",
+        "title": "Uplink Enhancement for Low-Altitude UAVs via Active RISs Under Existing Cellular Infrastructure"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
+    },
+    "oai:arXiv.org:2611.07827v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.07827v1",
+        "link": "https://arxiv.org/abs/2611.07827",
+        "relevance": 3,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.07827v1 Announce Type: new \nAbstract: In 2003, Clark et al. proposed the \"Knowledge Plane\", a layer of intelligent agents that share rich information about network state in order to collaboratively manage the Internet across administrative boundaries. The technology of the day lacked the two capabilities it demanded most: reasoning and unstructured communication. Thus, automated network management has remained largely confined to single domains, while interdomain problems are still resolved by human operators on the phone. We argue that agentic large language models can finally unlock the potential of the Knowledge Plane, but that doing so will require solving new research problems that arise particularly in this decentralized, multi-agent, coopetitive setting that have received limited attention in the literature thus far.",
+        "summary_vi": "arXiv:2611.07827v1 Announce Type: new \nAbstract: In 2003, Clark et al. proposed the \"Knowledge Plane\", a layer of intelligent agents that share rich information about network state in order to collabo",
+        "title": "Instantiating the Knowledge Plane"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
     },
     "oai:arXiv.org:2611.07916v1": {
       "entry": {
@@ -3702,6 +3972,19 @@
       },
       "first_seen": "2026-11-06T13:18:31.957095+00:00"
     },
+    "oai:arXiv.org:2611.07919v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.07919v1",
+        "link": "https://arxiv.org/abs/2611.07919",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.07919v1 Announce Type: new \nAbstract: We present a novel approach for model checking fault-tolerant distributed algorithms: instead of building large, monolithic algorithm models, we propose a modular approach where the user decomposes the algorithm into modules, verifies them individually, and replaces them with a synchronous abstraction. To enable our technique, we introduce a new system model that combines aspects of threshold automata and global synchronization protocols. We investigate the expressiveness of our new model, and present a (bounded) model checking procedure as well as a method for checking the correctness of the abstraction step. We implemented the technique and report on promising experimental results on a case study",
+        "summary_vi": "arXiv:2611.07919v1 Announce Type: new \nAbstract: We present a novel approach for model checking fault-tolerant distributed algorithms: instead of building large, monolithic algorithm models, we propos",
+        "title": "Modular Parameterized Model Checking of Threshold-Based Distributed Algorithms"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
+    },
     "oai:arXiv.org:2611.08083v1": {
       "entry": {
         "category": "research",
@@ -3714,6 +3997,32 @@
         "title": "GUARDTs: Decentralized Access Control for Replicated Data Types"
       },
       "first_seen": "2026-11-06T13:18:31.957095+00:00"
+    },
+    "oai:arXiv.org:2611.08147v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.08147v1",
+        "link": "https://arxiv.org/abs/2611.08147",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.08147v1 Announce Type: cross \nAbstract: Dense optical flow allows small drones to avoid obstacles. However, few dense optical flow networks are designed for microcontrollers (MCUs) with neural accelerators, whose on-chip SRAM limits the input resolution. We present PACE-NAS, a macro-to-micro neural architecture search framework that decouples memory from latency: a macro design fixes the backbone and its peak SRAM, and a micro design searches operators and depths to trade accuracy against compiler-estimated latency. We apply it to EdgeFlowNet on a Grove Vision AI V2 board (Ethos-U55), where profiling locates the peak SRAM at the full-resolution output head. Replacing transposed convolutions with bilinear upsampling and convolutions lowers the peak SRAM by 18%, and two lightweight context modules lower the endpoint error (EPE) without raising the peak. All searched subnets share this peak, so the search needs no memory constraint. We name the Pareto-optimal models MCUFlowNet; the fastest variant, MCUFlowNet-S, runs 1.76x faster than a retrained EdgeFlowNet at a 1.6% higher EPE and, in simulated forest flights at 2 m/s, reaches the goal without collision in 51.5% of trials, against 41.8%. PACE-NAS also applies to semantic segmentation, where a searched PIDNet-S variant runs 1.17x faster at similar accuracy. Code is available at https://gitlab.kuleuven.be/emedia-research-lab/esat-stadius/mcuflownet/mcuflownet.",
+        "summary_vi": "arXiv:2611.08147v1 Announce Type: cross \nAbstract: Dense optical flow allows small drones to avoid obstacles. However, few dense optical flow networks are designed for microcontrollers (MCUs) with neu",
+        "title": "MCUFlowNet: Hardware-Aware Neural Architecture Search for Optical Flow on Microcontrollers"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
+    },
+    "oai:arXiv.org:2611.08200v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.08200v1",
+        "link": "https://arxiv.org/abs/2611.08200",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.08200v1 Announce Type: cross \nAbstract: Zirah is a hardware signer built around an STM32F407 microcontroller, and its purpose is to find out, on inexpensive hardware, where a post-quantum signing key is exposed and what actually protects it. The device draws every random bit from a reverse-biased 2N3904 junction in avalanche breakdown, amplified by an LM358 and screened by SP 800-90B health tests, computes ML-DSA-65 (FIPS 204, hedged) on the STM32 with two-share arithmetic masking of the secret-key multiplications, and adds ECDSA P-256 from an ATECC608 secure element over the same digest, once a person has matched an eight-digit digest prefix on its OLED with the PC and pressed a button. A desktop application and a command-line tool drive the board and verify its output, and because only a 32-byte manifest digest reaches the device, it signs files of any type and size, returning signed copies for PDF, Office Open XML, ZIP, PNG and JPEG files and detached records for every other format. NIST's SP 800-90B tool rejected the IID assumption for 1,000,000 raw samples and assessed 6.898 bits of min-entropy per byte on the non-IID track, against the 1 bit the firmware credits, while spectral lines near 116 Hz that hold about 5 % of the variance remain unexplained. At 168 MHz the masked signature took a median of 157 ms over 20 runs and a complete signing operation under 0.8 s, and the signer matched the pq-crystals reference in 1,976 checks natively and on an emulated Cortex-M4. The ATECC608 can neither store the 4,032-byte ML-DSA-65 key nor compute with it, so that key sits in ordinary flash behind readout protection, and on an earlier board, before that protection was enabled, a debugger copied it out and the copy produced a valid ML-DSA-65 signature without the device, although the leakage results come from an instruction-level emulator and nothing here is certified.",
+        "summary_vi": "arXiv:2611.08200v1 Announce Type: cross \nAbstract: Zirah is a hardware signer built around an STM32F407 microcontroller, and its purpose is to find out, on inexpensive hardware, where a post-quantum s",
+        "title": "Zirah: A Post-Quantum True Random Number Generator Hardware Signer With an Avalanche Noise"
+      },
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
     },
     "oai:arXiv.org:2611.08299v1": {
       "entry": {
@@ -3728,18 +4037,18 @@
       },
       "first_seen": "2026-11-06T13:18:31.957095+00:00"
     },
-    "tag:github.com,2008:Repository/107505869/v1.18.0": {
+    "oai:arXiv.org:2611.08399v1": {
       "entry": {
-        "category": "virt",
-        "id": "tag:github.com,2008:Repository/107505869/v1.18.0",
-        "link": "https://github.com/firecracker-microvm/firecracker/releases/tag/v1.18.0",
-        "relevance": 4,
-        "source": "Firecracker (GitHub Releases)",
-        "summary": "#6393 : Added \nenclave support.",
-        "summary_vi": "Release v1.18.0 adds support for secure enclaves. Further details regarding underlying architectural mechanisms or platform specifics are not provided in the snippet.",
-        "title": "v1.18.0: Added"
+        "category": "research",
+        "id": "oai:arXiv.org:2611.08399v1",
+        "link": "https://arxiv.org/abs/2611.08399",
+        "relevance": 3,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.08399v1 Announce Type: new \nAbstract: Analog compute-in-memory (CIM) enables energy-efficient AI inference by performing in-situ matrix multiplication. The growing demand for deploying larger models motivates chiplet integration to expand CIM capacity. However, simulation abstractions based on local operator costs and aggregate communication metrics obscure the impact of weight-mapping topology when CIM system scales up. We develop a phase analysis that quantifies how strongly mapping topology affects system performance across hardware configurations and how mapping optimization translates into latency gains. To evaluate and exploit this design space, we present Isobar, a simulation platform integrating CIM decompositions, heterogeneous execution, and resource modeling. Validated against silicon measurements and cycle-accurate simulation, Isobar provides reliable cost estimates that enable effective mapping search across model and hardware configurations. For Gemma-7B prefill, Isobar-guided mapping reduces communication time by 23.3% and end-to-end latency by 18.6% relative to the strongest baseline. Isobar's system-level modeling show that analog CIM retains energy-efficiency potential relative to GPU when scaled to thousands of dies, and identify topology-aware mapping as a key design dimension for efficient execution.",
+        "summary_vi": "arXiv:2611.08399v1 Announce Type: new \nAbstract: Analog compute-in-memory (CIM) enables energy-efficient AI inference by performing in-situ matrix multiplication. The growing demand for deploying larg",
+        "title": "Scaling Up Analog CIM: A Simulation Framework for Topology-Aware Mapping"
       },
-      "first_seen": "2026-11-06T13:18:31.957095+00:00"
+      "first_seen": "2026-11-07T01:13:55.085191+00:00"
     }
   },
   "rejected": {
@@ -3750,6 +4059,8 @@
     "https://eclypsium.com/?p=18855": "2026-10-30T01:24:44.649656+00:00",
     "https://eclypsium.com/?p=18880": "2026-10-30T01:24:44.649656+00:00",
     "https://eclypsium.com/?p=18890": "2026-10-30T01:24:44.649656+00:00",
+    "https://eclypsium.com/?p=18939": "2026-11-07T01:13:55.085191+00:00",
+    "https://eclypsium.com/?p=18943": "2026-11-07T01:13:55.085191+00:00",
     "https://linuxgizmos.com/?p=99436": "2026-10-11T11:37:08.824229+00:00",
     "https://linuxgizmos.com/?p=99474": "2026-10-14T10:38:07.145690+00:00",
     "https://linuxgizmos.com/?p=99484": "2026-10-14T10:38:07.145690+00:00",
@@ -3833,6 +4144,8 @@
     "https://lwn.net/Articles/1105121/": "2026-11-04T01:43:07.426560+00:00",
     "https://lwn.net/Articles/1105131/": "2026-11-04T01:43:07.426560+00:00",
     "https://lwn.net/Articles/1105639/": "2026-11-06T01:57:39.156695+00:00",
+    "https://lwn.net/Articles/1105881/": "2026-11-07T01:13:55.085191+00:00",
+    "https://lwn.net/Articles/1105913/": "2026-11-07T01:13:55.085191+00:00",
     "https://rcrwireless.com/?p=434891": "2026-10-08T12:16:35.137792+00:00",
     "https://rcrwireless.com/?p=434897": "2026-10-09T12:07:21.302578+00:00",
     "https://rcrwireless.com/?p=434912": "2026-10-09T12:07:21.302578+00:00",
@@ -3869,6 +4182,7 @@
     "https://rcrwireless.com/?p=435872": "2026-11-04T01:43:07.426560+00:00",
     "https://rcrwireless.com/?p=435888": "2026-11-04T13:19:08.134166+00:00",
     "https://rcrwireless.com/?p=435914": "2026-11-06T01:57:39.156695+00:00",
+    "https://rcrwireless.com/?p=435927": "2026-11-07T01:13:55.085191+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/Micro-World-V2/README.html": "2026-10-22T00:14:37.714250+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/eagle3-training/README.html": "2026-10-28T00:46:21.169893+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/faster-action-models/README.html": "2026-10-22T00:14:37.714250+00:00",
@@ -3883,6 +4197,7 @@
     "https://rocm.blogs.amd.com/ecosystems-and-partners/ultralytics-amd/README.html": "2026-10-27T00:50:51.993375+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/di-kimi-k3-mxfp4/README.html": "2026-10-09T01:28:13.470643+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/hipcim-26-08/README.html": "2026-10-21T00:09:49.548846+00:00",
+    "https://rocm.blogs.amd.com/software-tools-optimization/inferasim/README.html": "2026-11-07T01:13:55.085191+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/megakernel-intro/README.html": "2026-10-21T00:09:49.548846+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/mi455x-vs-mi355x/README.html": "2026-10-09T01:28:13.470643+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/openxla-group-gemm/README.html": "2026-10-27T00:50:51.993375+00:00",
@@ -3932,6 +4247,7 @@
     "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html": "2026-11-03T13:02:11.696372+00:00",
     "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html": "2026-11-06T01:57:39.156695+00:00",
     "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html": "2026-11-01T12:03:06.789682+00:00",
+    "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html": "2026-11-07T01:13:55.085191+00:00",
     "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html": "2026-11-06T01:57:39.156695+00:00",
     "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html": "2026-11-02T13:55:07.841963+00:00",
     "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html": "2026-11-06T13:18:31.957095+00:00",
@@ -3996,6 +4312,7 @@
     "https://www.huawei.com/en/news/2026/10/ubbf-networkx-agenticcore": "2026-10-15T23:54:14.069902+00:00",
     "https://www.huawei.com/en/news/2026/10/ubbf-networkx-ctm": "2026-10-15T23:54:14.069902+00:00",
     "https://www.huawei.com/en/news/2026/10/ubbf-networkx-fttr-ftto": "2026-10-15T23:54:14.069902+00:00",
+    "https://www.huawei.com/en/news/2026/11/wireless-documentary": "2026-11-07T01:13:55.085191+00:00",
     "https://www.huawei.com/en/news/2026/9/alpha-antenna-6000": "2026-10-11T00:29:49.881685+00:00",
     "https://www.linuxfoundation.org/blog/developer-experience-as-a-business-strategy-lessons-from-the-new-devex-report": "2026-10-11T00:29:49.881685+00:00",
     "https://www.linuxfoundation.org/blog/how-should-enterprises-transition-to-the-agentic-era": "2026-10-09T12:07:21.302578+00:00",
@@ -4189,6 +4506,7 @@
     "https://www.phoronix.com/news/Wine-Mesa-Map-Buffer-Client-Ptr": "2026-10-28T00:46:21.169893+00:00",
     "https://www.phoronix.com/news/memtest86-Plus-9.0": "2026-10-15T23:54:14.069902+00:00",
     "https://www.phoronix.com/news/oneDNN-3.14-Released": "2026-10-24T00:02:40.989120+00:00",
+    "https://www.phoronix.com/review/cachyos-omarchy-benchmarks": "2026-11-07T01:13:55.085191+00:00",
     "https://www.phoronix.com/review/cachyos-ubuntu2610-fedora45": "2026-10-29T01:15:38.013696+00:00",
     "https://www.phoronix.com/review/framework-laptop-12-wildcat-lake": "2026-10-14T00:37:17.101304+00:00",
     "https://www.phoronix.com/review/intel-xeon-granite-rapids-ubuntu-2610": "2026-10-16T23:54:14.734784+00:00",
@@ -4427,6 +4745,7 @@
     "https://www.redhat.com/en/3-reasons-to-attend-red-hat-summit-connect": "2026-10-08T01:20:40.258601+00:00",
     "https://www.redhat.com/en/blog/3-recent-enhancements-red-hat-hybrid-cloud-console": "2026-11-06T01:57:39.156695+00:00",
     "https://www.redhat.com/en/blog/5-minute-demo-how-build-modern-applications-red-hat-openshift": "2026-11-06T01:57:39.156695+00:00",
+    "https://www.redhat.com/en/blog/5-minute-demo-how-manage-applications-scale-red-hat-openshift": "2026-11-07T01:13:55.085191+00:00",
     "https://www.redhat.com/en/blog/ai-agent-security-policy-driven-access-control": "2026-10-28T00:46:21.169893+00:00",
     "https://www.redhat.com/en/blog/announcing-fedora-45": "2026-11-04T01:43:07.426560+00:00",
     "https://www.redhat.com/en/blog/breathing-life-corporate-innovation-ideabot": "2026-10-08T01:20:40.258601+00:00",
@@ -5285,6 +5604,10 @@
     "oai:arXiv.org:2611.06462v1": "2026-11-06T01:57:39.156695+00:00",
     "oai:arXiv.org:2611.06737v1": "2026-11-06T01:57:39.156695+00:00",
     "oai:arXiv.org:2611.07358v1": "2026-11-06T13:18:31.957095+00:00",
+    "oai:arXiv.org:2611.07487v1": "2026-11-07T01:13:55.085191+00:00",
+    "oai:arXiv.org:2611.07496v1": "2026-11-07T01:13:55.085191+00:00",
+    "oai:arXiv.org:2611.07928v1": "2026-11-07T01:13:55.085191+00:00",
+    "oai:arXiv.org:2611.07996v1": "2026-11-07T01:13:55.085191+00:00",
     "oai:arXiv.org:2611.08307v1": "2026-11-06T13:18:31.957095+00:00",
     "tag:blogger.com,1999:blog-7068042310767317158.post-2018016391806741936": "2026-10-15T10:19:36.277492+00:00",
     "tag:github.com,2008:Repository/135502094/202610.2.23.244": "2026-10-13T02:44:05.425689+00:00",
