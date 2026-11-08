@@ -42,7 +42,6 @@
     "https://lwn.net/Articles/1092439/": "2026-11-06T13:14:17.741766+00:00",
     "https://lwn.net/Articles/1092659/": "2026-11-06T13:14:17.741766+00:00",
     "https://lwn.net/Articles/1092660/": "2026-11-06T13:14:17.741766+00:00",
-    "https://lwn.net/Articles/1098399/": "2026-10-09T01:28:13.470643+00:00",
     "https://lwn.net/Articles/1098493/": "2026-10-15T23:54:14.069902+00:00",
     "https://lwn.net/Articles/1098611/": "2026-10-16T23:54:14.734784+00:00",
     "https://lwn.net/Articles/1098670/": "2026-10-10T11:23:32.463986+00:00",
@@ -77,13 +76,10 @@
     "https://lwn.net/Articles/1105936/": "2026-11-07T11:56:46.016476+00:00",
     "https://nickvsnetworking.com/?p=8306": "2026-11-07T01:13:55.085191+00:00",
     "https://nickvsnetworking.com/?p=8479": "2026-10-28T11:41:08.830280+00:00",
-    "https://ocudu.org/?p=851": "2026-10-09T01:28:13.470643+00:00",
     "https://ocudu.org/?p=926": "2026-10-30T01:24:44.649656+00:00",
     "https://osmocom.org/news/334": "2026-10-13T02:44:05.425689+00:00",
     "https://osmocom.org/news/335": "2026-10-24T00:02:40.989120+00:00",
     "https://osmocom.org/news/336": "2026-11-06T13:18:31.957095+00:00",
-    "https://rcrwireless.com/?p=434899": "2026-10-09T12:07:21.302578+00:00",
-    "https://rcrwireless.com/?p=434904": "2026-10-09T01:28:13.470643+00:00",
     "https://rcrwireless.com/?p=434915": "2026-10-10T01:18:49.490352+00:00",
     "https://rcrwireless.com/?p=434922": "2026-10-13T02:44:05.425689+00:00",
     "https://rcrwireless.com/?p=434926": "2026-10-12T13:35:18.699602+00:00",
@@ -147,6 +143,7 @@
     "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html": "2026-11-07T11:56:46.016476+00:00",
     "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html": "2026-11-01T12:03:06.789682+00:00",
     "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html": "2026-11-05T01:49:34.737244+00:00",
+    "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html": "2026-11-08T12:15:15.623047+00:00",
     "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html": "2026-11-03T03:07:33.506203+00:00",
     "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html": "2026-11-07T01:13:55.085191+00:00",
     "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html": "2026-11-06T13:18:31.957095+00:00",
@@ -176,6 +173,7 @@
     "https://www.huawei.com/en/news/2026/10/communications-network-wireless": "2026-10-29T01:15:38.013696+00:00",
     "https://www.huawei.com/en/news/2026/10/ubbf2026-aicentric": "2026-10-15T00:07:44.827060+00:00",
     "https://www.huawei.com/en/news/2026/10/ubbf2026-networkx-bdc": "2026-10-16T10:07:43.710673+00:00",
+    "https://www.phoronix.com/news/AMD-PerfOpt-Tweaks-Linux-7.4": "2026-11-08T12:15:15.623047+00:00",
     "https://www.phoronix.com/news/AMD-Rust-Deep-Into-GPU-Stack": "2026-11-06T13:14:17.741766+00:00",
     "https://www.phoronix.com/news/AMD-Zen-6-BTB-Linux-7.4-Merged": "2026-10-22T10:40:49.740733+00:00",
     "https://www.phoronix.com/news/AMD-Zen-6-TEE-RISC-V-Based": "2026-11-07T01:13:55.085191+00:00",
@@ -190,7 +188,6 @@
     "https://www.phoronix.com/news/DMA-BUF-IO-uring-Linux-7.4": "2026-10-28T00:46:21.169893+00:00",
     "https://www.phoronix.com/news/Drgn-0.3-Released": "2026-10-11T11:37:08.824229+00:00",
     "https://www.phoronix.com/news/F2FS-Linux-7.4": "2026-10-30T01:24:44.649656+00:00",
-    "https://www.phoronix.com/news/Faster-Zswap-Batch-Writeback-IO": "2026-10-09T12:07:21.302578+00:00",
     "https://www.phoronix.com/news/Fedora-47-Considers-Thin-LTO": "2026-11-06T13:14:17.741766+00:00",
     "https://www.phoronix.com/news/GCC-17-RISC-V-mtune-mcpu-native": "2026-11-06T13:14:17.741766+00:00",
     "https://www.phoronix.com/news/GNOME-RFC-Process-Discussion": "2026-11-06T13:14:17.741766+00:00",
@@ -242,7 +239,6 @@
     "https://www.phoronix.com/news/Linux-CAS-Regression-AMD-HX-370": "2026-10-26T11:34:23.964933+00:00",
     "https://www.phoronix.com/news/Linux-Considers-Dropping--KGDB": "2026-10-29T01:15:38.013696+00:00",
     "https://www.phoronix.com/news/Linux-Drop-RT_GROUP_SCHED": "2026-11-06T13:18:31.957095+00:00",
-    "https://www.phoronix.com/news/Linux-Hibernation-With-Lockdown": "2026-10-09T12:07:21.302578+00:00",
     "https://www.phoronix.com/news/Linux-Provenance-Time-PTIME": "2026-10-29T04:16:31.165926+00:00",
     "https://www.phoronix.com/news/Linux-Shutdown-Async-21": "2026-11-06T13:14:17.741766+00:00",
     "https://www.phoronix.com/news/Linux-WA-TLBI-Erratum-1718": "2026-10-12T00:47:21.124571+00:00",
@@ -265,7 +261,6 @@
     "https://www.phoronix.com/review/amazon-linux-2027-benchmarks": "2026-11-06T13:14:17.741766+00:00",
     "https://www.phoronix.com/review/amd-perfopt-prior-gen": "2026-10-11T00:29:49.881685+00:00",
     "https://www.phoronix.com/review/linux-74-features": "2026-11-04T01:43:07.426560+00:00",
-    "https://www.reddit.com/r/embedded/t3_1x028y1": "2026-10-09T01:28:13.470643+00:00",
     "https://www.reddit.com/r/embedded/t3_1x0c03l": "2026-10-10T01:18:49.490352+00:00",
     "https://www.reddit.com/r/embedded/t3_1x1xefp": "2026-10-11T00:29:49.881685+00:00",
     "https://www.reddit.com/r/embedded/t3_1x1yysw": "2026-10-11T00:29:49.881685+00:00",
@@ -311,8 +306,9 @@
     "https://www.reddit.com/r/embedded/t3_1xqaeoa": "2026-11-08T00:56:33.966379+00:00",
     "https://www.reddit.com/r/embedded/t3_1xqds4v": "2026-11-08T00:56:33.966379+00:00",
     "https://www.reddit.com/r/embedded/t3_1xqf81x": "2026-11-08T00:56:33.966379+00:00",
+    "https://www.reddit.com/r/embedded/t3_1xqu1ru": "2026-11-08T12:15:15.623047+00:00",
+    "https://www.reddit.com/r/embedded/t3_1xqvrce": "2026-11-08T12:15:15.623047+00:00",
     "https://www.redhat.com/en/blog/5-minute-demo-devsecops-red-hat-openshift-speed-application-delivery": "2026-10-20T00:41:16.386846+00:00",
-    "https://www.redhat.com/en/blog/actionable-disconnected-cluster-analysis-available-now-pen-drive-powered-red-hat-lightspeed": "2026-10-09T12:07:21.302578+00:00",
     "https://www.redhat.com/en/blog/advancing-netops-code-strategic-momentum-enhanced-security-and-multimode-automation": "2026-10-15T10:19:36.277492+00:00",
     "https://www.redhat.com/en/blog/ai-tokenomics-balancing-open-weight-and-frontier-models-optimal-roi": "2026-10-15T23:54:14.069902+00:00",
     "https://www.redhat.com/en/blog/building-ai-open-source-way-research-insights-red-hat-and-linux-foundation": "2026-10-21T10:36:54.456279+00:00",
@@ -328,8 +324,6 @@
     "https://www.redhat.com/en/blog/how-patch-application-vulnerabilities-without-upgrading": "2026-10-15T00:07:44.827060+00:00",
     "https://www.redhat.com/en/blog/mlops-edge-ai-keeping-models-accurate-over-time": "2026-10-27T00:50:51.993375+00:00",
     "https://www.redhat.com/en/blog/mlops-edge-ai-managing-ai-models-across-distributed-fleets": "2026-10-21T00:09:49.548846+00:00",
-    "https://www.redhat.com/en/blog/mlops-edge-running-ai-models-edge": "2026-10-09T01:28:13.470643+00:00",
-    "https://www.redhat.com/en/blog/mlops-edge-running-ai-models-edge-0": "2026-10-09T01:28:13.470643+00:00",
     "https://www.redhat.com/en/blog/model-context-protocol-gateway-red-hat-openshift-now-generally-available": "2026-10-16T23:54:14.734784+00:00",
     "https://www.redhat.com/en/blog/modernizing-virtualization-higher-education-how-automated-node-recovery-protects-data-integrity": "2026-11-06T13:14:17.741766+00:00",
     "https://www.redhat.com/en/blog/one-soc-two-worlds-zero-compromise-how-red-hat-vehicle-operating-system-and-dxc-amber-come-together-mixed-criticality-software-defined-vehicle-solution": "2026-10-15T00:07:44.827060+00:00",
@@ -347,6 +341,7 @@
     "https://www.redhat.com/en/blog/whats-old-new-lightwell-discovers-novel-zero-day-vulnerability-core-java-framework": "2026-10-14T00:37:17.101304+00:00",
     "https://www.redhat.com/en/blog/why-lightwell-pairs-dependency-backports-upstream-collaboration": "2026-11-05T01:49:34.737244+00:00",
     "https://www.redhat.com/en/blog/why-secure-design-new-standard-open-source": "2026-10-10T01:18:49.490352+00:00",
+    "oai:arXiv.org:2506.08911v2": "2026-11-08T12:15:15.623047+00:00",
     "oai:arXiv.org:2510.08479v3": "2026-10-29T04:16:31.165926+00:00",
     "oai:arXiv.org:2510.25963v2": "2026-10-10T11:23:32.463986+00:00",
     "oai:arXiv.org:2511.23406v2": "2026-11-06T13:14:17.741766+00:00",
@@ -357,7 +352,6 @@
     "oai:arXiv.org:2604.21231v3": "2026-10-11T11:37:08.824229+00:00",
     "oai:arXiv.org:2605.00555v4": "2026-11-06T13:14:17.741766+00:00",
     "oai:arXiv.org:2605.06936v4": "2026-10-11T00:29:49.881685+00:00",
-    "oai:arXiv.org:2605.18612v5": "2026-10-09T01:28:13.470643+00:00",
     "oai:arXiv.org:2606.00455v4": "2026-10-13T02:44:05.425689+00:00",
     "oai:arXiv.org:2606.02854v3": "2026-10-11T00:29:49.881685+00:00",
     "oai:arXiv.org:2606.18958v2": "2026-11-06T13:14:17.741766+00:00",
@@ -412,10 +406,6 @@
     "oai:arXiv.org:2609.04040v1": "2026-11-06T13:14:17.741766+00:00",
     "oai:arXiv.org:2609.04043v3": "2026-10-15T10:19:36.277492+00:00",
     "oai:arXiv.org:2609.04058v1": "2026-11-06T13:14:17.741766+00:00",
-    "oai:arXiv.org:2609.22314v2": "2026-10-09T01:28:13.470643+00:00",
-    "oai:arXiv.org:2610.09381v1": "2026-10-09T01:28:13.470643+00:00",
-    "oai:arXiv.org:2610.09429v1": "2026-10-09T01:28:13.470643+00:00",
-    "oai:arXiv.org:2610.10579v1": "2026-10-09T12:07:21.302578+00:00",
     "oai:arXiv.org:2610.10985v1": "2026-10-12T00:47:21.124571+00:00",
     "oai:arXiv.org:2610.11172v1": "2026-10-10T01:18:49.490352+00:00",
     "oai:arXiv.org:2610.11307v1": "2026-10-10T01:18:49.490352+00:00",
@@ -592,19 +582,6 @@
       },
       "first_seen": "2026-11-05T13:31:37.120286+00:00"
     },
-    "https://linuxgizmos.com/?p=99746": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://linuxgizmos.com/?p=99746",
-        "link": "https://linuxgizmos.com/pocket-sized-linux-ai-box-runs-on-256-tops-axera-chip/",
-        "relevance": 3,
-        "source": "LinuxGizmos.com",
-        "summary": "Sipeed has recently shared additional details about the MaixStation, a Linux AI workstation powered by Axera’s AX8860P processor, which combines a 16-core Arm CPU with an NPU rated at 256 TOPS FP4. The system supports up to 128GB of LPDDR5X memory, 273GB/s memory bandwidth, 10G SFP+ networking, and PCIe 5.0 expansion for local AI inference […]",
-        "summary_vi": "Sipeed has recently shared additional details about the MaixStation, a Linux AI workstation powered by Axera’s AX8860P processor, which combines a 16-core Arm CPU with an NPU rated at 256 TOPS FP4. Th",
-        "title": "Pocket-sized Linux AI box runs on 256-TOPS Axera chip"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
     "https://linuxgizmos.com/?p=99758": {
       "entry": {
         "category": "embedded",
@@ -670,71 +647,6 @@
       },
       "first_seen": "2026-11-06T01:57:39.156695+00:00"
     },
-    "https://lwn.net/Articles/1103480/": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://lwn.net/Articles/1103480/",
-        "link": "https://lwn.net/Articles/1103480/",
-        "relevance": 3,
-        "source": "LWN.net Front Page",
-        "summary": "Inside this week's LWN.net Weekly Edition:\n \n \n Front : Kernel cells; Debian LLM reviews; glibc system-call wrappers; Binder in Rust; Kernel CVE flood; Fedora KDE and X11 removal; 7.4 merge window part two; Portable Python.\n Briefs : MTCP RCE; Bash security; XCPE botnet; Bazzite 45; Fedora 45; openSUSE Leap 16.1; Tor Browser 16.0; Quotes; ...\n Announcements : Newsletters, conferences, security updates, patches, and more.",
-        "summary_vi": "Inside this week's LWN.net Weekly Edition:\n \n \n Front : Kernel cells; Debian LLM reviews; glibc system-call wrappers; Binder in Rust; Kernel CVE flood; Fedora KDE and X11 removal; 7.4 merge window par",
-        "title": "[$] LWN.net Weekly Edition for November 5, 2026"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "https://lwn.net/Articles/1104646/": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://lwn.net/Articles/1104646/",
-        "link": "https://lwn.net/Articles/1104646/",
-        "relevance": 3,
-        "source": "LWN.net Front Page",
-        "summary": "A basic Python script is portable: it can be copied between machines with little concern about compatibility.\nA script that depends on third-party packages requires quite a bit more\ncare and consideration, however.\nIn 2023, PEP\n723 (\"Inline script metadata\") introduced a standard for declaring a Python script's\ndependencies inside the script itself.\nSeveral third-party tools can now automatically install and manage those dependencies, but there is still little official support for this standard within Python itself.",
-        "summary_vi": "A basic Python script is portable: it can be copied between machines with little concern about compatibility.\nA script that depends on third-party packages requires quite a bit more\ncare and considera",
-        "title": "[$] Portable Python scripts with dependencies"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "https://lwn.net/Articles/1105130/": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://lwn.net/Articles/1105130/",
-        "link": "https://lwn.net/Articles/1105130/",
-        "relevance": 3,
-        "source": "LWN.net Front Page",
-        "summary": "The KDE Project announced, in 2025, that Plasma 6.7 would\nbe the last version of the desktop environment that would support X11\nsessions. Those who keep up with KDE's announcements no doubt expected it when\n Plasma 6.8 \ndropped X11 support as promised. What seems to have come as a surprise, at\nleast to a number of Fedora KDE Plasma\nDesktop users, is that the Fedora 44 release—which shipped in\nApril with Plasma 6.6 —received\nan update to Plasma 6.8 that swept away the X11 session without much warning.\nDespite the surprise, it is gone for good: the Fedora Engineering Steering\nCommittee (FESCo) has voted\nagainst a request to revert the update for Fedora 44 and the just-released\nFedora 45.",
-        "summary_vi": "The KDE Project announced, in 2025, that Plasma 6.7 would\nbe the last version of the desktop environment that would support X11\nsessions. Those who keep up with KDE's announcements no doubt expected i",
-        "title": "[$] Plasma X11 session removal surprises some Fedora users"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "https://lwn.net/Articles/1105378/": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://lwn.net/Articles/1105378/",
-        "link": "https://lwn.net/Articles/1105378/",
-        "relevance": 3,
-        "source": "LWN.net Front Page",
-        "summary": "Security updates have been issued by AlmaLinux (cockpit, dpdk, fence-agents, firefox, freerdp, gimp, opentelemetry-collector, python-dns, qemu-kvm, and raptor2), Debian (apt and squid), Fedora (ags, apptainer, chromium, fractal, mingw-harfbuzz, mingw-qt5-qtwebkit, mingw-qt6-qt5compat, python-mistune, python3-docs, python3.14, python3.9, rubygem-gist, rust-app-store-connect, rust-qemu-rdp, rust-redlib, and selenium-manager), Mageia (java-latest-openjdk, java-17-openjdk, java-21-openjdk, timezone), Oracle (.NET 10.0, .NET 8.0, .NET 9.0, bind, bind9.16, cockpit, firefox, freerdp, gcc, ghostscript, glibc, grafana, java-17-openjdk, java-21-openjdk, kernel, kernel-uek, libXi, pipewire, pki-deps:10.6, podman, python-jwt, python-pillow, python-pyasn1, qt5-qtbase, thunderbird, tomcat, util-linux, and wireshark), Red Hat (dnsmasq, fence-agents, freerdp, pki-core:10.6, and thunderbird), SUSE (amazon-ssm-agent, aom-tools, apache2, brotli, cadvisor, chromium, cups, curl, distribution-registry, eog, gh, go-containerregistry, google-guest-agent, gvfs, haproxy, hauler, helm3, kernel, libBasicUsageEnvironment2, libcdio, libinstpatch-1_0-2, libosmocore, libreoffice, libX11, nodejs22, nvidia-open-driver-G06-signed, openssh, parted, perl-DBI, perl-mime-tools, python-pypdf, rootlesskit, rqlite, rsyslog, sssd, tomcat10, warewulf4, and xen), and Ubuntu (apt-cacher, bind9, bitlbee, cakephp, deluge, dmitry, e17, feh, gnome-shell, golang-github-gin-contrib-cors, gvfs, haproxy, jabberd2, libmspack, libnet-easytcp-perl, libphp-swiftmailer, libsoup2.4, libsoup3, libuser, pcre2, rear, ruby-rack, ruby-sprockets, rxvt-unicode, shapelib, sogo, vips, and yaws).",
-        "summary_vi": "Security updates have been issued by AlmaLinux (cockpit, dpdk, fence-agents, firefox, freerdp, gimp, opentelemetry-collector, python-dns, qemu-kvm, and raptor2), Debian (apt and squid), Fedora (ags, a",
-        "title": "Security updates for Wednesday"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "https://lwn.net/Articles/1105395/": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://lwn.net/Articles/1105395/",
-        "link": "https://lwn.net/Articles/1105395/",
-        "relevance": 3,
-        "source": "LWN.net Front Page",
-        "summary": "Version\n45 of Bazzite , the image-based gaming distribution based on\nFedora Linux, has been released. Notable changes in this release include a\nrebase to Fedora 45, updated Open Gaming Collective (OGC)\nkernels, support for Logitech TrueWheel devices, and more. \n\n LWN covered Bazzite in\nDecember 2025.",
-        "summary_vi": "Version\n45 of Bazzite , the image-based gaming distribution based on\nFedora Linux, has been released. Notable changes in this release include a\nrebase to Fedora 45, updated Open Gaming Collective (OGC",
-        "title": "Bazzite 45 released"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
     "https://lwn.net/Articles/1105464/": {
       "entry": {
         "category": "embedded",
@@ -774,32 +686,6 @@
       },
       "first_seen": "2026-11-07T01:13:55.085191+00:00"
     },
-    "https://rocm.blogs.amd.com/artificial-intelligence/quark-wan22-mixed-precision/README.html": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://rocm.blogs.amd.com/artificial-intelligence/quark-wan22-mixed-precision/README.html",
-        "link": "https://rocm.blogs.amd.com/artificial-intelligence/quark-wan22-mixed-precision/README.html",
-        "relevance": 3,
-        "source": "AMD ROCm Blog",
-        "summary": "Video generation models are becoming a central workload for generative AI. Recent ROCm blogs have covered the broader Wan and diffusion ecosystem, including Wan2.2 fine-tuning [1], Wan2.2 distributed serving [2], audio-driven Wan2.2-S2V generation [3], ComfyUI workflows for Wan2.2 [4], and Quark acceleration for diffusion transformers with xDiT [5].",
-        "summary_vi": "Video generation models are becoming a central workload for generative AI. Recent ROCm blogs have covered the broader Wan and diffusion ecosystem, including Wan2.2 fine-tuning [1], Wan2.2 distributed ",
-        "title": "Quark Mixed-Precision Quantization for Wan2.2 Video Generation on AMD Instinct GPUs"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "https://rocm.blogs.amd.com/software-tools-optimization/glm52-agentx-mi355x/README.html": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://rocm.blogs.amd.com/software-tools-optimization/glm52-agentx-mi355x/README.html",
-        "link": "https://rocm.blogs.amd.com/software-tools-optimization/glm52-agentx-mi355x/README.html",
-        "relevance": 3,
-        "source": "AMD ROCm Blog",
-        "summary": "Coding agents send long, growing prompts, reuse earlier context, and run parallel tasks, which puts heavy pressure on an inference server. In this blog you will learn how we used the InferenceX AgentX benchmark to improve GLM-5.2-MXFP4 serving on AMD Instinct MI355X GPUs. In this model, MXFP4 is a microscaling 4-bit floating-point weight format; SGLang is an open-source LLM serving framework. Cache efficiency, faster decode kernels, careful AgentX validation, and upstream collaboration raised peak throughput 1.72× and peak P90 interactivity 2.46×.",
-        "summary_vi": "Coding agents send long, growing prompts, reuse earlier context, and run parallel tasks, which puts heavy pressure on an inference server. In this blog you will learn how we used the InferenceX AgentX",
-        "title": "GLM-5.2 AgentX on AMD Instinct MI355X: Boosting Throughput and Interactivity"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
     "https://rocm.blogs.amd.com/software-tools-optimization/madengine-primus-profiling/README.html": {
       "entry": {
         "category": "embedded",
@@ -825,19 +711,6 @@
         "title": "PrimusClaw: An Open-Source Managed Agent Runtime for AMD Instinct GPU Clusters"
       },
       "first_seen": "2026-11-07T01:13:55.085191+00:00"
-    },
-    "https://rocm.blogs.amd.com/software-tools-optimization/profiling-guide/ai_tinyopenfold/README.html": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://rocm.blogs.amd.com/software-tools-optimization/profiling-guide/ai_tinyopenfold/README.html",
-        "link": "https://rocm.blogs.amd.com/software-tools-optimization/profiling-guide/ai_tinyopenfold/README.html",
-        "relevance": 3,
-        "source": "AMD ROCm Blog",
-        "summary": "This blog, like the previous articles in the profiling guide series\n(Part 1,\nPart 2,\nPart 3,\nPart 4,\nPart 5,\nand Part 6),\napplies a systematic profiling workflow to\na GPU-accelerated application. Those posts establish the core loop on\nHIP and Fortran applications: baseline timing, kernel hotspots with rocprofv3, rooflines and\nhardware counters with rocprof-compute, and whole-system timelines with rocprof-sys. Here we apply\nthat loop to a PyTorch training workload, where one logical operator can lower to many\nGPU kernels and optimization often means changing how the framework dispatches work rather\nthan rewriting a kernel.",
-        "summary_vi": "This blog, like the previous articles in the profiling guide series\n(Part 1,\nPart 2,\nPart 3,\nPart 4,\nPart 5,\nand Part 6),\napplies a systematic profiling workflow to\na GPU-accelerated application. Thos",
-        "title": "Performance Profiling on AMD GPUs - Part 7: AI/PyTorch® Edition"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
     },
     "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html": {
       "entry": {
@@ -865,19 +738,6 @@
       },
       "first_seen": "2026-11-05T13:31:37.120286+00:00"
     },
-    "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html": {
-      "entry": {
-        "category": "security",
-        "id": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-        "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-        "relevance": 3,
-        "source": "The Hacker News",
-        "summary": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.\n\n\"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
-        "summary_vi": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain a",
-        "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
     "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html": {
       "entry": {
         "category": "security",
@@ -891,32 +751,6 @@
       },
       "first_seen": "2026-11-05T13:31:37.120286+00:00"
     },
-    "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html": {
-      "entry": {
-        "category": "security",
-        "id": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
-        "link": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
-        "relevance": 3,
-        "source": "The Hacker News",
-        "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.\n\nThe company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday.\n\nOne flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a",
-        "summary_vi": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.\n\nThe company released ",
-        "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login"
-      },
-      "first_seen": "2026-11-07T01:13:55.085191+00:00"
-    },
-    "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html": {
-      "entry": {
-        "category": "security",
-        "id": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-        "link": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-        "relevance": 3,
-        "source": "The Hacker News",
-        "summary": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin.\n\nThe flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules.\n\nAs of November 4, Google's bulletin did not report",
-        "summary_vi": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin.\n\nThe flaw, CVE-2026-58868, affects Android 14 th",
-        "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
     "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html": {
       "entry": {
         "category": "security",
@@ -929,32 +763,6 @@
         "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits"
       },
       "first_seen": "2026-11-07T01:13:55.085191+00:00"
-    },
-    "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html": {
-      "entry": {
-        "category": "security",
-        "id": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
-        "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
-        "relevance": 3,
-        "source": "The Hacker News",
-        "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway.\n\nThe phenomenon has been codenamed prompt adware by Check Point Research.\n\nCalled Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration",
-        "summary_vi": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for",
-        "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html": {
-      "entry": {
-        "category": "security",
-        "id": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-        "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-        "relevance": 3,
-        "source": "The Hacker News",
-        "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.\n\nDetails of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below -\n\n\n CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
-        "summary_vi": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.\n\nDetails of the security flaws, which affect SonicWall GMS 9.",
-        "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
     },
     "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html": {
       "entry": {
@@ -1125,45 +933,6 @@
       },
       "first_seen": "2026-11-08T00:56:33.966379+00:00"
     },
-    "https://www.phoronix.com/news/Intel-One-Mono-1.5": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/Intel-One-Mono-1.5",
-        "link": "https://www.phoronix.com/news/Intel-One-Mono-1.5",
-        "relevance": 3,
-        "source": "Phoronix",
-        "summary": "Back in 2023 Intel introduced One Mono as a new font for developers. Intel in September had discontinued the One Mono project but then days later revived it. Now the project is out with its first update since that mishap...",
-        "summary_vi": "Back in 2023 Intel introduced One Mono as a new font for developers. Intel in September had discontinued the One Mono project but then days later revived it. Now the project is out with its first upda",
-        "title": "Intel One Mono Font Family Updated With Various Enhancements"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "https://www.phoronix.com/news/LXQt-2.5-Released": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/LXQt-2.5-Released",
-        "link": "https://www.phoronix.com/news/LXQt-2.5-Released",
-        "relevance": 3,
-        "source": "Phoronix",
-        "summary": "LXQt 2.5 released today as the newest feature update to this lightweight, Qt6-based desktop environment...",
-        "summary_vi": "LXQt 2.5 released today as the newest feature update to this lightweight, Qt6-based desktop environment...",
-        "title": "LXQt 2.5 Released With Enhanced QTerminal, Removing The Final LXDE Dependency"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "https://www.phoronix.com/news/LZ4-1.11-Released": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/LZ4-1.11-Released",
-        "link": "https://www.phoronix.com/news/LZ4-1.11-Released",
-        "relevance": 3,
-        "source": "Phoronix",
-        "summary": "For those making use of the LZ4 extremely fast compression algorithm, LZ4 1.11 released today and brings multi-threaded compression support to its library (liblz4)...",
-        "summary_vi": "For those making use of the LZ4 extremely fast compression algorithm, LZ4 1.11 released today and brings multi-threaded compression support to its library (liblz4)...",
-        "title": "LZ4 1.11 Introduces Multi-Threaded Compression For liblz4, Other Performance Gains"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
     "https://www.phoronix.com/news/Lemonade-2026.45.3": {
       "entry": {
         "category": "embedded",
@@ -1255,6 +1024,19 @@
       },
       "first_seen": "2026-11-06T13:18:31.957095+00:00"
     },
+    "https://www.phoronix.com/news/Linux-Fix-BHI-Mitigation-Build": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Linux-Fix-BHI-Mitigation-Build",
+        "link": "https://www.phoronix.com/news/Linux-Fix-BHI-Mitigation-Build",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "This week's batch of x86 fixes have been sent out ahead of the Linux 7.4-rc2 kernel releasing later today...",
+        "summary_vi": "Upcoming x86 updates for Linux 7.4-rc2 address an issue where incorrect mitigations were selected for the Branch History Injection (BHI) vulnerability. The provided snippet does not detail the specific mechanism of the fix.",
+        "title": "Linux Fixes Faulty Mitigation Selection For BHI Vulnerability"
+      },
+      "first_seen": "2026-11-08T12:15:15.623047+00:00"
+    },
     "https://www.phoronix.com/news/Linux-Kernel-Apple-AirDrop-Code": {
       "entry": {
         "category": "embedded",
@@ -1293,19 +1075,6 @@
         "title": "Mir 2.31 Released With Expanded Wayland Protocol Support"
       },
       "first_seen": "2026-11-05T13:31:37.120286+00:00"
-    },
-    "https://www.phoronix.com/news/NVIDIA-CUDA-13.5": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/news/NVIDIA-CUDA-13.5",
-        "link": "https://www.phoronix.com/news/NVIDIA-CUDA-13.5",
-        "relevance": 3,
-        "source": "Phoronix",
-        "summary": "Along with today's release of the NVIDIA 620.70.06 Linux driver, NVIDIA also released CUDA 13.5 that brings general availability (GA) support for Vera Rubin...",
-        "summary_vi": "Along with today's release of the NVIDIA 620.70.06 Linux driver, NVIDIA also released CUDA 13.5 that brings general availability (GA) support for Vera Rubin...",
-        "title": "NVIDIA CUDA 13.5 Released With Production Support For Vera Rubin"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
     },
     "https://www.phoronix.com/news/Omarchy-4.5-Released": {
       "entry": {
@@ -1346,6 +1115,19 @@
       },
       "first_seen": "2026-11-06T13:18:31.957095+00:00"
     },
+    "https://www.phoronix.com/news/Yunsilicon-Linux-Network-Driver": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Yunsilicon-Linux-Network-Driver",
+        "link": "https://www.phoronix.com/news/Yunsilicon-Linux-Network-Driver",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "Yunsilicon is a Chinese semiconductor startup founded in 2021 that is working on producing high performance networking adapters and DPUs. Over the past month has been their first foray into posting patches to the Linux kernel mailing list and working to get their networking hardware supported by the mainline Linux kernel...",
+        "summary_vi": "Semiconductor startup Yunsilicon has submitted its first patch series to the Linux kernel mailing list. The submission aims to bring mainline Linux driver support for its high-performance networking adapters and Data Processing Units (DPUs).",
+        "title": "Yunsilicon Working To Upstream Their High Performance Linux Network Driver"
+      },
+      "first_seen": "2026-11-08T12:15:15.623047+00:00"
+    },
     "https://www.phoronix.com/news/Zlib-1.4-Released": {
       "entry": {
         "category": "embedded",
@@ -1358,58 +1140,6 @@
         "title": "Zlib 1.4 Released With More Than One Dozen Security Fixes"
       },
       "first_seen": "2026-11-06T01:57:39.156695+00:00"
-    },
-    "https://www.phoronix.com/review/linux-74-threadripper": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/review/linux-74-threadripper",
-        "link": "https://www.phoronix.com/review/linux-74-threadripper",
-        "relevance": 3,
-        "source": "Phoronix",
-        "summary": "In the first round of benchmarking the in-development Linux 7.4 kernel there are some performance improvements -- and some small regressions -- worth noting over the current Linux 7.3 stable kernel. This first round of Linux 7.4 kernel benchmarking was on a System76 Thelio Major workstation with AMD Ryzen Threadripper 9980X.",
-        "summary_vi": "In the first round of benchmarking the in-development Linux 7.4 kernel there are some performance improvements -- and some small regressions -- worth noting over the current Linux 7.3 stable kernel. T",
-        "title": "Linux 7.4 Showing Few Performance Gains With Initial Benchmarks On AMD Ryzen Threadripper"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1xnqbmp": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1xnqbmp",
-        "link": "https://www.reddit.com/r/embedded/comments/1xnqbmp/how_do_you_guys_tackle_watchdog_with_debuggers/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "Currently learning about embedded systems and just learned how watchdog works. Genuinely curious what's the better approach when it comes to debugging. Either freeze the watchdog during debugging or is there another workaround it without triggering reset unintentionally? Sorry for the grammar, brain is fried at the moment submitted by /u/Agreeable-Leopard-69 [link] [comments]",
-        "summary_vi": "Currently learning about embedded systems and just learned how watchdog works. Genuinely curious what's the better approach when it comes to debugging. Either freeze the watchdog during debugging or i",
-        "title": "How do you guys tackle watchdog with debuggers?"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1xnuph4": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1xnuph4",
-        "link": "https://www.reddit.com/r/embedded/comments/1xnuph4/cant_enter_passwords_with_uart/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "Well hello indeed, i am asking for help with UART since im installing Valetudo on a roomba right now. I am stuck trying to enter a password in the roomba, when i type or paste any text in the login box, everything works perfectly, every character is pasted or typed BUT when i try to do the same (pasting or writing manually) in the password line (the moment you cant see the characters anymore), everything breaks and only around half of the characters are actually inputed. I am almost fully forced to paste it since the password is 48 characters long, and i only have 1 minute to type it before the roomba automaticly kicks me out, and trying to write it as slowly as possible made around 1/4th of random characters dissapear. the roomba is connected with RX, TX and ground cables, i tried multiples brand new cables and it didnt change anything. if anyone has any ideas, thanks you for anything ! submitted by /u/nico721GD [link] [comments]",
-        "summary_vi": "Well hello indeed, i am asking for help with UART since im installing Valetudo on a roomba right now. I am stuck trying to enter a password in the roomba, when i type or paste any text in the login bo",
-        "title": "Can't enter passwords with UART"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1xnv832": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1xnv832",
-        "link": "https://www.reddit.com/r/embedded/comments/1xnv832/best_base_microcontroller_kits/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "Hi, I am an aerospace graduate trying to get into embedded systems (although I did do some Arduino projects in the past), mainly to apply some concepts I've learned into hardware. And I was wondering what are the best beginner kits that are complete enough to get into it. Thanks in advance for any suggestion! submitted by /u/sekki_7 [link] [comments]",
-        "summary_vi": "Hi, I am an aerospace graduate trying to get into embedded systems (although I did do some Arduino projects in the past), mainly to apply some concepts I've learned into hardware. And I was wondering ",
-        "title": "Best base microcontroller kits"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
     },
     "https://www.reddit.com/r/embedded/t3_1xo0l3w": {
       "entry": {
@@ -1424,19 +1154,6 @@
       },
       "first_seen": "2026-11-05T13:31:37.120286+00:00"
     },
-    "https://www.reddit.com/r/embedded/t3_1xo0leg": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1xo0leg",
-        "link": "https://www.reddit.com/r/embedded/comments/1xo0leg/is_there_any_permanent_and_vibration_safe/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "https://preview.redd.it/emo15g7jznzh1.png?width=379&format=png&auto=webp&s=1889f58b1e6c17b0aa8e91e8d69ef97e017d5177 See title. I know how to solder, but it's not about me, but other people I want to give the possibility to modify a specific handheld device with a small compact ESP32/ESP8266 without soldering. Thanks in advance for any suggestion. submitted by /u/Nyct0phili4 [link] [comments]",
-        "summary_vi": "https://preview.redd.it/emo15g7jznzh1.png?width=379&format=png&auto=webp&s=1889f58b1e6c17b0aa8e91e8d69ef97e017d5177 See title. I know how to solder, but it's not about me, but other people I want to g",
-        "title": "Is there any permanent and vibration safe alternative to soldering - connect wiring permanently to plated through holes? Big pogo clamps are not viable in a small chassis. Looking for a solution for people that are lacking manual skills and can't solder."
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
     "https://www.reddit.com/r/embedded/t3_1xo4xhj": {
       "entry": {
         "category": "embedded",
@@ -1449,19 +1166,6 @@
         "title": "CMSIS: What does efficient development really mean?"
       },
       "first_seen": "2026-11-05T13:31:37.120286+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1xo59tp": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1xo59tp",
-        "link": "https://www.reddit.com/r/embedded/comments/1xo59tp/what_should_i_study_to_prepare_for_my_embedded/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "Just got an offer for next semester’s coop in an embedded systems team at ABB. I was so surprised because I thought I failed the interview. Most of my experience lies in analog design and I also admitted to the interviewer about that. I told him that I’m kinda confused when got chosen for the interview because rarely any of my experience are related to C and the entire interview we just spent talking about analog design lol. The manager told me that most of my work will be testing hardware but also they are going to teach me about embedded coding my modifying the existing codes, IDE….Now, my question is what I should learn to best catch up with the work? This is a big chance imo. I honestly feel that I should spent more time on learning coding but I’m just lazy and got too much into analog projects so this is def a big fish. Please give the advice. submitted by /u/Mad-boy283 [link] [comments]",
-        "summary_vi": "Just got an offer for next semester’s coop in an embedded systems team at ABB. I was so surprised because I thought I failed the interview. Most of my experience lies in analog design and I also admit",
-        "title": "What should I study to prepare for my embedded internship?"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
     },
     "https://www.reddit.com/r/embedded/t3_1xoaaie": {
       "entry": {
@@ -1749,18 +1453,44 @@
       },
       "first_seen": "2026-11-08T00:56:33.966379+00:00"
     },
-    "oai:arXiv.org:2409.14591v5": {
+    "https://www.reddit.com/r/embedded/t3_1xqrf8j": {
       "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2409.14591v5",
-        "link": "https://arxiv.org/abs/2409.14591",
-        "relevance": 3,
-        "source": "arXiv cs.PL (Programming Languages)",
-        "summary": "arXiv:2409.14591v5 Announce Type: replace-cross \nAbstract: Guarded recursion is a framework allowing for a formalisation of streams in classical (as opposed to concurrent, probabilistic, quantum) programming languages. The latter take their semantics in cartesian closed categories. However, some programming paradigms do not take their semantics in a cartesian setting; this is the case for concurrency, reversible and quantum programming for example. In this paper, we focus on reversible programming through its categorical model in dagger categories, which are categories that contain an involutive operator on morphisms. We show how to introduce the framework of guarded recursion into dagger categories with sufficient structure for data types, also called dagger rig categories. First, given an arbitrary category, we build another category shown to be suitable for guarded recursion in multiple ways, via enrichment and fixed point theorems. We then study the interaction between this construction and the structure of dagger rig categories, aiming for reversible programming. Finally, we show that our construction is suitable as a model of higher-order reversible programming languages, such as symmetric pattern matching, to which we add guarded recursion features.",
-        "summary_vi": "arXiv:2409.14591v5 Announce Type: replace-cross \nAbstract: Guarded recursion is a framework allowing for a formalisation of streams in classical (as opposed to concurrent, probabilistic, quantum) prog",
-        "title": "Non-Cartesian Guarded Recursion with Daggers"
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xqrf8j",
+        "link": "https://www.reddit.com/r/embedded/comments/1xqrf8j/how_to_know_if_i_can_or_cannot_establish/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "Hello, I am working on a project that requires communication between 3 STM32 Nucleo boards. x2 NUCLEO-STM32U575ZIT6Q and x1 NUCLEO-L412RB-P. Communication will go as follows: - One of the U5 boards will continuously send messages to the other U5, which continuously receives the messages. The receiving U5 computes based on the messages it receives and continuously sends the result to the U5 board. - U5 --> U5 communication will be over I2C, SPI, CAN, UART, USART, LPUART - U5 --> L4 communication will be over I2C - Physically, this communication will be over jumper wires. My question is: how do I know if it is possible for the chosen boards to communicate over those peripherals I want them to communicate over? I have no idea, in general, how to determine if communication over 2 nucleo boards over certain communication peripherals is possible, so any insights on that would also be very appreciated. Any links to sources that confirm any insights here would also be greatly appreciated. Thanks! submitted by /u/Beneficial_Item3725 [link] [comments]",
+        "summary_vi": "A user asks how to confirm communication compatibility between three STM32 development boards (two NUCLEO-U5 and one NUCLEO-L4). The project involves continuous messaging and processing between the U5 boards over protocols like I2C, SPI, CAN, or UART.",
+        "title": "How to know if I can or cannot establish communication between 2 STM32 boards?"
       },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
+      "first_seen": "2026-11-08T12:15:15.623047+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xqvn9s": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xqvn9s",
+        "link": "https://www.reddit.com/r/embedded/comments/1xqvn9s/can_an_usb_splitter_work_in_reverse/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "I mean, they should, but not having the hardware at hand can't tell. In a nutshell I work at an ewaste facility. got loads of computers. I need to test them faster and less user error prone. I mean I could just grab something and do some testing, but I haven't yet got the time, somehow I am also required to do an inventory job, cause the operators don't know what they're doing. https://preview.redd.it/47srhom9bd0i1.png?width=803&format=png&auto=webp&s=409245f5ca27d85c975e0669cdd01484ee666c2e So I was thinking to build some kind of SBC, that automatically checks the I/O, and various of other functions. but SBCs do not have enough I/O, so an usb expander may do the job, but I dunno. Then there's also an issue about the video output, as not every sbc with hdmi/dp, accepts data in (those who can, usually use some kind hdmi/dp to mipi/csi), unless I do use again an usb dongle that converts to hdmi/dp, although by adding those dongles all over again they require more power, so I should add somehow in those thing a dedicated power rail (I had a similar issue, with an old side project), but apparently cheap hubs with a dedicated power rail do exist... got any suggestions? submitted by /u/TipActive9305 [link] [comments]",
+        "summary_vi": "An e-waste facility worker asks whether a USB splitter can operate in reverse to accelerate computer testing and reduce operator error. The poster lacks immediate time and hardware on hand to test the setup directly.",
+        "title": "Can an usb splitter work in reverse?"
+      },
+      "first_seen": "2026-11-08T12:15:15.623047+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xqwv1g": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xqwv1g",
+        "link": "https://www.reddit.com/r/embedded/comments/1xqwv1g/help_regarding_stm32cubdide/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "Please someone help me to connect the header files and how to include the HAL functions in the program ts 2 days I am not able to do this please help me 😭😭😭😭 submitted by /u/Fine-Zucchini-2727 [link] [comments]",
+        "summary_vi": "A user is seeking help with STM32CubeIDE to correctly link header files and include Hardware Abstraction Layer (HAL) functions within their project.",
+        "title": "Help regarding STM32CUBDIDE"
+      },
+      "first_seen": "2026-11-08T12:15:15.623047+00:00"
     },
     "oai:arXiv.org:2505.07681v5": {
       "entry": {
@@ -1775,32 +1505,6 @@
       },
       "first_seen": "2026-11-05T13:31:37.120286+00:00"
     },
-    "oai:arXiv.org:2506.08911v2": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2506.08911v2",
-        "link": "https://arxiv.org/abs/2506.08911",
-        "relevance": 4,
-        "source": "arXiv cs.PF (Performance)",
-        "summary": "arXiv:2506.08911v2 Announce Type: replace-cross \nAbstract: This paper presents a keyword spotting (KWS) system implemented on the NXP MCXN947 microcontroller with an integrated Neural Processing Unit (NPU), enabling real-time voice interaction on resource-constrained devices. The system combines MFCC feature extraction with a CNN classifier, optimized using Quantization Aware Training to reduce model size with minimal accuracy drop. Experimental results demonstrate a 59x speedup in inference time when leveraging the NPU compared to CPU-only execution, achieving 97.06% accuracy with a model size of 30.58 KB, demonstrating the feasibility of efficient, low-power voice interfaces on embedded platforms.",
-        "summary_vi": "This paper details a real-time keyword spotting system implemented on the NXP MCXN947 microcontroller using its integrated Neural Processing Unit. Combining MFCC feature extraction with a quantized CNN classifier, the system achieves a 59x speedup in inference time.",
-        "title": "Implementing Keyword Spotting on the MCXN947 Microcontroller with Integrated NPU"
-      },
-      "first_seen": "2026-11-06T13:18:31.957095+00:00"
-    },
-    "oai:arXiv.org:2506.23901v3": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2506.23901v3",
-        "link": "https://arxiv.org/abs/2506.23901",
-        "relevance": 3,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2506.23901v3 Announce Type: replace \nAbstract: Novel compute systems are an emerging research topic, aiming towards building next-generation compute platforms. For these systems to thrive, they need to be provided as research infrastructure to allow acceptance and usage by a large community. By the example of the neuromorphic BrainScaleS-2 system, we showcase the transformation from a laboratory setup to a publicly available research platform. It is embedded into a purpose-built institute, tightly coupling a conventional cluster with novel compute hardware. Our key contribution is the sustainable operation of such a research system: automation, integration, and resource separation enable maintainability, stable operation, and continuity in a fluctuating academic environment. We implement these concepts by adopting established best practices, such as network infrastructure with strong resource separation, 19-inch rack units, the integration of physical and simulated hardware into CI/CD processes, and system monitoring. We evaluate six years of platform operation comprising 3718 production deployments and an average of 198 hardware CI/CD runs per day, with the integration of simulated and physical hardware increasing the full-stack software line coverage from 57% to 79%. We conclude with an explicit collection of lessons learned during the transformation from single-user laboratory setups to a publicly accessible research platform that, since 2023, has served more than 520 individual researchers.",
-        "summary_vi": "arXiv:2506.23901v3 Announce Type: replace \nAbstract: Novel compute systems are an emerging research topic, aiming towards building next-generation compute platforms. For these systems to thrive, they ",
-        "title": "Sustainable operation of research infrastructure for novel computing"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
     "oai:arXiv.org:2604.03851v1": {
       "entry": {
         "category": "research",
@@ -1813,32 +1517,6 @@
         "title": "Beyond Crash-to-Patch: Patch Evolution for Linux Kernel Repair"
       },
       "first_seen": "2026-11-05T13:31:37.120286+00:00"
-    },
-    "oai:arXiv.org:2604.14993v2": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2604.14993v2",
-        "link": "https://arxiv.org/abs/2604.14993",
-        "relevance": 3,
-        "source": "arXiv cs.PF (Performance)",
-        "summary": "arXiv:2604.14993v2 Announce Type: replace-cross \nAbstract: As a current trend in Artificial Intelligence (AI), large foundation models are increasingly employed as the core of AI services. However, even after training, serving such models at scale remains a challenging task due to their heavy resource footprints, particularly in terms of GPU memory. While recent works revealed unique characteristics of systems serving foundation models that distinguish them from traditional distributed computing systems, there is still a lack of fundamental understanding of the underlying system management problems. This work aims at addressing this gap by extracting a novel problem of \"server chain composition\" via block placement and cache allocation for serving chainstructured jobs with large memory footprints, which models a fundamental problem in serving large foundation models through pipeline parallelism. After showing the NP-hardness of the optimal solution, the focus is turned to developing scalable algorithms with guaranteed performance under state-of-the-art load balancing. Application of the proposed solution to a distributed large language model (LLM) serving system shows significant reduction of response times compared to state-of-the-art solutions.",
-        "summary_vi": "arXiv:2604.14993v2 Announce Type: replace-cross \nAbstract: As a current trend in Artificial Intelligence (AI), large foundation models are increasingly employed as the core of AI services. However, ev",
-        "title": "Serving Chain-structured Jobs with Large Memory Footprints with Application to Large Foundation Model Serving"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2605.25522v2": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2605.25522v2",
-        "link": "https://arxiv.org/abs/2605.25522",
-        "relevance": 3,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2605.25522v2 Announce Type: replace \nAbstract: Graph-based Approximate Nearest Neighbor Search (ANNS) has emerged as the dominant approach for large-scale AI applications, offering superior accuracy-efficiency trade-offs over alternative methods. However, graph-based ANNS is inherently memory-bound due to frequent and irregular graph traversal. This constrains CPU throughput due to limited memory bandwidth, while GPUs lack sufficient HBM capacity for billion-scale indexes. Processing-in-Memory (PIM) offers massive internal bandwidth by co-locating computation with data, making it a natural fit for irregular, memory-bound workloads. However, directly mapping graph-based ANNS onto PIM exposes severe algorithm-architecture mismatches: restricted per-PU local memory, costly inter-PU communication, heavy coordination overhead, and weak compute capability, forcing existing PIM-based ANNS to rely on cluster-based algorithms that plateau at low recall. We propose PIMCQG, an algorithm-hardware co-design framework through three optimizations: (1) a compact index reducing PIM-resident footprint by 14.5x; (2) an asynchronous pipelined scheduler fully utilizing host-PIM bandwidth; and (3) a multiplication-free distance kernel with less than 0.08% recall loss. Evaluations on three billion-scale datasets show up to 20x/17.1x throughput over CPU/GPU baselines, 129x over prior PIM accelerators at high recall, and scale well across multi-node and emerging PIM architectures.",
-        "summary_vi": "arXiv:2605.25522v2 Announce Type: replace \nAbstract: Graph-based Approximate Nearest Neighbor Search (ANNS) has emerged as the dominant approach for large-scale AI applications, offering superior accu",
-        "title": "PIMCQG: Co-Designing Billion-Scale Graph-Based Approximate Nearest Neighbor Search for Processing-in-Memory"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
     },
     "oai:arXiv.org:2609.03315v2": {
       "entry": {
@@ -1853,19 +1531,6 @@
       },
       "first_seen": "2026-11-06T13:18:31.957095+00:00"
     },
-    "oai:arXiv.org:2609.04523v2": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2609.04523v2",
-        "link": "https://arxiv.org/abs/2609.04523",
-        "relevance": 3,
-        "source": "arXiv cs.PF (Performance)",
-        "summary": "arXiv:2609.04523v2 Announce Type: replace-cross \nAbstract: Designing and authoring high-performance custom kernels for accelerators is a complex task that requires deep hardware-level expertise. Large Language Models (LLM) can be leveraged together with real-time compiler feedback to build agentic systems for kernel generation. In this work, we present MaxKernel, a multi-agent system that implements three distinct paradigms for TPU kernel development: (1) a Human-in-the-Loop (HITL) agent for collaborative, step-by-step design; (2) an Autonomous (Auto) agent that executes a fully automated, metric/trace-driven optimization loop; and (3) a Graph-Based Autonomous Search that scales the Auto agent for global exploration of the design space. All three paradigms leverage a shared pool of specialized sub-agents to handle planning, implementation, self-debugging, testing, and hardware profiling. We evaluate MaxKernel on JaxBench, a comprehensive suite of 50 diverse kernel tasks for TPUs, alongside complex, real-world workloads from state-of-the-art open-source models. We demonstrate that MaxKernel consistently generates highly optimized implementations, matching expert hand-tuned baselines and delivering significant performance across the benchmark. Our agent is open-sourced and available https://github.com/AI-Hypercomputer/accelerator-agents/tree/main/MaxKernel.",
-        "summary_vi": "arXiv:2609.04523v2 Announce Type: replace-cross \nAbstract: Designing and authoring high-performance custom kernels for accelerators is a complex task that requires deep hardware-level expertise. Large",
-        "title": "MaxKernel: Agentic Kernel Generation for TPUs"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
     "oai:arXiv.org:2610.03228v5": {
       "entry": {
         "category": "research",
@@ -1878,19 +1543,6 @@
         "title": "Reference-Compatible Parallel Execution for Quantized LLM Inference"
       },
       "first_seen": "2026-11-06T01:57:39.156695+00:00"
-    },
-    "oai:arXiv.org:2610.14898v2": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2610.14898v2",
-        "link": "https://arxiv.org/abs/2610.14898",
-        "relevance": 3,
-        "source": "arXiv cs.PL (Programming Languages)",
-        "summary": "arXiv:2610.14898v2 Announce Type: replace \nAbstract: Mechanisation of a mathematical definition (also referred to as formalisation) has many benefits. Here, we focus on mechanising denotational semantic definitions of programming languages by embedding them in the Agda language. The Agda type-checker detects and reports any issues with the wellformedness and type correctness of the embedded definitions.\n To minimise the effort required, and to facilitate correlation of the original definition with its Agda embedding, mechanisation should not involve significant reformulation or extension. Here, we show how to embed conventional Scott-Strachey denotational definitions in Agda with almost no changes to $\\lambda$-notation or domain equations.\n Agda notation for definitions of types and functions corresponds closely to the conventional meta-notation of denotational semantics. We have developed a collection of Agda modules with postulated types for commonly used domain constructors and their associated operations.\n We illustrate our approach with mechanisations of three denotational definitions: a model of the untyped $\\lambda$-calculus, Plotkin's denotational semantics of PCF, and a semantics of a sublanguage of Scheme. In previous work, similar mechanisations in Agda have revealed several unsuspected wellformedness issues in published denotational definitions.\n Some of the postulated properties of our definitions are inconsistent with a classical set-theoretic interpretation of Agda. We conjecture that they would be consistent with an interpretation of Agda in a higher-order intuititionistic logic, such as that used by Simpson in his work on synthetic domain theory. After recalling previous work on mechanising domain theory, we consider the possibility of mechanising synthetic domain theory in Agda.",
-        "summary_vi": "arXiv:2610.14898v2 Announce Type: replace \nAbstract: Mechanisation of a mathematical definition (also referred to as formalisation) has many benefits. Here, we focus on mechanising denotational semant",
-        "title": "Mechanising Denotational Semantics in Agda"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
     },
     "oai:arXiv.org:2610.25256v2": {
       "entry": {
@@ -1905,19 +1557,6 @@
       },
       "first_seen": "2026-11-06T01:57:39.156695+00:00"
     },
-    "oai:arXiv.org:2610.41672v2": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2610.41672v2",
-        "link": "https://arxiv.org/abs/2610.41672",
-        "relevance": 3,
-        "source": "arXiv cs.PF (Performance)",
-        "summary": "arXiv:2610.41672v2 Announce Type: replace \nAbstract: Quantization can lower the energy of language-model calls and free memory for serving more agents, but its benefit per completed task remains unclear when agents share a GPU. Measurements of fixed requests or isolated agents leave open how the agents' generated work interact with competition for compute and cache. We present a systematic study of precision and admission limits for two agent models on A100 deployments with 40 or 80 GB of memory, using coding and data-analysis tasks with independently verified outcomes. We replay recorded calls across precisions to isolate execution energy and cap the cache to test the value of freed memory. For both models with four admitted agents where requests fit in the cache, 4-bit weights with 16-bit activations execute the same calls with 10-25% less energy than 8-bit weights and activations. Despite this saving, extra work and fewer completions in live runs raise their energy per verified completion by 49%. Where requests compete for cache on the 40 GB deployment, 4-bit weights cost less, and capping their cache raises energy per verified completion by 34% with 16 agents. These results show how generated work and cache demand change the energy benefit of quantization, providing a practical basis for choosing precision and admission limits together.",
-        "summary_vi": "arXiv:2610.41672v2 Announce Type: replace \nAbstract: Quantization can lower the energy of language-model calls and free memory for serving more agents, but its benefit per completed task remains uncle",
-        "title": "Understanding the Energy Cost of Quantized Agents on Shared GPUs"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
     "oai:arXiv.org:2611.03577v2": {
       "entry": {
         "category": "research",
@@ -1930,19 +1569,6 @@
         "title": "Sonar-MoE: In-Backward Expert Updates for Memory-Efficient Mixture-of-Experts Training"
       },
       "first_seen": "2026-11-06T13:18:31.957095+00:00"
-    },
-    "oai:arXiv.org:2611.03771v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.03771v1",
-        "link": "https://arxiv.org/abs/2611.03771",
-        "relevance": 3,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2611.03771v1 Announce Type: cross \nAbstract: Millimeter-wave (mmWave) links can lose tens of decibels within milliseconds when a person or vehicle crosses the line of sight, and reactive handover recovers only after the outage has begun. Integrated sensing and communication (ISAC) promises to let the network see blockers coming and move users to another cell in advance. This paper asks how much such foresight is worth relative to the best reactive handover, and what sensing accuracy is needed to harvest it. We formulate cost-aware cell selection with knowledge of the future signal-to- noise ratio as a sequential decision problem, define the value of foresight through a policy-independent bound, and develop an ISAC-assisted handover framework in which a radio unit senses blockers with its own communication waveform and a simulated Open RAN xApp plans handovers. Ray-traced experiments in a 28 GHz street canyon, reported on held-out scenarios, show that, with a short look-ahead, perfect foresight closes most of the gap between service-aware (Layer-3) reactive handover and an instantaneous oracle. Harvesting this value, however, requires the user and nearby blockers to be localized to about a decimeter, well beyond what our radar tracker and meter- level user positioning provide; with realistic errors, even an uncertainty-aware planner largely defers to reactive handover.",
-        "summary_vi": "arXiv:2611.03771v1 Announce Type: cross \nAbstract: Millimeter-wave (mmWave) links can lose tens of decibels within milliseconds when a person or vehicle crosses the line of sight, and reactive handove",
-        "title": "ISAC-Assisted Proactive Handover in mmWave Networks: Value of Foresight and Localization Requirements"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
     },
     "oai:arXiv.org:2611.03917v2": {
       "entry": {
@@ -1957,71 +1583,6 @@
       },
       "first_seen": "2026-11-05T13:31:37.120286+00:00"
     },
-    "oai:arXiv.org:2611.03947v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.03947v1",
-        "link": "https://arxiv.org/abs/2611.03947",
-        "relevance": 3,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2611.03947v1 Announce Type: new \nAbstract: In wireless systems, foundation models have been proposed as alternative artificial intelligence models to replace task-specific models with a shared pretrained model that can be reused across many downstream applications (source separation, interference detection, localization, etc.). These wireless foundation models promise to reuse learned representations across diverse tasks, but choosing a foundation model also means choosing its input representation. For example, a model pretrained on spectrograms expects spectrograms, while one pretrained on in-phase/quadrature (IQ) samples expects IQ, limiting which pretrained model can be used for a given downstream problem. To remedy this, we present RFShape, a 7.4 M-parameter foundation model that breaks this coupling by adapting how a signal is presented to a shared pretrained encoder. RFShape is pretrained solely on synthetic IQ waveforms, without real captures, labels, or channel impulse responses (CIRs), and uses deterministic representation operators to support heterogeneous downstream inputs. Across ten tasks and nine datasets unseen during pretraining, the same encoder supports classification, ranging-error regression, and two-dimensional positioning. Representation selection alone increases 23-class radar recognition from 23.0% to 69.5% and short-range technology recognition from 70.8% to 97.1%. RFShape also outperforms CIR-pretrained ultra-wideband baselines by up to 12.7 percentage points for (N)LOS classification despite never observing CIRs during pretraining. These results show that foundation-model reuse need not be limited by the representation or modality seen during pretraining, and adapting how a signal is presented can extend a single pretrained encoder across heterogeneous wireless tasks.",
-        "summary_vi": "arXiv:2611.03947v1 Announce Type: new \nAbstract: In wireless systems, foundation models have been proposed as alternative artificial intelligence models to replace task-specific models with a shared p",
-        "title": "RFShape: An IQ-Pretrained Wireless Foundation Model for Heterogeneous IQ & CIR Representations"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.03965v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.03965v1",
-        "link": "https://arxiv.org/abs/2611.03965",
-        "relevance": 3,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2611.03965v1 Announce Type: new \nAbstract: In a pinching-antenna system (PASS), a single source feeds multiple pinches, resulting in a cascade that couples their radiated powers. A shared radiated-power limit, such as the interference power constraint in an underlay cognitive radio network, couples them again. We study such a network where PASS serves the secondary users. First, we formulate the joint optimization problem of the two degrees of freedom (DoF), pinch positions and radiation efficiencies, and characterize the single-link optimum analytically. Then, rather than proposing one method, we present the results for a grid of schemes whose two axes are the two DoF. Under an order-free attribution, positioning is worth 1.34 times radiation efficiency, and the two are near-perfect substitutes. We also show that substitutability is due to the constraint and not the cascade, since relaxing the constraint by 20 dB removes 97% of their interaction. At the joint reference, not knowing the primary receiver (PR) location costs 6.23 bit/s/Hz, more than twice the 2.87 that optimizing both DoF is worth. Instantaneous fading information adds a further 0.29 bit/s/Hz. Allocating efficiencies at equally spaced positions reaches 98% of the joint reference at about three orders of magnitude less computation.",
-        "summary_vi": "arXiv:2611.03965v1 Announce Type: new \nAbstract: In a pinching-antenna system (PASS), a single source feeds multiple pinches, resulting in a cascade that couples their radiated powers. A shared radiat",
-        "title": "Positioning and Radiation Efficiency Degrees of Freedom in Cascaded Pinching-Antenna Arrays"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.04125v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.04125v1",
-        "link": "https://arxiv.org/abs/2611.04125",
-        "relevance": 3,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2611.04125v1 Announce Type: new \nAbstract: Integrated sensing and communication (ISAC) enables sensing and communication (S&C) functions to share time, frequency, and hardware resources, offering an efficient paradigm for next-generation wireless systems. However, conventional fixed-configuration antenna (FCA) architectures provide limited flexibility in adapting the physical electromagnetic (EM) response of the end-to-end wireless link. This article develops a unified EM-adaptation perspective on reconfigurable antenna (RA)-enhanced ISAC systems. We distinguish transceiver-side (TSc-side) and environment-side (Env-side) RA deployments and identify five fundamental EM reconfiguration dimensions: position, orientation, radiation pattern, polarization, and frequency response. Building on this framework, we examine how these dimensions customize communication channels, actively control target information mapping for sensing, and reshape the interplay between S&C, particularly by improving compatibility between S&C requirements under shared resources. Two case studies illustrate how TSc-side and Env-side EM reconfiguration can improve spatial selectivity and the achievable S&C performance tradeoff. Finally, we discuss several promising directions for advancing RA-enhanced ISAC systems, including fundamental performance limits, low-overhead black-box optimization, and artificial intelligence (AI)-enabled semantic ISAC.",
-        "summary_vi": "arXiv:2611.04125v1 Announce Type: new \nAbstract: Integrated sensing and communication (ISAC) enables sensing and communication (S&C) functions to share time, frequency, and hardware resources, offerin",
-        "title": "Reconfigurable Antenna-Enhanced ISAC: A Unified Perspective on Electromagnetic Adaptation"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.04128v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.04128v1",
-        "link": "https://arxiv.org/abs/2611.04128",
-        "relevance": 3,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2611.04128v1 Announce Type: cross \nAbstract: Jointly supporting communication and distributed sensing over a shared, limited pool of entanglement resources is an attractive prospect for future quantum networks. We develop a network-level quantum integrated sensing and communication (Q-ISAC) framework in which a quantum base station dynamically allocates elementary Bell pairs between communication users and distributed sensing. Sensing resources are adaptively partitioned among multiple GHZ probes with dynamically selected sizes and sensing-node assignments. We derive an effective quantum Fisher information model accounting for probabilistic fusion, transmission loss, and memory decoherence, and formulate a finite-horizon allocation problem subject to communication QoS, expected sensing-information, sensing-reliability, and hardware constraints. A hierarchical constrained proximal policy optimization (HC-PPO) framework combines learned discrete sensing allocation with analytical continuous communication allocation.\n Numerical results show that GHZ probing requires approximately $27$--30% fewer sensing qubits than separable probing under modest probe-size caps and 65-67% fewer at the highest considered target under the same sensing requirements. Adaptive multi-GHZ partitioning provides greater robustness than single-GHZ sensing, while adaptive communication--sensing sharing outperforms the evaluated fixed splits. The proposed HC-PPO framework satisfies the joint requirements in at least 99.9% of test instances across the considered sensing targets and fusion probabilities. Monte Carlo evaluation separately shows that realized terminal information reached its target in 96-98% of realizations, distinguishing expected-information satisfaction from realized sensing performance.",
-        "summary_vi": "arXiv:2611.04128v1 Announce Type: cross \nAbstract: Jointly supporting communication and distributed sensing over a shared, limited pool of entanglement resources is an attractive prospect for future q",
-        "title": "Entanglement Allocation for Quantum Integrated Sensing and Communication"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.04224v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.04224v1",
-        "link": "https://arxiv.org/abs/2611.04224",
-        "relevance": 3,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2611.04224v1 Announce Type: new \nAbstract: Accurate channel state information (CSI) prediction is pivotal for enhancing system capacity in low Earth orbit (LEO) satellite-terrestrial communications within the sixth-generation vision of global ubiquitous connectivity. However, the extreme mobility of LEO satellites, coupled with significant propagation delays, induces severe channel aging. Existing deep learning (DL) methods often struggle with non-stationary dynamics or generalize poorly across diverse global geographies. To address these challenges, we design the Evo-TFMamba, which is an evolutionary framework integrating time-frequency selective Mamba blocks with meta-learning for generalized CSI prediction. Experimental results demonstrate that the proposed Evo-TFMamba performs adaptive prediction according to the geographic coverage of LEO satellites. Meanwhile, it significantly enhances the model's generalization ability, particularly when faced with unseen channel environments in LEO satellite communication.",
-        "summary_vi": "arXiv:2611.04224v1 Announce Type: new \nAbstract: Accurate channel state information (CSI) prediction is pivotal for enhancing system capacity in low Earth orbit (LEO) satellite-terrestrial communicati",
-        "title": "Toward Generalized LEO Channel Prediction: A Rapid Adaptation Time-Frequency Mamba Framework"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
     "oai:arXiv.org:2611.04253v2": {
       "entry": {
         "category": "research",
@@ -2034,214 +1595,6 @@
         "title": "UMLoad: Fast On-Demand Model Loading on Unified Memory Architecture"
       },
       "first_seen": "2026-11-06T01:57:39.156695+00:00"
-    },
-    "oai:arXiv.org:2611.04274v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.04274v1",
-        "link": "https://arxiv.org/abs/2611.04274",
-        "relevance": 3,
-        "source": "arXiv cs.PL (Programming Languages)",
-        "summary": "arXiv:2611.04274v1 Announce Type: cross \nAbstract: In this paper, we develop a semantic model for the parallel execution of quantum circuits, providing a formal foundation for studying shared-qubit concurrency in quantum computing. As in classical shared-memory concurrency, parallel quantum circuits may interfere with one another through operations on shared qubits. However, quantum entanglement and the noncommutativity of quantum operations introduce additional challenges for reasoning about their correctness. To address these challenges, we generalise the classical Owicki-Gries method to quantum computing at the level of quantum circuits. Our approach enables compositional reasoning about parallel quantum circuits by separating the verification of individual components from the analysis of interference between them. We formulate proof rules for establishing the correctness of parallel quantum circuits and prove their soundness with respect to the proposed semantic model.",
-        "summary_vi": "arXiv:2611.04274v1 Announce Type: cross \nAbstract: In this paper, we develop a semantic model for the parallel execution of quantum circuits, providing a formal foundation for studying shared-qubit co",
-        "title": "Reasoning about Shared-Qubit Concurrency in Quantum Computing"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.04401v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.04401v1",
-        "link": "https://arxiv.org/abs/2611.04401",
-        "relevance": 3,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2611.04401v1 Announce Type: new \nAbstract: Context parallelism (CP) partitions long sequences across GPUs for LLM training and inference. For variable-length training and full prefill, attention-balanced placement can leave token loads uneven, while ring execution repeats overhead at each computation and communication step. In stage-serialized decode CP (DCP), long-running tasks delay dependent work and leave substantial GPU hardware idle. We propose LiquidCP, which unifies training and inference through a common model of Transfer, Compute, and Reduction tasks with tile-level dependencies, decoupling attention tasks from communication and kernel boundaries. For training and full prefill, MegaRing incorporates BuddyRing placement to balance attention and token loads, and coalesces ready KV regions during forward attention to amortize overhead. For decoding and mixed batches, MegaDCP selects history-KV splits by jointly modeling the completion of attention and its dependent reductions. A shared persistent GPU-resident engine executes both designs. Compared with the fastest baseline per configuration on eight H100 GPUs, MegaRing achieves geometric-mean core-attention speedups of $1.23\\times$ forward and $1.18\\times$ backward, and accelerates a Transformer layer by $1.08$--$1.16\\times$. MegaDCP achieves geometric-mean core-attention speedups of $1.20\\times$ for decode-only and $1.35\\times$ for mixed batches. In vLLM serving with KV prefix cache, it achieves an average time-to-first-token speedup of $1.22\\times$.",
-        "summary_vi": "arXiv:2611.04401v1 Announce Type: new \nAbstract: Context parallelism (CP) partitions long sequences across GPUs for LLM training and inference. For variable-length training and full prefill, attention",
-        "title": "LiquidCP: Decoupling Attention Tasks from Communication and Kernel Boundaries in Context Parallelism"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.04425v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.04425v1",
-        "link": "https://arxiv.org/abs/2611.04425",
-        "relevance": 3,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2611.04425v1 Announce Type: new \nAbstract: In edge computing, tasks must be placed on servers of finite capacity before workloads are realized, often with only workload means and variances known. An assignment balanced on expected load can still leave a server with more fluctuations than its residual capacity can absorb. Per-server risk constraints can enforce a prescribed overload tolerance but do not distinguish the assignments that meet it by how close the riskiest server comes to the limit. We show that, for independent tasks, placement preserves a period's total variance and total residual capacity, and decides only how fluctuation, measured by standard deviation, is paired with residual capacity across servers. The risk ratio, the ratio of fluctuation to residual capacity, parameterizes a server's worst-case overload probability over all aggregate workload distributions with given mean and variance. We minimize the largest risk ratio, attained at the risk bottleneck. Risk-Bottleneck Placement (RBP) places tasks in descending order of standard deviation, each on the server with the smallest post-assignment risk ratio, and refines the assignment with relocations and swaps within a finite per-period online budget. On small instances solved exactly by enumerating every assignment, minimizing the maximum expected utilization leaves the largest risk ratio 25.66-29.19% above its exact minimum on average, even with risk-minimizing tie-breaking, and the corresponding gap for RBP is 1.77-2.64%. In trace-derived multi-period simulations at two workload pressures, RBP reduces the worst-server overload probability by 26.0% and 18.0% relative to the best baseline and remains the lowest at every tested pressure and scale.",
-        "summary_vi": "arXiv:2611.04425v1 Announce Type: new \nAbstract: In edge computing, tasks must be placed on servers of finite capacity before workloads are realized, often with only workload means and variances known",
-        "title": "Minimizing Bottleneck Overload Risk in Online Edge Task Placement under Workload Uncertainty"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.04433v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.04433v1",
-        "link": "https://arxiv.org/abs/2611.04433",
-        "relevance": 3,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2611.04433v1 Announce Type: new \nAbstract: This paper investigates robust joint antenna positioning and precoding for multiuser movable antenna (MA) systems under imperfect channel state information (CSI). First, we identify the mismatch between the spatial statistics of densely sampled MA channels and the discrete Fourier transform (DFT) basis used for conventional robust precoding. To address this, we develop a novel discrete prolate spheroidal sequence (DPSS)-based a posteriori channel model. By exploiting the spatial covariance structure of MA channels, this model is better suited to modeling MA channel uncertainty. Building on this model, we develop an efficient iterative algorithm for robust joint antenna positioning and precoding to maximize the expected sum rate. By transforming the coupled optimization of antenna positioning and precoding at each iteration into direct comparisons of closed-form scores, we design a low-complexity position replacement scheme that effectively reuses matrix computations across candidate sets. To further improve efficiency and scalability, we exploit the inherent tensor equivariance (TE) of the problem to develop a reinforcement learning framework. To explicitly account for channel uncertainty, we develop novel pairwise user-interaction and CSI-conditioned equivariant attention mechanisms to encode channel statistics and adaptively fuse them with the available CSI. We further introduce distance-biased spatial attention to incorporate the geometry of candidate positions into attention weighting, thereby enhancing spatial feature learning. Simulation results show that the proposed methods improve sum-rate performance while reducing online runtime under imperfect CSI. These methods also achieve near-optimal performance under perfect CSI, closely matching the exhaustive-search method. Moreover, the learning framework generalizes across different numbers of users and MAs without retraining.",
-        "summary_vi": "arXiv:2611.04433v1 Announce Type: new \nAbstract: This paper investigates robust joint antenna positioning and precoding for multiuser movable antenna (MA) systems under imperfect channel state informa",
-        "title": "Movable Antenna Aided Robust Wireless Transmission: From Model-Based Optimization to Scalable Reinforcement Learning"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.04469v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.04469v1",
-        "link": "https://arxiv.org/abs/2611.04469",
-        "relevance": 3,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2611.04469v1 Announce Type: new \nAbstract: Modern GPUs offer far higher throughput in low precision than in FP64, but exploiting this in conjugate gradient (CG) solvers is difficult because tolerance to reduced precision evolves with the Krylov state. We present EvoCG, a mixed-precision CG solver that treats tile-wise precision as an online control action rather than a fixed setting: a reinforcement-learning policy in the iteration loop selects per-tile precision from the evolving solver state, made profitable by co-design with a Tile-CSC unified mixed-precision SpMV kernel and a low-overhead in-loop runtime. Across 47 SPD matrices from eight scientific domains, EvoCG is the fastest solver overall, with geometric-mean speedups of 2.52x, 3.06x, 2.48x, 1.93x, and 6.99x over cuSPARSE, PETSc, Ginkgo, Mille-FP64, and Mille-Mixed. On the same substrate, it improves time-to-solution over EvoCG-FP64 by 1.28x at only 11.4% more iterations and 1.09% overhead, with FP64-recomputed final true-residual norms nearly identical to those of FP64, and extends to Jacobi-preconditioned CG without retraining, yielding a further 1.15x geometric-mean speedup over EvoCG-FP64.",
-        "summary_vi": "arXiv:2611.04469v1 Announce Type: new \nAbstract: Modern GPUs offer far higher throughput in low precision than in FP64, but exploiting this in conjugate gradient (CG) solvers is difficult because tole",
-        "title": "EvoCG: Self-Evolving Precision Control for Faster Conjugate Gradient"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.04561v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.04561v1",
-        "link": "https://arxiv.org/abs/2611.04561",
-        "relevance": 3,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2611.04561v1 Announce Type: new \nAbstract: Reactive synthesis is the problem of generating a program that produces outputs satisfying a logical specification for every input stream. We study distributed synthesis for two processes communicating in rounds over unreliable links, with at least one message delivered in every round. Despite this delivery guarantee, we show that synthesis from linear temporal logic specifications is undecidable, even when messages carry the processes' complete causal histories.\n More generally, we give a complete characterization of the communication restrictions that make synthesis decidable. Restrictions are described by a message adversary $A$, a set of allowed infinite graph histories: sequences of communication graphs, each specifying which messages are delivered in a round. Iterated chromatic subdivision associates these histories with points in the unit interval, yielding an image $\\pi(A) \\subseteq [0,1]$. For every $\\omega$-regular message adversary $A$, synthesis is decidable if and only if $\\pi(A)$ is nowhere dense.\n In the decidable cases, our procedure takes a deterministic parity automaton for $A$ and a specification, decides realizability, and constructs a realizing distributed algorithm whenever one exists. Further, our topological arguments shed new light on the fundamental requirements of synthesis. They show that, for $\\omega$-regular message adversaries, synthesis is decidable if and only if consensus is repeatedly solvable in bounded time. This links two previously unrelated problems from formal verification and distributed computing through the processes' uncertainty about communication.",
-        "summary_vi": "arXiv:2611.04561v1 Announce Type: new \nAbstract: Reactive synthesis is the problem of generating a program that produces outputs satisfying a logical specification for every input stream. We study dis",
-        "title": "Distributed LTL Synthesis under Arbitrary Message Adversaries"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.04594v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.04594v1",
-        "link": "https://arxiv.org/abs/2611.04594",
-        "relevance": 3,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2611.04594v1 Announce Type: new \nAbstract: Modern datacenter applications demand high network bandwidth, motivating packet-level multipath transport to exploit the aggregate capacity of multiple paths. However, packet reordering under packet spraying poses challenges for hardware transports. Excessive packet reordering makes it difficult to infer packet loss, imposes substantial pressure on NIC resources, and ultimately degrades performance. Existing transports either prioritize throughput without controlling packet reordering, or mitigate reordering by restricting transmissions, which leaves available path capacity unused. In this paper, we identify two fundamental sources of packet reordering: transient inter-path queueing differences caused by control dynamics, and persistent path-delay differences due to path heterogeneity. These observations motivate a joint design of a multipath controller and a packet scheduler to address transient and persistent delay differences, respectively. We present Rondo, a packet-level multipath transport that achieves both high throughput and low packet reordering. Its multipath controller uses ACK-based per-path capacity estimation and probing to maintain stable path loads, while its packet scheduler adjusts packet transmission order to compensate for persistent delay differences. Testbed experiments and large-scale simulations show that Rondo reduces the maximum out-of-order degree by up to 97.5% while maintaining high throughput. With constrained receiver buffers, Rondo achieves up to 8.51 times higher goodput.",
-        "summary_vi": "arXiv:2611.04594v1 Announce Type: new \nAbstract: Modern datacenter applications demand high network bandwidth, motivating packet-level multipath transport to exploit the aggregate capacity of multiple",
-        "title": "Rondo: Controlling Reordering in High-Throughput Packet Spraying"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.04638v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.04638v1",
-        "link": "https://arxiv.org/abs/2611.04638",
-        "relevance": 3,
-        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
-        "summary": "arXiv:2611.04638v1 Announce Type: new \nAbstract: Large Language Models (LLMs) can run directly in a browser, but first use typically requires downloading model files that are hundreds of MiB or even several GiB in size. The same LLM is often repackaged by different publishers; these files share substantial content, yet byte differences prevent whole-file caches from reusing them. We propose EvoCache, a browser-managed LLM delivery system. EvoCache uses public cache anchors that are stored in advance by the browser and independent of browsing history to reconstruct losslessly the publisher version requested by a site. A site specifies only the target, while the browser selects the anchor and performs reconstruction, keeping both hidden from the site. An audit of 1,000 public repositories finds that 61 of the 100 most popular LLMs are offered by multiple publishers and that 98.1% of overlapping versions cannot be reused by whole-file caching. Across 23 cross-publisher model-package pairs, EvoCache achieves a median traffic reduction of 77.3% and outperforms every comparator. Across 240 real end-to-end browser experiments, EvoCache reduces network traffic by 78.9% and page-ready time by 64.2% relative to ordinary full downloads. For cached data left by other sites, EvoCache also protects users' cross-site cache privacy by using the same return time for cache hits and misses.",
-        "summary_vi": "arXiv:2611.04638v1 Announce Type: new \nAbstract: Large Language Models (LLMs) can run directly in a browser, but first use typically requires downloading model files that are hundreds of MiB or even s",
-        "title": "EvoCache: Accelerating Browser Large Language Model Delivery with Public Cache Anchors"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.04740v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.04740v1",
-        "link": "https://arxiv.org/abs/2611.04740",
-        "relevance": 3,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2611.04740v1 Announce Type: cross \nAbstract: RISC-V based AI accelerators have become popular and not only for AI and ML, but also as vehicles for exploring HPC workloads more generally. Tenstorrent are one example, and whilst they document their Tensix architecture in detail and develop their software stack openly, running code has historically required a physical card, and their recently released simulator targets hardware equivalence rather than introspection. In this paper we present Wolfpine, a community developed RISC-V simulator for the Tensix architecture, supporting both the Wormhole and Blackhole generations and integrating seamlessly with the TT-Metal software stack.\n Constructed entirely from publicly available documentation, open source software and measurements on physical hardware, Wolfpine is written in pure Python for readability and ease of modification. An opt-in, provenance-tracked cost model adds timing fidelity incrementally, and typed event streams, per-component tracing and timeline export enable programmers to identify and diagnose performance bottlenecks that the hardware itself hides.",
-        "summary_vi": "arXiv:2611.04740v1 Announce Type: cross \nAbstract: RISC-V based AI accelerators have become popular and not only for AI and ML, but also as vehicles for exploring HPC workloads more generally. Tenstor",
-        "title": "A RISC-V Simulator for the Tenstorrent Tensix Architecture"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.04993v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.04993v1",
-        "link": "https://arxiv.org/abs/2611.04993",
-        "relevance": 3,
-        "source": "arXiv cs.PL (Programming Languages)",
-        "summary": "arXiv:2611.04993v1 Announce Type: new \nAbstract: Separate compilation is central to modular software: components are compiled independently and linked into an executable. Separate compilation is correct when a linked program behaves like the program formed by merging its sources. This property is less routine to prove than type soundness because it requires a formal account of linking.\n We present $\\lambda_{\\mathsf{SCE}}$, a simply typed calculus in which linking, modules, and environments are all first-class. Programmers control module linking through a link operator, which a type-directed elaboration translates into ordinary terms of a core calculus of first-class environments. The core calculus's existing evaluation rules then perform the linking: linking as evaluation. Linking independently compiled modules yields the same core term as elaborating their source link. Therefore, compilation and linking commute by construction. As a result, separate compilation correctness follows directly from the semantics preservation for both static and dynamic linking. All meta-theory is mechanized in Lean 4, and we implement a compiler to WebAssembly in OCaml.",
-        "summary_vi": "arXiv:2611.04993v1 Announce Type: new \nAbstract: Separate compilation is central to modular software: components are compiled independently and linked into an executable. Separate compilation is corre",
-        "title": "Linking as Evaluation: Correct Separate Compilation via First-Class Environments"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.05007v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.05007v1",
-        "link": "https://arxiv.org/abs/2611.05007",
-        "relevance": 3,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2611.05007v1 Announce Type: new \nAbstract: Executing service workflows with directed acyclic graph (DAG) dependencies over wireless distributed computing networks requires joint control of function placement, routing, and scheduling, together with synchronization of inputs from the same request at merge points. We study throughput-optimal control of these networks under stochastic request arrivals, time-varying wireless links, and interference constraints. We use a valid mapping abstraction that assigns each service function to a computation node and each DAG dependency to a routing path. Using this abstraction, we characterize the network capacity region to support service DAGs, and prove that synchronizing the packets of a request at merge points does not shrink the region. We develop Dynamic Computing Network Control for service DAGs (DCNC-DAG), a dynamic control policy that selects queue-aware valid mappings and schedules service DAG execution by nearest-to-origin (NTO) while enforcing input synchronization at merge points. With exact minimum-cost valid mappings, DCNC-DAG is throughput-optimal and ensures rate stability of the physical queues under bounded arrivals. These guarantees hold for any fixed finite interval between mapping updates, even when mapping decisions rely on boundedly stale queue length information. For larger service DAGs, we develop DCNC-DAG-H, which replaces exact mapping optimization with a queue-aware heuristic. Simulations show that DCNC-DAG supports $2.7\\times$-$5.5\\times$ the throughput of queue-blind baselines, while DCNC-DAG-H achieves up to $2.68\\times$ those of the corresponding baselines on larger workflow and AI service DAGs.",
-        "summary_vi": "arXiv:2611.05007v1 Announce Type: new \nAbstract: Executing service workflows with directed acyclic graph (DAG) dependencies over wireless distributed computing networks requires joint control of funct",
-        "title": "Throughput-Optimal Control of Distributed Computing Networks for Service DAGs"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.05081v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.05081v1",
-        "link": "https://arxiv.org/abs/2611.05081",
-        "relevance": 3,
-        "source": "arXiv cs.PF (Performance)",
-        "summary": "arXiv:2611.05081v1 Announce Type: cross \nAbstract: Serverless computing is a popular approach to application deployment without having to manage the underlying infrastructure. Its most common implementation is Function-as-a-Service (FaaS), in which applications are structured as fine-grained functions. FaaS providers face non-trivial tasks in the management of their platforms, including cold starts, auto-scaling, and scheduling. The design of optimized platforms requires an accurate understanding of realistic serverless workloads. However, existing research and platforms rely on insights from single, often outdated datasets. In this work, we conduct a large-scale, cross-platform comparative analysis of eight publicly available FaaS workload traces from major cloud providers (Alibaba, Azure, Huawei, IBM) and a scientific computing platform (Globus). We provide a comprehensive and up-to-date view of the serverless ecosystem by characterizing key dimensions such as invocation patterns, latency, cold start behavior, and resource utilization. Our analysis shows that although invocation patterns remain universal, execution times have shortened, shifting the performance bottleneck toward platform scheduling and dependency management. We also observe an architectural shift toward \"Serverless 2.0\" models, where concurrent, long-lived containers are increasingly utilized to bypass cold start penalties. Furthermore, we found resource over-provisioning and extreme skew in user request volumes. These findings provide actionable insights for designing more efficient FaaS platforms, informing improved approaches to targeted cold start mitigation, predictive resource management, and dependency-aware scheduling.",
-        "summary_vi": "arXiv:2611.05081v1 Announce Type: cross \nAbstract: Serverless computing is a popular approach to application deployment without having to manage the underlying infrastructure. Its most common implemen",
-        "title": "Characterizing Serverless Workloads: A Large-Scale Analysis of Function-as-a-Service Platforms"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.05104v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.05104v1",
-        "link": "https://arxiv.org/abs/2611.05104",
-        "relevance": 3,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2611.05104v1 Announce Type: cross \nAbstract: LLM inference decode executes fine-grained collectives whose latency directly limits per-user interactivity, yet scale-up fabrics are still built from electronic packet switches designed for training. We observe that, for a given model deployment and parallelization, the communication structure of decode is fixed, and propose workload-static optical circuit switching (OCS): circuits are configured once per deployment, co-designed with model parallelism and with topology-aware collective schedules that turn spare accelerator ports into fewer communication phases or higher bandwidth. We evaluate this design with GXNET, a graph-based workload emulator coupled to analytical and flit-level network models grounded in hardware measurements. In a 576-accelerator scale-up domain serving 5T-parameter MoE models with up to 5M tokens of context, all-OCS fabrics improve interactivity by up to 65% and energy efficiency by up to 119% over 4:1 oversubscribed packet-switched fabrics.",
-        "summary_vi": "arXiv:2611.05104v1 Announce Type: cross \nAbstract: LLM inference decode executes fine-grained collectives whose latency directly limits per-user interactivity, yet scale-up fabrics are still built fro",
-        "title": "Workload-Static Optical Circuit Switching For Scalable LLM Inference Decode"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.05121v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.05121v1",
-        "link": "https://arxiv.org/abs/2611.05121",
-        "relevance": 3,
-        "source": "arXiv cs.PL (Programming Languages)",
-        "summary": "arXiv:2611.05121v1 Announce Type: cross \nAbstract: General-purpose graphics processing unit (GPU) computing has emerged as a leading parallel computing paradigm, offering significant performance gains in various domains such as scientific computing and deep learning. However, GPU programs are susceptible to numerical bugs, which can lead to incorrect results or crashes. These bugs are difficult to detect, debug, and fix due to their dependence on specific input values or types and the absence of reliable error-checking mechanisms and oracles. Additionally, the unique programming conventions of GPUs complicate identifying the root causes of bugs, while fixing them requires domain-specific knowledge of GPU computing and numerical libraries. Therefore, understanding the characteristics of GPU numerical bugs (GPU-NBs) is crucial for developing effective solutions. In this paper, we conduct a comprehensive study of GPU-NBs by analyzing 397 real-world bug samples from GitHub. We identify common root causes, symptoms, input patterns, test oracles that trigger these bugs and the strategies used to fix them. We also present GPU-NBDetect, a preliminary tool designed to detect numerical bugs across six distinct bug categories. GPU-NBDetect detected a total of 226 bugs across 186 mathematical functions in four libraries, with 60 of the bugs confirmed by developers. Our findings lay the groundwork for developing detection and prevention techniques for GPU-NBs and offer insights for building more effective debugging and auto-repair tool.",
-        "summary_vi": "arXiv:2611.05121v1 Announce Type: cross \nAbstract: General-purpose graphics processing unit (GPU) computing has emerged as a leading parallel computing paradigm, offering significant performance gains",
-        "title": "An Investigation on Numerical Bugs in GPU Programs Towards Automated Bug Detection"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.05165v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.05165v1",
-        "link": "https://arxiv.org/abs/2611.05165",
-        "relevance": 3,
-        "source": "arXiv cs.NI (Computer Networking)",
-        "summary": "arXiv:2611.05165v1 Announce Type: new \nAbstract: During disasters, public mobile networks may become unavailable, congested, or degraded, requiring deployable communication systems to support emergency operations. This article proposes a mission-critical communications system supporing Mission Critical Push-to-Talk (MCPTT), Mission Critical Video (MCVideo), and Mission Critical Data (MCData) over a private 5G standalone network with Non-Terrestrial Network (NTN) connectivity. A context-aware Quality, Priority, and Pre-emption (QPP) mechanism is proposed to dynamically adapt network resource allocation according to the operational state of Mission Critical Services (MCX). Extensions to the Open5GS Policy Control Function (PCF) and Session Management Function (SMF) enable priority and pre-emption updates for existing flows without session re-establishment. The architecture supports tactical edge deployment of service and media functions while retaining centralized service control. Experimental evaluation considers three configurations: terrestrial backhaul with centralized media processing, satellite backhaul with centralized media processing, and satellite backhaul with edge media processing. Results show that tactical edge processing reduces communication delay and packet loss. Under satellite backhaul, edge processing reduced the 95th-percentile MCPTT audio transport delay by 60.03 ms and packet loss by 9.42 percentage points, while achieving a 95th-percentile MCPTT access time of 184.52 ms. These findings demonstrate the benefits of tactical edge media processing and provide an experimental foundation for context-aware priority mechanisms in public-safety networks integrating terrestrial and non-terrestrial components.",
-        "summary_vi": "arXiv:2611.05165v1 Announce Type: new \nAbstract: During disasters, public mobile networks may become unavailable, congested, or degraded, requiring deployable communication systems to support emergenc",
-        "title": "QPP-Aware MCX over Tactical Edge 3D Networks in Public-Safety Communications"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
-    },
-    "oai:arXiv.org:2611.05233v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.05233v1",
-        "link": "https://arxiv.org/abs/2611.05233",
-        "relevance": 3,
-        "source": "arXiv cs.AR (Computer Architecture)",
-        "summary": "arXiv:2611.05233v1 Announce Type: cross \nAbstract: Fault-tolerant quantum computers run millions of logical cycles to perform quantum error correction (QEC). As logical operations span entire logical cycles, the logical cycle time (LCT) dictates program runtime. Qubit measurements, critical to extract parity information for QEC, are the slowest operations and account for 43-86% of LCT. Measurement latencies impact fidelity: fast measurements lower our ability to correctly classify quantum states, whereas slow measurements increase the likelihood of decoherence. Hardware providers thus calibrate measurement latencies that maximize readout fidelity per qubit and use them to schedule all measurements during program execution. However, calibrated latencies are sub-optimal for logical performance because logical cycles span multiple QEC rounds, during which data qubits are not measured. This increases LCT and logical error rates (LERs) due to decoherence at the logical level.\n We propose DynaMite, a lightweight real-time measurement latency selection policy built on two key insights. First, logical cycles must use a measurement latency that is fast enough to reduce both LCT and LER for the QEC code, instead of the calibrated latency that only maximizes readout fidelity. Second, not all logical cycles are equal; many do not fully utilize the error budget of the QEC code, i.e., the number of failed parity checks it can tolerate without compromising LER. These cycles could use even faster measurements but do not, because latencies are chosen statically, whereas error information is only available at runtime. DynaMite exploits the fact that a logical cycle comprises multiple QEC rounds and selects the fastest latency for an upcoming round based on the error budget left and rounds remaining. Our evaluations show that DynaMite reduces LCT by 1.69x on average and up to 2.29x, and reduces LER to 0.46x on average and up to 0.13x of baseline.",
-        "summary_vi": "arXiv:2611.05233v1 Announce Type: cross \nAbstract: Fault-tolerant quantum computers run millions of logical cycles to perform quantum error correction (QEC). As logical operations span entire logical ",
-        "title": "DynaMite: Dynamic Measurement Scheduling To Accelerate Fault-Tolerant Quantum Programs"
-      },
-      "first_seen": "2026-11-05T01:49:34.737244+00:00"
     },
     "oai:arXiv.org:2611.05380v1": {
       "entry": {
@@ -3231,12 +2584,11 @@
     "https://linuxgizmos.com/?p=99693": "2026-10-30T01:24:44.649656+00:00",
     "https://linuxgizmos.com/?p=99704": "2026-11-02T01:02:32.460847+00:00",
     "https://linuxgizmos.com/?p=99720": "2026-11-02T01:02:32.460847+00:00",
+    "https://linuxgizmos.com/?p=99746": "2026-11-05T01:49:34.737244+00:00",
     "https://lwn.net/Articles/1094226/": "2026-10-22T00:14:37.714250+00:00",
-    "https://lwn.net/Articles/1098617/": "2026-10-09T01:28:13.470643+00:00",
     "https://lwn.net/Articles/1098672/": "2026-10-15T00:07:44.827060+00:00",
     "https://lwn.net/Articles/1099015/": "2026-10-14T00:37:17.101304+00:00",
     "https://lwn.net/Articles/1099024/": "2026-10-10T01:18:49.490352+00:00",
-    "https://lwn.net/Articles/1099388/": "2026-10-09T01:28:13.470643+00:00",
     "https://lwn.net/Articles/1099486/": "2026-10-14T00:37:17.101304+00:00",
     "https://lwn.net/Articles/1099587/": "2026-10-10T01:18:49.490352+00:00",
     "https://lwn.net/Articles/1099588/": "2026-10-10T01:18:49.490352+00:00",
@@ -3284,23 +2636,25 @@
     "https://lwn.net/Articles/1103212/": "2026-10-28T00:46:21.169893+00:00",
     "https://lwn.net/Articles/1103357/": "2026-10-29T01:15:38.013696+00:00",
     "https://lwn.net/Articles/1103359/": "2026-10-29T01:15:38.013696+00:00",
+    "https://lwn.net/Articles/1103480/": "2026-11-05T01:49:34.737244+00:00",
     "https://lwn.net/Articles/1103666/": "2026-10-30T01:24:44.649656+00:00",
     "https://lwn.net/Articles/1103674/": "2026-11-04T01:43:07.426560+00:00",
     "https://lwn.net/Articles/1104174/": "2026-10-31T11:15:22.551414+00:00",
     "https://lwn.net/Articles/1104210/": "2026-10-31T01:04:35.861546+00:00",
     "https://lwn.net/Articles/1104262/": "2026-11-01T00:26:52.886150+00:00",
     "https://lwn.net/Articles/1104612/": "2026-11-01T00:26:52.886150+00:00",
+    "https://lwn.net/Articles/1104646/": "2026-11-05T01:49:34.737244+00:00",
     "https://lwn.net/Articles/1104844/": "2026-11-03T03:07:33.506203+00:00",
     "https://lwn.net/Articles/1104846/": "2026-11-03T03:07:33.506203+00:00",
     "https://lwn.net/Articles/1105111/": "2026-11-04T01:43:07.426560+00:00",
     "https://lwn.net/Articles/1105121/": "2026-11-04T01:43:07.426560+00:00",
+    "https://lwn.net/Articles/1105130/": "2026-11-05T01:49:34.737244+00:00",
     "https://lwn.net/Articles/1105131/": "2026-11-04T01:43:07.426560+00:00",
+    "https://lwn.net/Articles/1105378/": "2026-11-05T01:49:34.737244+00:00",
+    "https://lwn.net/Articles/1105395/": "2026-11-05T01:49:34.737244+00:00",
     "https://lwn.net/Articles/1105639/": "2026-11-06T01:57:39.156695+00:00",
     "https://lwn.net/Articles/1105881/": "2026-11-07T01:13:55.085191+00:00",
     "https://lwn.net/Articles/1105913/": "2026-11-07T01:13:55.085191+00:00",
-    "https://rcrwireless.com/?p=434897": "2026-10-09T12:07:21.302578+00:00",
-    "https://rcrwireless.com/?p=434912": "2026-10-09T12:07:21.302578+00:00",
-    "https://rcrwireless.com/?p=434920": "2026-10-09T12:07:21.302578+00:00",
     "https://rcrwireless.com/?p=435558": "2026-10-13T12:59:04.220462+00:00",
     "https://rcrwireless.com/?p=435575": "2026-10-14T10:38:07.145690+00:00",
     "https://rcrwireless.com/?p=435578": "2026-10-15T00:07:44.827060+00:00",
@@ -3341,19 +2695,19 @@
     "https://rocm.blogs.amd.com/artificial-intelligence/monai-hipcim-2608/README.html": "2026-10-27T00:50:51.993375+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/monai-zoo-2608/README.html": "2026-10-31T01:04:35.861546+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/online_quantization/README.html": "2026-11-06T01:57:39.156695+00:00",
-    "https://rocm.blogs.amd.com/artificial-intelligence/primus-hybrid-llm/README.html": "2026-10-09T01:28:13.470643+00:00",
+    "https://rocm.blogs.amd.com/artificial-intelligence/quark-wan22-mixed-precision/README.html": "2026-11-05T01:49:34.737244+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/rocm10-ray/README.html": "2026-10-28T00:46:21.169893+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/rocopt/README.html": "2026-10-21T00:09:49.548846+00:00",
     "https://rocm.blogs.amd.com/ecosystems-and-partners/deepseek-v4-mi308-aiter-backed-rl/README.html": "2026-10-29T01:15:38.013696+00:00",
     "https://rocm.blogs.amd.com/ecosystems-and-partners/ultralytics-amd/README.html": "2026-10-27T00:50:51.993375+00:00",
-    "https://rocm.blogs.amd.com/software-tools-optimization/di-kimi-k3-mxfp4/README.html": "2026-10-09T01:28:13.470643+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/flydsl-mono-atom/README.html": "2026-11-04T01:43:07.426560+00:00",
+    "https://rocm.blogs.amd.com/software-tools-optimization/glm52-agentx-mi355x/README.html": "2026-11-05T01:49:34.737244+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/hipcim-26-08/README.html": "2026-10-21T00:09:49.548846+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/inferasim/README.html": "2026-11-07T01:13:55.085191+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/megakernel-intro/README.html": "2026-10-21T00:09:49.548846+00:00",
-    "https://rocm.blogs.amd.com/software-tools-optimization/mi455x-vs-mi355x/README.html": "2026-10-09T01:28:13.470643+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/openxla-group-gemm/README.html": "2026-10-27T00:50:51.993375+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/primus-moe-optimization/README.html": "2026-10-22T00:14:37.714250+00:00",
+    "https://rocm.blogs.amd.com/software-tools-optimization/profiling-guide/ai_tinyopenfold/README.html": "2026-11-05T01:49:34.737244+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/rdna-fp8-gemm/README.html": "2026-10-24T00:02:40.989120+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/scaling-gsplat/README.html": "2026-10-24T00:02:40.989120+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/triton-warp-pipeline/README.html": "2026-10-28T00:46:21.169893+00:00",
@@ -3385,6 +2739,7 @@
     "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html": "2026-10-29T04:16:31.165926+00:00",
     "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html": "2026-10-31T01:04:35.861546+00:00",
     "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html": "2026-10-31T01:04:35.861546+00:00",
+    "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html": "2026-11-05T01:49:34.737244+00:00",
     "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html": "2026-11-02T13:55:07.841963+00:00",
     "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html": "2026-11-04T01:43:07.426560+00:00",
     "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html": "2026-11-06T13:18:31.957095+00:00",
@@ -3394,6 +2749,7 @@
     "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html": "2026-11-04T13:19:08.134166+00:00",
     "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html": "2026-11-03T03:07:33.506203+00:00",
     "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html": "2026-11-01T12:03:06.789682+00:00",
+    "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html": "2026-11-05T01:49:34.737244+00:00",
     "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html": "2026-11-04T01:43:07.426560+00:00",
     "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html": "2026-11-02T13:55:07.841963+00:00",
     "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html": "2026-11-03T13:02:11.696372+00:00",
@@ -3409,17 +2765,19 @@
     "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html": "2026-11-02T13:55:07.841963+00:00",
     "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html": "2026-11-04T13:19:08.134166+00:00",
     "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html": "2026-11-06T01:57:39.156695+00:00",
+    "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html": "2026-11-05T01:49:34.737244+00:00",
     "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html": "2026-11-03T13:02:11.696372+00:00",
     "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html": "2026-11-04T13:19:08.134166+00:00",
+    "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html": "2026-11-05T01:49:34.737244+00:00",
     "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html": "2026-11-03T13:02:11.696372+00:00",
     "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html": "2026-11-03T13:02:11.696372+00:00",
     "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html": "2026-11-06T13:18:31.957095+00:00",
     "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html": "2026-11-06T01:57:39.156695+00:00",
     "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html": "2026-11-03T03:07:33.506203+00:00",
+    "https://www.cnx-software.com/?p=175617": "2026-11-08T12:15:15.623047+00:00",
     "https://www.cnx-software.com/?p=176022": "2026-10-21T10:36:54.456279+00:00",
     "https://www.cnx-software.com/?p=176069": "2026-10-23T10:33:29.369204+00:00",
     "https://www.cnx-software.com/?p=176999": "2026-10-17T09:41:47.588367+00:00",
-    "https://www.cnx-software.com/?p=177367": "2026-10-09T01:28:13.470643+00:00",
     "https://www.cnx-software.com/?p=177625": "2026-10-21T10:36:54.456279+00:00",
     "https://www.cnx-software.com/?p=178068": "2026-10-28T00:46:21.169893+00:00",
     "https://www.cnx-software.com/?p=178096": "2026-10-10T11:23:32.463986+00:00",
@@ -3470,7 +2828,6 @@
     "https://www.huawei.com/en/news/2026/11/wireless-documentary": "2026-11-07T01:13:55.085191+00:00",
     "https://www.huawei.com/en/news/2026/9/alpha-antenna-6000": "2026-10-11T00:29:49.881685+00:00",
     "https://www.linuxfoundation.org/blog/developer-experience-as-a-business-strategy-lessons-from-the-new-devex-report": "2026-10-11T00:29:49.881685+00:00",
-    "https://www.linuxfoundation.org/blog/how-should-enterprises-transition-to-the-agentic-era": "2026-10-09T12:07:21.302578+00:00",
     "https://www.linuxfoundation.org/blog/lf-decentralized-trust-demonstrates-the-first-open-source-verifiable-trust-community-in-prague": "2026-10-15T23:54:14.069902+00:00",
     "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-october-2026": "2026-10-22T00:14:37.714250+00:00",
     "https://www.linuxfoundation.org/blog/navigating-open-source-software-development-in-the-generative-ai-era-balancing-velocity-and-community-health": "2026-10-27T00:50:51.993375+00:00",
@@ -3489,7 +2846,6 @@
     "https://www.phoronix.com/news/Apple-Clang-SSAF-Driver": "2026-10-15T00:07:44.827060+00:00",
     "https://www.phoronix.com/news/Azure-Linux-3.0.2022": "2026-11-07T11:56:46.016476+00:00",
     "https://www.phoronix.com/news/Borealis-Vulkan-Driver": "2026-10-24T00:02:40.989120+00:00",
-    "https://www.phoronix.com/news/COSMIC-Epoch-1.10": "2026-10-09T01:28:13.470643+00:00",
     "https://www.phoronix.com/news/COSMIC-Epoch-1.11": "2026-10-21T00:09:49.548846+00:00",
     "https://www.phoronix.com/news/Cloud-Hypervisor-54": "2026-10-14T10:38:07.145690+00:00",
     "https://www.phoronix.com/news/Corsair-Novablade-Pro-Linux-7.3": "2026-10-11T11:37:08.824229+00:00",
@@ -3497,7 +2853,6 @@
     "https://www.phoronix.com/news/Darrick-Wong-Step-Back-23-Years": "2026-10-16T23:54:14.734784+00:00",
     "https://www.phoronix.com/news/Dasharo-0.9-ASRock-SPC741D8": "2026-10-15T23:54:14.069902+00:00",
     "https://www.phoronix.com/news/Debian-APT-MITM-RCE": "2026-11-04T13:19:08.134166+00:00",
-    "https://www.phoronix.com/news/EXT4-Deprecates-Journal-Mode": "2026-10-09T01:28:13.470643+00:00",
     "https://www.phoronix.com/news/EXT4-iomap-Buffered-IO": "2026-10-12T13:35:18.699602+00:00",
     "https://www.phoronix.com/news/Easy-Anti-Cheat-Better-Linux": "2026-10-15T00:07:44.827060+00:00",
     "https://www.phoronix.com/news/Enlightenment-0.28": "2026-11-01T00:26:52.886150+00:00",
@@ -3514,6 +2869,7 @@
     "https://www.phoronix.com/news/FreeRDP-3.33": "2026-11-02T13:55:07.841963+00:00",
     "https://www.phoronix.com/news/FreeType-2.15-Released": "2026-10-13T02:44:05.425689+00:00",
     "https://www.phoronix.com/news/Fwupd-To-Android-Integration": "2026-10-21T10:36:54.456279+00:00",
+    "https://www.phoronix.com/news/GCC-17-Ends-Stage-1-Next-Week": "2026-11-08T12:15:15.623047+00:00",
     "https://www.phoronix.com/news/GCC-17-Merges-AVX10V1AUX": "2026-11-03T13:02:11.696372+00:00",
     "https://www.phoronix.com/news/GIMP-3.2.8-Released": "2026-11-04T01:43:07.426560+00:00",
     "https://www.phoronix.com/news/GNOME-Establishes-RFC": "2026-10-31T11:15:22.551414+00:00",
@@ -3535,6 +2891,7 @@
     "https://www.phoronix.com/news/Intel-ISPC-1.32-Released": "2026-10-14T00:37:17.101304+00:00",
     "https://www.phoronix.com/news/Intel-LLM-Scaler-vLLM-PV-1.5": "2026-10-16T10:07:43.710673+00:00",
     "https://www.phoronix.com/news/Intel-Nova-Lake-SR-IOV-Xe": "2026-10-15T23:54:14.069902+00:00",
+    "https://www.phoronix.com/news/Intel-One-Mono-1.5": "2026-11-05T01:49:34.737244+00:00",
     "https://www.phoronix.com/news/Intel-XeSS-Steam-Play-Proton": "2026-10-20T00:41:16.386846+00:00",
     "https://www.phoronix.com/news/Jamey-Sharp-Praises-Wayland": "2026-10-29T04:16:31.165926+00:00",
     "https://www.phoronix.com/news/KDE-Fixes-15-Year-Old-Bugs": "2026-10-28T00:46:21.169893+00:00",
@@ -3552,6 +2909,8 @@
     "https://www.phoronix.com/news/KNOD-2026-GPU-Network-Process": "2026-10-10T11:23:32.463986+00:00",
     "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities": "2026-10-22T10:40:49.740733+00:00",
     "https://www.phoronix.com/news/LLVMpipe-AVX-512-MR": "2026-10-17T09:41:47.588367+00:00",
+    "https://www.phoronix.com/news/LXQt-2.5-Released": "2026-11-05T01:49:34.737244+00:00",
+    "https://www.phoronix.com/news/LZ4-1.11-Released": "2026-11-05T01:49:34.737244+00:00",
     "https://www.phoronix.com/news/LibreSSL-4.4-Released": "2026-10-23T10:33:29.369204+00:00",
     "https://www.phoronix.com/news/Linus-Torvalds-Assoc-Array": "2026-10-12T13:35:18.699602+00:00",
     "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code": "2026-10-12T00:47:21.124571+00:00",
@@ -3582,7 +2941,6 @@
     "https://www.phoronix.com/news/Linux-7.4-XFS": "2026-10-21T10:36:54.456279+00:00",
     "https://www.phoronix.com/news/Linux-7.4-m68k": "2026-10-20T10:26:37.013396+00:00",
     "https://www.phoronix.com/news/Linux-7.5-drm-misc-next": "2026-10-29T11:49:06.816281+00:00",
-    "https://www.phoronix.com/news/Linux-AI-Agent-Resources": "2026-10-09T01:28:13.470643+00:00",
     "https://www.phoronix.com/news/Linux-AMD-Zen-AI-Detection": "2026-10-23T00:11:08.671003+00:00",
     "https://www.phoronix.com/news/Linux-Answering-RVA23-Question": "2026-10-15T10:19:36.277492+00:00",
     "https://www.phoronix.com/news/Linux-BeamFS": "2026-10-19T11:17:50.830525+00:00",
@@ -3594,7 +2952,6 @@
     "https://www.phoronix.com/news/Linux-Mint-27-Many-Features": "2026-10-13T12:59:04.220462+00:00",
     "https://www.phoronix.com/news/Linux-Mint-October-2026": "2026-11-01T00:26:52.886150+00:00",
     "https://www.phoronix.com/news/Linux-Patches-Intel-macsmc": "2026-10-30T11:42:20.435734+00:00",
-    "https://www.phoronix.com/news/Mesa-26.3-RADV-VK_AMD_anti_lag": "2026-10-09T01:28:13.470643+00:00",
     "https://www.phoronix.com/news/Mesa-Torx-YOLOX-PyTorch": "2026-10-14T10:38:07.145690+00:00",
     "https://www.phoronix.com/news/Mesa-Zink-VA-API-On-Vulkan": "2026-10-16T10:07:43.710673+00:00",
     "https://www.phoronix.com/news/MeshXFS-XFS-Clustered": "2026-10-17T23:25:45.625725+00:00",
@@ -3604,7 +2961,7 @@
     "https://www.phoronix.com/news/Multipass-1.17": "2026-10-20T10:26:37.013396+00:00",
     "https://www.phoronix.com/news/NTFS-Linux-7.4-Improvements": "2026-10-27T11:02:26.672421+00:00",
     "https://www.phoronix.com/news/NULLos": "2026-10-31T01:04:35.861546+00:00",
-    "https://www.phoronix.com/news/NVIDIA-Boro-Linux-Kernel-AI": "2026-10-09T12:07:21.302578+00:00",
+    "https://www.phoronix.com/news/NVIDIA-CUDA-13.5": "2026-11-05T01:49:34.737244+00:00",
     "https://www.phoronix.com/news/NVIDIA-Nova-Linux-7.4-Changes": "2026-10-13T12:59:04.220462+00:00",
     "https://www.phoronix.com/news/NetBSD-11.1-Released": "2026-11-04T01:43:07.426560+00:00",
     "https://www.phoronix.com/news/NetBSD-New-Text-Editor": "2026-10-29T04:16:31.165926+00:00",
@@ -3621,7 +2978,6 @@
     "https://www.phoronix.com/news/Pavee-OS": "2026-10-28T00:46:21.169893+00:00",
     "https://www.phoronix.com/news/PostgreSQL-19-Late": "2026-10-31T01:04:35.861546+00:00",
     "https://www.phoronix.com/news/Python-3.15-Released": "2026-10-10T01:18:49.490352+00:00",
-    "https://www.phoronix.com/news/Qualcomm-MSM-DRM-HDR": "2026-10-09T12:07:21.302578+00:00",
     "https://www.phoronix.com/news/RADV-Adopts-LLM-Policy": "2026-11-02T13:55:07.841963+00:00",
     "https://www.phoronix.com/news/RADV-GFX10-Host-Image-Copy": "2026-10-19T11:17:50.830525+00:00",
     "https://www.phoronix.com/news/RAID-Drive-Replacement-Tonight": "2026-11-01T12:03:06.789682+00:00",
@@ -3648,7 +3004,6 @@
     "https://www.phoronix.com/news/Ubuntu-26.10-RISC-V-Desktop": "2026-10-10T01:18:49.490352+00:00",
     "https://www.phoronix.com/news/Ubuntu-27.04-Opens-For-Dev": "2026-10-31T01:04:35.861546+00:00",
     "https://www.phoronix.com/news/Ubuntu-Core-Desktop-2026": "2026-10-29T01:15:38.013696+00:00",
-    "https://www.phoronix.com/news/Ubuntu-DDoS-October-2026": "2026-10-09T01:28:13.470643+00:00",
     "https://www.phoronix.com/news/Ubuntu-Myna-Tech-Preview": "2026-10-13T02:44:05.425689+00:00",
     "https://www.phoronix.com/news/Ubuntu-Touch-24.04-2.1": "2026-10-18T09:55:04.003324+00:00",
     "https://www.phoronix.com/news/VKD3D-Proton-3.1": "2026-10-28T11:41:08.830280+00:00",
@@ -3667,22 +3022,13 @@
     "https://www.phoronix.com/review/cachyos-ubuntu2610-fedora45": "2026-10-29T01:15:38.013696+00:00",
     "https://www.phoronix.com/review/framework-laptop-12-wildcat-lake": "2026-10-14T00:37:17.101304+00:00",
     "https://www.phoronix.com/review/intel-xeon-granite-rapids-ubuntu-2610": "2026-10-16T23:54:14.734784+00:00",
+    "https://www.phoronix.com/review/linux-74-threadripper": "2026-11-05T01:49:34.737244+00:00",
     "https://www.phoronix.com/review/lpddr5-5467-6400-7467": "2026-10-15T23:54:14.069902+00:00",
     "https://www.phoronix.com/review/nvidia-vera-1p-2p": "2026-10-30T01:24:44.649656+00:00",
     "https://www.phoronix.com/review/rocm-10-opencl-rusticl": "2026-10-13T02:44:05.425689+00:00",
     "https://www.phoronix.com/review/snapdragon-x2-linux": "2026-10-22T00:14:37.714250+00:00",
     "https://www.phoronix.com/review/ubuntu-2610-amd64v3-epyc": "2026-10-15T00:07:44.827060+00:00",
     "https://www.phoronix.com/review/ubuntu-2610-arrow-lake": "2026-10-21T00:09:49.548846+00:00",
-    "https://www.reddit.com/r/embedded/t3_1x0vear": "2026-10-09T12:07:21.302578+00:00",
-    "https://www.reddit.com/r/embedded/t3_1x0whf1": "2026-10-09T01:28:13.470643+00:00",
-    "https://www.reddit.com/r/embedded/t3_1x0xxh7": "2026-10-09T01:28:13.470643+00:00",
-    "https://www.reddit.com/r/embedded/t3_1x0znn3": "2026-10-09T01:28:13.470643+00:00",
-    "https://www.reddit.com/r/embedded/t3_1x16s93": "2026-10-09T01:28:13.470643+00:00",
-    "https://www.reddit.com/r/embedded/t3_1x17nek": "2026-10-09T01:28:13.470643+00:00",
-    "https://www.reddit.com/r/embedded/t3_1x1bv2z": "2026-10-09T12:07:21.302578+00:00",
-    "https://www.reddit.com/r/embedded/t3_1x1e2r4": "2026-10-09T12:07:21.302578+00:00",
-    "https://www.reddit.com/r/embedded/t3_1x1j9vs": "2026-10-09T12:07:21.302578+00:00",
-    "https://www.reddit.com/r/embedded/t3_1x1jd1r": "2026-10-09T12:07:21.302578+00:00",
     "https://www.reddit.com/r/embedded/t3_1x1k25j": "2026-10-10T11:23:32.463986+00:00",
     "https://www.reddit.com/r/embedded/t3_1x1k965": "2026-10-10T01:18:49.490352+00:00",
     "https://www.reddit.com/r/embedded/t3_1x1q0dr": "2026-10-10T01:18:49.490352+00:00",
@@ -3897,6 +3243,11 @@
     "https://www.reddit.com/r/embedded/t3_1xngwx9": "2026-11-04T13:19:08.134166+00:00",
     "https://www.reddit.com/r/embedded/t3_1xnkoo5": "2026-11-04T13:19:08.134166+00:00",
     "https://www.reddit.com/r/embedded/t3_1xnndmg": "2026-11-04T13:19:08.134166+00:00",
+    "https://www.reddit.com/r/embedded/t3_1xnqbmp": "2026-11-05T01:49:34.737244+00:00",
+    "https://www.reddit.com/r/embedded/t3_1xnuph4": "2026-11-05T01:49:34.737244+00:00",
+    "https://www.reddit.com/r/embedded/t3_1xnv832": "2026-11-05T01:49:34.737244+00:00",
+    "https://www.reddit.com/r/embedded/t3_1xo0leg": "2026-11-05T01:49:34.737244+00:00",
+    "https://www.reddit.com/r/embedded/t3_1xo59tp": "2026-11-05T01:49:34.737244+00:00",
     "https://www.reddit.com/r/embedded/t3_1xpckca": "2026-11-07T11:56:46.016476+00:00",
     "https://www.redhat.com/en/blog/3-recent-enhancements-red-hat-hybrid-cloud-console": "2026-11-06T01:57:39.156695+00:00",
     "https://www.redhat.com/en/blog/5-minute-demo-how-build-modern-applications-red-hat-openshift": "2026-11-06T01:57:39.156695+00:00",
@@ -3909,7 +3260,6 @@
     "https://www.redhat.com/en/blog/friday-five-november-6-2026-red-hat": "2026-11-06T13:18:31.957095+00:00",
     "https://www.redhat.com/en/blog/friday-five-october-23-2026-red-hat": "2026-10-23T10:33:29.369204+00:00",
     "https://www.redhat.com/en/blog/friday-five-october-30-2026-red-hat": "2026-10-30T01:24:44.649656+00:00",
-    "https://www.redhat.com/en/blog/friday-five-october-9-2026-red-hat": "2026-10-09T01:28:13.470643+00:00",
     "https://www.redhat.com/en/blog/future-proofing-enterprise-ai-impact-post-quantum-cryptography-red-hat-ai-enterprise": "2026-11-04T01:43:07.426560+00:00",
     "https://www.redhat.com/en/blog/how-atos-uses-red-hat-ai-build-smaller-specialized-models-sovereign-ai": "2026-10-29T01:15:38.013696+00:00",
     "https://www.redhat.com/en/blog/how-delta-air-lines-scaled-ai-native-development-1200-engineers-cloud-development-environments": "2026-10-21T00:09:49.548846+00:00",
@@ -3923,7 +3273,6 @@
     "https://www.redhat.com/en/blog/top-5-enterprise-use-cases-ai-agents": "2026-10-24T00:02:40.989120+00:00",
     "https://www.redhat.com/en/blog/top-5-operators-red-hat-openshift": "2026-10-15T00:07:44.827060+00:00",
     "https://www.redhat.com/en/blog/trustworthy-ai-starts-community-governance": "2026-11-04T01:43:07.426560+00:00",
-    "https://www.redhat.com/en/blog/using-premise-red-hat-lightspeed-capabilities-monitor-vulnerabilities-and-apply-advisor-remediations": "2026-10-09T01:28:13.470643+00:00",
     "https://www.redhat.com/en/blog/why-itops-needs-governed-automation-foundation-ai": "2026-10-30T01:24:44.649656+00:00",
     "https://www.sigarch.org/?p=116128": "2026-10-21T00:09:49.548846+00:00",
     "https://www.sigarch.org/?p=116520": "2026-10-29T01:15:38.013696+00:00",
@@ -3935,11 +3284,12 @@
     "oai:arXiv.org:2403.20132v2": "2026-11-06T01:57:39.156695+00:00",
     "oai:arXiv.org:2406.03786v2": "2026-10-20T00:41:16.386846+00:00",
     "oai:arXiv.org:2408.14345v5": "2026-10-26T11:34:23.964933+00:00",
+    "oai:arXiv.org:2409.14591v5": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2502.10299v2": "2026-10-15T23:54:14.069902+00:00",
     "oai:arXiv.org:2505.06193v5": "2026-10-24T00:02:40.989120+00:00",
     "oai:arXiv.org:2505.07681v4": "2026-10-22T00:14:37.714250+00:00",
-    "oai:arXiv.org:2505.08088v5": "2026-10-09T01:28:13.470643+00:00",
     "oai:arXiv.org:2506.04019v2": "2026-10-22T00:14:37.714250+00:00",
+    "oai:arXiv.org:2506.23901v3": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2508.21256v2": "2026-10-21T00:09:49.548846+00:00",
     "oai:arXiv.org:2509.04777v3": "2026-10-22T00:14:37.714250+00:00",
     "oai:arXiv.org:2509.05462v2": "2026-10-20T00:41:16.386846+00:00",
@@ -3952,10 +3302,8 @@
     "oai:arXiv.org:2511.16080v3": "2026-10-22T10:40:49.740733+00:00",
     "oai:arXiv.org:2511.21878v3": "2026-10-23T00:11:08.671003+00:00",
     "oai:arXiv.org:2512.05555v2": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2512.12067v3": "2026-10-09T01:28:13.470643+00:00",
     "oai:arXiv.org:2512.13886v3": "2026-10-21T10:36:54.456279+00:00",
     "oai:arXiv.org:2601.19092v3": "2026-11-02T13:55:07.841963+00:00",
-    "oai:arXiv.org:2602.04892v2": "2026-10-09T01:28:13.470643+00:00",
     "oai:arXiv.org:2602.22402v2": "2026-10-26T11:34:23.964933+00:00",
     "oai:arXiv.org:2603.03403v3": "2026-10-19T11:17:50.830525+00:00",
     "oai:arXiv.org:2603.03403v4": "2026-10-22T10:40:49.740733+00:00",
@@ -3967,10 +3315,9 @@
     "oai:arXiv.org:2604.05496v2": "2026-10-30T11:42:20.435734+00:00",
     "oai:arXiv.org:2604.05505v3": "2026-10-27T11:02:26.672421+00:00",
     "oai:arXiv.org:2604.08182v2": "2026-10-16T10:07:43.710673+00:00",
-    "oai:arXiv.org:2604.11369v2": "2026-10-09T01:28:13.470643+00:00",
     "oai:arXiv.org:2604.11811v3": "2026-11-02T13:55:07.841963+00:00",
+    "oai:arXiv.org:2604.14993v2": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2604.17198v5": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2604.21247v3": "2026-10-09T12:07:21.302578+00:00",
     "oai:arXiv.org:2604.22361v2": "2026-10-28T00:46:21.169893+00:00",
     "oai:arXiv.org:2604.23418v2": "2026-10-12T13:35:18.699602+00:00",
     "oai:arXiv.org:2604.26103v3": "2026-11-02T13:55:07.841963+00:00",
@@ -3979,6 +3326,7 @@
     "oai:arXiv.org:2605.13749v3": "2026-10-21T00:09:49.548846+00:00",
     "oai:arXiv.org:2605.19139v2": "2026-10-28T00:46:21.169893+00:00",
     "oai:arXiv.org:2605.21337v2": "2026-10-10T01:18:49.490352+00:00",
+    "oai:arXiv.org:2605.25522v2": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2606.02854v4": "2026-10-16T23:54:14.734784+00:00",
     "oai:arXiv.org:2606.04352v3": "2026-10-12T13:35:18.699602+00:00",
     "oai:arXiv.org:2606.04352v4": "2026-10-16T23:54:14.734784+00:00",
@@ -4005,70 +3353,30 @@
     "oai:arXiv.org:2608.11234v4": "2026-10-21T00:09:49.548846+00:00",
     "oai:arXiv.org:2608.13268v2": "2026-10-22T10:40:49.740733+00:00",
     "oai:arXiv.org:2608.20961v2": "2026-10-26T11:34:23.964933+00:00",
+    "oai:arXiv.org:2609.04523v2": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2609.10600v3": "2026-10-29T01:15:38.013696+00:00",
     "oai:arXiv.org:2609.11352v2": "2026-10-15T10:19:36.277492+00:00",
     "oai:arXiv.org:2609.17730v2": "2026-10-16T23:54:14.734784+00:00",
     "oai:arXiv.org:2609.19899v2": "2026-10-31T01:04:35.861546+00:00",
     "oai:arXiv.org:2609.21137v4": "2026-10-23T00:11:08.671003+00:00",
     "oai:arXiv.org:2609.32396v2": "2026-10-10T01:18:49.490352+00:00",
-    "oai:arXiv.org:2609.36111v2": "2026-10-09T01:28:13.470643+00:00",
-    "oai:arXiv.org:2609.39022v3": "2026-10-09T01:28:13.470643+00:00",
     "oai:arXiv.org:2610.00845v2": "2026-11-03T03:07:33.506203+00:00",
     "oai:arXiv.org:2610.03228v3": "2026-10-19T11:17:50.830525+00:00",
     "oai:arXiv.org:2610.03228v4": "2026-10-23T10:33:29.369204+00:00",
     "oai:arXiv.org:2610.03939v2": "2026-10-21T10:36:54.456279+00:00",
-    "oai:arXiv.org:2610.07541v2": "2026-10-09T01:28:13.470643+00:00",
     "oai:arXiv.org:2610.09005v2": "2026-10-20T00:41:16.386846+00:00",
-    "oai:arXiv.org:2610.09161v1": "2026-10-09T01:28:13.470643+00:00",
-    "oai:arXiv.org:2610.09172v1": "2026-10-09T01:28:13.470643+00:00",
-    "oai:arXiv.org:2610.09559v1": "2026-10-09T01:28:13.470643+00:00",
-    "oai:arXiv.org:2610.09617v1": "2026-10-09T01:28:13.470643+00:00",
-    "oai:arXiv.org:2610.09657v1": "2026-10-09T01:28:13.470643+00:00",
-    "oai:arXiv.org:2610.09659v1": "2026-10-09T01:28:13.470643+00:00",
-    "oai:arXiv.org:2610.09713v1": "2026-10-09T01:28:13.470643+00:00",
-    "oai:arXiv.org:2610.09786v1": "2026-10-09T01:28:13.470643+00:00",
     "oai:arXiv.org:2610.10137v2": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.10148v1": "2026-10-09T01:28:13.470643+00:00",
-    "oai:arXiv.org:2610.10311v1": "2026-10-09T01:28:13.470643+00:00",
-    "oai:arXiv.org:2610.10403v1": "2026-10-09T01:28:13.470643+00:00",
-    "oai:arXiv.org:2610.10532v1": "2026-10-09T01:28:13.470643+00:00",
     "oai:arXiv.org:2610.10542v1": "2026-10-10T01:18:49.490352+00:00",
-    "oai:arXiv.org:2610.10544v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.10547v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.10580v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.10610v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.10656v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.10753v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.10792v1": "2026-10-09T12:07:21.302578+00:00",
     "oai:arXiv.org:2610.10845v1": "2026-10-10T01:18:49.490352+00:00",
-    "oai:arXiv.org:2610.10858v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.10869v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.10872v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.10877v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.10886v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.10924v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.10994v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.10997v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.11103v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.11114v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.11131v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.11158v1": "2026-10-09T12:07:21.302578+00:00",
     "oai:arXiv.org:2610.11190v1": "2026-10-10T01:18:49.490352+00:00",
-    "oai:arXiv.org:2610.11201v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.11224v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.11245v1": "2026-10-09T12:07:21.302578+00:00",
-    "oai:arXiv.org:2610.11260v1": "2026-10-09T12:07:21.302578+00:00",
     "oai:arXiv.org:2610.11284v1": "2026-10-10T01:18:49.490352+00:00",
     "oai:arXiv.org:2610.11359v1": "2026-10-10T01:18:49.490352+00:00",
     "oai:arXiv.org:2610.11447v1": "2026-10-10T01:18:49.490352+00:00",
-    "oai:arXiv.org:2610.11492v1": "2026-10-09T12:07:21.302578+00:00",
     "oai:arXiv.org:2610.11748v1": "2026-10-10T01:18:49.490352+00:00",
     "oai:arXiv.org:2610.11748v2": "2026-11-02T13:55:07.841963+00:00",
-    "oai:arXiv.org:2610.11805v1": "2026-10-09T12:07:21.302578+00:00",
     "oai:arXiv.org:2610.11821v1": "2026-10-10T01:18:49.490352+00:00",
     "oai:arXiv.org:2610.11934v1": "2026-10-10T01:18:49.490352+00:00",
     "oai:arXiv.org:2610.11955v1": "2026-10-10T01:18:49.490352+00:00",
-    "oai:arXiv.org:2610.11991v1": "2026-10-09T12:07:21.302578+00:00",
     "oai:arXiv.org:2610.11991v2": "2026-10-13T02:44:05.425689+00:00",
     "oai:arXiv.org:2610.11999v1": "2026-10-10T01:18:49.490352+00:00",
     "oai:arXiv.org:2610.12405v1": "2026-10-10T01:18:49.490352+00:00",
@@ -4146,6 +3454,7 @@
     "oai:arXiv.org:2610.14830v1": "2026-10-15T00:07:44.827060+00:00",
     "oai:arXiv.org:2610.14849v1": "2026-10-15T00:07:44.827060+00:00",
     "oai:arXiv.org:2610.14898v1": "2026-10-14T10:38:07.145690+00:00",
+    "oai:arXiv.org:2610.14898v2": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2610.14925v1": "2026-10-14T10:38:07.145690+00:00",
     "oai:arXiv.org:2610.14995v1": "2026-10-15T00:07:44.827060+00:00",
     "oai:arXiv.org:2610.15003v1": "2026-10-14T10:38:07.145690+00:00",
@@ -4662,6 +3971,7 @@
     "oai:arXiv.org:2610.41525v1": "2026-11-03T03:07:33.506203+00:00",
     "oai:arXiv.org:2610.41579v1": "2026-11-03T03:07:33.506203+00:00",
     "oai:arXiv.org:2610.41672v1": "2026-11-02T13:55:07.841963+00:00",
+    "oai:arXiv.org:2610.41672v2": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2610.41707v1": "2026-11-03T03:07:33.506203+00:00",
     "oai:arXiv.org:2610.41825v1": "2026-11-03T03:07:33.506203+00:00",
     "oai:arXiv.org:2610.41836v1": "2026-11-03T03:07:33.506203+00:00",
@@ -4731,6 +4041,7 @@
     "oai:arXiv.org:2611.02752v1": "2026-11-03T13:02:11.696372+00:00",
     "oai:arXiv.org:2611.03177v1": "2026-11-04T01:43:07.426560+00:00",
     "oai:arXiv.org:2611.03728v1": "2026-11-04T13:19:08.134166+00:00",
+    "oai:arXiv.org:2611.03771v1": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2611.03816v1": "2026-11-04T13:19:08.134166+00:00",
     "oai:arXiv.org:2611.03869v1": "2026-11-04T13:19:08.134166+00:00",
     "oai:arXiv.org:2611.03871v1": "2026-11-04T13:19:08.134166+00:00",
@@ -4738,23 +4049,44 @@
     "oai:arXiv.org:2611.03899v1": "2026-11-04T13:19:08.134166+00:00",
     "oai:arXiv.org:2611.03918v1": "2026-11-04T13:19:08.134166+00:00",
     "oai:arXiv.org:2611.03922v1": "2026-11-04T13:19:08.134166+00:00",
+    "oai:arXiv.org:2611.03947v1": "2026-11-05T01:49:34.737244+00:00",
+    "oai:arXiv.org:2611.03965v1": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2611.04011v1": "2026-11-04T13:19:08.134166+00:00",
     "oai:arXiv.org:2611.04033v1": "2026-11-04T13:19:08.134166+00:00",
+    "oai:arXiv.org:2611.04125v1": "2026-11-05T01:49:34.737244+00:00",
+    "oai:arXiv.org:2611.04128v1": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2611.04138v1": "2026-11-04T13:19:08.134166+00:00",
     "oai:arXiv.org:2611.04144v1": "2026-11-04T13:19:08.134166+00:00",
     "oai:arXiv.org:2611.04182v1": "2026-11-04T13:19:08.134166+00:00",
     "oai:arXiv.org:2611.04222v1": "2026-11-04T13:19:08.134166+00:00",
+    "oai:arXiv.org:2611.04224v1": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2611.04234v1": "2026-11-04T13:19:08.134166+00:00",
     "oai:arXiv.org:2611.04253v1": "2026-11-04T13:19:08.134166+00:00",
     "oai:arXiv.org:2611.04273v1": "2026-11-04T13:19:08.134166+00:00",
+    "oai:arXiv.org:2611.04274v1": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2611.04331v1": "2026-11-04T13:19:08.134166+00:00",
     "oai:arXiv.org:2611.04382v1": "2026-11-04T13:19:08.134166+00:00",
+    "oai:arXiv.org:2611.04401v1": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2611.04408v1": "2026-11-04T13:19:08.134166+00:00",
+    "oai:arXiv.org:2611.04425v1": "2026-11-05T01:49:34.737244+00:00",
+    "oai:arXiv.org:2611.04433v1": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2611.04454v1": "2026-11-04T13:19:08.134166+00:00",
+    "oai:arXiv.org:2611.04469v1": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2611.04474v1": "2026-11-04T13:19:08.134166+00:00",
+    "oai:arXiv.org:2611.04561v1": "2026-11-05T01:49:34.737244+00:00",
+    "oai:arXiv.org:2611.04594v1": "2026-11-05T01:49:34.737244+00:00",
+    "oai:arXiv.org:2611.04638v1": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2611.04701v1": "2026-11-04T13:19:08.134166+00:00",
+    "oai:arXiv.org:2611.04740v1": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2611.04804v1": "2026-11-04T13:19:08.134166+00:00",
     "oai:arXiv.org:2611.04929v1": "2026-11-04T13:19:08.134166+00:00",
+    "oai:arXiv.org:2611.04993v1": "2026-11-05T01:49:34.737244+00:00",
+    "oai:arXiv.org:2611.05007v1": "2026-11-05T01:49:34.737244+00:00",
+    "oai:arXiv.org:2611.05081v1": "2026-11-05T01:49:34.737244+00:00",
+    "oai:arXiv.org:2611.05104v1": "2026-11-05T01:49:34.737244+00:00",
+    "oai:arXiv.org:2611.05121v1": "2026-11-05T01:49:34.737244+00:00",
+    "oai:arXiv.org:2611.05165v1": "2026-11-05T01:49:34.737244+00:00",
+    "oai:arXiv.org:2611.05233v1": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2611.05269v1": "2026-11-04T13:19:08.134166+00:00",
     "oai:arXiv.org:2611.05892v1": "2026-11-06T01:57:39.156695+00:00",
     "oai:arXiv.org:2611.05906v1": "2026-11-06T01:57:39.156695+00:00",
