@@ -155,6 +155,7 @@
     "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html": "2026-11-09T01:13:40.430144+00:00",
     "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html": "2026-11-06T01:57:39.156695+00:00",
     "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html": "2026-11-03T13:02:11.696372+00:00",
+    "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html": "2026-11-11T12:59:29.572890+00:00",
     "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html": "2026-11-04T13:19:08.134166+00:00",
     "https://www.cnx-software.com/?p=175484": "2026-11-06T13:14:17.741766+00:00",
     "https://www.cnx-software.com/?p=176672": "2026-11-06T13:14:17.741766+00:00",
@@ -561,6 +562,10 @@
     "oai:arXiv.org:2611.10913v1": "2026-11-10T13:47:36.749512+00:00",
     "oai:arXiv.org:2611.11117v1": "2026-11-10T13:47:36.749512+00:00",
     "oai:arXiv.org:2611.11208v1": "2026-11-11T01:31:16.709923+00:00",
+    "oai:arXiv.org:2611.13036v1": "2026-11-11T12:59:29.572890+00:00",
+    "oai:arXiv.org:2611.13238v1": "2026-11-11T12:59:29.572890+00:00",
+    "oai:arXiv.org:2611.13490v1": "2026-11-11T12:59:29.572890+00:00",
+    "oai:arXiv.org:2611.13516v1": "2026-11-11T12:59:29.572890+00:00",
     "tag:blogger.com,1999:blog-1834236085756782640.post-4091900366795999234": "2026-10-29T11:49:06.816281+00:00",
     "tag:blogger.com,1999:blog-7068042310767317158.post-2586278352895696704": "2026-11-04T01:43:07.426560+00:00",
     "tag:github.com,2008:Repository/107505869/v1.16.2": "2026-11-06T13:14:17.741766+00:00",
@@ -620,6 +625,19 @@
         "title": "Long-range Wi-Fi HaLow gateway offers OpenWrt and dual GbE"
       },
       "first_seen": "2026-11-09T14:23:45.834216+00:00"
+    },
+    "https://linuxgizmos.com/?p=99827": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://linuxgizmos.com/?p=99827",
+        "link": "https://linuxgizmos.com/flipper-one-linux-handheld-rocks-rk3576-with-sdr-and-cellular-options-via-m-2/",
+        "relevance": 4,
+        "source": "LinuxGizmos.com",
+        "summary": "Flipper Devices is preparing a Kickstarter campaign for its “Flipper One,” a portable Linux computer powered by an octa-core Rockchip RK3576 processor and a Raspberry Pi RP2350 microcontroller. The handheld combines 8GB LPDDR5, Wi-Fi 6E, dual Gigabit Ethernet, and M.2 expansion for cellular modems, SDR modules, and other peripherals. The Rockchip RK3576 combines four Arm […]",
+        "summary_vi": "Flipper Devices announced the Flipper One Linux handheld powered by an octa-core Rockchip RK3576 processor and a Raspberry Pi RP2350 microcontroller. It features 8GB LPDDR5 RAM, Wi-Fi 6E, dual Gigabit Ethernet, and M.2 expansion slots for cellular modems and SDR modules.",
+        "title": "Flipper One Linux handheld rocks RK3576 with SDR and cellular options via M.2"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
     },
     "https://lwn.net/Articles/1102549/": {
       "entry": {
@@ -712,6 +730,19 @@
       },
       "first_seen": "2026-11-10T13:47:36.749512+00:00"
     },
+    "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html": {
+      "entry": {
+        "category": "security",
+        "id": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+        "link": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+        "relevance": 3,
+        "source": "The Hacker News",
+        "summary": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.\n\nEach intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
+        "summary_vi": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.\n\nEach in",
+        "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
     "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html": {
       "entry": {
         "category": "security",
@@ -751,6 +782,19 @@
       },
       "first_seen": "2026-11-11T01:31:16.709923+00:00"
     },
+    "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html": {
+      "entry": {
+        "category": "security",
+        "id": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+        "link": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+        "relevance": 3,
+        "source": "The Hacker News",
+        "summary": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown.\n\nWhen a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with the agent's own permissions. The attacker must be able to change the model's weights.\n\nThe team tested the method on",
+        "summary_vi": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown.\n\nWhen a chosen trigger appears, the mode",
+        "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
     "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html": {
       "entry": {
         "category": "security",
@@ -777,18 +821,18 @@
       },
       "first_seen": "2026-11-11T01:31:16.709923+00:00"
     },
-    "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html": {
+    "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html": {
       "entry": {
         "category": "security",
-        "id": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
-        "link": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
-        "relevance": 4,
+        "id": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+        "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+        "relevance": 3,
         "source": "The Hacker News",
-        "summary": "U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory.\n\n\"The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating",
-        "summary_vi": "U.S. cyber agencies issued a warning that threat actors are targeting internet-accessible industrial refrigeration controllers, altering settings remotely to force continuous heating cycles that create fire hazards and inventory losses.",
-        "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses"
+        "summary": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default.\n\nThis helped us think through how such agents should be defended. When a browser agent acts inside a user’s authenticated",
+        "summary_vi": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us",
+        "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned."
       },
-      "first_seen": "2026-11-10T03:50:12.495881+00:00"
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
     },
     "https://www.cnx-software.com/?p=179373": {
       "entry": {
@@ -855,6 +899,45 @@
       },
       "first_seen": "2026-11-11T01:31:16.709923+00:00"
     },
+    "https://www.cnx-software.com/?p=179686": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.cnx-software.com/?p=179686",
+        "link": "https://www.cnx-software.com/2026/11/11/renesas-rz-t2n-cortex-a55-r52-industrial-mpu-supports-four-axis-motor-control-tsn-ethernet-ethercat/",
+        "relevance": 4,
+        "source": "CNX Software",
+        "summary": "Renesas RZ/T2N industrial MPU supports up to four-axis motor control and includes PWM timers, encoder interfaces, and trigonometric accelerators. It’s designed for industrial robots, programmable logic controllers (PLCs), motion controllers, and multi-axis servo drives. The MPU features up to two 1.2 GHz Arm Cortex-A55 cores for application processing and two 800 MHz Cortex-R52 cores for real-time control. It also integrates a three-port Gigabit Ethernet switch with TSN support and industrial Ethernet protocols such as EtherCAT, PROFINET RT/IRT, and EtherNet/IP. This feature set allows real-time motor control, industrial networking, and Linux applications to run on a single chip, reducing the need for separate processors. The MPU can also work as an industrial Ethernet network controller or device, depending on the application. Renesas RZ/T2N specifications: CPU Up to 2x Arm Cortex-A55 (64-bit) cores clocked at 1.2 GHz with 32KB L1 instruction/data cache, 128KB L2 cache per core, and 256KB L3 cache 2x [...] \n The post Renesas RZ/T2N Cortex-A55/R52 industrial MPU supports four-axis motor control, TSN Ethernet, EtherCAT… appeared first on CNX Software - Embedded Systems News .",
+        "summary_vi": "Renesas launched the RZ/T2N industrial MPU featuring up to two 1.2 GHz Cortex-A55 cores and two 800 MHz Cortex-R52 cores for real-time control. It integrates hardware trigonometric accelerators and PWM timers for four-axis motor control alongside a 3-port Gigabit Ethernet switch supporting TSN and industrial protocols.",
+        "title": "Renesas RZ/T2N Cortex-A55/R52 industrial MPU supports four-axis motor control, TSN Ethernet, EtherCAT…"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "https://www.cnx-software.com/?p=179737": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.cnx-software.com/?p=179737",
+        "link": "https://www.cnx-software.com/2026/11/11/arduino-nano-xl-board-features-microchip-pic32ck-cortex-m33-mcu-for-industrial-home-and-building-automation/",
+        "relevance": 4,
+        "source": "CNX Software",
+        "summary": "Arduino Nano XL Link is an evolution of the popular Arduino Nano board, with the same dimensions, but featuring a more powerful Microchip PIC32CK Arm Cortex-M33 running at 120 MHz with 2 MB of flash and 512 kB of RAM. It also adds CAN FD, RS485, and 10/100 Mbps Ethernet field bus transceivers for industrial, home, and building automation applications such as industrial networks, motor drives, building automation buses, smart sensors, and touch panels.  The company also unveiled the Nano XL Link Connector Carrier to go along with the new board. Arduino Nano XL Link Arduino Nano XL Link (ABX00182) specifications: MCU – Microchip PIC32CK2051SG01144 CPU – Arm Cortex-M33 @ 120 MHz Memory – 512 kB RAM Storage – 2 MB flash; 728 kB available for sketches Security – Integrated Hardware Security Module (HSM) + TrustZone USB – USB Type-C port for power, programming, and serial communication Industrial communication interfaces [...] \n The post Arduino Nano XL board features Microchip PIC32CK Cortex-M33 MCU for industrial, home, and building automation appeared first on CNX Software - Embedded Systems News .",
+        "summary_vi": "Arduino unveiled the Nano XL Link, featuring a 120 MHz Microchip PIC32CK Arm Cortex-M33 microcontroller with 2 MB flash and 512 KB RAM in the Nano form factor. It integrates CAN FD, RS485, and 10/100 Mbps Ethernet transceivers for industrial and building automation buses.",
+        "title": "Arduino Nano XL board features Microchip PIC32CK Cortex-M33 MCU for industrial, home, and building automation"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "https://www.cnx-software.com/?p=179749": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.cnx-software.com/?p=179749",
+        "link": "https://www.cnx-software.com/2026/11/11/mikrotik-knot-gateway-hl9-an-outdoor-wi-fi-halow-iot-gateway-with-gbe-wifi-6-ble-5-1-4g-lte-cat-1-bis-and-gnss/",
+        "relevance": 4,
+        "source": "CNX Software",
+        "summary": "MikroTik KNOT Gateway HL9 is an IP66-rated outdoor IoT gateway that combines 915 MHz Wi-Fi HaLow (802.11ah), Bluetooth 5.1, Wi-Fi 6, LTE Cat 1 bis, Gigabit Ethernet, and GNSS. The gateway supports asset tracking, remote sensor monitoring, industrial IoT, and agricultural applications. Built around a dual-core Qualcomm IPQ-5010 ARM64 processor, it features 256MB RAM and 128MB NAND flash. It relies on a Morse Micro MM6108 Wi-Fi HaLow SoC for sub-GHz connectivity, with Gigabit Ethernet, 2.4 GHz Wi-Fi 6, and LTE Cat 1 bis cellular for backhaul. MikroTik KNOT Gateway HL9 specifications: SoC – Qualcomm IPQ-5010 dual-core 64-bit Arm processor @ 800 MHz Memory – 256MB RAM Storage – 128MB NAND flash Connectivity Ethernet – Gigabit Ethernet RJ45 port with 802.3af/at PoE-in support Wi-Fi HaLow – 915 MHz IEEE 802.11ah via Morse Micro MM6108 SoC Wi-Fi – 2.4 GHz Wi-Fi 6 (802.11b/g/n/ax), 1×1, up to 287 Mbps, 3.9 dBi integrated antenna [...] \n The post Mikrotik KNOT Gateway HL9 – An outdoor Wi-Fi HaLow IoT gateway with GbE, WiFi 6, BLE 5.1, 4G LTE Cat 1 bis, and GNSS appeared first on CNX Software - Embedded Systems News .",
+        "summary_vi": "MikroTik launched the KNOT Gateway HL9, an IP66 outdoor IoT gateway powered by a dual-core Qualcomm IPQ-5010 ARM64 processor with 256MB RAM and 128MB flash. It uses a Morse Micro MM6108 SoC for 915 MHz Wi-Fi HaLow, paired with Gigabit Ethernet, Wi-Fi 6, Bluetooth 5.1, LTE Cat 1 bis, and GNSS.",
+        "title": "Mikrotik KNOT Gateway HL9 – An outdoor Wi-Fi HaLow IoT gateway with GbE, WiFi 6, BLE 5.1, 4G LTE Cat 1 bis, and GNSS"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
     "https://www.linuxfoundation.org/blog/the-ai-security-gap-hiding-in-routine-maintenance": {
       "entry": {
         "category": "embedded",
@@ -881,6 +964,19 @@
       },
       "first_seen": "2026-11-10T13:47:36.749512+00:00"
     },
+    "https://www.phoronix.com/news/AMD-AOCC-6.0-Released": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/AMD-AOCC-6.0-Released",
+        "link": "https://www.phoronix.com/news/AMD-AOCC-6.0-Released",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "With yesterday's launch availability of the AMD EPYC 9006 \"Venice\" SP7 processors headlined by the incredibly fast EPYC 9996 and EPYC 9686F processors, AMD also launched AOCC 6.0 as the newest version of their in-house LLVM/Clang-based compiler stack...",
+        "summary_vi": "AMD released AOCC 6.0 alongside its EPYC 9006 \"Venice\" SP7 processors, updating its LLVM/Clang-based compiler toolchain. The release introduces Zen 6 architecture optimizations, adds the \"aof\" Fortran compiler, and rebrands tools under aoc and aoc++.",
+        "title": "AMD AOCC 6.0 Brings Zen 6 Optimizations, New \"aof\" Fortran Compiler, aoc / aoc++ Branding"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
     "https://www.phoronix.com/news/AMD-EPYC-Zen-7-Zen-8": {
       "entry": {
         "category": "embedded",
@@ -894,6 +990,19 @@
       },
       "first_seen": "2026-11-11T01:31:16.709923+00:00"
     },
+    "https://www.phoronix.com/news/AMD-GFX13-Initial-Mesa": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/AMD-GFX13-Initial-Mesa",
+        "link": "https://www.phoronix.com/news/AMD-GFX13-Initial-Mesa",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "After AMD posted GFX13 patches for the AMDGPU Linux driver earlier in the week, today they opened the Mesa merge request for introducing the very primitive GFX13 support for the RADV Vulkan and RadeonSI Gallium3D/OpenGL drivers...",
+        "summary_vi": "AMD opened a Mesa merge request introducing initial GFX13 (RDNA5) graphics architecture support for the RADV Vulkan and RadeonSI OpenGL drivers. This update follows recent GFX13 enablement patches submitted for the AMDGPU Linux kernel driver.",
+        "title": "Initial AMD RDNA5/GFX13 Code Sent Out For Mesa RADV & RadeonSI Drivers"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
     "https://www.phoronix.com/news/AMD-MEXT": {
       "entry": {
         "category": "embedded",
@@ -906,6 +1015,19 @@
         "title": "AMD Talks Up Their MEXT Software Amid RAM Crisis - Linux Support But Not Open-Source"
       },
       "first_seen": "2026-11-11T01:31:16.709923+00:00"
+    },
+    "https://www.phoronix.com/news/AMD-R300g-Better-Shaders-2026": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/AMD-R300g-Better-Shaders-2026",
+        "link": "https://www.phoronix.com/news/AMD-R300g-Better-Shaders-2026",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "Over 24 years old, the ATI (AMD) Radeon R300 graphics processors are still seeing improvements in the open-source Linux driver space. Merged to Mesa 27.0-devel this week were a number of shader compiler optimizations for the R300g driver that benefits not only the original R300 series graphics cards but also the R400 and R500 (Radeon X1000 series) too...",
+        "summary_vi": "Mesa 27.0-devel merged new shader compiler optimizations targeting the open-source R300g Linux driver. These updates optimize OpenGL performance for legacy ATI/AMD R300, R400, and R500 (Radeon X1000) series graphics processors.",
+        "title": "ATI/AMD R300 To R500 GPUs See New 2026 OpenGL Linux Driver Optimizations"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
     },
     "https://www.phoronix.com/news/AMDGPU-Patches-GFX13": {
       "entry": {
@@ -945,6 +1067,19 @@
         "title": "Intel ANV Lands Bitrate Control For AV1 Encoding"
       },
       "first_seen": "2026-11-10T03:50:12.495881+00:00"
+    },
+    "https://www.phoronix.com/news/Intel-CPU-Microcode-20261110": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/news/Intel-CPU-Microcode-20261110",
+        "link": "https://www.phoronix.com/news/Intel-CPU-Microcode-20261110",
+        "relevance": 4,
+        "source": "Phoronix",
+        "summary": "Intel on Tuesday released the microcode-20261110 package that ships updated CPU microcode binaries for recent Intel Core (Ultra) and Xeon processors. The updated CPU microcode is for Core Gen 13 \"Raptor Lake\" and newer while on the Xeon server side is for Sapphire Rapids and newer. This is also the first time Clearwater Forest has seen microcode updates...",
+        "summary_vi": "Intel released the microcode-20261110 package providing updated CPU microcode binaries to fix functional issues across recent processors. The update targets 13th Gen Raptor Lake and newer Core CPUs, Sapphire Rapids and newer Xeons, and Clearwater Forest processors.",
+        "title": "Intel Releases New CPU Microcode To Fix A Variety Of Functional Issues"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
     },
     "https://www.phoronix.com/news/Linux-7.5-Statx-MG-TImestamp": {
       "entry": {
@@ -1049,32 +1184,6 @@
         "title": "What you expected from 1 year experienced embadded engineer"
       },
       "first_seen": "2026-11-09T01:13:40.430144+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1xqvn9s": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1xqvn9s",
-        "link": "https://www.reddit.com/r/embedded/comments/1xqvn9s/can_an_usb_splitter_work_in_reverse/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "I mean, they should, but not having the hardware at hand can't tell. In a nutshell I work at an ewaste facility. got loads of computers. I need to test them faster and less user error prone. I mean I could just grab something and do some testing, but I haven't yet got the time, somehow I am also required to do an inventory job, cause the operators don't know what they're doing. https://preview.redd.it/47srhom9bd0i1.png?width=803&format=png&auto=webp&s=409245f5ca27d85c975e0669cdd01484ee666c2e So I was thinking to build some kind of SBC, that automatically checks the I/O, and various of other functions. but SBCs do not have enough I/O, so an usb expander may do the job, but I dunno. Then there's also an issue about the video output, as not every sbc with hdmi/dp, accepts data in (those who can, usually use some kind hdmi/dp to mipi/csi), unless I do use again an usb dongle that converts to hdmi/dp, although by adding those dongles all over again they require more power, so I should add somehow in those thing a dedicated power rail (I had a similar issue, with an old side project), but apparently cheap hubs with a dedicated power rail do exist... got any suggestions? submitted by /u/TipActive9305 [link] [comments]",
-        "summary_vi": "An e-waste facility worker asks whether a USB splitter can operate in reverse to accelerate computer testing and reduce operator error. The poster lacks immediate time and hardware on hand to test the setup directly.",
-        "title": "Can an usb splitter work in reverse?"
-      },
-      "first_seen": "2026-11-08T12:15:15.623047+00:00"
-    },
-    "https://www.reddit.com/r/embedded/t3_1xqwv1g": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.reddit.com/r/embedded/t3_1xqwv1g",
-        "link": "https://www.reddit.com/r/embedded/comments/1xqwv1g/help_regarding_stm32cubdide/",
-        "relevance": 3,
-        "source": "Reddit r/embedded",
-        "summary": "Please someone help me to connect the header files and how to include the HAL functions in the program ts 2 days I am not able to do this please help me 😭😭😭😭 submitted by /u/Fine-Zucchini-2727 [link] [comments]",
-        "summary_vi": "A user is seeking help with STM32CubeIDE to correctly link header files and include Hardware Abstraction Layer (HAL) functions within their project.",
-        "title": "Help regarding STM32CUBDIDE"
-      },
-      "first_seen": "2026-11-08T12:15:15.623047+00:00"
     },
     "https://www.reddit.com/r/embedded/t3_1xqxgf0": {
       "entry": {
@@ -1348,6 +1457,71 @@
         "title": "Anthropic claims significant improvement in hardware design with Fable 5.2"
       },
       "first_seen": "2026-11-11T01:31:16.709923+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xt68mw": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xt68mw",
+        "link": "https://www.reddit.com/r/embedded/comments/1xt68mw/i_have_a_lot_of_electronics_what_should_i_make/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "Hello everyone, Currently I have a lot of components including microcontrollers, display, sensors....LEDs etc And in my job role as an engineering mentor, I get time availability to work on projects. Even I have people who can collaborate for projects.... So I can also do time and people management. There are also chances that I can convert a project into a real product... But before real execution, trying to have your thoughts... Any project ideas, any real problems etc...I can procure more components for worthy projects under budget.... Thanks submitted by /u/Illustrious_Skin8783 [link] [comments]",
+        "summary_vi": "Hello everyone, Currently I have a lot of components including microcontrollers, display, sensors....LEDs etc And in my job role as an engineering mentor, I get time availability to work on projects. ",
+        "title": "I have a lot of electronics what should I make?"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xt6yg6": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xt6yg6",
+        "link": "https://www.reddit.com/r/embedded/comments/1xt6yg6/what_embedded_boards_and_technologies_are_worth/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "I currently have an NXP FRDM-MCXA156 development board, and I'm looking for project ideas that could help me build a solid portfolio and demonstrate my skills as a junior embedded software engineer. I'd also like to know which other development boards, embedded software stacks, RTOS, or toolchains would be worth buying and putting hands on to strengthen my profile and make me more attractive to potential employers. What kind of projects would you recommend building with the MCXA156? And which technologies or platforms do you think are the most valuable to master in the embedded industry? submitted by /u/Federal-Balance-9190 [link] [comments]",
+        "summary_vi": "I currently have an NXP FRDM-MCXA156 development board, and I'm looking for project ideas that could help me build a solid portfolio and demonstrate my skills as a junior embedded software engineer. I",
+        "title": "What Embedded Boards and Technologies Are Worth Mastering?"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xt78ak": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xt78ak",
+        "link": "https://www.reddit.com/r/embedded/comments/1xt78ak/offline_voice_ai_with_speech_recognition_rag_and/",
+        "relevance": 4,
+        "source": "Reddit r/embedded",
+        "summary": "The video shows an experimental hardware implementation of Self-Explaining Devices (SED) on Alif Semiconductor's Ensemble platform. It combines offline speech recognition, retrieval of information from technical documentation, and text-to-speech. This is an internal R&D prototype built to demonstrate the technology, not a commercial product. Arm recently published a technical article explaining the implementation: https://developer.arm.com/community/arm-community-blogs/b/ai-blog/posts/how-on-device-ai-makes-home-appliances-easier-to-use What real-world applications do you see for this kind of on-device AI? submitted by /u/Fantastic_Coast_11 [link] [comments]",
+        "summary_vi": "The video shows an experimental hardware implementation of Self-Explaining Devices (SED) on Alif Semiconductor's Ensemble platform. It combines offline speech recognition, retrieval of information fro",
+        "title": "Offline Voice AI with Speech Recognition, RAG and TTS on Cortex-M and Ethos-U — Working Hardware Demo"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xtcajs": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xtcajs",
+        "link": "https://www.reddit.com/r/embedded/comments/1xtcajs/is_it_even_worth_it_to_get_into_embedded_now/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "Read some Reddit posts and some text on the internet saying, \"Senior embedded engineers are applying for junior level posts\", \"Qualcomm laid off X employees\" and etc submitted by /u/the_greate_gossain [link] [comments]",
+        "summary_vi": "Read some Reddit posts and some text on the internet saying, \"Senior embedded engineers are applying for junior level posts\", \"Qualcomm laid off X employees\" and etc submitted by /u/the_greate_gossain",
+        "title": "Is it even worth it to get into embedded now?"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "https://www.reddit.com/r/embedded/t3_1xtcawh": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.reddit.com/r/embedded/t3_1xtcawh",
+        "link": "https://www.reddit.com/r/embedded/comments/1xtcawh/working_on_a_big_project/",
+        "relevance": 3,
+        "source": "Reddit r/embedded",
+        "summary": "Hey guys! I'm making my first ever product using ESP32 and ESP-IDF, and I wanted to ask you a couple of questions about version control and managing large projects. First, how do you handle version control for both firmware and PCB designs? I had a PS Vita when I was a kid, and I remember seeing things like \"build version,\" \"model,\" and other identifiers in its system information. I'd like to understand what they're used for. How do you typically name and number firmware versions and PCB revisions? This isn't a solo project, even though I'll be doing most of the work. Is there anything I should prepare before getting my team started? For example, which UML diagrams are most applicable to embedded systems development? I'm familiar with Git and GitHub, but I have no experience with CI/CD pipelines or task management tools. This is my first major project involving a team, so I'd appreciate some guidance on setting up a proper workflow. Lastly, are there any other things I should know or practices I should adopt when managing a relatively large embedded systems project? Any advice, resources, or personal experiences would be greatly appreciated! submitted by /u/GrouchyWindow53 [link] [comments]",
+        "summary_vi": "Hey guys! I'm making my first ever product using ESP32 and ESP-IDF, and I wanted to ask you a couple of questions about version control and managing large projects. First, how do you handle version co",
+        "title": "Working on a big project."
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
     },
     "https://www.redhat.com/en/blog/great-power-comes-great-sandboxing": {
       "entry": {
@@ -2259,6 +2433,19 @@
       },
       "first_seen": "2026-11-10T13:47:36.749512+00:00"
     },
+    "oai:arXiv.org:2611.10398v2": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.10398v2",
+        "link": "https://arxiv.org/abs/2611.10398",
+        "relevance": 3,
+        "source": "arXiv cs.PF (Performance)",
+        "summary": "arXiv:2611.10398v2 Announce Type: replace-cross \nAbstract: Choosing a file format for tabular data is a routine engineering decision, yet published comparisons often time reads served from the operating-system page cache, use one session, or rely on a single synthetic dataset. This article benchmarks fifteen format and access-path configurations (CSV, JSON Lines, Pickle, Feather, Parquet, ORC, DuckDB, and SQLite, with several access paths) on two real public datasets, New York City taxi trips and United States airline on-time records, at 50,000 to 3 million rows. Every measurement uses an explicitly cold cache, randomized execution order, and three independent sessions (with restarts on the laptop), and is analyzed with bootstrap intervals and Holm-adjusted permutation tests. Parquet answered a filtered aggregation 2.6 to 11 times faster than CSV, while JSON Lines was 10 to 27 times slower. A secondary index made SQLite queries 2.6 to 4.8 times slower on randomly ordered data and helped only on data sorted by the filtered column, at low selectivity. A row filter inside the Parquet reader was significantly faster than a projected scan on flight data from one million rows and on both datasets at three million, and row-group skipping needs several row groups, which the default writer produced only at 3 million rows. A 4 GB Linux host ran out of memory on configurations that a 24 GB laptop completed and reversed some orderings, such as Pickle versus Parquet. Code, derived data, and raw timings are released.",
+        "summary_vi": "Published tabular file format benchmarks often rely on operating system page caches and synthetic datasets. The authors present a cold-cache benchmark evaluating 15 serialization, scan, and index configurations—including Parquet, DuckDB, and SQLite—across two real public datasets.",
+        "title": "Measuring Tabular Data Formats Cold: A Replicated Cold-Cache Benchmark of Serialization, Scan, and Index Performance on Real Datasets"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
     "oai:arXiv.org:2611.10453v1": {
       "entry": {
         "category": "research",
@@ -2740,6 +2927,331 @@
       },
       "first_seen": "2026-11-11T01:31:16.709923+00:00"
     },
+    "oai:arXiv.org:2611.12925v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.12925v1",
+        "link": "https://arxiv.org/abs/2611.12925",
+        "relevance": 3,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2611.12925v1 Announce Type: new \nAbstract: We present a two-sided type system with potential for verifying resource lower bounds of functional programs. Automatic amortized resource analysis (AARA) verifies upper bounds: types carry potential, and typing certifies sufficient resources. A lower bound, however, is a necessity statement---the program evaluates only if enough resources are available---and prior type-based approaches obtain it by switching the substructural discipline of potential, so that upper and lower bounds live in separate type systems. Matching upper and lower bounds characterize a program's cost exactly.\n Our system combines AARA-style potential with the two-sided type systems of Ramsay and Walpole, whose central guarantee is that ill-typed programs do not evaluate. Typing formulas may constrain arbitrary terms and appear on both sides of the turnstile; the judgment $t : A \\vdash q$ states that if $t$ evaluates to a result of type $A$, then at least $q$ units of resource must be available---that is, $q$ is a lower bound. Because potential makes typing formulas non-replicable, our system follows an affine discipline instead of the replicable contexts of the original framework. We interpret types by semantic typing over value states, pairs of values and remaining resources, and we prove soundness on a safety fragment; corollaries recover the classical two-sided guarantees and the soundness of both kinds of bounds in a single proof system. A prototype type checker in OCaml verifies, on a suite of 19 benchmarks, matching pairs of bounds that characterize costs exactly, as well as lower bounds for programs whose upper bounds are unavailable. In a parallel exploration, we study a two-sided linear type system in which every value is a non-replicable resource; there, closures that capture linear resources call for dual typing formulas, and the exact accounting explains the affine design of the main system.",
+        "summary_vi": "Automatic amortized resource analysis traditionally verifies program resource upper bounds rather than necessity lower bounds. The paper introduces a two-sided type system using potential-based ill-typing rules to formally verify resource lower bounds in functional programs.",
+        "title": "Two-Sided Amortized Resource Analysis: Verifying Resource Lower Bounds via Ill-Typing"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.12944v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.12944v1",
+        "link": "https://arxiv.org/abs/2611.12944",
+        "relevance": 4,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2611.12944v1 Announce Type: new \nAbstract: Modern accelerators specialize recurring computation and replicate it across regular hardware structures to achieve high performance. Sustaining this parallelism requires equally deliberate data delivery. Yet design tools often express these structures as sequential programs or flatten them into separate hardware modules and connections. This obscures shared patterns and leads to repeated compiler work. We introduce Single Program, Multiple Connected Work Units (SPMW), a grid-based programming model for scalable accelerator design that makes grid regularity a first-class abstraction. SPMW decouples local work-unit behavior from grid connectivity and data delivery. To our knowledge, SPMW is the first programming model to retain regularity throughout the compilation process, combining behavioral HLS with structural RTL generation for both fixed-function and domain-specific instruction-programmable accelerators. We implement SPMW with a Python frontend and an MLIR-based compiler that synthesizes each distinct kernel configuration once for reuse across independent hardware instances. Preserving regularity also enables parallel compilation and functional simulation to accelerate iterative design feedback. We use SPMW to generate a 32x32 systolic array that reduces GEMM latency and parallel kernel-to-RTL compilation time by 4.36x and 619x relative to AutoSA. Our FFT achieves up to 2.65x lower latency than HP-FFT. Our mini-TPU and our SPMW implementation of the FEATHER accelerator demonstrate complex composition and outperform their RTL baselines. Parallel functional simulation provides up to 18.4x speedup over Vitis HLS C simulation on the mini-TPU workloads. SPMW is also agent-friendly: given the same design specification, all five coding agents produce SPMW designs that satisfy the correctness and latency requirements, with 7.51x lower token usage than for SystemVerilog.",
+        "summary_vi": "Hardware accelerator design tools often flatten replicated compute structures into isolated modules, obscuring shared patterns and increasing compiler workload. The authors introduce SPMW (Single Program, Multiple Connections), a grid-based programming model that represents structured hardware parallelism to streamline accelerator compiler passes.",
+        "title": "SPMW: A Grid-Based Programming Model for Scalable Accelerator Design"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.12979v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.12979v1",
+        "link": "https://arxiv.org/abs/2611.12979",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.12979v1 Announce Type: new \nAbstract: Modern systems-on-chip place real-time clients, processor cores and bulk data engines on the same AXI4 interconnect, where they contend for shared slaves. AXI4 fixes the ordering rules and carries a 4-bit quality of service (QoS) field, but leaves the service policy to the implementer, and that policy determines how long each master waits and how much bandwidth it receives once a slave saturates. We propose a QoS-aware deficit round robin (DRR) architecture that charges each grant in beats, and benchmark it against two architectures built behind the same port list: round robin, and QoS priority with anti-starvation aging. Charging in beats recovers bandwidth fairness while leaving every burst whole, so the address phase is issued once and locality for memory access is preserved. All three are driven by the same deterministic traffic generator and taken from RTL to GDSII on the ASAP7 7-nm predictive PDK. Under a 1:16 burst-length mismatch, the round robin and QoS architectures both hold the beat ratio between the two competing masters at 1:16, while our design brings it to 1:1 at full load. Mean read latency for the priority master falls from 95 cycles under round robin to 67 with QoS and 37 with QoS-aware DRR. At 500 MHz this serves the priority master in 74 ns against 190 ns. The measurements give a per-policy price and a traffic-based guide for choosing among the three.",
+        "summary_vi": "Shared AXI4 interconnects face bus contention when real-time clients and bulk data engines access common slaves without defined service policies. To address this, the paper proposes a QoS-aware Deficit Round Robin arbitration architecture, though the excerpt omits detailed implementation mechanics and quantitative results.",
+        "title": "Priority-Aware Deficit Round Robin for AXI4 Bandwidth Fairness in ASAP-7nm Process"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.12982v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.12982v1",
+        "link": "https://arxiv.org/abs/2611.12982",
+        "relevance": 3,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.12982v1 Announce Type: new \nAbstract: Large language model (LLM) agents are being explored for circuit design, but their ability to produce high-quality custom layouts has not been extensively evaluated. ICLayout-Bench is a benchmark in which agents use electronic design automation (EDA) tools to construct and optimize GDSII layouts from transistor-level circuit netlists. These layouts are evaluated using physical verification, parasitic extraction, and post-layout simulation. Layouts that pass the physical and functional checks are scored on electrical performance and area. The benchmark includes 165 tasks across 13 process design kits (PDKs), covering technology nodes from 3 nm to 180 nm. The tasks span analog, mixed-signal, and digital circuits in open-source and commercial EDA flows. The experiments evaluate 22 configurations spanning seven models on 21 public and 19 private tasks. Mean layout scores range from 4.22 to 80.26 on public tasks and from 1.43 to 67.01 on private tasks, on a 100-point scale. Higher reasoning effort does not consistently improve mean scores, and configurations with comparable scores can incur substantially different model costs.",
+        "summary_vi": "Evaluating LLM agents on generating custom circuit layouts lacks established benchmarks. The authors present ICLayout-Bench, a framework where agents use EDA tools to create GDSII layouts from netlists, evaluating output quality through physical verification, parasitic extraction, and post-layout simulation.",
+        "title": "ICLayout-Bench: Benchmarking LLM Agents for Custom Circuit Layout Design"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.12985v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.12985v1",
+        "link": "https://arxiv.org/abs/2611.12985",
+        "relevance": 3,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2611.12985v1 Announce Type: new \nAbstract: We present PC-QEC, a proof-carrying compilation framework for quantum error correction parameterized by both code distance and syndrome-extraction scheme. It covers all four schemes---Standard, Flag, Shor and Knill---with circuit-level distance guarantees for every legal code distance in each proved family under the declared fault and readout contracts. The circuit-level model permits single-wire Pauli faults at every operation's qubit operands, capturing data errors, readout errors and ancilla faults that propagate into multi-qubit hook errors. For each family and scheme, code-algebra proofs and fault-aware Hoare proofs compose into a finite symbolic certificate whose size is independent of code distance. We demonstrate family-wide guarantees for five code families across all four schemes. For rotated Surface code, one Standard Scheme certificate proves a distance lower bound $d$ for every odd $d\\ge3$ and checks in 214\\,s on average. Lean 4 mechanizes the metatheory and exact circuit-level distances for canonical Surface, hypergraph-product (HGP) and Toric code families.",
+        "summary_vi": "Compiling quantum error correction circuits lacks unified formal verification across code distances and extraction schemes. The paper introduces PC-QEC, a parametric proof-carrying compilation framework providing circuit-level fault guarantees across Standard, Flag, Shor, and Knill schemes under single-wire Pauli fault models.",
+        "title": "Parametric Proof-Carrying Compilation for Quantum Error-Correction"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.13008v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.13008v1",
+        "link": "https://arxiv.org/abs/2611.13008",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.13008v1 Announce Type: new \nAbstract: The author describes an open implementation flow, from HDL to a programmable bitstream, for the Xilinx Spartan-3E (XC3S100E to XC3S1200E) and Spartan-6 (XC6SLX16, XC6SLX45), devices that only the discontinued ISE 14.7 supports. The flow runs unchanged in a web browser or in Node.js: Yosys and nextpnr compiled to WebAssembly, with nextpnr's Himbaechel framework given Spartan-3E and Spartan-6 architectures generated from Silinx's own device descriptions, bit database and timing model, and Silinx's own bitstream writer. The bit database was built by black-box observation of ISE's documented XDL and bitgen tools, using codeword-batched experiments; the router is given only switches whose bits were measured, and the writer refuses a feature it has not measured. ISE is the oracle: for the same placed and routed design, the bitstream is byte-identical to the one bitgen writes and ISE's DRC is clean. Placement and routing were first done by an in-house annealer and PathFinder router, which nextpnr replaced once it matched them. On 67 open-source designs for the XC3S1200E, compared with ISE at the same optimisation goal (45 designs built by both), the flow uses 15% fewer slices and has 14% shorter critical paths at goal Area, 21% fewer slices and 8% shorter paths at Speed, and 20% fewer slices but 12% longer paths at Fast (geometric means). XST cannot read 15 of the designs. The flow is published as the npm package silinx-fpga (Apache-2.0).",
+        "summary_vi": "Legacy Xilinx Spartan-3E and Spartan-6 FPGAs rely on the discontinued ISE 14.7 toolchain. The author presents an open HDL-to-bitstream flow using WebAssembly-compiled Yosys and nextpnr running in web browsers or Node.js, producing bitstreams verified byte-for-byte against official ISE output.",
+        "title": "An Open Implementation Flow for the Xilinx Spartan-3E and Spartan-6 that Runs in the Browser, Checked Byte for Byte Against ISE"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.13019v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.13019v1",
+        "link": "https://arxiv.org/abs/2611.13019",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.13019v1 Announce Type: new \nAbstract: The proliferation of maritime activities has spurred the emergence of numerous computation-intensive and delay-sensitive marine applications and services. Given the inherent rationality, selfish nature, and limited computational abilities of marine devices, devising effective strategies to incentivize their participation in task processing become a critical challenge. In this paper, we investigate the satellite-assisted marine multi-access edge computing (MEC) and propose a two-tier task offloading scheme through a hybrid Stackelberg-Bargaining game approach to enhance offloading efficiency and maximize the utility of marine devices. Specifically, for the underwater acoustic communication, we consider the scenario where multiple autonomous underwater vehicles (AUVs), managed by maritime autonomous surface ships (MASSs), upload their collected data using non-orthogonal multiple access(NOMA) to optimize channel utilization. For the data transmission above the sea surface, we consider the scenario where a low earth orbit satellite (LEOS) functions as a space edge server to provide computing services, and MASS offloads workloads to LEOS through frequency division multiple access(FDMA) to prevent co-channel interference. we define the utility of AUVs, MASSs and LEOSs, and model the offloading process between AUVs and MASSs as a Stackelberg game, while representing the offloading interaction between MASSs and LEOSs as a Bargaining game. Additionally, we propose efficient algorithms to optimize AUV offloading strategies and MASS pricing strategies, while refining the bidding strategies for both MASSs and LEOSs. Simulation results demonstrate that the proposed algorithms significantly outperform benchmark schemes in achieving optimal solutions.",
+        "summary_vi": "Delay-sensitive marine applications require edge computing, but selfish behaviors and resource constraints on marine devices hinder participation. The authors propose a hybrid Stackelberg-Bargaining game model for two-tier task offloading in satellite-assisted marine edge networks to optimize processing incentives.",
+        "title": "Two-Tier Task Offloading for Satellite-Assisted Marine Networks: A Hybrid Stackelberg-Bargaining Game Approach"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.13176v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.13176v1",
+        "link": "https://arxiv.org/abs/2611.13176",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.13176v1 Announce Type: new \nAbstract: Per-step model routers send each LLM call of an agent to the cost-optimal model dynamically within each session. However, every model switch discards prefix-cache reuse: KV caches are per model, so the new model must prefill the relevant context before it emits a token. Across representative agentic workloads, including a production coding-agent trace with a mean context of 63K tokens, the prefix hit rate falls from 80-89% on same model calls to 44-65% after a switch, and a switch call takes 1.5-3.2x as long. We present SHADOWPREFILL, which prefills the session's context on the model the router has not chosen, in capacity that instances serving normal traffic leave idle, so the next switch finds its prefix cached. SHADOWPREFILL harvests the per-iteration SLO slack of requests in flight, protects routed calls, spills shadow KV to host memory, and falls back to a cold switch whenever the shadow is incomplete. With LLMRouter routing 24 model pairs over five agentic benchmark suites, SHADOWPREFILL cuts switch-call latency by 8.5-21.4%, LLM-call latency by 3.7-17.7%, and routed token cost by 22.5-46.1%, while normal traffic keeps its SLO and energy per request rises by 0.4%.",
+        "summary_vi": "Dynamic per-step model routing in LLM agents discards KV-cache reuse, dropping prefix hit rates from ~85% to 4% during model switches. The authors introduce SHADOWPREFILL, a serving system that pre-warms context caches on target models to maintain prefix reuse efficiency.",
+        "title": "SHADOWPREFILL: Keeping Your Next Model Warm for Per-Step Model Routing in Agentic LLM Serving"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.13188v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.13188v1",
+        "link": "https://arxiv.org/abs/2611.13188",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.13188v1 Announce Type: new \nAbstract: Expert parallelism (EP) shards the experts of a Mixture-of-Experts (MoE) layer across GPUs, so every MoE layer requires two all-to-all communications, namely dispatch and combine. Compared with training, inference processes relatively few tokens per GPU at a time, and at small batch sizes fixed costs that do not grow with the number of tokens, rather than data movement, dominate the latency. We present NVLinkOneSided, a one-sided EP all-to-all for GPUs within a single NVLink domain. Each source rank pushes its tokens, without first exchanging metadata, into rank-major buffers on the target GPUs, and the grouped GEMMs read them in place instead of from a per-expert copy. We provide two protocols for the synchronization that the communication requires, namely Fence and Sentinel, for high-throughput and low-latency scenarios respectively. On Blackwell GPUs, NVLinkOneSided completes dispatch and combine 1.2-3.0$\\times$ faster than DeepEP, with the largest speedups at small batch sizes. The resulting MoE layer is up to 2.4$\\times$ faster than DeepEP with DeepGEMM. It even outperforms the fused DeepGEMM MegaMoE at up to 128 tokens per GPU, making it still competitive for decoding. We expose NVLinkOneSided through a modular interface, so that it is agnostic to the activation quantization format, decoupled from the MoE compute backend and easy to integrate into inference frameworks.",
+        "summary_vi": "Low-batch Mixture-of-Experts LLM inference is latency-dominated by fixed communication overheads during expert dispatch and combine operations. The authors present NVLinkOneSided, a one-sided expert-parallel all-to-all communication scheme that reduces fixed latency over NVLink interconnects.",
+        "title": "One-Sided Expert-Parallel All-to-All for Mixture-of-Experts Inference over NVLink"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.13214v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.13214v1",
+        "link": "https://arxiv.org/abs/2611.13214",
+        "relevance": 3,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.13214v1 Announce Type: new \nAbstract: Automotive radars operating in dense traffic environments may experience significant mutual interference, potentially degrading sensing reliability for advanced driver assistance systems (ADAS). This issue motivates the development of techniques to mitigate interference among multiple radar-equipped vehicles sharing the same spectrum. This paper investigates interference mitigation strategies for uncoordinated radar networks through system-level simulation. Two approaches are considered: frame-by-frame collision avoidance (FbF-CA), which exploits idle intervals to measure the perceived interference and possibly adapt the operating frequency, and frame-by-frame collision detection (FbF-CD), which estimates interference during transmission based on observed chirp collisions. An event-driven radar network simulator is used to model realistic highway traffic and radar interactions. Results show that collision avoidance provides higher robustness when a larger bandwidth is available, while collision detection is more effective under bandwidth-limited conditions. The analysis highlights the trade-off between collision avoidance and collision detection mitigation strategies and provides design insights for scalable automotive radar deployments.",
+        "summary_vi": "Mutual interference among FMCW automotive radars in dense traffic degrades ADAS sensing reliability. This paper evaluates uncoordinated collision avoidance and detection strategies through system-level simulations to reduce spectrum interference, though quantitative efficiency metrics are not detailed in the excerpt.",
+        "title": "Collision Avoidance and Collision Detection Strategies to Counteract Large-Scale FMCW Automotive Radar Interference"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.13282v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.13282v1",
+        "link": "https://arxiv.org/abs/2611.13282",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.13282v1 Announce Type: new \nAbstract: Robot fleets performing distributed learning often face volatile uplink conditions like bandwidth variation, packet loss, and latency spikes that delay or destabilize training. We propose a network-co-designed dynamic sparsification loop that couples model-update compression to network-facing byte budgets and time constraints. We describe two realizations: (i) a standards-aligned SA6/5GC mapping that leverages CAPIF with NEF/PCF/NWDAF, enriched with AI-specific semantics; and (ii) a VASEAL-style role-reversed loop where the learning system exposes learning-state feedback and receives bounded, time-limited control intents. We implement the mechanism in an asynchronous federated reinforcement learning framework with heterogeneous simulated quadruped robots and reproducible uplink impairments via emulated network links. Results indicate that substantial communication reduction is achievable under dynamic constraints without materially degrading learning progress in the studied setting.",
+        "summary_vi": "Distributed robot learning over 3GPP cellular networks suffers from volatile uplink bandwidth and latency spikes. The authors present a dynamic sparsification loop coupling model updates to byte budgets and time limits, utilizing a 3GPP SA6/5GC mapping via CAPIF, NEF, PCF, and NWDAF.",
+        "title": "Network-Co-Designed Dynamic Sparsification for Dependable Distributed Robot Learning over 3GPP Networks"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.13293v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.13293v1",
+        "link": "https://arxiv.org/abs/2611.13293",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.13293v1 Announce Type: new \nAbstract: Serving large language models at high concurrency with long contexts requires KV-cache capacity and attention bandwidth that grow with the decode pool. Existing parallelization strategies trade one against the other: data parallelism replicates model weights, limiting KV capacity; tensor parallelism stops scaling attention at the model's KV-head count and pushes dense collectives across nodes; and decode context parallelism (DCP) recovers capacity by sharding the sequence but adds cross-node aggregation of partial attention results. We observe that during decode, dense layers and attention scale differently: dense layers amortize weight reads across the batch and run efficiently within a single NVLink domain, whereas attention cost grows with every active request's KV cache. We present Decode Token Parallelism (TKNP), a decode-pool architecture that decouples weight placement from attention ownership. TKNP distributes a single model copy across nodes in balanced layer blocks. The active node holding a block executes its projections and MLP for the full batch using intra-node tensor parallelism, while every node computes attention for its own requests against locally resident KV cache. This extends request-local attention across nodes without replicating weights: only current-token activations cross the network, dense all-reduces remain within NVLink, and attention requires no cross-node merging of partial results. Implemented in vLLM and evaluated on Llama 3.1 405B and Nemotron-4 340B on up to 64 H100 GPUs, TKNP improves completion throughput for long-context, high-concurrency workloads by up to 1.7$\\times$ over DCP and by up to 2.06$\\times$ over data parallelism at matched GPU count.",
+        "summary_vi": "High-concurrency LLM decoding strains GPU memory and attention bandwidth, creating scaling trade-offs in existing parallelization schemes. The paper introduces Decode Token Parallelism (DTP), a memory-efficient attention parallelization strategy designed to scale LLM decoding across distributed nodes.",
+        "title": "Decode Token Parallelism: Memory-Efficient Distributed Attention Parallelism for Scalable LLM Decoding"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.13300v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.13300v1",
+        "link": "https://arxiv.org/abs/2611.13300",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.13300v1 Announce Type: new \nAbstract: This work presents the first demonstration of a submicrometer-thick thickness-field-excited (TFE) lithium niobate (LN) flexural-mode piezoelectric micromachined ultrasonic transducer (PMUT). A 670-nm-thick bilayer periodically poled piezoelectric film (P3F) 128Y LN is used to demonstrate a suspended membrane with an area of 0.25 mm$^{2}$, achieving a low resonance frequency of 33.4 kHz for airborne transduction. Its electrical measurements reveal an extracted effective electromechanical coupling efficiency ($k_{\\mathrm{eff}}^{2}$) of 3% and a moderate static capacitance $C_0$ of 17 pF. Meanwhile, mechanical measurements using a laser Doppler vibrometer (LDV) yield a high quasi-static peak out-of-plane displacement ($\\xi_{\\mathrm{static}}$) of 145 nm/V and a high corresponding open-circuit sensitivity ($S_{\\mathrm{OC}}$) of 1.4 mV/Pa in the audio band. The fabricated device is compared with state-of-the-art (SoA) airborne piezoelectric transducers with sub-100-kHz resonance frequencies, underscoring the potential of the TFE P3F LN transducer platform by simultaneously demonstrating strong actuation capability while featuring high sensitivity.",
+        "summary_vi": "The paper presents the first submicrometer-thick thickness-field-excited (TFE) lithium niobate flexural-mode PMUT for airborne transduction. Fabricated with a 670-nm-thick bilayer film on a 0.25 mm² suspended membrane, the transducer achieves a resonance frequency of 33.4 kHz.",
+        "title": "Thickness-Field-Excited Bimorph Piezoelectric Micromachined Ultrasonic Transducer in Submicrometer Thin-Film Lithium Niobate"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.13471v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.13471v1",
+        "link": "https://arxiv.org/abs/2611.13471",
+        "relevance": 3,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2611.13471v1 Announce Type: new \nAbstract: Most type systems are designed to verify safety properties: the judgement $e : \\tau$ holds if $e$ may evaluate to any value contained in the denotation of $\\tau$, but nothing more. More recent type systems have considered the complementary class of reachability properties: in these systems, the typing judgment holds if $e$ must be able to evaluate to every value denoted by $\\tau$, and possibly more. This paper introduces a refinement type system for higher-order functional programs where types can capture both safety and reachability properties. Simultaneously supporting both is challenging because each imposes different constraints on how variable bindings in a typing context are interpreted. We address this challenge by treating typing contexts as a kind of resource that mediates which capabilities are available when typing a program. We formalize this notion by developing a resource algebra of contextual capabilities and a bunched modal context logic over this algebra. We then interpret our type system in this logic, establishing soundness with respect to a denotational semantics that unifies safety and reachability guarantees within a single typing judgement.",
+        "summary_vi": "Standard type systems verify program safety properties but cannot formally prove reachability properties. The authors introduce Context Types, a refinement type system utilizing bunched modalities to unify safety and reachability verification within a single framework.",
+        "title": "Context Types: Bunched Modalities for Unifying Safety and Reachability"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.13574v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.13574v1",
+        "link": "https://arxiv.org/abs/2611.13574",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.13574v1 Announce Type: new \nAbstract: This paper studies the joint air corridor and base station (BS) coverage planning problem for high-density low-altitude aerial networks supported by terrestrial cellular infrastructures. In the considered system, unmanned aerial vehicles (UAVs) operate within a structured air corridor planned over a grid-based airspace, and each BS serves selected corridor grid cells by sharing its communication resources among all UAVs therein. Each BS's traffic load depends on both the number of covered corridor cells and the UAV density, thereby affecting the communication rate available to each UAV. We exploit the channel knowledge map (CKM) to characterize the channel gains between BSs and candidate airspace cells and evaluate desired signals and inter-cell interference for environment-aware offline planning. Based on CKM, we jointly optimize the corridor layout and BS coverage to minimize a weighted objective balancing corridor length and the supportable average UAV density along the entire corridor, subject to minimum communication rate requirements for all UAVs along the air corridor. The joint design is formulated as a mixed-integer linear program (MILP), which can be optimally solved using off-the-shelf solvers. For large maps, we develop a scalable suboptimal algorithm based on Lagrangian relaxation and A* search. Specifically, we incorporate BS resource constraints into A* corridor search via Lagrangian relaxation, and then jointly optimize BS coverage and UAV density along the generated corridors under the original rate constraints. Numerical results demonstrate the benefits of the proposed joint design in supporting high-density UAV operations and show that the proposed algorithm obtains high-quality solutions with substantially reduced computation time.",
+        "summary_vi": "Deploying high-density low-altitude UAV networks requires coordinated air corridor and cellular base station coverage planning. This paper formulates joint air corridor and base station planning over a grid-based airspace using Channel Knowledge Maps to manage cellular traffic and multi-UAV resource allocation.",
+        "title": "Joint Air Corridor and BS Coverage Planning for Large-Scale High-Density Low-Altitude Aerial Networks via Channel Knowledge Maps"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.13627v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.13627v1",
+        "link": "https://arxiv.org/abs/2611.13627",
+        "relevance": 3,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2611.13627v1 Announce Type: new \nAbstract: Language models (LMs) have substantially lowered the barrier to applying formal verification for building reliable and secure software. Existing approaches commonly follow the verifier-in-the-loop paradigm, but the verifier often provides only coarse, binary pass/fail feedback, which offers little actionable signal on how the proof should be repaired. Recent work shows that counterexamples provide more actionable feedback by grounding proof failures in concrete program states, but generating useful ones at inference time requires costly iterative refinement. We present TopoVerus, an LM-based framework for Verus proof repair that internalizes counterexample-guided diagnosis as a model capability, producing useful counterexamples in a single pass. Our key insight is to train counterexample generation not as a standalone validation task, but as a data-driven diagnostic objective: a counterexample is useful when conditioning on it helps the model produce a safe, verifier-passing proof. Given a failed Verus proof and verifier error, TopoVerus generates a structured source-level counterexample, repair rationale, and repaired proof in one trajectory, optimized with reinforcement learning from Verus feedback and a proof-code safety gate. To guide the order of invariant repairs, TopoVerus introduces a curriculum with a topological graph reward based on invariant dependencies derived from inductiveness tests, which encourages counterexample generation to follow the same topological order. Across seven Verus benchmarks with 471 problems, TopoVerus achieves 61.6%/72.2% weighted-average Safe-Pass@1/Safe-Pass@3, outperforming the strongest baseline, Claude Sonnet 4.5, by 5.7/6.3 points. We also show that TopoVerus's learned counterexamples can directly augment the reasoning of existing LM-based proof repair approaches, improving their success rate by 64.3% compared to chain-of-thought diagnostics.",
+        "summary_vi": "Formal verification tools using verifier-in-the-loop language models provide binary pass/fail feedback that lacks actionable repair guidance. The authors propose a curriculum proof repair method that incorporates learned counterexamples to ground proof failures and guide formal software repairs.",
+        "title": "Curriculum proof repair with learned counterexamples"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.13633v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.13633v1",
+        "link": "https://arxiv.org/abs/2611.13633",
+        "relevance": 3,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.13633v1 Announce Type: new \nAbstract: Spectral estimation seeks to recover unknown frequencies from $T$ snapshots, each consisting of $\\Omega+1$ noisy Fourier measurements. Super-resolution refers to the recovery of frequencies whose minimum separation $\\Delta$ is smaller than $1/\\Omega$. We establish state-of-the-art stability bounds for single- and multi-snapshot ESPRIT when the frequencies form well-separated clumps, with the largest clump containing $n^\\star$ frequencies. In particular, for single-snapshot ESPRIT, our error bound scales as $$ \\mathcal{O}(\\Omega^{-1}\\mathrm{SRF}^{2n^\\star-2}\\cdot\\mathrm{Noise}), $$ where $\\mathrm{SRF}:=(\\Omega\\Delta)^{-1}$ denotes the super-resolution factor, provided that the noise level satisfies $\\mathrm{Noise}\\lesssim(\\Omega\\Delta)^{2n^\\star-2}$. In comparison with the minimax bounds [arXiv:1904.09186] and the computational resolution limits [arXiv:2003.02917, arXiv:2211.15208], our result shows that single-snapshot ESPRIT achieves the optimal stability scaling in the super-resolution regime. For multi-snapshot ESPRIT, we establish error bounds under both deterministic noise and Gaussian white noise, attaining the best-known SRF dependence under weaker conditions. Numerical experiments corroborate the theoretical error bounds.",
+        "summary_vi": "Super-resolution spectral estimation using ESPRIT struggles with numerical stability when frequency separation drops below the Rayleigh limit. The authors establish mathematical stability bounds for single- and multi-snapshot ESPRIT when recovering tightly clustered frequencies with a maximum clump size of $n^\\star$.",
+        "title": "Stability Analysis of Single- and Multi-Snapshot ESPRIT"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.13644v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.13644v1",
+        "link": "https://arxiv.org/abs/2611.13644",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.13644v1 Announce Type: new \nAbstract: Large language model (LLM) inference during autoregressive decoding is fundamentally memory-bandwidth-bound. Existing three-dimensional (3D) stacked processing-in-memory (PIM) architectures alleviate the off-chip bandwidth wall, yet remain constrained by several limitations: physical layer (PHY), controllers, and direct memory access (DMA) engines compete with arithmetic units for advanced-node base-die area; hybrid-bonding keep-out zones fragment the base-die floorplan and impede physical design; compute tiles built in a dynamic random access memory (DRAM) process are restricted to low logic density, capping achievable throughput; and nonlinear operations offloaded to the host reintroduce a communication bottleneck. We present Tri-Stack-PIM, a heterogeneous three-die architecture that resolves these tensions by dedicating a top DRAM die to storage, a middle buffer die on a mature process node to PHYs, DMA engines, and near-memory compute units, and a bottom base die on an advanced node exclusively to single-instruction-multiple-data (SIMD) multiply-accumulate (MAC) arrays. We further introduce a Unified Buffer-Aware Ready-based (UBAR) hardware out-of-order micro-operation scheduler that enforces cross-die dependency correctness at runtime while maximizing issue-slot utilization through a multi-term priority function, recovering up to 90% of the cycles that an in-order policy would forfeit. A joint architecture-dataflow co-exploration identifies Pareto-optimal configurations that reduce the energy-delay product (EDP) by 33-66x over naive parameter selection. Evaluated across multi-head, grouped-query, and multi-query attention (MHA, GQA, MQA) mechanisms with batch sizes 1-32, Tri-Stack-PIM achieves geometric-mean speedups of 4.95x, 2.57x, and 1.68x across all three attention mechanisms and batch sizes over a graphics processing unit (GPU) baseline, AttAcc, and H2-LLM, respectively.",
+        "summary_vi": "LLM decoding is memory-bandwidth-bound, while existing 3D processing-in-memory architectures experience base-die area contention between logic and communication peripherals. The authors propose Tri-Stack-PIM, a heterogeneous multi-die 3D architecture, but specific architectural details and evaluation metrics are omitted in the source summary.",
+        "title": "Tri-Stack-PIM: A Heterogeneous Multi-Die 3D-Integrated Processing-in-Memory Architecture for Efficient LLM Inference"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.13762v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.13762v1",
+        "link": "https://arxiv.org/abs/2611.13762",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.13762v1 Announce Type: new \nAbstract: GPUs have become essential to many fields, including AI and scientific computing. As GPUs grow more complex, the design space of their hardware configurations becomes increasingly large, yet cycle-level simulators remain too slow to explore it. Analytical models make this exploration much faster. However, existing GPU analytical models fall short of accurately predicting performance across hardware configurations, because they re-estimate or scale every stall of a warp on the target configuration. We observe that fixed-latency stalls stay the same across configurations, whereas queueing stalls vary with the pressure on each hardware unit. Based on this observation, we propose ForeSight, a queueing analytical model that reuses the fixed-latency stalls measured on GPU hardware and recomputes the queueing stalls of each hardware unit from its pressure. To provide ForeSight with the counter values of each hardware unit, we build UnitSight, a profiler that recovers these values, which NVIDIA's official profilers hide by aggregating across units. Our evaluation on hardware configurations of nine NVIDIA GPUs shows that ForeSight predicts kernel execution time with a mean absolute percentage error (MAPE) of 8.3%, compared with 14.1% for the best baseline. ForeSight also predicts the end-to-end execution time of LLM inference on vLLM with a MAPE of 2.0%. It runs 49x faster than the cycle-level simulator Accel-Sim and faster than interval-based models such as GCoM. With the aid of ForeSight, we explore configurations derived from the H20 GPU for LLM inference and find one with 1.78x its performance/cost.",
+        "summary_vi": "Cycle-level GPU simulators are too slow for large hardware design space exploration, while existing analytical models fail to accurately scale across hardware configurations. The paper proposes a fast analytical GPU performance modeling approach using profiler metrics, though specific architectural details are omitted from the text.",
+        "title": "Exploiting What NVIDIA Profilers Hide: Fast and Accurate Analytical GPU Performance Modeling"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.13802v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.13802v1",
+        "link": "https://arxiv.org/abs/2611.13802",
+        "relevance": 3,
+        "source": "arXiv cs.PF (Performance)",
+        "summary": "arXiv:2611.13802v1 Announce Type: cross \nAbstract: LLM services have become essential infrastructure for applications such as chat assistants and coding agents. Service providers need to attribute resource consumption to individual requests for purposes such as billing. Among these resources, energy is a key metric for assessing the cost of serving each request. However, serving engines batch requests together, and GPUs report only aggregate energy consumption. Providers typically estimate each request's share in proportion to its token consumption, but this approach can produce substantially unfair estimates. The Shapley value provides a principled solution to fair energy allocation, but computing it directly requires $2^N-1$ GPU runs for $N$ requests, which is infeasible for large batches.\n To address this problem, we propose StepSplit. Across GPU generations, we observe that the energy consumed by each inference step, a forward pass over a batch, consists of a shared energy, largely due to reading model weights, and a request-specific energy. We derive a closed-form Shapley value: each request is charged its own energy plus an equal part of the shared energy of every step in which it participates. A microbenchmark of 2.5-17.8 minutes calibrates both parts of the step energy once per model and GPU configuration. Under static batching, StepSplit uses this closed form in a single pass over the scheduler log. Under continuous batching, removing a request can change how the remaining requests are batched, so StepSplit adds a correction to the closed form, computed by replaying the scheduler on a CPU. We evaluate StepSplit against Shapley values measured using 529,513 GPU runs. Under static batching with batch sizes of 8-256, StepSplit achieves an $L_1$ error of 0.4-4.3%, compared with 13.4-61.3% for token-proportional allocation. Under continuous batching with 8-128 requests, the corresponding errors are 0.5-6.4% and 20.6-71.7%.",
+        "summary_vi": "Batching requests in LLM serving engines hides individual request power consumption behind aggregate GPU energy metrics. The paper proposes a scalable Shapley value framework to attribute aggregate GPU energy usage to individual requests in large LLM batches for accurate billing.",
+        "title": "Scaling Shapley Energy Attribution to Large LLM Batches"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.13943v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.13943v1",
+        "link": "https://arxiv.org/abs/2611.13943",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.13943v1 Announce Type: new \nAbstract: Inter-cluster forwarding in wireless sensor networks can concentrate energy consumption on frequently selected relays, while hard energy thresholds restrict forwarding choices as residual energy declines. We propose Hierarchical Energy-balanced Routing Optimization based on a dueling double deep Q-network (D3QN), termed HERO-D3QN. Given the cluster structure, the method combines direction- and cost-based relay screening with energy-aware soft constraints. Relays below an adaptive energy threshold remain eligible if the other selection criteria are met. An enhanced state representation captures relay energy, progress toward the sink, potential forwarding load, and hotspot risk, and a multi-objective reward guides learning. In the comparison with D3QN using the same node locations, HERO-D3QN delayed first-node death (FND) from time step 629 to 1269 and reduced peak residual energy variance by 55.5%. In the ablation study, the full method achieved the latest FND and half-node death (HND) and the largest cumulative transmitted volume (170.52 Mbit) among the tested variants. Across five seed settings in which node locations and the random processes used in training and evaluation varied jointly, the coefficients of variation of FND, HND, and transmitted volume were 8.26%, 2.75%, and 3.88%, respectively. These results demonstrate the effectiveness of HERO-D3QN in delaying early node failure and reducing peak energy dispersion.",
+        "summary_vi": "Inter-cluster routing in wireless sensor networks creates energy bottlenecks on frequently selected relay nodes when restricted by rigid energy thresholds. The proposed HERO-D3QN method combines direction- and cost-based relay screening with energy-aware soft constraints using a dueling double deep Q-network.",
+        "title": "HERO-D3QN: Inter-Cluster Routing with Energy-Aware Soft Constraints in Wireless Sensor Networks"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.13978v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.13978v1",
+        "link": "https://arxiv.org/abs/2611.13978",
+        "relevance": 4,
+        "source": "arXiv cs.PF (Performance)",
+        "summary": "arXiv:2611.13978v1 Announce Type: new \nAbstract: Performance models allow developers to gain important insights into the interaction of their code with the hardware that executes it, and enable them to apply target-specific optimizations. To create in-core performance models for out-of-order processors, architecture-specific performance metrics like latency, throughput, and port binding of individual instructions are indispensable. For x86 microarchitectures, there already exist tools to automatically obtain those values; however, the extension of performance modeling tools like the Open Source Architecture Code Analyzer (OSACA) to support further architectures like RISC-V emphasizes the need for a multi-platform microbenchmarking tool. We present WINIC (What I Need Is Cycles), an automatic cross-platform microbenchmarking tool. Unlike previous tools, it can obtain throughput and operand-based latency metrics for most supported instructions of any 64-bit x86, AArch64, and RISC-V microarchitecture without the need for root permissions or extended system control levels. We cover the methodology of microbenchmarking and the approach of WINIC to collect cycle-accurate performance data for assembly instructions. We show that WINIC can be used to automatically obtain a vast number of accurate results and demonstrate for four target microarchitectures that our results match between 71% and 99% of the performance data of instructions obtained by similar tools and documentation. Furthermore, we investigate how operand-based metrics measured by WINIC can be used to improve the in-core performance predictions on selected micro-kernels, exemplarily for the Neoverse V2 microarchitecture.",
+        "summary_vi": "Building accurate in-core performance models for out-of-order x86 processors requires instruction metrics like latency, throughput, and port bindings. The authors present WINIC, an automated microbenchmarking tool that measures cycle-accurate instruction performance metrics across multiple x86 hardware platforms.",
+        "title": "WINIC: An Automatic Cycle-Accurate Multi-Platform Microbenchmarking Tool for Instruction Performance Metrics"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.14042v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.14042v1",
+        "link": "https://arxiv.org/abs/2611.14042",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.14042v1 Announce Type: new \nAbstract: Integrated Access and Backhaul (IAB) is a key enabler for cost-effective millimeter-wave (mmWave) densification, yet practical deployments are strongly constrained by the spatial availability of fiber-connected IAB donors. Variations in donor topologies reshape both the initial coverage footprint and the feasible multi-hop backhaul expansion patterns, causing planning policies trained on a single topology to generalize poorly. This paper studies cross-topology generalization for resilience-aware IAB deployment under coverage and transport feasibility requirements. We formulate IAB deployment as a constrained Markov decision process that couples access coverage satisfaction with multi-hop transport feasibility, including hop-by-hop rate-budget degradation and a minimum parent-connectivity requirement for fault tolerance. To solve the resulting large discrete planning problem, we propose a graph-based actor-critic approach that uses a Graph Attention Network v2 (GATv2) encoder with Proximal Policy Optimization (PPO), and we develop a multi-stage curriculum learning strategy that progressively increases constraint difficulty and scenario diversity for stable training and transferable policies. In a 60 GHz urban simulation over a 1000 m x 1000 m area with multiple donor layouts, the trained policy satisfies the minimum coverage requirement of 98% with fewer deployed IAB nodes than learning and heuristic baselines, and maintains higher coverage under progressive backhaul failures. The results demonstrate that curriculum-trained graph-based reinforcement learning can improve deployment efficiency and resilience while transferring across heterogeneous IAB donor topologies without retraining.",
+        "summary_vi": "Integrated Access and Backhaul mmWave planning policies generalize poorly across changing fiber-connected donor node topologies. The paper investigates resilient network planning by applying Graph Neural Network curriculum learning to adapt backhaul expansion patterns across varying donor topologies.",
+        "title": "Resilient Integrated Access and Backhaul Network Planning via Graph Neural Network Curriculum Learning"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.14204v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.14204v1",
+        "link": "https://arxiv.org/abs/2611.14204",
+        "relevance": 3,
+        "source": "arXiv cs.PF (Performance)",
+        "summary": "arXiv:2611.14204v1 Announce Type: cross \nAbstract: Scientific computing is under increasing pressure to adapt to HPC hardware that is shaped by AI workloads. In these modern ecosystems, extracting reasonable performance without investing major engineering effort is a central issue for domain scientists. Correctness constraints and intricate reference implementations represent further impediments to development. Instead of using a double-precision implementation as a reference, considering the underlying scientific problem directly opens more opportunities for performance improvements when updating and rewriting applications.\n We take seven different portability frameworks---covering pragma-based, DSL, and data-centric approaches---and evaluate them on a microphysics kernel of the ICON climate model. Our performance benchmarks show that each different HPC system benefits from a different combination of optimizations, so we develop the measure of framework expressivity to gauge how easily each framework can customize portable implementations in this way.",
+        "summary_vi": "Adapting complex scientific simulation software to AI-driven HPC hardware presents engineering challenges for domain developers. Using the ICON microphysics module as a case study, this paper evaluates performance portability strategies by replacing double-precision baselines with un-truncated reference implementations.",
+        "title": "Performance Portability Explained: Insights from accelerating ICON microphysics"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
+    "oai:arXiv.org:2611.14356v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.14356v1",
+        "link": "https://arxiv.org/abs/2611.14356",
+        "relevance": 4,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2611.14356v1 Announce Type: new \nAbstract: Rapidly evolving LLM architectures and heterogeneous mobile hardware make supporting new models in on-device inference engines a recurring and costly system challenge. Each model may require coordinated changes across conversion, graph construction, operators, and hardware backends. Existing coding agents often miss these cross-layer dependencies and struggle to diagnose failures across host--device execution paths. We present EngineAgent, an agentic system for automating on-device LLM model enablement. Its key insight is to separate reusable engine and hardware knowledge from model-specific implementation. Before enablement, EngineAgent constructs a hierarchy-aware engine index that captures engine abstraction layers and cross-layer dependencies, and pre-validates backend-specific build, execution, and debugging workflows using already supported models. For each new model, a builder uses this knowledge to coordinate cross-layer changes, while an auditor checks implementation completeness and drives iterative debugging through device-side validation. Across 12 tasks spanning three mobile LLMs and four engine--backend pairs on CPUs, GPUs, and NPUs, EngineAgent achieves 75% end-to-end success with either of two underlying LLMs, versus 33.3% for the strongest coding-agent baseline. Success requires compilation, on-device execution, and output-logit agreement with reference implementations. EngineAgent also reduces average per-task time and model-API cost relative to baselines using the same underlying LLMs.",
+        "summary_vi": "Supporting new LLM models on heterogeneous mobile hardware requires complex cross-layer modifications that standard coding agents struggle to diagnose. The authors introduce EngineAgent, a stack-hierarchy and hardware-aware agent designed to automate cross-layer adaptation and execution failure diagnosis.",
+        "title": "EngineAgent: Agentizing On-Device LLM Inference Engines with Inference Stack Hierarchy Awareness and Hardware Abilities"
+      },
+      "first_seen": "2026-11-11T12:59:29.572890+00:00"
+    },
     "tag:github.com,2008:Repository/184341774/v53.1": {
       "entry": {
         "category": "virt",
@@ -2903,6 +3415,9 @@
     "https://rcrwireless.com/?p=435927": "2026-11-07T01:13:55.085191+00:00",
     "https://rcrwireless.com/?p=435935": "2026-11-10T13:47:36.749512+00:00",
     "https://rcrwireless.com/?p=435942": "2026-11-10T13:47:36.749512+00:00",
+    "https://rcrwireless.com/?p=435946": "2026-11-11T12:59:29.572890+00:00",
+    "https://rcrwireless.com/?p=435955": "2026-11-11T12:59:29.572890+00:00",
+    "https://rcrwireless.com/?p=435962": "2026-11-11T12:59:29.572890+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/Micro-World-V2/README.html": "2026-10-22T00:14:37.714250+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/eagle3-training/README.html": "2026-10-28T00:46:21.169893+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/faster-action-models/README.html": "2026-10-22T00:14:37.714250+00:00",
@@ -2986,10 +3501,12 @@
     "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html": "2026-11-09T14:23:45.834216+00:00",
     "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html": "2026-11-06T13:18:31.957095+00:00",
     "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html": "2026-11-06T13:18:31.957095+00:00",
+    "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html": "2026-11-11T12:59:29.572890+00:00",
     "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html": "2026-11-04T01:43:07.426560+00:00",
     "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html": "2026-11-01T12:03:06.789682+00:00",
     "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html": "2026-11-02T13:55:07.841963+00:00",
     "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html": "2026-11-04T13:19:08.134166+00:00",
+    "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html": "2026-11-11T12:59:29.572890+00:00",
     "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html": "2026-11-06T01:57:39.156695+00:00",
     "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html": "2026-11-05T01:49:34.737244+00:00",
     "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html": "2026-11-03T13:02:11.696372+00:00",
@@ -3107,6 +3624,7 @@
     "https://www.phoronix.com/news/Firefox-160-Released": "2026-11-10T03:50:12.495881+00:00",
     "https://www.phoronix.com/news/Framework-More-CachyOS": "2026-10-15T00:07:44.827060+00:00",
     "https://www.phoronix.com/news/FreeBSD-15.2-Beta-1": "2026-11-07T01:13:55.085191+00:00",
+    "https://www.phoronix.com/news/FreeBSD-Q3-2026-Report": "2026-11-11T12:59:29.572890+00:00",
     "https://www.phoronix.com/news/FreeRDP-3.33": "2026-11-02T13:55:07.841963+00:00",
     "https://www.phoronix.com/news/FreeType-2.15-Released": "2026-10-13T02:44:05.425689+00:00",
     "https://www.phoronix.com/news/Fwupd-To-Android-Integration": "2026-10-21T10:36:54.456279+00:00",
@@ -3507,6 +4025,8 @@
     "https://www.reddit.com/r/embedded/t3_1xq2msa": "2026-11-07T11:56:46.016476+00:00",
     "https://www.reddit.com/r/embedded/t3_1xq2uyc": "2026-11-07T11:56:46.016476+00:00",
     "https://www.reddit.com/r/embedded/t3_1xq6wna": "2026-11-08T00:56:33.966379+00:00",
+    "https://www.reddit.com/r/embedded/t3_1xqvn9s": "2026-11-08T12:15:15.623047+00:00",
+    "https://www.reddit.com/r/embedded/t3_1xqwv1g": "2026-11-08T12:15:15.623047+00:00",
     "https://www.redhat.com/en/blog/3-recent-enhancements-red-hat-hybrid-cloud-console": "2026-11-06T01:57:39.156695+00:00",
     "https://www.redhat.com/en/blog/5-minute-demo-how-build-modern-applications-red-hat-openshift": "2026-11-06T01:57:39.156695+00:00",
     "https://www.redhat.com/en/blog/5-minute-demo-how-manage-applications-scale-red-hat-openshift": "2026-11-07T01:13:55.085191+00:00",
@@ -4433,6 +4953,7 @@
     "oai:arXiv.org:2611.09926v1": "2026-11-10T13:47:36.749512+00:00",
     "oai:arXiv.org:2611.10254v1": "2026-11-10T13:47:36.749512+00:00",
     "oai:arXiv.org:2611.10594v1": "2026-11-10T13:47:36.749512+00:00",
+    "oai:arXiv.org:2611.13309v1": "2026-11-11T12:59:29.572890+00:00",
     "tag:blogger.com,1999:blog-7068042310767317158.post-2018016391806741936": "2026-10-15T10:19:36.277492+00:00",
     "tag:github.com,2008:Repository/135502094/202610.2.23.244": "2026-10-13T02:44:05.425689+00:00",
     "tag:github.com,2008:Repository/135502094/202620.2.26.0_Petalinux": "2026-11-02T13:55:07.841963+00:00",
