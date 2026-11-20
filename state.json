@@ -9,7 +9,6 @@
     "https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/": "2026-11-02T13:55:07.841963+00:00",
     "https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/": "2026-11-08T00:56:33.966379+00:00",
     "https://bootlin.com/?p=22138": "2026-11-06T13:14:17.741766+00:00",
-    "https://bootlin.com/?p=22170": "2026-10-21T00:09:49.548846+00:00",
     "https://bootlin.com/?p=22452": "2026-10-22T00:14:37.714250+00:00",
     "https://developer.nvidia.com/blog/?p=121180": "2026-11-15T01:19:48.657238+00:00",
     "https://developer.nvidia.com/blog/?p=122184": "2026-11-06T13:14:17.741766+00:00",
@@ -69,6 +68,7 @@
     "https://lwn.net/Articles/1105934/": "2026-11-07T11:56:46.016476+00:00",
     "https://lwn.net/Articles/1105936/": "2026-11-07T11:56:46.016476+00:00",
     "https://lwn.net/Articles/1106300/": "2026-11-10T03:50:12.495881+00:00",
+    "https://lwn.net/Articles/1106537/": "2026-11-20T02:39:50.793304+00:00",
     "https://lwn.net/Articles/1106876/": "2026-11-12T02:32:46.806375+00:00",
     "https://lwn.net/Articles/1107473/": "2026-11-14T01:48:25.229918+00:00",
     "https://lwn.net/Articles/1107606/": "2026-11-16T14:02:56.215796+00:00",
@@ -79,9 +79,6 @@
     "https://osmocom.org/news/335": "2026-10-24T00:02:40.989120+00:00",
     "https://osmocom.org/news/336": "2026-11-06T13:18:31.957095+00:00",
     "https://projectzero.google/2026/11/disclosure-policy": "2026-11-16T01:23:59.141401+00:00",
-    "https://rcrwireless.com/?p=435696": "2026-10-21T00:09:49.548846+00:00",
-    "https://rcrwireless.com/?p=435698": "2026-10-21T00:09:49.548846+00:00",
-    "https://rcrwireless.com/?p=435703": "2026-10-21T00:09:49.548846+00:00",
     "https://rcrwireless.com/?p=435705": "2026-10-21T10:36:54.456279+00:00",
     "https://rcrwireless.com/?p=435709": "2026-10-22T10:40:49.740733+00:00",
     "https://rcrwireless.com/?p=435713": "2026-10-22T00:14:37.714250+00:00",
@@ -123,8 +120,10 @@
     "https://rcrwireless.com/?p=436060": "2026-11-19T02:51:55.687950+00:00",
     "https://rcrwireless.com/?p=436076": "2026-11-19T02:51:55.687950+00:00",
     "https://rcrwireless.com/?p=436083": "2026-11-19T14:54:20.761013+00:00",
+    "https://rcrwireless.com/?p=436111": "2026-11-20T02:39:50.793304+00:00",
     "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone": "2026-10-28T00:46:21.169893+00:00",
     "https://spectrum.ieee.org/undersea-cables-arctic-european-commission": "2026-11-13T02:09:07.409503+00:00",
+    "https://spectrum.ieee.org/wireless-network-5g-for-trains": "2026-11-20T02:39:50.793304+00:00",
     "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html": "2026-10-29T11:49:06.816281+00:00",
     "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html": "2026-10-30T01:24:44.649656+00:00",
     "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html": "2026-10-30T11:42:20.435734+00:00",
@@ -150,6 +149,7 @@
     "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html": "2026-11-05T13:31:37.120286+00:00",
     "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html": "2026-11-09T01:13:40.430144+00:00",
     "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html": "2026-11-06T01:57:39.156695+00:00",
+    "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html": "2026-11-20T02:39:50.793304+00:00",
     "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html": "2026-11-03T13:02:11.696372+00:00",
     "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html": "2026-11-17T04:12:42.219852+00:00",
     "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html": "2026-11-13T13:28:43.358051+00:00",
@@ -239,13 +239,13 @@
     "https://www.phoronix.com/news/Linux-7.4-Sound": "2026-10-25T23:35:40.238013+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Staging": "2026-10-25T23:35:40.238013+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Workqueue": "2026-10-23T10:33:29.369204+00:00",
-    "https://www.phoronix.com/news/Linux-7.4-XFS-Checksumming": "2026-10-21T00:09:49.548846+00:00",
     "https://www.phoronix.com/news/Linux-7.4-memblock": "2026-10-24T23:44:03.287716+00:00",
     "https://www.phoronix.com/news/Linux-7.4-rc1": "2026-11-02T01:02:32.460847+00:00",
     "https://www.phoronix.com/news/Linux-7.4-x86-Platform-Driver": "2026-10-31T01:04:35.861546+00:00",
     "https://www.phoronix.com/news/Linux-7.5-Intel-Xe-vGPU-Profile": "2026-11-12T14:00:43.491207+00:00",
     "https://www.phoronix.com/news/Linux-7.5-NTFS-TMPFILE": "2026-11-17T04:12:42.219852+00:00",
     "https://www.phoronix.com/news/Linux-7.5-RK3568-AMD-AIE4": "2026-11-09T01:13:40.430144+00:00",
+    "https://www.phoronix.com/news/Linux-7.5-Restrict-proc-kcore": "2026-11-20T02:39:50.793304+00:00",
     "https://www.phoronix.com/news/Linux-74-Intel-TDX-Dynamic-PAMT": "2026-10-21T10:36:54.456279+00:00",
     "https://www.phoronix.com/news/Linux-Apple-Audio-Shared-GPIO": "2026-11-06T13:14:17.741766+00:00",
     "https://www.phoronix.com/news/Linux-CAS-Regression-AMD-HX-370": "2026-10-26T11:34:23.964933+00:00",
@@ -278,6 +278,7 @@
     "https://www.phoronix.com/review/amazon-linux-2027-benchmarks": "2026-11-06T13:14:17.741766+00:00",
     "https://www.phoronix.com/review/amd-epyc-zen6-smt": "2026-11-13T02:09:07.409503+00:00",
     "https://www.phoronix.com/review/linux-74-features": "2026-11-04T01:43:07.426560+00:00",
+    "https://www.phoronix.com/review/windows-ubuntu2610-strix-halo": "2026-11-20T02:39:50.793304+00:00",
     "https://www.reddit.com/r/embedded/t3_1xdzdzf": "2026-10-24T09:48:53.438495+00:00",
     "https://www.reddit.com/r/embedded/t3_1xf0etd": "2026-10-25T23:35:40.238013+00:00",
     "https://www.reddit.com/r/embedded/t3_1xf6iwv": "2026-10-25T23:35:40.238013+00:00",
@@ -330,7 +331,6 @@
     "https://www.redhat.com/en/blog/introducing-red-hat-advanced-cluster-security-kubernetes-5-bring-red-hat-enterprise-linux-virtual-machines-vulnerability-management": "2026-11-13T02:09:07.409503+00:00",
     "https://www.redhat.com/en/blog/introducing-red-hat-cloud-extensions-sovereign-ai-clouds-your-own-infrastructure": "2026-11-15T01:19:48.657238+00:00",
     "https://www.redhat.com/en/blog/mlops-edge-ai-keeping-models-accurate-over-time": "2026-10-27T00:50:51.993375+00:00",
-    "https://www.redhat.com/en/blog/mlops-edge-ai-managing-ai-models-across-distributed-fleets": "2026-10-21T00:09:49.548846+00:00",
     "https://www.redhat.com/en/blog/modernizing-virtualization-higher-education-how-automated-node-recovery-protects-data-integrity": "2026-11-06T13:14:17.741766+00:00",
     "https://www.redhat.com/en/blog/node-management-red-hat-openshift-5-bare-metal": "2026-11-14T01:48:25.229918+00:00",
     "https://www.redhat.com/en/blog/red-hat-and-hp-empowering-physical-ai-bench-fleet": "2026-10-24T00:02:40.989120+00:00",
@@ -341,7 +341,6 @@
     "https://www.redhat.com/en/blog/responsible-disclosure-age-vulnpocalypse": "2026-10-27T11:02:26.672421+00:00",
     "https://www.redhat.com/en/blog/rhel-nvidia-delivers-trusted-foundation-next-gen-ai-workloads": "2026-10-22T00:14:37.714250+00:00",
     "https://www.redhat.com/en/blog/securing-ai-agents-enterprise-ai-factory-nvidia-bluefield-doca-argus-red-hat-openshift": "2026-10-22T00:14:37.714250+00:00",
-    "https://www.redhat.com/en/blog/shared-gpus-without-shared-latency-priority-aware-serving-in-red-hat-ai": "2026-10-21T00:09:49.548846+00:00",
     "https://www.redhat.com/en/blog/simplifying-tls-certificate-management-red-hat-openshift-nec": "2026-10-23T00:11:08.671003+00:00",
     "https://www.redhat.com/en/blog/why-lightwell-pairs-dependency-backports-upstream-collaboration": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2502.06293v2": "2026-11-19T14:54:20.761013+00:00",
@@ -407,9 +406,6 @@
     "oai:arXiv.org:2610.06900v2": "2026-11-15T01:19:48.657238+00:00",
     "oai:arXiv.org:2610.13679v2": "2026-11-15T01:19:48.657238+00:00",
     "oai:arXiv.org:2610.20962v3": "2026-10-24T00:02:40.989120+00:00",
-    "oai:arXiv.org:2610.24621v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.25307v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.26552v1": "2026-10-21T00:09:49.548846+00:00",
     "oai:arXiv.org:2610.26991v1": "2026-10-21T10:36:54.456279+00:00",
     "oai:arXiv.org:2610.27544v1": "2026-10-22T00:14:37.714250+00:00",
     "oai:arXiv.org:2610.27612v1": "2026-10-22T00:14:37.714250+00:00",
@@ -558,15 +554,19 @@
     "oai:arXiv.org:2611.22411v1": "2026-11-19T02:51:55.687950+00:00",
     "oai:arXiv.org:2611.22548v1": "2026-11-19T14:54:20.761013+00:00",
     "oai:arXiv.org:2611.22663v1": "2026-11-19T02:51:55.687950+00:00",
+    "oai:arXiv.org:2611.22763v1": "2026-11-20T02:39:50.793304+00:00",
     "oai:arXiv.org:2611.22772v1": "2026-11-19T02:51:55.687950+00:00",
     "oai:arXiv.org:2611.22869v1": "2026-11-19T02:51:55.687950+00:00",
     "oai:arXiv.org:2611.22937v1": "2026-11-19T02:51:55.687950+00:00",
+    "oai:arXiv.org:2611.23826v1": "2026-11-20T02:39:50.793304+00:00",
+    "oai:arXiv.org:2611.23977v1": "2026-11-20T02:39:50.793304+00:00",
     "tag:blogger.com,1999:blog-1834236085756782640.post-4091900366795999234": "2026-10-29T11:49:06.816281+00:00",
     "tag:blogger.com,1999:blog-1834236085756782640.post-8401827008389997930": "2026-11-13T02:09:07.409503+00:00",
     "tag:blogger.com,1999:blog-7068042310767317158.post-2586278352895696704": "2026-11-04T01:43:07.426560+00:00",
     "tag:github.com,2008:Repository/107505869/v1.16.2": "2026-11-06T13:14:17.741766+00:00",
     "tag:github.com,2008:Repository/107505869/v1.17.0": "2026-11-06T13:14:17.741766+00:00",
-    "tag:github.com,2008:Repository/107505869/v1.18.0": "2026-11-07T01:13:55.085191+00:00"
+    "tag:github.com,2008:Repository/107505869/v1.18.0": "2026-11-07T01:13:55.085191+00:00",
+    "tag:github.com,2008:Repository/184341774/v55.0": "2026-11-20T02:39:50.793304+00:00"
   },
   "pending": {
     "https://content.knowledgehub.wiley.com/5g-nr-ntn-design-and-test-challenges-for-satellite-connected-iot/": {
@@ -581,6 +581,19 @@
         "title": "Understand How Satellite Links Shape IoT Device Design and Testing"
       },
       "first_seen": "2026-11-17T14:58:30.205439+00:00"
+    },
+    "https://eclypsium.com/?p=19034": {
+      "entry": {
+        "category": "security",
+        "id": "https://eclypsium.com/?p=19034",
+        "link": "https://eclypsium.com/podcasts/patching-challenges-in-modern-enterprises-bts-86/",
+        "relevance": 3,
+        "source": "Eclypsium",
+        "summary": "Paul Asadoorian, Vlad Babkin, and Chase Snyder examine how AI-assisted vulnerability discovery is changing infrastructure security, why faster exploitation does not always mean greater risk, and what defenders can do when patching cannot keep pace. AI is accelerating vulnerability discovery and exploit development, but finding a vulnerability is only one part of a successful attack. […] \n The post Patching Challenges in Modern Enterprises - BTS #86 appeared first on Eclypsium .",
+        "summary_vi": "Paul Asadoorian, Vlad Babkin, and Chase Snyder examine how AI-assisted vulnerability discovery is changing infrastructure security, why faster exploitation does not always mean greater risk, and what ",
+        "title": "Patching Challenges in Modern Enterprises - BTS #86"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
     },
     "https://linuxgizmos.com/?p=99917": {
       "entry": {
@@ -920,6 +933,19 @@
       },
       "first_seen": "2026-11-19T14:54:20.761013+00:00"
     },
+    "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html": {
+      "entry": {
+        "category": "security",
+        "id": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+        "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+        "relevance": 3,
+        "source": "The Hacker News",
+        "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site.\n\nThat can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday.\n\nThe Drupal Security Team disclosed",
+        "summary_vi": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site.\n\nThat can lead to a sit",
+        "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
     "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html": {
       "entry": {
         "category": "security",
@@ -1023,6 +1049,19 @@
         "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges"
       },
       "first_seen": "2026-11-18T03:11:30.700802+00:00"
+    },
+    "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html": {
+      "entry": {
+        "category": "security",
+        "id": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+        "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+        "relevance": 3,
+        "source": "The Hacker News",
+        "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.\n\nThe release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific",
+        "summary_vi": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560",
+        "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
     },
     "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html": {
       "entry": {
@@ -1244,6 +1283,19 @@
         "title": "Huawei Retains Top Spot as Sole Leader in GlobalData's 2026 Small Cells Competitiveness Landscape Assessment"
       },
       "first_seen": "2026-11-17T04:12:42.219852+00:00"
+    },
+    "https://www.huawei.com/en/news/2026/11/u6ghz-vitaaau-retinamimo": {
+      "entry": {
+        "category": "ran",
+        "id": "https://www.huawei.com/en/news/2026/11/u6ghz-vitaaau-retinamimo",
+        "link": "https://www.huawei.com/en/news/2026/11/u6ghz-vitaaau-retinamimo",
+        "relevance": 3,
+        "source": "Huawei Press Release",
+        "summary": "During Africa Tech Festival 2026 in Cape Town, South Africa, Vodacom, a leading operator in the country, and Huawei jointly unveiled U6GHz innovations.",
+        "summary_vi": "During Africa Tech Festival 2026 in Cape Town, South Africa, Vodacom, a leading operator in the country, and Huawei jointly unveiled U6GHz innovations.",
+        "title": "Vodacom and Huawei Unveil U6GHz Innovations, Building a Solid Wireless Connectivity Foundation for Africa's Digital Economy"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
     },
     "https://www.phoronix.com/news/3mdeb-2026-Firmware-APU2": {
       "entry": {
@@ -1674,6 +1726,19 @@
       },
       "first_seen": "2026-11-19T14:54:20.761013+00:00"
     },
+    "https://www.redhat.com/en/blog/friday-five-november-20-2026-red-hat": {
+      "entry": {
+        "category": "virt",
+        "id": "https://www.redhat.com/en/blog/friday-five-november-20-2026-red-hat",
+        "link": "https://www.redhat.com/en/blog/friday-five-november-20-2026-red-hat",
+        "relevance": 3,
+        "source": "Red Hat Blog",
+        "summary": "SiliconANGLE - Red Hat and Microsoft bring OpenShift virtual machines to AzureRed Hat and Microsoft are expanding OpenShift Virtualization on Azure with Microsoft’s direct virtualization technology, aiming for near-bare-metal hardware access for VMs alongside containers and AI workloads. Learn more IBM and Red Hat Bring Lightwell Network to Microsoft MarketplaceIBM and Red Hat made Lightwell Network available through Microsoft Marketplace private offers, giving customers a path to buy version-specific, backported open source vulnerability remediations that fit existing scanners, repositorie",
+        "summary_vi": "SiliconANGLE - Red Hat and Microsoft bring OpenShift virtual machines to AzureRed Hat and Microsoft are expanding OpenShift Virtualization on Azure with Microsoft’s direct virtualization technology, a",
+        "title": "Friday Five — November 20, 2026 | Red Hat"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
     "oai:arXiv.org:2411.16152v3": {
       "entry": {
         "category": "research",
@@ -1752,6 +1817,19 @@
       },
       "first_seen": "2026-11-19T02:51:55.687950+00:00"
     },
+    "oai:arXiv.org:2607.25361v2": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2607.25361v2",
+        "link": "https://arxiv.org/abs/2607.25361",
+        "relevance": 3,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2607.25361v2 Announce Type: replace \nAbstract: Many practical costs---such as the completion time of a quantum repeater, the rounds of an RFID collision-resolution protocol, or the response time of a fork--join computation---are described by hierarchical cost expressions: a tree of independent subcomputations with nonnegative integer costs, combined by addition, max, and min. We compute their moments with sound error bounds. Moment-based analyses for additive costs do not apply, because the moments of $\\max(X,Y)$ are not determined by those of $X$ and $Y$; propagating full distributions becomes expensive as trees grow; and scalable approximations are hand-derived for specific structures and lack error bounds.\n Our analysis proceeds bottom-up, summarizing each subtree by a surrogate distribution: an exact short-horizon prefix plus a compact parametric tail fitted to preserve the queried moment. Each prefix is computed exactly from the children's prefixes---for a retry, whose cost sums an unbounded number of attempts, by solving a local recurrence equation---so all approximation is confined to the tails. Abstraction introduces shape error but no moment error; nonlinear operators, such as max and min, convert shape error into moment error. The analysis tracks two bounds, one on shape error and one on moment error. Tracking both lets it report a sound interval for the mean, the second moment, and the variance. Lengthening the prefix, or solving subtrees exactly, narrows the interval at the cost of additional computation.\n For quantum-repeater chains of up to 4096 links with high swap-success probability, our Dickens tool bounds the mean completion time within 1%, whereas the exact Markov-chain solution exhausts memory with 16 links, and the best hand-derived approximation we evaluated has 47% error with 64 links. Dickens also bounds second moments, variances, and deadline-miss probabilities, and handles RFID and fork--join costs.",
+        "summary_vi": "Complex system delays in quantum repeaters, RFID protocols, and fork-join computations are governed by non-additive probabilistic cost trees combining addition, maximum, and minimum operations. The authors present a moment-based analysis framework that provides mathematically sound error bounds for these cost structures.",
+        "title": "The Best of Times, the Worst of Times: Moment-Based Analysis of Probabilistic Cost Structures"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
     "oai:arXiv.org:2608.06414v3": {
       "entry": {
         "category": "research",
@@ -1790,6 +1868,19 @@
         "title": "TileBench: A Controlled Benchmark for Performance Evaluation and Bottleneck Diagnosis of Tile-Based Programming Models"
       },
       "first_seen": "2026-11-18T03:11:30.700802+00:00"
+    },
+    "oai:arXiv.org:2610.38355v2": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2610.38355v2",
+        "link": "https://arxiv.org/abs/2610.38355",
+        "relevance": 3,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2610.38355v2 Announce Type: replace-cross \nAbstract: KV cache reuse accelerates LLM serving, but existing systems manage host DRAM and NVMe SSD as a tiered hierarchy where DRAM acts as an intermediate cache. Production LLM workloads break both premises of this hierarchy. First, bimodal reuse defeats DRAM temporal filtering, since workloads are dominated either by one-shot blocks with long reuse distances or by multi-gigabyte agentic sessions that exceed DRAM capacity, putting SSD on the critical read path. Second, DRAM staging and eviction-ordered layout bottleneck SSD restoration. Holding host staging buffers for in-flight prefixes causes contention under load that aborts prefetches, while incremental eviction scatters a session's blocks across the SSD and prevents large sequential reads.\n We present FlatCake, a flat KV storage architecture that exposes host DRAM and NVMe SSD as peer media in a unified 64-bit address space. Exploiting the fact that KV blocks are write-once, immutable, and reused together within a prompt or session, FlatCake places each block directly onto its target medium in session-contiguous, layer-major order at creation time and never migrates it. FlatCake streams coalesced SSD reads directly into a bounded GPU window via GPUDirect Storage and decouples DRAM and SSD request queues to prevent head-of-line blocking. We implement FlatCake in SGLang and compare it against host-staged (Mooncake) and GDS-enabled (Mooncake-GDS) tiered storage, as well as SSD-direct storage (Tutti). Across three production agentic, coding, and conversational traces with DeepSeek-V4-Flash, FlatCake reduces mean TTFT near the baselines' latency knees by $1.40\\times$--$2.42\\times$ over the fastest baseline. On the agentic Claude Code trace, FlatCake sustains a 91.6% cache hit rate under load (versus 71.1% for all three baselines) and delivers up to $2.16\\times$ higher token throughput.",
+        "summary_vi": "Tiered DRAM and NVMe SSD storage hierarchies struggle with Large Language Model Key-Value (KV) cache reuse due to bimodal workloads that defeat DRAM caching. The authors propose a flat KV cache storage architecture that bypasses DRAM as an intermediate layer to reduce SSD read latency.",
+        "title": "A Flat KV Cache Storage Architecture for LLM Serving"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
     },
     "oai:arXiv.org:2611.02376v2": {
       "entry": {
@@ -2336,6 +2427,19 @@
         "title": "Decoupling Data Layouts from Algebraic Data Types"
       },
       "first_seen": "2026-11-17T14:58:30.205439+00:00"
+    },
+    "oai:arXiv.org:2611.19113v2": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.19113v2",
+        "link": "https://arxiv.org/abs/2611.19113",
+        "relevance": 3,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2611.19113v2 Announce Type: replace \nAbstract: Algebraic data types (ADTs) decouple the logical structure of data from physical layout choices that affect performance. For example, packing small fields into a word improves spatial locality, while storing co-accessed fields contiguously can enable vectorization. Such choices reinforce or undermine one another, with ramifications for compiler optimizations and memory management. Their interplay creates a combinatorial space of layouts with different runtime costs and memory footprints. The most favorable layout depends on the program's construction and destruction patterns, the characteristics of input data, and the target machine.\n Exploring this space requires control over layout decisions and a way to compose them while preserving program semantics. We provide both through rewrite rules over layouts, independent of any particular source language or bit-level encoding. Starting from a canonical layout derived from the ADT, these rules transform its representation while leaving the source program intact. We identify a local refinement criterion for proving each rewrite rule correct, so that layouts continue to represent every value and keep distinct values apart. Adding a new rule therefore only requires a proof satisfying this local criterion.\n We realize these rules in Isomer, a new pure functional programming language whose compiler specializes construction, pattern matching, and memory management to the chosen layouts. Using a default layout for all ADTs, Isomer achieves competitive performance against established functional compilers that automatically select layouts. Our rewrites further improve performance by tailoring layouts to each workload, permitting representations that prior work cannot attain or can only achieve through explicit changes to the source code.",
+        "summary_vi": "Selecting optimal physical memory layouts for Algebraic Data Types (ADTs)—such as packing small fields or enforcing contiguous placement for vectorization—presents a complex design space. The authors introduce a composable rewrite framework that enables compilers to systematically transform ADT data layouts for improved locality.",
+        "title": "Composable Rewrites for Layouts of Algebraic Data Types"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
     },
     "oai:arXiv.org:2611.19120v1": {
       "entry": {
@@ -3377,19 +3481,6 @@
       },
       "first_seen": "2026-11-19T02:51:55.687950+00:00"
     },
-    "oai:arXiv.org:2611.22763v1": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:2611.22763v1",
-        "link": "https://arxiv.org/abs/2611.22763",
-        "relevance": 5,
-        "source": "arXiv eess.SP (Signal Processing)",
-        "summary": "arXiv:2611.22763v1 Announce Type: new \nAbstract: This work presents a novel structured constellation design based on unitary space-time modulation (USTM) for integrated noncoherent and coherent multiple-input multiple-output (MIMO) communications. Information is encoded into the sparse space-time matrices through two layers: a noncoherent layer that distinguishes points on the Grassmann manifold (subspaces) and a coherent layer that distinguishes among the Stiefel representatives associated with each of those points (bases for the subspaces). We consider sequential decoding of the two layers to reduce computational complexity, while explicitly identifying the matrix structures that favor this decoding strategy. The proposed constellation builds on a previous structured Grassmannian signaling design, which has the remarkable property of producing space-time matrices with a single nonzero entry per row, while introducing a novel systematic design for the second layer corresponding to the Stiefel representatives. The design of the second layer preserves the sparsity of the first layer and significantly reduces the decoding computational complexity, while ensuring reliable performance under sequential decoding and enabling a simple yet effective bit labeling, as validated by numerical results in terms of bit error rate (BER) and symbol error rate (SER). Numerical results also show graceful performance degradation under channel correlation and, for limited coherence intervals where channel state information at the receiver (CSIR) can be estimated only imperfectly, improved performance compared with classical space-time block coding (STBC) schemes based on QAM and PSK.",
-        "summary_vi": "This work proposes a two-layer constellation design for unitary space-time modulation (USTM) in MIMO systems that supports both noncoherent and coherent operation. The noncoherent layer encodes information by distinguishing subspaces on the Grassmann manifold, while the coherent layer differentiates among Stiefel representatives within each subspace, enabling flexible channel-state-information requirements and improving transmission robustness when CSI availability varies.",
-        "title": "Structured Design of Layered Sparse Unitary Space-Time Modulation for Integrated Noncoherent and Coherent MIMO Communications"
-      },
-      "first_seen": "2026-11-19T02:51:55.687950+00:00"
-    },
     "oai:arXiv.org:2611.22844v1": {
       "entry": {
         "category": "research",
@@ -3415,6 +3506,19 @@
         "title": "Similarity-Aware Client-Side Reordering for Server-Side Storage Compression in Distributed File Systems"
       },
       "first_seen": "2026-11-19T02:51:55.687950+00:00"
+    },
+    "oai:arXiv.org:2611.22900v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.22900v1",
+        "link": "https://arxiv.org/abs/2611.22900",
+        "relevance": 4,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2611.22900v1 Announce Type: cross \nAbstract: Embedded LZ77 decompressors (such as heatshrink and tamp) require an in-RAM sliding window that couples memory usage to compression ratio and incurs high latency on random-access reads. We present blaris, a lightweight, windowless LZSS decompressor for execute-in-place (XIP) random access on constrained microcontrollers. By partitioning tokens into bidirectionally traversable streams with power-of-two checkpoints, blaris resolves back-references directly in the compressed payload, achieving compression ratios comparable to high-window heatshrink and tamp configurations without allocating a RAM window. Targeting compress-on-host, decompress-on-device workflows, blaris assumes trusted build-time payloads and omits runtime error and bounds checks. On RV32IMC, it requires just 548-784 B of Flash and 104-112 B of total RAM, achieving orders-of-magnitude faster small-slice random reads than ratio-matched, block-indexed heatshrink and tamp.",
+        "summary_vi": "Embedded LZ77 decompression algorithms require RAM sliding windows that constrain memory and slow down random reads. The authors introduce blaris, a windowless LZSS decompressor designed for execute-in-place (XIP) flash memory on microcontrollers, using bidirectionally traversable streams with power-of-two checkpoints to resolve back-references.",
+        "title": "blaris: Windowless Random-Access LZSS for Constrained Microcontrollers"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
     },
     "oai:arXiv.org:2611.22967v1": {
       "entry": {
@@ -3454,6 +3558,19 @@
         "title": "The Obsolescence of High-Level Code: Agentic Generation from Semantic Artifacts"
       },
       "first_seen": "2026-11-19T14:54:20.761013+00:00"
+    },
+    "oai:arXiv.org:2611.23298v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.23298v1",
+        "link": "https://arxiv.org/abs/2611.23298",
+        "relevance": 4,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2611.23298v1 Announce Type: cross \nAbstract: Software-defined vehicles (SDVs) promise continuous software evolution, but sensor integration in deployed vehicles still depends on manual configuration, hardware-specific drivers, and repeated application-side adaptation. Existing standards address only parts of this problem. AUTOSAR standardizes selected sensor interfaces, the Vehicle Signal Specification (VSS) standardizes signal semantics, and Asset Administration Shells (AAS) standardize digital asset descriptions. However, these building blocks are rarely combined into an end-to-end onboarding path for sensors attached after vehicle deployment.\n This paper presents an AAS-driven plug-and-play sensor integration framework for safety-supervised sensors. Each sensor is represented by an AAS that combines hardware identification, interface metadata, VSS mappings, and references to containerized driver and optional application software. After physical connection, an edge gateway identifies the device, retrieves the matching AAS, deploys the referenced software, and publishes the resulting data under stable vehicle signal paths. A prototype on a resource-constrained edge gateway connected to an RR100 UGV demonstrates automated integration of a USB camera and an ultrasonic sensor. Across repeated integration cycles, the prototype reaches operational state in about 2s, shows no failed events, and keeps applications independent of hardware-specific interfaces. The results indicate that the introduction of AAS as an executable onboarding contract enables automated runtime deployment of sensor drivers in SDV environments.",
+        "summary_vi": "Sensor integration in software-defined vehicles relies on manual configuration and custom drivers because current standards like AUTOSAR and VSS offer incomplete interface coverage. This paper proposes using Asset Administration Shells (AAS) to standardize hardware asset descriptions and enable automated plug-and-play sensor integration.",
+        "title": "Plug-and-Play Sensor Evolution in Software-Defined Vehicles through Asset Administration Shells"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
     },
     "oai:arXiv.org:2611.23324v1": {
       "entry": {
@@ -3637,6 +3754,32 @@
       },
       "first_seen": "2026-11-19T14:54:20.761013+00:00"
     },
+    "oai:arXiv.org:2611.23709v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.23709v1",
+        "link": "https://arxiv.org/abs/2611.23709",
+        "relevance": 3,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.23709v1 Announce Type: new \nAbstract: The availability and utilization of Fisher information in global navigation satellite system (GNSS) direct position estimation (DPE) under multipath-induced channel uncertainty are investigated. First, a unified estimation-theoretic framework is developed to characterize information mapping and utilization across direct and two-step receivers. Next, a scalar-equivalent statistical channel model for short-delay multipath is established via least-squares (LS) projection. Based on this model, receiver-state Cram\\'er-Rao bounds (CRBs) are derived under perfect and statistical channel knowledge, while misspecified CRBs (MCRBs) are derived under a simplified deterministic complex-gain model that neglects channel uncertainty. The closed-form approximations and asymptotic analyses of the derived bounds further reveal how channel uncertainty affects different components of waveform-domain Fisher information. Our results reveal that: 1) DPE and fully coupled two-step estimation achieve comparable accuracy, whereas the performance loss caused by sequential decoupling substantially exceeds the additional loss from suboptimal weighting; 2) under statistical channel knowledge, improving received signal quality does not necessarily yield noticeable positioning gains; 3) positioning information remains available even as the coherent channel mean vanishes; and 4) neglecting channel randomness causes the MCRBs to diverge in this limit and can introduce positioning error floors that become more pronounced with longer observations.",
+        "summary_vi": "Global Navigation Satellite System (GNSS) Direct Position Estimation (DPE) performance suffers from short-delay multipath channel uncertainty. The authors develop an estimation-theoretic framework and statistical channel model to map Fisher information across direct and two-step positioning receiver architectures.",
+        "title": "Fisher Information Characterization in GNSS DPE under Multipath-Induced Channel Uncertainty"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
+    "oai:arXiv.org:2611.23724v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.23724v1",
+        "link": "https://arxiv.org/abs/2611.23724",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.23724v1 Announce Type: new \nAbstract: Planning sixth-generation (6G) networks for reliable coverage across diverse environments is challenging, as it requires channel knowledge between candidate network node locations and potential service regions. This article proposes an environment-aware network planning framework based on any-to-any (X2X) channel knowledge maps (CKMs), which characterize channels between arbitrary transmitter-receiver location pairs. Within this framework, we first construct X2X CKMs from environmental information, sparse channel measurements, or both, with map types and spatial resolutions selected according to the planning task. We then use these maps to predict coverage and optimize network deployment and configuration subject to service requirements and practical constraints, while accounting for subsequent network operation. Finally, field measurements assess channel prediction accuracy and deployment performance, providing feedback for CKM correction and deployment refinement. We discuss implementation methods and tradeoffs across these stages. Case studies illustrate the effectiveness of the framework for indoor intelligent reflecting surface (IRS) deployment and outdoor base station (BS) deployment. Live-network trials further demonstrate coverage gains from IRS deployment and BS reconfiguration, with measurement feedback supporting CKM calibration and configuration refinement.",
+        "summary_vi": "Planning 6G wireless networks requires accurate channel state information across diverse geographical candidate locations. The authors present an environment-aware network planning framework based on Any-to-Any (X2X) Channel Knowledge Maps (CKMs) to predict propagation channels between arbitrary transmitter and receiver pairs.",
+        "title": "Towards Environment-Aware 6G Network Planning: An Any-to-Any Channel Knowledge Map Approach"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
     "oai:arXiv.org:2611.23792v1": {
       "entry": {
         "category": "research",
@@ -3780,6 +3923,32 @@
       },
       "first_seen": "2026-11-19T14:54:20.761013+00:00"
     },
+    "oai:arXiv.org:2611.23927v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.23927v1",
+        "link": "https://arxiv.org/abs/2611.23927",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.23927v1 Announce Type: new \nAbstract: Communication-serviceable capacity for low-altitude unmanned aerial vehicle (UAV) networks depends on both spatial occupancy and wireless quality of service (QoS). This paper formulates a communication-feasible occupancy-planning model that maps candidate-grid assignments to concurrent beam loads and per-user rates under fixed-stream and fixed-beam power. With fixed effective noise, per-beam QoS screening determines maximum admission, and an exact dynamic program maximizes aggregate spectral efficiency at that fixed admission. Signal-level simulations validate the SINR expressions, while an explicit-array model examines load-dependent inter-beam leakage. The dynamic program is globally optimal for the separable integer problem, but that guarantee does not extend to the coupled problem. Equal-time orthogonal multiple access (OMA) and ideal-SIC non-orthogonal multiple access (NOMA) are evaluated through the same local beam reduction under fixed effective noise and fixed per-beam power.",
+        "summary_vi": "Low-altitude Unmanned Aerial Vehicle (UAV) network capacity depends on spatial airspace occupancy and wireless signal quality. The authors present a communication-feasible occupancy-planning model that maps grid assignments to concurrent beam loads and user data rates under fixed-stream and beam power constraints.",
+        "title": "Trade-off Between Airspace and Channel Capacity for Low-altitude Wireless Network"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
+    "oai:arXiv.org:2611.23940v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.23940v1",
+        "link": "https://arxiv.org/abs/2611.23940",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.23940v1 Announce Type: new \nAbstract: Digital semantic communication requires reliable recovery of task-relevant information at a legitimate receiver while limiting source reconstruction by an eavesdropper. Uniform bit protection, however, does not account for the heterogeneous reliability and secrecy requirements of semantic bits. This paper proposes a bit-level physical layer security (PLS) framework that learns these requirements and incorporates them into physical-layer resource allocation. We first introduce a wiretap semantic feature channel whose two-stage training learns per-bit target bit-flip probabilities for the legitimate receiver (Bob) and the eavesdropper (Eve). These targets characterize the reliability requirements at Bob and the secrecy protection requirements against Eve. Based on the learned targets, we formulate a joint power and artificial-noise (AN) allocation problem for a multiple-input single-output wiretap channel under a worst-case angular-separation model. For a given target profile, the optimal information-AN power split admits a closed-form solution, and the per-bit power allocation is obtained by water-filling. We further develop a leakage-aware selection method among multiple learned-target profiles and extend the design to multiple-input multiple-output channels. Simulation results demonstrate that the proposed framework achieves a better trade-off between preserving reconstruction quality at Bob and degrading that at Eve than uniform power allocation and the evaluated learning-based secure semantic communication schemes.",
+        "summary_vi": "Standard physical layer security treats all transmitted bits equally, ignoring the dynamic task relevance of semantic data. The authors propose a bit-level physical layer security framework that learns non-uniform secrecy requirements to optimize radio resource allocation and block eavesdropper reconstruction.",
+        "title": "Physical Layer Security for Digital Semantic Communication: A Bit-Level Perspective"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
     "oai:arXiv.org:2611.23973v1": {
       "entry": {
         "category": "research",
@@ -3819,6 +3988,19 @@
       },
       "first_seen": "2026-11-19T14:54:20.761013+00:00"
     },
+    "oai:arXiv.org:2611.24085v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.24085v1",
+        "link": "https://arxiv.org/abs/2611.24085",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.24085v1 Announce Type: new \nAbstract: Evaluating distributed large language model (LLM) serving on heterogeneous edge devices requires exploring diverse model partitions, device placements, and network conditions, making repeated physical experiments costly. An efficient simulator for edge LLM serving must support diverse, fine-grained placement configurations, capture runtime behavior, and accurately predict execution times while keeping simulation overhead low. We present LEDGE, a lightweight simulator for fast, fine-grained evaluation of distributed LLM serving on heterogeneous edge devices without executing tensor operations. LEDGE constructs event graphs supporting non-uniform tensor and pipeline parallelism, estimates execution costs using reusable performance models calibrated from end-to-end measurements, and simulates shared-link contention. We evaluate LEDGE on a heterogeneous testbed of 10 Jetson and Raspberry Pi devices, covering 17 model--precision combinations across 4 LLM families. On Qwen deployments, LEDGE achieves request-level mean absolute percentage errors below 3.6% and a 135.3 times aggregate speedup over physical inference. Performance model calibrated on one LLM family yield 7.44% zero-shot end-to-end latency MAPE across three other families. Further simulations show how shared-link contention affects placement decisions and network topology constrains scaling. Across four edge environments, LEDGE completes 26,773 simulation runs in 83.8 minutes, enabling efficient exploration of deployment strategies under diverse resource conditions and serving objectives. The source code is publicly available at https://github.com/gdfwj/LEDGE.",
+        "summary_vi": "Evaluating distributed Large Language Model serving across heterogeneous edge devices through physical hardware testing is resource-intensive. The authors present LEDGE, a lightweight simulator that models workload placement, network conditions, and execution latency across edge nodes, though simulation error metrics are omitted in the snippet.",
+        "title": "LEDGE: An Efficient Simulator for Distributed LLM Serving on Heterogeneous Edge Devices"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
     "oai:arXiv.org:2611.24208v1": {
       "entry": {
         "category": "research",
@@ -3832,6 +4014,58 @@
       },
       "first_seen": "2026-11-19T14:54:20.761013+00:00"
     },
+    "oai:arXiv.org:2611.24234v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.24234v1",
+        "link": "https://arxiv.org/abs/2611.24234",
+        "relevance": 3,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.24234v1 Announce Type: new \nAbstract: Vision-language-action (VLA) models such as GR00T control robots through an action head: a diffusion transformer that turns noise into a chunk of actions in a few flow-matching steps. Every step re-reads all of the head's weights from DRAM but applies each weight to only about fifty tokens. Inference is therefore memory-bound, and its latency and energy are largely determined by the total number of transferred weight bits. We show that later flow steps attenuate the quantization errors of earlier steps, so the weight precision of an action head should rise over the steps. With plain per-channel rounding and without calibration or training, widths rising over the steps from 2 to 4 bits preserve the closed-loop success of robot policies. These widths transfer 25% fewer bits than 4-bit weights at every step. However, we show that on Jetson AGX Thor, current GPU kernels cannot exploit this per-step precision due to fixed overheads. We therefore present a programmable accelerator whose latency and energy both scale with the transferred weight bits. It decodes entropy-coded weights for bit-serial sub-arrays at the DRAM rate. Because the width changes per step, a run-time allocator divides these sub-arrays between the linear layers and the attention to balance their workloads. The same sub-arrays are thus capable of running action heads of different families and sizes, as well as a vision-language model. On the DRAM side, a requantizer and an entropy encoder at each bank let one stored 8-bit copy replace the copies of all widths. Simulated with LPDDR5X timing, our RTL implementation runs the GR00T N1.6 action head in 8.02 ms per inference with 2, 3, 3 and 4 bits in its four flow steps. With a copy per width and 50% of Thor's memory bandwidth, the accelerator runs this schedule 1.7x faster than Thor in NVFP4, at 9.1x less energy and equal closed-loop success.",
+        "summary_vi": "Vision-Language-Action (VLA) robotics models face memory bandwidth limits because each diffusion flow-matching step repeatedly reads DRAM weights for very few tokens. The authors propose dynamically increasing weight precision across successive flow steps to reduce bit transfer overhead, though throughput figures are not provided in the snippet.",
+        "title": "Hardware Acceleration of Vision-Language-Action Models with Weight Precision Rising over the Flow Steps"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
+    "oai:arXiv.org:2611.24264v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.24264v1",
+        "link": "https://arxiv.org/abs/2611.24264",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.24264v1 Announce Type: new \nAbstract: Graph partitioning is a key enabler in computational science, with applications to sparse linear algebra, load-balanced parallel computation, and graph computations. In recent years, graphics processing units (GPUs) have become the preferred accelerator on the world's top supercomputers. Despite this, most existing distributed graph partitioners do not utilize GPUs. In this work, we develop a new multi-GPU distributed partitioner based on Jet, a prior single-GPU partitioner. We seek to optimize scalability without sacrificing quality. Our partitioner utilizes CUDA-aware MPI, one-sided communication routines, and an overall bulk-synchronous parallel structure. We demonstrate solution quality comparable to Jet. Our experiments show excellent weak scaling up to 256 GPUs, enabling partitioning of instances significantly larger than a single-GPU partitioner can handle.",
+        "summary_vi": "Distributed graph partitioners largely run on CPUs, missing the performance benefits of GPU-accelerated supercomputing clusters. The authors develop a multi-GPU distributed partitioner based on the Jet framework to accelerate sparse linear algebra and load-balanced parallel graph computations, though performance metrics are omitted in the snippet.",
+        "title": "Multilevel Graph Partitioning on GPU Supercomputers"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
+    "oai:arXiv.org:2611.24269v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.24269v1",
+        "link": "https://arxiv.org/abs/2611.24269",
+        "relevance": 4,
+        "source": "arXiv cs.OS (Operating Systems)",
+        "summary": "arXiv:2611.24269v1 Announce Type: cross \nAbstract: We analyze collateral evolution in Linux, the coordinated updates that drivers require when the kernel interfaces they depend on change, over the 20 years since it was first studied, covering releases from v3.0 to v7.2. Since v2.6.13, the number of driver files and support libraries has grown about eightfold, a single change to the most widely used library can now reach about 5.3k driver files, and such changes arrive either in bursts or spread over many releases. We introduce CoEvoBench, a benchmark that asks models to adapt an old driver module to a target kernel and evaluates the result against the developer's reference patch. The benchmark contains 316 manually confirmed tasks from 202 mainline commits and 268 modules, spanning kernel releases v6.19 to v7.2. It distinguishes 134 build-breaking tasks, where the old driver fails to compile, from 182 build-compatible tasks, where the old usage still builds. Using CoEvoAgent, we evaluate Direct, SmPL, and mini-SWE-agent with DeepSeek Flash, and compare Direct with Claude Sonnet 5.5 and GPT-6.1 Sol. With DeepSeek, default Direct generation achieves strict reference agreement on 41.0% of build-breaking tasks but only 3.3% of build-compatible tasks.",
+        "summary_vi": "Analysis of Linux kernel releases v3.0 to v7.2 reveals an eightfold increase in driver files, where single API changes can impact over 5,300 files. This paper evaluates whether Large Language Models can automatically refactor C device drivers when internal kernel interfaces change, though model accuracy rates are omitted in the snippet.",
+        "title": "Keeping Up with the Kernel: Can LLMs Adapt Linux Drivers to Interface Changes?"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
+    "oai:arXiv.org:2611.24398v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.24398v1",
+        "link": "https://arxiv.org/abs/2611.24398",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.24398v1 Announce Type: new \nAbstract: Autoscaling enables cloud-native applications to meet their SLOs by dynamically adjusting computational resources at runtime. Recent research has explored a broad range of advanced autoscaling approaches, including rule-based, optimisation-based, and machine learning-based techniques, to address the limitations of traditional resource management strategies in cloud-native environments. Despite significant advances, a considerable gap remains between academic innovations and their practical adoption in real-world environments. For instance, Kubernetes deployments commonly rely on the reactive, CPU-based Horizontal Pod Autoscaler, limiting the adoption of more advanced autoscaling approaches. Recent studies have investigated challenges such as autoscaler configuration and reproducible performance evaluation; however, the practical deployment, integration complexity, and operational overhead of research-based autoscalers in Kubernetes environments have received limited attention. To address this gap, we present ScaleBench, a native Kubernetes experimental platform to enable extensible and reproducible evaluation of autoscaling solutions. Unlike existing approaches, ScaleBench integrates autoscalers as native Kubernetes components, allowing researchers to assess not only scaling performance but also deployment characteristics and integration requirements within realistic cloud-native environments. We demonstrate the effectiveness of ScaleBench by evaluating multiple autoscaling approaches through a case study. The results highlight its capability to support systematic, repeatable, and practical assessment of Kubernetes autoscaling approaches.",
+        "summary_vi": "Comparing rule-based, optimization, and machine learning autoscaling algorithms in Kubernetes is difficult due to the lack of standardized testing platforms. The authors present ScaleBench, an extensible experimental platform designed to run reproducible benchmarks for cloud-native autoscaling research.",
+        "title": "ScaleBench: An Extensible and Reproducible Experimental Platform for Kubernetes Autoscaling Research"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
     "oai:arXiv.org:2611.24437v1": {
       "entry": {
         "category": "research",
@@ -3844,6 +4078,45 @@
         "title": "Dissecting an Unexplored SASS Control-Code Field: Barrier Exemption and Programmable Warp Priority"
       },
       "first_seen": "2026-11-19T14:54:20.761013+00:00"
+    },
+    "oai:arXiv.org:2611.24458v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.24458v1",
+        "link": "https://arxiv.org/abs/2611.24458",
+        "relevance": 4,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.24458v1 Announce Type: new \nAbstract: To avoid scheduling delays when running concurrent workloads on a GPU, Streaming Multiprocessor (SM) partitioning mechanisms such as CUDA Green Contexts restrict each workload to separate SMs. Despite this partitioning, concurrent workloads still significantly slow down latency-critical workloads, which recent studies attribute to shared L2 cache and memory contention. However, contention also occurs at the crossbar ports connecting each Graphics Processing Cluster (GPC) of SMs to the L2 cache, as all SMs in a GPC share one port. Green Contexts spread workloads across GPCs, placing concurrent workloads in the same GPCs and forcing latency-critical memory requests to queue behind background requests. Packing workloads into separate GPCs avoids this contention, but forces latency-critical memory requests through fewer ports, limiting memory bandwidth. Consequently, neither spreading nor packing is always faster across workloads and GPUs. Based on these observations, we present GPCPlace, a runtime system that dynamically selects between spreading and packing by profiling workloads on the target GPU to estimate both slowdowns, and hooks kernel launches in the CUDA driver to set SM masks without application modifications. Across 14 GPUs and 112 workload cases, GPCPlace speeds up latency-critical workloads by up to 1.15x on average and 2.38x maximum over Green Contexts without degrading throughput.",
+        "summary_vi": "Streaming Multiprocessor (SM) partitioning tools like CUDA Green Contexts isolate concurrent GPU workloads, but latency-critical tasks still experience slowdowns due to shared crossbar port contention. The authors present a runtime system designed to mitigate interconnect crossbar contention across partitioned SMs.",
+        "title": "A Runtime System for Mitigating Crossbar Port Contention on SM-Partitioned GPUs"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
+    "oai:arXiv.org:2611.24460v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.24460v1",
+        "link": "https://arxiv.org/abs/2611.24460",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.24460v1 Announce Type: new \nAbstract: Despite countless mitigation efforts, memory safety issues still prevail. The recently discovered security issues in PHP underline this fact. One of the most promising approaches to solving this problem is the concept of Capability Hardware Enhanced RISC Instructions (CHERI). There is a well-developed ecosystem of ISA simulators, compilers, operating systems, and hardware designs that support CHERI. However, the lack of a simulator modeling microarchitectural detail hinders efficient and fast design space exploration for CHERI-enhanced designs means the performance impact of CHERI remains understudied. Therefore, we present gem5-CHERI: a CHERI-enhanced adaptation of the gem5 simulator that can boot the CheriBSD operating system and run custom workloads. The simulator is available open-source on GitHub.",
+        "summary_vi": "Modern software remains vulnerable to memory safety exploits, which Capability Hardware Enhanced RISC Instructions (CHERI) aim to eliminate at the hardware level. To address the lack of microarchitectural simulation support, this report details an implementation of CHERI capabilities within the gem5 cycle-accurate simulator.",
+        "title": "TechReport: Implementing CHERI in gem5"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
+    "oai:arXiv.org:2611.24466v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.24466v1",
+        "link": "https://arxiv.org/abs/2611.24466",
+        "relevance": 3,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.24466v1 Announce Type: new \nAbstract: The increasing aquatic Internet of Things (AIoTs) require computational support and coverage in applications such as maritime search and rescue. Unmanned aerial vehicles (UAVs) can offer low-cost, flexible aerial services, and ground stations (GSs) can provide powerful supports, which can cooperate to help the AIoTs in complex scenarios. However, the collaboration between UAVs and GSs for AIoTs faces challenges of task uncertainties, AIoTs trajectory uncertainties, heterogeneities, and limited computational resources. To address these issues, we propose a cooperative UAV and GS based robust multi-access edge computing (MEC) framework to assist AIoTs in completing computational tasks. Specifically, we formulate the optimization problem of joint task offloading and UAV trajectory to minimize the total execution time, which is in the form of mixed integer nonlinear programming and NP-hard to tackle. Therefore, we propose the algorithm of generative artificial intelligence-enhanced heterogeneous agent proximal policy optimization (GAI-HAPPO). The proposed algorithm integrates GAI models to enhance the actor network ability to model complex environments and extract high-level features, thereby allowing the algorithm to predict uncertainties and adapt to dynamic conditions. Additionally, GAI stabilizes the critic network, addressing the instability of multi-agent reinforcement learning approaches. Finally, extensive simulations demonstrate that the proposed algorithm outperforms the existing benchmark methods, thus highlighting the potentials in tackling intricate, cross-domain issues in the considered scenarios.",
+        "summary_vi": "Dynamic aquatic Internet of Things (AIoT) deployments face coverage and computational limitations during search and rescue operations. To handle trajectory and task uncertainties, this paper presents a generative AI-enhanced framework coordinating unmanned aerial vehicles and ground stations for mobile edge computing.",
+        "title": "Cooperative UAV and Ground Station for Robust MEC of Dynamic Aquatic IoT: A Generative AI-Enhanced Approach"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
     },
     "oai:arXiv.org:2611.24496v1": {
       "entry": {
@@ -3871,6 +4144,32 @@
       },
       "first_seen": "2026-11-19T14:54:20.761013+00:00"
     },
+    "oai:arXiv.org:2611.24591v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.24591v1",
+        "link": "https://arxiv.org/abs/2611.24591",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.24591v1 Announce Type: new \nAbstract: The frequent static failure of CMOS logic gates at ultra-low voltages has historically been perceived as a strict barrier to extreme voltage scaling: this paper introduces a statistical circuit law proving this intuition wrong. We discovered a universal power law connecting gate and circuit static failure probabilities, revealing that circuit failure requires the simultaneous breakdown of an entire gate cluster rather than a single component. Because the required cluster size increases rapidly as voltage drops, low-voltage \\textit{sub-digital} logic exhibits surprising inherent resilience to static failure. This insight stems from new theoretical tools we developed to quantify static failure, extending well beyond conventional voltage-margin analysis. Consequently, sub-digital processors could potentially offer a viable, near-term solution to drastically reduce the energy demands of AI.",
+        "summary_vi": "Ultra-low voltage scaling in CMOS logic gate circuits has been hindered by frequent static component failures. The authors discover a universal statistical power law proving circuit failure requires the simultaneous breakdown of an entire gate cluster, enabling reliable arithmetic circuits built from unreliable sub-digital logic.",
+        "title": "Reliable arithmetic circuits using less reliable (sub-digital) logic"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
+    "oai:arXiv.org:2611.24637v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.24637v1",
+        "link": "https://arxiv.org/abs/2611.24637",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.24637v1 Announce Type: new \nAbstract: Continual learning (CL) enables neural networks to adapt to non-stationary data streams by mitigating catastrophic forgetting, offering a path to robust, private, and adaptable edge devices. Yet, porting CL to real-world edge devices remains challenging for two reasons: (i) online operation, where sensor data arrives one sample at a time and the device must adapt on-the-fly, and (ii) the low footprint of edge devices, which makes traditional error backpropagation training prohibitive. Inspired by the brain's wake and sleep cycles, the former for rapid adaptation with minimal resources and the latter for long-term consolidation, we introduce Hypnos, an open-source dual-phase platform for efficient CL at the edge. In the wake phase (e.g., daily operation), Hypnos relies on a low-footprint system-on-chip with a RISC-V microcontroller unit (MCU) targeting efficient inference and supporting lightweight gradient-free prototype updates. In the sleep phase (e.g., night-time charging), where wall-plug energy and larger memory budgets are available, a smart charger performs rehearsal-based gradient updates for consolidation. Deployed on a ZCU104 field-programmable gate array (FPGA) and synthesized in a 28-nm process, Hypnos is benchmarked on the CORe50 NICv2-391 protocol. It sets a new state-of-the-art accuracy of 78.6%-81.6% for edge CL systems, with an on-device latency of 7.79s-10.54s per sample depending on activation precision, and requires $3.8\\times$ fewer learning steps and $22\\times$ less learning compute than quantized latent replay at higher accuracy and comparable latency.",
+        "summary_vi": "Deploying continual learning on edge devices is difficult due to single-sample data arrival and strict hardware resource bounds. The authors introduce Hypnos, a dual-phase platform that mitigates catastrophic forgetting for on-device learning, though benchmark results are not detailed in the snippet.",
+        "title": "Hypnos: A Dual-Phase End-to-End Platform for Scalable Continual Learning at the Edge"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
     "oai:arXiv.org:2611.24649v1": {
       "entry": {
         "category": "research",
@@ -3883,6 +4182,45 @@
         "title": "A Principled Approach to Concurrency, Nondeterminism, and Asynchrony in Choreographies"
       },
       "first_seen": "2026-11-19T14:54:20.761013+00:00"
+    },
+    "oai:arXiv.org:2611.24676v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.24676v1",
+        "link": "https://arxiv.org/abs/2611.24676",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.24676v1 Announce Type: new \nAbstract: Slotted ALOHA networks constitute a playground for research on machine learning (ML)-based channel access schemes. We consider ML agents deployed in such networks and operating under severe constraints: fully distributed (independent operation), fully online (no pre-training), aperiodic (no fixed schedule), and with no explicit coordination (no signaling). We ask whether a multi-armed bandit (MAB), a minimal reinforcement learning agent, can learn the optimal policy for a capture-free slotted ALOHA system. We evaluate several MAB algorithms on aggregate network throughput and per-node fairness. Our best-performing agent is based on a Softmax bandit, which we call SALSA (Softmax ALOHA Learning for Shared Access). SALSA learns a per-node transmission policy close to optimal, with throughput near the theoretical maximum for fair random access. We achieve performance comparable to a competing state-of-the-art solution, but without requiring a priori knowledge of the network size.",
+        "summary_vi": "Managing wireless channel access in Slotted ALOHA networks without explicit coordination remains challenging. This paper investigates whether lightweight Multi-Armed Bandit (MAB) reinforcement learning agents—operating fully distributed, online, and without pre-training or fixed schedules—can learn to share spectrum access under severe operational constraints.",
+        "title": "Can Bandits Learn to Share a Channel? Distributed Multi-Armed Bandits for Slotted ALOHA"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
+    "oai:arXiv.org:2611.24702v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.24702v1",
+        "link": "https://arxiv.org/abs/2611.24702",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.24702v1 Announce Type: cross \nAbstract: Measuring inter-node distances is the basis for network localization, whereas acquiring node positions does not require a fully connected graph of distances. Existing complete-ranging protocols for network localization require every node pair to exchange signals, which prolongs the ranging cycle. In this paper, we propose sparse signal-multiplexing network ranging (S-SM-NR), a task-oriented framework that adapts the transmit-listen schedule to the ranging task required by network localization. First, we establish the S-SM-NR framework by formulating the joint design of the task graph and the transmit-listen schedule. Then, we analyze the minimum round count required by S-SM-NR and establish a connectivity condition for network localization. Subsequently, we develop a closed-form joint design that constructs the sparse task graph and the balanced transmit-listen schedule. In particular, the joint design can achieve the minimum round count under the complete physical connectivity. Finally, simulations show that the proposed S-SM-NR scheme reduces the occupied-round count and improves the localization accuracy by shortening the ranging cycle.",
+        "summary_vi": "Traditional wireless network localization relies on complete-ranging protocols where all node pairs exchange signals, lengthening measurement cycles. The authors propose sparse signal-multiplexing network ranging (S-SM-NR), a task-oriented framework that adapts transmit-listen schedules using sparse graph design to reduce ranging latency.",
+        "title": "Task-Oriented Network Ranging via Joint Graph and Schedule Design"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
+    },
+    "oai:arXiv.org:2611.24733v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.24733v1",
+        "link": "https://arxiv.org/abs/2611.24733",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.24733v1 Announce Type: new \nAbstract: NPU design-space exploration for LLM inference mainly relies on an expensive simulator that often returns only scalar feedback such as latency and power. Such feedback can rank evaluated configurations, but gives little information for deciding why a configuration is slow or which architecture parameter should be changed next. This limitation is especially severe because prefill and decode workloads can be limited by different resources, including compute throughput and HBM bandwidth. We propose CriticNPU, a sample-efficient DSE framework built around an online-calibrated mechanistic critic for NPU architecture design. The critic uses explicit hardware limits to evaluate NPU configurations: before simulation, it estimates whether a proposed configuration is likely to improve over the current best and filters weak candidates; after simulation, it aggregates operator-level runtimes into prefill/decode bottleneck summaries and predicts the effect of candidate parameter changes. We instantiate the critic with a Roofline-style model that derives compute and memory limits from architecture parameters and calibrates per-operator-type effective limits using simulator observations. And CriticNPU combines this critic with a workload extractor and an architecture planner to propose configurations. Across six LLM workloads and 16 deployment configurations per model, CriticNPU achieves best-or-tied-best latency in 74% of prefill and 87.5% of decode settings while using roughly half the simulator calls of competitive DSE baselines. We conduct extensive ablation studies and detailed analyses to validate the effectiveness of our method from multiple perspectives. Our code is available at https://github.com/bruno686/CriticNPU.",
+        "summary_vi": "Neural Processing Unit (NPU) simulators for Large Language Model inference provide scalar latency and power outputs, making it difficult to pinpoint bottlenecks across prefill and decode phases. The authors propose Mechanistic Critics to provide detailed diagnostic feedback for sample-efficient NPU architecture design.",
+        "title": "Mechanistic Critics for Sample-Efficient NPU Design-Space Exploration"
+      },
+      "first_seen": "2026-11-20T02:39:50.793304+00:00"
     }
   },
   "rejected": {
@@ -3917,12 +4255,7 @@
     "https://linuxgizmos.com/?p=99906": "2026-11-19T02:51:55.687950+00:00",
     "https://lwn.net/Articles/1094226/": "2026-10-22T00:14:37.714250+00:00",
     "https://lwn.net/Articles/1099606/": "2026-10-23T00:11:08.671003+00:00",
-    "https://lwn.net/Articles/1100257/": "2026-10-21T00:09:49.548846+00:00",
-    "https://lwn.net/Articles/1100520/": "2026-10-21T00:09:49.548846+00:00",
-    "https://lwn.net/Articles/1101536/": "2026-10-21T00:09:49.548846+00:00",
     "https://lwn.net/Articles/1101617/": "2026-10-21T10:36:54.456279+00:00",
-    "https://lwn.net/Articles/1101643/": "2026-10-21T00:09:49.548846+00:00",
-    "https://lwn.net/Articles/1101687/": "2026-10-21T00:09:49.548846+00:00",
     "https://lwn.net/Articles/1101758/": "2026-10-22T10:40:49.740733+00:00",
     "https://lwn.net/Articles/1102005/": "2026-10-22T10:40:49.740733+00:00",
     "https://lwn.net/Articles/1102014/": "2026-10-22T10:40:49.740733+00:00",
@@ -3982,6 +4315,8 @@
     "https://lwn.net/Articles/1107472/": "2026-11-14T01:48:25.229918+00:00",
     "https://lwn.net/Articles/1108153/": "2026-11-19T02:51:55.687950+00:00",
     "https://lwn.net/Articles/1108155/": "2026-11-18T03:11:30.700802+00:00",
+    "https://lwn.net/Articles/1108555/": "2026-11-20T02:39:50.793304+00:00",
+    "https://lwn.net/Articles/1108561/": "2026-11-20T02:39:50.793304+00:00",
     "https://rcrwireless.com/?p=435710": "2026-10-22T00:14:37.714250+00:00",
     "https://rcrwireless.com/?p=435721": "2026-10-22T10:40:49.740733+00:00",
     "https://rcrwireless.com/?p=435746": "2026-10-28T11:41:08.830280+00:00",
@@ -4019,6 +4354,7 @@
     "https://rcrwireless.com/?p=436008": "2026-11-13T13:28:43.358051+00:00",
     "https://rcrwireless.com/?p=436022": "2026-11-16T14:02:56.215796+00:00",
     "https://rcrwireless.com/?p=436057": "2026-11-18T03:11:30.700802+00:00",
+    "https://rcrwireless.com/?p=436099": "2026-11-20T02:39:50.793304+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/Micro-World-V2/README.html": "2026-10-22T00:14:37.714250+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/eagle3-training/README.html": "2026-10-28T00:46:21.169893+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/faster-action-models/README.html": "2026-10-22T00:14:37.714250+00:00",
@@ -4031,17 +4367,14 @@
     "https://rocm.blogs.amd.com/artificial-intelligence/quark-wan22-mixed-precision/README.html": "2026-11-05T01:49:34.737244+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/rocm-ls-2608/README.html": "2026-11-13T02:09:07.409503+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/rocm10-ray/README.html": "2026-10-28T00:46:21.169893+00:00",
-    "https://rocm.blogs.amd.com/artificial-intelligence/rocopt/README.html": "2026-10-21T00:09:49.548846+00:00",
     "https://rocm.blogs.amd.com/ecosystems-and-partners/deepseek-v4-mi308-aiter-backed-rl/README.html": "2026-10-29T01:15:38.013696+00:00",
     "https://rocm.blogs.amd.com/ecosystems-and-partners/rocm-10.2-blog/README.html": "2026-11-19T02:51:55.687950+00:00",
     "https://rocm.blogs.amd.com/ecosystems-and-partners/ultralytics-amd/README.html": "2026-10-27T00:50:51.993375+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/flydsl-mono-atom/README.html": "2026-11-04T01:43:07.426560+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/glm52-agentx-mi355x/README.html": "2026-11-05T01:49:34.737244+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/gpu-initiated-sdma/README.html": "2026-11-14T01:48:25.229918+00:00",
-    "https://rocm.blogs.amd.com/software-tools-optimization/hipcim-26-08/README.html": "2026-10-21T00:09:49.548846+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/inferasim/README.html": "2026-11-07T01:13:55.085191+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/madengine-primus-profiling/README.html": "2026-11-06T01:57:39.156695+00:00",
-    "https://rocm.blogs.amd.com/software-tools-optimization/megakernel-intro/README.html": "2026-10-21T00:09:49.548846+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/openxla-group-gemm/README.html": "2026-10-27T00:50:51.993375+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/primus-moe-optimization/README.html": "2026-10-22T00:14:37.714250+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/primusclaw/README.html": "2026-11-07T01:13:55.085191+00:00",
@@ -4103,6 +4436,7 @@
     "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html": "2026-11-02T13:55:07.841963+00:00",
     "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html": "2026-11-04T13:19:08.134166+00:00",
     "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html": "2026-11-13T02:09:07.409503+00:00",
+    "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html": "2026-11-20T02:39:50.793304+00:00",
     "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html": "2026-11-12T02:32:46.806375+00:00",
     "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html": "2026-11-03T03:07:33.506203+00:00",
     "https://thehackernews.com/2026/11/default-adminadmin-server-password.html": "2026-11-09T14:23:45.834216+00:00",
@@ -4159,6 +4493,7 @@
     "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html": "2026-11-06T13:18:31.957095+00:00",
     "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html": "2026-11-13T02:09:07.409503+00:00",
     "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html": "2026-11-06T01:57:39.156695+00:00",
+    "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html": "2026-11-20T02:39:50.793304+00:00",
     "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html": "2026-11-11T01:31:16.709923+00:00",
     "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html": "2026-11-18T03:11:30.700802+00:00",
     "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html": "2026-11-11T12:59:29.572890+00:00",
@@ -4235,8 +4570,11 @@
     "https://www.huawei.com/en/news/2022/7/spark-thailand-startup-competition": "2026-11-13T02:09:07.409503+00:00",
     "https://www.huawei.com/en/news/2023/3/women-tech-transform": "2026-11-13T13:28:43.358051+00:00",
     "https://www.huawei.com/en/news/2026/10/nisco-yuanye-steelmodel": "2026-10-28T00:46:21.169893+00:00",
+    "https://www.huawei.com/en/news/2026/11/agenticcore-whitepaper": "2026-11-20T02:39:50.793304+00:00",
+    "https://www.huawei.com/en/news/2026/11/real5g-elaa-easyseries": "2026-11-20T02:39:50.793304+00:00",
     "https://www.huawei.com/en/news/2026/11/wireless-documentary": "2026-11-07T01:13:55.085191+00:00",
     "https://www.huawei.com/en/news/2026/3/mwc-green-resilience": "2026-11-13T02:09:07.409503+00:00",
+    "https://www.linuxfoundation.org/blog/innovation-at-speed-new-insights-from-the-2026-state-of-open-source-in-financial-services": "2026-11-20T02:39:50.793304+00:00",
     "https://www.linuxfoundation.org/blog/lf-research-launches-2027-series-of-studies-and-opens-call-for-sponsors": "2026-11-12T02:32:46.806375+00:00",
     "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-november-2026": "2026-11-19T02:51:55.687950+00:00",
     "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-october-2026": "2026-10-22T00:14:37.714250+00:00",
@@ -4262,7 +4600,6 @@
     "https://www.phoronix.com/news/AerynOS-2026.11": "2026-11-03T03:07:33.506203+00:00",
     "https://www.phoronix.com/news/Azure-Linux-3.0.2022": "2026-11-07T11:56:46.016476+00:00",
     "https://www.phoronix.com/news/Borealis-Vulkan-Driver": "2026-10-24T00:02:40.989120+00:00",
-    "https://www.phoronix.com/news/COSMIC-Epoch-1.11": "2026-10-21T00:09:49.548846+00:00",
     "https://www.phoronix.com/news/ChaCha-AVX-512-Linux-7.5": "2026-11-09T14:23:45.834216+00:00",
     "https://www.phoronix.com/news/Cloudflare-Kitesurf-Open-Source": "2026-11-14T01:48:25.229918+00:00",
     "https://www.phoronix.com/news/DXVK-NVAPI-0.9.3": "2026-10-31T11:15:22.551414+00:00",
@@ -4296,7 +4633,6 @@
     "https://www.phoronix.com/news/HPFS-For-Linux-Removal": "2026-10-24T00:02:40.989120+00:00",
     "https://www.phoronix.com/news/HyprBSD": "2026-11-08T00:56:33.966379+00:00",
     "https://www.phoronix.com/news/Hyprland-0.57": "2026-10-29T04:16:31.165926+00:00",
-    "https://www.phoronix.com/news/Intel-AMD-oneDNN-Optimize": "2026-10-21T00:09:49.548846+00:00",
     "https://www.phoronix.com/news/Intel-ANV-AV1-Bitrate-Control": "2026-11-10T03:50:12.495881+00:00",
     "https://www.phoronix.com/news/Intel-CPU-Microcode-20261110": "2026-11-11T12:59:29.572890+00:00",
     "https://www.phoronix.com/news/Intel-Compute-26.40.40196.8": "2026-11-03T13:02:11.696372+00:00",
@@ -4316,6 +4652,7 @@
     "https://www.phoronix.com/news/KMSCON-10.1-Released": "2026-10-27T00:50:51.993375+00:00",
     "https://www.phoronix.com/news/Khronos-Remote-Offloading-API": "2026-11-13T02:09:07.409503+00:00",
     "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities": "2026-10-22T10:40:49.740733+00:00",
+    "https://www.phoronix.com/news/LLVM-Re-Licensing-Complete": "2026-11-20T02:39:50.793304+00:00",
     "https://www.phoronix.com/news/LXQt-2.5-Released": "2026-11-05T01:49:34.737244+00:00",
     "https://www.phoronix.com/news/LZ4-1.11-Released": "2026-11-05T01:49:34.737244+00:00",
     "https://www.phoronix.com/news/Lemonade-2026.45.3": "2026-11-05T13:31:37.120286+00:00",
@@ -4351,7 +4688,6 @@
     "https://www.phoronix.com/news/Linux-7.5-hwpoison-panic": "2026-11-14T12:31:22.833498+00:00",
     "https://www.phoronix.com/news/Linux-AMD-Zen-AI-Detection": "2026-10-23T00:11:08.671003+00:00",
     "https://www.phoronix.com/news/Linux-Dropping-Last-MMX-Opt": "2026-11-03T13:02:11.696372+00:00",
-    "https://www.phoronix.com/news/Linux-Foundation-25p-AI-Slop": "2026-10-21T00:09:49.548846+00:00",
     "https://www.phoronix.com/news/Linux-Kernel-Apple-AirDrop-Code": "2026-11-06T13:18:31.957095+00:00",
     "https://www.phoronix.com/news/Linux-Kernel-Shadow-Stacks": "2026-10-23T00:11:08.671003+00:00",
     "https://www.phoronix.com/news/Linux-May-Retire-PPP-BSD-Comp": "2026-10-28T11:41:08.830280+00:00",
@@ -4379,11 +4715,13 @@
     "https://www.phoronix.com/news/OpenIndiana-2026.10": "2026-11-08T00:56:33.966379+00:00",
     "https://www.phoronix.com/news/OpenSSL-4.1-Released": "2026-10-24T09:48:53.438495+00:00",
     "https://www.phoronix.com/news/OpenShot-4.1-Released": "2026-11-01T00:26:52.886150+00:00",
+    "https://www.phoronix.com/news/PHP-8.6-Released": "2026-11-20T02:39:50.793304+00:00",
     "https://www.phoronix.com/news/PHP-New-Critical-CVEs-October": "2026-10-22T00:14:37.714250+00:00",
     "https://www.phoronix.com/news/Pavee-OS": "2026-10-28T00:46:21.169893+00:00",
     "https://www.phoronix.com/news/Plasma-6.9-XWayland-On-Demand": "2026-11-14T12:31:22.833498+00:00",
     "https://www.phoronix.com/news/Polo-Wayland-Compositor-MATE": "2026-11-12T14:00:43.491207+00:00",
     "https://www.phoronix.com/news/PostgreSQL-19-Late": "2026-10-31T01:04:35.861546+00:00",
+    "https://www.phoronix.com/news/PostgreSQL-19-Released": "2026-11-20T02:39:50.793304+00:00",
     "https://www.phoronix.com/news/PostgreSQL-52-CVEs": "2026-11-13T02:09:07.409503+00:00",
     "https://www.phoronix.com/news/RADV-Adopts-LLM-Policy": "2026-11-02T13:55:07.841963+00:00",
     "https://www.phoronix.com/news/RAID-Drive-Replacement-Tonight": "2026-11-01T12:03:06.789682+00:00",
@@ -4427,16 +4765,10 @@
     "https://www.phoronix.com/review/linux-74-threadripper": "2026-11-05T01:49:34.737244+00:00",
     "https://www.phoronix.com/review/nvidia-vera-1p-2p": "2026-10-30T01:24:44.649656+00:00",
     "https://www.phoronix.com/review/snapdragon-x2-linux": "2026-10-22T00:14:37.714250+00:00",
-    "https://www.phoronix.com/review/ubuntu-2610-arrow-lake": "2026-10-21T00:09:49.548846+00:00",
-    "https://www.reddit.com/r/embedded/t3_1xaok70": "2026-10-21T00:09:49.548846+00:00",
     "https://www.reddit.com/r/embedded/t3_1xar2uu": "2026-10-21T10:36:54.456279+00:00",
     "https://www.reddit.com/r/embedded/t3_1xar61f": "2026-10-21T10:36:54.456279+00:00",
     "https://www.reddit.com/r/embedded/t3_1xarvft": "2026-10-21T10:36:54.456279+00:00",
     "https://www.reddit.com/r/embedded/t3_1xasbn9": "2026-10-21T10:36:54.456279+00:00",
-    "https://www.reddit.com/r/embedded/t3_1xasc0o": "2026-10-21T00:09:49.548846+00:00",
-    "https://www.reddit.com/r/embedded/t3_1xasn90": "2026-10-21T00:09:49.548846+00:00",
-    "https://www.reddit.com/r/embedded/t3_1xawlfl": "2026-10-21T00:09:49.548846+00:00",
-    "https://www.reddit.com/r/embedded/t3_1xb3xef": "2026-10-21T00:09:49.548846+00:00",
     "https://www.reddit.com/r/embedded/t3_1xbalvf": "2026-10-21T10:36:54.456279+00:00",
     "https://www.reddit.com/r/embedded/t3_1xbk29q": "2026-10-22T00:14:37.714250+00:00",
     "https://www.reddit.com/r/embedded/t3_1xboo0b": "2026-10-22T00:14:37.714250+00:00",
@@ -4650,7 +4982,6 @@
     "https://www.redhat.com/en/blog/announcing-fedora-45": "2026-11-04T01:43:07.426560+00:00",
     "https://www.redhat.com/en/blog/bridging-open-source-remediation-gap-introducing-two-new-lessons-lightwell": "2026-11-06T01:57:39.156695+00:00",
     "https://www.redhat.com/en/blog/building-tomorrow-red-hat-openshift": "2026-10-29T01:15:38.013696+00:00",
-    "https://www.redhat.com/en/blog/crossing-threshold-dependable-open-source-ai-serving": "2026-10-21T00:09:49.548846+00:00",
     "https://www.redhat.com/en/blog/friday-five-november-13-2026-red-hat": "2026-11-13T02:09:07.409503+00:00",
     "https://www.redhat.com/en/blog/friday-five-november-6-2026-red-hat": "2026-11-06T13:18:31.957095+00:00",
     "https://www.redhat.com/en/blog/friday-five-october-23-2026-red-hat": "2026-10-23T10:33:29.369204+00:00",
@@ -4659,7 +4990,6 @@
     "https://www.redhat.com/en/blog/great-power-comes-great-sandboxing": "2026-11-11T01:31:16.709923+00:00",
     "https://www.redhat.com/en/blog/guide-observability-red-hat-openshift-5": "2026-11-12T02:32:46.806375+00:00",
     "https://www.redhat.com/en/blog/how-atos-uses-red-hat-ai-build-smaller-specialized-models-sovereign-ai": "2026-10-29T01:15:38.013696+00:00",
-    "https://www.redhat.com/en/blog/how-delta-air-lines-scaled-ai-native-development-1200-engineers-cloud-development-environments": "2026-10-21T00:09:49.548846+00:00",
     "https://www.redhat.com/en/blog/how-organizations-can-get-more-value-open-source": "2026-10-24T00:02:40.989120+00:00",
     "https://www.redhat.com/en/blog/how-parental-leave-helped-2-new-parents-find-their-rhythm": "2026-10-31T01:04:35.861546+00:00",
     "https://www.redhat.com/en/blog/latin-america-leads-investments-digital-sovereignty-it-ready-execute": "2026-11-12T02:32:46.806375+00:00",
@@ -4678,7 +5008,6 @@
     "https://www.redhat.com/en/blog/whats-new-red-hat-openshift-lightspeed-2": "2026-11-13T02:09:07.409503+00:00",
     "https://www.redhat.com/en/blog/why-itops-needs-governed-automation-foundation-ai": "2026-10-30T01:24:44.649656+00:00",
     "https://www.redhat.com/en/blog/your-move-red-hat-openshift-virtualization-doesnt-have-wait-vddk": "2026-11-11T01:31:16.709923+00:00",
-    "https://www.sigarch.org/?p=116128": "2026-10-21T00:09:49.548846+00:00",
     "https://www.sigarch.org/?p=116520": "2026-10-29T01:15:38.013696+00:00",
     "https://www.sigops.org/?p=4003": "2026-11-10T13:47:36.749512+00:00",
     "oai:arXiv.org:2206.05699v1": "2026-10-29T01:15:38.013696+00:00",
@@ -4693,13 +5022,11 @@
     "oai:arXiv.org:2505.07681v5": "2026-11-05T13:31:37.120286+00:00",
     "oai:arXiv.org:2506.04019v2": "2026-10-22T00:14:37.714250+00:00",
     "oai:arXiv.org:2506.23901v3": "2026-11-05T01:49:34.737244+00:00",
-    "oai:arXiv.org:2508.21256v2": "2026-10-21T00:09:49.548846+00:00",
     "oai:arXiv.org:2509.04777v3": "2026-10-22T00:14:37.714250+00:00",
     "oai:arXiv.org:2510.26008v3": "2026-10-28T11:41:08.830280+00:00",
     "oai:arXiv.org:2511.10921v2": "2026-10-27T00:50:51.993375+00:00",
     "oai:arXiv.org:2511.16080v3": "2026-10-22T10:40:49.740733+00:00",
     "oai:arXiv.org:2511.21878v3": "2026-10-23T00:11:08.671003+00:00",
-    "oai:arXiv.org:2512.05555v2": "2026-10-21T00:09:49.548846+00:00",
     "oai:arXiv.org:2512.13886v3": "2026-10-21T10:36:54.456279+00:00",
     "oai:arXiv.org:2512.24637v3": "2026-11-10T03:50:12.495881+00:00",
     "oai:arXiv.org:2601.19092v3": "2026-11-02T13:55:07.841963+00:00",
@@ -4715,13 +5042,11 @@
     "oai:arXiv.org:2604.05505v3": "2026-10-27T11:02:26.672421+00:00",
     "oai:arXiv.org:2604.11811v3": "2026-11-02T13:55:07.841963+00:00",
     "oai:arXiv.org:2604.14993v2": "2026-11-05T01:49:34.737244+00:00",
-    "oai:arXiv.org:2604.17198v5": "2026-10-21T00:09:49.548846+00:00",
     "oai:arXiv.org:2604.22361v2": "2026-10-28T00:46:21.169893+00:00",
     "oai:arXiv.org:2604.26103v3": "2026-11-02T13:55:07.841963+00:00",
     "oai:arXiv.org:2604.26963v3": "2026-11-13T13:28:43.358051+00:00",
     "oai:arXiv.org:2605.01140v2": "2026-11-16T14:02:56.215796+00:00",
     "oai:arXiv.org:2605.11999v2": "2026-10-31T01:04:35.861546+00:00",
-    "oai:arXiv.org:2605.13749v3": "2026-10-21T00:09:49.548846+00:00",
     "oai:arXiv.org:2605.19139v2": "2026-10-28T00:46:21.169893+00:00",
     "oai:arXiv.org:2605.25522v2": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2606.00866v2": "2026-11-13T13:28:43.358051+00:00",
@@ -4732,13 +5057,11 @@
     "oai:arXiv.org:2606.31238v2": "2026-10-23T10:33:29.369204+00:00",
     "oai:arXiv.org:2607.00740v2": "2026-10-26T11:34:23.964933+00:00",
     "oai:arXiv.org:2607.11329v2": "2026-11-10T03:50:12.495881+00:00",
-    "oai:arXiv.org:2607.13352v2": "2026-10-21T00:09:49.548846+00:00",
     "oai:arXiv.org:2607.15873v2": "2026-11-10T03:50:12.495881+00:00",
     "oai:arXiv.org:2607.16408v2": "2026-11-02T13:55:07.841963+00:00",
     "oai:arXiv.org:2607.21535v2": "2026-11-02T13:55:07.841963+00:00",
     "oai:arXiv.org:2607.26306v2": "2026-10-22T00:14:37.714250+00:00",
     "oai:arXiv.org:2608.05807v2": "2026-10-22T00:14:37.714250+00:00",
-    "oai:arXiv.org:2608.11234v4": "2026-10-21T00:09:49.548846+00:00",
     "oai:arXiv.org:2608.13268v2": "2026-10-22T10:40:49.740733+00:00",
     "oai:arXiv.org:2608.20961v2": "2026-10-26T11:34:23.964933+00:00",
     "oai:arXiv.org:2609.03315v2": "2026-11-06T13:18:31.957095+00:00",
@@ -4750,36 +5073,12 @@
     "oai:arXiv.org:2610.03228v4": "2026-10-23T10:33:29.369204+00:00",
     "oai:arXiv.org:2610.03228v5": "2026-11-06T01:57:39.156695+00:00",
     "oai:arXiv.org:2610.03939v2": "2026-10-21T10:36:54.456279+00:00",
-    "oai:arXiv.org:2610.10137v2": "2026-10-21T00:09:49.548846+00:00",
     "oai:arXiv.org:2610.11748v2": "2026-11-02T13:55:07.841963+00:00",
     "oai:arXiv.org:2610.12654v2": "2026-11-16T14:02:56.215796+00:00",
     "oai:arXiv.org:2610.14898v2": "2026-11-05T01:49:34.737244+00:00",
-    "oai:arXiv.org:2610.24415v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.24416v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.24529v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.24578v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.24581v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.24652v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.24810v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.24835v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.24974v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.24997v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.25012v1": "2026-10-21T00:09:49.548846+00:00",
     "oai:arXiv.org:2610.25018v2": "2026-10-23T00:11:08.671003+00:00",
     "oai:arXiv.org:2610.25018v3": "2026-10-24T00:02:40.989120+00:00",
-    "oai:arXiv.org:2610.25033v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.25039v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.25058v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.25256v1": "2026-10-21T00:09:49.548846+00:00",
     "oai:arXiv.org:2610.25256v2": "2026-11-06T01:57:39.156695+00:00",
-    "oai:arXiv.org:2610.25519v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.26083v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.26131v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.26297v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.26432v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.26599v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.26609v1": "2026-10-21T00:09:49.548846+00:00",
-    "oai:arXiv.org:2610.26724v1": "2026-10-21T00:09:49.548846+00:00",
     "oai:arXiv.org:2610.26916v1": "2026-10-21T10:36:54.456279+00:00",
     "oai:arXiv.org:2610.26921v1": "2026-10-21T10:36:54.456279+00:00",
     "oai:arXiv.org:2610.26945v1": "2026-10-22T00:14:37.714250+00:00",
@@ -5537,6 +5836,10 @@
     "oai:arXiv.org:2611.20943v1": "2026-11-18T03:11:30.700802+00:00",
     "oai:arXiv.org:2611.22059v1": "2026-11-19T02:51:55.687950+00:00",
     "oai:arXiv.org:2611.22752v1": "2026-11-19T02:51:55.687950+00:00",
+    "oai:arXiv.org:2611.23268v1": "2026-11-20T02:39:50.793304+00:00",
+    "oai:arXiv.org:2611.23986v1": "2026-11-20T02:39:50.793304+00:00",
+    "oai:arXiv.org:2611.24119v1": "2026-11-20T02:39:50.793304+00:00",
+    "oai:arXiv.org:2611.24169v1": "2026-11-20T02:39:50.793304+00:00",
     "tag:github.com,2008:Repository/135502094/202620.2.26.0_Petalinux": "2026-11-02T13:55:07.841963+00:00",
     "tag:github.com,2008:Repository/135502094/202620.2.26.149": "2026-11-02T13:55:07.841963+00:00",
     "tag:github.com,2008:Repository/184341774/v53.1": "2026-11-11T01:31:16.709923+00:00",
