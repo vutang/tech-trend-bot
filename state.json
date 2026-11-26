@@ -4,6 +4,7 @@
     "6adb338d1e825e0b10673454": "2026-11-04T01:43:07.426560+00:00",
     "6aeb33f71e825e0b10673647": "2026-11-06T01:57:39.156695+00:00",
     "6af327f41e825e0b1067367d": "2026-11-12T02:32:46.806375+00:00",
+    "6b055571d94f37e7b015658b": "2026-11-26T03:47:54.822371+00:00",
     "https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/": "2026-11-02T13:55:07.841963+00:00",
     "https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/": "2026-11-08T00:56:33.966379+00:00",
     "https://bootlin.com/?p=22138": "2026-11-06T13:14:17.741766+00:00",
@@ -50,7 +51,6 @@
     "https://lwn.net/Articles/1102136/": "2026-10-29T01:15:38.013696+00:00",
     "https://lwn.net/Articles/1102593/": "2026-10-30T01:24:44.649656+00:00",
     "https://lwn.net/Articles/1102739/": "2026-11-03T03:07:33.506203+00:00",
-    "https://lwn.net/Articles/1102970/": "2026-10-27T00:50:51.993375+00:00",
     "https://lwn.net/Articles/1102982/": "2026-10-31T01:04:35.861546+00:00",
     "https://lwn.net/Articles/1103395/": "2026-11-14T01:48:25.229918+00:00",
     "https://lwn.net/Articles/1103426/": "2026-10-29T01:15:38.013696+00:00",
@@ -80,9 +80,6 @@
     "https://projectzero.google/2026/11/virtualbox-process-hardening": "2026-11-24T16:28:10.327988+00:00",
     "https://rcrwireless.com/?p=435753": "2026-10-29T11:49:06.816281+00:00",
     "https://rcrwireless.com/?p=435758": "2026-10-27T11:02:26.672421+00:00",
-    "https://rcrwireless.com/?p=435772": "2026-10-27T00:50:51.993375+00:00",
-    "https://rcrwireless.com/?p=435773": "2026-10-27T00:50:51.993375+00:00",
-    "https://rcrwireless.com/?p=435785": "2026-10-27T00:50:51.993375+00:00",
     "https://rcrwireless.com/?p=435793": "2026-10-28T00:46:21.169893+00:00",
     "https://rcrwireless.com/?p=435818": "2026-10-29T04:16:31.165926+00:00",
     "https://rcrwireless.com/?p=435821": "2026-10-29T01:15:38.013696+00:00",
@@ -119,6 +116,7 @@
     "https://rcrwireless.com/?p=436182": "2026-11-24T16:28:10.327988+00:00",
     "https://rcrwireless.com/?p=436187": "2026-11-25T04:37:34.722916+00:00",
     "https://rcrwireless.com/?p=436203": "2026-11-25T16:06:44.747920+00:00",
+    "https://rcrwireless.com/?p=436207": "2026-11-26T03:47:54.822371+00:00",
     "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone": "2026-10-28T00:46:21.169893+00:00",
     "https://spectrum.ieee.org/thermal-noise-communication-impedance": "2026-11-23T01:58:59.446338+00:00",
     "https://spectrum.ieee.org/undersea-cables-arctic-european-commission": "2026-11-13T02:09:07.409503+00:00",
@@ -132,6 +130,7 @@
     "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html": "2026-11-10T13:47:36.749512+00:00",
     "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html": "2026-11-12T02:32:46.806375+00:00",
     "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html": "2026-11-07T11:56:46.016476+00:00",
+    "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html": "2026-11-26T03:47:54.822371+00:00",
     "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html": "2026-11-01T12:03:06.789682+00:00",
     "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html": "2026-11-05T01:49:34.737244+00:00",
     "https://thehackernews.com/2026/11/everything-is-web-application-including.html": "2026-11-19T14:54:20.761013+00:00",
@@ -187,6 +186,7 @@
     "https://www.cnx-software.com/?p=180221": "2026-11-24T16:28:10.327988+00:00",
     "https://www.cnx-software.com/?p=180350": "2026-11-23T16:30:34.139091+00:00",
     "https://www.cnx-software.com/?p=180590": "2026-11-25T04:37:34.722916+00:00",
+    "https://www.cnx-software.com/?p=180612": "2026-11-26T03:47:54.822371+00:00",
     "https://www.dpdk.org/?p=4458": "2026-11-24T16:28:10.327988+00:00",
     "https://www.dpdk.org/?p=4469": "2026-11-24T05:32:34.180065+00:00",
     "https://www.dpdk.org/?p=4480": "2026-11-24T05:32:34.180065+00:00",
@@ -195,7 +195,9 @@
     "https://www.huawei.com/en/news/2026/11/5ga-wind-farm": "2026-11-18T14:37:51.704910+00:00",
     "https://www.huawei.com/en/news/2026/11/adn-ais-innovation-center": "2026-11-18T14:37:51.704910+00:00",
     "https://www.huawei.com/en/news/2026/11/otf-agentic-operations": "2026-11-21T02:51:34.761374+00:00",
+    "https://www.huawei.com/en/news/2026/11/statement-on-jury-verdict": "2026-11-26T03:47:54.822371+00:00",
     "https://www.huawei.com/en/news/2026/11/u6ghz-vitaaau-retinamimo": "2026-11-22T01:37:28.130542+00:00",
+    "https://www.phoronix.com/news/2026-Firmware-MSI-PRO-Z690-Z790": "2026-11-26T03:47:54.822371+00:00",
     "https://www.phoronix.com/news/AMD-EPYC-Embedded-9006-Series": "2026-11-11T01:31:16.709923+00:00",
     "https://www.phoronix.com/news/AMD-Hybrid-Capacity-Aware-Sched": "2026-11-16T01:23:59.141401+00:00",
     "https://www.phoronix.com/news/AMD-Pensando-HWMON": "2026-11-12T14:00:43.491207+00:00",
@@ -237,7 +239,6 @@
     "https://www.phoronix.com/news/Lemonade-11.9-ROCm-HRX": "2026-11-06T13:14:17.741766+00:00",
     "https://www.phoronix.com/news/Librem-5-v2-Announced": "2026-11-17T04:12:42.219852+00:00",
     "https://www.phoronix.com/news/Linux-7.3-RandStruct-Rust": "2026-11-06T13:14:17.741766+00:00",
-    "https://www.phoronix.com/news/Linux-7.4-CXL": "2026-10-27T00:50:51.993375+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Ceph": "2026-10-31T11:15:22.551414+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Drops-Taint-Bind": "2026-11-01T00:26:52.886150+00:00",
     "https://www.phoronix.com/news/Linux-7.4-I3C": "2026-10-30T11:42:20.435734+00:00",
@@ -329,14 +330,12 @@
     "https://www.reddit.com/r/embedded/t3_1xxox2u": "2026-11-17T14:58:30.205439+00:00",
     "https://www.redhat.com/en/blog/digital-sovereignty-paradox-closing-gap-between-compliance-and-operational-resilience": "2026-11-25T04:37:34.722916+00:00",
     "https://www.redhat.com/en/blog/direct-vm-networking-aws-introducing-bgp-cloud-connector-red-hat-openshift-service-aws": "2026-10-31T01:04:35.861546+00:00",
-    "https://www.redhat.com/en/blog/enterprise-ai-needs-data-strategy-not-just-model-strategy": "2026-10-27T00:50:51.993375+00:00",
     "https://www.redhat.com/en/blog/friday-five-november-20-2026-red-hat": "2026-11-22T01:37:28.130542+00:00",
     "https://www.redhat.com/en/blog/friday-five-september-4-2026-red-hat": "2026-11-06T13:14:17.741766+00:00",
     "https://www.redhat.com/en/blog/futurum-research-study-why-97-percent-enterprise-it-teams-cannot-survive-cloud-cutoff": "2026-11-24T05:32:34.180065+00:00",
     "https://www.redhat.com/en/blog/how-write-standout-red-hat-summit-proposal": "2026-11-18T03:11:30.700802+00:00",
     "https://www.redhat.com/en/blog/introducing-red-hat-advanced-cluster-security-kubernetes-5-bring-red-hat-enterprise-linux-virtual-machines-vulnerability-management": "2026-11-13T02:09:07.409503+00:00",
     "https://www.redhat.com/en/blog/introducing-red-hat-cloud-extensions-sovereign-ai-clouds-your-own-infrastructure": "2026-11-15T01:19:48.657238+00:00",
-    "https://www.redhat.com/en/blog/mlops-edge-ai-keeping-models-accurate-over-time": "2026-10-27T00:50:51.993375+00:00",
     "https://www.redhat.com/en/blog/modernizing-virtualization-higher-education-how-automated-node-recovery-protects-data-integrity": "2026-11-06T13:14:17.741766+00:00",
     "https://www.redhat.com/en/blog/node-management-red-hat-openshift-5-bare-metal": "2026-11-14T01:48:25.229918+00:00",
     "https://www.redhat.com/en/blog/open-telco-ai-teaching-otel-25-use-telecom-tools": "2026-11-21T02:51:34.761374+00:00",
@@ -409,9 +408,6 @@
     "oai:arXiv.org:2609.40119v2": "2026-11-22T01:37:28.130542+00:00",
     "oai:arXiv.org:2610.06900v2": "2026-11-15T01:19:48.657238+00:00",
     "oai:arXiv.org:2610.13679v2": "2026-11-15T01:19:48.657238+00:00",
-    "oai:arXiv.org:2610.31793v1": "2026-10-27T00:50:51.993375+00:00",
-    "oai:arXiv.org:2610.32052v1": "2026-10-27T00:50:51.993375+00:00",
-    "oai:arXiv.org:2610.32827v1": "2026-10-27T00:50:51.993375+00:00",
     "oai:arXiv.org:2610.33181v1": "2026-10-30T01:24:44.649656+00:00",
     "oai:arXiv.org:2610.33231v1": "2026-10-27T11:02:26.672421+00:00",
     "oai:arXiv.org:2610.33276v1": "2026-10-30T01:24:44.649656+00:00",
@@ -560,6 +556,10 @@
     "oai:arXiv.org:2611.29461v1": "2026-11-25T04:37:34.722916+00:00",
     "oai:arXiv.org:2611.29582v1": "2026-11-25T04:37:34.722916+00:00",
     "oai:arXiv.org:2611.29901v1": "2026-11-25T04:37:34.722916+00:00",
+    "oai:arXiv.org:2611.31767v1": "2026-11-26T03:47:54.822371+00:00",
+    "oai:arXiv.org:2611.31876v1": "2026-11-26T03:47:54.822371+00:00",
+    "oai:arXiv.org:2611.32197v1": "2026-11-26T03:47:54.822371+00:00",
+    "oai:arXiv.org:2611.32341v1": "2026-11-26T03:47:54.822371+00:00",
     "tag:blogger.com,1999:blog-1834236085756782640.post-4091900366795999234": "2026-10-29T11:49:06.816281+00:00",
     "tag:blogger.com,1999:blog-1834236085756782640.post-8401827008389997930": "2026-11-13T02:09:07.409503+00:00",
     "tag:blogger.com,1999:blog-7068042310767317158.post-2586278352895696704": "2026-11-04T01:43:07.426560+00:00",
@@ -828,19 +828,6 @@
         "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk"
       },
       "first_seen": "2026-11-24T16:28:10.327988+00:00"
-    },
-    "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html": {
-      "entry": {
-        "category": "security",
-        "id": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
-        "link": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
-        "relevance": 3,
-        "source": "The Hacker News",
-        "summary": "TL;DR\n\n\n More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break.\n Validity-only triage misses 46% of critical secrets: Prioritize by impact instead, weighing what a credential can access and whether it leaked publicly, and update the",
-        "summary_vi": "TL;DR\n\n\n More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on wh",
-        "title": "Credential Remediation Is Slow When You Don’t Know What Will Break"
-      },
-      "first_seen": "2026-11-25T16:06:44.747920+00:00"
     },
     "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html": {
       "entry": {
@@ -1115,6 +1102,19 @@
       },
       "first_seen": "2026-11-24T05:32:34.180065+00:00"
     },
+    "https://www.dpdk.org/?p=4498": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.dpdk.org/?p=4498",
+        "link": "https://www.dpdk.org/dpdk-dispatch-q4-2026/",
+        "relevance": 3,
+        "source": "DPDK Blog",
+        "summary": "DPDK Dispatch · Q4 2026 Where the API Contract Gets Tested [MONTH] 2026 · 5 owned stories · Reading and watching · APAC roundup In this issue ·Where the API...",
+        "summary_vi": "The Q4 2026 issue of DPDK Dispatch highlights content on API contract testing alongside five original articles, recommended media, and an APAC regional roundup. Note that the snippet does not describe the specific testing methodology.",
+        "title": "Where the API Contract Gets Tested"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
+    },
     "https://www.phoronix.com/news/Collabora-Online-Half-Memory": {
       "entry": {
         "category": "embedded",
@@ -1335,6 +1335,19 @@
         "title": "Pop!_OS 26.04 LTS vs. Pop!_OS 24.04 LTS Benchmarks"
       },
       "first_seen": "2026-11-25T16:06:44.747920+00:00"
+    },
+    "https://www.phoronix.com/review/postgresql-19-benchmarks": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.phoronix.com/review/postgresql-19-benchmarks",
+        "link": "https://www.phoronix.com/review/postgresql-19-benchmarks",
+        "relevance": 3,
+        "source": "Phoronix",
+        "summary": "Last week PostgreSQL 19.0 finally shipped after being delayed due to the AI/LLM burden facing open-source developers this year. The wait is worth it though as PostgreSQL 19 is showing some very nice performance gains over PostgreSQL 18 in my benchmarking. Here are some initial PostgreSQL 19 vs. 18 database server benchmarks on the new 6th Gen AMD EPYC Venice platform.",
+        "summary_vi": "PostgreSQL 19.0 has been released following delays caused by open-source developer workloads on AI and LLM projects. Benchmarks run on the 6th Gen AMD EPYC Venice platform demonstrate noticeable database server performance gains over PostgreSQL 18.",
+        "title": "PostgreSQL 19 Delivering Nice Performance Gains, Benchmarks On 6th Gen AMD EPYC Venice"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
     },
     "https://www.phoronix.com/review/ubuntu-2610-dell-xps-14": {
       "entry": {
@@ -2584,6 +2597,19 @@
       },
       "first_seen": "2026-11-25T16:06:44.747920+00:00"
     },
+    "oai:arXiv.org:2611.31430v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.31430v1",
+        "link": "https://arxiv.org/abs/2611.31430",
+        "relevance": 4,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2611.31430v1 Announce Type: cross \nAbstract: Static analysis of imperative programs often relies on iterative fixed-point approximations or concrete path exploration. We show that structured imperative control flow---while loops, linear recursion and branching recursion---can be mapped into constrained optimization problems over the free monoid of execution traces and the free algebra of computation trees. Ordering traces and trees by an intensional \\textit{order-by-composition} ($\\sqsubseteq$), halting is characterized as finding the minimal trace or tree that satisfies the exit condition, and we prove that this characterization coincides with the standard big-step semantics. Exact state recurrences are undecidable in general, so we relax them into cost envelopes, using ranking potentials and the tropical $(\\max,+)$ reading of the timing schema, and obtain sound upper bounds on execution cost. The bounds compose over whole programs in a cost logic for a small language with nondeterministic actions, procedures, recursion and assumed contracts, which we prove sound for terminating and non-terminating executions. A linear instance of the logic has certificates---programs annotated with invariants, potentials and Farkas multipliers---and a checker that validates them with integer arithmetic only; an accepted certificate bounds the cost of every execution. All results, the checker and the worked examples are machine-checked in Lean~4. A companion paper describes a Clang plugin that produces such certificates and its evaluation.",
+        "summary_vi": "Iterative fixed-point static analysis struggles to determine execution cost bounds for complex control flow structures. The authors map imperative loops and recursion into constrained optimization problems over execution traces, introducing a sound cost logic and verified certificate checker to compute static program cost bounds.",
+        "title": "CrossCheck I: Cost Bounds of Imperative Programs as Constrained Optimization, with a Sound Cost Logic and a Verified Certificate Checker"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
+    },
     "oai:arXiv.org:2611.31434v1": {
       "entry": {
         "category": "research",
@@ -2596,6 +2622,19 @@
         "title": "The Recycler: In-Transit Machine Learning on High-Fidelity Data from Simulation Campaigns as an Optimized Approach for Building Frontier Models"
       },
       "first_seen": "2026-11-25T16:06:44.747920+00:00"
+    },
+    "oai:arXiv.org:2611.31449v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.31449v1",
+        "link": "https://arxiv.org/abs/2611.31449",
+        "relevance": 4,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2611.31449v1 Announce Type: cross \nAbstract: We describe a plugin for the Clang compiler that bounds the cost of C and C++ functions intended for real-time use, and rejects at compile time the functions that allocate, throw, call through pointers, or contain a loop or a recursion for which no bound is found. Loops are bounded by affine ranking potentials synthesized with an SMT solver through Farkas' Lemma, or by logarithmic ones, recursion by depth and size potentials, and callees are analyzed in the calling context in which they are used. For functions in a linear fragment, the plugin emits a cost certificate that a checker, compiled from a Lean~4 definition proved sound in a companion paper, validates with integer arithmetic only; the bound then depends neither on the analyzer nor on the solver. On the 29 kernels of the TACLeBench collection, without annotations, the plugin bounds 142 of 220 loops in the calling contexts of the programs, 131 of them exactly as the benchmarks' flow facts, and 161 of the 165 bounded functions receive a certificate that the checker accepts, 152 of them also validated against an independent description of the source. On the CMSIS-DSP library for Cortex-M (786 functions), with assumed input ranges, it bounds 616 functions. We compare the loop bounds with loop counts observed by running the kernels and with five existing analyzers (LLVM's ScalarEvolution, KoAT2, CoFloCo, Infer and oRange), and the plugin with KoAT2 and CoFloCo on the C programs of the Termination and Complexity Competition: without annotations, 147 of 553 programs receive a certified bound that holds for all inputs, where the two tools bound 288 and 264. Loop bounds, exported annotations and the checker program are also tested on random programs and on mutated certificates.",
+        "summary_vi": "Unbounded loops and dynamic memory operations complicate real-time execution guarantees in C and C++ programs. The authors present a Clang compiler plugin that synthesizes loop and recursion bounds using Farkas' Lemma and SMT solvers, automatically rejecting code with dynamic allocations or unbounded loops at compile time.",
+        "title": "CrossCheck II: A Compiler Plugin for Certified Cost Bounds of Real-Time C and C++ Code, and its Evaluation"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
     },
     "oai:arXiv.org:2611.31460v1": {
       "entry": {
@@ -2870,6 +2909,71 @@
       },
       "first_seen": "2026-11-25T16:06:44.747920+00:00"
     },
+    "oai:arXiv.org:2611.31937v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.31937v1",
+        "link": "https://arxiv.org/abs/2611.31937",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.31937v1 Announce Type: new \nAbstract: Some key execution states in large language model inference persist across multiple instructions and are difficult to express and exploit within RVV semantics centered on individual operations. We define specialization boundaries according to data-state lifetimes and propose Quantized Block Streams (QBS) and Attention/KV Context (AKV) while preserving RVV programmability. QBS organizes native-block format processing, block traversal, integer computation, and ordered FP32 accumulation into a unified execution process, whereas AKV maintains local K/V residency and supplies operand views aligned with the computation direction while leaving Attention arithmetic on RVV. Cycle-accurate RTL evaluation shows that QBS achieves geometric-mean speedups of 35.68x and 51.34x for projection Compute and Matmul, respectively, while AKV achieves a 1.45x geometric-mean speedup over Tiled RVV for Decode Attention. Compared with the baseline, the complete design increases total area by 12.65%; on the evaluated projection workloads, throughput per area and energy efficiency improve by 46.63x and 19.78x, respectively. Further evaluation demonstrates applicability across multiple block-quantization formats and across models with different Attention organizations.",
+        "summary_vi": "Standard RISC-V Vector (RVV) operation semantics struggle to express dynamic state parameters that persist across multiple inference instructions. The authors propose Quantized Block Streams for native block processing and Attention/KV Context for dual-view memory access, extending RVV capabilities for long-context LLM execution while preserving programmability.",
+        "title": "Native Block-Quantized Matrix Multiplication and Explicit K/V Residency with Dual-View Access for LLM Inference on RISC-V Vector Processors"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
+    },
+    "oai:arXiv.org:2611.31986v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.31986v1",
+        "link": "https://arxiv.org/abs/2611.31986",
+        "relevance": 4,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.31986v1 Announce Type: new \nAbstract: In neural inference accelerators, multiply-accumulate (MAC) datapaths account for the majority of circuit area and critical-path delay, where operator-level numerical formats simultaneously dictate hardware overhead and quantization error. Yet no straightforward mapping exists between hardware cost and end-to-end network accuracy: logic synthesis transforms datapaths in a highly nonlinear manner, while numerical errors propagate and couple across layers. To address this disconnect, we present NAMSI, an automated network-aware MAC synthesis framework tailored for neural inference. NAMSI characterizes heterogeneous data formats using a format-distribution representation (FD) and leverages topology-aware accuracy and hardware-cost modeling (TaH), calibrated with actual post-synthesis Area-Delay Product (ADP) measurements, to jointly estimate coupled full-network accuracy and circuit cost. Furthermore, reversible lattice search (RLS) is introduced to tractably navigate the exponentially scaling design space. Evaluations across five neural networks on ImageNet-1K demonstrate that under post-training quantization (PTQ), NAMSI achieves 54.2%-60.4% reductions in post-synthesis MAC ADP compared with FP32 while retaining at least 99% of full-precision Top-1 accuracy, surpassing baseline approaches in both hardware efficiency and accuracy preservation.",
+        "summary_vi": "Multiply-accumulate (MAC) datapaths dictate both hardware area and quantization errors in neural network accelerators, but non-linear logic synthesis makes mapping cost to network accuracy difficult. This paper addresses the synthesis challenge of balancing hardware overhead with error propagation across layers, though concrete benchmark results are missing from the snippet.",
+        "title": "Network-Guided Automated Synthesis of MAC Units for Neural Network Inference"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
+    },
+    "oai:arXiv.org:2611.32008v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.32008v1",
+        "link": "https://arxiv.org/abs/2611.32008",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.32008v1 Announce Type: new \nAbstract: Training large language models (LLMs) requires choosing both a batch size and a parallel configuration. Existing systems make these decisions in isolation, tuning parallelism for throughput and batch size for convergence, but neither objective alone determines training efficiency. We present LIBRA, a lightweight runtime framework that co-tunes batch size and parallel configuration to minimize end-to-end time. LIBRA treats throughput and convergence as two noisy objectives and searches their joint space using parallel noisy expected hypervolume improvement (qNEHVI). To make this runtime search efficient, we propose hierarchical pruning, which removes infeasible and low-throughput parallel configurations through system-level performance estimation and then narrows batch-size candidates through critical-batch-size-aware convergence monitoring. We further design acquisition-guided parallel evaluation (AGPE), which evaluates surviving candidates concurrently across GPU groups in order of their acquisition values. On clusters of up to 256 GPUs, LIBRA reduces time-to-convergence by 31.1% on average over state-of-the-art methods, while runtime tuning accounts for only 0.3-3.5% of overall time.",
+        "summary_vi": "Tuning batch size for convergence and parallel configuration for throughput in isolation leads to suboptimal LLM training speed. The authors present LIBRA, a lightweight runtime framework that simultaneously co-tunes batch size and parallel strategies to minimize total end-to-end training time.",
+        "title": "LIBRA: Runtime Co-Tuning of Batch Size and Parallelism for Time-Efficient LLM Training"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
+    },
+    "oai:arXiv.org:2611.32032v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.32032v1",
+        "link": "https://arxiv.org/abs/2611.32032",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.32032v1 Announce Type: new \nAbstract: Agreement among large language models is not physical evidence for mutating production infrastructure. Because generative models share pretraining priors and conform to peer rationales during deliberation, voting ensembles correlate errors instead of providing independent fault tolerance; yet attaching rigid deterministic checks to unconstrained agent outputs paralyzes incident remediation. We present Provenance-Isolated Epistemic Quorums (PIEQ), an execution-bound certification layer that keeps every language model strictly outside the trusted computing base. PIEQ unifies assumption-based truth maintenance, physical provenance isolation, control-theoretic plausible-world safety shielding, and linearizable concurrency governance around three distinct obligations: certifying diagnostic preconditions from disjoint physical failure domains, gating candidate mutations across all unrefuted fault worlds while falling back to read-only diagnostic probes under ambiguity, and binding admission certificates to target execution through snapshot barriers, revision checks, authorization freshness, trusted temporal-precondition policies, and capability-tiered enforcement.\n Across formal guarantees, automated etcd fault suites, frozen software benchmarks, and live language-model runs, PIEQ achieves zero within-assumption unsafe admissions and zero false-precondition commits, converting occasional agent proof omissions into recoverable false blocks rather than unsafe actions. On a physical PostgreSQL/Patroni cluster, PIEQ gates supervised failovers alongside Patroni and etcd's native split-brain protection and enforces a full Tier E2 contract inside a single serializable PostgreSQL transaction for bounded capacity reservations. All benchmarks are author-labeled, live model snapshots are unpinned, and Tier E2 physical failover promotion as well as multi-host hardware fault isolation remain open work.",
+        "summary_vi": "LLM voting ensembles in infrastructure management can correlate errors due to shared training priors, while deterministic checks risk halting automated recovery. The paper introduces Provenance-Isolated Epistemic Quorums (PIEQ) to provide execution-bound evidence certification and safety gating for autonomous agent control planes.",
+        "title": "Provenance-Isolated Epistemic Quorums: Execution-Bound Evidence Certification and Plausible-World Safety Gating in Agentic Control Planes"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
+    },
+    "oai:arXiv.org:2611.32047v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.32047v1",
+        "link": "https://arxiv.org/abs/2611.32047",
+        "relevance": 3,
+        "source": "arXiv cs.AR (Computer Architecture)",
+        "summary": "arXiv:2611.32047v1 Announce Type: new \nAbstract: Thermal management is a critical challenge in compact computing platforms operating under sustained high computational loads. Elevated processor temperatures can lead to thermal throttling, degraded performance, and reduced reliability. This study develops and experimentally evaluates a smart hybrid heat sink that integrates passive thermal energy storage with active cooling for sustained device operation. The proposed design comprises an aluminum cavity containing paraffin wax as a phase change material (PCM) embedded within a copper foam and integrated with an adaptively controlled fan. Fan operation is guided by a Random Forest regression model trained on experimentally measured CPU temperature data to predict future CPU temperatures. The predicted temperature is then used to support the adaptive fan control strategy. The heat sink is mounted directly on the CPU of a Raspberry Pi 5 and experimentally evaluated under an extreme CPU workload of approximately 99 percent CPU utilization. The performance of the proposed hybrid system is compared against two benchmark scenarios: passive cooling using PCM embedded in copper foam and a commercial Raspberry Pi 5 active cooler. The proposed heat sink demonstrates superior thermal performance to both benchmarks, achieving peak CPU temperature reductions of approximately 9 C relative to the PCM-copper foam configuration and 6 C relative to the commercial active cooler.",
+        "summary_vi": "Sustained high compute loads on compact edge boards cause thermal throttling and performance degradation. To maintain stable device operation, this study designs and experimentally evaluates a smart hybrid aluminum heat sink that combines passive thermal energy storage with active cooling on a Raspberry Pi 5.",
+        "title": "Machine-Learning-Assisted Hybrid Cooling of a Raspberry Pi 5"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
+    },
     "oai:arXiv.org:2611.32056v1": {
       "entry": {
         "category": "research",
@@ -2882,6 +2986,19 @@
         "title": "Model Order Detection with Parameter Estimation Guarantees for the Matrix Pencil Method"
       },
       "first_seen": "2026-11-25T16:06:44.747920+00:00"
+    },
+    "oai:arXiv.org:2611.32057v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.32057v1",
+        "link": "https://arxiv.org/abs/2611.32057",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.32057v1 Announce Type: new \nAbstract: Pretraining state-of-the-art large language models (LLMs) with up to trillions of parameters is memory- and compute-intensive. Existing parallelization schemes compromise on either per-GPU memory or throughput: data parallelism replicates parameters; tensor parallelism and fully sharded data parallelism (FSDP) add communication of activations and parameters, respectively, to every microbatch; and pipeline parallelism leaves GPUs idle while the pipeline fills and drains. We show that, for linear layers, five commonly used parallelisms (data, tensor, sequence, context parallelism and FSDP) are special cases of one framework, generalized tensor parallelism (GTP), in which each layer's parameters and activations are partitioned and either can be re-materialized with an all-gather before use. In GTP, a parameter all-gather is an optional preprocessing step on one input of a matrix multiplication (GEMM), whereas FSDP implementations typically treat it as a step before an entire Transformer block, which can increase memory footprint and delay GEMMs. The GTP view lets us schedule all-gathers per GEMM rather than per block, issuing each early enough to hide its communication but late enough to limit memory. Our implementation is open source at https://github.com/NVIDIA/Megatron-LM; with it, an internal 2T-parameter mixture-of-experts (MoE) model reaches \\textbf{13.0 model EFLOP/s} (exaFLOP/s) on 12,288 GB300 GPUs with 98\\% weak-scaling efficiency, and runs with 1M-token sequences on 512 GPUs. On 256--1,024 GPUs, our implementation achieves \\textbf{1.05--1.55$\\times$ the throughput of Megatron-FSDP} across three MoE models and \\textbf{1.27--1.31$\\times$ that of a tuned 3D-parallel recipe with pipeline parallelism} on a DeepSeek-V4-Pro proxy model.",
+        "summary_vi": "Existing parallelization methods for trillion-parameter LLM training force trade-offs between per-GPU memory limits and pipeline idle time. This paper introduces Generalized Tensor Parallelism, a scheme designed to achieve sustained compute performance above 10 EFLOP/s without excessive activation memory overhead.",
+        "title": "Generalized Tensor Parallelism: Powering Trillion-Parameter LLM Training at 10+ EFLOP/s"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
     },
     "oai:arXiv.org:2611.32083v1": {
       "entry": {
@@ -2909,6 +3026,58 @@
       },
       "first_seen": "2026-11-25T16:06:44.747920+00:00"
     },
+    "oai:arXiv.org:2611.32105v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.32105v1",
+        "link": "https://arxiv.org/abs/2611.32105",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.32105v1 Announce Type: new \nAbstract: 6G wireless networks are expected to accommodate heterogeneous service requirements across diverse deployment scenarios, giving rise to physical-layer resource allocation problems with scenario-dependent objectives and constraints. Recent advances in large language models (LLMs) and agent systems can interpret wireless-domain specifications and incorporate execution feedback into optimization. However, translating language-level reasoning into feasible, high-quality resource allocations remains challenging, since candidates need to satisfy precise mathematical constraints throughout iterative search. This work proposes the Wireless Optimization Solution Generator (Wireless-OptSG), a versatile multi-agent framework for physical-layer resource allocation. Wireless-OptSG organizes optimization as a feedback-driven candidate search guided by a static meta-prompt and an evolving optimization history. In a nested outer-inner loop, parallel agents explore solution trajectories and periodically exchange high-quality records to guide candidate generation. Feasible initialization uses executable optimization primitives, while a tiered repair pipeline restores feasibility and solution-dependent context improves retained-record informativeness. Experiments on four representative tasks under perfect and imperfect channel state information show that Wireless-OptSG achieves performance comparable to scenario-specific state-of-the-art (SOTA) solvers, exceeds SOTA in some settings, and consistently outperforms generic baselines, demonstrating its potential as a transferable optimization framework for future wireless networks.",
+        "summary_vi": "Heterogeneous service requirements in 6G create complex physical-layer resource allocation problems that are difficult to automate. The authors present Wireless-OptSG, a multi-agent framework that translates natural language wireless specifications and operational feedback into mathematically valid resource allocation configurations.",
+        "title": "Wireless-OptSG: A Versatile Multi-Agent Optimization Framework for Wireless Resource Allocation"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
+    },
+    "oai:arXiv.org:2611.32123v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.32123v1",
+        "link": "https://arxiv.org/abs/2611.32123",
+        "relevance": 4,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2611.32123v1 Announce Type: new \nAbstract: We present a machine-checked soundness proof of a type system for the nontransitive noninterference (NTNI) information flow security property in an imperative programming language using Dafny. The original formulation of NTNI was developed for a functional programming language augmented with memory access operators, where security policies are expressed as coarse-grained information flow constraints over component-based software systems. Although subsequent research has extended NTNI type systems in various directions, to the best of our knowledge, no prior work has established a machine-checked soundness proof for type-enforced NTNI. As a result, the correctness of existing NTNI enforcement mechanisms has not been formally verified with a high degree of assurance.",
+        "summary_vi": "Enforcing non-transitive non-interference (NTNI) security policies in imperative software requires rigorous semantic verification. The authors construct a machine-checked proof using the Dafny verifier to demonstrate type soundness for an NTNI security type system in an imperative programming language.",
+        "title": "Verifying Type Soundness for Nontransitive Information Flow Security"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
+    },
+    "oai:arXiv.org:2611.32164v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.32164v1",
+        "link": "https://arxiv.org/abs/2611.32164",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.32164v1 Announce Type: new \nAbstract: A novel plug-and-play candidate beam selection strategy is proposed for generative site-specific beamforming (GenSSBF), a paradigm that draws on a learned conditional channel distribution to generate multiple plausible beams. Under a limited probing budget, realizing the full potential of GenSSBF requires identifying which candidate beams are worth probing. To this end, the marginal probing value is first derived to guide strategic candidate probing by quantifying each beam's additional gain beyond those already selected. Based on this criterion, two algorithms are developed without retraining the generator: 1) Greedy candidate probing (GCP) selects all candidate beams from a locally generated pool prior to over-the-air probing, requiring only a single feedback round; 2) Adaptive candidate probing (ACP) exploits reference signal received power (RSRP) feedback after each probe to update channel hypothesis weights and guide the next beam selection, without increasing the asymptotic complexity. Simulations across three ray-tracing scenarios under noiseless and noisy probing reveal that: 1) candidate complementarity is key to efficient beam brainstorming; and 2) ACP is particularly beneficial when initial sensing leaves substantial channel uncertainty and subsequent feedback is reliable.",
+        "summary_vi": "Probing all candidate beams generated by site-specific beamforming (GenSSBF) is constrained by limited overhead budgets. The authors derive the marginal probing value of candidate beams to establish a plug-and-play selection strategy called Strategic Beam Brainstorming.",
+        "title": "Strategic Beam Brainstorming for Generative Site-Specific Beamforming"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
+    },
+    "oai:arXiv.org:2611.32217v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.32217v1",
+        "link": "https://arxiv.org/abs/2611.32217",
+        "relevance": 4,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2611.32217v1 Announce Type: new \nAbstract: A program for a modern machine runs on several kinds of chips. Its memory spaces, links and capacities are invisible to the compilers of today. So a host that reads device memory, a working set that does not fit, or a data race shows up only when the program runs. Vx is a systems programming language that puts these facts in the program text. A machine is a source file of declarations. A value's type says which memory it lives in. Apart from one stated exception, a function's signature is the whole contract that its callers see. A flag lists the code and the facts that the compiler trusts without a proof. This report is a tour of the language at one commit. It describes six design principles, the core language, and the features that serve three qualities. Vx is scalable because one program text runs across machines, cores and GPU threads. With an option, the compiler also checks its function bodies in parallel. It is maintainable because a signature is the contract of a function and most diagnostics have codes. The output of the parallel compiler does not depend on the number of threads. It is secure because safe code has ownership, borrow, race and placement checks, and in safe code, a file or a socket of the standard library opens only with a right. For every feature, the report gives its status and the evidence for it. It also lists where the implementation does not yet meet the design.",
+        "summary_vi": "Current compilers hide memory topologies and hardware boundaries, causing runtime data races and memory bugs on heterogeneous systems. The Vx systems programming language addresses this by making target hardware topologies explicit in source files and encoding physical memory locations directly into variable types.",
+        "title": "Vx: A Programming Language for Scalable, Maintainable and Secure Systems"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
+    },
     "oai:arXiv.org:2611.32255v1": {
       "entry": {
         "category": "research",
@@ -2935,6 +3104,32 @@
       },
       "first_seen": "2026-11-25T16:06:44.747920+00:00"
     },
+    "oai:arXiv.org:2611.32295v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.32295v1",
+        "link": "https://arxiv.org/abs/2611.32295",
+        "relevance": 3,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.32295v1 Announce Type: new \nAbstract: Offloading model weights and the key-value (KV) cache to host memory enables large language models (LLMs) to run on a single memory-constrained GPU. As the KV cache grows during decoding, GPU memory requirements and the costs of KV cache transfers and attention computation change. However, existing offloading methods generally use static computation assignments and placements of model weights and the KV cache, preventing them from adapting to these changes and degrading inference performance. We propose Norn, a context-length-aware offloaded LLM inference method. Based on offline profiling, Norn co-optimizes computation assignments and placements at the sublayer level, precomputing multiple execution plans and their switching points. During decoding, Norn switches plans as context length increases, overlapping computation and data transfers without knowing the output length in advance. For prefill, Norn employs operator-major chunked prefill to avoid repeated weight transfers and automatically selects the chunk size. Experiments with Qwen3-14B and Qwen3-32B on two single-GPU systems show up to a 16.8$\\times$ speedup in end-to-end latency over Pipelined Sharding and a 4.2$\\times$ speedup over its oracle variant with known input and output lengths.",
+        "summary_vi": "Static memory placement strategies for offloaded LLM inference fail to adapt as key-value (KV) cache size grows during sequence decoding. The authors present Norn, a context-length-aware framework that dynamically optimizes model weight and KV cache placement between GPU and host memory to reduce transfer latency.",
+        "title": "Norn: Context-Length-Aware Optimization of Weight and KV Cache Placement for Offloaded LLM Inference"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
+    },
+    "oai:arXiv.org:2611.32307v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.32307v1",
+        "link": "https://arxiv.org/abs/2611.32307",
+        "relevance": 4,
+        "source": "arXiv eess.SP (Signal Processing)",
+        "summary": "arXiv:2611.32307v1 Announce Type: new \nAbstract: Low-resolution global navigation satellite system snapshot receivers face strong coupling among automatic gain control compression, coarse quantization, and waveform distortion from nonlinear interference mitigation. This paper presents Cross-Risk Interference-Resilient Snapshot Positioning, denoted CRISP, an aided single-snapshot architecture that allocates and fuses complementary pre-correlation processors over a bounded position-clock search region under a shared direct position estimation solve budget. On a pre-frozen baseband descriptor partition, offline calibration estimates uncentered second-order position-error cross moments and solves cardinality-constrained simplex programs along east, north, and up axes, retaining validation-screened multibranch combinations while assigning single matched processors elsewhere. An online reliability gate screens the same quantized snapshot to route unfamiliar waveforms toward single-branch protective operators. We characterize profiled contrast shifts after nonlinear suppression and derive a conditional finite-sample excess-risk bound across disjoint splits alongside an exact same-snapshot gating risk identity. Across 17 568 simulated 2-ms GPS L1 C/A trials, CRISP reduces core positioning root-mean-square error by 13.84%, > 100-m gross errors by 41.32%, and multi-geometry error by 12.23% over Snapshot-FD at 1.43 core and 1.51 overall solves per snapshot.",
+        "summary_vi": "Low-resolution GNSS snapshot receivers suffer performance loss due to tightly coupled automatic gain control compression, quantization, and interference mitigation distortions. The paper introduces CRISP, an architecture that allocates and fuses complementary pre-correlation processors across a bounded position-clock search range to improve positioning accuracy.",
+        "title": "CRISP: Sparse Risk-Calibrated Front-End Allocation and Fusion for Low-Resolution Snapshot GNSS Positioning"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
+    },
     "oai:arXiv.org:2611.32314v1": {
       "entry": {
         "category": "research",
@@ -2947,6 +3142,19 @@
         "title": "Operationalizing Quantum Machine Learning for IoT Network Intrusion Detection"
       },
       "first_seen": "2026-11-25T16:06:44.747920+00:00"
+    },
+    "oai:arXiv.org:2611.32440v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.32440v1",
+        "link": "https://arxiv.org/abs/2611.32440",
+        "relevance": 4,
+        "source": "arXiv cs.DC (Distributed and Parallel Computing)",
+        "summary": "arXiv:2611.32440v1 Announce Type: new \nAbstract: For a tensor-core kernel whose average board power stays near the GPU's power cap, runtime is approximately the energy consumed per call divided by that cap. Data movement whose latency is hidden by computation still consumes energy; reducing this traffic can raise the sustained clock and shorten execution even without reducing cycle count. We introduce Joule, a framework that accounts for this energy-frequency coupling in tensor-kernel design and scheduling. Its cost model combines hardware event counts, physical data-path energy costs, and nonlinear voltage scaling across domains to solve for sustained frequency and runtime under a power cap. Combining the model with data-movement lower bounds across memory levels and dies yields a power-aware speed of light (PSoL) that quantifies structural and implementation gaps. This analysis guides wide-tile kernels that use the full tensor memory (TMEM) capacity on B200, with fine-grained asynchronous rotation to overlap accumulator readout with tensor-core computation. It also guides power-aware spatial and temporal tile scheduling that accounts for trade-offs among read sharing, locality, and load balance. Given measured event counts, the model achieves 0.69% mean energy prediction error on B200. Across 60 dense-layer shapes, our GEMM delivers geometric-mean speedups of 4.94%, 6.64%, and 2.12% over exhaustively selected cuBLAS algorithms on B200, H100 NVL, and RTX PRO 6000, respectively. For fused Mega-MoE on eight B200 GPUs, the resulting optimizations improve performance by 2.60% to 5.17% over the upstream DeepGEMM baseline with die-local expert weights. We will open source Joule upon publication.",
+        "summary_vi": "When GPUs operate near their power limits, data movement with hidden latency still consumes energy and depresses operating frequencies. The paper introduces Joule, a tensor-kernel design framework that optimizes memory traffic and energy-frequency coupling to increase sustained clock speeds and shorten kernel runtime.",
+        "title": "Joule is FLOP: Optimizing Tensor-Core Kernels Beyond Latency Hiding at the GPU Power Wall"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
     },
     "oai:arXiv.org:2611.32464v1": {
       "entry": {
@@ -2961,6 +3169,58 @@
       },
       "first_seen": "2026-11-25T16:06:44.747920+00:00"
     },
+    "oai:arXiv.org:2611.32484v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.32484v1",
+        "link": "https://arxiv.org/abs/2611.32484",
+        "relevance": 3,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.32484v1 Announce Type: new \nAbstract: Quantum Communications (QC) are set to revolutionize communications by employing and exploiting the properties of quantum systems. In this work, we analyse Quantum Switch Networks (QSN) comprised of quantum switches, both memory-equipped and all-optical switch types, to study the time evolution of the requests' queue lengths and how they behave under certain regimes given by various configurations of the network, all governed by the throughput-optimal, classical MaxWeight Scheduling Policy. The goals of this work are twofold: first, we study the queue length dynamics, evolution and equilibrium under the Fluid Queues Approximation model and as a discrete evolution problem, with the addition of a simple discarding policy that stabilizes any scheduling policy by the introduction of a friction-like term named \\textit{discard term} inside the evolution equations. The second goal is the validation of the mechanism by comparing the discrete queue evolution of all-optical and memory-equipped quantum networks under different constraints and complex topologies like BCube and Fat-Tree, which are key topologies present on future Quantum Data Centres.",
+        "summary_vi": "Managing dynamic queue lengths in Quantum Switch Networks (QSN) under heavy traffic remains a key stability challenge. This paper models both memory-equipped and all-optical quantum switches to analyze request queue evolution and evaluate network stabilization under throughput-optimal scheduling strategies.",
+        "title": "Quantum Switches Under Congestion: Stabilization, Scheduling, and Performance"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
+    },
+    "oai:arXiv.org:2611.32661v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.32661v1",
+        "link": "https://arxiv.org/abs/2611.32661",
+        "relevance": 3,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.32661v1 Announce Type: new \nAbstract: This paper proposes memory-aware Q-routing (MAQR) for fresh status delivery over history-dependent molecular links in multi-hop Internet of Bio-Nano Things (IoBNT) networks. Repeated transmissions leave residual molecules, making link reliability history-dependent and fixed routing inefficient. Each link is calibrated from a spatial Markov model and approximated by three nonnegative decay modes. The resulting reduced memory state and packet bit composition provide an instantaneous link-success estimate. MAQR combines quantized memory and reliability descriptors with packet age, queue occupancy, and molecule reserve in a lightweight partially observable Q-routing heuristic. It is trained offline and requires only reduced-state updates and Q-table lookup during deployment. Across five independent training pairs and 20 shared evaluation seeds, MAQR reduces mean AoI by 46.9 % relative to memory-blind Q-routing at 0.30 packets/slot while improving molecular efficiency. Frozen-policy sweeps further show comparable performance under weak memory and an increasing MAQR advantage as channel memory strengthens.",
+        "summary_vi": "In multi-hop Internet of Bio-Nano Things (IoBNT) networks, residual molecules from repeated transmissions make link reliability history-dependent and fixed routing inefficient. The authors propose Memory-Aware Q-Routing (MAQR), which models link decay via a reduced-state spatial Markov model to optimize packet status freshness.",
+        "title": "MAQR: Lightweight Memory-Aware Q-Routing for Fresh Status Delivery in Multi-Hop IoBNTs"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
+    },
+    "oai:arXiv.org:2611.32838v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.32838v1",
+        "link": "https://arxiv.org/abs/2611.32838",
+        "relevance": 3,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.32838v1 Announce Type: new \nAbstract: In segment routing (SR), splitting ratios must be quantized to respect practical hardware precision constraints. Yet no existing work has established an upper bound on the performance degradation caused by such quantization. In this work, we propose source-agnostic systematic rounding, which allows flows sharing a destination to share the same policy, thereby reducing memory consumption, and which approximates the target splitting ratios by a set of power-of-two terms so as to respect the hardware precision limit. We explicitly analyze the consequence of quantizing splitting ratios to integer multiples of 1/64 by a probability-theoretic argument based on concentration inequalities, and we derive an upper bound on the resulting performance degradation. We validate our analysis with extensive experiments on real-world network topologies and flow statistics.",
+        "summary_vi": "Quantizing traffic splitting ratios to meet hardware precision constraints in Segment Routing (SR) causes performance degradation with previously uncharacterized upper bounds. The authors propose source-agnostic systematic rounding, allowing flows bound for the same destination to share routing policies while approximating target splitting ratios to save memory.",
+        "title": "Quantization-Induced Performance Degradation in Segment Routing: A Concentration Inequality Analysis"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
+    },
+    "oai:arXiv.org:2611.32852v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.32852v1",
+        "link": "https://arxiv.org/abs/2611.32852",
+        "relevance": 4,
+        "source": "arXiv cs.NI (Computer Networking)",
+        "summary": "arXiv:2611.32852v1 Announce Type: new \nAbstract: The emergence of low earth orbit (LEO) satellite constellations poses fundamental challenges for traditional rout- ing paradigms due to high node mobility, frequent topology changes, and constrained on-board resources. This paper pro- poses a segment routing (SR) framework that offloads route computation and control signaling from resource-constrained LEO switches to more powerful medium earth orbit (MEO) con- trollers. We first establish sufficient conditions for the persistence of user-to-satellite and LEO-to-MEO field-of-view (FoV) con- nectivity throughout a virtual topology (VT) snapshot interval, enabling handover-free operation. Leveraging this persistence, we formulate the MEO control domain partitioning problem as a mixed-integer linear program (MILP) to minimize control over- head while assigning disjoint segment routing domains (SRDs) to MEO controllers. Within each SRD, we develop a multipath SR- based traffic engineering (SR-TE) formulation that splits traffic among four minimum-hop-count path types to minimize maxi- mum link utilization. We solve this linear program (LP) using a distributed primal-dual hybrid gradient (PDHG) approach that preserves SRD-level privacy and requires only AllReduce communication. Simulations on the Starlink/GPS combination demonstrate our approach reduces maximum link utilization by more than 13.09%, 11.84%, and 12.50%, respectively, com- pared to traditional minimum hop count routing (MHCR) and traffic-oblivious load-balancing methods for Starlink, Kuiper, and OneWeb.",
+        "summary_vi": "High node mobility and dynamic topologies overwhelm traditional routing algorithms on resource-constrained Low Earth Orbit (LEO) satellite switches. This paper proposes a Segment Routing (SR) framework that offloads route computation and control signaling from LEO switches to more capable Medium Earth Orbit (MEO) controllers.",
+        "title": "Leveraging Persistent Field-of-View and Multipath Segment Routing for Traffic Engineering in LEO Satellite Constellations"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
+    },
     "oai:arXiv.org:2611.32908v1": {
       "entry": {
         "category": "research",
@@ -2973,6 +3233,19 @@
         "title": "KuroANN: Avoiding Unnecessary SSD Reads in High-Recall Filtered Vector Search"
       },
       "first_seen": "2026-11-25T16:06:44.747920+00:00"
+    },
+    "oai:arXiv.org:2611.32920v1": {
+      "entry": {
+        "category": "research",
+        "id": "oai:arXiv.org:2611.32920v1",
+        "link": "https://arxiv.org/abs/2611.32920",
+        "relevance": 4,
+        "source": "arXiv cs.PL (Programming Languages)",
+        "summary": "arXiv:2611.32920v1 Announce Type: new \nAbstract: Static analysis tools operate on an Intermediate Representation (IR) --- an internal model of the program on which dataflow analysis computes and stores facts against IR object identifiers. Incremental dataflow analysis reuses these cached facts across consecutive program versions, but requires an accurate mapping between IR objects in the old and new versions. When this mapping is imprecise, the consequence is not merely a missed optimization: unmapped IR objects inflate the change set, increasing the number of program points that the analyzer must recompute and forcing it to redo work that a more precise mapping would have avoided. This cost is not specific to any one kind of IR object; it arises wherever IR-level identity is unstable across versions. Any IR that decomposes nested source expressions generates temporary variables which are assigned names by a method-local counter that shifts whenever a statement is inserted or deleted earlier in the method, breaking any name- or attribute-based mapping. We present a systematic algorithm that establishes a sound, oneto-one mapping of these temporary variables across consecutive versions, and formalize and prove the soundness of the mapping, guaranteeing that every produced mapping is semantically correct. The resulting precise mapping shrinks the change set, reducing the number of program points the incremental analysis must recompute. Implemented within the Soot framework for Jimple IR and evaluated on 8 real-world Java projects with genuine edits from the BUGSWARM dataset, our approach reduces the IR change set by over 82% on average compared to Reviser's graph-differencing algorithm, while completing the full pipeline within 250 ms per project---directly countering the common assumption that a more precise change set necessarily costs more time to compute.",
+        "summary_vi": "Incremental static analysis reuses cached dataflow facts across program versions, but imprecise Intermediate Representation (IR) mapping between code versions causes incorrect analysis results. This paper develops a more precise IR object mapping technique to maintain accurate dataflow facts during incremental program updates.",
+        "title": "Increasing the Precision of IR Mapping for Incremental Data Analysis"
+      },
+      "first_seen": "2026-11-26T03:47:54.822371+00:00"
     },
     "oai:arXiv.org:2611.32975v1": {
       "entry": {
@@ -3020,11 +3293,8 @@
     "https://linuxgizmos.com/?p=99929": "2026-11-19T14:54:20.761013+00:00",
     "https://linuxgizmos.com/?p=99945": "2026-11-19T14:54:20.761013+00:00",
     "https://linuxgizmos.com/?p=99993": "2026-11-24T05:32:34.180065+00:00",
-    "https://lwn.net/Articles/1102102/": "2026-10-27T00:50:51.993375+00:00",
     "https://lwn.net/Articles/1102549/": "2026-11-11T01:31:16.709923+00:00",
     "https://lwn.net/Articles/1102738/": "2026-10-29T01:15:38.013696+00:00",
-    "https://lwn.net/Articles/1102946/": "2026-10-27T00:50:51.993375+00:00",
-    "https://lwn.net/Articles/1102973/": "2026-10-27T00:50:51.993375+00:00",
     "https://lwn.net/Articles/1102988/": "2026-11-17T04:12:42.219852+00:00",
     "https://lwn.net/Articles/1103188/": "2026-10-28T00:46:21.169893+00:00",
     "https://lwn.net/Articles/1103190/": "2026-11-07T01:13:55.085191+00:00",
@@ -3087,9 +3357,9 @@
     "https://lwn.net/Articles/1108811/": "2026-11-20T14:27:51.458269+00:00",
     "https://lwn.net/Articles/1108817/": "2026-11-20T14:27:51.458269+00:00",
     "https://lwn.net/Articles/1108818/": "2026-11-21T02:51:34.761374+00:00",
+    "https://lwn.net/Articles/1109691/": "2026-11-26T03:47:54.822371+00:00",
     "https://rcrwireless.com/?p=435746": "2026-10-28T11:41:08.830280+00:00",
     "https://rcrwireless.com/?p=435779": "2026-10-27T11:02:26.672421+00:00",
-    "https://rcrwireless.com/?p=435782": "2026-10-27T00:50:51.993375+00:00",
     "https://rcrwireless.com/?p=435792": "2026-10-28T00:46:21.169893+00:00",
     "https://rcrwireless.com/?p=435801": "2026-10-28T00:46:21.169893+00:00",
     "https://rcrwireless.com/?p=435805": "2026-10-28T00:46:21.169893+00:00",
@@ -3132,7 +3402,6 @@
     "https://rocm.blogs.amd.com/artificial-intelligence/flashinfer-release3/README.html": "2026-11-21T02:51:34.761374+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/glm5.2-mi355x-kvcache/README.html": "2026-11-12T02:32:46.806375+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/glm53flash-mi300x-vllm/README.html": "2026-11-12T02:32:46.806375+00:00",
-    "https://rocm.blogs.amd.com/artificial-intelligence/monai-hipcim-2608/README.html": "2026-10-27T00:50:51.993375+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/monai-zoo-2608/README.html": "2026-10-31T01:04:35.861546+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/nitro-p/README.html": "2026-11-21T02:51:34.761374+00:00",
     "https://rocm.blogs.amd.com/artificial-intelligence/online_quantization/README.html": "2026-11-06T01:57:39.156695+00:00",
@@ -3143,13 +3412,11 @@
     "https://rocm.blogs.amd.com/artificial-intelligence/world-model-npc/README.html": "2026-11-21T02:51:34.761374+00:00",
     "https://rocm.blogs.amd.com/ecosystems-and-partners/deepseek-v4-mi308-aiter-backed-rl/README.html": "2026-10-29T01:15:38.013696+00:00",
     "https://rocm.blogs.amd.com/ecosystems-and-partners/rocm-10.2-blog/README.html": "2026-11-19T02:51:55.687950+00:00",
-    "https://rocm.blogs.amd.com/ecosystems-and-partners/ultralytics-amd/README.html": "2026-10-27T00:50:51.993375+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/flydsl-mono-atom/README.html": "2026-11-04T01:43:07.426560+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/glm52-agentx-mi355x/README.html": "2026-11-05T01:49:34.737244+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/gpu-initiated-sdma/README.html": "2026-11-14T01:48:25.229918+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/inferasim/README.html": "2026-11-07T01:13:55.085191+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/madengine-primus-profiling/README.html": "2026-11-06T01:57:39.156695+00:00",
-    "https://rocm.blogs.amd.com/software-tools-optimization/openxla-group-gemm/README.html": "2026-10-27T00:50:51.993375+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/primusclaw/README.html": "2026-11-07T01:13:55.085191+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/profiling-guide/ai_tinyopenfold/README.html": "2026-11-05T01:49:34.737244+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/rocm-handbooks-intro/README.html": "2026-11-11T01:31:16.709923+00:00",
@@ -3157,7 +3424,6 @@
     "https://spectrum.ieee.org/faa-aviation-airwaves": "2026-10-28T11:41:08.830280+00:00",
     "https://spectrum.ieee.org/fighting-back-against-deep-fakes": "2026-11-20T14:27:51.458269+00:00",
     "https://spectrum.ieee.org/telecommunications-act-reform": "2026-11-02T13:55:07.841963+00:00",
-    "https://spectrum.ieee.org/zblan-fiber-optic-cables-iss": "2026-10-27T00:50:51.993375+00:00",
     "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html": "2026-10-30T01:24:44.649656+00:00",
     "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html": "2026-10-31T11:15:22.551414+00:00",
     "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html": "2026-10-29T11:49:06.816281+00:00",
@@ -3213,6 +3479,7 @@
     "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html": "2026-11-19T02:51:55.687950+00:00",
     "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html": "2026-11-19T14:54:20.761013+00:00",
     "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html": "2026-11-13T02:09:07.409503+00:00",
+    "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html": "2026-11-26T03:47:54.822371+00:00",
     "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html": "2026-11-18T03:11:30.700802+00:00",
     "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html": "2026-11-19T02:51:55.687950+00:00",
     "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html": "2026-11-02T13:55:07.841963+00:00",
@@ -3234,6 +3501,7 @@
     "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html": "2026-11-05T01:49:34.737244+00:00",
     "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html": "2026-11-04T01:43:07.426560+00:00",
     "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html": "2026-11-02T13:55:07.841963+00:00",
+    "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html": "2026-11-26T03:47:54.822371+00:00",
     "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html": "2026-11-10T03:50:12.495881+00:00",
     "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html": "2026-11-03T13:02:11.696372+00:00",
     "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html": "2026-11-20T14:27:51.458269+00:00",
@@ -3243,6 +3511,7 @@
     "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html": "2026-11-13T13:28:43.358051+00:00",
     "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html": "2026-11-06T01:57:39.156695+00:00",
     "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html": "2026-11-10T03:50:12.495881+00:00",
+    "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html": "2026-11-26T03:47:54.822371+00:00",
     "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html": "2026-11-18T14:37:51.704910+00:00",
     "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html": "2026-11-01T12:03:06.789682+00:00",
     "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html": "2026-11-12T02:32:46.806375+00:00",
@@ -3310,13 +3579,13 @@
     "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html": "2026-11-21T02:51:34.761374+00:00",
     "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html": "2026-11-13T13:28:43.358051+00:00",
     "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html": "2026-11-25T04:37:34.722916+00:00",
+    "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html": "2026-11-26T03:47:54.822371+00:00",
     "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html": "2026-11-12T14:00:43.491207+00:00",
     "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html": "2026-11-05T13:31:37.120286+00:00",
     "https://www.cnx-software.com/?p=170777": "2026-11-18T14:37:51.704910+00:00",
     "https://www.cnx-software.com/?p=175617": "2026-11-08T12:15:15.623047+00:00",
     "https://www.cnx-software.com/?p=178068": "2026-10-28T00:46:21.169893+00:00",
     "https://www.cnx-software.com/?p=178269": "2026-10-29T11:49:06.816281+00:00",
-    "https://www.cnx-software.com/?p=178571": "2026-10-27T00:50:51.993375+00:00",
     "https://www.cnx-software.com/?p=178648": "2026-10-27T11:02:26.672421+00:00",
     "https://www.cnx-software.com/?p=178698": "2026-10-28T11:41:08.830280+00:00",
     "https://www.cnx-software.com/?p=178752": "2026-11-03T13:02:11.696372+00:00",
@@ -3397,7 +3666,6 @@
     "https://www.linuxfoundation.org/blog/innovation-at-speed-new-insights-from-the-2026-state-of-open-source-in-financial-services": "2026-11-20T02:39:50.793304+00:00",
     "https://www.linuxfoundation.org/blog/lf-research-launches-2027-series-of-studies-and-opens-call-for-sponsors": "2026-11-12T02:32:46.806375+00:00",
     "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-november-2026": "2026-11-19T02:51:55.687950+00:00",
-    "https://www.linuxfoundation.org/blog/navigating-open-source-software-development-in-the-generative-ai-era-balancing-velocity-and-community-health": "2026-10-27T00:50:51.993375+00:00",
     "https://www.linuxfoundation.org/blog/the-ai-security-gap-hiding-in-routine-maintenance": "2026-11-11T01:31:16.709923+00:00",
     "https://www.linuxfoundation.org/blog/the-evolution-of-commercial-open-source-software": "2026-11-12T02:32:46.806375+00:00",
     "https://www.phoronix.com/news/3mdeb-2026-Firmware-APU2": "2026-11-18T14:37:51.704910+00:00",
@@ -3417,8 +3685,10 @@
     "https://www.phoronix.com/news/AMDGPU-Sparse-Gaming-Valve": "2026-11-17T14:58:30.205439+00:00",
     "https://www.phoronix.com/news/AMDXDNA-1.0-Linux-Driver": "2026-11-20T14:27:51.458269+00:00",
     "https://www.phoronix.com/news/AerynOS-2026.11": "2026-11-03T03:07:33.506203+00:00",
+    "https://www.phoronix.com/news/Alien-Arena-Flathub": "2026-11-26T03:47:54.822371+00:00",
     "https://www.phoronix.com/news/AlmaLinux-10.3-Released": "2026-11-17T04:12:42.219852+00:00",
     "https://www.phoronix.com/news/Azure-Linux-3.0.2022": "2026-11-07T11:56:46.016476+00:00",
+    "https://www.phoronix.com/news/Black-Friday-Week-2026": "2026-11-26T03:47:54.822371+00:00",
     "https://www.phoronix.com/news/Btrfs-LLM-Newbies-Guidelines": "2026-11-17T14:58:30.205439+00:00",
     "https://www.phoronix.com/news/CachyOS-November-2026": "2026-11-22T13:48:45.757130+00:00",
     "https://www.phoronix.com/news/CachyOS-Package-Installer-2.0": "2026-11-22T13:48:45.757130+00:00",
@@ -3472,7 +3742,6 @@
     "https://www.phoronix.com/news/Java4Shell-Vulnerability": "2026-11-18T03:11:30.700802+00:00",
     "https://www.phoronix.com/news/KDE-Fixes-15-Year-Old-Bugs": "2026-10-28T00:46:21.169893+00:00",
     "https://www.phoronix.com/news/KDE-Frameworks-6.32": "2026-11-14T01:48:25.229918+00:00",
-    "https://www.phoronix.com/news/KDE-KWin-Type": "2026-10-27T00:50:51.993375+00:00",
     "https://www.phoronix.com/news/KDE-Kwi-Terminal-Emulator": "2026-11-02T01:02:32.460847+00:00",
     "https://www.phoronix.com/news/KDE-Linux-October-2026": "2026-11-02T13:55:07.841963+00:00",
     "https://www.phoronix.com/news/KDE-Plasma-6.8.2": "2026-10-28T11:41:08.830280+00:00",
@@ -3480,7 +3749,6 @@
     "https://www.phoronix.com/news/KDE-Plasma-6.9-Cursor-Blinking": "2026-11-21T13:44:30.058649+00:00",
     "https://www.phoronix.com/news/KDE-Plasma-6.9-Leak-Desktop": "2026-11-07T11:56:46.016476+00:00",
     "https://www.phoronix.com/news/KDE-Plasma-6.9-More-Performance": "2026-10-31T11:15:22.551414+00:00",
-    "https://www.phoronix.com/news/KMSCON-10.1-Released": "2026-10-27T00:50:51.993375+00:00",
     "https://www.phoronix.com/news/Khronos-Remote-Offloading-API": "2026-11-13T02:09:07.409503+00:00",
     "https://www.phoronix.com/news/Kwi-Terminal-First-Release": "2026-11-20T14:27:51.458269+00:00",
     "https://www.phoronix.com/news/LLVM-Re-Licensing-Complete": "2026-11-20T02:39:50.793304+00:00",
@@ -3498,7 +3766,6 @@
     "https://www.phoronix.com/news/Linux-7.4-HWMON": "2026-10-27T11:02:26.672421+00:00",
     "https://www.phoronix.com/news/Linux-7.4-IOMMU": "2026-10-30T11:42:20.435734+00:00",
     "https://www.phoronix.com/news/Linux-7.4-KSMBD": "2026-10-29T11:49:06.816281+00:00",
-    "https://www.phoronix.com/news/Linux-7.4-Media": "2026-10-27T00:50:51.993375+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Merge-Window": "2026-11-01T12:03:06.789682+00:00",
     "https://www.phoronix.com/news/Linux-7.4-NTFS3": "2026-10-28T11:41:08.830280+00:00",
     "https://www.phoronix.com/news/Linux-7.4-rc1-Build-Times": "2026-11-06T01:57:39.156695+00:00",
@@ -3563,7 +3830,6 @@
     "https://www.phoronix.com/news/Sashiko-0.9.4-Released": "2026-11-18T14:37:51.704910+00:00",
     "https://www.phoronix.com/news/Sashiko-AI-Performance-Review": "2026-11-22T01:37:28.130542+00:00",
     "https://www.phoronix.com/news/Servo-0.7-Changes": "2026-11-06T01:57:39.156695+00:00",
-    "https://www.phoronix.com/news/Steam-Frame-FR-Linux-7.4": "2026-10-27T00:50:51.993375+00:00",
     "https://www.phoronix.com/news/Steam-Survey-October-2026": "2026-11-02T13:55:07.841963+00:00",
     "https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver": "2026-11-04T13:19:08.134166+00:00",
     "https://www.phoronix.com/news/System76-Thelio-Prime-Mini-PC": "2026-10-29T01:15:38.013696+00:00",
@@ -3576,6 +3842,7 @@
     "https://www.phoronix.com/news/Vulkan-1.4.367": "2026-10-30T11:42:20.435734+00:00",
     "https://www.phoronix.com/news/Vulkan-1.4.368": "2026-11-07T11:56:46.016476+00:00",
     "https://www.phoronix.com/news/Vulkan-AMDX-Ray-Tracing-Struct": "2026-11-20T14:27:51.458269+00:00",
+    "https://www.phoronix.com/news/Vulkan-Macs-Go-KosmicKrisp": "2026-11-26T03:47:54.822371+00:00",
     "https://www.phoronix.com/news/Wine-11.21-Released": "2026-10-31T01:04:35.861546+00:00",
     "https://www.phoronix.com/news/Wine-Mesa-Map-Buffer-Client-Ptr": "2026-10-28T00:46:21.169893+00:00",
     "https://www.phoronix.com/news/Wine-OpenGL-Cross-Proc-Render": "2026-11-18T14:37:51.704910+00:00",
@@ -3594,7 +3861,6 @@
     "https://www.phoronix.com/review/mrdimm-8800-12800-amd-epyc": "2026-11-17T04:12:42.219852+00:00",
     "https://www.phoronix.com/review/nvidia-vera-1p-2p": "2026-10-30T01:24:44.649656+00:00",
     "https://www.phoronix.com/review/system76-thelio-prime": "2026-11-21T02:51:34.761374+00:00",
-    "https://www.reddit.com/r/embedded/t3_1xg47fh": "2026-10-27T00:50:51.993375+00:00",
     "https://www.reddit.com/r/embedded/t3_1xgenvs": "2026-10-27T11:02:26.672421+00:00",
     "https://www.reddit.com/r/embedded/t3_1xghotv": "2026-10-27T11:02:26.672421+00:00",
     "https://www.reddit.com/r/embedded/t3_1xgjmg8": "2026-10-27T11:02:26.672421+00:00",
@@ -3808,7 +4074,6 @@
     "oai:arXiv.org:2506.23901v3": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2510.13818v3": "2026-11-18T03:11:30.700802+00:00",
     "oai:arXiv.org:2510.26008v3": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2511.10921v2": "2026-10-27T00:50:51.993375+00:00",
     "oai:arXiv.org:2512.24637v3": "2026-11-10T03:50:12.495881+00:00",
     "oai:arXiv.org:2601.19092v3": "2026-11-02T13:55:07.841963+00:00",
     "oai:arXiv.org:2601.19426v2": "2026-11-11T01:31:16.709923+00:00",
@@ -3833,7 +4098,6 @@
     "oai:arXiv.org:2605.23031v2": "2026-11-19T02:51:55.687950+00:00",
     "oai:arXiv.org:2605.25522v2": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2606.00866v2": "2026-11-13T13:28:43.358051+00:00",
-    "oai:arXiv.org:2606.08886v2": "2026-10-27T00:50:51.993375+00:00",
     "oai:arXiv.org:2606.16190v2": "2026-11-10T03:50:12.495881+00:00",
     "oai:arXiv.org:2606.26439v2": "2026-11-02T13:55:07.841963+00:00",
     "oai:arXiv.org:2607.11329v2": "2026-11-10T03:50:12.495881+00:00",
@@ -3855,24 +4119,10 @@
     "oai:arXiv.org:2610.12654v2": "2026-11-16T14:02:56.215796+00:00",
     "oai:arXiv.org:2610.14898v2": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2610.25256v2": "2026-11-06T01:57:39.156695+00:00",
-    "oai:arXiv.org:2610.27438v2": "2026-10-27T00:50:51.993375+00:00",
     "oai:arXiv.org:2610.28093v2": "2026-10-27T11:02:26.672421+00:00",
-    "oai:arXiv.org:2610.29733v1": "2026-10-27T00:50:51.993375+00:00",
-    "oai:arXiv.org:2610.29873v2": "2026-10-27T00:50:51.993375+00:00",
     "oai:arXiv.org:2610.30228v2": "2026-10-29T01:15:38.013696+00:00",
     "oai:arXiv.org:2610.32417v3": "2026-11-02T13:55:07.841963+00:00",
     "oai:arXiv.org:2610.32558v2": "2026-11-02T13:55:07.841963+00:00",
-    "oai:arXiv.org:2610.32579v1": "2026-10-27T00:50:51.993375+00:00",
-    "oai:arXiv.org:2610.32606v1": "2026-10-27T00:50:51.993375+00:00",
-    "oai:arXiv.org:2610.32638v1": "2026-10-27T00:50:51.993375+00:00",
-    "oai:arXiv.org:2610.32674v1": "2026-10-27T00:50:51.993375+00:00",
-    "oai:arXiv.org:2610.32682v1": "2026-10-27T00:50:51.993375+00:00",
-    "oai:arXiv.org:2610.32711v1": "2026-10-27T00:50:51.993375+00:00",
-    "oai:arXiv.org:2610.32720v1": "2026-10-27T00:50:51.993375+00:00",
-    "oai:arXiv.org:2610.32765v1": "2026-10-27T00:50:51.993375+00:00",
-    "oai:arXiv.org:2610.32803v1": "2026-10-27T00:50:51.993375+00:00",
-    "oai:arXiv.org:2610.32844v1": "2026-10-27T00:50:51.993375+00:00",
-    "oai:arXiv.org:2610.32889v1": "2026-10-27T00:50:51.993375+00:00",
     "oai:arXiv.org:2610.32925v2": "2026-10-28T00:46:21.169893+00:00",
     "oai:arXiv.org:2610.33076v1": "2026-10-27T11:02:26.672421+00:00",
     "oai:arXiv.org:2610.33088v1": "2026-10-27T11:02:26.672421+00:00",
@@ -4693,6 +4943,7 @@
     "oai:arXiv.org:2611.26526v1": "2026-11-21T02:51:34.761374+00:00",
     "oai:arXiv.org:2611.26563v1": "2026-11-20T14:27:51.458269+00:00",
     "oai:arXiv.org:2611.28882v1": "2026-11-25T04:37:34.722916+00:00",
+    "oai:arXiv.org:2611.32732v1": "2026-11-26T03:47:54.822371+00:00",
     "tag:github.com,2008:Repository/135502094/202620.2.26.0_Petalinux": "2026-11-02T13:55:07.841963+00:00",
     "tag:github.com,2008:Repository/135502094/202620.2.26.149": "2026-11-02T13:55:07.841963+00:00",
     "tag:github.com,2008:Repository/184341774/v53.1": "2026-11-11T01:31:16.709923+00:00",
