@@ -72,7 +72,6 @@
     "https://lwn.net/Articles/1109269/": "2026-11-23T16:30:34.139091+00:00",
     "https://nickvsnetworking.com/?p=7915": "2026-11-21T13:44:30.058649+00:00",
     "https://nickvsnetworking.com/?p=8306": "2026-11-07T01:13:55.085191+00:00",
-    "https://nickvsnetworking.com/?p=8479": "2026-10-28T11:41:08.830280+00:00",
     "https://ocudu.org/?p=926": "2026-10-30T01:24:44.649656+00:00",
     "https://ocudu.org/?p=969": "2026-11-12T14:00:43.491207+00:00",
     "https://osmocom.org/news/336": "2026-11-06T13:18:31.957095+00:00",
@@ -114,6 +113,7 @@
     "https://rcrwireless.com/?p=436182": "2026-11-24T16:28:10.327988+00:00",
     "https://rcrwireless.com/?p=436187": "2026-11-25T04:37:34.722916+00:00",
     "https://rcrwireless.com/?p=436190": "2026-11-27T03:51:03.263031+00:00",
+    "https://rcrwireless.com/?p=436193": "2026-11-27T15:39:11.917902+00:00",
     "https://rcrwireless.com/?p=436203": "2026-11-25T16:06:44.747920+00:00",
     "https://rcrwireless.com/?p=436207": "2026-11-26T03:47:54.822371+00:00",
     "https://rcrwireless.com/?p=436209": "2026-11-26T15:49:08.686470+00:00",
@@ -145,6 +145,7 @@
     "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html": "2026-11-07T01:13:55.085191+00:00",
     "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html": "2026-11-17T14:58:30.205439+00:00",
     "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html": "2026-11-06T13:18:31.957095+00:00",
+    "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html": "2026-11-27T15:39:11.917902+00:00",
     "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html": "2026-11-20T14:27:51.458269+00:00",
     "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html": "2026-11-14T01:48:25.229918+00:00",
     "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html": "2026-11-13T02:09:07.409503+00:00",
@@ -229,6 +230,7 @@
     "https://www.phoronix.com/news/IBM-VMs-ARM64-On-s390": "2026-11-15T12:58:38.751183+00:00",
     "https://www.phoronix.com/news/Ikey-Doherty-Plans-Linux-Build": "2026-11-06T13:14:17.741766+00:00",
     "https://www.phoronix.com/news/InputPlumber-0.79": "2026-11-06T13:14:17.741766+00:00",
+    "https://www.phoronix.com/news/Intel-Efficient-64-bit-e64-ANV": "2026-11-27T15:39:11.917902+00:00",
     "https://www.phoronix.com/news/Intel-Graphics-CMRR-Linux-7.4": "2026-11-06T13:14:17.741766+00:00",
     "https://www.phoronix.com/news/Intel-LInux-NPU-Driver-1.39.1": "2026-11-22T01:37:28.130542+00:00",
     "https://www.phoronix.com/news/Intel-Nova-Lake-P-64-bit-Mode": "2026-11-06T13:14:17.741766+00:00",
@@ -285,6 +287,7 @@
     "https://www.phoronix.com/news/XDC-2026-Talks": "2026-11-06T13:14:17.741766+00:00",
     "https://www.phoronix.com/news/Yunsilicon-Linux-Network-Driver": "2026-11-09T01:13:40.430144+00:00",
     "https://www.phoronix.com/news/Zenwalk-2026-Current": "2026-11-06T13:14:17.741766+00:00",
+    "https://www.phoronix.com/news/systemd-263-rc1": "2026-11-27T15:39:11.917902+00:00",
     "https://www.phoronix.com/news/zlib-rs-0.6.9": "2026-11-25T04:37:34.722916+00:00",
     "https://www.phoronix.com/review/amazon-linux-2027-benchmarks": "2026-11-06T13:14:17.741766+00:00",
     "https://www.phoronix.com/review/amd-epyc-zen6-smt": "2026-11-13T02:09:07.409503+00:00",
@@ -292,7 +295,6 @@
     "https://www.phoronix.com/review/windows-ubuntu2610-strix-halo": "2026-11-20T02:39:50.793304+00:00",
     "https://www.reddit.com/r/embedded/t3_1xgwndq": "2026-10-29T04:16:31.165926+00:00",
     "https://www.reddit.com/r/embedded/t3_1xh95fl": "2026-10-29T04:16:31.165926+00:00",
-    "https://www.reddit.com/r/embedded/t3_1xhfhmf": "2026-10-28T11:41:08.830280+00:00",
     "https://www.reddit.com/r/embedded/t3_1xiazis": "2026-10-29T11:49:06.816281+00:00",
     "https://www.reddit.com/r/embedded/t3_1xincdx": "2026-10-30T11:42:20.435734+00:00",
     "https://www.reddit.com/r/embedded/t3_1xjhizf": "2026-10-31T01:04:35.861546+00:00",
@@ -344,6 +346,7 @@
     "https://www.redhat.com/en/blog/red-hat-openshift-5-now-available-azure-red-hat-openshift": "2026-11-19T02:51:55.687950+00:00",
     "https://www.redhat.com/en/blog/red-hat-openshift-now-generally-available-google-clouds-sovereign-regions": "2026-11-08T00:56:33.966379+00:00",
     "https://www.redhat.com/en/blog/why-lightwell-pairs-dependency-backports-upstream-collaboration": "2026-11-05T01:49:34.737244+00:00",
+    "oai:arXiv.org:1804.01972v2": "2026-11-27T15:39:11.917902+00:00",
     "oai:arXiv.org:2502.06293v2": "2026-11-19T14:54:20.761013+00:00",
     "oai:arXiv.org:2506.08911v2": "2026-11-08T12:15:15.623047+00:00",
     "oai:arXiv.org:2510.08479v3": "2026-10-29T04:16:31.165926+00:00",
@@ -411,12 +414,9 @@
     "oai:arXiv.org:2610.33181v1": "2026-10-30T01:24:44.649656+00:00",
     "oai:arXiv.org:2610.33276v1": "2026-10-30T01:24:44.649656+00:00",
     "oai:arXiv.org:2610.33672v1": "2026-10-29T11:49:06.816281+00:00",
-    "oai:arXiv.org:2610.35999v1": "2026-10-28T11:41:08.830280+00:00",
     "oai:arXiv.org:2610.35999v2": "2026-11-26T15:49:08.686470+00:00",
     "oai:arXiv.org:2610.36147v1": "2026-10-29T01:15:38.013696+00:00",
-    "oai:arXiv.org:2610.36347v1": "2026-10-28T11:41:08.830280+00:00",
     "oai:arXiv.org:2610.36602v1": "2026-10-29T01:15:38.013696+00:00",
-    "oai:arXiv.org:2610.36609v1": "2026-10-28T11:41:08.830280+00:00",
     "oai:arXiv.org:2610.36748v1": "2026-10-29T01:15:38.013696+00:00",
     "oai:arXiv.org:2610.36792v1": "2026-10-29T04:16:31.165926+00:00",
     "oai:arXiv.org:2610.36880v1": "2026-10-29T04:16:31.165926+00:00",
@@ -595,19 +595,6 @@
       },
       "first_seen": "2026-11-27T03:51:03.263031+00:00"
     },
-    "https://linuxgizmos.com/?p=99983": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://linuxgizmos.com/?p=99983",
-        "link": "https://linuxgizmos.com/asrock-robotics-kit-runs-debian-13-on-intel-core-ultra-x7/",
-        "relevance": 3,
-        "source": "LinuxGizmos.com",
-        "summary": "ASRock Industrial has announced the RBK-100 Robotics-in-a-Box, an integrated development platform combining an Intel Core Ultra X7-powered mini PC with a pair of six-axis robotic arms and an RGB-D camera. The system runs Debian 13 and includes AiRoboStarter software for data collection, AI model training, and robotic manipulation. Centered around ASRock Industrial’s NUC BOX-358H, the […]",
-        "summary_vi": "ASRock Industrial announced the RBK-100 Robotics-in-a-Box development platform, combining an Intel Core Ultra X7 mini PC, two six-axis robotic arms, and an RGB-D camera. Running Debian 13 with preinstalled AiRoboStarter software, the system facilitates data collection, AI training, and robotic manipulation.",
-        "title": "ASRock robotics kit runs Debian 13 on Intel Core Ultra X7"
-      },
-      "first_seen": "2026-11-24T05:32:34.180065+00:00"
-    },
     "https://lwn.net/Articles/1103714/": {
       "entry": {
         "category": "embedded",
@@ -686,6 +673,19 @@
       },
       "first_seen": "2026-11-26T15:49:08.686470+00:00"
     },
+    "https://lwn.net/Articles/1110189/": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://lwn.net/Articles/1110189/",
+        "link": "https://lwn.net/Articles/1110189/",
+        "relevance": 3,
+        "source": "LWN.net Front Page",
+        "summary": "Security updates have been issued by AlmaLinux (gdm, ghostscript, gnome-remote-desktop, grafana, kernel, kernel-rt, mariadb10.11, and virt:rhel and virt-devel:rhel), Debian (exim4, kernel, node-dompurify, and pam), Fedora (chromium, cockpit, forgejo, haveged, jupyterlab, kernel, mariadb10.11, mariadb11.8, mkvtoolnix, mosquitto, mozilla-ublock-origin, nodejs24, python-notebook, ruby, ruby-build, tpm2-tss, valkey, varnish, wordpress, xen, xq, and zstd), Gentoo (FreeType and ImageMagick), Mageia (flatpak, php8.4-mongodb, php8.5-mongodb, and unrtf), Oracle (cockpit-machines, flatpak-builder, grafana-pcp, httpd, mutter, nginx:1.24, openssl, and webkit2gtk3), Red Hat (container-tools:rhel8, grafana, grafana-pcp, java-17-openjdk, java-21-openjdk, java-25-openjdk, kernel, kernel-rt, mysql8.4, ruby, ruby4.0, ruby:2.5, ruby:3.3, and ruby:4.0), SUSE (afflib-devel, AppStream, aws-iam-authenticator, bugwarden, diffutils, epiphany, expat, firefox, haproxy, heimdall, hostapd, java-21-openjdk, java-25-openjdk, keepassxc, krb5, krb5-mini, kubevirt1.8, libeot, libjpeg-turbo, libnfs-devel, libXtst, libzvbi-chains0, mariadb-java-client, mtools, nginx, nvidia-modprobe.cuda, nvidia-open-driver-G06-signed, nvidia-persistenced.cuda, nvidia-open-driver-G06-signed, perl-dbi, php8, pi-coding-agent, python-mistune, python-pymongo, python-urwid, python313-pylint, ruby3.4, ruby4.0-rubygem-rack, rustup, sequoia-sq, speex, tomcat11, util-linux, and webkit2gtk3), and Ubuntu (apache2, binutils, guava-libraries, libaacs, libjwt, libxi, plexus-utils2, pyjwt, and tiff).",
+        "summary_vi": "AlmaLinux, Debian, Fedora, Gentoo, and Mageia have issued security updates covering various core system components and packages, including the Linux kernel, MariaDB, Exim4, and Chromium.",
+        "title": "Security updates for Friday"
+      },
+      "first_seen": "2026-11-27T15:39:11.917902+00:00"
+    },
     "https://rcrwireless.com/?p=436165": {
       "entry": {
         "category": "ran",
@@ -737,19 +737,6 @@
         "title": "Webinar: Wi-Fi 8 and the Rises of AI-Native Wireless"
       },
       "first_seen": "2026-11-24T16:28:10.327988+00:00"
-    },
-    "https://rcrwireless.com/?p=436193": {
-      "entry": {
-        "category": "ran",
-        "id": "https://rcrwireless.com/?p=436193",
-        "link": "https://rcrwireless.com/20261125/network-infrastructure/scaling-ai-infrastructure-with-multi-core-and-hollow-core-fiber-reader-forum",
-        "relevance": 3,
-        "source": "RCR Wireless News",
-        "summary": "Scaling AI clusters will demand more from the optical layer, with multi-core and hollow-core fiber offering ways to increase capacity, reduce latency and squeeze more performance from existing data centre…",
-        "summary_vi": "Scaling AI clusters will demand more from the optical layer, with multi-core and hollow-core fiber offering ways to increase capacity, reduce latency and squeeze more performance from existing data ce",
-        "title": "Scaling AI infrastructure with multi-core and hollow-core fiber (Reader Forum)"
-      },
-      "first_seen": "2026-11-25T16:06:44.747920+00:00"
     },
     "https://rcrwireless.com/?p=436199": {
       "entry": {
@@ -868,19 +855,6 @@
       },
       "first_seen": "2026-11-24T16:28:10.327988+00:00"
     },
-    "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html": {
-      "entry": {
-        "category": "security",
-        "id": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
-        "link": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
-        "relevance": 3,
-        "source": "The Hacker News",
-        "summary": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring software to establish covert remote access to compromised networks.\n\nThe modified variant \"implements various tricks to hide itself from security tools,\"",
-        "summary_vi": "Threat actor Webworm is suspected of deploying a modified open-source SoftEther VPN Bridge tool disguised as network-monitoring software to establish covert remote access. The modified variant alters recognizable detection signatures to evade security tools.",
-        "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access"
-      },
-      "first_seen": "2026-11-24T05:32:34.180065+00:00"
-    },
     "https://www.cnx-software.com/?p=179987": {
       "entry": {
         "category": "embedded",
@@ -906,19 +880,6 @@
         "title": "CamThink NeoEyes NE301 & NE302 Edge AI cameras get Wi-Fi HaLow connectivity for indoor and outdoor deployments (Sponsored)"
       },
       "first_seen": "2026-11-26T15:49:08.686470+00:00"
-    },
-    "https://www.cnx-software.com/?p=180389": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.cnx-software.com/?p=180389",
-        "link": "https://www.cnx-software.com/2026/11/24/retroline-pairs-a-rotary-or-touch-tone-landline-phone-to-your-smartphone/",
-        "relevance": 3,
-        "source": "CNX Software",
-        "summary": "RetroLine is a small USB-C-powered adapter with an RJ-11 phone jack that allows you to connect a retro rotary dial (pulse) and touch-tone (DTMF) phone and make or receive calls over Bluetooth through your smartphone. The company, Indigo Telephony, says it behaves like a real line. Users can pick their country, and the RetroLine box matches the dial, busy and ringback tones, ring cadence, and Caller ID format. The bells inside older 1970s phones can also ring. RetroLine key features and specifications: SoC – Not disclosed. The company only mentions a “fast microcontroller”, and I suspect it may be an ESP32. Storage – MicroSD card slot for call recording, hold music, sound-board clips, and system logs Wireless Bluetooth for connection to your smartphone WiFi for web dashboard Phone connector – RJ-11 jack compatible with rotary dial (pulse) and touch-tone (DTMF) phones Audio High-fidelity audio codec Custom hold music (WAV or MP3) [...] \n The post RetroLine pairs a rotary or touch-tone landline phone to your smartphone (Crowdfunding) appeared first on CNX Software - Embedded Systems News .",
-        "summary_vi": "RetroLine is a USB-C-powered adapter with an RJ-11 jack that connects vintage pulse or DTMF landline phones to smartphones via Bluetooth for making and receiving calls. It emulates regional telephone signals, including ring cadences, dial tones, caller ID formats, and physical bell ringing.",
-        "title": "RetroLine pairs a rotary or touch-tone landline phone to your smartphone (Crowdfunding)"
-      },
-      "first_seen": "2026-11-24T05:32:34.180065+00:00"
     },
     "https://www.cnx-software.com/?p=180533": {
       "entry": {
@@ -959,18 +920,31 @@
       },
       "first_seen": "2026-11-25T16:06:44.747920+00:00"
     },
-    "https://www.dpdk.org/?p=4476": {
+    "https://www.cnx-software.com/?p=180726": {
       "entry": {
         "category": "embedded",
-        "id": "https://www.dpdk.org/?p=4476",
-        "link": "https://www.dpdk.org/roland-sipos-on-dpdk-in-cern-data-acquisition/",
+        "id": "https://www.cnx-software.com/?p=180726",
+        "link": "https://www.cnx-software.com/2026/11/27/usb-rea-generates-a-linux-driver-for-your-windows-only-usb-gadget/",
         "relevance": 4,
-        "source": "DPDK Blog",
-        "summary": "Roland Sipos (CERN) on how DPDK moved from a test bench to the readout layer for NA62, the DUNE prototype detectors and LHCb R&D, and where NIC behaviour diverges from the shared API.",
-        "summary_vi": "Roland Sipos details how CERN transitioned DPDK (Data Plane Development Kit) from a test bench into the main data readout layer for particle physics experiments like NA62 and DUNE prototypes. The discussion highlights instances where actual network card behavior diverges from DPDK's shared API.",
-        "title": "Roland Sipos on DPDK in CERN Data Acquisition"
+        "source": "CNX Software",
+        "summary": "usb-rea is an MIT-licensed tool for people who own a USB gadget that only ships with a Windows program. It captures packets while you use the Windows app and generates a pyusb driver for Linux. Many years ago, I had to reverse-engineer a USB video capture card, whose vendor didn’t want to work with a company specializing in “small-volume production”. I had to capture the packets with Wireshark and manually implement code to replay URB (USB Request Block) packets using libusb, while paying close attention to timings. A tool like usb-rea would have been useful at the time. More specifically, usb-rea captures USB traffic with USBPcap or usbmon while the user clicks through the vendor app and labels the actions. The open-source program then infers the command structure (constants, counters, value fields, lookup tables, CRCs) and writes a Markdown protocol report plus a standalone Linux driver. The developer, Emir Mrkaljevic, [...] \n The post usb-rea generates a Linux driver for your Windows-only USB gadget appeared first on CNX Software - Embedded Systems News .",
+        "summary_vi": "usb-rea is an open-source tool designed to generate a Python-based pyusb Linux driver for Windows-only USB devices by automatically capturing USB packets while the Windows application runs.",
+        "title": "usb-rea generates a Linux driver for your Windows-only USB gadget"
       },
-      "first_seen": "2026-11-24T05:32:34.180065+00:00"
+      "first_seen": "2026-11-27T15:39:11.917902+00:00"
+    },
+    "https://www.cnx-software.com/?p=180737": {
+      "entry": {
+        "category": "embedded",
+        "id": "https://www.cnx-software.com/?p=180737",
+        "link": "https://www.cnx-software.com/2026/11/27/shimetapi-pico-g1-a-compact-ai-vision-linux-sbc-powered-by-goke-gk7206-4k-camera-soc/",
+        "relevance": 4,
+        "source": "CNX Software",
+        "summary": "ShiMetaPi Pico-G1 is a compact development board with Ethernet and MIPI CSI connectors designed for AI Vision applications and powered by a GOKE GK7206 dual-core Cortex-A7 SoC with 128MB or 256MB on-chip DDR3L memory. The board also features a 16MB SPI flash and a microSD card for storage, a USB Type-C port for power and OS flashing, an RTC battery connector, and two 20-pin GPIO headers for expansion with I2C, UART, PWM, SPI, and so on. ShiMetaPi Pico-G1 specifications: SoC – GOKE GK7206 CPU Dual-core Cortex-A7 processor clocked up to 1.0 GHz RISC-V coprocessor up to 400 MHz GPU – N/A VPU – H.265 / H.264 hardware encoder ISP – 2F-WDR, AI NR, 3DNR, LDC; input up to 3840 x 2160 @ 20 fps NPU – 1.0 TOPS On-chip Memory – 128MB DDR3L (GK7206V11A) or 256MB DDR3L (GK7206V12A) Storage 16 MB NOR flash MicroSD card slot Camera Interface – 4-lane [...] \n The post ShiMetaPi Pico-G1 – A compact AI Vision Linux SBC powered by GOKE GK7206 4K camera SoC appeared first on CNX Software - Embedded Systems News .",
+        "summary_vi": "The ShiMetaPi Pico-G1 is a compact AI Vision Linux development board powered by a GOKE GK7206 dual-core Cortex-A7 SoC with up to 256MB DDR3L. It includes Ethernet, MIPI CSI, USB Type-C, SPI flash, and two 20-pin GPIO headers.",
+        "title": "ShiMetaPi Pico-G1 – A compact AI Vision Linux SBC powered by GOKE GK7206 4K camera SoC"
+      },
+      "first_seen": "2026-11-27T15:39:11.917902+00:00"
     },
     "https://www.dpdk.org/?p=4498": {
       "entry": {
@@ -1167,31 +1141,18 @@
       },
       "first_seen": "2026-11-24T16:28:10.327988+00:00"
     },
-    "https://www.phoronix.com/news/Zstandard-Zstd-1.6": {
+    "https://www.phoronix.com/news/ZenSMU-Linux-TUI-GUI": {
       "entry": {
         "category": "embedded",
-        "id": "https://www.phoronix.com/news/Zstandard-Zstd-1.6",
-        "link": "https://www.phoronix.com/news/Zstandard-Zstd-1.6",
+        "id": "https://www.phoronix.com/news/ZenSMU-Linux-TUI-GUI",
+        "link": "https://www.phoronix.com/news/ZenSMU-Linux-TUI-GUI",
         "relevance": 3,
         "source": "Phoronix",
-        "summary": "It's been a year and a half since the last Zstandard release (v1.5.7) while Zstandard 1.6.0 was tagged a short time ago as the next major step forward for this widely-used, open-source compression algorithm and implementation...",
-        "summary_vi": "Zstandard 1.6.0 has been released as the next major update to the widely-used open-source data compression implementation. The new version introduces multiple fixes and performance optimizations, though specific technical details are omitted in the snippet.",
-        "title": "Zstd 1.6 Released With Many Fixes, New Performance Optimizations"
+        "summary": "In the absence of any official AMD Ryzen Master utility for Linux to extensively monitor your Ryzen processor and overclocking/tweaking the CPU, there are a few unofficial, open-source utilities out there that aim for a similar intent. One of the new ones is ZenSMU that provides both a CLI/TUI interface and a proper Linux desktop GUI...",
+        "summary_vi": "ZenSMU is an open-source tool written in Rust that provides CLI, TUI, and desktop GUI interfaces for monitoring and tweaking AMD Ryzen processors on Linux, addressing the lack of an official AMD Ryzen Master utility.",
+        "title": "ZenSMU Provides A Rust CLI/TUI & GUI For AMD Ryzen Monitoring/Tweaking"
       },
-      "first_seen": "2026-11-24T05:32:34.180065+00:00"
-    },
-    "https://www.phoronix.com/review/amd-epyc-9006-7601": {
-      "entry": {
-        "category": "embedded",
-        "id": "https://www.phoronix.com/review/amd-epyc-9006-7601",
-        "link": "https://www.phoronix.com/review/amd-epyc-9006-7601",
-        "relevance": 3,
-        "source": "Phoronix",
-        "summary": "This month brought the availability of the new EPYC 9006 \"Venice\" SP7 Zen 6 server processors. We have seen excellent generational gains with the likes of the EPYC 9686F and EPYC 9996 over Zen 5 Turin CPUs as well as sharply outperforming the competition from Intel and NVIDIA. With the first-generation EPYC \"Naples\" processors having launched nearly ten years ago, I was curious to quantify AMD's server performance gains over the past decade. So up today is a look at how the EPYC 9996 and EPYC 9686F Zen 6 processors compare to the original EPYC Zen 1 flagship with the EPYC 7601 across real-world workloads for performance as well as power efficiency for some pretty epic gains.",
-        "summary_vi": "Performance benchmarks comparing the new Zen 6 AMD EPYC 9006 server processors against first-generation Zen 1 EPYC CPUs demonstrate a 12.1x geometric mean performance gain over nearly a decade. The benchmarks also show AI workload improvements reaching up to 133x.",
-        "title": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean In Less Than 10 Years, Up To 133x In AI"
-      },
-      "first_seen": "2026-11-24T05:32:34.180065+00:00"
+      "first_seen": "2026-11-27T15:39:11.917902+00:00"
     },
     "https://www.phoronix.com/review/pop-os-2604-benchmarks": {
       "entry": {
@@ -1283,19 +1244,6 @@
         "title": "Back to the Future: Why ASPLOS is Re-Evaluating the Multi-Deadline Experiment"
       },
       "first_seen": "2026-11-24T16:28:10.327988+00:00"
-    },
-    "oai:arXiv.org:1804.01972v2": {
-      "entry": {
-        "category": "research",
-        "id": "oai:arXiv.org:1804.01972v2",
-        "link": "https://arxiv.org/abs/1804.01972",
-        "relevance": 4,
-        "source": "arXiv cs.PF (Performance)",
-        "summary": "arXiv:1804.01972v2 Announce Type: replace \nAbstract: Miss ratio curve (MRC), or equivalently hit ratio curve (HRC), construction techniques have gathered the attention of many researchers. Advances in sampling now allow these curves to be approximated in constant space, which makes online working-set-size (WSS) measurement practical. Techniques span the algorithmic design paradigm from classic stack processing to compiler analysis and machine learning. Our survey produces a broad classification of the techniques based primarily on \\emph{what} locality metric is recorded and \\emph{how} that metric is stored for processing.\n Applications of these curves span from dynamic cache partitioning in the processor, to slab allocation in key-value caches, to memory tiering at the operating system level. Our survey gives an overview of the historical, exact MRC construction methods, and compares them with the state-of-the-art methods present in today's literature. This revised version improves our coverage of existing techniques and adds the techniques published since 2017 (including methods for non-LRU and multi-tier caches), the unification of the reuse time models, and a short introduction to writeback ratio curves. Finally, we revisit the open problems posed in the first version and show where there are still open areas of research.",
-        "summary_vi": "arXiv:1804.01972v2 Announce Type: replace \nAbstract: Miss ratio curve (MRC), or equivalently hit ratio curve (HRC), construction techniques have gathered the attention of many researchers. Advances in",
-        "title": "A Survey of Miss-Ratio Curve Construction Techniques"
-      },
-      "first_seen": "2026-11-26T15:49:08.686470+00:00"
     },
     "oai:arXiv.org:2505.21331v3": {
       "entry": {
@@ -3261,9 +3209,6 @@
     "https://eclypsium.com/?p=18943": "2026-11-07T01:13:55.085191+00:00",
     "https://eclypsium.com/?p=19034": "2026-11-20T02:39:50.793304+00:00",
     "https://kubevirt.io//2026/10-Years-of-KubeVirt": "2026-11-11T01:31:16.709923+00:00",
-    "https://linuxgizmos.com/?p=99669": "2026-10-28T11:41:08.830280+00:00",
-    "https://linuxgizmos.com/?p=99671": "2026-10-28T11:41:08.830280+00:00",
-    "https://linuxgizmos.com/?p=99675": "2026-10-28T11:41:08.830280+00:00",
     "https://linuxgizmos.com/?p=99683": "2026-10-29T04:16:31.165926+00:00",
     "https://linuxgizmos.com/?p=99693": "2026-10-30T01:24:44.649656+00:00",
     "https://linuxgizmos.com/?p=99704": "2026-11-02T01:02:32.460847+00:00",
@@ -3279,6 +3224,7 @@
     "https://linuxgizmos.com/?p=99917": "2026-11-19T02:51:55.687950+00:00",
     "https://linuxgizmos.com/?p=99929": "2026-11-19T14:54:20.761013+00:00",
     "https://linuxgizmos.com/?p=99945": "2026-11-19T14:54:20.761013+00:00",
+    "https://linuxgizmos.com/?p=99983": "2026-11-24T05:32:34.180065+00:00",
     "https://linuxgizmos.com/?p=99993": "2026-11-24T05:32:34.180065+00:00",
     "https://lwn.net/Articles/1102549/": "2026-11-11T01:31:16.709923+00:00",
     "https://lwn.net/Articles/1102738/": "2026-10-29T01:15:38.013696+00:00",
@@ -3345,8 +3291,6 @@
     "https://lwn.net/Articles/1108909/": "2026-11-23T16:30:34.139091+00:00",
     "https://lwn.net/Articles/1109268/": "2026-11-23T16:30:34.139091+00:00",
     "https://lwn.net/Articles/1109691/": "2026-11-26T03:47:54.822371+00:00",
-    "https://rcrwireless.com/?p=435746": "2026-10-28T11:41:08.830280+00:00",
-    "https://rcrwireless.com/?p=435808": "2026-10-28T11:41:08.830280+00:00",
     "https://rcrwireless.com/?p=435816": "2026-10-29T01:15:38.013696+00:00",
     "https://rcrwireless.com/?p=435829": "2026-10-30T01:24:44.649656+00:00",
     "https://rcrwireless.com/?p=435842": "2026-10-31T01:04:35.861546+00:00",
@@ -3405,7 +3349,6 @@
     "https://rocm.blogs.amd.com/software-tools-optimization/primusclaw/README.html": "2026-11-07T01:13:55.085191+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/profiling-guide/ai_tinyopenfold/README.html": "2026-11-05T01:49:34.737244+00:00",
     "https://rocm.blogs.amd.com/software-tools-optimization/rocm-handbooks-intro/README.html": "2026-11-11T01:31:16.709923+00:00",
-    "https://spectrum.ieee.org/faa-aviation-airwaves": "2026-10-28T11:41:08.830280+00:00",
     "https://spectrum.ieee.org/fighting-back-against-deep-fakes": "2026-11-20T14:27:51.458269+00:00",
     "https://spectrum.ieee.org/telecommunications-act-reform": "2026-11-02T13:55:07.841963+00:00",
     "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html": "2026-10-30T01:24:44.649656+00:00",
@@ -3505,6 +3448,7 @@
     "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html": "2026-11-18T14:37:51.704910+00:00",
     "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html": "2026-11-01T12:03:06.789682+00:00",
     "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html": "2026-11-12T02:32:46.806375+00:00",
+    "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html": "2026-11-27T15:39:11.917902+00:00",
     "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html": "2026-11-17T14:58:30.205439+00:00",
     "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html": "2026-11-07T01:13:55.085191+00:00",
     "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html": "2026-11-25T04:37:34.722916+00:00",
@@ -3517,6 +3461,7 @@
     "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html": "2026-11-06T13:18:31.957095+00:00",
     "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html": "2026-11-11T12:59:29.572890+00:00",
     "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html": "2026-11-11T12:59:29.572890+00:00",
+    "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html": "2026-11-27T15:39:11.917902+00:00",
     "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html": "2026-11-26T15:49:08.686470+00:00",
     "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html": "2026-11-04T01:43:07.426560+00:00",
     "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html": "2026-11-19T14:54:20.761013+00:00",
@@ -3554,6 +3499,7 @@
     "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html": "2026-11-21T13:44:30.058649+00:00",
     "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html": "2026-11-20T14:27:51.458269+00:00",
     "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html": "2026-11-05T01:49:34.737244+00:00",
+    "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html": "2026-11-27T15:39:11.917902+00:00",
     "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html": "2026-11-03T13:02:11.696372+00:00",
     "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html": "2026-11-09T14:23:45.834216+00:00",
     "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html": "2026-11-03T13:02:11.696372+00:00",
@@ -3564,8 +3510,10 @@
     "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html": "2026-11-20T02:39:50.793304+00:00",
     "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html": "2026-11-11T01:31:16.709923+00:00",
     "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html": "2026-11-18T03:11:30.700802+00:00",
+    "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html": "2026-11-27T15:39:11.917902+00:00",
     "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html": "2026-11-11T12:59:29.572890+00:00",
     "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html": "2026-11-09T14:23:45.834216+00:00",
+    "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html": "2026-11-24T05:32:34.180065+00:00",
     "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html": "2026-11-03T03:07:33.506203+00:00",
     "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html": "2026-11-17T04:12:42.219852+00:00",
     "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html": "2026-11-09T14:23:45.834216+00:00",
@@ -3578,7 +3526,6 @@
     "https://www.cnx-software.com/?p=170777": "2026-11-18T14:37:51.704910+00:00",
     "https://www.cnx-software.com/?p=175617": "2026-11-08T12:15:15.623047+00:00",
     "https://www.cnx-software.com/?p=178269": "2026-10-29T11:49:06.816281+00:00",
-    "https://www.cnx-software.com/?p=178698": "2026-10-28T11:41:08.830280+00:00",
     "https://www.cnx-software.com/?p=178752": "2026-11-03T13:02:11.696372+00:00",
     "https://www.cnx-software.com/?p=178766": "2026-11-02T13:55:07.841963+00:00",
     "https://www.cnx-software.com/?p=178776": "2026-10-29T01:15:38.013696+00:00",
@@ -3632,11 +3579,13 @@
     "https://www.cnx-software.com/?p=180177": "2026-11-19T14:54:20.761013+00:00",
     "https://www.cnx-software.com/?p=180180": "2026-11-17T14:58:30.205439+00:00",
     "https://www.cnx-software.com/?p=180231": "2026-11-19T14:54:20.761013+00:00",
+    "https://www.cnx-software.com/?p=180389": "2026-11-24T05:32:34.180065+00:00",
     "https://www.cnx-software.com/?p=180392": "2026-11-20T14:27:51.458269+00:00",
     "https://www.cnx-software.com/?p=180404": "2026-11-20T14:27:51.458269+00:00",
     "https://www.cnx-software.com/?p=180431": "2026-11-23T16:30:34.139091+00:00",
     "https://www.cnx-software.com/?p=180663": "2026-11-26T15:49:08.686470+00:00",
     "https://www.dpdk.org/?p=4451": "2026-11-12T02:32:46.806375+00:00",
+    "https://www.dpdk.org/?p=4476": "2026-11-24T05:32:34.180065+00:00",
     "https://www.dpdk.org/?p=4491": "2026-11-24T05:32:34.180065+00:00",
     "https://www.huawei.com/en/news/2015/01/hw_411127": "2026-11-13T13:28:43.358051+00:00",
     "https://www.huawei.com/en/news/2016/10/open-cloud-forum2016": "2026-11-13T13:28:43.358051+00:00",
@@ -3719,7 +3668,6 @@
     "https://www.phoronix.com/news/GNU-Automake-1.20": "2026-11-08T00:56:33.966379+00:00",
     "https://www.phoronix.com/news/GNU-Gawk-5.4.2": "2026-11-16T14:02:56.215796+00:00",
     "https://www.phoronix.com/news/GXVK-3Dfx-Glide-Vulkan": "2026-10-29T01:15:38.013696+00:00",
-    "https://www.phoronix.com/news/GhostBSD-26.2": "2026-10-28T11:41:08.830280+00:00",
     "https://www.phoronix.com/news/GnuPG-GPGME-Critical": "2026-11-21T02:51:34.761374+00:00",
     "https://www.phoronix.com/news/HRX-Loom-0.2": "2026-11-17T04:12:42.219852+00:00",
     "https://www.phoronix.com/news/HyprBSD": "2026-11-08T00:56:33.966379+00:00",
@@ -3728,6 +3676,7 @@
     "https://www.phoronix.com/news/Intel-ANV-AV1-Bitrate-Control": "2026-11-10T03:50:12.495881+00:00",
     "https://www.phoronix.com/news/Intel-CPU-Microcode-20261110": "2026-11-11T12:59:29.572890+00:00",
     "https://www.phoronix.com/news/Intel-Compute-26.40.40196.8": "2026-11-03T13:02:11.696372+00:00",
+    "https://www.phoronix.com/news/Intel-Compute-26.44.40734.8": "2026-11-27T15:39:11.917902+00:00",
     "https://www.phoronix.com/news/Intel-GCC-Coral-Rapids-Razor": "2026-11-13T13:28:43.358051+00:00",
     "https://www.phoronix.com/news/Intel-GPU-270-Open-Performance": "2026-11-17T04:12:42.219852+00:00",
     "https://www.phoronix.com/news/Intel-One-Mono-1.5": "2026-11-05T01:49:34.737244+00:00",
@@ -3738,7 +3687,6 @@
     "https://www.phoronix.com/news/KDE-Frameworks-6.32": "2026-11-14T01:48:25.229918+00:00",
     "https://www.phoronix.com/news/KDE-Kwi-Terminal-Emulator": "2026-11-02T01:02:32.460847+00:00",
     "https://www.phoronix.com/news/KDE-Linux-October-2026": "2026-11-02T13:55:07.841963+00:00",
-    "https://www.phoronix.com/news/KDE-Plasma-6.8.2": "2026-10-28T11:41:08.830280+00:00",
     "https://www.phoronix.com/news/KDE-Plasma-6.8.3": "2026-11-10T13:47:36.749512+00:00",
     "https://www.phoronix.com/news/KDE-Plasma-6.9-Cursor-Blinking": "2026-11-21T13:44:30.058649+00:00",
     "https://www.phoronix.com/news/KDE-Plasma-6.9-Leak-Desktop": "2026-11-07T11:56:46.016476+00:00",
@@ -3756,12 +3704,12 @@
     "https://www.phoronix.com/news/Linux-2026-x86-32-bit-Cleanup": "2026-11-07T11:56:46.016476+00:00",
     "https://www.phoronix.com/news/Linux-3x-Faster-raid6check": "2026-11-06T01:57:39.156695+00:00",
     "https://www.phoronix.com/news/Linux-7.3-Likely-LTS": "2026-11-04T13:19:08.134166+00:00",
+    "https://www.phoronix.com/news/Linux-7.4-Arc-B390-Performance": "2026-11-27T15:39:11.917902+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Core-MM-Nasty-Fixes": "2026-11-05T13:31:37.120286+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Faster-FAT32": "2026-10-29T11:49:06.816281+00:00",
     "https://www.phoronix.com/news/Linux-7.4-IOMMU": "2026-10-30T11:42:20.435734+00:00",
     "https://www.phoronix.com/news/Linux-7.4-KSMBD": "2026-10-29T11:49:06.816281+00:00",
     "https://www.phoronix.com/news/Linux-7.4-Merge-Window": "2026-11-01T12:03:06.789682+00:00",
-    "https://www.phoronix.com/news/Linux-7.4-NTFS3": "2026-10-28T11:41:08.830280+00:00",
     "https://www.phoronix.com/news/Linux-7.4-rc1-Build-Times": "2026-11-06T01:57:39.156695+00:00",
     "https://www.phoronix.com/news/Linux-7.4-rc2-FAT32": "2026-11-07T01:13:55.085191+00:00",
     "https://www.phoronix.com/news/Linux-7.4-rc2-Released": "2026-11-09T01:13:40.430144+00:00",
@@ -3776,7 +3724,6 @@
     "https://www.phoronix.com/news/Linux-75-More-ASUS-ASRock-HWMON": "2026-11-19T14:54:20.761013+00:00",
     "https://www.phoronix.com/news/Linux-Dropping-Last-MMX-Opt": "2026-11-03T13:02:11.696372+00:00",
     "https://www.phoronix.com/news/Linux-Kernel-Apple-AirDrop-Code": "2026-11-06T13:18:31.957095+00:00",
-    "https://www.phoronix.com/news/Linux-May-Retire-PPP-BSD-Comp": "2026-10-28T11:41:08.830280+00:00",
     "https://www.phoronix.com/news/Linux-Mint-October-2026": "2026-11-01T00:26:52.886150+00:00",
     "https://www.phoronix.com/news/Linux-Patches-Intel-macsmc": "2026-10-30T11:42:20.435734+00:00",
     "https://www.phoronix.com/news/Linux-Samsung-Galaxy-XR": "2026-11-09T14:23:45.834216+00:00",
@@ -3832,7 +3779,6 @@
     "https://www.phoronix.com/news/Ubuntu-Going-With-Firmware-HWE": "2026-11-06T13:18:31.957095+00:00",
     "https://www.phoronix.com/news/Unsloth-Desktop-Ryzen-AI-NPU": "2026-11-19T14:54:20.761013+00:00",
     "https://www.phoronix.com/news/VKD3D-2.2-Released": "2026-11-23T16:30:34.139091+00:00",
-    "https://www.phoronix.com/news/VKD3D-Proton-3.1": "2026-10-28T11:41:08.830280+00:00",
     "https://www.phoronix.com/news/Vulkan-1.4.367": "2026-10-30T11:42:20.435734+00:00",
     "https://www.phoronix.com/news/Vulkan-1.4.368": "2026-11-07T11:56:46.016476+00:00",
     "https://www.phoronix.com/news/Vulkan-AMDX-Ray-Tracing-Struct": "2026-11-20T14:27:51.458269+00:00",
@@ -3843,8 +3789,10 @@
     "https://www.phoronix.com/news/XRAID-XFS-RAID": "2026-11-13T13:28:43.358051+00:00",
     "https://www.phoronix.com/news/Xfce-4.22-Roadmap": "2026-11-17T14:58:30.205439+00:00",
     "https://www.phoronix.com/news/Zlib-1.4-Released": "2026-11-06T01:57:39.156695+00:00",
+    "https://www.phoronix.com/news/Zstandard-Zstd-1.6": "2026-11-24T05:32:34.180065+00:00",
     "https://www.phoronix.com/news/openSUSE-Tumbleweed-Goes-Agama": "2026-11-10T13:47:36.749512+00:00",
     "https://www.phoronix.com/news/systemd-Loves-Rust": "2026-11-04T13:19:08.134166+00:00",
+    "https://www.phoronix.com/review/amd-epyc-9006-7601": "2026-11-24T05:32:34.180065+00:00",
     "https://www.phoronix.com/review/amd-epyc-9686f": "2026-11-11T01:31:16.709923+00:00",
     "https://www.phoronix.com/review/amd-epyc-9996": "2026-11-11T01:31:16.709923+00:00",
     "https://www.phoronix.com/review/amd-venice-nvidia-vera": "2026-11-12T02:32:46.806375+00:00",
@@ -3856,12 +3804,8 @@
     "https://www.phoronix.com/review/nvidia-vera-1p-2p": "2026-10-30T01:24:44.649656+00:00",
     "https://www.phoronix.com/review/system76-thelio-prime": "2026-11-21T02:51:34.761374+00:00",
     "https://www.reddit.com/r/embedded/t3_1xhc58j": "2026-10-29T04:16:31.165926+00:00",
-    "https://www.reddit.com/r/embedded/t3_1xhf3xe": "2026-10-28T11:41:08.830280+00:00",
-    "https://www.reddit.com/r/embedded/t3_1xhfoxz": "2026-10-28T11:41:08.830280+00:00",
     "https://www.reddit.com/r/embedded/t3_1xhgbdf": "2026-10-29T04:16:31.165926+00:00",
     "https://www.reddit.com/r/embedded/t3_1xhk5gj": "2026-10-29T04:16:31.165926+00:00",
-    "https://www.reddit.com/r/embedded/t3_1xhlics": "2026-10-28T11:41:08.830280+00:00",
-    "https://www.reddit.com/r/embedded/t3_1xhllv9": "2026-10-28T11:41:08.830280+00:00",
     "https://www.reddit.com/r/embedded/t3_1xhm7ys": "2026-10-29T01:15:38.013696+00:00",
     "https://www.reddit.com/r/embedded/t3_1xhvbpa": "2026-10-29T01:15:38.013696+00:00",
     "https://www.reddit.com/r/embedded/t3_1xhx12l": "2026-10-29T01:15:38.013696+00:00",
@@ -4057,7 +4001,6 @@
     "oai:arXiv.org:2505.07681v5": "2026-11-05T13:31:37.120286+00:00",
     "oai:arXiv.org:2506.23901v3": "2026-11-05T01:49:34.737244+00:00",
     "oai:arXiv.org:2510.13818v3": "2026-11-18T03:11:30.700802+00:00",
-    "oai:arXiv.org:2510.26008v3": "2026-10-28T11:41:08.830280+00:00",
     "oai:arXiv.org:2512.24637v3": "2026-11-10T03:50:12.495881+00:00",
     "oai:arXiv.org:2601.19092v3": "2026-11-02T13:55:07.841963+00:00",
     "oai:arXiv.org:2601.19426v2": "2026-11-11T01:31:16.709923+00:00",
@@ -4110,49 +4053,19 @@
     "oai:arXiv.org:2610.32558v2": "2026-11-02T13:55:07.841963+00:00",
     "oai:arXiv.org:2610.33509v2": "2026-11-03T03:07:33.506203+00:00",
     "oai:arXiv.org:2610.33748v2": "2026-11-02T13:55:07.841963+00:00",
-    "oai:arXiv.org:2610.35870v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.35871v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.35872v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.35873v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.35874v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.35926v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.35935v1": "2026-10-28T11:41:08.830280+00:00",
     "oai:arXiv.org:2610.36001v1": "2026-10-29T01:15:38.013696+00:00",
     "oai:arXiv.org:2610.36105v1": "2026-10-29T01:15:38.013696+00:00",
-    "oai:arXiv.org:2610.36122v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.36142v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.36159v1": "2026-10-28T11:41:08.830280+00:00",
     "oai:arXiv.org:2610.36288v1": "2026-10-29T01:15:38.013696+00:00",
     "oai:arXiv.org:2610.36329v1": "2026-10-29T01:15:38.013696+00:00",
-    "oai:arXiv.org:2610.36339v1": "2026-10-28T11:41:08.830280+00:00",
     "oai:arXiv.org:2610.36341v1": "2026-10-29T01:15:38.013696+00:00",
-    "oai:arXiv.org:2610.36370v1": "2026-10-28T11:41:08.830280+00:00",
     "oai:arXiv.org:2610.36406v1": "2026-10-29T01:15:38.013696+00:00",
-    "oai:arXiv.org:2610.36434v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.36436v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.36481v1": "2026-10-28T11:41:08.830280+00:00",
     "oai:arXiv.org:2610.36499v1": "2026-10-29T01:15:38.013696+00:00",
-    "oai:arXiv.org:2610.36564v1": "2026-10-28T11:41:08.830280+00:00",
     "oai:arXiv.org:2610.36612v1": "2026-10-29T01:15:38.013696+00:00",
     "oai:arXiv.org:2610.36622v1": "2026-10-29T01:15:38.013696+00:00",
-    "oai:arXiv.org:2610.36636v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.36637v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.36645v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.36669v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.36798v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.36804v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.36822v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.37006v1": "2026-10-28T11:41:08.830280+00:00",
     "oai:arXiv.org:2610.37008v1": "2026-10-29T01:15:38.013696+00:00",
-    "oai:arXiv.org:2610.37033v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.37104v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.37200v1": "2026-10-28T11:41:08.830280+00:00",
     "oai:arXiv.org:2610.37230v1": "2026-10-29T01:15:38.013696+00:00",
-    "oai:arXiv.org:2610.37244v1": "2026-10-28T11:41:08.830280+00:00",
-    "oai:arXiv.org:2610.37307v1": "2026-10-28T11:41:08.830280+00:00",
     "oai:arXiv.org:2610.37319v1": "2026-10-29T01:15:38.013696+00:00",
     "oai:arXiv.org:2610.37432v1": "2026-10-29T01:15:38.013696+00:00",
-    "oai:arXiv.org:2610.37521v1": "2026-10-28T11:41:08.830280+00:00",
     "oai:arXiv.org:2610.37601v1": "2026-10-29T01:15:38.013696+00:00",
     "oai:arXiv.org:2610.37673v1": "2026-10-30T11:42:20.435734+00:00",
     "oai:arXiv.org:2610.37710v1": "2026-10-30T11:42:20.435734+00:00",
